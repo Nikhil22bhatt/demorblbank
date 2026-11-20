@@ -1,0 +1,779 @@
+{
+  "url": "http://localhost:8791/about-us-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 4136,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2636,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".au-years__btn--next",
+      "frames": [
+        {
+          "t": 11806.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12013.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12222.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12427.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".au-award__card",
+      "changed": [
+        "img..transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "matrix(1.03, 0, 0, 1.03, 0, 0)",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".au-impact__card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.3s 0.3s, transform 0.3s 0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.au-impact__icon",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.3s 0.3s, transform 0.3s 0.3s"
+        },
+        "subs": [
+          {
+            "el": "img.au-impact__icon",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".au-mission__card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(154, 210, 210)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(154, 210, 210)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".au-vision__card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 226, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgb(255, 226, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(33, 33, 33)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body.page-about-us.scrolled.scrolldown > button.go-top",
+        "y": 800,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 2000,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 2000,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 2800,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 2800,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 4000,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 4000,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 4400,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 4400,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 5200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 5200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-about-us.scrolled.scrollup > button.go-top",
+        "y": 300,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect > button.go-top",
+        "y": 1546,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.au-tabs-wrap.au-tabs-wrap--white > div.au-awards__pane > form.au-years > div.au-years__viewport > ul.au-years__track",
+        "y": 1546,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.au-awards__pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4.col-xl-3 > div.au-award__card > img",
+        "y": 1847,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.au-awards__pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4.col-xl-3 > div.au-award__card > img",
+        "y": 1847,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-about-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-about-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-about-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-about-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "section.au-impact > div.container > div.row > div.col-md-3 > div.au-impact__card.aos-animate",
+        "y": 800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 2800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 2800
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "body.page-about-us.scrolled.scrolldown > main.main-content > section.au-values > div.container > div.row.aos-animate",
+        "y": 2800
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.scrolled.fixed-tab-body",
+        "y": 4136
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.scrolled.fixed-tab-body",
+        "y": 4136
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-about-us.scrollup.fixed-tab-body",
+        "y": 1546
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-about-us.scrollup.fixed-tab-body",
+        "y": 1546
+      },
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 1546
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 1546
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 1187
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 1187
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 3497
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 3073
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-about-us.fixed-tab-body.body-active-effect",
+        "y": 3073
+      }
+    ]
+  }
+}

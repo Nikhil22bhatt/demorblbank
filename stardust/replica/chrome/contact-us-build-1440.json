@@ -1,0 +1,2854 @@
+{
+ "tool": "chrome-explore",
+ "url": "http://localhost:8791/contact-us-proposed.html",
+ "at": "2026-11-19T08:23:48.824Z",
+ "shots": "stardust/replica/chrome/shots-build-1440",
+ "widths": {
+  "1440": {
+   "root": "body>nav:nth-of-type(1)",
+   "controls": [
+    {
+     "name": "Logo",
+     "key": "logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>nav:nth-of-type(1)>div>div:nth-of-type(1)>a",
+     "href": "http://localhost:8791/",
+     "expanded": null,
+     "rect": [
+      162,
+      54,
+      162,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      390,
+      49,
+      125,
+      95
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Know More",
+          "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+         },
+         {
+          "text": "Apply Now",
+          "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari"
+         },
+         {
+          "text": "Open Now",
+          "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account"
+         },
+         {
+          "text": "Personal Banking",
+          "href": "http://localhost:8791/personal-banking"
+         },
+         {
+          "text": "Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts"
+         },
+         {
+          "text": "Savings Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/savings-accounts"
+         },
+         {
+          "text": "Salary Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/salary-account"
+         },
+         {
+          "text": "Current Accounts",
+          "href": "http://localhost:8791/business-banking/business/partnering-your-growth/current-accounts"
+         },
+         {
+          "text": "Special Institutions Account",
+          "href": "http://localhost:8791/personal-banking/accounts/special-institutions-account"
+         },
+         {
+          "text": "Safe Deposit Lockers",
+          "href": "http://localhost:8791/personal-banking/accounts/safe-deposit-lockers"
+         },
+         {
+          "text": "Term Deposits",
+          "href": "http://localhost:8791/personal-banking/term-deposits"
+         },
+         {
+          "text": "Cards",
+          "href": "http://localhost:8791/personal-banking/cards"
+         },
+         {
+          "text": "Loans",
+          "href": "http://localhost:8791/personal-banking/loans"
+         },
+         {
+          "text": "Insurance",
+          "href": "http://localhost:8791/personal-banking/insurance"
+         },
+         {
+          "text": "Wealth Management",
+          "href": "http://localhost:8791/personal-banking/wealth-management"
+         },
+         {
+          "text": "Demat",
+          "href": "http://localhost:8791/personal-banking/demat"
+         },
+         {
+          "text": "Convenience Banking",
+          "href": "http://localhost:8791/personal-banking/convenience-banking"
+         },
+         {
+          "text": "Ways to Banking",
+          "href": "http://localhost:8791/personal-banking/ways-to-bank"
+         },
+         {
+          "text": "Forex Services",
+          "href": "http://localhost:8791/personal-banking/forex-services"
+         },
+         {
+          "text": "NRI Banking",
+          "href": "http://localhost:8791/nri-banking"
+         },
+         {
+          "text": "Preferred Banking",
+          "href": "http://localhost:8791/preferred-banking"
+         },
+         {
+          "text": "Business Banking",
+          "href": "http://localhost:8791/business-banking"
+         },
+         {
+          "text": "Wholesale Banking",
+          "href": "http://localhost:8791/wholesale-banking"
+         },
+         {
+          "text": "Corporate Banking",
+          "href": "http://localhost:8791/corporate-banking"
+         },
+         {
+          "text": "India Startup Club",
+          "href": "http://localhost:8791/india-startup-club"
+         },
+         {
+          "text": "Gift City",
+          "href": "http://localhost:8791/gift-city"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         187,
+         144,
+         1110,
+         451
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Products-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Know More",
+          "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+         },
+         {
+          "text": "Apply Now",
+          "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari"
+         },
+         {
+          "text": "Open Now",
+          "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account"
+         },
+         {
+          "text": "Personal Banking",
+          "href": "http://localhost:8791/personal-banking"
+         },
+         {
+          "text": "Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts"
+         },
+         {
+          "text": "Savings Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/savings-accounts"
+         },
+         {
+          "text": "Salary Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/salary-account"
+         },
+         {
+          "text": "Current Accounts",
+          "href": "http://localhost:8791/business-banking/business/partnering-your-growth/current-accounts"
+         },
+         {
+          "text": "Special Institutions Account",
+          "href": "http://localhost:8791/personal-banking/accounts/special-institutions-account"
+         },
+         {
+          "text": "Safe Deposit Lockers",
+          "href": "http://localhost:8791/personal-banking/accounts/safe-deposit-lockers"
+         },
+         {
+          "text": "Term Deposits",
+          "href": "http://localhost:8791/personal-banking/term-deposits"
+         },
+         {
+          "text": "Cards",
+          "href": "http://localhost:8791/personal-banking/cards"
+         },
+         {
+          "text": "Loans",
+          "href": "http://localhost:8791/personal-banking/loans"
+         },
+         {
+          "text": "Insurance",
+          "href": "http://localhost:8791/personal-banking/insurance"
+         },
+         {
+          "text": "Wealth Management",
+          "href": "http://localhost:8791/personal-banking/wealth-management"
+         },
+         {
+          "text": "Demat",
+          "href": "http://localhost:8791/personal-banking/demat"
+         },
+         {
+          "text": "Convenience Banking",
+          "href": "http://localhost:8791/personal-banking/convenience-banking"
+         },
+         {
+          "text": "Ways to Banking",
+          "href": "http://localhost:8791/personal-banking/ways-to-bank"
+         },
+         {
+          "text": "Forex Services",
+          "href": "http://localhost:8791/personal-banking/forex-services"
+         },
+         {
+          "text": "NRI Banking",
+          "href": "http://localhost:8791/nri-banking"
+         },
+         {
+          "text": "Preferred Banking",
+          "href": "http://localhost:8791/preferred-banking"
+         },
+         {
+          "text": "Business Banking",
+          "href": "http://localhost:8791/business-banking"
+         },
+         {
+          "text": "Wholesale Banking",
+          "href": "http://localhost:8791/wholesale-banking"
+         },
+         {
+          "text": "Corporate Banking",
+          "href": "http://localhost:8791/corporate-banking"
+         },
+         {
+          "text": "India Startup Club",
+          "href": "http://localhost:8791/india-startup-club"
+         },
+         {
+          "text": "Gift City",
+          "href": "http://localhost:8791/gift-city"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         187,
+         144,
+         1110,
+         451
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Know More",
+          "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+         },
+         {
+          "text": "Apply Now",
+          "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari"
+         },
+         {
+          "text": "Open Now",
+          "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account"
+         },
+         {
+          "text": "Personal Banking",
+          "href": "http://localhost:8791/personal-banking"
+         },
+         {
+          "text": "Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts"
+         },
+         {
+          "text": "Savings Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/savings-accounts"
+         },
+         {
+          "text": "Salary Accounts",
+          "href": "http://localhost:8791/personal-banking/accounts/salary-account"
+         },
+         {
+          "text": "Current Accounts",
+          "href": "http://localhost:8791/business-banking/business/partnering-your-growth/current-accounts"
+         },
+         {
+          "text": "Special Institutions Account",
+          "href": "http://localhost:8791/personal-banking/accounts/special-institutions-account"
+         },
+         {
+          "text": "Safe Deposit Lockers",
+          "href": "http://localhost:8791/personal-banking/accounts/safe-deposit-lockers"
+         },
+         {
+          "text": "Term Deposits",
+          "href": "http://localhost:8791/personal-banking/term-deposits"
+         },
+         {
+          "text": "Cards",
+          "href": "http://localhost:8791/personal-banking/cards"
+         },
+         {
+          "text": "Loans",
+          "href": "http://localhost:8791/personal-banking/loans"
+         },
+         {
+          "text": "Insurance",
+          "href": "http://localhost:8791/personal-banking/insurance"
+         },
+         {
+          "text": "Wealth Management",
+          "href": "http://localhost:8791/personal-banking/wealth-management"
+         },
+         {
+          "text": "Demat",
+          "href": "http://localhost:8791/personal-banking/demat"
+         },
+         {
+          "text": "Convenience Banking",
+          "href": "http://localhost:8791/personal-banking/convenience-banking"
+         },
+         {
+          "text": "Ways to Banking",
+          "href": "http://localhost:8791/personal-banking/ways-to-bank"
+         },
+         {
+          "text": "Forex Services",
+          "href": "http://localhost:8791/personal-banking/forex-services"
+         },
+         {
+          "text": "NRI Banking",
+          "href": "http://localhost:8791/nri-banking"
+         },
+         {
+          "text": "Preferred Banking",
+          "href": "http://localhost:8791/preferred-banking"
+         },
+         {
+          "text": "Business Banking",
+          "href": "http://localhost:8791/business-banking"
+         },
+         {
+          "text": "Wholesale Banking",
+          "href": "http://localhost:8791/wholesale-banking"
+         },
+         {
+          "text": "Corporate Banking",
+          "href": "http://localhost:8791/corporate-banking"
+         },
+         {
+          "text": "India Startup Club",
+          "href": "http://localhost:8791/india-startup-club"
+         },
+         {
+          "text": "Gift City",
+          "href": "http://localhost:8791/gift-city"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         187,
+         144,
+         1110,
+         451
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-Products-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Know More",
+       "key": "know more",
+       "role": "link",
+       "kind": "link",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>div>div:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(2)>a",
+       "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+       "expanded": null,
+       "rect": [
+        993,
+        251,
+        89,
+        25
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 29,
+         "panel": {
+          "links": [
+           {
+            "text": "Using Net Banking",
+            "href": "http://localhost:8791/?onlineCardPayment=netBanking"
+           },
+           {
+            "text": "Using Debit Card",
+            "href": "http://localhost:8791/?onlineCardPayment=debitCard"
+           },
+           {
+            "text": "Using UPI",
+            "href": "http://localhost:8791/?onlineCardPayment=upiPayment"
+           },
+           {
+            "text": "Using RBL MyBank Mobile App",
+            "href": "http://localhost:8791/?onlineCardPayment=mobApp"
+           },
+           {
+            "text": "Via NEFT",
+            "href": "http://localhost:8791/?onlineCardPayment=neft"
+           },
+           {
+            "text": "Other Ways to Payment",
+            "href": "http://localhost:8791/?onlineCardPayment=otherWay"
+           },
+           {
+            "text": "Online Tax Payment",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/online-tax-payments"
+           },
+           {
+            "text": "Bill Payment",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/bill-payment"
+           },
+           {
+            "text": "Recurring Merchant Payments",
+            "href": "http://localhost:8791/static-pages/manage-recurring-merchant-payments"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           515,
+           49,
+           583,
+           360
+          ]
+         },
+         "expanded": null,
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "span.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-004-Know-More-hover.png"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Apply Now",
+       "key": "apply now",
+       "role": "link",
+       "kind": "link",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>p:nth-of-type(2)>a",
+       "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari",
+       "expanded": null,
+       "rect": [
+        993,
+        371,
+        86,
+        25
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Open Now",
+       "key": "open now",
+       "role": "link",
+       "kind": "link",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>div>div:nth-of-type(3)>div:nth-of-type(1)>p:nth-of-type(2)>a",
+       "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+       "expanded": null,
+       "rect": [
+        993,
+        491,
+        83,
+        25
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Personal Banking",
+       "key": "personal banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>a",
+       "expanded": "true",
+       "rect": [
+        212,
+        169,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": false,
+         "hides": 29
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking"
+        }
+       }
+      },
+      {
+       "name": "Accounts",
+       "key": "accounts",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": "true",
+       "rect": [
+        429,
+        169,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/accounts"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/accounts"
+        }
+       }
+      },
+      {
+       "name": "Term Deposits",
+       "key": "term deposits",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        208,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Raksha Kavach Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/raksha-kavach-fixed-deposits"
+           },
+           {
+            "text": "Digital Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/digital-fixed-deposit"
+           },
+           {
+            "text": "ACE Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/ace-fixed-deposit"
+           },
+           {
+            "text": "Smart Recurring Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/smart-recurring-deposit"
+           },
+           {
+            "text": "Money Max Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/money-max-deposits"
+           },
+           {
+            "text": "Flexi Sure Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/flexi-sure-fixed-deposits"
+           },
+           {
+            "text": "Regular Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/regular-fixed-deposits"
+           },
+           {
+            "text": "Tax Saving Fixed Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/tax-savings-fixed-deposits"
+           },
+           {
+            "text": "Senior Citizen Fixed Deposits (Wealth Secure)",
+            "href": "http://localhost:8791/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits"
+           },
+           {
+            "text": "Super Senior Citizen Fixed Deposits (Akshay Nidhi)",
+            "href": "http://localhost:8791/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits"
+           },
+           {
+            "text": "Recurring Deposits",
+            "href": "http://localhost:8791/personal-banking/term-deposits/recurring-deposits"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           468
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-005-Term-Deposits-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/term-deposits"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/term-deposits"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Cards",
+       "key": "cards",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        247,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Credit Cards",
+            "href": "http://localhost:8791/personal-banking/cards/credit-cards"
+           },
+           {
+            "text": "Debit Cards",
+            "href": "http://localhost:8791/personal-banking/cards/debit-cards"
+           },
+           {
+            "text": "Commercial Cards",
+            "href": "http://localhost:8791/personal-banking/cards/commercial-cards"
+           },
+           {
+            "text": "Prepaid Cards",
+            "href": "http://localhost:8791/personal-banking/cards/prepaid-cards"
+           },
+           {
+            "text": "Forex Cards",
+            "href": "http://localhost:8791/personal-banking/cards/forex-cards/voyedge-forex-card"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          }
+         ],
+         "shot": "1440-006-Cards-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/cards"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/cards"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Loans",
+       "key": "loans",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        286,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Loan Against Securities",
+            "href": "http://localhost:8791/personal-banking/loans/loan-against-securities"
+           },
+           {
+            "text": "Business Loan",
+            "href": "http://localhost:8791/personal-banking/loans/business-loan"
+           },
+           {
+            "text": "Education Loan",
+            "href": "http://localhost:8791/personal-banking/loans/education-loan"
+           },
+           {
+            "text": "Loan Against Gold Ornaments",
+            "href": "http://localhost:8791/personal-banking/loans/loan-against-gold-ornaments"
+           },
+           {
+            "text": "Small & Micro Loan Against Property",
+            "href": "http://localhost:8791/personal-banking/loans/small-and-micro-loan-against-property"
+           },
+           {
+            "text": "Car Loan",
+            "href": "http://localhost:8791/personal-banking/loans/car-loan"
+           },
+           {
+            "text": "Two-Wheeler Loan",
+            "href": "http://localhost:8791/personal-banking/loans/two-wheeler-loan"
+           },
+           {
+            "text": "Loan Against Property",
+            "href": "http://localhost:8791/personal-banking/loans/loan-against-property"
+           },
+           {
+            "text": "EasyGain Overdraft",
+            "href": "http://localhost:8791/personal-banking/loans/easygain-overdraft"
+           },
+           {
+            "text": "Rural Vehicle Finance",
+            "href": "http://localhost:8791/personal-banking/loans/rural-vehicle-finance"
+           },
+           {
+            "text": "Housing Loan",
+            "href": "http://localhost:8791/personal-banking/loans/housing-loan"
+           },
+           {
+            "text": "Personal Loan",
+            "href": "http://localhost:8791/personal-banking/loans/personal-loan"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           487
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          }
+         ],
+         "shot": "1440-007-Loans-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/loans"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/loans"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Insurance",
+       "key": "insurance",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(5)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        325,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Life Insurance",
+            "href": "http://localhost:8791/personal-banking/insurance/life-insurance"
+           },
+           {
+            "text": "General Insurance",
+            "href": "http://localhost:8791/personal-banking/insurance/general-insurance"
+           },
+           {
+            "text": "Health Insurance",
+            "href": "http://localhost:8791/personal-banking/insurance/health-insurance"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-008-Insurance-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/insurance"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/insurance"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Wealth Management",
+       "key": "wealth management",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(6)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        364,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Mutual Funds",
+            "href": "http://localhost:8791/personal-banking/wealth-management/mutual-fund"
+           },
+           {
+            "text": "Alternate Investment Fund",
+            "href": "http://localhost:8791/personal-banking/wealth-management/alternate-investment-products"
+           },
+           {
+            "text": "Alternate Investment Via Gift City",
+            "href": "http://localhost:8791/gift-city/alternate-investment-funds"
+           },
+           {
+            "text": "e-ASBA",
+            "href": "http://localhost:8791/personal-banking/wealth-management/e-asba"
+           },
+           {
+            "text": "3 in 1 Account",
+            "href": "http://localhost:8791/personal-banking/wealth-management/3-in-1-account"
+           },
+           {
+            "text": "Demat Services",
+            "href": "http://localhost:8791/personal-banking/demat"
+           },
+           {
+            "text": "Loan Against Securities",
+            "href": "http://localhost:8791/personal-banking/loans/loan-against-securities"
+           },
+           {
+            "text": "National Pension System",
+            "href": "http://localhost:8791/personal-banking/wealth-management/national-pension-system"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-009-Wealth-Management-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/wealth-management"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/wealth-management"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Convenience Banking",
+       "key": "convenience banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(8)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        442,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Tax Payment",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/online-tax-payments"
+           },
+           {
+            "text": "Bill Payment",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/bill-payment"
+           },
+           {
+            "text": "Self Service Kiosk",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/self-service-kiosk"
+           },
+           {
+            "text": "Re-KYC",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/re-kyc"
+           },
+           {
+            "text": "Bharat QR",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/bharat-qr"
+           },
+           {
+            "text": "Bhim UPI @RBL Bank",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/bhim-upi-rbl-bank"
+           },
+           {
+            "text": "Verified by Visa / 3d secure",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/verified-by-visa-secure"
+           },
+           {
+            "text": "Payment Gateway",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/payment-gateway"
+           },
+           {
+            "text": "Missed Call Facility",
+            "href": "http://localhost:8791/personal-banking/convenience-banking/missed-call-facility"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-010-Convenience-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/convenience-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/convenience-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Ways to Banking",
+       "key": "ways to banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(9)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        481,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Online Banking",
+            "href": "http://localhost:8791/personal-banking/ways-to-bank/internet-banking"
+           },
+           {
+            "text": "Mobile Banking",
+            "href": "http://localhost:8791/personal-banking/ways-to-bank/mobile-banking"
+           },
+           {
+            "text": "Chat with RBL Cares",
+            "href": "http://localhost:8791/personal-banking/ways-to-bank/rbl-cares"
+           },
+           {
+            "text": "Bank in Person",
+            "href": "http://localhost:8791/personal-banking/ways-to-bank/bank-by-person"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-011-Ways-to-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/ways-to-bank"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/ways-to-bank"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Forex Services",
+       "key": "forex services",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(1)>ul>li:nth-of-type(10)>a",
+       "expanded": "false",
+       "rect": [
+        429,
+        520,
+        248,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 5,
+         "panel": {
+          "links": [
+           {
+            "text": "Outward Remittance",
+            "href": "http://localhost:8791/personal-banking/forex-services/outward-remittance"
+           },
+           {
+            "text": "VoyEdge Forex Card",
+            "href": "http://localhost:8791/personal-banking/cards/forex-cards/voyedge-forex-card"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           694,
+           169,
+           278,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "font-weight",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          }
+         ],
+         "shot": "1440-012-Forex-Services-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/forex-services"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/personal-banking/forex-services"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "NRI Banking",
+       "key": "nri banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        212,
+        207,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "NRI Savings Account",
+            "href": "http://localhost:8791/nri-banking/nri-savings-account"
+           },
+           {
+            "text": "NRI Deposits",
+            "href": "http://localhost:8791/nri-banking/deposits"
+           },
+           {
+            "text": "NRI Money Transfer",
+            "href": "http://localhost:8791/nri-banking/money-transfer"
+           },
+           {
+            "text": "Returning NRIs",
+            "href": "http://localhost:8791/nri-banking/deposits/rfc-deposits"
+           },
+           {
+            "text": "GIFT City for NRIs",
+            "href": "http://localhost:8791/gift-city/nri-pios-and-foreign-nationals"
+           },
+           {
+            "text": "Home Loan for NRIs",
+            "href": "http://localhost:8791/nri-banking/home-loan-for-nri"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           424,
+           169,
+           270,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-013-NRI-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/nri-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/nri-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Preferred Banking",
+       "key": "preferred banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(3)>a",
+       "expanded": "false",
+       "rect": [
+        212,
+        245,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Insignia Banking",
+            "href": "http://localhost:8791/preferred-banking/insignia-banking"
+           },
+           {
+            "text": "Signature Banking",
+            "href": "http://localhost:8791/preferred-banking/signature-banking"
+           },
+           {
+            "text": "Aspire Banking",
+            "href": "http://localhost:8791/preferred-banking/aspire-banking"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           424,
+           169,
+           270,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          }
+         ],
+         "shot": "1440-014-Preferred-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/preferred-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/preferred-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Business Banking",
+       "key": "business banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        212,
+        283,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Business Banking Group",
+            "href": "http://localhost:8791/business-banking/business-banking-group"
+           },
+           {
+            "text": "Agri Banking",
+            "href": "http://localhost:8791/business-banking/agri-banking"
+           },
+           {
+            "text": "Government Sponsored Scheme",
+            "href": "http://localhost:8791/business-banking/government-sponsored-scheme"
+           },
+           {
+            "text": "Business",
+            "href": "http://localhost:8791/business-banking/business"
+           },
+           {
+            "text": "Credit Guarantee Schemes",
+            "href": "http://localhost:8791/business-banking/credit-guarantee-schemes"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           424,
+           169,
+           270,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          }
+         ],
+         "shot": "1440-015-Business-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/business-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/business-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Wholesale Banking",
+       "key": "wholesale banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(5)>a",
+       "expanded": "false",
+       "rect": [
+        212,
+        321,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Clients",
+            "href": "http://localhost:8791/wholesale-banking/clients"
+           },
+           {
+            "text": "Products and Services",
+            "href": "http://localhost:8791/wholesale-banking/products-and-services"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           424,
+           169,
+           270,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-016-Wholesale-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/wholesale-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/wholesale-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Corporate Banking",
+       "key": "corporate banking",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(1)>div>ul>li:nth-of-type(6)>a",
+       "expanded": "false",
+       "rect": [
+        212,
+        359,
+        212,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 15,
+         "panel": {
+          "links": [
+           {
+            "text": "Corporate Internet Banking",
+            "href": "http://localhost:8791/corporate-banking/corporate-internet-banking"
+           },
+           {
+            "text": "RBL MyBizBank App",
+            "href": "http://localhost:8791/corporate-banking/rbl-mybizbank-app"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           424,
+           169,
+           270,
+           395
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-017-Corporate-Banking-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/corporate-banking"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/corporate-banking"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      }
+     ]
+    },
+    {
+     "name": "Payments",
+     "key": "payments",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      515,
+      49,
+      132,
+      95
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Using Net Banking",
+          "href": "http://localhost:8791/?onlineCardPayment=netBanking"
+         },
+         {
+          "text": "Using Debit Card",
+          "href": "http://localhost:8791/?onlineCardPayment=debitCard"
+         },
+         {
+          "text": "Using UPI",
+          "href": "http://localhost:8791/?onlineCardPayment=upiPayment"
+         },
+         {
+          "text": "Using RBL MyBank Mobile App",
+          "href": "http://localhost:8791/?onlineCardPayment=mobApp"
+         },
+         {
+          "text": "Via NEFT",
+          "href": "http://localhost:8791/?onlineCardPayment=neft"
+         },
+         {
+          "text": "Other Ways to Payment",
+          "href": "http://localhost:8791/?onlineCardPayment=otherWay"
+         },
+         {
+          "text": "Online Tax Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/online-tax-payments"
+         },
+         {
+          "text": "Bill Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/bill-payment"
+         },
+         {
+          "text": "Recurring Merchant Payments",
+          "href": "http://localhost:8791/static-pages/manage-recurring-merchant-payments"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         507,
+         144,
+         625,
+         265
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-018-Payments-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Using Net Banking",
+          "href": "http://localhost:8791/?onlineCardPayment=netBanking"
+         },
+         {
+          "text": "Using Debit Card",
+          "href": "http://localhost:8791/?onlineCardPayment=debitCard"
+         },
+         {
+          "text": "Using UPI",
+          "href": "http://localhost:8791/?onlineCardPayment=upiPayment"
+         },
+         {
+          "text": "Using RBL MyBank Mobile App",
+          "href": "http://localhost:8791/?onlineCardPayment=mobApp"
+         },
+         {
+          "text": "Via NEFT",
+          "href": "http://localhost:8791/?onlineCardPayment=neft"
+         },
+         {
+          "text": "Other Ways to Payment",
+          "href": "http://localhost:8791/?onlineCardPayment=otherWay"
+         },
+         {
+          "text": "Online Tax Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/online-tax-payments"
+         },
+         {
+          "text": "Bill Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/bill-payment"
+         },
+         {
+          "text": "Recurring Merchant Payments",
+          "href": "http://localhost:8791/static-pages/manage-recurring-merchant-payments"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         507,
+         144,
+         625,
+         265
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-019-Payments-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Using Net Banking",
+          "href": "http://localhost:8791/?onlineCardPayment=netBanking"
+         },
+         {
+          "text": "Using Debit Card",
+          "href": "http://localhost:8791/?onlineCardPayment=debitCard"
+         },
+         {
+          "text": "Using UPI",
+          "href": "http://localhost:8791/?onlineCardPayment=upiPayment"
+         },
+         {
+          "text": "Using RBL MyBank Mobile App",
+          "href": "http://localhost:8791/?onlineCardPayment=mobApp"
+         },
+         {
+          "text": "Via NEFT",
+          "href": "http://localhost:8791/?onlineCardPayment=neft"
+         },
+         {
+          "text": "Other Ways to Payment",
+          "href": "http://localhost:8791/?onlineCardPayment=otherWay"
+         },
+         {
+          "text": "Online Tax Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/online-tax-payments"
+         },
+         {
+          "text": "Bill Payment",
+          "href": "http://localhost:8791/personal-banking/convenience-banking/bill-payment"
+         },
+         {
+          "text": "Recurring Merchant Payments",
+          "href": "http://localhost:8791/static-pages/manage-recurring-merchant-payments"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         507,
+         144,
+         625,
+         265
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-020-Payments-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Offers",
+     "key": "offers",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      647,
+      49,
+      105,
+      95
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Credit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155357"
+         },
+         {
+          "text": "Festive Offers",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=315494&type=155357"
+         },
+         {
+          "text": "Flights, Hotels & Travel",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155362"
+         },
+         {
+          "text": "Electronics",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245009"
+         },
+         {
+          "text": "EMI Offers",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245034"
+         },
+         {
+          "text": "Exclusive Facilities",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=155406&type=155357"
+         },
+         {
+          "text": "Others",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407"
+         },
+         {
+          "text": "Debit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155356"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         639,
+         144,
+         625,
+         255
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-021-Offers-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Credit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155357"
+         },
+         {
+          "text": "Festive Offers",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=315494&type=155357"
+         },
+         {
+          "text": "Flights, Hotels & Travel",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155362"
+         },
+         {
+          "text": "Electronics",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245009"
+         },
+         {
+          "text": "EMI Offers",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245034"
+         },
+         {
+          "text": "Exclusive Facilities",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=155406&type=155357"
+         },
+         {
+          "text": "Others",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407"
+         },
+         {
+          "text": "Debit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155356"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         639,
+         144,
+         625,
+         255
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-022-Offers-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Credit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155357"
+         },
+         {
+          "text": "Festive Offers",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=315494&type=155357"
+         },
+         {
+          "text": "Flights, Hotels & Travel",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155362"
+         },
+         {
+          "text": "Electronics",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245009"
+         },
+         {
+          "text": "EMI Offers",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=245034"
+         },
+         {
+          "text": "Exclusive Facilities",
+          "href": "http://localhost:8791/offers?cat%5B0%5D=155406&type=155357"
+         },
+         {
+          "text": "Others",
+          "href": "http://localhost:8791/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407"
+         },
+         {
+          "text": "Debit Card Offers",
+          "href": "http://localhost:8791/offers-and-promotions?type=155356"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         639,
+         144,
+         625,
+         255
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-023-Offers-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Credit Card Offers",
+       "key": "credit card offers",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(3)>div>ul>li:nth-of-type(1)>a",
+       "expanded": "true",
+       "rect": [
+        651,
+        156,
+        338,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "Contact Us",
+            "href": "http://localhost:8791/contact-us"
+           },
+           {
+            "text": "Raise a Query / Request / Complaint",
+            "href": "https://outsys1.rbl.bank.in/WebForm/"
+           },
+           {
+            "text": "Grievance Mechanism – Flowchart",
+            "href": "http://localhost:8791/grievance-mechanism-flowchart"
+           },
+           {
+            "text": "Quick Services",
+            "href": "http://localhost:8791/quick-services"
+           },
+           {
+            "text": "MyUPI",
+            "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh"
+           },
+           {
+            "text": "Locate Us",
+            "href": "http://localhost:8791/locate-branch"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           752,
+           49,
+           366,
+           415
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-024-Credit-Card-Offers-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/offers-and-promotions?type=155357"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/offers-and-promotions?type=155357"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      },
+      {
+       "name": "Debit Card Offers",
+       "key": "debit card offers",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(3)>div>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        651,
+        194,
+        338,
+        38
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Festive Offers",
+            "href": "http://localhost:8791/offers?cat%5B0%5D=315494&type=155356"
+           },
+           {
+            "text": "Health & Wellness",
+            "href": "http://localhost:8791/offers?cat%5B0%5D=155365&type=155356"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           989,
+           156,
+           258,
+           231
+          ]
+         },
+         "expanded": "true",
+         "focus": "elsewhere",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "li.mega__item"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "linear",
+           "target": "a.mega__link"
+          }
+         ],
+         "shot": "1440-025-Debit-Card-Offers-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "navigates": "http://localhost:8791/offers-and-promotions?type=155356"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "http://localhost:8791/offers-and-promotions?type=155356"
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       }
+      }
+     ]
+    },
+    {
+     "name": "Customer Services",
+     "key": "customer services",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav:nth-of-type(1)>div>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      752,
+      49,
+      196,
+      95
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact Us",
+          "href": "http://localhost:8791/contact-us"
+         },
+         {
+          "text": "Raise a Query / Request / Complaint",
+          "href": "https://outsys1.rbl.bank.in/WebForm/"
+         },
+         {
+          "text": "Grievance Mechanism – Flowchart",
+          "href": "http://localhost:8791/grievance-mechanism-flowchart"
+         },
+         {
+          "text": "Quick Services",
+          "href": "http://localhost:8791/quick-services"
+         },
+         {
+          "text": "MyUPI",
+          "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh"
+         },
+         {
+          "text": "Locate Us",
+          "href": "http://localhost:8791/locate-branch"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         744,
+         144,
+         620,
+         332
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-026-Customer-Services-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact Us",
+          "href": "http://localhost:8791/contact-us"
+         },
+         {
+          "text": "Raise a Query / Request / Complaint",
+          "href": "https://outsys1.rbl.bank.in/WebForm/"
+         },
+         {
+          "text": "Grievance Mechanism – Flowchart",
+          "href": "http://localhost:8791/grievance-mechanism-flowchart"
+         },
+         {
+          "text": "Quick Services",
+          "href": "http://localhost:8791/quick-services"
+         },
+         {
+          "text": "MyUPI",
+          "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh"
+         },
+         {
+          "text": "Locate Us",
+          "href": "http://localhost:8791/locate-branch"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         744,
+         144,
+         620,
+         332
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-027-Customer-Services-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Contact Us",
+          "href": "http://localhost:8791/contact-us"
+         },
+         {
+          "text": "Raise a Query / Request / Complaint",
+          "href": "https://outsys1.rbl.bank.in/WebForm/"
+         },
+         {
+          "text": "Grievance Mechanism – Flowchart",
+          "href": "http://localhost:8791/grievance-mechanism-flowchart"
+         },
+         {
+          "text": "Quick Services",
+          "href": "http://localhost:8791/quick-services"
+         },
+         {
+          "text": "MyUPI",
+          "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh"
+         },
+         {
+          "text": "Locate Us",
+          "href": "http://localhost:8791/locate-branch"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         744,
+         144,
+         620,
+         332
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-028-Customer-Services-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>nav:nth-of-type(1)>div>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      972,
+      73,
+      42,
+      42
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "whatsapp",
+     "key": "whatsapp",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>nav:nth-of-type(1)>div>div:nth-of-type(2)>a",
+     "href": "https://api.whatsapp.com/send?phone=918433598888&text=Hi%20RBL&source=&data=&app_absent=",
+     "expanded": null,
+     "rect": [
+      1036,
+      73,
+      42,
+      42
+     ],
+     "actions": {}
+    },
+    {
+     "name": "bell",
+     "key": "bell",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>nav:nth-of-type(1)>div>div:nth-of-type(2)>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      1100,
+      73,
+      42,
+      42
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Login",
+     "key": "login",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>nav:nth-of-type(1)>div>div:nth-of-type(2)>div>button",
+     "expanded": "false",
+     "rect": [
+      1164,
+      71,
+      114,
+      45
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Personal Banking",
+          "href": "https://online.rbl.bank.in/corp"
+         },
+         {
+          "text": "Corporate Banking",
+          "href": "https://online.rbl.bank.in/CorpBank"
+         },
+         {
+          "text": "Forex Cards",
+          "href": "https://forexcard.rbl.bank.in/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1038,
+         131,
+         240,
+         247
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "button.btn-login"
+        }
+       ],
+       "shot": "1440-029-Login-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Personal Banking",
+          "href": "https://online.rbl.bank.in/corp"
+         },
+         {
+          "text": "Corporate Banking",
+          "href": "https://online.rbl.bank.in/CorpBank"
+         },
+         {
+          "text": "Forex Cards",
+          "href": "https://forexcard.rbl.bank.in/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1038,
+         131,
+         240,
+         247
+        ]
+       },
+       "expanded": "false",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 200,
+         "delay": 0,
+         "easing": "linear",
+         "target": "button.btn-login"
+        }
+       ],
+       "shot": "1440-030-Login-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 43,
+     "height": 101,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 43,
+     "height": 101,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 43,
+     "height": 101,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 43,
+     "height": 101,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 30,
+   "truncated": "depth 2 at Products > Know More",
+   "loads": 71,
+   "requests": 2327,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

@@ -1,0 +1,260 @@
+/* about-us page modules: banner, page tabs (About Us / Board / Leadership), about text + rating
+   figure, impact counters, awards view (settled default: year 2026 checked, static snapshot),
+   vision / mission cards, CSR + careers split rows.
+   Values lifted from style.css (.banner-*, .common-tab-wrap .nav-tabs, .nav-AboutUs-tab::after,
+   .card-impact, .card-slider-wrap .carousel-indicators, .awards-card, .img-card*, .two-col-card*),
+   the page's inline <style> blocks (.dateUpdt, .abtvision, carousel arrows) and live computed
+   styles (stardust/replica/lift/about-us-live-measure.json). */
+
+/* ---- grid steps this page needs beyond canon ---- */
+@media (min-width: 576px) { .col-sm-6 { flex: 0 0 auto; width: 50%; } }
+@media (min-width: 768px) { .col-md-3 { flex: 0 0 auto; width: 25%; } }
+@media (min-width: 992px) { .col-lg-4 { flex: 0 0 auto; width: 33.33333333%; } }
+@media (min-width: 1200px) { .col-xl-3 { flex: 0 0 auto; width: 25%; } }
+
+.page-about-us .main-content { color: #303030; }
+
+/* ---- banner (.banner-section.banner-para-right-section) ---- */
+.au-banner {
+  position: relative; display: flex; align-items: center; height: 400px; margin-top: -1px; padding: 30px 0;
+  background: #f4f5fc;
+}
+.au-banner .container { position: relative; display: flex; justify-content: flex-end; }
+.au-banner__media { position: absolute; top: 0; left: 0; width: 50%; height: 100%; }
+.au-banner__img { width: 100%; height: 100%; background: center top / cover no-repeat; }
+.au-banner__img--mobile { background-position: center; }
+@media (min-width: 1600px) { .au-banner__img--desktop { background-size: contain; } }
+.au-banner__img--desktop { background-image: url("assets/about-us/banner-desktop.jpg"); }
+.au-banner__img--mobile { display: none; background-image: url("assets/about-us/banner-mobile.jpg"); }
+.au-banner__card {
+  position: relative; display: flex; width: 750px; max-width: 750px; height: 330px;
+  margin: 0 -25px 0 0; padding: 20px 30px; background: #e9ecf7; border-radius: 8px;
+  box-shadow: -2px 4px 4px rgb(0 0 0 / 0.15);
+}
+.au-banner__inner { width: 100%; }
+.au-banner h1 { margin: 0 0 15px; font-size: 48px; font-weight: 400; line-height: 57.6px; color: var(--rbl-blue); }
+.au-banner p { margin: 0 0 27px; font-size: 16px; line-height: 24px; color: #303030; }
+
+/* ---- tab strips (.common-tab-wrap .nav-tabs) ---- */
+.au-tabs-wrap { position: relative; border-radius: 10px; }
+.au-tabs-wrap--white { background: #fff; }
+.au-tabs {
+  position: relative; z-index: 9; display: flex; flex-wrap: nowrap; margin: 0 0 30px; padding: 13px 0;
+  border-bottom: 1px solid transparent; white-space: nowrap; overflow-x: auto; overflow-y: hidden; scrollbar-width: none; text-align: center;
+}
+.au-tabs--page { margin-left: -10px; }
+.au-tabs__link {
+  position: relative; display: block; margin: 0 15px -1px 0; padding: 8px 16px;
+  border: 1px solid transparent; border-radius: 6px 6px 0 0;
+  font-size: 16px; font-weight: 400; line-height: 26.88px; color: var(--rbl-blue);
+}
+.au-tabs__link--active { font-weight: 700; }
+.au-tabs__link[hidden] { display: none; }
+.au-tabs__link::after {
+  content: ""; position: absolute; bottom: -13px; left: 50%; z-index: 3; width: calc(100% - 20px); min-width: 32px; height: 2px;
+  background: var(--rbl-blue); opacity: 0; transform: translateX(-50%);
+}
+.au-tabs__link:hover::after, .au-tabs__link--active::after { opacity: 1; }
+@media (min-width: 992px) {
+  .au-tabs { overflow: visible; }
+  .au-tabs::after {
+    content: ""; position: absolute; bottom: -10px; left: 15px; right: 25px; z-index: 3; height: 1px;
+    border-bottom: 1px solid #efefef;
+  }
+}
+
+/* ---- about pane (.about-us-tab-section, .nav-AboutUs-tab::after panel) ---- */
+.au-about { position: relative; padding: 5px 0 45px; overflow: hidden; }
+.au-about__pane { position: relative; }
+@media (min-width: 768px) {
+  .au-about__pane::after {
+    content: ""; position: absolute; top: -106px; left: 50%; z-index: 3; display: block;
+    width: 80%; height: 721px; margin-left: 760px; background: #eff7ff; transform: translateX(-50%);
+  }
+}
+.au-heading { margin: 0 0 30px; font-size: 34px; font-weight: 400; line-height: 44.2px; color: #303030; }
+.au-about__text p { margin: 0 0 10px; font-size: 15px; line-height: 25.2px; color: #303030; }
+.au-about__text .au-about__last { margin-bottom: 30px; }
+.au-about__figure { position: relative; z-index: 5; float: right; max-width: 480px; overflow: hidden; }
+.au-about__figure img { max-width: 100%; height: auto; }
+
+/* ---- impact counters (.impact-section .card-impact) ---- */
+.au-impact {
+  position: relative; padding: 45px 0;
+  background: linear-gradient(to right, #fdefef 0%, #e5e7ef 50%);
+}
+.au-impact__card {
+  max-width: 350px; margin: auto; padding: 26px 15px 30px; background: #fff; border-radius: 10px;
+  text-align: center;
+}
+.au-impact__icon { display: block; width: 70px; height: 70px; margin: 0 auto 30px; }
+.au-impact__body h2 { font-size: 40px; font-weight: 700; line-height: 52px; color: #212121; }
+.au-impact__body p { font-size: 16px; line-height: 26.88px; color: #212121; }
+.au-impact .row > .au-impact__date {
+  margin: 25px 0 -25px; font-size: 13px; font-style: italic; line-height: 21.84px; color: #606060; text-align: right;
+}
+
+/* ---- awards view (.awards-section, .card-slider-wrap .carousel-indicators, .awards-card) ---- */
+.au-awards { position: relative; padding: 45px 0 0; }
+.au-awards__pane { padding-top: 8px; }
+.au-years { position: relative; height: 101px; margin: 0 0 32px; padding: 0 50px; overflow: hidden; }
+.au-years::before {
+  content: ""; position: absolute; top: 17px; left: 10px; width: calc(100% - 20px); height: 2px; background: #dbdcde;
+}
+.au-years__viewport { position: relative; overflow: hidden; height: 100%; }
+.au-years__track { display: flex; transform: translateX(5px); transition: transform 0.3s ease; }
+.au-years__item { position: relative; top: 10px; flex: 0 0 10%; min-width: 0; text-align: center; white-space: nowrap; }
+.au-years__item label { display: block; cursor: pointer; }
+.au-years__item input {
+  position: relative; display: block; width: 16px; height: 16px; margin: 0 auto 10.88px; padding: 0;
+  appearance: none; -webkit-appearance: none; background: var(--rbl-blue); border: 1px solid var(--rbl-blue);
+  border-radius: 50%; cursor: pointer;
+}
+.au-years__item input:checked::after {
+  content: ""; position: absolute; top: -6px; left: -6px; display: block; width: 26px; height: 26px;
+  border: 1px solid var(--rbl-blue); border-radius: 50%; box-sizing: border-box;
+}
+.au-years__item span {
+  display: block; width: 72px; height: 35px; margin: auto; font-size: 16px; line-height: 26.88px; color: #707070;
+}
+.au-years__btn {
+  position: absolute; top: 0; z-index: 2; width: 40px; height: 40px; padding: 7px 0 0; background: #fff;
+  border-radius: 4px; box-shadow: 2px 4px 8px rgb(0 0 0 / 0.12);
+  font-size: 20px; line-height: 26.88px; color: #606060; text-align: center;
+}
+.au-years__btn:disabled { cursor: default; }
+.au-years__btn--prev { left: 5px; }
+.au-years__btn--next { right: 5px; }
+.fa-angle-left::before { content: "\f104"; }
+.fa-angle-right::before { content: "\f105"; }
+
+.au-award { display: flex; flex-direction: column; }
+.au-award__card {
+  display: flex; flex: 1 0 auto; flex-direction: column; margin: 0 0 30px; padding: 15px 0;
+  background: #fff; border: 1px solid #dbdcde; border-radius: 8px;
+}
+.au-award__card img { width: 100%; height: 210px; object-fit: contain; border-radius: 5px 5px 0 0; }
+.au-award__body { flex: 1 1 auto; padding: 15px 20px 10px; text-align: center; }
+.au-award__title { margin: 0 0 10px; font-size: 18px; font-weight: 700; line-height: normal; color: #303030; }
+.au-award__desc { margin: 0 0 10px; font-size: 14px; line-height: normal; color: #909090; }
+.au-awards__empty { max-width: 300px; margin: auto; }
+
+/* ---- vision / mission (.abtvision .contblock, .img-card-sm) ---- */
+.au-values { position: relative; padding: 0 0 45px; }
+.au-vision { margin-bottom: 60px; }
+.au-vision__card { min-height: 270px; padding: 15px 20px; border-radius: 10px; }
+.au-vision__card--odd { background: #ffe2be; }
+.au-vision__card--even { background: #c9e9e6; }
+.au-vision__card h3, .au-mission__card h3 { min-height: 65px; margin: 18px 0; font-size: 24px; font-weight: 400; line-height: 31.2px; color: #212121; }
+.au-mission__card h3 { min-height: 0; }
+.au-vision__card p, .au-mission__card p { max-width: 400px; margin: 15px 0 7px; font-size: 18px; line-height: 30.24px; color: #212121; }
+.au-mission__card p { max-width: 360px; }
+.au-mission__card {
+  position: relative; z-index: 1; min-height: 310px; margin: 0 0 30px; padding: 30px 40px;
+  background: #9ad2d2; border-radius: 10px; overflow: hidden;
+}
+.au-mission__bg { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.au-mission__bg img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* ---- CSR / careers split rows (.two-col-card-wrap) ---- */
+.au-split { margin: 30px 0; }
+.au-split__col { align-self: center; }
+.au-split__img {
+  position: relative; z-index: 1; max-width: 440px; height: 355px; padding: 20px; border-radius: 10px; overflow: hidden;
+}
+.au-split__img img { width: 100%; height: auto; border-radius: 10px; object-fit: cover; }
+.au-split__title { font-size: 34px; font-weight: 400; line-height: 44.2px; color: #373f41; }
+.au-split__text p { margin: 10px 0 20px; font-size: 16px; line-height: 26.88px; color: #303030; }
+.au-btn-outline {
+  display: inline-block; padding: 10px 24px; border: 1px solid #303030; border-radius: 4px;
+  font-size: 18px; font-weight: 700; line-height: 26px; color: #303030; text-align: center;
+  transition: all 0.2s linear;
+}
+.au-btn-outline:hover { background: #303030; color: #fff; }
+@media (min-width: 992px) {
+  .au-split__img--right { float: right; width: 440px; }
+  .au-split--reverse .au-split__col--img { order: 2; }
+  .au-split--reverse .au-split__col--text { order: 2; }
+}
+@media (max-width: 991px) {
+  .au-split { margin-bottom: 40px; }
+  .au-split__col > * { margin-bottom: 20px; }
+  .au-split__title { font-size: 28px; line-height: 36.4px; }
+  .au-split--reverse .au-split__col--img { order: 1; }
+  .au-split--reverse .au-split__col--text { order: 2; }
+  .au-years__item span { width: 50px; font-size: 15px; }
+}
+@media (max-width: 575px) {
+  .au-split__img { height: auto; max-width: 100%; }
+}
+
+/* ---- tablet / mobile ---- */
+@media (max-width: 991px) {
+  .au-about__figure { max-width: 360px; }
+  .au-about__figure img { width: 100%; }
+}
+@media (max-width: 767px) {
+  .au-banner { display: block; height: auto; margin-top: -3px; padding: 35px 0 0; }
+  .au-banner .container { display: block; padding: 0; }
+  .au-banner__media { width: 100%; height: 620px; }
+  .au-banner__img--desktop { display: none; }
+  .au-banner__img--mobile { display: block; height: 218px; }
+  .au-banner__card {
+    width: 100%; height: auto; margin: 165px 0 0; padding: 15px 20px 30px; border-radius: 20px 20px 0 0;
+  }
+  .au-banner h1 { font-size: 34px; line-height: 40.8px; }
+  .au-banner p { margin-bottom: 20px; }
+
+  .au-tabs { padding: 2px 0; }
+  .au-tabs--page { margin-left: 0; }
+  .au-tabs__link { margin: 0 0 -1px; padding: 8px 15px; }
+  .au-tabs__link::after { bottom: -1px; width: 100%; }
+  .au-about .au-heading { margin-top: 20px; }
+  .au-heading { font-size: 28px; line-height: 36.4px; }
+
+  .au-impact { margin-top: -40px; }
+  .au-impact__card {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: start;
+    margin: 0 auto 20px; padding: 15px;
+  }
+  .au-impact__icon { margin: 0 40px 0 0; }
+  .au-impact__body h2, .au-impact__body p { text-align: left; }
+  .au-impact .row > .au-impact__date { margin: 5px 0 -20px -25px; }
+
+  .au-years { height: 70px; }
+  .au-years__item { top: 11px; flex-basis: 33.3333%; }
+  .au-award__card img { height: 170px; }
+
+  .au-vision { margin-bottom: 60px; }
+  .au-vision__card { min-height: 0; margin: 0 0 30px; }
+  .au-vision__card h3 { min-height: 0; }
+  .au-vision__card p, .au-mission__card p { max-width: 300px; margin-top: 0; font-size: 16px; line-height: 26.88px; }
+  .au-mission { margin: 0; padding: 0; }
+  .au-mission__card { padding: 15px 20px; }
+  .au-mission__bg { display: none; }
+  .au-mission > :nth-child(1) .au-mission__card { background-color: #ffe5ca; }
+  .au-mission > :nth-child(2) .au-mission__card { background-color: #c8e6e4; }
+  .au-mission > :nth-child(3) .au-mission__card { background-color: #c6dff5; }
+  .au-mission > :nth-child(4) .au-mission__card { background-color: #ffefce; }
+}
+@media (max-width: 575px) {
+  .au-about__figure { max-width: 100%; }
+  .au-mission__card { min-height: 250px; }
+}
+
+/* filter states the live view keeps hidden: the "- Any -" option and the js-hide Apply button */
+.au-years__item--any, .au-years__apply { display: none; }
+
+/* ======================= Interaction parity (motion-observe 1440, stardust/replica/motion/compare-about-us-1440.json) ======================= */
+/* live AOS fade-up (body data-aos-duration 300, easing ease, once): impact cards anchor #data-section3, Vision/Mission rows
+   anchor #data-section5 — the trigger class aos-animate is added per anchor section by about-us.js (live has no reduced-motion rule) */
+.page-about-us [data-aos="fade-up"] { opacity: 0; transform: translate3d(0, 100px, 0); transition: opacity 0.3s ease, transform 0.3s ease; }
+.page-about-us [data-aos="fade-up"].aos-animate { opacity: 1; transform: translateZ(0); }
+.page-about-us [data-aos][data-aos-delay="300"].aos-animate { transition-delay: 0.3s; }
+.page-about-us [data-aos][data-aos-delay="600"].aos-animate { transition-delay: 0.6s; }
+.page-about-us [data-aos][data-aos-delay="900"].aos-animate { transition-delay: 0.9s; }
+.page-about-us [data-aos][data-aos-delay="1500"].aos-animate { transition-delay: 1.5s; }
+/* live .scale-img-wrap:hover img.scale-img → scale(1.03), 0.2s linear (measured hover diff on .awards-card) */
+.au-award__card { position: relative; overflow: hidden; }
+.au-award__card img { transition: all 0.2s linear 0s; }
+.au-award__card:hover img { transform: scale(1.03); }

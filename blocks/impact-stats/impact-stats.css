@@ -1,0 +1,117 @@
+/* impact-stats — replica canon about-us.css (.au-impact: .impact-section .card-impact,
+   .dateUpdt; AOS fade-up parity), scoped and mobile-first. */
+.impact-stats {
+  position: relative;
+  margin-top: -40px;
+  padding: 45px 0;
+  background: linear-gradient(to right, #fdefef 0%, #e5e7ef 50%);
+  color: #303030;
+}
+
+.impact-stats .stat-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  max-width: 350px;
+  margin: 0 auto 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+}
+
+.impact-stats .stat-icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 40px 0 0;
+}
+
+.impact-stats .stat-icon :is(picture, img) {
+  display: block;
+  width: 70px;
+  max-width: none;
+  height: 70px;
+}
+
+.impact-stats .stat-body :is(h2, p) {
+  color: #212121;
+  text-align: left;
+}
+
+.impact-stats .stat-body h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.impact-stats .stat-body p {
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.impact-stats .row > .stat-note {
+  margin: 5px 0 -20px -25px;
+}
+
+.impact-stats .stat-note p {
+  color: #606060;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 21.84px;
+  text-align: right;
+}
+
+/* live AOS fade-up (data-aos-duration 300, easing ease, once) */
+.impact-stats [data-aos="fade-up"] {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.impact-stats [data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.impact-stats [data-aos-delay="300"].aos-animate {
+  transition-delay: 0.3s;
+}
+
+.impact-stats [data-aos-delay="600"].aos-animate {
+  transition-delay: 0.6s;
+}
+
+.impact-stats [data-aos-delay="900"].aos-animate {
+  transition-delay: 0.9s;
+}
+
+@media (width >= 768px) {
+  .impact-stats {
+    margin-top: 0;
+  }
+
+  .impact-stats .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .impact-stats .stat-card {
+    display: block;
+    margin: auto;
+    padding: 26px 15px 30px;
+  }
+
+  .impact-stats .stat-icon {
+    margin: 0 auto 30px;
+  }
+
+  .impact-stats .stat-body :is(h2, p) {
+    text-align: center;
+  }
+
+  .impact-stats .row > .stat-note {
+    margin: 25px 0 -25px;
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "form"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-19T09:49:51.354Z",
+      "endedAt": "2026-11-19T09:49:51.354Z",
+      "verdict": "plan: 4 Path A, 1 Path A (listing sibling), 0 Path B"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "static",
+        "listing",
+        "form"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-19T09:49:51.354Z",
+      "endedAt": "2026-11-19T09:50:08.297Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-19T11:04:29.000Z",
+      "endedAt": "2026-11-19T11:09:30.000Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "assets": {
+      "status": "done",
+      "kind": "assets",
+      "pages": 5,
+      "startedAt": "2026-11-19T12:09:01.000Z",
+      "endedAt": "2026-11-19T12:09:01.000Z",
+      "verdict": "assets: media uploaded to DA per page during C-deliver (da-media-upload, media-reconcile pass on 5/5); nothing rehosted here"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "pages": 5,
+      "startedAt": "2026-11-19T12:09:01.000Z",
+      "endedAt": "2026-11-19T12:09:01.000Z",
+      "verdict": "report: 5/5 pages migrated in state.json (4 archetypes Path A, 1 sibling)"
+    }
+  }
+}

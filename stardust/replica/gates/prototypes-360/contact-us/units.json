@@ -1,0 +1,2102 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T09:48:23.057Z",
+  "tol": 4,
+  "n": 9,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.rbl.bank.in/contact-us",
+  "at": "2026-11-19T08:14:28.066Z",
+  "docH": 3813
+ },
+ "eds": {
+  "url": "http://localhost:8791/contact-us-proposed.html",
+  "at": "2026-11-19T09:48:22.865Z",
+  "docH": 3813
+ },
+ "results": [
+  {
+   "sel": ".contus .col-md-4 .cardCont=.contus .col-md-4 .cardCont",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "eds": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "rows": [
+      {
+       "key": "image:raise a query",
+       "role": "image",
+       "text": "raise a query",
+       "edsText": "raise a query",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "heading:raise a query / request / complaint",
+       "role": "heading",
+       "text": "raise a query / request / complaint",
+       "edsText": "raise a query / request / complaint",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 280,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 280,
+        "h": 52,
+        "sel": "h1.h3",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "link:raise a query / request / complaint",
+       "role": "link",
+       "text": "raise a query / request / complaint",
+       "edsText": "raise a query / request / complaint",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 27,
+        "w": 226,
+        "h": 50
+       },
+       "eds": {
+        "x": 66,
+        "y": 27,
+        "w": 226,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:have questions or need assistance? our t",
+       "role": "text",
+       "text": "have questions or need assistance? our team is ready to help",
+       "edsText": "have questions or need assistance? our team is ready to help",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 106
+       },
+       "eds": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 106,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "link:raise here",
+       "role": "link",
+       "text": "raise here",
+       "edsText": "raise here",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 197,
+        "w": 146,
+        "h": 42
+       },
+       "eds": {
+        "x": 66,
+        "y": 197,
+        "w": 146,
+        "h": 42,
+        "sel": "a.btn-blue",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:raise a query here",
+       "role": "image",
+       "text": "raise a query here",
+       "edsText": "raise a query here",
+       "byPosition": false,
+       "origin": {
+        "x": 236,
+        "y": 234,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 236,
+        "y": 234,
+        "w": 60,
+        "h": 60,
+        "sel": "img.bgimg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 190,
+       "w": 312,
+       "h": 310
+      },
+      "eds": {
+       "x": 12,
+       "y": 190,
+       "w": 312,
+       "h": 310
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "eds": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "rows": [
+      {
+       "key": "image:customer care",
+       "role": "image",
+       "text": "customer care",
+       "edsText": "customer care",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "link:customer care",
+       "role": "link",
+       "text": "customer care",
+       "edsText": "customer care",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 27,
+        "w": 133,
+        "h": 24
+       },
+       "eds": {
+        "x": 66,
+        "y": 27,
+        "w": 133,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:need assistance or support? we’re availa",
+       "role": "text",
+       "text": "need assistance or support? we’re available to help with all",
+       "edsText": "need assistance or support? we’re available to help with all",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 128
+       },
+       "eds": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 128,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "link:get in touch",
+       "role": "link",
+       "text": "get in touch",
+       "edsText": "get in touch",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 219,
+        "w": 146,
+        "h": 42
+       },
+       "eds": {
+        "x": 66,
+        "y": 219,
+        "w": 146,
+        "h": 42,
+        "sel": "a.btn-blue",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:get in touch",
+       "role": "image",
+       "text": "get in touch",
+       "edsText": "get in touch",
+       "byPosition": false,
+       "origin": {
+        "x": 236,
+        "y": 256,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 236,
+        "y": 256,
+        "w": 60,
+        "h": 60,
+        "sel": "img.bgimg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 530,
+       "w": 312,
+       "h": 332
+      },
+      "eds": {
+       "x": 12,
+       "y": 530,
+       "w": 312,
+       "h": 332
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "eds": {
+      "path": "div.row > div.col-md-4 > div.cardCont"
+     },
+     "rows": [
+      {
+       "key": "image:locate branches and atms",
+       "role": "image",
+       "text": "locate branches and atms",
+       "edsText": "locate branches and atms",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 50,
+        "h": 35,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "link:locate us",
+       "role": "link",
+       "text": "locate us",
+       "edsText": "locate us",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 27,
+        "w": 89,
+        "h": 24
+       },
+       "eds": {
+        "x": 66,
+        "y": 27,
+        "w": 89,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/26/400",
+        "eds": "20/26/400"
+       }
+      },
+      {
+       "key": "text:find the nearest branch or atm with ease",
+       "role": "text",
+       "text": "find the nearest branch or atm with ease. use our locator to",
+       "edsText": "find the nearest branch or atm with ease. use our locator to",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 128
+       },
+       "eds": {
+        "x": 66,
+        "y": 76,
+        "w": 230,
+        "h": 128,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/22/400",
+        "eds": "16/22/400"
+       }
+      },
+      {
+       "key": "link:find atm / branch",
+       "role": "link",
+       "text": "find atm / branch",
+       "edsText": "find atm / branch",
+       "byPosition": false,
+       "origin": {
+        "x": 66,
+        "y": 219,
+        "w": 173,
+        "h": 42
+       },
+       "eds": {
+        "x": 66,
+        "y": 219,
+        "w": 173,
+        "h": 42,
+        "sel": "a.btn-blue",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      },
+      {
+       "key": "image:find branches and atms",
+       "role": "image",
+       "text": "find branches and atms",
+       "edsText": "find branches and atms",
+       "byPosition": false,
+       "origin": {
+        "x": 236,
+        "y": 256,
+        "w": 60,
+        "h": 60
+       },
+       "eds": {
+        "x": 236,
+        "y": 256,
+        "w": 60,
+        "h": 60,
+        "sel": "img.bgimg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 892,
+       "w": 312,
+       "h": 332
+      },
+      "eds": {
+       "x": 12,
+       "y": 892,
+       "w": 312,
+       "h": 332
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".faq-rbl-inner .card=.faq-list .faq-card",
+   "family": null,
+   "required": true,
+   "originMatches": 9,
+   "edsMatches": 9,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3367#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119,
+        "sel": "div#heading3367",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:how can i find the nearest rbl bank bran",
+       "role": "button",
+       "text": "how can i find the nearest rbl bank branch?",
+       "edsText": "how can i find the nearest rbl bank branch?",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 1976,
+       "w": 312,
+       "h": 121
+      },
+      "eds": {
+       "x": 12,
+       "y": 1976,
+       "w": 312,
+       "h": 121
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3368#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119,
+        "sel": "div#heading3368",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:how do i contact rbl bank for account-re",
+       "role": "button",
+       "text": "how do i contact rbl bank for account-related queries?",
+       "edsText": "how do i contact rbl bank for account-related queries?",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2105,
+       "w": 312,
+       "h": 121
+      },
+      "eds": {
+       "x": 12,
+       "y": 2105,
+       "w": 312,
+       "h": 121
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3369#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119,
+        "sel": "div#heading3369",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:can i contact rbl bank for credit card s",
+       "role": "button",
+       "text": "can i contact rbl bank for credit card support?",
+       "edsText": "can i contact rbl bank for credit card support?",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2234,
+       "w": 312,
+       "h": 121
+      },
+      "eds": {
+       "x": 12,
+       "y": 2234,
+       "w": 312,
+       "h": 121
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3370#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149,
+        "sel": "div#heading3370",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:how do i submit feedback or complaints t",
+       "role": "button",
+       "text": "how do i submit feedback or complaints to rbl bank?",
+       "edsText": "how do i submit feedback or complaints to rbl bank?",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2363,
+       "w": 312,
+       "h": 151
+      },
+      "eds": {
+       "x": 12,
+       "y": 2363,
+       "w": 312,
+       "h": 151
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3371#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149,
+        "sel": "div#heading3371",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:my rbl bank account was closed without n",
+       "role": "button",
+       "text": "my rbl bank account was closed without notification. what ca",
+       "edsText": "my rbl bank account was closed without notification. what ca",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2522,
+       "w": 312,
+       "h": 151
+      },
+      "eds": {
+       "x": 12,
+       "y": 2522,
+       "w": 312,
+       "h": 151
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3372#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 119,
+        "sel": "div#heading3372",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:what if rbl bank customer care is not re",
+       "role": "button",
+       "text": "what if rbl bank customer care is not responding?",
+       "edsText": "what if rbl bank customer care is not responding?",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 89,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2681,
+       "w": 312,
+       "h": 121
+      },
+      "eds": {
+       "x": 12,
+       "y": 2681,
+       "w": 312,
+       "h": 121
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3373#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149,
+        "sel": "div#heading3373",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:i am being harassed by rbl bank recovery",
+       "role": "button",
+       "text": "i am being harassed by rbl bank recovery agents. what should",
+       "edsText": "i am being harassed by rbl bank recovery agents. what should",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2810,
+       "w": 312,
+       "h": 151
+      },
+      "eds": {
+       "x": 12,
+       "y": 2810,
+       "w": 312,
+       "h": 151
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3374#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149,
+        "sel": "div#heading3374",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:how do i get my rbl bank loan statement ",
+       "role": "button",
+       "text": "how do i get my rbl bank loan statement or resolve repayment",
+       "edsText": "how do i get my rbl bank loan statement or resolve repayment",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2968,
+       "w": 312,
+       "h": 151
+      },
+      "eds": {
+       "x": 12,
+       "y": 2968,
+       "w": 312,
+       "h": 151
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.col-12 > div#accordion > div.card.mb-2"
+     },
+     "eds": {
+      "path": "div.col-12 > div#accordion > div.faq-card"
+     },
+     "rows": [
+      {
+       "key": "box:div#heading3375#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 310,
+        "h": 149,
+        "sel": "div#heading3375",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "button:my rbl bank transaction failed but money",
+       "role": "button",
+       "text": "my rbl bank transaction failed but money was deducted. what ",
+       "edsText": "my rbl bank transaction failed but money was deducted. what ",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119
+       },
+       "eds": {
+        "x": 16,
+        "y": 16,
+        "w": 265,
+        "h": 119,
+        "sel": "button.faq-card__toggle",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 3127,
+       "w": 312,
+       "h": 151
+      },
+      "eds": {
+       "x": 12,
+       "y": 3127,
+       "w": 312,
+       "h": 151
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".site-footer__top section.region=.footer-cols .footer-col",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container > div.site-footer__top.clearfix > section.row.region"
+     },
+     "eds": {
+      "path": "div.container > div.footer-cols > nav.footer-col"
+     },
+     "rows": [
+      {
+       "key": "text:‌",
+       "role": "text",
+       "text": "‌",
+       "edsText": "‌",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25,
+        "sel": "i.fa.fa-plus",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/400",
+        "eds": "14/14/400"
+       }
+      },
+      {
+       "key": "text:about",
+       "role": "text",
+       "text": "about",
+       "edsText": "about",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27
+       },
+       "eds": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27,
+        "sel": "p#fh-about-",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/21/700",
+        "eds": "16/21/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3396,
+       "w": 360,
+       "h": 37
+      },
+      "eds": {
+       "x": 0,
+       "y": 3396,
+       "w": 360,
+       "h": 37
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container > div.site-footer__top.clearfix > section.row.region"
+     },
+     "eds": {
+      "path": "div.container > div.footer-cols > nav.footer-col"
+     },
+     "rows": [
+      {
+       "key": "text:‌",
+       "role": "text",
+       "text": "‌",
+       "edsText": "‌",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25,
+        "sel": "i.fa.fa-plus",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/400",
+        "eds": "14/14/400"
+       }
+      },
+      {
+       "key": "text:media center",
+       "role": "text",
+       "text": "media center",
+       "edsText": "media center",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27
+       },
+       "eds": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27,
+        "sel": "p#fh-media-center-",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/21/700",
+        "eds": "16/21/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3432,
+       "w": 360,
+       "h": 37
+      },
+      "eds": {
+       "x": 0,
+       "y": 3432,
+       "w": 360,
+       "h": 37
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container > div.site-footer__top.clearfix > section.row.region"
+     },
+     "eds": {
+      "path": "div.container > div.footer-cols > nav.footer-col"
+     },
+     "rows": [
+      {
+       "key": "text:‌",
+       "role": "text",
+       "text": "‌",
+       "edsText": "‌",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25,
+        "sel": "i.fa.fa-plus",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/400",
+        "eds": "14/14/400"
+       }
+      },
+      {
+       "key": "text:products",
+       "role": "text",
+       "text": "products",
+       "edsText": "products",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27
+       },
+       "eds": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27,
+        "sel": "p#fh-products-",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/21/700",
+        "eds": "16/21/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3469,
+       "w": 360,
+       "h": 37
+      },
+      "eds": {
+       "x": 0,
+       "y": 3469,
+       "w": 360,
+       "h": 37
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container > div.site-footer__top.clearfix > section.row.region"
+     },
+     "eds": {
+      "path": "div.container > div.footer-cols > nav.footer-col"
+     },
+     "rows": [
+      {
+       "key": "text:‌",
+       "role": "text",
+       "text": "‌",
+       "edsText": "‌",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25,
+        "sel": "i.fa.fa-plus",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/400",
+        "eds": "14/14/400"
+       }
+      },
+      {
+       "key": "text:important links",
+       "role": "text",
+       "text": "important links",
+       "edsText": "important links",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27
+       },
+       "eds": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27,
+        "sel": "p#fh-important-links-",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/21/700",
+        "eds": "16/21/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3506,
+       "w": 360,
+       "h": 37
+      },
+      "eds": {
+       "x": 0,
+       "y": 3506,
+       "w": 360,
+       "h": 37
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container > div.site-footer__top.clearfix > section.row.region"
+     },
+     "eds": {
+      "path": "div.container > div.footer-cols > nav.footer-col"
+     },
+     "rows": [
+      {
+       "key": "text:‌",
+       "role": "text",
+       "text": "‌",
+       "edsText": "‌",
+       "byPosition": false,
+       "origin": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25
+       },
+       "eds": {
+        "x": 323,
+        "y": -3,
+        "w": 25,
+        "h": 25,
+        "sel": "i.fa.fa-plus",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "14/14/400",
+        "eds": "14/14/400"
+       }
+      },
+      {
+       "key": "text:customer service",
+       "role": "text",
+       "text": "customer service",
+       "edsText": "customer service",
+       "byPosition": false,
+       "origin": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27
+       },
+       "eds": {
+        "x": 12,
+        "y": 0,
+        "w": 336,
+        "h": 27,
+        "sel": "p#fh-customer-service-",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/21/700",
+        "eds": "16/21/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3543,
+       "w": 360,
+       "h": 37
+      },
+      "eds": {
+       "x": 0,
+       "y": 3543,
+       "w": 360,
+       "h": 37
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 17,
+  "within": 44,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

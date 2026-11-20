@@ -1,0 +1,72 @@
+/* quick-links — homepage mobile quick-links strip (replica canon index.css .quicklinks),
+   mobile-first: in flow under the mobile header below 768px, absent from 768px. */
+.quick-links.block {
+  position: relative;
+  height: 82px;
+  margin: -1px 0 2px;
+  overflow-x: auto;
+  background: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+  scrollbar-width: none;
+}
+
+.quick-links.block::-webkit-scrollbar {
+  display: none;
+}
+
+.quick-links .quick-links-list {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 15px 0 6px;
+  list-style: none;
+}
+
+.quick-links .quick-links-item {
+  flex: 0 0 auto;
+  border-right: 1px solid #dbdcde;
+  text-align: center;
+}
+
+.quick-links .quick-links-item:last-child {
+  border-right: 0;
+}
+
+.quick-links .quick-links-item a {
+  display: block;
+  min-width: 119px;
+  padding: 0 10px;
+  color: #303030;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26.88px;
+  white-space: nowrap;
+}
+
+.quick-links .quick-links-icon {
+  display: block;
+  width: 30px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.quick-links .quick-links-icon :is(picture, img) {
+  display: block;
+  width: 30px;
+  height: 34px;
+}
+
+.quick-links .quick-links-label {
+  display: block;
+  letter-spacing: 0.2px;
+}
+
+.quick-links .quick-links-label p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  main .quick-links-container {
+    display: none;
+  }
+}

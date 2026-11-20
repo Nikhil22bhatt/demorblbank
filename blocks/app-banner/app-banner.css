@@ -1,0 +1,195 @@
+/* app-banner — homepage digital-banking service banners (replica canon index.css .appban),
+   mobile-first. Slick model: one track translated by --i, 1s ease; dots fill in 6s. */
+.app-banner.block {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.app-banner .carousel-viewport {
+  position: relative;
+  height: 530px;
+  overflow: hidden;
+}
+
+.app-banner .carousel-track {
+  display: flex;
+  transform: translate3d(calc(var(--i, 0) * -100%), 0, 0);
+  transition: transform 1s ease;
+}
+
+/* live .rbl-myapp-section: 458px in the slide colour, the 336px art 31px down, white below */
+.app-banner .carousel-slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 100%;
+  height: 530px;
+  padding-bottom: 72px;
+  background-clip: content-box;
+}
+
+.app-banner .app-slide-aqua {
+  background-color: #e3fcff;
+}
+
+.app-banner .app-slide-sky {
+  background-color: #edf7ff;
+}
+
+.app-banner .app-slide-lavender {
+  background-color: #ede8f7;
+}
+
+.app-banner .app-slide-green {
+  background-image: linear-gradient(to right, #92caa5, #76bb82);
+}
+
+.app-banner .app-slide-white {
+  background-color: #fbfbfb;
+}
+
+.app-banner .app-link {
+  display: block;
+  height: 458px;
+  padding-top: 31px;
+  overflow: hidden;
+}
+
+.app-banner .app-img {
+  display: block;
+}
+
+.app-banner .app-img-d {
+  display: none;
+}
+
+.app-banner .app-img :is(picture, img) {
+  display: block;
+}
+
+.app-banner .app-img img {
+  width: 336px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.app-banner .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  display: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 56px;
+  line-height: 26.88px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.app-banner .carousel-arrow-prev {
+  left: 35px;
+}
+
+.app-banner .carousel-arrow-next {
+  right: 35px;
+}
+
+.app-banner .carousel-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 17px;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-banner .carousel-dots li {
+  display: block;
+}
+
+.app-banner .carousel-dot {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin: 0 8px;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.app-banner .carousel-dot::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: #ec0a0a;
+}
+
+.app-banner.is-playing .carousel-dot.is-active::after {
+  animation: app-dot-fill 6s linear forwards;
+}
+
+@keyframes app-dot-fill {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+@media (width >= 768px) {
+  .app-banner.block {
+    padding-bottom: 0;
+  }
+
+  .app-banner .carousel-viewport {
+    height: 369px;
+  }
+
+  .app-banner .carousel-slide {
+    height: 369px;
+    padding-bottom: 0;
+  }
+
+  /* live slide is 374px in a 369px slick-list: the link box ends at the visible edge */
+  .app-banner .app-link {
+    height: 100%;
+    padding-top: 0;
+  }
+
+  .app-banner .app-img-d {
+    display: block;
+  }
+
+  .app-banner .app-img-m {
+    display: none;
+  }
+
+  .app-banner .app-img img {
+    width: 100%;
+    max-width: none;
+    height: 374px;
+  }
+
+  .app-banner .carousel-arrow {
+    display: block;
+  }
+
+  .app-banner .carousel-dots {
+    bottom: 12px;
+  }
+}
+
+.app-banner .carousel-slide-clone[hidden] {
+  display: none;
+}

@@ -1,0 +1,15 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.rbl.bank.in/about-us
+  modules  5 sections: capped 1140 ×5 · full-bleed ×0
+  contentMaxWidth 1140px (module) · shellMaxWidth fluid · root #content
+build  http://localhost:8791/about-us-proposed.html
+  modules  5 sections: capped 1140 ×5 · full-bleed ×0
+  contentMaxWidth 1140px (module) · shellMaxWidth fluid · root #content
+rows
+  ✓ content cap: live 1140px = build 1140px (±20, shared module cap)
+  ✓ module 1/5: 1140px = 1140px
+  ✓ module 2/5: 1140px = 1140px
+  ✓ module 3/5: 1140px = 1140px
+  ✓ module 4/5: 1140px = 1140px
+  ✓ module 5/5: 1140px = 1140px
+cap-probe: PASS at 2560 — 0 of 6 rows failed (evidence stardust/replica/gates/about-us-2560/cap-iter.json)

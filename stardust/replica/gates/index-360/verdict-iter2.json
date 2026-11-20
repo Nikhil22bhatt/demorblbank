@@ -1,0 +1,51 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/index-360/diff-iter2.png",
+    "json": "stardust/replica/gates/index-360/pixel-iter2.json",
+    "pct": 2.81,
+    "alignedPct": 2.81,
+    "alignedUsed": false,
+    "totalShift": 0,
+    "steps": [],
+    "offsetBound": null,
+    "maskedRows": 588,
+    "noiseFloor": 3.68,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T08:58:16.856Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "392:456,1612:96,3612:36"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/content-diff-iter2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/visual-diff-iter2.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/chrome-parity-iter2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/clip-iter2.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/units-iter2.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T09:27:48.731Z"
+}

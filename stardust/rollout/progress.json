@@ -1,0 +1,201 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "all"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-19T09:55:12.252Z",
+      "endedAt": "2026-11-19T10:39:24.260Z",
+      "blocks": 2,
+      "gates": {
+        "crop": "header 1.13%/1.41%, footer 0.88%/0.84% (1440/360)",
+        "chrome": "header contract 17 open-panel/search residuals = prototype parity; footer quiet"
+      },
+      "verdict": "foundation: deployed and published — styles, fonts, favicon+icons, header+footer blocks, /nav + /footer live noindex; lint clean; 0 requests"
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "pages": 1,
+      "archetype": "contact-us",
+      "startedAt": "2026-11-19T09:55:12.252Z",
+      "endedAt": "2026-11-19T10:39:24.260Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "contact-us": "0.24%",
+          "dh": 0
+        },
+        "1440": {
+          "contact-us": "0.22%",
+          "dh": 1
+        },
+        "crop": "1.13/0.88 · 1.41/0.84",
+        "chrome": "behaviour parity; search modal not built (dynamics row 2)"
+      },
+      "verdict": "archetype-form: pages 1/1 live, blocks 1 (contact-tabs), gate 1440 0.22% / 360 0.24%, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "archetype": "business-banking",
+      "startedAt": "2026-11-19T10:40:58.000Z",
+      "endedAt": "2026-11-19T11:04:10.000Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "business-banking": "0.28%",
+          "dh": 0
+        },
+        "1440": {
+          "business-banking": "0.13%",
+          "dh": 0
+        },
+        "crop": "header 0.69/1.61 · footer 0.31/0.66 (1440/360)",
+        "chrome": "same nav-extra residuals as contact-us; RBI btn offset cleared"
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 5, gate 1440 0.13% / 360 0.28%, requests 0"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "archetype": "about-us",
+      "startedAt": "2026-11-19T10:40:58.000Z",
+      "endedAt": "2026-11-19T11:04:33.000Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "about-us": "0.14%",
+          "dh": 0
+        },
+        "1440": {
+          "about-us": "0.16%",
+          "dh": 3
+        },
+        "crop": "header 0.57/0.83 · footer 0.56/0.69 (1440/360)",
+        "chrome": "no new deltas; footer drift as prototype"
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 5, gate 1440 0.16% / 360 0.14%, requests 1"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "archetype": "index",
+      "startedAt": "2026-11-19T10:40:58.000Z",
+      "endedAt": "2026-11-19T11:29:34.000Z",
+      "blocks": 11,
+      "gates": {
+        "360": {
+          "index": "2.27%",
+          "dh": 1
+        },
+        "1440": {
+          "index": "0.44%",
+          "dh": 0
+        },
+        "crop": "header 0.46/2.00 · footer 0.57/1.24 (1440/360; 360 header = prototype blinking-icon residual)",
+        "chrome": "C0 structural rows; footer 78/79",
+        "notes": "3 carousel slide areas masked (live self-varying, autoplay restored); content override waives 2 hero slide-5 headings"
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 11, gate 1440 0.44% / 360 2.27%, requests 1"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-19T11:09:38.000Z",
+      "endedAt": "2026-11-19T11:17:52.000Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "personal-banking": "0.16%",
+          "dh": 0
+        },
+        "1440": {
+          "personal-banking": "0.17%",
+          "dh": 0
+        },
+        "crop": "header 0.68/1.77 · footer 0.33/0.81 (1440/360)",
+        "chrome": "C0 structural rows; footer Trade & Forex icon 3px"
+      },
+      "verdict": "cluster-listing: pages 1/1 live, blocks 5, gate 1440 0.17% / 360 0.16%, requests 0"
+    },
+    "cluster-form": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-19T11:04:55.000Z",
+      "endedAt": "2026-11-19T11:04:55.000Z",
+      "blocks": 0,
+      "verdict": "cluster-form: pages 0/0 (template has no siblings in the 5-page plan; archetype delivered in archetype-form)"
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-19T11:04:55.000Z",
+      "endedAt": "2026-11-19T11:04:55.000Z",
+      "blocks": 0,
+      "verdict": "cluster-static: pages 0/0 (template has no siblings in the 5-page plan; archetype delivered in archetype-static)"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-19T11:29:34.000Z",
+      "endedAt": "2026-11-19T11:29:34.000Z",
+      "blocks": 0,
+      "verdict": "cluster-landing: pages 0/0 (template has no siblings in the 5-page plan; archetype delivered in archetype-landing)"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "pages": 5,
+      "startedAt": "2026-11-19T11:48:35.000Z",
+      "endedAt": "2026-11-19T11:56:34.000Z",
+      "gates": {
+        "360": "4 PASS + 1 documented override → 5/5 delivered",
+        "1440": "3 PASS + 2 documented overrides → 5/5 delivered (index content: hero slide-5 headings; business-banking units: story card 5 past rail viewport)"
+      },
+      "verdict": "gate-all: 5/5 delivered at 1440 and 360; pixel max 0.43% / 2.27%; coverage --gate applied"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "pages": 5,
+      "startedAt": "2026-11-19T11:29:45.000Z",
+      "endedAt": "2026-11-19T11:56:34.000Z",
+      "verdict": "final: foundation requests 2/2 applied (c9e3d4b), re-frozen, 5 pages re-gated; freeze check clean"
+    }
+  }
+}

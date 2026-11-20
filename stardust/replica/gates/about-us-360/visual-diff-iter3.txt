@@ -1,0 +1,1631 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/about-us-360/vdiff-iter3/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 104 images, build renders 46. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 10019,
+  "textLen": 4760,
+  "images": [
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "22x22",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chat.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-about-us-aaa-rating-and-moodys-rating.webp?VersionId=lM8EPxfF3P.wV0vzBfiFwe9YN1rU7rgO",
+    "natural": "485x750",
+    "rendered": "336x520",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-customers.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-Branches.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-BC-Branches.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-BC-Outlets.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif?VersionId=eFGn3s2TQHiWq5u_JZWdZSo5nvAJSur7",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif?VersionId=eFGn3s2TQHiWq5u_JZWdZSo5nvAJSur7",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif?VersionId=eFGn3s2TQHiWq5u_JZWdZSo5nvAJSur7",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Infosys-Finacle-Innovation-Awards-2026.png?VersionId=RJRffU1hBkWq0Qc19T9F9_iOJJP3eJPi",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AAA-2026.jpg?VersionId=LrRBoTvLKQh.RImrfUp5dYJ4PwWhr_9M",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AAA-2026.jpg?VersionId=LrRBoTvLKQh.RImrfUp5dYJ4PwWhr_9M",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AAA-2026.jpg?VersionId=LrRBoTvLKQh.RImrfUp5dYJ4PwWhr_9M",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "IBA-Banking-Technology-Awards-2026.jpg?VersionId=PtxVSK8gqt.Hk_mN0ILIjOZen.2RIV.p",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "IBA-Banking-Technology-Awards-2026.jpg?VersionId=PtxVSK8gqt.Hk_mN0ILIjOZen.2RIV.p",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "IBA-Banking-Technology-Awards-2026.jpg?VersionId=PtxVSK8gqt.Hk_mN0ILIjOZen.2RIV.p",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-us",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Customers-at-the-Heart_1.jpg?VersionId=wh2SVWeMFxEhZuPPBAoTyTdq5kYtVdCH",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Employees-as-the-Pillar.jpg?VersionId=EEel6Rtmz94U_o3T9V_u4af2IxduJ1we",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Community-as-the-cause.jpg?VersionId=sjv_eWmj1ehralS6bt741qZ5wT8QZoms",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shareholder-value-about-us.jpg?VersionId=xqwW6prFKXkMg5lKX28xRnUccRjxvpvB",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "two-col-img-1.png?VersionId=P8yhAx_jQUfP.W93ScLQ1iMiWNHz8MaE",
+    "natural": "446x359",
+    "rendered": "296x238",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "two-col-img-2.png?VersionId=.mQAVRmHm04xiO.32ocH_vt8nBrm28Y0",
+    "natural": "446x359",
+    "rendered": "296x238",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-logo.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-qr.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=b1a5b856-fc7c-4615-a7e2-fbcfdef3d9b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=84&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=b1a5b856-fc7c-4615-a7e2-fbcfdef3d9b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=84&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=d67c40f3-70c9-4144-b2cc-f108f89c9340&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=41&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=d67c40f3-70c9-4144-b2cc-f108f89c9340&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=41&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blue_cross_search.png",
+    "natural": "15x15",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "microphone.png",
+    "natural": "14x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-digital-fd.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-world-safari-card.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-dsa.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187179141&Ver=2&mid=c12518a5-1161-4a92-a262-37c820de43db&bo=1&sid=bf2b1eb0e3e811f1854ef31833105c24&vid=bf2b7f70e3e811f190e4b7997b0fd088&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=About%20Us%20%7C%20RBL%20Bank&p=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&r=&lt=17957&evt=pageLoad&sv=2&cdb=AQAQ&rn=709549",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=85c668de-d817-489e-94fc-6c4deb6af378&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=10008&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=85c668de-d817-489e-94fc-6c4deb6af378&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=10008&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=825d8750-1a13-4e7d-8cf7-d22e07b91e33&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=10021&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=825d8750-1a13-4e7d-8cf7-d22e07b91e33&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=236ddec1-ba0e-437d-8a6d-edd5923a0633&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&tw_engaged_ms=10021&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "A Bank You Can Call Your ‘Own’",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "About RBL Bank",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "15",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "628",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "1078",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "248",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Vision",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bank of Choice",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trust and Respect of our Stakeho",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Creating and Nurturing Enduring ",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Mission",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "<!--td {border: 1px solid #ccccc",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "<!--td {border: 1px solid #ccccc",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "<!--td {border: 1px solid #ccccc",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "<!--td {border: 1px solid #ccccc",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "clearfix",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "clearfix",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "card-impact",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "card-impact",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "card-impact",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "card-impact",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   },
+   {
+    "sel": "card-body",
+    "width": 294,
+    "left": 33
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 10019,
+  "textLen": 4760,
+  "images": [
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-rating.webp",
+    "natural": "485x750",
+    "rendered": "336x520",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-customers.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-Branches.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-BC-Branches.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AboutUS-BC-Outlets.svg",
+    "natural": "60x60",
+    "rendered": "70x70",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finnoviti.gif",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "finacle-2026.png",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaa-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaa-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aaa-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iba-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iba-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iba-2026.jpg",
+    "natural": "520x275",
+    "rendered": "334x170",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mission-customers.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mission-employees.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mission-community.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mission-shareholder.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "two-col-img-1.png",
+    "natural": "446x359",
+    "rendered": "296x238",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "two-col-img-2.png",
+    "natural": "446x359",
+    "rendered": "296x238",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "49x19",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "A Bank You Can Call Your ‘Own’",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "About RBL Bank",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "15",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "628",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "1078",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "248",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Vision",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bank of Choice",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trust and Respect of our Stakeho",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Creating and Nurturing Enduring ",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Mission",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "CUSTOMERS AT THE HEART",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "EMPLOYEES AS THE PILLAR",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "COMMUNITY AS THE CAUSE",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "SHAREHOLDER VALUE AS THE FOCUS",
+    "color": "rgb(33, 33, 33)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "au-banner__inner",
+    "width": 320,
+    "left": 20
+   },
+   {
+    "sel": "au-about__text",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "au-impact__card",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "au-impact__card",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "au-impact__card",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "au-impact__card",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   },
+   {
+    "sel": "au-award__body",
+    "width": 334,
+    "left": 13
+   }
+  ]
+ }
+}

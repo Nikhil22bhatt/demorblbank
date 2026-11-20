@@ -1,0 +1,26 @@
+{
+  "key": {
+    "url": "https://www.rbl.bank.in/",
+    "width": 1440,
+    "main": "main"
+  },
+  "probedAt": "2026-11-19T09:04:04.019Z",
+  "data": {
+    "doc": 5427,
+    "rootMissing": false,
+    "rootWrapsChrome": true,
+    "sections": [
+      {
+        "label": "section[0]",
+        "box": [
+          248,
+          4345
+        ]
+      }
+    ],
+    "footer": [
+      4593,
+      834
+    ]
+  }
+}

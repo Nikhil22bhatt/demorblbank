@@ -1,0 +1,22 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.rbl.bank.in/",
+  "width": 1440,
+  "vh": 900,
+  "height": 5323,
+  "chunks": 6,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 29,
+    "late": 0
+  },
+  "heightChange": {
+    "initial": 5427,
+    "final": 5323
+  },
+  "at": "2026-11-19T08:46:12.627Z"
+}

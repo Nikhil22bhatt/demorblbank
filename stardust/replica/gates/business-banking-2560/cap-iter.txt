@@ -1,0 +1,13 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.rbl.bank.in/business-banking
+  modules  2 sections: capped 1140 ×2 · full-bleed ×0
+  contentMaxWidth 1140px (module) · shellMaxWidth fluid · root #content
+build  http://localhost:8791/business-banking-proposed.html
+  modules  5 sections: capped 1140 ×5 · full-bleed ×0
+  contentMaxWidth 1140px (module) · shellMaxWidth fluid · root #content
+rows
+  ✓ content cap: live 1140px = build 1140px (±20, shared module cap)
+  ⚠ sections: live 2 vs build 5 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/2: 1140px = 1140px
+  ✓ module 2/2: 1140px = 1140px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/business-banking-2560/cap-iter.json)

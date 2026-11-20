@@ -1,0 +1,169 @@
+{
+  "a": "stardust/replica/gates/business-banking-1440/live.png",
+  "b": "stardust/replica/gates/business-banking-1440/build.png",
+  "compared": {
+    "width": 1440,
+    "height": 4063,
+    "mode": "overlap"
+  },
+  "heightDelta": 2,
+  "differingPixels": 17605,
+  "pct": 0.32,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/business-banking-1440/diff-iter2.png",
+  "masks": [
+    {
+      "yA": 772,
+      "h": 116,
+      "yB": 772
+    },
+    {
+      "yA": 1672,
+      "h": 116,
+      "yB": 1672
+    }
+  ],
+  "maskedRows": 232,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4063,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.24,
+    "differingPixels": 13315,
+    "compared": {
+      "width": 1440,
+      "height": 3833,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 3727,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 4064,
+        "shift": -1,
+        "cumulative": -2
+      }
+    ],
+    "maxOffset": 2,
+    "totalShift": 2,
+    "insertedRows": 0,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.5,
+        "unaligned": 1.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4065,
+        "pct": 1.5,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/business-banking-1440/diff-iter2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 2,
+    "pass": true
+  },
+  "reason": null
+}

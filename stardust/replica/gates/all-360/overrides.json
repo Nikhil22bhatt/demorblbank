@@ -1,0 +1,9 @@
+{
+ "index": {
+  "verdict": "PASS",
+  "waives": [
+   "content"
+  ],
+  "reason": "content MISSING only for the hero slide-5 headings \u2014 h1 \"Pay your taxes seamlessly with RBL Bank. Direct tax, GST, Custom duty & more.\" and h2 \"Pay via: Internet Banking | Branch\" \u2014 present in the served hero-carousel but on a slide not showing at probe time: live and build carousels autoplay (restoreAtDelivery, owner decision 2026-11-19); no other content finding"
+ }
+}

@@ -1,0 +1,46 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/about-us
+  build: http://localhost:8791/about-us-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: 36 delta(s) — 78 paired of 78/78 texts, 2/2 icons
+  PAIR         "Careers"  Δy -2px (5515→5513)
+  PAIR         "Term Deposits"  Δy -2px (5515→5513)
+  PAIR         "Service Charges & Fees"  Δy -2px (5515→5513)
+  PAIR         "Do Not Call Registry"  Δy -2px (5526→5524)
+  PAIR         "Others"  Δy -2px (5803→5801)
+  PAIR         "‌"  Δy -2px (5803→5801)
+  PAIR         "‌"  Δy -2px (5809→5807)
+  PAIR         "Trade & Forex Services"  Δy -2px (5808→5806); Δh -2px (20→18)
+  PAIR         "QIP 2019"  Δy -2px (5808→5806)
+  PAIR         "Important Documents"  Δy -2px (5808→5806)
+  PAIR         "Account Aggregator"  Δy -2px (5808→5806)
+  PAIR         "Terms & Conditions"  Δy -2px (5808→5806)
+  PAIR         "Banking Ombudsman"  Δy -2px (5808→5806)
+  PAIR         "Customer Knowledge Center"  Δy -2px (5844→5842)
+  PAIR         "Financial Literacy"  Δy -2px (5844→5842)
+  PAIR         "RBI Kehta Hai"  Δy -4px (5846→5842)
+  PAIR         "RBI Sachet Portal"  Δy -4px (5846→5842)
+  PAIR         "Use of Un-parlimentary Language by Custo"  Δy -2px (5844→5842)
+  PAIR         "Aadhaar Enrolment Centers"  Δy -2px (5881→5879)
+  PAIR         "NEFT Customer Facilitation Center"  Δy -2px (5881→5879)
+  PAIR         "Report loss or unauthorised use of Credi"  Δy -2px (5881→5879)
+  PAIR         "Report loss or unauthorised use of Debit"  Δy -2px (5918→5916)
+  PAIR         "Block Retail Internet Banking"  Δy -2px (5918→5916)
+  PAIR         "Copyright 2026 RBL Bank Ltd."  Δy -2px (5980→5978)
+  PAIR         "Site best viewed in IE 9-11, Edge 25, Ch"  Δy -2px (6011→6009)
+  PAIR         "Follow us"  Δy -2px (5998→5996)
+  PAIR         "‌"  Δy -2px (6006→6004)
+  PAIR         "Facebook"  Δy -2px (5998→5996)
+  PAIR         "‌"  Δy -2px (6006→6004)
+  PAIR         "Linkedin"  Δy -2px (5998→5996)
+  PAIR         "twitter"  Δy -2px (5998→5996)
+  PAIR         "‌"  Δy -2px (6006→6004)
+  PAIR         "instagram"  Δy -2px (5998→5996)
+  PAIR         "‌"  Δy -2px (6006→6004)
+  PAIR         "youtube"  Δy -2px (5998→5996)
+  ICON         "Trade & Forex Services"  icon #0 near "Trade & Forex Services": Δh -3px (19→16)
+
+✗ 36 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

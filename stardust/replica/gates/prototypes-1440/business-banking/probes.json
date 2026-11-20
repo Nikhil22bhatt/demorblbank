@@ -1,0 +1,66 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T09:48:15.835Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 0,
+   "textNodes": 104,
+   "controls": 88,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.story-card",
+    "path": "li.rail__slide > article.story-card > div.story-card__inner > p.story-card__date",
+    "text": "oct 07, 2026",
+    "cutMin": 0,
+    "cutMax": 0
+   },
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.story-card",
+    "path": "article.story-card > div.story-card__inner > h3.story-card__title > a",
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.story-card",
+    "path": "article.story-card > div.story-card__inner > h3.story-card__title > a",
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+    "cutMin": 53,
+    "cutMax": 53
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 12,
+   "within": 36,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--1aa640c2--aemcoder.aem.page/contact-us",
+ "at": "2026-11-19T10:27:59.710Z",
+ "shots": "stardust/.work/chrome/header-build-360",
+ "widths": {
+  "360": {
+   "root": "body>header>div>nav:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "More about banking products",
+     "key": "more about banking products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav:nth-of-type(2)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      13,
+      102,
+      30,
+      27
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [
+         "Our Products"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         167,
+         96,
+         177,
+         18
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 280,
+         "easing": "linear",
+         "target": "span.drawer-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 280,
+         "easing": "linear",
+         "target": "span.drawer-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.drawer-dialog"
+        }
+       ],
+       "shot": "360-001-More-about-banking-products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [
+         "Our Products"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Close"
+        ],
+        "options": 0,
+        "rect": [
+         167,
+         96,
+         177,
+         18
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 280,
+         "easing": "linear",
+         "target": "span.drawer-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 280,
+         "easing": "linear",
+         "target": "span.drawer-overlay"
+        },
+        {
+         "kind": "transition",
+         "prop": "right",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.drawer-dialog"
+        }
+       ],
+       "shot": "360-002-More-about-banking-products-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#modal-products>div>div:nth-of-type(1)>button",
+       "expanded": null,
+       "rect": [
+        328,
+        97,
+        16,
+        16
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 2
+        },
+        "key": {
+         "opened": false,
+         "hides": 2
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav:nth-of-type(2)>div>div:nth-of-type(1)>a",
+     "href": "https://main--1aa640c2--aemcoder.aem.page/",
+     "expanded": null,
+     "rect": [
+      54,
+      85,
+      116,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav:nth-of-type(2)>div>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      236,
+      98,
+      36,
+      36
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "whatsapp",
+     "key": "whatsapp",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav:nth-of-type(2)>div>div:nth-of-type(2)>a",
+     "href": "https://api.whatsapp.com/send?phone=918433598888&text=Hi%20RBL&source=&data=&app_absent=",
+     "expanded": null,
+     "rect": [
+      280,
+      98,
+      36,
+      36
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav:nth-of-type(2)>div>div:nth-of-type(2)>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      324,
+      98,
+      36,
+      36
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 75,
+     "height": 80,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 75,
+     "height": 80,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 75,
+     "height": 80,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 75,
+     "height": 80,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 41,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

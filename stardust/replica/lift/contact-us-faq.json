@@ -1,0 +1,47 @@
+[
+{
+"id": "3367",
+"q": "How can I find the nearest RBL Bank branch?",
+"a": "<p>You can find the nearest RBL Bank branch by using the <a href=\"/locate-us\" aria-label=\"Locate Branch\">Branch Locator</a> on the Contact Us page. Alternatively, use the RBL Cares Chatbot and select Banking Services → Branch Locator.</p>"
+},
+{
+"id": "3368",
+"q": "How do I contact RBL Bank for account-related queries? ",
+"a": "<p>You can contact RBL Bank Customer Care at <a href=\"tel:+91 22 6232 7777\" aria-label=\"Contact RBL Bank\">+91 22 6232 7777</a> or use the <a href=\"https://outsys1.rbl.bank.in/WebForm/\" aria-label=\"Raise a Query\" target=\"_blank\">Raise a Query / Request / Complaint</a> feature on the website.</p>"
+},
+{
+"id": "3369",
+"q": "Can I contact RBL Bank for credit card support? ",
+"a": "<p>Yes, for credit card support including billing, payments, and activation, contact Customer Care at <a href=\"tel:+91 22 6232 7777\" aria-label=\"Contact customer care\">+91 22 6232 7777</a> or raise a request via the website.</p>"
+},
+{
+"id": "3370",
+"q": "How do I submit feedback or complaints to RBL Bank? ",
+"a": "<p>You can submit feedback or complaints using the <a href=\"https://outsys1.rbl.bank.in/WebForm/\" aria-label=\"Submit your feedback\" target=\"_blank\">Raise a Query / Request / Complaint</a> feature on the website.</p>"
+},
+{
+"id": "3371",
+"q": "My RBL Bank account was closed without notification. What can I do?",
+"a": "<p>Please contact Customer Care at <a href=\"tel:+91 22 6232 7777\" aria-label=\"RBL customer care number\">+91 22 6232 7777</a> to understand the reason for the account closure.</p>"
+},
+{
+"id": "3372",
+"q": "What if RBL Bank Customer Care is not responding?",
+"a": "<p>If Customer Care is not responding, submit your request using the online complaint form for quicker resolution.</p>"
+},
+{
+"id": "3373",
+"q": "I am being harassed by RBL Bank recovery agents. What should I do?",
+"a": "<p>If you experience harassment from collection agents, report it using the online complaint form on the website.</p>"
+},
+{
+"id": "3374",
+"q": "How do I get my RBL Bank loan statement or resolve repayment issues?",
+"a": "<p>For loan statements or repayment issues, contact Customer Care at <a href=\"tel:+91 22 6232 7777\" aria-label=\"Loan details contact number\">+91 22 6232 7777</a> or submit your request via the website.</p>"
+},
+{
+"id": "3375",
+"q": "My RBL Bank transaction failed but money was deducted. What should I do?",
+"a": "<p>In case of a failed transaction, the amount is usually reversed within 7–10 business days. If not, contact Customer Care at <a href=\"tel:+91 22 6232 7777\" aria-label=\"Failed transaction contact number\">+91 22 6232 7777</a>.</p>"
+}
+]

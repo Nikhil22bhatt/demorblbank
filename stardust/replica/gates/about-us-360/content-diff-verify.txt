@@ -1,0 +1,24 @@
+
+Content diff @ 360px (profile "generic", roots: #content, header, footer)
+root "#content"
+  source: 95 text nodes — 17 headings, 0 eyebrows, 7 CTAs, 71 body; 22 img
+  build: 95 text nodes — 17 headings, 0 eyebrows, 7 CTAs, 71 body; 21 img
+  editable texts (outermost h*/p/ul/ol): source 62 / build 62
+  attributes (placeholder/aria-label/title): source 7 / build 7; icons: source 4 / build 4
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 9 / build 9; icons: source 2 / build 2
+root "footer"
+  source: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  build: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 25
+  attributes (placeholder/aria-label/title): source 57 / build 57; icons: source 2 / build 2
+
+Findings: 4 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 4
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 7×20) at "- any - 2026 2025 2024 2023 2022 2021 20" is at "button#1" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 7×20) at "- any - 2026 2025 2024 2023 2022 2021 20" is at "button#2" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 0×0) at "- any - 2023 2024 2022 2021 2020 2019 20" is at "button#3" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 0×0) at "- any - 2023 2024 2022 2021 2020 2019 20" is at "button#4" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

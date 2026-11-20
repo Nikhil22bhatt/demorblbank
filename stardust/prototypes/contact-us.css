@@ -1,0 +1,113 @@
+/* contact-us page modules: section tabs, contact cards, office card, FAQ accordion.
+   Lifted from style.css (.contact-tab-section, .tab-wrap, .faq-rbl-*, .right-border-h2)
+   and the page's inline <style> (.contus .cardCont …). */
+
+.contact-section { position: relative; padding-bottom: 45px; background: var(--rbl-lavender); }
+
+/* ---- page tabs (sticky after 500px scroll: .tab-wrap.fixed-tab, see chrome.js) ---- */
+.tab-wrap-outer { min-height: 70px; }
+.tab-wrap {
+  margin-bottom: 45px; padding-top: 5px; background: #fff;
+  box-shadow: -2px 4px 4px rgb(0 0 0 / 0.15);
+}
+.tab-wrap.fixed-tab {
+  position: fixed; top: 140px; left: 0; right: 0; z-index: 999;
+  width: 100%; margin-bottom: 0; padding-top: 0;
+}
+.page-tabs { display: flex; padding: 13px 0; border-bottom: 1px solid transparent; }
+.page-tabs__link {
+  position: relative; display: block; margin: 0 15px -1px 0; padding: 8px 16px;
+  border: 1px solid transparent; border-radius: 6px 6px 0 0;
+  font-size: 16px; line-height: 26.88px; color: var(--rbl-blue); white-space: nowrap;
+}
+.page-tabs__link--active { font-weight: 700; }
+.page-tabs__link--active::after {
+  content: ""; position: absolute; left: 10px; right: 12px; bottom: -12px; height: 2px;
+  background: var(--rbl-blue);
+}
+
+.card-deck-tab { padding: 40px 0; }
+
+/* ---- contact cards (float model ported from the inline rules) ---- */
+.contus .cardCont {
+  float: left; width: 100%; min-height: 280px;
+  padding: 25px 15px 15px; border: 1px solid #ccc; border-radius: 5px; background: #fff;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 0.3), inset 0 0 5px rgb(255 255 255 / 0.1);
+}
+.contus .titleCont { float: left; width: 100%; height: 50px; }
+.contus .titleCont .h3 { margin: 0; font-size: 20px; font-weight: 400; line-height: 26px; color: var(--rbl-blue); }
+.contus .titleCont img { float: left; width: 50px; padding: 0 15px 0 0; }
+.contus .descCont { float: left; width: 100%; min-height: 170px; padding: 0 0 10px 50px; }
+.contus .cardCont p {
+  float: left; width: 100%; padding: 15px 0 25px;
+  font-size: 16px; line-height: 22px; color: var(--rbl-ink);
+}
+.contus .cardCont span { float: left; width: 100%; padding: 0 0 15px; font-size: 16px; line-height: 22px; }
+.contus .cardCont .bgimg { float: right; width: 60px; margin: -40px 0 0; }
+.contus .col-md-6 .descCont { min-height: auto; }
+.contus .col-md-12 .cardCont { min-height: auto; }
+.mt40 { margin-top: 40px; }
+
+/* ---- FAQ ---- */
+.right-border-h2 {
+  position: relative; margin: 50px 0; padding: 0 12px 0 23px;
+  font-size: 34px; font-weight: 700; line-height: 1.3; color: var(--rbl-ink);
+}
+.right-border-h2::before {
+  content: ""; position: absolute; top: 0; left: 0; z-index: 9;
+  width: 5px; height: 100%; background: var(--rbl-blue);
+}
+.faq-card {
+  position: relative; display: flex; flex-direction: column;
+  margin-bottom: 8px; border: 1px solid var(--rbl-border); border-radius: 4px;
+  background: var(--rbl-faq-bg); overflow: hidden;
+}
+.faq-card:last-child { margin-bottom: 0; }
+.faq-card__header { position: relative; padding: 20px 20px 20px 30px; background: #fff; border-radius: 5px 5px 0 0; }
+.faq-card__header::before {
+  content: ""; position: absolute; top: 50%; left: 0; z-index: 3;
+  width: 4.1px; height: 35.88px; background: #909090; transform: translateY(-50%);
+}
+.faq-card__toggle {
+  position: relative; display: inline-block; width: 100%; padding: 0 35px 0 0;
+  text-align: left; line-height: 26.88px; color: #000;
+}
+.faq-card__toggle span {
+  position: relative; z-index: 5; display: inline-block; width: calc(100% - 20px);
+  font-size: 20px; font-weight: 700; line-height: 148%; color: var(--rbl-blue);
+}
+.faq-card__toggle::after {
+  content: ""; position: absolute; top: -4px; right: 0; z-index: 3;
+  width: 32px; height: 32px; background: url("shared/images/plus-acco.svg") no-repeat;
+}
+.faq-card__toggle[aria-expanded="true"]::after { background-image: url("shared/images/minus-acco.svg"); }
+.faq-card__toggle[aria-expanded="true"]::before {
+  content: ""; position: absolute; top: -30px; right: -30px; bottom: -25px; left: -30px; z-index: 3;
+  background: var(--rbl-faq-bg);
+}
+.faq-card__toggle[aria-expanded="true"] span { font-weight: 400; }
+.faq-card__body { position: relative; z-index: 9; padding: 0 30px 30px; background: var(--rbl-faq-bg); }
+.faq-card__body p { margin-bottom: 20px; font-size: 16px; color: var(--rbl-ink); }
+
+@media (max-width: 786px) {
+  .contus .col-md-4, .contus .col-md-6 { margin: 0 0 30px; }
+}
+@media (max-width: 767px) {
+  .contact-section { background: #fff; }
+  .tab-wrap-outer { min-height: 40px; }
+  .tab-wrap { margin-bottom: 0; }
+  .tab-wrap.fixed-tab { top: 87px; }
+  .tab-wrap .container { padding: 0; }
+  .page-tabs { padding: 2px 0; overflow: hidden; }
+  .page-tabs__link { margin: 0 0 -1px; padding: 8px 15px; }
+  .page-tabs__link--active::after { left: 0.5px; right: 1.5px; bottom: 0; }
+  .card-deck-tab { padding: 20px 0; }
+  .right-border-h2 { font-size: 28px; }
+  .faq-card__header { padding: 15px 30px 15px 15px; }
+  .faq-card__toggle::after {
+    top: 50%; right: -30px; margin-top: 7px; background-size: 22px; transform: translateY(-50%);
+  }
+  .faq-card__body { padding: 0 18px 15px; }
+}
+.faq-container { margin-bottom: 8px; }
+.faq-card__body.collapsing { overflow: hidden; transition: height 0.35s ease; }

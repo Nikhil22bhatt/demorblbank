@@ -1,0 +1,57 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/optimize",
+    "writtenAt": "2026-11-19T12:08:23.733Z",
+    "stardustVersion": "0.0.0"
+  },
+  "current": {
+    "runId": "run-1",
+    "at": "2026-11-19T12:08:23.733Z",
+    "overall": 71,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 92,
+      "content-conversion": null,
+      "ai-search": 50,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 5,
+      "P3": 2
+    },
+    "fixed": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    }
+  },
+  "history": [
+    {
+      "runId": "run-1",
+      "at": "2026-11-19T12:08:23.733Z",
+      "overall": 71,
+      "dimensions": {
+        "brand-tensions": null,
+        "design-ux": null,
+        "accessibility": null,
+        "seo": 92,
+        "content-conversion": null,
+        "ai-search": 50,
+        "cross-page": null
+      },
+      "severity": {
+        "P1": 0,
+        "P2": 5,
+        "P3": 2
+      },
+      "fixed": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0
+      }
+    }
+  ]
+}

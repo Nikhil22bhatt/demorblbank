@@ -1,0 +1,51 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/business-banking-360/diff-iter2.png",
+    "json": "stardust/replica/gates/business-banking-360/pixel-iter2.json",
+    "pct": 0.2,
+    "alignedPct": 0.19,
+    "alignedUsed": true,
+    "totalShift": 4,
+    "steps": [
+      {
+        "y": 844,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 898,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 4775,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 5031,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 228,
+    "noiseFloor": 0.19,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T08:40:17.716Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "32:36,712:96,1612:96"
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T08:50:00.525Z"
+}

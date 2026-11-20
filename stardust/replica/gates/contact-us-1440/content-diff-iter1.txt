@@ -1,0 +1,148 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 616 ms
+
+Content diff @ 1440px (profile "generic", roots: #content, header, footer)
+root "#content"
+  source: 47 text nodes — 1 headings, 0 eyebrows, 19 CTAs, 27 body; 9 img
+  build: 47 text nodes — 1 headings, 0 eyebrows, 19 CTAs, 27 body; 9 img
+  editable texts (outermost h*/p/ul/ol): source 17 / build 17
+  attributes (placeholder/aria-label/title): source 20 / build 1; icons: source 9 / build 9
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 9 / build 0; icons: source 2 / build 2
+root "footer"
+  source: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  build: 63 text nodes — 5 headings, 0 eyebrows, 48 CTAs, 10 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 22
+  attributes (placeholder/aria-label/title): source 57 / build 7; icons: source 2 / build 6
+
+Findings: 127 (8 structural 🔴)
+Tiers: looks-same 🔴 8 · nothing-lost 🟡 82 · accepted 🟢 0 (owner 0, auto 0) · advisory 37
+  🔴 MISSING ICON [header]: source image Vector.svg (10×9) at "rent your property to rbl bank for propo" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING CTA [footer]: source cta "‌" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "‌ Facebook" → https://www.facebook.com/TheRBLBank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "‌ Linkedin" → https://www.linkedin.com/company/rbl-bank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "‌ instagram" → https://www.instagram.com/rbl_bank/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "‌ youtube" → https://www.youtube.com/@RblBankofficial?sub_confirmation=1 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [footer]: source heading "Attention" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [footer]: source cta "Proceed" → https://www.rbi.org.in/CommonPerson/english/scripts/rbikehtahai.aspx has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟡 MISSING ARIA-LABEL [#content]: source <nav> aria-label="Contact navigation" has no build <nav> with that aria-label (build <nav> aria-labels: "Contact sections"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Contact-us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Investor Redressal" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Report a Fraud" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Raise a Query" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Raise a query here" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Customer Care" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Get in touch" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Locate Us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Locate Branch and ATM" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Contact to 912262327777" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Contact Number" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Locate Branch" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Contact RBL Bank" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Raise a Query" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Contact customer care" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Submit your feedback" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="RBL customer care number" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Loan details contact number" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Failed transaction contact number" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#content]: build <nav> aria-label="Contact sections" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="Rent Your Property to RBL Bank for Propose Your " has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Rent Your Property to RBL Bank" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="Skip to Main Content for Login" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Skip to Main Content" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="A Low contrast view" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="A high contrast view" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="High Contrast View" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [header]: source <a> aria-label="Rent Your Property to RBL Bank for Propose Your " has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Rent Your Property to RBL Bank" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 ICON MOVED [header]: source image Vector.svg (25×24) at "rent your property to rbl bank for propo" is at "rent your property to rbl bank" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [header]: build image property.svg (10×9) at "rent your property to rbl bank" has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING BODY [footer]: source body "About"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Media Center"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Products"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Important Links"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Customer Service"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "‌"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "You are leaving RBL Bank website (“RBL Bank’s we"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [footer]: build body "About ‌" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Media Center ‌" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Products ‌" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Important Links ‌" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Customer Service ‌" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [footer]: build has 22 outermost editable element(s) vs 25 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [footer]: source <footer> aria-label="footer navigation block" has no build <footer> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="The Bank" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Board of Directors" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Leadership Team" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Careers" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Social Responsibility" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Sustainability Framework" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Press Releases" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Media Kit" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Investor Relations" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Savings Account" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Current Account" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Credit Cards" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Term Deposits" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Housing Loan" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="NRI Services" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Regulatory Disclosures" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Bank Codes & Policies" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="News" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Service Charges & Fees" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Interest Rates" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Download Forms" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Site Map" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Contact Us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Raise a Query / Request / Complaint" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Locate Us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Do Not Call Registry" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Grievance Redressal" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Feedback" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Lodge a Complaint" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Report a Fraud" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Unclaimed Deposits" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Certificates Issued by the Bank" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Collapse section for other footer section" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Trade & Forex Services" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="QIP 2019" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Important Documents" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Account Aggregator" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Terms & Conditions" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Banking Ombudsman" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Customer Knowledge Center" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Financial Literacy" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="RBI Kehta Hai" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="RBI Sachet Portal" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Use of Un-parlimentary Language by Customers" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Aadhaar Enrolment Centers" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="NEFT Customer Facilitation Center" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Report loss or unauthorised use of Credit Card" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Report loss or unauthorised use of Debit Card" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Block Retail Internet Banking" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Follow RBL Bank on Facebook (opens in new tab)" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Follow RBL Bank on LinkedIn (opens in new tab)" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Follow RBL Bank on Twitter" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Follow RBL Bank on Instagram (opens in new tab)" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Follow RBL Bank on Youtube (opens in new tab)" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <button> aria-label="Close" has no build <button> with that aria-label (build <button> aria-labels: "Toggle About ‌", "Toggle Media Center ‌", "Toggle Products ‌"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [footer]: source <a> aria-label="Proceed" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle About ‌" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle Media Center ‌" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle Products ‌" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle Important Links ‌" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle Customer Service ‌" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Toggle Others" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Collapse Others" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [footer]: source inline svg 0 0 512 512 / 1 shape(s) (12×12) at "follow rbl bank on twitter" is at "twitter" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 320 512 / 1 shape(s) (12×12) at "facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 448 512 / 1 shape(s) (12×12) at "linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 448 512 / 1 shape(s) (12×12) at "instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build inline svg 0 0 576 512 / 1 shape(s) (12×12) at "youtube" has no source source. Build-only icon — confirm it is intended.

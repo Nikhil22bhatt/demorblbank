@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-19T08:40:17.716Z",
+  "url": "https://www.rbl.bank.in/business-banking",
+  "width": 360,
+  "vh": 900,
+  "height": 5031,
+  "settle": true,
+  "chunks": 6,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 30,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 5031,
+    "pct": 0.17,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    5031,
+    5031
+  ],
+  "noiseFloor": 0.19,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 32,
+      "h": 36,
+      "pct": 0.7
+    },
+    {
+      "y": 712,
+      "h": 96,
+      "pct": 6
+    },
+    {
+      "y": 1612,
+      "h": 96,
+      "pct": 10.9
+    }
+  ],
+  "variableShare": 4.53,
+  "maskArg": "32:36,712:96,1612:96",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-19T08:41:11.291Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

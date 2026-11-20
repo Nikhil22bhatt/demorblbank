@@ -1,0 +1,98 @@
+{
+ "title": "Business Banking – Business Bank Accounts, Business Services Online India | Best Bank |RBL Bank",
+ "products": [
+  {
+   "img": "business-banking-group.jpg",
+   "alt": "aaatest",
+   "title": "Business Banking Group",
+   "copy": "Meet your business obligations and operational costs with RBL Bank's business banking solutions.",
+   "href": "/business-banking/business-banking-group"
+  },
+  {
+   "img": "agri-banking.jpg",
+   "alt": "aaatest",
+   "title": "Agri Banking",
+   "copy": "Our unique agri-banking offerings are advantageous for your various agri-business needs.Get all services under one roof.",
+   "href": "/business-banking/agri-banking"
+  },
+  {
+   "img": "gss.jpg",
+   "alt": "aaatest",
+   "title": "Government Sponsored Scheme",
+   "copy": "Celebrating the Spirit of Indian Entrepreneurship. Explore Government sponsored scheme solutions for your business needs.",
+   "href": "/business-banking/government-sponsored-scheme"
+  },
+  {
+   "img": "business.jpg",
+   "alt": "aaatest",
+   "title": "Business",
+   "copy": "Simplify your business banking experience with our customized solutions.",
+   "href": "/business-banking/business"
+  }
+ ],
+ "blog": [
+  {
+   "img": "blog-apk-fraud.webp",
+   "date": "Nov 04, 2026",
+   "title": "How to Protect Your Device from APK Fraud?",
+   "imgLabel": "How to Protect Your Device from APK Fraud?",
+   "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud",
+   "aria": "How to Protect Your Device from APK Fraud? for How To Protect Your Device From Apk Fraud"
+  },
+  {
+   "img": "blog-genuine-comms.webp",
+   "date": "Oct 26, 2026",
+   "title": "Tips for Identifying Genuine Bank Communicationse",
+   "imgLabel": "Tips for Identifying Genuine Bank Communications",
+   "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications",
+   "aria": "Tips for Identifying Genuine Bank Communicationse for Tips For Identifying Genuine Bank Communications"
+  },
+  {
+   "img": "blog-cybersecurity.webp",
+   "date": "Oct 16, 2026",
+   "title": "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+   "imgLabel": "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+   "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online",
+   "aria": "Stay Safe Online: Simple Tips to Avoid Cybercrime for 10 Cybersecurity Tips To Stay Safe Online"
+  },
+  {
+   "img": "blog-nri-accounts.webp",
+   "date": "Oct 14, 2026",
+   "title": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+   "imgLabel": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+   "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india",
+   "aria": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained for Nre Vs Nro Vs Fcnr Complete Guide To Nri Accounts In India"
+  },
+  {
+   "img": "blog-1600-series.webp",
+   "date": "Oct 07, 2026",
+   "title": "1600-Series Call Scam: How Fraudsters Spoof Numbers to Steal from You",
+   "imgLabel": "1600-Series Call Scam: How Fraudsters Spoof Numbers to Steal from You",
+   "href": "/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself",
+   "aria": "1600-Series Call Scam: How Fraudsters Spoof Numbers to Steal from You for Spoofed Calls 1600 Series How To Protect Yourself"
+  }
+ ],
+ "videos": [
+  {
+   "img": "video-chess.webp",
+   "alt": "Business or Chess, the right move can change the entire game | Ft. D Gukesh X RBL Bank",
+   "video": "https://www.youtube.com/embed/2XGgxeKXOAU?si=Noh20xgIlRzBihz_&autoplay=1&rel=0&modestbranding=1&showinfo=0&controls=1"
+  },
+  {
+   "img": "video-csr-helo.webp",
+   "alt": "CSR Initiatives - Creating Impact Through H.E.LO Health, Education & Livelihood Opportunities",
+   "video": "https://www.youtube.com/embed/aGpwDa9Z4aY?si=QsAfOcDC0ZrlvvGU&autoplay=1&rel=0&modestbranding=1&showinfo=0&controls=1"
+  },
+  {
+   "img": "video-world-safari.webp",
+   "alt": "Who’s the best travel companion for World Chess Champion D. Gukesh?",
+   "video": "https://www.youtube.com/embed/HdMYmrBVKBM?si=ZJg6wi1BVGIvUjBO&autoplay=1&rel=0&modestbranding=1&showinfo=0&controls=1"
+  },
+  {
+   "img": "video-voyedge.webp",
+   "alt": "RBL Bank VoyEdge Forex Card. Experience every travel moment, with an edge.",
+   "video": "https://www.youtube.com/embed/tMUvCjXiqCo?si=m1AZ1ddbp1nUPNae&autoplay=1&rel=0&modestbranding=1&showinfo=0&controls=1"
+  }
+ ],
+ "description": "Get business banking solution for your business, RBL Bank provides tailor made account which best suits all your business banking needs."
+}

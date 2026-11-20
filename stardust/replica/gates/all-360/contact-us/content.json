@@ -1,0 +1,3634 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T11:50:54.025Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.rbl.bank.in/contact-us",
+  "at": "2026-11-19T11:50:35.007Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3827,
+  "root": "main#content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#aioa-trigger-button > div > button#accessibility_settings_toggle",
+    "x": 319,
+    "y": 5,
+    "w": 33,
+    "h": 33,
+    "text": "show accessibility preferences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > button#accessibility_settings_toggle > img.accessibility_settings_toggle_icon",
+    "x": 324,
+    "y": 10,
+    "w": 22,
+    "h": 22,
+    "text": "",
+    "file": "aioa-icon-type-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#skip-main-content-btn",
+    "x": 117,
+    "y": 11,
+    "w": 125,
+    "h": 22,
+    "text": "skip to main content",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#light-body-a",
+    "x": 253,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#dark-body-a",
+    "x": 294,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul.d-lg-none > li.text-end > a#header-propose-your-property",
+    "x": 159,
+    "y": 43,
+    "w": 199,
+    "h": 24,
+    "text": "rent your property to rbl bank",
+    "href": "/propose-your-property"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.text-end > a#header-propose-your-property > img#header-propose-your-property",
+    "x": 166,
+    "y": 43,
+    "w": 25,
+    "h": 24,
+    "text": "property logo",
+    "file": "Vector"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-7.col-md-5 > div.mobile-more-logo-wrap > button#mob-header-hamb-menu",
+    "x": 13,
+    "y": 102,
+    "w": 30,
+    "h": 27,
+    "text": "more about banking products"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mobile-more-logo-wrap > button#mob-header-hamb-menu > img",
+    "x": 13,
+    "y": 107,
+    "w": 30,
+    "h": 17,
+    "text": "",
+    "file": "mobile-more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-7.col-md-5 > div.mobile-more-logo-wrap > a.logo-mobile-a.a-attention-link-add-script",
+    "x": 54,
+    "y": 78,
+    "w": 116,
+    "h": 74,
+    "text": "rbl bank",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.mobile-more-logo-wrap > a.logo-mobile-a.a-attention-link-add-script > img.logo-mob",
+    "x": 54,
+    "y": 85,
+    "w": 116,
+    "h": 60,
+    "text": "rbl bank",
+    "file": "rbl"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-5.col-md-7 > div.form-inline.d-flex > button#serach-btn-header",
+    "x": 236,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.form-inline.d-flex > button#serach-btn-header > img.img-fluid.img-white",
+    "x": 246,
+    "y": 107,
+    "w": 17,
+    "h": 17,
+    "text": "search",
+    "file": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-5.col-md-7 > div.form-inline.d-flex > a.circle-btn.nav-link",
+    "x": 280,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "whatsapp",
+    "href": "/send"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.form-inline.d-flex > a.circle-btn.nav-link > img.img-fluid.img-blue",
+    "x": 288,
+    "y": 106,
+    "w": 20,
+    "h": 20,
+    "text": "whatsapp",
+    "file": "whatsapp"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-5.col-md-7 > div.form-inline.d-flex > button.circle-btn.dropdown",
+    "x": 324,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "bell"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-5.col-md-7 > div.form-inline.d-flex > button.circle-btn.dropdown",
+    "x": 324,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "label": "trigger",
+    "value": "bell",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.form-inline.d-flex > button.circle-btn.dropdown > img.img-fluid.img-blue",
+    "x": 333,
+    "y": 106,
+    "w": 18,
+    "h": 21,
+    "text": "bell",
+    "file": "bell"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.chat-wrap2 > div.chat-wrap2-inner > img.chat-icon",
+    "x": 275,
+    "y": 724,
+    "w": 70,
+    "h": 63,
+    "text": "chat",
+    "file": "chat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.aos-init.aos-animate > div#nav-tab1-tab > a#tab-contact-us",
+    "x": 0,
+    "y": 123,
+    "w": 111,
+    "h": 45,
+    "text": "contact us",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.aos-init.aos-animate > div#nav-tab1-tab > a#tab-redressal",
+    "x": 111,
+    "y": 123,
+    "w": 238,
+    "h": 45,
+    "text": "investor grievance redressal",
+    "href": "/investor-grievance-redressal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "nav.aos-init.aos-animate > div#nav-tab1-tab > a#tab-report-a-fraud",
+    "x": 349,
+    "y": 123,
+    "w": 138,
+    "h": 45,
+    "text": "report a fraud",
+    "href": "/report-a-fraud"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.titleCont > img",
+    "x": 28,
+    "y": 216,
+    "w": 50,
+    "h": 35,
+    "text": "raise a query",
+    "file": "cont-raise-sr-sm"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.titleCont > h1.h3",
+    "x": 28,
+    "y": 216,
+    "w": 280,
+    "h": 52,
+    "level": 1,
+    "text": "raise a query / request / complaint"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.titleCont > h1.h3 > a#contact-us-raise-a-query",
+    "x": 78,
+    "y": 217,
+    "w": 226,
+    "h": 50,
+    "text": "raise a query / request / complaint",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.descCont > p",
+    "x": 78,
+    "y": 266,
+    "w": 230,
+    "h": 106,
+    "text": "Have questions or need assistance? Our team is ready to help you at every step."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.descCont > p > a#contact-us-raise-here-assistance",
+    "x": 78,
+    "y": 387,
+    "w": 146,
+    "h": 42,
+    "text": "raise here",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-4 > div.cardCont > img.bgimg",
+    "x": 248,
+    "y": 424,
+    "w": 60,
+    "h": 60,
+    "text": "raise a query here",
+    "file": "cont-raise-sr-lg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.titleCont > img",
+    "x": 28,
+    "y": 556,
+    "w": 50,
+    "h": 35,
+    "text": "customer care",
+    "file": "cont-custcare-sm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.titleCont > div.h3 > a#contact-us-cust-care",
+    "x": 78,
+    "y": 557,
+    "w": 133,
+    "h": 24,
+    "text": "customer care",
+    "href": "/contact-us/customer-care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.descCont > p",
+    "x": 78,
+    "y": 606,
+    "w": 230,
+    "h": 128,
+    "text": "Need assistance or support? We’re available to help with all your banking needs "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.descCont > p > a#contact-us-cust-care",
+    "x": 78,
+    "y": 749,
+    "w": 146,
+    "h": 42,
+    "text": "get in touch",
+    "href": "/contact-us/customer-care"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-4 > div.cardCont > img.bgimg",
+    "x": 248,
+    "y": 786,
+    "w": 60,
+    "h": 60,
+    "text": "get in touch",
+    "file": "cont-custcare-lg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.titleCont > img",
+    "x": 28,
+    "y": 918,
+    "w": 50,
+    "h": 35,
+    "text": "locate branches and atms",
+    "file": "cont-locate-sm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.titleCont > div.h3 > a#contact-us-locate-us",
+    "x": 78,
+    "y": 919,
+    "w": 89,
+    "h": 24,
+    "text": "locate us",
+    "href": "/locate-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cardCont > div.descCont > p",
+    "x": 78,
+    "y": 968,
+    "w": 230,
+    "h": 128,
+    "text": "Find the nearest branch or ATM with ease. Use our locator to get directions, hou"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.descCont > p > a#contact-us-locate-us",
+    "x": 78,
+    "y": 1111,
+    "w": 173,
+    "h": 42,
+    "text": "find atm / branch",
+    "href": "/locate-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-4 > div.cardCont > img.bgimg",
+    "x": 248,
+    "y": 1148,
+    "w": 60,
+    "h": 60,
+    "text": "find branches and atms",
+    "file": "cont-locate-lg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.titleCont > img",
+    "x": 28,
+    "y": 1320,
+    "w": 50,
+    "h": 35,
+    "text": "registered office",
+    "file": "cont-regoff-sm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.titleCont > div.h3",
+    "x": 28,
+    "y": 1320,
+    "w": 280,
+    "h": 26,
+    "text": "Registered Office"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.descCont > div > span",
+    "x": 78,
+    "y": 1370,
+    "w": 230,
+    "h": 59,
+    "text": "RBL Bank Ltd. 1st Lane, Shahupuri, Kolhapur - 416001."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.descCont > div",
+    "x": 78,
+    "y": 1370,
+    "w": 230,
+    "h": 123,
+    "text": "L65191PN1943PLC007308"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.titleCont > img",
+    "x": 28,
+    "y": 1533,
+    "w": 50,
+    "h": 35,
+    "text": "corporate office",
+    "file": "cont-corpoff-sm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.titleCont > div.h3",
+    "x": 28,
+    "y": 1533,
+    "w": 280,
+    "h": 26,
+    "text": "Corporate Office"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-6 > div.descCont > div",
+    "x": 78,
+    "y": 1583,
+    "w": 230,
+    "h": 108,
+    "text": "RBL Bank Ltd. One World Center, Tower 2B, 6th Floor, 841, Senapati Bapat Marg, L"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-12 > div.cardCont > img.bgimg",
+    "x": 248,
+    "y": 1727,
+    "w": 60,
+    "h": 60,
+    "text": "corporate office details",
+    "file": "cont-corpoff-lg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.clearfix.text-formatted > h2.right-border-h2.mt50",
+    "x": 0,
+    "y": 1853,
+    "w": 336,
+    "h": 73,
+    "level": 2,
+    "text": "frequently asked questions"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3367 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 1992,
+    "w": 265,
+    "h": 89,
+    "text": "how can i find the nearest rbl bank branch?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3367 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 1992,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "how can i find the nearest rbl bank branch?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3368 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2121,
+    "w": 265,
+    "h": 89,
+    "text": "how do i contact rbl bank for account-related queries?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3368 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2121,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "how do i contact rbl bank for account-related queries?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3369 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2250,
+    "w": 265,
+    "h": 89,
+    "text": "can i contact rbl bank for credit card support?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3369 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2250,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "can i contact rbl bank for credit card support?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3370 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2379,
+    "w": 265,
+    "h": 119,
+    "text": "how do i submit feedback or complaints to rbl bank?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3370 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2379,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "how do i submit feedback or complaints to rbl bank?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3371 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2538,
+    "w": 265,
+    "h": 119,
+    "text": "my rbl bank account was closed without notification. what can i do?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3371 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2538,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "my rbl bank account was closed without notification. what ca",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3372 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2697,
+    "w": 265,
+    "h": 89,
+    "text": "what if rbl bank customer care is not responding?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3372 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2697,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "what if rbl bank customer care is not responding?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3373 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2826,
+    "w": 265,
+    "h": 119,
+    "text": "i am being harassed by rbl bank recovery agents. what should i do?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3374 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2984,
+    "w": 265,
+    "h": 119,
+    "text": "how do i get my rbl bank loan statement or resolve repayment issues?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3374 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 2984,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "how do i get my rbl bank loan statement or resolve repayment",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3375 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 3143,
+    "w": 265,
+    "h": 119,
+    "text": "my rbl bank transaction failed but money was deducted. what should i do?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.mb-2 > div#heading3375 > button.faq-rbl-link-faq",
+    "x": 28,
+    "y": 3143,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "my rbl bank transaction failed but money was deducted. what ",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerfirst > div > p.h6.footer-head",
+    "x": 12,
+    "y": 3396,
+    "w": 336,
+    "h": 27,
+    "text": "About"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footersecond > div > p.h6.footer-head",
+    "x": 12,
+    "y": 3432,
+    "w": 336,
+    "h": 27,
+    "text": "Media Center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerthird > div > p.h6.footer-head",
+    "x": 12,
+    "y": 3469,
+    "w": 336,
+    "h": 27,
+    "text": "Products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerfourth > div > p.h6.footer-head",
+    "x": 12,
+    "y": 3506,
+    "w": 336,
+    "h": 27,
+    "text": "Important Links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-customerservice > div > p.footer-head.h6",
+    "x": 12,
+    "y": 3543,
+    "w": 336,
+    "h": 27,
+    "text": "Customer Service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.row2 > div.col-lg-1 > p.h6.footer-head",
+    "x": 12,
+    "y": 3576,
+    "w": 336,
+    "h": 27,
+    "text": "Others"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-fb.a-attention-link-add-script",
+    "x": 88,
+    "y": 3646,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/TheRBLBank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-linkedin.a-attention-link-add-script",
+    "x": 126,
+    "y": 3646,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/company/rbl-bank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-twitter.a-attention-link-add-script",
+    "x": 164,
+    "y": 3646,
+    "w": 32,
+    "h": 32,
+    "text": "follow rbl bank on twitter",
+    "href": "/rblbank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-insta.a-attention-link-add-script",
+    "x": 202,
+    "y": 3646,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/rbl_bank/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-yt.a-attention-link-add-script",
+    "x": 240,
+    "y": 3646,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/@RblBankofficial"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.row3 > div.col-lg-6.col-md-6 > p.p14.hide-desktop-above",
+    "x": 12,
+    "y": 3708,
+    "w": 336,
+    "h": 24,
+    "text": "Copyright 2026 RBL Bank Ltd."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.shadow.footer-mobile > div.tab-bar-icon > a.st.a-attention-link-add-script",
+    "x": 5,
+    "y": 833,
+    "w": 62,
+    "h": 43,
+    "text": "mobile home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.tab-bar-icon > a.st.a-attention-link-add-script > img",
+    "x": 5,
+    "y": 844,
+    "w": 62,
+    "h": 26,
+    "text": "mobile home",
+    "file": "Home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.text-block.pt-1 > p.txtfnt > a.a-attention-link-add-script",
+    "x": 20,
+    "y": 873,
+    "w": 32,
+    "h": 30,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.shadow.footer-mobile > div.tab-bar-icon > a.a-attention-link-add-script",
+    "x": 101,
+    "y": 833,
+    "w": 62,
+    "h": 43,
+    "text": "login",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.tab-bar-icon > a.a-attention-link-add-script > img",
+    "x": 101,
+    "y": 844,
+    "w": 62,
+    "h": 26,
+    "text": "login",
+    "file": "Login"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.text-block.pt-1 > p.txtfnt > button",
+    "x": 117,
+    "y": 880,
+    "w": 30,
+    "h": 20,
+    "text": "login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.shadow.footer-mobile > div.tab-bar-icon > a.st.a-attention-link-add-script",
+    "x": 197,
+    "y": 833,
+    "w": 62,
+    "h": 43,
+    "text": "payments",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.tab-bar-icon > a.st.a-attention-link-add-script > img",
+    "x": 197,
+    "y": 844,
+    "w": 62,
+    "h": 26,
+    "text": "payments",
+    "file": "Payments"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.text-block.pt-1 > p.txtfnt > button",
+    "x": 201,
+    "y": 880,
+    "w": 53,
+    "h": 20,
+    "text": "payments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.shadow.footer-mobile > div.tab-bar-icon.active-menu > a.st.a-attention-link-add-script",
+    "x": 293,
+    "y": 833,
+    "w": 62,
+    "h": 43,
+    "text": "more",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.tab-bar-icon.active-menu > a.st.a-attention-link-add-script > img",
+    "x": 309,
+    "y": 844,
+    "w": 30,
+    "h": 26,
+    "text": "more",
+    "file": "mobile-more"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.text-block.pt-1 > p.txtfnt > button",
+    "x": 310,
+    "y": 880,
+    "w": 28,
+    "h": 20,
+    "text": "more"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 1,
+    "textNodes": 45,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div#nav-tab1-tab",
+     "path": "div.common-tab-wrap.no-box-shadow > nav.aos-init.aos-animate > div#nav-tab1-tab > a#tab-report-a-fraud",
+     "text": "report a fraud",
+     "cutMin": 127,
+     "cutMax": 127
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--1aa640c2--aemcoder.aem.page/contact-us",
+  "at": "2026-11-19T11:50:53.865Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3827,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a",
+    "x": 118,
+    "y": 11,
+    "w": 125,
+    "h": 22,
+    "text": "skip to main content",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a.topbar-contrast.topbar-contrast-light",
+    "x": 253,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a.topbar-contrast.topbar-contrast-dark",
+    "x": 294,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list.topbar-list-mobile > li.topbar-property > a",
+    "x": 159,
+    "y": 43,
+    "w": 199,
+    "h": 24,
+    "text": "rent your property to rbl bank",
+    "href": "/propose-your-property"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.topbar-property > a > img",
+    "x": 166,
+    "y": 43,
+    "w": 25,
+    "h": 24,
+    "text": "property logo",
+    "file": "property"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.header-wrapper > div.header.block > button.a11y-launcher",
+    "x": 318,
+    "y": 3,
+    "w": 36,
+    "h": 36,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > button.a11y-launcher > img",
+    "x": 323,
+    "y": 8,
+    "w": 26,
+    "h": 26,
+    "text": "",
+    "file": "aioa"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-row > div.mobile-nav-brand > button.mobile-nav-hamb",
+    "x": 13,
+    "y": 102,
+    "w": 30,
+    "h": 27,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-brand > button.mobile-nav-hamb > img",
+    "x": 13,
+    "y": 107,
+    "w": 30,
+    "h": 17,
+    "text": "",
+    "file": "mobile-more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-row > div.mobile-nav-brand > a",
+    "x": 54,
+    "y": 85,
+    "w": 116,
+    "h": 60,
+    "text": "logo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.mobile-nav-logo",
+    "x": 54,
+    "y": 85,
+    "w": 116,
+    "h": 60,
+    "text": "logo",
+    "file": "media_14da5594bf8091320f17d9a598b7dbcc77"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-row > div.mobile-nav-actions > button.circle-btn",
+    "x": 236,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-actions > button.circle-btn > img",
+    "x": 246,
+    "y": 108,
+    "w": 17,
+    "h": 17,
+    "text": "search",
+    "file": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-row > div.mobile-nav-actions > a.circle-btn",
+    "x": 280,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "whatsapp",
+    "href": "/send"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-actions > a.circle-btn > img",
+    "x": 288,
+    "y": 107,
+    "w": 20,
+    "h": 20,
+    "text": "whatsapp",
+    "file": "whatsapp"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-row > div.mobile-nav-actions > button.circle-btn",
+    "x": 324,
+    "y": 98,
+    "w": 36,
+    "h": 36,
+    "text": "bell"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.mobile-nav-actions > button.circle-btn > img",
+    "x": 333,
+    "y": 106,
+    "w": 18,
+    "h": 21,
+    "text": "bell",
+    "file": "bell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li.is-active > a",
+    "x": 0,
+    "y": 123,
+    "w": 111,
+    "h": 45,
+    "text": "contact us",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 111,
+    "y": 123,
+    "w": 238,
+    "h": 45,
+    "text": "investor grievance redressal",
+    "href": "/investor-grievance-redressal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 349,
+    "y": 123,
+    "w": 138,
+    "h": 45,
+    "text": "report a fraud",
+    "href": "/report-a-fraud"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > picture > img",
+    "x": 28,
+    "y": 216,
+    "w": 50,
+    "h": 35,
+    "text": "raise a query",
+    "file": "media_105aac7e374c95faf1ab84dde47fddb1dc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > div.card-title > h1#raise-a-query--request--complaint",
+    "x": 28,
+    "y": 216,
+    "w": 280,
+    "h": 52,
+    "level": 1,
+    "text": "raise a query / request / complaint"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-title > h1#raise-a-query--request--complaint > a",
+    "x": 78,
+    "y": 217,
+    "w": 226,
+    "h": 50,
+    "text": "raise a query / request / complaint",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > div.desc-cont > p",
+    "x": 78,
+    "y": 266,
+    "w": 230,
+    "h": 106,
+    "text": "Have questions or need assistance? Our team is ready to help you at every step."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > p.button-wrapper > a.button.primary",
+    "x": 78,
+    "y": 387,
+    "w": 146,
+    "h": 42,
+    "text": "raise here",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > picture > img",
+    "x": 248,
+    "y": 424,
+    "w": 60,
+    "h": 60,
+    "text": "raise a query here",
+    "file": "media_12acac90ab5709ee28d8b217ac387a7a71"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > picture > img",
+    "x": 28,
+    "y": 556,
+    "w": 50,
+    "h": 35,
+    "text": "customer care",
+    "file": "media_143acdf9976668a362dc5108859072da2d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-title > p > a",
+    "x": 78,
+    "y": 557,
+    "w": 133,
+    "h": 24,
+    "text": "customer care",
+    "href": "/contact-us/customer-care"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > div.desc-cont > p",
+    "x": 78,
+    "y": 606,
+    "w": 230,
+    "h": 128,
+    "text": "Need assistance or support? We’re available to help with all your banking needs "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > p.button-wrapper > a.button.primary",
+    "x": 78,
+    "y": 749,
+    "w": 146,
+    "h": 42,
+    "text": "get in touch",
+    "href": "/contact-us/customer-care"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > picture > img",
+    "x": 248,
+    "y": 786,
+    "w": 60,
+    "h": 60,
+    "text": "get in touch",
+    "file": "media_1961a296198b97bc6d63992e1458d16235"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > picture > img",
+    "x": 28,
+    "y": 918,
+    "w": 50,
+    "h": 35,
+    "text": "locate branches and atms",
+    "file": "media_18d74f2d9c1aa85dd9a97e4e6b5a0f2a0a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-title > p > a",
+    "x": 78,
+    "y": 919,
+    "w": 89,
+    "h": 24,
+    "text": "locate us",
+    "href": "/locate-us"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > div.desc-cont > p",
+    "x": 78,
+    "y": 968,
+    "w": 230,
+    "h": 128,
+    "text": "Find the nearest branch or ATM with ease. Use our locator to get directions, hou"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > p.button-wrapper > a.button.primary",
+    "x": 78,
+    "y": 1111,
+    "w": 173,
+    "h": 42,
+    "text": "find atm / branch",
+    "href": "/locate-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont > picture > img",
+    "x": 248,
+    "y": 1148,
+    "w": 60,
+    "h": 60,
+    "text": "find branches and atms",
+    "file": "media_1d79e79ec1feeb859ec37ea23625f20c80"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > picture > img",
+    "x": 28,
+    "y": 1320,
+    "w": 50,
+    "h": 35,
+    "text": "registered office",
+    "file": "media_149f329ae8f0a46c81663865283172b390"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > div.card-title > p",
+    "x": 28,
+    "y": 1320,
+    "w": 280,
+    "h": 26,
+    "text": "Registered Office"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > div.office-line.is-boxed > p",
+    "x": 78,
+    "y": 1370,
+    "w": 230,
+    "h": 59,
+    "text": "RBL Bank Ltd. 1st Lane, Shahupuri, Kolhapur - 416001."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.office-line.is-boxed > p > a",
+    "x": 78,
+    "y": 1430,
+    "w": 129,
+    "h": 19,
+    "text": "+91 22 6232 7777",
+    "href": "+91%2022%206232%207777"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > div.office-line > p",
+    "x": 78,
+    "y": 1370,
+    "w": 230,
+    "h": 123,
+    "text": "L65191PN1943PLC007308"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > picture > img",
+    "x": 28,
+    "y": 1533,
+    "w": 50,
+    "h": 35,
+    "text": "corporate office",
+    "file": "media_1f31b698db4712e55c97855b859018743b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-cont > div.card-title > p",
+    "x": 28,
+    "y": 1533,
+    "w": 280,
+    "h": 26,
+    "text": "Corporate Office"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.desc-cont > div.office-line > p",
+    "x": 78,
+    "y": 1583,
+    "w": 230,
+    "h": 108,
+    "text": "RBL Bank Ltd. One World Center, Tower 2B, 6th Floor, 841, Senapati Bapat Marg, L"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.office-line.is-boxed > p > a",
+    "x": 78,
+    "y": 1691,
+    "w": 129,
+    "h": 19,
+    "text": "+91 22 6232 7777",
+    "href": "+91%2022%206232%207777"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-cont.card-cont-offices > picture > img",
+    "x": 248,
+    "y": 1727,
+    "w": 60,
+    "h": 60,
+    "text": "corporate office details",
+    "file": "media_1e8430ddd64c5514224f0cf64ed3cdcb6a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row.contact-field > div.right-border-h2 > h2#frequently-asked-questions",
+    "x": 23,
+    "y": 1853,
+    "w": 301,
+    "h": 73,
+    "level": 2,
+    "text": "frequently asked questions"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-1 > div.faq-card-toggle",
+    "x": 28,
+    "y": 1992,
+    "w": 265,
+    "h": 89,
+    "text": "how can i find the nearest rbl bank branch?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-1 > div.faq-card-toggle",
+    "x": 28,
+    "y": 1992,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "how can i find the nearest rbl bank branch?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-2 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2121,
+    "w": 265,
+    "h": 89,
+    "text": "how do i contact rbl bank for account-related queries?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-2 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2121,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "how do i contact rbl bank for account-related queries?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-3 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2250,
+    "w": 265,
+    "h": 89,
+    "text": "can i contact rbl bank for credit card support?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-3 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2250,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "can i contact rbl bank for credit card support?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-4 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2379,
+    "w": 265,
+    "h": 119,
+    "text": "how do i submit feedback or complaints to rbl bank?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-4 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2379,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "how do i submit feedback or complaints to rbl bank?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-5 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2538,
+    "w": 265,
+    "h": 119,
+    "text": "my rbl bank account was closed without notification. what can i do?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-5 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2538,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "my rbl bank account was closed without notification. what ca",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-6 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2697,
+    "w": 265,
+    "h": 89,
+    "text": "what if rbl bank customer care is not responding?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-6 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2697,
+    "w": 265,
+    "h": 89,
+    "label": "trigger",
+    "value": "what if rbl bank customer care is not responding?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-7 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2826,
+    "w": 265,
+    "h": 119,
+    "text": "i am being harassed by rbl bank recovery agents. what should i do?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-7 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2826,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "i am being harassed by rbl bank recovery agents. what should",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-8 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2984,
+    "w": 265,
+    "h": 119,
+    "text": "how do i get my rbl bank loan statement or resolve repayment issues?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-8 > div.faq-card-toggle",
+    "x": 28,
+    "y": 2984,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "how do i get my rbl bank loan statement or resolve repayment",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-9 > div.faq-card-toggle",
+    "x": 28,
+    "y": 3143,
+    "w": 265,
+    "h": 119,
+    "text": "my rbl bank transaction failed but money was deducted. what should i do?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.faq-card > div#heading-faq-9 > div.faq-card-toggle",
+    "x": 28,
+    "y": 3143,
+    "w": 265,
+    "h": 119,
+    "label": "trigger",
+    "value": "my rbl bank transaction failed but money was deducted. what ",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 12,
+    "y": 3396,
+    "w": 336,
+    "h": 27,
+    "text": "About"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 12,
+    "y": 3432,
+    "w": 336,
+    "h": 27,
+    "text": "Media Center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 12,
+    "y": 3469,
+    "w": 336,
+    "h": 27,
+    "text": "Products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 12,
+    "y": 3506,
+    "w": 336,
+    "h": 27,
+    "text": "Important Links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 12,
+    "y": 3543,
+    "w": 336,
+    "h": 27,
+    "text": "Customer Service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.others-row > div.col-lg-1 > p.footer-head.h6",
+    "x": 12,
+    "y": 3576,
+    "w": 336,
+    "h": 27,
+    "text": "Others"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-fb",
+    "x": 88,
+    "y": 3645,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/TheRBLBank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-linkedin",
+    "x": 126,
+    "y": 3645,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/company/rbl-bank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-twitter",
+    "x": 164,
+    "y": 3645,
+    "w": 32,
+    "h": 32,
+    "text": "",
+    "href": "/rblbank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-insta",
+    "x": 202,
+    "y": 3645,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/rbl_bank/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-yt",
+    "x": 240,
+    "y": 3645,
+    "w": 32,
+    "h": 32,
+    "text": "‌",
+    "href": "/@RblBankofficial"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-legal > div.col-lg-6 > p.copyright-mobile",
+    "x": 12,
+    "y": 3707,
+    "w": 336,
+    "h": 24,
+    "text": "Copyright 2026 RBL Bank Ltd."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > a",
+    "x": 5,
+    "y": 844,
+    "w": 62,
+    "h": 27,
+    "text": "mobile home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar-item > a > img",
+    "x": 5,
+    "y": 845,
+    "w": 62,
+    "h": 26,
+    "text": "mobile home",
+    "file": "home"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > a.tabbar-label.tabbar-label-home",
+    "x": 20,
+    "y": 881,
+    "w": 32,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > a",
+    "x": 101,
+    "y": 844,
+    "w": 62,
+    "h": 27,
+    "text": "login",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar-item > a > img",
+    "x": 101,
+    "y": 845,
+    "w": 62,
+    "h": 26,
+    "text": "login",
+    "file": "login"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > span.tabbar-label",
+    "x": 117,
+    "y": 881,
+    "w": 30,
+    "h": 20,
+    "text": "Login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > a",
+    "x": 197,
+    "y": 844,
+    "w": 62,
+    "h": 27,
+    "text": "payments",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar-item > a > img",
+    "x": 197,
+    "y": 845,
+    "w": 62,
+    "h": 26,
+    "text": "payments",
+    "file": "payments"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item > span.tabbar-label",
+    "x": 201,
+    "y": 881,
+    "w": 53,
+    "h": 20,
+    "text": "Payments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item.tabbar-item-more > a",
+    "x": 309,
+    "y": 844,
+    "w": 30,
+    "h": 27,
+    "text": "more",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar-item.tabbar-item-more > a > img",
+    "x": 309,
+    "y": 845,
+    "w": 30,
+    "h": 26,
+    "text": "more",
+    "file": "mobile-more"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.tabbar > div.tabbar-item.tabbar-item-more > span.tabbar-label",
+    "x": 310,
+    "y": 881,
+    "w": 28,
+    "h": 20,
+    "text": "More"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.chat-launcher > div.chat-launcher-inner > img.chat-launcher-icon",
+    "x": 275,
+    "y": 733,
+    "w": 70,
+    "h": 63,
+    "text": "chat",
+    "file": "rbl-cares"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 1,
+    "textNodes": 45,
+    "controls": 40,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "ul",
+     "path": "nav.page-tabs > ul > li > a",
+     "text": "report a fraud",
+     "cutMin": 127,
+     "cutMax": 127
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 127,
+     "path": "nav.page-tabs > ul > li > a",
+     "text": "report a fraud",
+     "clipper": "ul",
+     "rect": {
+      "l": 349,
+      "t": 123,
+      "r": 487,
+      "b": 168,
+      "w": 138,
+      "h": 45
+     },
+     "clip": {
+      "l": 0,
+      "t": 121,
+      "r": 360,
+      "b": 169,
+      "w": 360,
+      "h": 48
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "raise a query / request / complaint",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 8,
+    "image": 9
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 9,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "frequently asked questions",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 9,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 9,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"+91 22 6232 7777\" served in band \"raise a query / request / complaint\", no origin link or button",
+   "band": 1,
+   "n": 2,
+   "text": "+91 22 6232 7777"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 124,
+    "y": 15,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 262,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 303,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 197,
+    "y": 48,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 16,
+    "y": 135,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 127,
+    "y": 135,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 217,
+    "w": 226,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 243,
+    "w": 91,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 282,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 304,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 326,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 399,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 557,
+    "w": 133,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 622,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 644,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 688,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 106,
+    "y": 761,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 919,
+    "w": 89,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 984,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1006,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1028,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1050,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 98,
+    "y": 1123,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1321,
+    "w": 152,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 1371,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1393,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1430,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1469,
+    "w": 31,
+    "h": 19
+   },
+   {
+    "x": 109,
+    "y": 1469,
+    "w": 194,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1534,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 1586,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1613,
+    "w": 174,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1640,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1666,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1691,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 23,
+    "y": 1854,
+    "w": 215,
+    "h": 33
+   },
+   {
+    "x": 23,
+    "y": 1891,
+    "w": 127,
+    "h": 33
+   },
+   {
+    "x": 28,
+    "y": 1994,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2024,
+    "w": 159,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2053,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2123,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2153,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2182,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2252,
+    "w": 160,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2282,
+    "w": 177,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2311,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2381,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2411,
+    "w": 106,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2440,
+    "w": 164,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2470,
+    "w": 55,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2540,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2570,
+    "w": 172,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2599,
+    "w": 208,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2629,
+    "w": 33,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2699,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2728,
+    "w": 189,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2758,
+    "w": 111,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2828,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2857,
+    "w": 170,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2887,
+    "w": 194,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2916,
+    "w": 33,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2986,
+    "w": 186,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3016,
+    "w": 209,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3045,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3075,
+    "w": 68,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3145,
+    "w": 119,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3175,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3204,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3234,
+    "w": 160,
+    "h": 24
+   },
+   {
+    "x": 12,
+    "y": 3396,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3432,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3469,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3506,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3543,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3576,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 85,
+    "y": 3711,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 20,
+    "y": 883,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 117,
+    "y": 883,
+    "w": 30,
+    "h": 14
+   },
+   {
+    "x": 201,
+    "y": 883,
+    "w": 53,
+    "h": 14
+   },
+   {
+    "x": 310,
+    "y": 883,
+    "w": 28,
+    "h": 14
+   }
+  ],
+  "eds": [
+   {
+    "x": 125,
+    "y": 15,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 262,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 303,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 197,
+    "y": 48,
+    "w": 154,
+    "h": 13
+   },
+   {
+    "x": 16,
+    "y": 135,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 127,
+    "y": 135,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 217,
+    "w": 226,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 243,
+    "w": 91,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 282,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 304,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 326,
+    "w": 176,
+    "h": 19
+   },
+   {
+    "x": 112,
+    "y": 399,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 557,
+    "w": 133,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 622,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 644,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 688,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 106,
+    "y": 761,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 919,
+    "w": 89,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 984,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1006,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1028,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1050,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 98,
+    "y": 1123,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1321,
+    "w": 152,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 1371,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1393,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1430,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1469,
+    "w": 31,
+    "h": 19
+   },
+   {
+    "x": 109,
+    "y": 1469,
+    "w": 194,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1534,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 78,
+    "y": 1586,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1613,
+    "w": 174,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1640,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1666,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 78,
+    "y": 1691,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 23,
+    "y": 1854,
+    "w": 215,
+    "h": 33
+   },
+   {
+    "x": 23,
+    "y": 1891,
+    "w": 127,
+    "h": 33
+   },
+   {
+    "x": 28,
+    "y": 1994,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2024,
+    "w": 159,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2053,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2123,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2153,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2182,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2252,
+    "w": 160,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2282,
+    "w": 177,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2311,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2381,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2411,
+    "w": 106,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2440,
+    "w": 164,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2470,
+    "w": 55,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2540,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2569,
+    "w": 172,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2599,
+    "w": 208,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2629,
+    "w": 33,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2699,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2728,
+    "w": 189,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2758,
+    "w": 111,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2828,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2857,
+    "w": 170,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2887,
+    "w": 194,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2916,
+    "w": 33,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 2986,
+    "w": 186,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3016,
+    "w": 209,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3045,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3075,
+    "w": 68,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3145,
+    "w": 119,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3175,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3204,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 28,
+    "y": 3234,
+    "w": 160,
+    "h": 24
+   },
+   {
+    "x": 12,
+    "y": 3396,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3432,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3469,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3506,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3543,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 12,
+    "y": 3576,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 85,
+    "y": 3710,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 20,
+    "y": 884,
+    "w": 32,
+    "h": 14
+   },
+   {
+    "x": 117,
+    "y": 884,
+    "w": 30,
+    "h": 14
+   },
+   {
+    "x": 201,
+    "y": 884,
+    "w": 53,
+    "h": 14
+   },
+   {
+    "x": 310,
+    "y": 884,
+    "w": 28,
+    "h": 14
+   }
+  ]
+ }
+}

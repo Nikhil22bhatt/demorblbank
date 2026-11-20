@@ -1,0 +1,5046 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-19T08:33:57.731Z",
+    "urls": [
+      "https://www.rbl.bank.in/about-us"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".banner-section",
+      ".banner-img-wrap",
+      ".banner-img-desktop",
+      ".banner-img-mobile",
+      ".banner-info",
+      ".banner-info-inner",
+      ".banner-info h1",
+      ".banner-info p",
+      ".about-us-tab-section",
+      ".about-us-tab-section .common-tab-wrap",
+      "#nav-tab1",
+      "#nav-tab1 .nav-link",
+      "#nav-tab1 .nav-link.active",
+      ".about-us-tab-section .tab-pane-inner",
+      ".feature-sec1 h2",
+      ".feature-sec1 p",
+      ".scale-img-wrap",
+      ".scale-img-wrap img",
+      ".abt-impact-section",
+      ".card-impact",
+      ".card-impact1",
+      ".impact-img",
+      ".card-impact2 h2",
+      ".card-impact2 p",
+      ".dateUpdt",
+      "#data-section4",
+      "#nav-tab2",
+      "#nav-tab2 .nav-link",
+      ".indicators-wrap",
+      ".aboutus-year",
+      ".aboutus-year .slick-slide",
+      ".aboutus-year .form-check-label",
+      ".aboutus-year .form-check-input",
+      ".aboutus-year .carousel-btn",
+      ".view-awards .view-content",
+      ".award-adv-col",
+      ".awards-card",
+      ".awards-card img",
+      ".awards-card .card-body",
+      ".awards-card p.ttl",
+      ".awards-card p:not(.ttl)",
+      "#data-section5",
+      "#data-section5 h2",
+      ".img-card-lg",
+      ".contblock",
+      ".contblock h3",
+      ".contblock p",
+      ".img-card-sm",
+      ".img-card-sm h3",
+      ".img-card-sm p",
+      ".img-blk-bg",
+      ".img-blk-bg img",
+      ".two-col-card-wrap",
+      ".two-col-card",
+      ".two-col-card-img",
+      ".two-col-card-img img",
+      ".two-col-card h4",
+      ".two-col-card p",
+      ".common-btn-outline",
+      "#nav-Advertisements-tab"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".banner-section",
+    ".banner-img-wrap",
+    ".banner-img-desktop",
+    ".banner-img-mobile",
+    ".banner-info",
+    ".banner-info-inner",
+    ".banner-info h1",
+    ".banner-info p",
+    ".about-us-tab-section",
+    ".about-us-tab-section .common-tab-wrap",
+    "#nav-tab1",
+    "#nav-tab1 .nav-link",
+    "#nav-tab1 .nav-link.active",
+    ".about-us-tab-section .tab-pane-inner",
+    ".feature-sec1 h2",
+    ".feature-sec1 p",
+    ".scale-img-wrap",
+    ".scale-img-wrap img",
+    ".abt-impact-section",
+    ".card-impact",
+    ".card-impact1",
+    ".impact-img",
+    ".card-impact2 h2",
+    ".card-impact2 p",
+    ".dateUpdt",
+    "#data-section4",
+    "#nav-tab2",
+    "#nav-tab2 .nav-link",
+    ".indicators-wrap",
+    ".aboutus-year",
+    ".aboutus-year .slick-slide",
+    ".aboutus-year .form-check-label",
+    ".aboutus-year .form-check-input",
+    ".aboutus-year .carousel-btn",
+    ".view-awards .view-content",
+    ".award-adv-col",
+    ".awards-card",
+    ".awards-card img",
+    ".awards-card .card-body",
+    ".awards-card p.ttl",
+    ".awards-card p:not(.ttl)",
+    "#data-section5",
+    "#data-section5 h2",
+    ".img-card-lg",
+    ".contblock",
+    ".contblock h3",
+    ".contblock p",
+    ".img-card-sm",
+    ".img-card-sm h3",
+    ".img-card-sm p",
+    ".img-blk-bg",
+    ".img-blk-bg img",
+    ".two-col-card-wrap",
+    ".two-col-card",
+    ".two-col-card-img",
+    ".two-col-card-img img",
+    ".two-col-card h4",
+    ".two-col-card p",
+    ".common-btn-outline",
+    "#nav-Advertisements-tab"
+  ],
+  "root": {
+    "https://www.rbl.bank.in/about-us": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 11229,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 6138,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.rbl.bank.in/about-us": {
+      "360": {
+        ".banner-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 113,
+              "w": 360,
+              "h": 550
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "549.594px",
+              "maxWidth": "none",
+              "margin": "-3px 0px 0px",
+              "padding": "35px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-img-wrap": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 113,
+              "w": 360,
+              "h": 620
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "620px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-img-desktop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://d34s92jlbrwuc5.cloudfront.net/2023-02/Aboutus-Page_Banner_0.jpg?VersionId=P2foYkBUFaCMsDx1ghZINsjgKEkIrbhg\")",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-img-mobile": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 113,
+              "w": 360,
+              "h": 218
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "218px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://d34s92jlbrwuc5.cloudfront.net/2023-02/Aboutus-Page_Banner.jpg?VersionId=.avjcMNV6Dwpz1dLq..Cccph3s6Dxbwc\")",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 313,
+              "w": 360,
+              "h": 350
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "349.594px",
+              "maxWidth": "750px",
+              "margin": "165px 0px 0px",
+              "padding": "15px 20px 30px",
+              "gap": "normal",
+              "backgroundColor": "rgb(233, 236, 247)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "20px 20px 0px 0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 328,
+              "w": 320,
+              "h": 305
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "304.594px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 328,
+              "w": 320,
+              "h": 82
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "81.5938px",
+              "maxWidth": "none",
+              "margin": "0px 0px 15px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "34px",
+              "fontWeight": "400",
+              "lineHeight": "40.8px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 425,
+              "w": 320,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Founded in the pre-independence era in …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 663,
+              "w": 360,
+              "h": 1687
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1686.97px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "5px 0px 45px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section .common-tab-wrap": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 668,
+              "w": 336,
+              "h": 1637
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "1636.97px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 668,
+              "w": 336,
+              "h": 49
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "48.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "2px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1 .nav-link": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 12,
+              "y": 670,
+              "w": 98,
+              "h": 45
+            },
+            "visible": true,
+            "text": "About Us",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "97.9062px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px -1px",
+              "padding": "8px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1 .nav-link.active": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 670,
+              "w": 98,
+              "h": 45
+            },
+            "visible": true,
+            "text": "About Us",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "97.9062px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px -1px",
+              "padding": "8px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section .tab-pane-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 746,
+              "w": 336,
+              "h": 1558
+            },
+            "visible": true,
+            "text": "About RBL Bank RBL Bank, a subsidiary o…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "1558.09px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".feature-sec1 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 766,
+              "w": 336,
+              "h": 36
+            },
+            "visible": true,
+            "text": "About RBL Bank",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "36.4062px",
+              "maxWidth": "none",
+              "margin": "20px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".feature-sec1 p": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 833,
+              "w": 336,
+              "h": 76
+            },
+            "visible": true,
+            "text": "RBL Bank, a subsidiary of Emirates NBD …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "75.6094px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".scale-img-wrap": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 12,
+              "y": 1785,
+              "w": 336,
+              "h": 520
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "519.578px",
+              "maxWidth": "480px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".scale-img-wrap img": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 12,
+              "y": 1785,
+              "w": 336,
+              "h": 520
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "519.578px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 485,
+              "naturalHeight": 750,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2026-08/rbl-bank-about-us-aaa-rating-and-moodys-rating.webp?VersionId=lM8EPxfF3P.wV0vzBfiFwe9YN1rU7rgO"
+            }
+          }
+        ],
+        ".abt-impact-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2310,
+              "w": 360,
+              "h": 612
+            },
+            "visible": true,
+            "text": "15 Million Customers 628 Branches 1078 …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "612.344px",
+              "maxWidth": "none",
+              "margin": "-40px 0px 0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(to right, rgb(253, 239, 239) 0%, rgb(229, 231, 239) 50%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 2355,
+              "w": 336,
+              "h": 109
+            },
+            "visible": true,
+            "text": "15 Million Customers",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "108.875px",
+              "maxWidth": "350px",
+              "margin": "0px 0px 20px",
+              "padding": "15px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact1": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 27,
+              "y": 2374,
+              "w": 110,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "110px",
+              "height": "70px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".impact-img": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 27,
+              "y": 2374,
+              "w": 70,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "70px",
+              "height": "70px",
+              "maxWidth": "100%",
+              "margin": "0px 40px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 60,
+              "naturalHeight": 60,
+              "currentSrc": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/AboutUS-customers.svg"
+            }
+          }
+        ],
+        ".card-impact2 h2": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 137,
+              "y": 2370,
+              "w": 129,
+              "h": 52
+            },
+            "visible": true,
+            "text": "15",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "129.359px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "lineHeight": "52px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact2 p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 137,
+              "y": 2422,
+              "w": 129,
+              "h": 27
+            },
+            "visible": true,
+            "text": "Million Customers",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "129.359px",
+              "height": "26.875px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".dateUpdt": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": -25,
+              "y": 2875,
+              "w": 360,
+              "h": 22
+            },
+            "visible": true,
+            "text": "As updated on September 30, 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "21.8438px",
+              "maxWidth": "100%",
+              "margin": "5px 0px -20px -25px",
+              "padding": "0px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(96, 96, 96)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "21.84px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(96, 96, 96)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2922,
+              "w": 360,
+              "h": 3681
+            },
+            "visible": true,
+            "text": "Awards & Recognition 2026 2025 2024 202…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "3680.88px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 2967,
+              "w": 336,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "48.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "2px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab2 .nav-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 2969,
+              "w": 190,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "190.469px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px -1px",
+              "padding": "8px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".indicators-wrap": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 3054,
+              "w": 336,
+              "h": 70
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "70px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 3054,
+              "w": 336,
+              "h": 70
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "70px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 50px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .slick-slide": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "79px",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "0",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .form-check-label": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "35px",
+              "maxWidth": "none",
+              "margin": "auto",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(112, 112, 112)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(112, 112, 112)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .form-check-input": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "50%",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .carousel-btn": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 17,
+              "y": 3054,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(96, 96, 96)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(96, 96, 96)",
+              "boxShadow": "rgba(0, 0, 0, 0.12) 2px 4px 8px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".view-awards .view-content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 3156,
+              "w": 336,
+              "h": 3447
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "3447px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".award-adv-col": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 3156,
+              "w": 360,
+              "h": 335
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "335px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 12,
+              "y": 3156,
+              "w": 336,
+              "h": 305
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "305px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "15px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "8px",
+              "border": "1px solid rgb(219, 220, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card img": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 13,
+              "y": 3172,
+              "w": 334,
+              "h": 170
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "334px",
+              "height": "170px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px 5px 0px 0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "contain"
+            },
+            "img": {
+              "naturalWidth": 520,
+              "naturalHeight": 275,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2026-07/finnoviti.gif?VersionId=eFGn3s2TQHiWq5u_JZWdZSo5nvAJSur7"
+            }
+          }
+        ],
+        ".awards-card .card-body": [
+          {
+            "index": 0,
+            "of": 20,
+            "rect": {
+              "x": 13,
+              "y": 3342,
+              "w": 334,
+              "h": 103
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "334px",
+              "height": "103px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "15px 20px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card p.ttl": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3357,
+              "w": 294,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "294px",
+              "height": "42px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card p:not(.ttl)": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3409,
+              "w": 294,
+              "h": 16
+            },
+            "visible": true,
+            "text": "CONFIRMATION SERVICE API",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "294px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(144, 144, 144)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(144, 144, 144)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section5": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6603,
+              "w": 360,
+              "h": 3529
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "3529.36px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 45px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section5 h2": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 6603,
+              "w": 336,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Our Vision",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "36.4062px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-lg": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 6669,
+              "w": 336,
+              "h": 734
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "733.766px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 12,
+              "y": 6669,
+              "w": 336,
+              "h": 212
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "211.703px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "15px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 226, 190)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock h3": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 32,
+              "y": 6702,
+              "w": 296,
+              "h": 31
+            },
+            "visible": true,
+            "text": "Bank of Choice",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "31.2031px",
+              "maxWidth": "none",
+              "margin": "18px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 32,
+              "y": 6751,
+              "w": 296,
+              "h": 108
+            },
+            "visible": true,
+            "text": "To be a 'Bank of Choice' by creating an…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "107.5px",
+              "maxWidth": "400px",
+              "margin": "0px 0px 7px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 7529,
+              "w": 336,
+              "h": 270
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "269.781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "15px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 229, 202)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm h3": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 32,
+              "y": 7562,
+              "w": 296,
+              "h": 62
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "62.4062px",
+              "maxWidth": "none",
+              "margin": "18px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 32,
+              "y": 7643,
+              "w": 296,
+              "h": 134
+            },
+            "visible": true,
+            "text": "To engage and understand customer needs…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "134.375px",
+              "maxWidth": "300px",
+              "margin": "0px 0px 7px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-blk-bg": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-blk-bg img": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 402,
+              "naturalHeight": 240,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2023-03/Customers-at-the-Heart_1.jpg?VersionId=wh2SVWeMFxEhZuPPBAoTyTdq5kYtVdCH"
+            }
+          }
+        ],
+        ".two-col-card-wrap": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 8739,
+              "w": 336,
+              "h": 648
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "647.656px",
+              "maxWidth": "none",
+              "margin": "30px 0px 40px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 8739,
+              "w": 336,
+              "h": 278
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "278.25px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card-img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 8739,
+              "w": 336,
+              "h": 278
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "278.25px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card-img img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 32,
+              "y": 8759,
+              "w": 296,
+              "h": 238
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "296px",
+              "height": "238.25px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 446,
+              "naturalHeight": 359,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2023-02/two-col-img-1.png?VersionId=P8yhAx_jQUfP.W93ScLQ1iMiWNHz8MaE"
+            }
+          }
+        ],
+        ".two-col-card h4": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 9037,
+              "w": 336,
+              "h": 36
+            },
+            "visible": true,
+            "text": "CSR Activities",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "36.4062px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(55, 63, 65)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "36.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(55, 63, 65)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 9083,
+              "w": 336,
+              "h": 215
+            },
+            "visible": true,
+            "text": "At RBL Bank, we have always believed in…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "336px",
+              "height": "215px",
+              "maxWidth": "none",
+              "margin": "10px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".common-btn-outline": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 9318,
+              "w": 157,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "157.016px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-Advertisements-tab": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Advertisements",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px -1px",
+              "padding": "8px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".banner-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 182,
+              "w": 1440,
+              "h": 400
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "400px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "30px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-img-wrap": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 182,
+              "w": 720,
+              "h": 400
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "400px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-img-desktop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 182,
+              "w": 720,
+              "h": 400
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "400px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://d34s92jlbrwuc5.cloudfront.net/2023-02/Aboutus-Page_Banner_0.jpg?VersionId=P2foYkBUFaCMsDx1ghZINsjgKEkIrbhg\")",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            }
+          }
+        ],
+        ".banner-img-mobile": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "370px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "url(\"https://d34s92jlbrwuc5.cloudfront.net/2023-02/Aboutus-Page_Banner.jpg?VersionId=.avjcMNV6Dwpz1dLq..Cccph3s6Dxbwc\")",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 553,
+              "y": 217,
+              "w": 750,
+              "h": 330
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "750px",
+              "height": "330px",
+              "maxWidth": "750px",
+              "margin": "0px -25px 0px 0px",
+              "padding": "20px 30px",
+              "gap": "normal",
+              "backgroundColor": "rgb(233, 236, 247)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "8px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "rgba(0, 0, 0, 0.15) -2px 4px 4px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 583,
+              "y": 237,
+              "w": 690,
+              "h": 199
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "690px",
+              "height": "198.594px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 583,
+              "y": 237,
+              "w": 690,
+              "h": 58
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "690px",
+              "height": "57.5938px",
+              "maxWidth": "none",
+              "margin": "0px 0px 15px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "48px",
+              "fontWeight": "400",
+              "lineHeight": "57.6px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".banner-info p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 583,
+              "y": 310,
+              "w": 690,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Founded in the pre-independence era in …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "690px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "0px 0px 27px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 582,
+              "w": 1440,
+              "h": 893
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "893.141px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "5px 0px 45px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section .common-tab-wrap": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 587,
+              "w": 1116,
+              "h": 843
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "843.141px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 152,
+              "y": 587,
+              "w": 1126,
+              "h": 71
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1126px",
+              "height": "70.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px -10px",
+              "padding": "13px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1 .nav-link": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 152,
+              "y": 600,
+              "w": 100,
+              "h": 45
+            },
+            "visible": true,
+            "text": "About Us",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "99.9062px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 15px -1px 0px",
+              "padding": "8px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab1 .nav-link.active": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 152,
+              "y": 600,
+              "w": 100,
+              "h": 45
+            },
+            "visible": true,
+            "text": "About Us",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "99.9062px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 15px -1px 0px",
+              "padding": "8px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".about-us-tab-section .tab-pane-inner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 688,
+              "w": 1116,
+              "h": 742
+            },
+            "visible": true,
+            "text": "About RBL Bank RBL Bank, a subsidiary o…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "742.266px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".feature-sec1 h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 688,
+              "w": 546,
+              "h": 44
+            },
+            "visible": true,
+            "text": "About RBL Bank",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "546px",
+              "height": "44.2031px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "34px",
+              "fontWeight": "400",
+              "lineHeight": "44.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".feature-sec1 p": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 162,
+              "y": 762,
+              "w": 546,
+              "h": 50
+            },
+            "visible": true,
+            "text": "RBL Bank, a subsidiary of Emirates NBD …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "546px",
+              "height": "50.4062px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "15px",
+              "fontWeight": "400",
+              "lineHeight": "25.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".scale-img-wrap": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 798,
+              "y": 688,
+              "w": 480,
+              "h": 742
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "742.266px",
+              "maxWidth": "480px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".scale-img-wrap img": [
+          {
+            "index": 0,
+            "of": 11,
+            "rect": {
+              "x": 798,
+              "y": 688,
+              "w": 480,
+              "h": 742
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "479.984px",
+              "height": "742.266px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 485,
+              "naturalHeight": 750,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2026-08/rbl-bank-about-us-aaa-rating-and-moodys-rating.webp?VersionId=lM8EPxfF3P.wV0vzBfiFwe9YN1rU7rgO"
+            }
+          }
+        ],
+        ".abt-impact-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1475,
+              "w": 1440,
+              "h": 347
+            },
+            "visible": true,
+            "text": "15 Million Customers 628 Branches 1078 …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "346.719px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(to right, rgb(253, 239, 239) 0%, rgb(229, 231, 239) 50%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 1520,
+              "w": 261,
+              "h": 235
+            },
+            "visible": true,
+            "text": "15 Million Customers",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "261px",
+              "height": "234.875px",
+              "maxWidth": "350px",
+              "margin": "0px",
+              "padding": "26px 15px 30px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact1": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 177,
+              "y": 1546,
+              "w": 231,
+              "h": 100
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "231px",
+              "height": "100px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".impact-img": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 258,
+              "y": 1546,
+              "w": 70,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "70px",
+              "height": "70px",
+              "maxWidth": "100%",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 60,
+              "naturalHeight": 60,
+              "currentSrc": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/AboutUS-customers.svg"
+            }
+          }
+        ],
+        ".card-impact2 h2": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 177,
+              "y": 1646,
+              "w": 231,
+              "h": 52
+            },
+            "visible": true,
+            "text": "15",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "231px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "lineHeight": "52px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".card-impact2 p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 177,
+              "y": 1698,
+              "w": 231,
+              "h": 27
+            },
+            "visible": true,
+            "text": "Million Customers",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "231px",
+              "height": "26.875px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".dateUpdt": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 150,
+              "y": 1780,
+              "w": 1140,
+              "h": 22
+            },
+            "visible": true,
+            "text": "As updated on September 30, 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1140px",
+              "height": "21.8438px",
+              "maxWidth": "100%",
+              "margin": "25px 0px -25px",
+              "padding": "0px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(96, 96, 96)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "21.84px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(96, 96, 96)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1822,
+              "w": 1440,
+              "h": 1492
+            },
+            "visible": true,
+            "text": "Awards & Recognition 2026 2025 2024 202…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "1491.88px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 1867,
+              "w": 1116,
+              "h": 71
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "70.875px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "13px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-tab2 .nav-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 1880,
+              "w": 192,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "192.469px",
+              "height": "44.875px",
+              "maxWidth": "none",
+              "margin": "0px 15px -1px 0px",
+              "padding": "8px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".indicators-wrap": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 1976,
+              "w": 1116,
+              "h": 101
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "101px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 1976,
+              "w": 1116,
+              "h": 101
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "101px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 50px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .slick-slide": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "102px",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "0",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .form-check-label": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "72px",
+              "height": "35px",
+              "maxWidth": "none",
+              "margin": "auto",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(112, 112, 112)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(112, 112, 112)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .form-check-input": [
+          {
+            "index": 0,
+            "of": 27,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "50%",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".aboutus-year .carousel-btn": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 167,
+              "y": 1976,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(96, 96, 96)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(96, 96, 96)",
+              "boxShadow": "rgba(0, 0, 0, 0.12) 2px 4px 8px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".view-awards .view-content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 2109,
+              "w": 1116,
+              "h": 1205
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "1205px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".award-adv-col": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 150,
+              "y": 2109,
+              "w": 285,
+              "h": 407
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "285px",
+              "height": "407px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 162,
+              "y": 2109,
+              "w": 261,
+              "h": 377
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "261px",
+              "height": "377px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "15px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "8px",
+              "border": "1px solid rgb(219, 220, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card img": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 163,
+              "y": 2125,
+              "w": 259,
+              "h": 210
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "259px",
+              "height": "210px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px 5px 0px 0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "contain"
+            },
+            "img": {
+              "naturalWidth": 520,
+              "naturalHeight": 275,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2026-07/finnoviti.gif?VersionId=eFGn3s2TQHiWq5u_JZWdZSo5nvAJSur7"
+            }
+          }
+        ],
+        ".awards-card .card-body": [
+          {
+            "index": 0,
+            "of": 20,
+            "rect": {
+              "x": 163,
+              "y": 2335,
+              "w": 259,
+              "h": 135
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "259px",
+              "height": "135px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "15px 20px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card p.ttl": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2350,
+              "w": 219,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "219px",
+              "height": "42px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".awards-card p:not(.ttl)": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2402,
+              "w": 219,
+              "h": 16
+            },
+            "visible": true,
+            "text": "CONFIRMATION SERVICE API",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "219px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(144, 144, 144)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(144, 144, 144)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section5": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3314,
+              "w": 1440,
+              "h": 2003
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "2003.41px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 45px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section5 h2": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 3314,
+              "w": 1116,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Our Vision",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "44.2031px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "34px",
+              "fontWeight": "400",
+              "lineHeight": "44.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-lg": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 3388,
+              "w": 1116,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 162,
+              "y": 3388,
+              "w": 356,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "356px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "15px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 226, 190)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock h3": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 182,
+              "y": 3421,
+              "w": 316,
+              "h": 65
+            },
+            "visible": true,
+            "text": "Bank of Choice",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316px",
+              "height": "65px",
+              "maxWidth": "none",
+              "margin": "18px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".contblock p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 182,
+              "y": 3504,
+              "w": 316,
+              "h": 121
+            },
+            "visible": true,
+            "text": "To be a 'Bank of Choice' by creating an…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316px",
+              "height": "120.938px",
+              "maxWidth": "400px",
+              "margin": "15px 0px 7px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "30.24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 3793,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "534px",
+              "height": "310px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "30px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgb(154, 210, 210)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm h3": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 202,
+              "y": 3841,
+              "w": 454,
+              "h": 31
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "454px",
+              "height": "31.2031px",
+              "maxWidth": "none",
+              "margin": "18px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "31.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-card-sm p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 202,
+              "y": 3890,
+              "w": 360,
+              "h": 151
+            },
+            "visible": true,
+            "text": "To engage and understand customer needs…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "151.172px",
+              "maxWidth": "360px",
+              "margin": "15px 0px 7px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 33, 33)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "30.24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 33, 33)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-blk-bg": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 3793,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "534px",
+              "height": "310px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-blk-bg img": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 3793,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "534px",
+              "height": "310px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 402,
+              "naturalHeight": 240,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2023-03/Customers-at-the-Heart_1.jpg?VersionId=wh2SVWeMFxEhZuPPBAoTyTdq5kYtVdCH"
+            }
+          }
+        ],
+        ".two-col-card-wrap": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 4532,
+              "w": 1116,
+              "h": 355
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1116px",
+              "height": "355px",
+              "maxWidth": "none",
+              "margin": "30px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 4532,
+              "w": 546,
+              "h": 355
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "546px",
+              "height": "355px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card-img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 4532,
+              "w": 440,
+              "h": 355
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "440px",
+              "height": "355px",
+              "maxWidth": "440px",
+              "margin": "0px",
+              "padding": "20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card-img img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 182,
+              "y": 4552,
+              "w": 400,
+              "h": 322
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "400px",
+              "height": "321.969px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 446,
+              "naturalHeight": 359,
+              "currentSrc": "https://d34s92jlbrwuc5.cloudfront.net/2023-02/two-col-img-1.png?VersionId=P8yhAx_jQUfP.W93ScLQ1iMiWNHz8MaE"
+            }
+          }
+        ],
+        ".two-col-card h4": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 732,
+              "y": 4571,
+              "w": 546,
+              "h": 44
+            },
+            "visible": true,
+            "text": "CSR Activities",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "546px",
+              "height": "44.2031px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(55, 63, 65)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "34px",
+              "fontWeight": "400",
+              "lineHeight": "44.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(55, 63, 65)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".two-col-card p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 732,
+              "y": 4626,
+              "w": 546,
+              "h": 134
+            },
+            "visible": true,
+            "text": "At RBL Bank, we have always believed in…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "546px",
+              "height": "134.375px",
+              "maxWidth": "none",
+              "margin": "10px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".common-btn-outline": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 732,
+              "y": 4780,
+              "w": 157,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "157.016px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#nav-Advertisements-tab": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Advertisements",
+            "props": {
+              "display": "none",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 15px -1px 0px",
+              "padding": "8px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "6px 6px 0px 0px",
+              "border": "1px solid rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

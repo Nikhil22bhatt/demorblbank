@@ -1,0 +1,222 @@
+/* Listing template (business-banking; sibling: personal-banking). Page modules: image hero,
+   intro + product card grid, RBL MyBank app band, story rail, video rail.
+   Values lifted from style.css (.banner-section/.banner-para-left-section/.inner-page-banner-section-xs,
+   .card.product-card, .paragraph--type--business-banking-category, .rbl-myapp-*, .related-blog-section,
+   .csr-cate-card-wrap, .vidSlid, .slick-arrow .owl-btn-squre) and live computed styles
+   (stardust/replica/lift/business-banking-live-measure*.json). */
+
+.page-listing { --listing-panel: #e9ecf7; --listing-copy: #606060; }
+/* live breadcrumb on this template measures 41px (canon renders 42px) — page-scoped, back-port candidate */
+@media (min-width: 768px) { .page-listing .breadcrumb { padding-bottom: 6px; } }
+
+.fa-angle-left::before { content: "\f104"; }
+.fa-angle-right::before { content: "\f105"; }
+
+/* ---- shared outline button (common-btn-outline) ---- */
+.btn-outline, .product-card__cta {
+  display: inline-block; border: 1px solid var(--rbl-ink); border-radius: 4px;
+  background: transparent; color: var(--rbl-ink); font-weight: 700; text-align: center; white-space: nowrap;
+  transition: all 0.2s linear;
+}
+.btn-outline:hover, .btn-outline:focus, .product-card__cta:hover, .product-card__cta:focus { border-color: var(--rbl-blue); color: var(--rbl-blue); }
+.btn-outline { min-width: 146px; padding: 10px 20px; font-size: 18px; line-height: 26px; }
+
+/* ======================= Hero ======================= */
+.listing-hero { position: relative; overflow: hidden; background: var(--rbl-lavender); }
+.listing-hero__media { position: absolute; inset: 0 0 0 auto; z-index: 1; width: 50%; }
+.listing-hero__img { background-repeat: no-repeat; background-size: cover; }
+.listing-hero__img--desktop { width: 100%; height: 100%; background-position: center top; }
+.listing-hero__img--mobile { display: none; width: 100vw; height: 218px; background-position: center; }
+.listing-hero .container { position: relative; }
+.listing-hero__panel {
+  position: relative; z-index: 5; display: flex; align-items: start;
+  max-width: 750px; min-height: 330px; padding: 20px;
+  background: var(--listing-panel); border-radius: 8px; box-shadow: -2px 4px 4px rgb(0 0 0 / 0.15);
+}
+.listing-hero__text { width: 100%; }
+.listing-hero h1 { margin-bottom: 15px; font-size: 48px; font-weight: 400; line-height: 1.2; color: var(--rbl-blue); }
+.listing-hero__lede { margin-bottom: 27px; font-size: 16px; line-height: 24px; color: var(--rbl-ink); }
+.listing-hero__lede:last-child { margin-bottom: 27px; }
+@media (min-width: 768px) {
+  .listing-hero { min-height: 400px; padding: 30px 0; }
+}
+@media (min-width: 992px) {
+  .listing-hero { display: flex; align-items: center; }
+  .listing-hero .container { width: 100%; }
+  .listing-hero__panel { margin-left: -25px; padding: 20px 30px; }
+}
+@media (min-width: 1200px) { .listing-hero__panel { width: 750px; } }
+@media (min-width: 1600px) {
+  .listing-hero { min-height: 550px; }
+  .listing-hero__img--desktop { background-size: contain; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .listing-hero__media { width: 100%; }
+  .listing-hero__img--desktop { display: none; }
+  .listing-hero__img--mobile { display: block; height: 218px; }
+  .listing-hero { background: var(--listing-panel); }
+  .listing-hero__panel { min-height: 230px; margin: 340px auto 0; padding: 45px 20px 30px; border-radius: 0; box-shadow: none; }
+}
+@media (max-width: 767px) {
+  .listing-hero { margin-top: -3px; padding-top: 35px; }
+  .listing-hero__media { width: 100%; }
+  .listing-hero__img--desktop { display: none; }
+  .listing-hero__img--mobile { display: block; }
+  .listing-hero .container { max-width: 100%; padding: 0; }
+  .listing-hero__panel {
+    min-height: 190px; margin-top: 165px; padding: 20px 15px 40px;
+    border-radius: 20px 20px 0 0; box-shadow: none;
+  }
+  .listing-hero h1 { font-size: 34px; }
+  .listing-hero__lede { margin-bottom: 20px; }
+  .listing-hero__lede:last-child { margin-bottom: 20px; }
+}
+
+/* ======================= Intro + product grid ======================= */
+.listing-products { padding: 45px 0; }
+.listing-products__intro { margin-bottom: 30.24px; font-size: 18px; line-height: 1.68; color: var(--listing-copy); }
+.product-grid { display: flex; flex-wrap: wrap; margin: 0 -12px; }
+.product-grid__item { display: flex; flex-direction: column; width: 100%; padding: 0 12px; }
+@media (min-width: 768px) { .product-grid__item { width: 50%; } }
+@media (min-width: 992px) { .product-grid__item { width: 33.33333333%; } }
+.product-card {
+  display: flex; flex-direction: column; flex: 1 1 auto; margin-bottom: 30px; overflow: hidden;
+  background: #fff; border-radius: 6px; box-shadow: -2px 2px 4px rgb(0 0 0 / 0.15);
+}
+.product-card__img { display: block; width: 100%; height: 200px; object-fit: cover; }
+.product-card__body { display: flex; flex: 1 1 auto; padding: 23px 30px 30px; background: var(--listing-panel); }
+.product-card__body { flex-direction: column; justify-content: space-between; }
+.product-card__title { margin-bottom: 7px; font-size: 24px; font-weight: 400; line-height: 26.88px; color: var(--rbl-blue); }
+.product-card__copy { min-height: 80px; margin-bottom: 25px; color: var(--rbl-ink); }
+.product-card__copy p { font-size: 18px; line-height: 1.68; }
+.product-card__actions { display: flex; }
+.product-card__cta { min-width: 119px; margin-right: 30px; padding: 11px 10px; font-size: 16px; line-height: 24px; }
+@media (min-width: 992px) and (max-width: 1199px) { .product-card__cta { margin-right: 10px; } }
+
+/* ======================= RBL MyBank app band ======================= */
+.app-band { position: relative; overflow: hidden; background: #ecdbdd; }
+.app-band__bg { display: none; }
+.app-band__card {
+  position: relative; z-index: 5; display: flex; justify-content: space-between; align-items: center;
+  padding: 30px; border-radius: 16px;
+}
+/* live AOS fade-up on the card (data-aos-duration 300, easing ease), revealed on scroll-in */
+.app-band__card[data-reveal] { opacity: 0; transform: translate3d(0, 100px, 0); transition: opacity 0.3s ease, transform 0.3s ease; }
+.app-band__card[data-reveal].is-revealed { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .app-band__card[data-reveal] { opacity: 1; transform: none; transition: none; } }
+.app-band__media { width: 45%; }
+.app-band__img-mobile { display: none; }
+.app-band__copy { max-width: 445px; margin-right: 50px; text-align: center; }
+.app-band__title { margin-bottom: 20px; font-size: 48px; font-weight: 700; line-height: 1.3; color: var(--rbl-ink); }
+.app-band__tagline {
+  display: inline-block; margin-bottom: 30px; padding: 6px 15px; border-radius: 4px;
+  background: rgb(48 48 48 / 0.6); color: #fff; font-size: 18px; font-weight: 600;
+}
+.app-band__tagline p { font-weight: 700; line-height: 1.68; }
+.app-band__tagline span { margin: 0 10px; }
+.app-band__stores { display: flex; justify-content: space-around; align-items: center; }
+.app-band__stores a { display: block; margin: 0 10px; }
+.app-band__store { width: 100%; height: auto; }
+@media (min-width: 768px) {
+  .app-band { height: 374px; }
+  .app-band__bg { display: block; position: absolute; top: 0; left: 0; z-index: 2; width: 100%; height: 100%; }
+  .app-band__copy { margin-top: 50px; }
+}
+@media (min-width: 992px) {
+  .app-band { background: linear-gradient(to bottom, #c1bcde 0%, #fad4c3 99%, #fad4c3 99%, #fad4c3 100%); }
+  .app-band__copy { margin-right: 100px; }
+}
+@media (min-width: 1600px) and (max-width: 1919px) { .app-band { height: 433px; } }
+@media (min-width: 1920px) { .app-band { height: 500px; } }
+@media (max-width: 767px) {
+  .app-band { padding-top: 45px; }
+  .app-band__card { flex-direction: column-reverse; padding: 0; }
+  .app-band__media { width: 100%; }
+  .app-band__img-mobile {
+    position: relative; left: 50%; z-index: 2; display: block; max-width: 100%;
+    margin: 20px auto 0; transform: translateX(-50%);
+  }
+  .app-band__copy { margin-right: 0; }
+  .app-band__title { margin-bottom: 65px; font-size: 40px; }
+  .app-band__tagline { position: relative; top: -54px; z-index: 9; margin-bottom: 15px; }
+  .app-band__stores { position: absolute; top: 95px; left: 0; right: 0; z-index: 3; justify-content: center; padding: 20px 30px; }
+  .app-band__stores a { position: relative; top: 7px; padding: 10px 0; }
+  .app-band__store { width: auto; max-width: inherit; height: 46px; }
+}
+
+/* ======================= Rails (story + video) ======================= */
+.rail-section { position: relative; padding: 45px 0; }
+.rail-section--blog { background: var(--rbl-lavender); }
+.rail-section--video { padding-bottom: 30px; }
+.rail-section__title { margin-bottom: 30px; font-size: 34px; font-weight: 400; line-height: 1.3; color: var(--rbl-ink); }
+.rail { --per: 4; --gap: 27px; position: relative; margin-bottom: 30px; }
+.rail__viewport { overflow: hidden; }
+.rail__track { display: flex; margin-left: 5px; transition: transform 1s ease; }
+.rail__slide { flex: 0 0 auto; width: calc((100% + 5px) / var(--per) - var(--gap)); margin-right: var(--gap); }
+.rail__arrow { position: absolute; top: -72px; z-index: 3; }
+.rail__arrow--prev { right: 56px; }
+.rail__arrow--next { right: 0; }
+.rail__arrow-btn {
+  display: block; width: 40px; height: 40px; padding-top: 8px; border-radius: 50%;
+  background: var(--rbl-blue); color: #fff; font-size: 22px; line-height: 26.88px; text-align: center;
+  transition: all 0.2s linear;
+}
+.rail__arrow:disabled { cursor: not-allowed; }
+.rail__arrow:disabled .rail__arrow-btn { background: #e8e8ec; color: var(--rbl-blue); opacity: 0.4; }
+.rail-section__cta { text-align: center; }
+.rail-section--video .rail { margin-bottom: 0; }
+@media (min-width: 768px) and (max-width: 991px) { .rail { --per: 2; } }
+@media (max-width: 767px) {
+  .rail { --per: 1.2; }
+  .rail__track { margin-left: 0; }
+  .rail__slide { width: calc(100% / var(--per) - var(--gap)); }
+  .rail__viewport { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .rail__viewport::-webkit-scrollbar { display: none; }
+  .rail__slide { scroll-snap-align: start; }
+  .rail__arrow { display: none; }
+  .rail-section__title { font-size: 28px; }
+  .rail-section--video .rail-section__cta { margin-top: 30px; }
+}
+
+/* story card (csr-cate-card-wrap) */
+.story-card {
+  position: relative; display: flex; flex-wrap: wrap; align-items: flex-end;
+  width: 100%; height: 325px; overflow: hidden; border-radius: 4px;
+}
+.story-card__bg { position: absolute; inset: 0; z-index: 3; background-size: cover; background-repeat: no-repeat; }
+.story-card::after {
+  content: ""; position: absolute; inset: 0; z-index: 3; border-radius: 4px; opacity: 0.5;
+  background: linear-gradient(0deg, #000 0%, #fff0 100%);
+}
+.story-card__inner { position: relative; z-index: 5; top: 0; min-height: 150px; width: 100%; padding: 20px 20px 40px; transition: top 0.2s linear; }
+.story-card:hover .story-card__inner { top: -15px; }
+.story-card__date { margin-bottom: 6px; font-size: 12px; line-height: 1.68; color: #fff; }
+.story-card__title { position: relative; font-size: 18px; font-weight: 700; line-height: 1.3; color: #fff; }
+.story-card__title a { color: #fff; }
+.story-card__title::after { content: ""; position: absolute; left: 0; bottom: -14px; width: 65px; border-top: 2px solid var(--rbl-red); }
+
+/* video card (vidSlid) */
+.video-card { position: relative; height: 325px; overflow: hidden; border-radius: 4px; }
+.video-card__play { display: block; width: 100%; }
+.video-card__thumb {
+  display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 0.3), inset 0 0 5px rgb(255 255 255 / 0.1);
+}
+/* live computes 347px at <=786 (css says 340px; measured slick-slide/card 253x347) */
+@media (max-width: 786px) { .video-card { height: 347px; } }
+
+.video-popup { position: fixed; inset: 0; z-index: 9999; background: rgb(0 0 0 / 0.9); }
+.video-popup[hidden] { display: none; }
+.video-popup__dialog {
+  position: absolute; top: 10%; left: 20%; width: 80%; max-width: 800px; height: 450px;
+  overflow: hidden; border: 2px solid #fff; border-radius: 8px; background: #fff;
+}
+.video-popup__frame { display: block; width: 100%; height: 100%; border: 0; }
+.video-popup__close {
+  position: fixed; top: calc(10% + 45px); right: 20%; z-index: 9; padding: 2px 10px;
+  border-radius: 20px; background: #fff; color: #000; font-size: 20px;
+}
+@media (max-width: 786px) {
+  .video-popup__dialog { top: 20%; left: 5%; width: 90%; max-width: none; height: 300px; }
+  .video-popup__close { top: 18%; right: 10px; }
+}

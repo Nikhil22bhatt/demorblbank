@@ -1,0 +1,1981 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-19T08:40:32.977Z",
+    "urls": [
+      "https://www.rbl.bank.in/about-us"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".awards-card div.ttl",
+      ".awards-card .card-body .card-body",
+      ".awards-card p:not(.ttl)",
+      ".abtvision",
+      ".img-card-wrap",
+      "#data-section5 > .container > .row",
+      ".field--name-field-our-mission",
+      ".two-col-card-wrap .row",
+      ".aboutus-year .slick-list",
+      ".aboutus-year .slick-current",
+      ".aboutus-year .slick-current .form-check-input",
+      ".aboutus-year .slick-current .form-check-label",
+      ".right-btn-carousel",
+      "#views-exposed-form-awards-block-1",
+      ".site-footer"
+    ],
+    "props": [
+      "display",
+      "margin",
+      "padding"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".awards-card div.ttl",
+    ".awards-card .card-body .card-body",
+    ".awards-card p:not(.ttl)",
+    ".abtvision",
+    ".img-card-wrap",
+    "#data-section5 > .container > .row",
+    ".field--name-field-our-mission",
+    ".two-col-card-wrap .row",
+    ".aboutus-year .slick-list",
+    ".aboutus-year .slick-current",
+    ".aboutus-year .slick-current .form-check-input",
+    ".aboutus-year .slick-current .form-check-label",
+    ".right-btn-carousel",
+    "#views-exposed-form-awards-block-1",
+    ".site-footer"
+  ],
+  "root": {
+    "https://www.rbl.bank.in/about-us": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 11229,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 6138,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.rbl.bank.in/about-us": {
+      "360": {
+        ".awards-card div.ttl": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3357,
+              "w": 294,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3692,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers KA…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4043,
+              "w": 294,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers RI…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4378,
+              "w": 294,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Infosys Finacle Innovation Awards 2026 …",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4745,
+              "w": 294,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5075,
+              "w": 294,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5405,
+              "w": 294,
+              "h": 79
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5751,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 Al …",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6102,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 TEC…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6453,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 DIG…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".awards-card .card-body .card-body": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3357,
+              "w": 294,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3692,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers KA…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4043,
+              "w": 294,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers RI…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4378,
+              "w": 294,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Infosys Finacle Innovation Awards 2026 …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4745,
+              "w": 294,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5075,
+              "w": 294,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5405,
+              "w": 294,
+              "h": 79
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5751,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 Al …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6102,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 TEC…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6453,
+              "w": 294,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 DIG…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".awards-card p:not(.ttl)": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3409,
+              "w": 294,
+              "h": 16
+            },
+            "visible": true,
+            "text": "CONFIRMATION SERVICE API",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 3744,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "KAVACH (Mule Hunter)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4095,
+              "w": 294,
+              "h": 16
+            },
+            "visible": true,
+            "text": "RInsights DATA ANALYTICS",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4430,
+              "w": 294,
+              "h": 48
+            },
+            "visible": true,
+            "text": "BUSINESS MODEL INNOVATION (Gold Winner …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 4776,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "BEST CORE SYSTEM PROJECT (iManage)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5106,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "BEST DATA ANALYTICS PROJECT (RInsights)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5436,
+              "w": 294,
+              "h": 48
+            },
+            "visible": true,
+            "text": "BEST FINANCIAL ARTIFICIAL INTELLIGENCE …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 5803,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Al & ML ADOPTION (Winner)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6154,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "TECH TALENT & ORGANIZATION (Winner)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 33,
+              "y": 6505,
+              "w": 294,
+              "h": 32
+            },
+            "visible": true,
+            "text": "DIGITAL SALES & ENGAGEMENT (Special Men…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".abtvision": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6669,
+              "w": 360,
+              "h": 734
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".img-card-wrap": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 6669,
+              "w": 336,
+              "h": 734
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 7529,
+              "w": 336,
+              "h": 270
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 7829,
+              "w": 336,
+              "h": 270
+            },
+            "visible": true,
+            "text": "EMPLOYEES AS THE PILLAR To provide an e…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 8129,
+              "w": 336,
+              "h": 250
+            },
+            "visible": true,
+            "text": "COMMUNITY AS THE CAUSE To deliver robus…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 12,
+              "y": 8409,
+              "w": 336,
+              "h": 270
+            },
+            "visible": true,
+            "text": "SHAREHOLDER VALUE AS THE FOCUS To demon…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          }
+        ],
+        "#data-section5 > .container > .row": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 6603,
+              "w": 360,
+              "h": 860
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 7463,
+              "w": 360,
+              "h": 1246
+            },
+            "visible": true,
+            "text": "Our Mission CUSTOMERS AT THE HEART To e…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 8709,
+              "w": 360,
+              "h": 1378
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".field--name-field-our-mission": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7529,
+              "w": 360,
+              "h": 1179
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "flex",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".two-col-card-wrap .row": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 8739,
+              "w": 360,
+              "h": 648
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 9426,
+              "w": 360,
+              "h": 621
+            },
+            "visible": true,
+            "text": "Careers at RBL Bank Guided by the missi…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-list": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 62,
+              "y": 3054,
+              "w": 236,
+              "h": 64
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any - 2023 2024 2022 2021 2020 2019 2…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current .form-check-input": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current .form-check-label": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "margin": "auto",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "margin": "auto",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".right-btn-carousel": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 303,
+              "y": 3054,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "7px 0px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "7px 0px 0px"
+            }
+          }
+        ],
+        "#views-exposed-form-awards-block-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 3046,
+              "w": 336,
+              "h": 110
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 10132,
+              "w": 360,
+              "h": 1097
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ FOOTER SECOND Medi…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".awards-card div.ttl": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2350,
+              "w": 219,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2350,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers KA…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2350,
+              "w": 219,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers RI…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2350,
+              "w": 219,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Infosys Finacle Innovation Awards 2026 …",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2757,
+              "w": 219,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 Al …",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 3164,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 TEC…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 3164,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 DIG…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 10px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".awards-card .card-body .card-body": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2350,
+              "w": 219,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2350,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers KA…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2350,
+              "w": 219,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers RI…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2350,
+              "w": 219,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Infosys Finacle Innovation Awards 2026 …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2757,
+              "w": 219,
+              "h": 100
+            },
+            "visible": true,
+            "text": "Asset Triple A Digital Awards 2026 BEST…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2757,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 Al …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 3164,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 TEC…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 3164,
+              "w": 219,
+              "h": 84
+            },
+            "visible": true,
+            "text": "21st Banking Technology Awards 2026 DIG…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".awards-card p:not(.ttl)": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2402,
+              "w": 219,
+              "h": 16
+            },
+            "visible": true,
+            "text": "CONFIRMATION SERVICE API",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2402,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "KAVACH (Mule Hunter)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2402,
+              "w": 219,
+              "h": 16
+            },
+            "visible": true,
+            "text": "RInsights DATA ANALYTICS",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2402,
+              "w": 219,
+              "h": 48
+            },
+            "visible": true,
+            "text": "BUSINESS MODEL INNOVATION (Gold Winner …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 2809,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "BEST CORE SYSTEM PROJECT (iManage)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 2809,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "BEST DATA ANALYTICS PROJECT (RInsights)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 753,
+              "y": 2809,
+              "w": 219,
+              "h": 48
+            },
+            "visible": true,
+            "text": "BEST FINANCIAL ARTIFICIAL INTELLIGENCE …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 1038,
+              "y": 2809,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Al & ML ADOPTION (Winner)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 183,
+              "y": 3216,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "TECH TALENT & ORGANIZATION (Winner)",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 468,
+              "y": 3216,
+              "w": 219,
+              "h": 32
+            },
+            "visible": true,
+            "text": "DIGITAL SALES & ENGAGEMENT (Special Men…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".abtvision": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 150,
+              "y": 3388,
+              "w": 1140,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".img-card-wrap": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 162,
+              "y": 3388,
+              "w": 1116,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 162,
+              "y": 3792,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 720,
+              "y": 3792,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "EMPLOYEES AS THE PILLAR To provide an e…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 162,
+              "y": 4132,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "COMMUNITY AS THE CAUSE To deliver robus…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 720,
+              "y": 4132,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "SHAREHOLDER VALUE AS THE FOCUS To demon…",
+            "props": {
+              "display": "block",
+              "margin": "0px 0px 30px",
+              "padding": "0px"
+            }
+          }
+        ],
+        "#data-section5 > .container > .row": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 150,
+              "y": 3314,
+              "w": 1140,
+              "h": 404
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 150,
+              "y": 3718,
+              "w": 1140,
+              "h": 754
+            },
+            "visible": true,
+            "text": "Our Mission CUSTOMERS AT THE HEART To e…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 150,
+              "y": 4502,
+              "w": 1140,
+              "h": 800
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".field--name-field-our-mission": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 138,
+              "y": 3792,
+              "w": 1140,
+              "h": 680
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px 12px"
+            }
+          }
+        ],
+        ".two-col-card-wrap .row": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 150,
+              "y": 4532,
+              "w": 1140,
+              "h": 355
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 150,
+              "y": 4917,
+              "w": 1140,
+              "h": 355
+            },
+            "visible": true,
+            "text": "Careers at RBL Bank Guided by the missi…",
+            "props": {
+              "display": "flex",
+              "margin": "0px -12px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-list": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 212,
+              "y": 1976,
+              "w": 1016,
+              "h": 64
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any - 2023 2024 2022 2021 2020 2019 2…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "none",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current .form-check-input": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".aboutus-year .slick-current .form-check-label": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "margin": "auto",
+              "padding": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "- Any -",
+            "props": {
+              "display": "block",
+              "margin": "auto",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".right-btn-carousel": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 1233,
+              "y": 1976,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "7px 0px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "7px 0px 0px"
+            }
+          }
+        ],
+        "#views-exposed-form-awards-block-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 1968,
+              "w": 1116,
+              "h": 141
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5317,
+              "w": 1440,
+              "h": 820
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ The Bank Board of …",
+            "props": {
+              "display": "block",
+              "margin": "0px",
+              "padding": "0px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1045 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-19T08:54:28.853Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.rbl.bank.in/about-us",
+      "http://localhost:8791/about-us-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.rbl.bank.in/about-us",
+    "http://localhost:8791/about-us-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#content",
+      "isBody": false,
+      "leaves": 79,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section1 > div.container",
+        "tier": 6,
+        "share": 0.04,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 750,
+        "via": "max-width",
+        "selector": "div.container > div.row.align-items-center > div.col-12 > div.banner-info.right-wrap",
+        "tier": 9,
+        "share": 0.04,
+        "section": 0,
+        "w1": 750,
+        "maxWidth": "750px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section2 > div.container",
+        "tier": 6,
+        "share": 0.11,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "#nav-AboutUs > div.tab-pane-inner.xs-pb0 > div.row > div.col-lg-6",
+        "tier": 14,
+        "share": 0.08,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "#nav-AboutUs > div.tab-pane-inner.xs-pb0 > div.row > div.col-lg-6",
+        "tier": 14,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 480,
+        "via": "max-width",
+        "selector": "div.tab-pane-inner.xs-pb0 > div.row > div.col-lg-6 > div.scale-img-wrap.scale-img-width",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 480,
+        "maxWidth": "480px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section3 > div.container",
+        "tier": 6,
+        "share": 0.11,
+        "section": 2,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.container > div.clearfix.text-formatted > div.row > div.col-md-3.col-12",
+        "tier": 9,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.container > div.clearfix.text-formatted > div.row > div.col-md-3.col-12",
+        "tier": 9,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.container > div.clearfix.text-formatted > div.row > div.col-md-3.col-12",
+        "tier": 9,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.container > div.clearfix.text-formatted > div.row > div.col-md-3.col-12",
+        "tier": 9,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section4 > div.container",
+        "tier": 6,
+        "share": 0.46,
+        "section": 3,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "div.carousel-item.active > div.carousel-inner-wrap > div.row > div.col-sm-6.col-lg-4",
+        "tier": 24,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section5 > div.container",
+        "tier": 6,
+        "share": 0.28,
+        "section": 4,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.img-card.img-card-lg > div.clearfix.text-formatted > div.abtvision.row > div.col-md-4",
+        "tier": 13,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.img-card.img-card-lg > div.clearfix.text-formatted > div.abtvision.row > div.col-md-4",
+        "tier": 13,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.img-card.img-card-lg > div.clearfix.text-formatted > div.abtvision.row > div.col-md-4",
+        "tier": 13,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row.aos-init > div.field.field--name-field-our-mission > div.field__item.col-md-6",
+        "tier": 9,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.img-card-wrap > div.img-card.img-card-sm > div.clearfix.text-formatted > p.p18.text-black",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row.aos-init > div.field.field--name-field-our-mission > div.field__item.col-md-6",
+        "tier": 9,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.img-card-wrap > div.img-card.img-card-sm > div.clearfix.text-formatted > p.p18.text-black",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row.aos-init > div.field.field--name-field-our-mission > div.field__item.col-md-6",
+        "tier": 9,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.img-card-wrap > div.img-card.img-card-sm > div.clearfix.text-formatted > p.p18.text-black",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row.aos-init > div.field.field--name-field-our-mission > div.field__item.col-md-6",
+        "tier": 9,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.img-card-wrap > div.img-card.img-card-sm > div.clearfix.text-formatted > p.p18.text-black",
+        "tier": 14,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.two-col-card-wrap > div.row > div.col-lg-6.align-self-center",
+        "tier": 11,
+        "share": 0,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "max-width",
+        "selector": "div.row > div.col-lg-6.align-self-center > div.two-col-card > div.two-col-card-img",
+        "tier": 13,
+        "share": 0,
+        "section": 4,
+        "w1": 440,
+        "maxWidth": "440px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.two-col-card-wrap > div.row > div.col-lg-6.align-self-center",
+        "tier": 11,
+        "share": 0.04,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.two-col-card-wrap > div.row > div.col-lg-6.order-2",
+        "tier": 11,
+        "share": 0.04,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.two-col-card-wrap > div.row > div.col-lg-6.order-1",
+        "tier": 11,
+        "share": 0,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "fixed",
+        "selector": "div.two-col-card-wrap > div.row > div.col-lg-6.order-1 > div.two-col-card.float-lg-right",
+        "tier": 12,
+        "share": 0,
+        "section": 4,
+        "w1": 440,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#data-section1",
+        "px": 1140,
+        "capSelector": "#data-section1 > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#data-section2",
+        "px": 1140,
+        "capSelector": "#data-section2 > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#data-section3",
+        "px": 1140,
+        "capSelector": "#data-section3 > div.container"
+      },
+      {
+        "index": 3,
+        "selector": "#data-section4",
+        "px": 1140,
+        "capSelector": "#data-section4 > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#data-section5",
+        "px": 1140,
+        "capSelector": "#data-section5 > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1140,
+    "contentFrom": "module",
+    "maxCap": 1140,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 304
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#content",
+      "isBody": false,
+      "leaves": 79,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.au-banner > div.container",
+        "tier": 2,
+        "share": 0.04,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 750,
+        "via": "max-width",
+        "selector": "#content > section.au-banner > div.container > div.au-banner__card",
+        "tier": 3,
+        "share": 0.04,
+        "section": 0,
+        "w1": 750,
+        "maxWidth": "750px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.au-about > div.container",
+        "tier": 2,
+        "share": 0.11,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.au-tabs-wrap > div.au-about__pane > div.row > div.col-lg-6",
+        "tier": 6,
+        "share": 0.08,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.au-tabs-wrap > div.au-about__pane > div.row > div.col-lg-6",
+        "tier": 6,
+        "share": 0,
+        "section": 1,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 480,
+        "via": "max-width",
+        "selector": "div.au-about__pane > div.row > div.col-lg-6 > div.au-about__figure",
+        "tier": 7,
+        "share": 0,
+        "section": 1,
+        "w1": 480,
+        "maxWidth": "480px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.au-impact > div.container",
+        "tier": 2,
+        "share": 0.11,
+        "section": 2,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "section.au-impact > div.container > div.row > div.col-md-3",
+        "tier": 4,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "section.au-impact > div.container > div.row > div.col-md-3",
+        "tier": 4,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "section.au-impact > div.container > div.row > div.col-md-3",
+        "tier": 4,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "section.au-impact > div.container > div.row > div.col-md-3",
+        "tier": 4,
+        "share": 0.03,
+        "section": 2,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.au-awards > div.container",
+        "tier": 2,
+        "share": 0.46,
+        "section": 3,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 285,
+        "via": "fixed",
+        "selector": "#au-awards-pane > div.row.au-awards__grid > div.col-sm-6.col-lg-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 3,
+        "w1": 285,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.au-values > div.container",
+        "tier": 2,
+        "share": 0.28,
+        "section": 4,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.row > div.col-12.au-vision > div.row > div.col-md-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.row > div.col-12.au-vision > div.row > div.col-md-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.row > div.col-12.au-vision > div.row > div.col-md-4",
+        "tier": 6,
+        "share": 0.03,
+        "section": 4,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.row.au-mission > div.col-md-6",
+        "tier": 5,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.row.au-mission > div.col-md-6 > div.au-mission__card > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.row.au-mission > div.col-md-6",
+        "tier": 5,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.row.au-mission > div.col-md-6 > div.au-mission__card > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.row.au-mission > div.col-md-6",
+        "tier": 5,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.row.au-mission > div.col-md-6 > div.au-mission__card > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 558,
+        "via": "fixed",
+        "selector": "div.container > div.row > div.row.au-mission > div.col-md-6",
+        "tier": 5,
+        "share": 0.03,
+        "section": 4,
+        "w1": 558,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "max-width",
+        "selector": "div.row.au-mission > div.col-md-6 > div.au-mission__card > p",
+        "tier": 7,
+        "share": 0.01,
+        "section": 4,
+        "w1": 360,
+        "maxWidth": "360px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.au-split > div.row > div.col-lg-6.au-split__col",
+        "tier": 7,
+        "share": 0,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "max-width",
+        "selector": "div.au-split > div.row > div.col-lg-6.au-split__col > div.au-split__img",
+        "tier": 8,
+        "share": 0,
+        "section": 4,
+        "w1": 440,
+        "maxWidth": "440px"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.au-split > div.row > div.col-lg-6.au-split__col",
+        "tier": 7,
+        "share": 0.04,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.au-split.au-split--reverse > div.row > div.col-lg-6.au-split__col",
+        "tier": 7,
+        "share": 0.04,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 570,
+        "via": "fixed",
+        "selector": "div.col-12 > div.au-split.au-split--reverse > div.row > div.col-lg-6.au-split__col",
+        "tier": 7,
+        "share": 0,
+        "section": 4,
+        "w1": 570,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 440,
+        "via": "max-width",
+        "selector": "div.au-split.au-split--reverse > div.row > div.col-lg-6.au-split__col > div.au-split__img.au-split__img--right",
+        "tier": 8,
+        "share": 0,
+        "section": 4,
+        "w1": 440,
+        "maxWidth": "440px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.au-banner",
+        "px": 1140,
+        "capSelector": "#content > section.au-banner > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#content > section.au-about",
+        "px": 1140,
+        "capSelector": "#content > section.au-about > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#content > section.au-impact",
+        "px": 1140,
+        "capSelector": "#content > section.au-impact > div.container"
+      },
+      {
+        "index": 3,
+        "selector": "#content > section.au-awards",
+        "px": 1140,
+        "capSelector": "#content > section.au-awards > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#content > section.au-values",
+        "px": 1140,
+        "capSelector": "#content > section.au-values > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1140,
+    "contentFrom": "module",
+    "maxCap": 1140,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 184
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1140px = build 1140px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/5",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/5",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/5",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/5",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/5",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/about-us-2560/cap-iter.json"
+}

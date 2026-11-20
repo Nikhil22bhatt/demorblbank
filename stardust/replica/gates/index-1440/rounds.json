@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T08:48:41.097Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T09:01:31.690Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T09:26:56.403Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 within pixel/height/content/clip/overflow bar (1440 0.78% Δh0, 360 2.54% Δh1); failed on chrome band + heading-size flags, fixed after cap; build-final.png / diff-final.png / content-diff-final.txt (0 red, 0 nothing-lost) / vdiff-final confirm",
+          "at": "2026-11-19T09:46:43.366Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T11-04-56-551Z",
+          "at": "2026-11-19T11:04:56.552Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T11-08-48-273Z",
+          "at": "2026-11-19T11:08:48.273Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-16-09-443Z",
+          "at": "2026-11-19T11:16:09.443Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-25-07-516Z",
+          "at": "2026-11-19T11:25:07.517Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-27-58-691Z",
+          "at": "2026-11-19T11:27:58.692Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-36-40-224Z",
+          "at": "2026-11-19T11:36:40.226Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-51-47-846Z",
+          "at": "2026-11-19T11:51:47.847Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-56-17-293Z",
+          "at": "2026-11-19T11:56:17.294Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

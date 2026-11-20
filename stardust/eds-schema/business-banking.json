@@ -1,0 +1,281 @@
+{
+ "source": "http://localhost:8791/business-banking-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "listing-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Business Banking"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Elevate your banking experience with our comprehensive suite of business banking products."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "From startup to expansion, our tailored Business Banking solutions support your banking needs."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "listing-products",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "A business goes through various stages of growth and success. We are here to support you throughout, and here’s an account created specifically to meet all your varying business banking needs."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Business Banking Group"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Meet your business obligations and operational costs with RBL Bank's business banking solutions."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Know More",
+     "href": "/business-banking/business-banking-group"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Agri Banking"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Our unique agri-banking offerings are advantageous for your various agri-business needs.Get all services under one roof."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Know More",
+     "href": "/business-banking/agri-banking"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Government Sponsored Scheme"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Celebrating the Spirit of Indian Entrepreneurship. Explore Government sponsored scheme solutions for your business needs."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Know More",
+     "href": "/business-banking/government-sponsored-scheme"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Business"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Simplify your business banking experience with our customized solutions."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Know More",
+     "href": "/business-banking/business"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.product-grid__item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "app-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "RBL MyBank App"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Safe Simple Fast"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "|"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "|"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "rail-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Money, People & Safety"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Nov 04, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "How to Protect Your Device from APK Fraud?",
+     "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Oct 26, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Tips for Identifying Genuine Bank Communicationse",
+     "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Oct 16, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+     "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Oct 14, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+     "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Oct 07, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "1600-Series Call Scam: How Fraudsters Spoof Numbers to Steal from You",
+     "href": "/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "View All",
+     "href": "/blog"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.rail__slide",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "rail-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trust & Beyond"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Watch All",
+     "href": "/trust-and-beyond"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "×"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.rail__slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

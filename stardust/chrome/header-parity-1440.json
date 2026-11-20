@@ -1,0 +1,194 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-19T10:38:21.802Z",
+ "source": "https://www.rbl.bank.in/contact-us",
+ "build": "https://main--1aa640c2--aemcoder.aem.page/contact-us",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  1440
+ ],
+ "counts": {
+  "error": 17,
+  "warn": 3,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@1440 View Logo",
+   "width": 1440,
+   "path": "View Logo",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "control-missing@1440 Search",
+   "width": 1440,
+   "path": "Search",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source search control opens on click; the build has no control named \"Search\" or of family search"
+  },
+  {
+   "key": "budget-truncated@1440 (source)",
+   "width": 1440,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@1440 (build)",
+   "width": 1440,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at depth 4 at Products > Wholesale Banking > Clients > Agri Banking"
+  },
+  {
+   "key": "panel-visual@1440 Products [hover]",
+   "width": 1440,
+   "path": "Products",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 7.0% (bar 2%; source 1110×451, build 1110×451; texture 54% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Know More [hover]",
+   "width": 1440,
+   "path": "Products > Know More",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 16.5% (bar 2%; source 617×327, build 583×360; texture 25% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Term Deposits [hover]",
+   "width": 1440,
+   "path": "Products > Term Deposits",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 9.0% (bar 2%; source 278×458, build 278×468; texture 32% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Loans [hover]",
+   "width": 1440,
+   "path": "Products > Loans",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 11.3% (bar 2%; source 278×456, build 278×487; texture 29% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Insurance [hover]",
+   "width": 1440,
+   "path": "Products > Insurance",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.0% (bar 2%; source 278×393, build 278×395; texture 61% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Wealth Management [hover]",
+   "width": 1440,
+   "path": "Products > Wealth Management",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.3% (bar 2%; source 278×393, build 278×395; texture 22% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Convenience Banking [hover]",
+   "width": 1440,
+   "path": "Products > Convenience Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.2% (bar 2%; source 278×393, build 278×395; texture 35% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > NRI Banking [hover]",
+   "width": 1440,
+   "path": "Products > NRI Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 7.9% (bar 2%; source 278×393, build 270×395; texture 16% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Preferred Banking [hover]",
+   "width": 1440,
+   "path": "Products > Preferred Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 41.1% (bar 2%; source 278×639, build 270×395; texture 20% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Business Banking [hover]",
+   "width": 1440,
+   "path": "Products > Business Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 7.5% (bar 2%; source 278×393, build 270×395; texture 18% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Wholesale Banking [hover]",
+   "width": 1440,
+   "path": "Products > Wholesale Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.2% (bar 2%; source 278×393, build 270×395; texture 15% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Products > Corporate Banking [hover]",
+   "width": 1440,
+   "path": "Products > Corporate Banking",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.9% (bar 2%; source 278×393, build 270×395; texture 18% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Payments [hover]",
+   "width": 1440,
+   "path": "Payments",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 6.8% (bar 2%; source 625×255, build 625×265; texture 20% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Offers [hover]",
+   "width": 1440,
+   "path": "Offers",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 2.2% (bar 2%; source 625×255, build 625×255; texture 21% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Offers > Credit Card Offers [hover]",
+   "width": 1440,
+   "path": "Offers > Credit Card Offers",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 8.2% (bar 2%; source 351×407, build 366×415; texture 31% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Offers > Debit Card Offers [hover]",
+   "width": 1440,
+   "path": "Offers > Debit Card Offers",
+   "action": "hover",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 12.5% (bar 2%; source 290×230, build 258×231; texture 21% thick)"
+  }
+ ]
+}

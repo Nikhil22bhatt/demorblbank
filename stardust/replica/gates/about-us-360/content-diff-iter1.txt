@@ -1,0 +1,52 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #content, header, footer)
+root "#content"
+  source: 95 text nodes — 17 headings, 0 eyebrows, 7 CTAs, 71 body; 22 img
+  build: 81 text nodes — 17 headings, 0 eyebrows, 7 CTAs, 57 body; 21 img
+  editable texts (outermost h*/p/ul/ol): source 62 / build 61
+  attributes (placeholder/aria-label/title): source 7 / build 5; icons: source 4 / build 2
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 9 / build 9; icons: source 2 / build 2
+root "footer"
+  source: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  build: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 25
+  attributes (placeholder/aria-label/title): source 57 / build 57; icons: source 2 / build 2
+
+Findings: 31 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 7 · accepted 🟢 0 (owner 0, auto 0) · advisory 24
+  🟡 MISSING BODY [#content]: source body "- Any -"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Apply"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "- Any -"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2023"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2024"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2022"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2021"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2020"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2019"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2018"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2017"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2016"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "2015"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Apply"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#content]: build has 61 outermost editable element(s) vs 62 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="About Us for www.rbl.bank.in" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Board of Directors for about us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Leadership Team for about us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Awards & Recognition for About Us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Advertisements for About Us" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Explore More for Social Responsibility" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#content]: source <a> aria-label="Explore More for Careers" has no build <a> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#content]: build <nav> aria-label="About navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <nav> aria-label="Awards and advertisements" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <form> aria-label="Filter awards by year" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous years" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next years" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 7×20) at "- any - 2026 2025 2024 2023 2022 2021 20" is at "previous years" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 7×20) at "- any - 2026 2025 2024 2023 2022 2021 20" is at "next years" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ICON [#content]: source icon-font glyph U+F104 (FontAwesome, 0×0) at "- any - 2023 2024 2022 2021 2020 2019 20" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source icon-font glyph U+F105 (FontAwesome, 0×0) at "- any - 2023 2024 2022 2021 2020 2019 20" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

@@ -1,0 +1,463 @@
+/* index.css — RBL Bank homepage (replica). Values lifted from live style.css + measure.mjs
+   (stardust/replica/lift/index-live-measure.json). Shared chrome lives in shared/canon.css. */
+
+/* ======================= Frontpage chrome (body.path-frontpage) ======================= */
+/* live: .path-frontpage .notification_message_front { position: fixed; top: 40px } — settles at
+   43px under the utility strip; the nav sits under the ticker (147px), content starts at 248px. */
+body.path-frontpage { padding-top: 248px; }
+.path-frontpage .site-nav { top: 147px; }
+.notice {
+  position: fixed; top: 43px; left: 0; right: 0; z-index: 1050;
+  padding: 16px; background: #f5f5f5; color: #055160;
+  border: 1px solid #b6effb; border-radius: 6px;
+}
+.notice__wrap { display: inline-block; width: 97%; margin-left: 20px; }
+.notice__text {
+  width: 88%; margin: 0 auto; padding: 8px 0 8px 40px;
+  background: url("assets/index/noti.svg") no-repeat 1px 13px;
+}
+.notice__text p {
+  display: inline-block; vertical-align: middle; width: 1000px; margin: 0 5px;
+  color: #303030; font-size: 16px; line-height: 26.88px;
+}
+.notice__close {
+  position: absolute; top: 29px; right: 122px; width: 16px; height: 16px; padding: 4px;
+  border: 1px solid #000; border-radius: 100%; opacity: 0.5; cursor: pointer;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center / 6px auto no-repeat;
+}
+.notice__close:hover { opacity: 0.75; }
+/* live: scrolling down hides the ticker (.notification_message_front.hidden: opacity 0, max-height 0),
+   the page wrapper's margin-top eases 0.3s and the nav's top 0.2s to sit under the strip; back at
+   the top it returns. Closing it (×) keeps it hidden. */
+body.path-frontpage { transition: padding-top 0.3s ease; }
+.path-frontpage .site-nav { transition: top 0.2s ease, box-shadow 0.2s ease; } /* live navbar: top + box-shadow 200ms */
+.notice { max-height: 200px; overflow: hidden; transition: opacity 0.3s ease, max-height 0.3s ease; }
+body.notice-hidden, body.notice-closed { padding-top: 144px; }
+body.notice-hidden .notice, body.notice-closed .notice { opacity: 0; max-height: 0; padding: 0; border: 0; pointer-events: none; }
+body.notice-hidden .site-nav, body.notice-closed .site-nav { top: 43px; }
+
+/* live homepage footer is 15px taller than the inner-page canon (834 vs 819 at 1440) */
+/* the extra 15px band paints the footer colour (live bottom row is #222, not the black footer box) */
+.path-frontpage .site-footer { padding-bottom: 15px; background: var(--rbl-footer); }
+
+/* ======================= Shared section atoms ======================= */
+.fa-angle-left::before { content: "\f104"; }
+.fa-angle-right::before { content: "\f105"; }
+.main-content { display: flow-root; } /* live main#content contains the last section's bottom margin */
+.section-heading {
+  margin: 0 0 30px; font-size: 34px; font-weight: 400; line-height: 44.2px; color: #303030;
+}
+.section-heading--center { text-align: center; }
+.btn-rbl {
+  display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 20px;
+  border: 1px solid transparent; border-radius: 4px;
+  font-size: 18px; font-weight: 700; line-height: 27px; text-align: center; white-space: nowrap;
+  transition: all 0.2s linear;
+}
+.btn-rbl--blue { background: var(--rbl-blue); border-color: var(--rbl-blue); color: #fff; }
+.btn-rbl--blue:hover { background: #213073; color: #fff; }
+.btn-rbl--gray { background: #f3f4f6; border-color: #303030; color: #303030; }
+.btn-rbl--outline { background: transparent; border-color: #303030; color: #303030; }
+.btn-rbl--outline:hover, .btn-rbl--gray:hover { background: #303030; color: #fff; }
+.btn-rbl--sm { height: 40px; padding: 0 5px; font-size: 13px; line-height: 19.5px; }
+
+/* ======================= Full-width carousels (hero, promo, app) ======================= */
+.carousel { position: relative; }
+.carousel__viewport { position: relative; overflow: hidden; }
+.carousel__track {
+  display: flex; transform: translate3d(calc(var(--i, 0) * -100%), 0, 0);
+  transition: transform 1s ease; /* live slick speed 1000 (motion-observe: slick-track transform 1s) */
+}
+.carousel__slide { position: relative; flex: 0 0 100%; min-width: 100%; }
+.hero__arrow {
+  position: absolute; top: 50%; z-index: 99; transform: translateY(-50%);
+  padding: 0; border: 0; background: none; cursor: pointer;
+  font-size: 56px; line-height: 26.88px; color: #fff;
+}
+.hero__arrow--prev { left: 35px; }
+.hero__arrow--next { right: 35px; }
+.dots {
+  position: absolute; left: 0; right: 0; bottom: 12px; z-index: 6;
+  display: flex; justify-content: center; height: 4px; margin: 0; padding: 0; list-style: none;
+}
+.dots li { display: block; }
+.dots__dot {
+  position: relative; display: block; width: 25px; height: 4px; margin: 0 8px; padding: 0;
+  border: 0; background: #fff; cursor: pointer; font-size: 0;
+}
+.dots__dot::after {
+  content: ""; position: absolute; top: 0; left: 0; bottom: 0; width: 0; background: #ec0a0a;
+}
+.carousel.is-playing .dots__dot.is-active::after { animation: dotFill 6s linear forwards; }
+@keyframes dotFill { from { width: 0; } to { width: 100%; } }
+
+/* hero banner */
+.hero .carousel__viewport { height: 395px; }
+.hero__slide { height: 400px; padding: 30px 0; }
+.hero__img { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; background-position: center top; }
+.hero__img--m { display: none; }
+.hero__slide .container { position: relative; z-index: 5; height: 100%; }
+.hero__link { position: absolute; inset: -30px calc(50% - 50vw); display: block; }
+.hero__link span { display: block; width: 100%; height: 100%; font-size: 0; line-height: 0; color: transparent; }
+.hero__card { max-width: 750px; padding: 20px 30px; margin-left: -25px; }
+.hero__title { margin-bottom: 15px; font-size: 30px; font-weight: 500; line-height: 1.2; color: #fff; }
+.hero__sub { margin-bottom: 25px; font-size: 20px; font-weight: 500; line-height: 1.3; color: #fff; }
+
+/* ======================= Attractive Rates ======================= */
+.rates { position: relative; padding: 45px 0; background: linear-gradient(270deg, #e5e7ef 16.04%, #fdefef 74.96%); }
+.rates__row { display: flex; flex-wrap: wrap; margin: 0 -12px; }
+.rates__col { flex: 0 0 auto; width: 20%; padding: 0 12px; }
+.rates__label { margin-bottom: 3px; font-size: 20px; line-height: 33.6px; color: #262626; text-align: center; }
+.rates__label a { color: #304087; }
+.rates__value {
+  font-size: 36px; font-weight: 700; line-height: 46.8px; color: #304087; text-align: center; white-space: nowrap;
+}
+.rates__value small { font-size: 75%; font-weight: 300; }
+.rates__value sub { position: relative; top: 2px; font-size: 75%; font-weight: 300; line-height: 0; }
+.rates__more a { display: block; margin: 5px 0 0; font-size: 14px; line-height: 26.88px; text-align: center; color: #304087; }
+.rates__item:hover .rates__label, .rates__item:hover .rates__value { color: #2872a8; }
+
+/* ======================= Promo card banners ======================= */
+.promo .carousel__viewport { height: 395px; }
+.promo__slide {
+  display: flex; align-items: center; min-height: 400px; padding: 30px 0; background: #f3f4f6;
+}
+.promo__img { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; background-position: center top; }
+.promo__img--m { display: none; }
+.promo__container { position: relative; z-index: 5; }
+.promo__offer { width: fit-content; margin: -60px 190px 0 auto; text-align: center; }
+.promo__title { margin: 0 0 20px; font-size: 34px; font-weight: 400; line-height: 44.2px; color: #303030; }
+.promo__slide--iocl .promo__title { font-size: 28px; line-height: 36.4px; }
+.promo__offer--light .promo__title { color: #fff; }
+.promo__title strong { font-weight: 700; }
+.promo__para {
+  display: inline-block; margin: 0 0 30px; padding: 10px 15px; border-radius: 4px;
+  background: rgb(48 48 48 / 0.6); color: #fff; font-size: 18px; line-height: 26.88px;
+}
+.promo__para ul { text-align: left; padding-left: 20px; list-style: disc; }
+.promo__sep { margin: 0 10px; }
+.promo .btn-rbl { min-width: 146px; }
+
+/* ======================= Fixed Deposit Calculator ======================= */
+.fdc { position: relative; padding: 45px 0 0; overflow: hidden; }
+.fdc__top { display: flex; height: 71px; }
+.fdc__type { display: flex; width: 465px; padding-top: 16px; }
+.fdc-radio { position: relative; }
+.fdc-radio input { position: absolute; opacity: 0; }
+.fdc-radio label {
+  display: grid; grid-template-columns: auto 1fr; cursor: pointer;
+  font-size: 16px; font-weight: 400; line-height: 26.88px; color: #909090;
+}
+.fdc-radio label::before {
+  content: ""; grid-row: 1 / span 2; position: relative; top: 3px; width: 20px; height: 20px; margin-right: 12px;
+  background: #fff; border: 1px solid #bebebe; border-radius: 100%;
+}
+.fdc-radio label span { grid-column: 2; }
+.fdc-radio input:checked + label { color: #212121; font-weight: 700; }
+.fdc-radio input:checked + label::before { background: #304087; box-shadow: inset 0 0 0 4px #fff; border-color: #304087; }
+.fdc-radio input:focus-visible + label::before { outline: 2px solid #304087; outline-offset: 2px; }
+.fdc-radio--top + .fdc-radio--top { margin-left: 20px; }
+.fdc__payout { width: 279px; }
+.fdc__payout-head { display: flex; justify-content: space-between; align-items: baseline; height: 27px; }
+.fdc__payout-head label { font-size: 16px; line-height: 26.88px; color: #303030; }
+.fdc__payout-rate { font-size: 12px; color: #303030; }
+.fdc__select select {
+  display: block; width: 100%; height: 35px; padding: 6px 20px 6px 10px; border: 0; border-radius: 4px;
+  -webkit-appearance: none; appearance: none; font: inherit; font-size: 16px; color: #303030; cursor: pointer;
+  background: #f3f4f6 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 35'%3e%3crect width='30' height='35' rx='0' fill='%23304087'/%3e%3cpath d='M10 15l5 5 5-5' fill='none' stroke='%23fff' stroke-width='1.6'/%3e%3c/svg%3e") right center / 30px 35px no-repeat;
+}
+.fdc__grid { display: flex; gap: 24px; margin-top: 14px; }
+.fdc__form {
+  width: 736px; height: 395px; margin-bottom: 20px; padding: 20px 35px 18px;
+  background: #f3f4f6; border-radius: 4px;
+}
+.fdc__reset { margin-bottom: 5px; text-align: right; line-height: 26.88px; }
+.fdc__reset a { color: #304087; text-decoration: underline; }
+.fdc__citizen { display: flex; height: 82px; margin: 0 -12px; }
+.fdc__citizen-col { padding: 0 12px; }
+.fdc__citizen-col--1 { width: 25%; }
+.fdc__citizen-col--2 { width: 41.6667%; }
+.fdc__citizen-col--3 { width: 33.3333%; }
+.fdc-range { position: relative; }
+.fdc-range--amount { height: 79px; margin-bottom: 20px; }
+.fdc-range__head { display: flex; justify-content: space-between; height: 32px; padding-top: 2px; }
+.fdc-range__label { font-size: 16px; line-height: 26.88px; color: #212529; margin-top: -2px; }
+.fdc-range__label strong { font-weight: 700; color: #212121; }
+.fdc-range__input { position: relative; width: 50px; }
+.fdc-range__input--amount { width: 120px; }
+.fdc-range__unit {
+  position: absolute; top: 2px; left: 10px; padding-right: 6px; border-right: 0.5px solid #dbdcde;
+  font-size: 12px; font-weight: 500; line-height: 20px; color: #909090;
+}
+.fdc-range__input input {
+  display: block; width: 100%; height: 24px; padding: 5px; border: 0.5px solid #dbdcde; border-radius: 4px;
+  background: #fff; font: inherit; font-size: 12px; font-weight: 500; line-height: 14px; text-align: right; color: #304087;
+}
+.fdc-slider {
+  --pct: 0%;
+  display: block; width: 100%; height: 20px; margin: 0; padding: 0; background: transparent;
+  -webkit-appearance: none; appearance: none; cursor: pointer;
+}
+.fdc-slider::-webkit-slider-runnable-track {
+  height: 6px; border-radius: 71.5px;
+  background: linear-gradient(to right, #304087 0 var(--pct), #eaecf3 var(--pct) 100%);
+}
+.fdc-slider::-moz-range-track { height: 6px; border-radius: 71.5px; background: #eaecf3; }
+.fdc-slider::-moz-range-progress { height: 6px; border-radius: 71.5px; background: #304087; }
+.fdc-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 20px; height: 20px; margin-top: -7px; border: 0; border-radius: 20px;
+  background: #ed3338; box-shadow: 0 2px 2px rgb(0 0 0 / 0.25);
+}
+.fdc-slider::-moz-range-thumb { width: 20px; height: 20px; border: 0; border-radius: 20px; background: #ed3338; box-shadow: 0 2px 2px rgb(0 0 0 / 0.25); }
+.fdc-range__scale { display: flex; justify-content: space-between; height: 27px; padding-top: 4px; font-size: 12px; line-height: 20.16px; color: #909090; }
+.fdc-range__scale small { font-size: 80%; }
+.fdc__tenure-label { height: 27px; font-size: 16px; line-height: 26.88px; color: #212529; }
+.fdc__tenure-label strong { font-weight: 700; }
+.fdc__tenure { display: flex; height: 117px; margin-left: -12px; }
+.fdc-range--col { width: 214px; height: 97px; margin-right: 10px; padding: 0 12px; }
+.fdc-range--rule { border-right: 1px dashed #c2c4c7; }
+.fdc__result { width: 356px; }
+.fdc__table {
+  width: 100%; margin-bottom: 20px; table-layout: fixed; border-collapse: collapse;
+  background: #e4e9ff; border-radius: 4px; overflow: hidden;
+}
+.fdc__table td { width: 50%; height: 88px; padding: 15.5px 10px; border: 1px dashed #c2c4c7; vertical-align: top; text-align: center; }
+.fdc__table tr:first-child td { border-top: 0; }
+.fdc__table tr:last-child td { border-bottom: 0; }
+.fdc__table td:first-child { border-left: 0; }
+.fdc__table td:last-child { border-right: 0; }
+.fdc__k { font-size: 14px; line-height: 26.88px; color: #303030; }
+.fdc__v { min-height: 33px; font-size: 18px; font-weight: 500; line-height: 30px; color: #262626; white-space: nowrap; }
+.fdc__v--rate { font-size: 20px; }
+.fdc__open td { height: auto; padding: 89px 10px 29px; text-align: left; font-size: 14px; line-height: 26.88px; color: #303030; }
+.fdc__btns td { height: 72px; padding: 16px 10px; border: 0; }
+.fdc__btns .btn-rbl { display: flex; width: 100%; }
+.fdc__terms { margin: 0 0 17px; font-size: 14px; line-height: 26.88px; color: #303030; }
+
+/* ======================= App / service banners ======================= */
+.appban .carousel__viewport { height: 369px; }
+.appban__slide { height: 369px; }
+/* live slide is 374px in a 369px slick-list; the link box ends at the visible edge so the control is not clipped (img keeps 374px) */
+.appban__link { display: block; height: 100%; overflow: hidden; }
+.appban__link--m { display: none; }
+.appban__link img { display: block; width: 100%; height: 374px; }
+
+/* ======================= Card rails ======================= */
+.cards-section { position: relative; padding: 45px 0; }
+.products { padding-bottom: 0; }
+.videos { padding-bottom: 0; }
+.blog { background: #f4f5fc; }
+.rail { position: relative; margin-bottom: 30px; }
+.rail__viewport { overflow: hidden; }
+.rail__track { display: flex; gap: 27px; padding-left: 5px; transition: transform 0.5s ease; }
+.rail__item { flex: 0 0 auto; }
+.rail__nav { position: absolute; top: -72px; right: 0; display: flex; gap: 16px; }
+.rail__btn {
+  width: 40px; height: 40px; padding: 8px 0 0; border: 0; border-radius: 50%;
+  background: #e8e8ec; color: #304087; font-size: 22px; line-height: 26.88px; text-align: center; cursor: pointer;
+}
+.rail__btn:disabled { opacity: 0.4; cursor: default; }
+.rail__btn:not(:disabled) { background: #304087; color: #fff; }
+.rail .fa { font-size: 22px; }
+.cards-section__cta { text-align: center; }
+.rail--videos { margin-bottom: 0; }
+.cards-section__cta--videos { margin-bottom: 30px; }
+
+/* product card */
+.rail--products .rail__item { width: 345px; }
+.product-card {
+  display: flex; flex-direction: column; height: 373px; margin-bottom: 30px; overflow: hidden;
+  background: #fff; border-radius: 6px; box-shadow: -2px 2px 4px rgb(0 0 0 / 0.15);
+}
+.product-card__img { height: 200px; overflow: hidden; }
+.product-card__img img { display: block; width: 100%; height: 200px; object-fit: cover; transition: transform 0.4s ease; }
+.product-card:hover .product-card__img img { transform: scale(1.05); }
+.product-card__body { flex: 1; padding: 23px 30px 30px; background: #e9ecf7; }
+.product-card h3 { height: 65px; margin: 0 0 7px; font-size: 22px; font-weight: 400; line-height: 28.6px; color: #304087; }
+.product-card__ctas { display: flex; }
+.product-card__ctas .btn-rbl { min-width: 119px; padding: 0 10px; font-size: 16px; line-height: 24px; }
+.product-card__ctas .btn-rbl + .btn-rbl { margin-left: 30px; }
+
+/* offer card */
+.rail--offers .rail__item { width: 345px; }
+.offer-card {
+  position: relative; display: flex; align-items: flex-end; height: 350px; overflow: hidden; border-radius: 4px; cursor: pointer;
+}
+.offer-card__bg, .story-card__bg { position: absolute; inset: 0; z-index: 3; background-size: cover; background-repeat: no-repeat; }
+.offer-card::after, .story-card::after {
+  content: ""; position: absolute; inset: 0; z-index: 3; border-radius: 4px; opacity: 0;
+  background: linear-gradient(0deg, #000 0%, rgb(255 255 255 / 0) 100%);
+}
+.offer-card:hover::after { opacity: 0.3; }
+.offer-card__inner { position: relative; top: -6px; z-index: 5; display: flex; justify-content: space-between; align-items: flex-end; width: 100%; min-height: 130px; padding: 20px; }
+.offer-card__left { max-width: 250px; }
+.offer-card__tag {
+  display: inline-block; margin: 0 8px 6px 0; padding: 7px 10px; border-radius: 16px; background: #fff;
+  font-size: 14px; line-height: 16px; color: #263238; white-space: nowrap;
+}
+.offer-card__title { max-height: 66px; overflow: hidden; font-size: 20px; font-weight: 700; line-height: 33.6px; text-transform: uppercase; color: #fff; }
+.offer-card__text { font-size: 14px; line-height: 23.52px; color: #fff; }
+.offer-card__arrow { position: relative; left: 0; display: block; transition: left 0.2s ease; }
+.offer-card:hover .offer-card__arrow { left: 10px; }
+.offer-card__arrow img { display: block; width: 60px; min-width: 60px; }
+
+/* story (blog) card */
+.rail--blog .rail__item, .rail--videos .rail__item { width: 252px; }
+.story-card { position: relative; display: flex; align-items: flex-end; height: 325px; overflow: hidden; border-radius: 4px; }
+.story-card::after { opacity: 0.5; }
+.story-card__inner { position: relative; top: 0; z-index: 5; min-height: 150px; padding: 20px 20px 40px; transition: top 0.3s ease; }
+.story-card:hover .story-card__inner { top: -15px; }
+.story-card__date { margin-bottom: 6px; font-size: 12px; line-height: 20.16px; color: #fff; }
+.story-card__title { position: relative; font-size: 18px; font-weight: 700; line-height: 23.4px; }
+.story-card__title a { color: #fff; }
+.story-card__title::after { content: ""; position: absolute; left: 0; bottom: -14px; width: 65px; border-top: 2px solid #ed3338; }
+
+/* video card + popup */
+.video-card { height: 325px; }
+.video-card__btn { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: pointer; }
+.video-card__thumb {
+  display: block; width: 100%; height: auto; border: 1px solid #ccc; border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 0.3), 0 0 0 rgb(255 255 255 / 0.1);
+}
+.video-popup { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; background: rgb(0 0 0 / 0.8); }
+.video-popup[hidden] { display: none; }
+.video-popup__box { position: relative; width: min(90vw, 900px); aspect-ratio: 16 / 9; }
+.video-popup__box iframe { width: 100%; height: 100%; border: 0; }
+.video-popup__close { position: absolute; top: -40px; right: 0; border: 0; background: none; color: #fff; font-size: 32px; line-height: 1; cursor: pointer; }
+
+/* ======================= Hidden dialogs (CC bill payment options, billdesk notice) ======================= */
+.hp-dialog { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; background: rgb(0 0 0 / 0.6); }
+.hp-dialog[hidden] { display: none; }
+.hp-dialog__box { width: min(92vw, 800px); max-height: 85vh; overflow: auto; padding: 24px; background: #fff; border-radius: 6px; font-size: 14px; line-height: 1.6; color: #303030; }
+.hp-dialog__box h5 { margin-bottom: 12px; font-size: 20px; color: #304087; }
+.hp-dialog__box h3 { margin: 12px 0 8px; font-size: 16px; font-weight: 700; }
+.hp-dialog__box img { max-width: 120px; height: auto; }
+#collapse-other-way-pay-xs h3 { font-size: 34px; line-height: 1.3; }
+
+/* ======================= DOM parity (index-parity.mjs): hidden slick clones / outer dots / legacy radios,
+   bootstrap-slider tooltips present at opacity 0 ======================= */
+.carousel__slide--clone[hidden], .dots--outer[hidden], .fdc-legacy[hidden] { display: none; }
+.fdc-tip { position: absolute; top: 0; left: 0; opacity: 0; pointer-events: none; font-size: 14px; color: #fff; }
+
+/* ======================= Mobile quick links (frontpage .credit-carousel, < 768 only) ======================= */
+.quicklinks { display: none; }
+
+/* ======================= Mobile (< 768) — values from live style.css @media (max-width: 767px) and
+   replica/lift/index-live-measure-360.json (doc 6515: notice 75–250, header 250–330, quick links 330–413,
+   hero 442, rates 504, promo 570, fdc 1361, app 535, products 544, offers 529, blog 560, videos 566) ======================= */
+@media (max-width: 767px) {
+  /* frontpage chrome: the ticker is fixed under the 75px top bar; the header (.common-header-wrap: relative)
+     and the quick links flow under it. Scrolling hides the ticker and the page closes up by its 175px. */
+  body.path-frontpage { padding-top: 250px; }
+  body.path-frontpage.notice-hidden, body.path-frontpage.notice-closed { padding-top: 75px; }
+  .path-frontpage .mobile-nav { position: relative; top: 0; }
+  .notice { top: 75px; max-height: 175px; }
+  .notice__wrap { width: 95%; margin-left: 0; }
+  .notice__text { width: 100%; padding: 0 0 0 33px; background-position: 1px 3px; }
+  .notice__text p { width: auto; font-size: 14px; line-height: 23.52px; }
+  .notice__close { top: 19px; right: 23px; }
+
+  .quicklinks { display: block; position: relative; height: 82px; margin: -1px 0 2px; overflow-x: auto; background: #fff; box-shadow: 0 2px 4px rgb(0 0 0 / 0.2); scrollbar-width: none; }
+  .quicklinks::-webkit-scrollbar { display: none; }
+  .quicklinks__list { display: flex; flex-wrap: nowrap; margin: 0; padding: 15px 0 6px; list-style: none; }
+  .quicklinks__item { flex: 0 0 auto; border-right: 1px solid #dbdcde; text-align: center; }
+  .quicklinks__item:last-child { border-right: 0; }
+  .quicklinks__item a { display: block; min-width: 119px; padding: 0 10px; font-size: 14px; font-weight: 500; line-height: 26.88px; white-space: nowrap; color: #303030; }
+  .quicklinks__item img { display: block; width: 30px; height: 34px; margin: 0 auto; }
+  .quicklinks__item span { display: block; letter-spacing: 0.2px; }
+
+  .section-heading { font-size: 28px; line-height: 36.4px; }
+  .hero__arrow { display: none; }
+
+  /* hero: slick-list 442px, slide 450px (margin-top -3px, padding-top 35px), mobile art 450px bottom-centred */
+  .hero .carousel__viewport { height: 442px; }
+  .hero__slide { height: 450px; margin-top: -3px; padding: 35px 0 0; }
+  .hero__img--d { display: none; }
+  .hero__img--m { display: block; height: 450px; background-position: bottom center; }
+  .hero__slide .container { position: static; }
+  .hero__link { inset: 3px 0 auto; height: 439px; z-index: 5; }
+  .hero__card { max-width: none; margin: 0; padding: 0 5px; text-align: center; position: relative; z-index: 5; }
+  .hero__title { margin-bottom: 10px; font-size: 24px; }
+  .hero__sub { font-size: 20px; }
+  .promo__title { font-size: 28px; line-height: 36.4px; }
+  #collapse-other-way-pay-xs h3 { font-size: 28px; }
+
+  /* attractive rates: two columns, forex full width */
+  .rates__row { padding-top: 20px; }
+  .rates__col { width: 50%; }
+  .rates__col:nth-child(n+3) { margin-top: 20px; }
+  .rates__col--forex { width: 100%; }
+  .rates__value small, .rates__value sub { font-size: 26px; }
+
+  /* promo cards: slide 575px in a 570px list, copy on top of the 577px mobile art */
+  .promo .carousel__viewport { height: 570px; }
+  .promo__slide { display: block; height: 575px; min-height: 0; margin-top: -3px; padding: 35px 0 0; }
+  .promo__img--d { display: none; }
+  .promo__img--m { display: block; height: 577px; background-position: center bottom; }
+  .promo__offer { width: auto; margin: 0; }
+  .promo__para { margin-bottom: 20px; padding: 7px 12px; font-size: 14px; }
+
+  /* fixed deposit calculator: stacked */
+  .fdc { padding-top: 21px; }
+  .fdc .section-heading { margin-bottom: 0; }
+  .fdc__top { display: block; height: auto; }
+  .fdc__type { flex-direction: column; width: auto; height: 78px; margin-bottom: 15px; padding-top: 7px; }
+  .fdc-radio--top { margin-bottom: 8px; }
+  .fdc-radio--top + .fdc-radio--top { margin-left: 0; }
+  .fdc__payout { width: auto; }
+  .fdc__grid { display: block; margin-top: 14px; }
+  .fdc__form { width: auto; height: 631px; margin-bottom: 20px; padding: 15px; }
+  .fdc__citizen { display: block; height: 131px; margin: 0; }
+  .fdc__citizen-col { width: auto !important; padding: 0; margin-bottom: 8px; }
+  .fdc__citizen label span { grid-column: 2; display: inline; }
+  .fdc__citizen label span + span { margin-left: 4px; }
+  .fdc__tenure { display: block; height: auto; margin: 0 -12px; }
+  .fdc-range--col { width: auto; height: 97px; margin: 0; border-right: 0; }
+  .fdc-range--col:first-child { height: 78px; margin-bottom: 20px; }
+  .fdc-range--col + .fdc-range--col + .fdc-range--col { margin-top: 20px; }
+  .fdc__result { width: auto; }
+  .fdc__table td { font-size: 13.712px; }
+  .fdc__v { min-height: 30px; }
+  .fdc__table td { padding-top: 15px; padding-bottom: 15px; }
+  .fdc__table tr { background: rgb(0 0 0 / 0.063); }
+  .fdc__open td { padding-top: 87px; padding-bottom: 29px; font-size: 13px; }
+  .fdc__btns td { height: 70px; padding: 15px 7px 16px 15px; }
+  .fdc__terms { margin-bottom: 28px; font-size: 13px; line-height: 21.84px; }
+
+  /* app / service banners: full-width mobile art (360x458), slide 530 in a 535 block */
+  .appban { padding-bottom: 5px; }
+  .appban .carousel__viewport { height: 530px; }
+  /* .rbl-myapp-section: 458px tall in its slide colour, the 336px-wide art starts 31px down; white below */
+  .appban__slide { height: 530px; padding-bottom: 72px; background-clip: content-box; }
+  .appban__link--d { display: none; }
+  .appban__link--m { display: block; height: 458px; padding-top: 31px; }
+  .appban__link img { width: 336px; height: auto; margin: 0 auto; }
+  .appban .dots { bottom: 17px; }
+
+  /* rails: 1.2 cards per view (253px), product rail one card (309px) */
+  .rail__track { padding-left: 0; }
+  .rail--offers .rail__item, .rail--blog .rail__item, .rail--videos .rail__item { width: 253px; }
+  .rail--products .rail__item { width: 309px; }
+  .rail--blog .rail__nav { display: none; }
+  .product-card__body { padding: 23px 20px 30px; }
+  .offer-card { height: 295px; }
+  .offer-card__left { max-width: 153px; }
+  .offer-card__title { max-height: none; font-size: 16px; line-height: 26.88px; }
+  .video-card { height: 347px; }
+  .cards-section__cta--videos { margin-bottom: 30px; }
+  .rail--videos { margin-bottom: 30px; }
+  .path-frontpage .site-footer { padding-bottom: 13px; }
+}
+/* live homepage .accessibility-top-bar @<768: padding 8px 5px (inner pages 8px 0) */
+@media (max-width: 767px) { .path-frontpage .topbar { padding-left: 5px; padding-right: 5px; } }
+/* homepage-only chrome at < 768: the copyright line is full white and the a11y launcher has no amber ring
+   (#304087 disc) — live homepage capture vs the inner-page canon */
+@media (max-width: 767px) {
+  .path-frontpage .copyright-mobile { opacity: 1; }
+  .path-frontpage .a11y-launcher { top: 6px; right: 10px; width: 30px; height: 30px; background: #304087; box-shadow: none; }
+  .path-frontpage .a11y-launcher img { width: 20px; height: 20px; }
+}
+
+/* ======================= Motion: AOS fade-up (live data-aos-duration 300, easing ease, once; motion-observe 1440) ======================= */
+.page-index [data-aos="fade-up"] { opacity: 0; transform: translate3d(0, 100px, 0); transition: opacity 0.3s ease, transform 0.3s ease; }
+.page-index [data-aos="fade-up"].aos-animate { opacity: 1; transform: translateZ(0); }

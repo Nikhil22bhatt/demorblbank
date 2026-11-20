@@ -1,0 +1,150 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-19T09:50:34.005Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T09:50:34.005Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "about-us",
+    "business-banking",
+    "contact-us",
+    "index",
+    "personal-banking"
+  ],
+  "steps": [
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "templateId": "about-us",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "about-banner",
+          "edsBlockName": "about-banner"
+        },
+        {
+          "id": "about-intro",
+          "edsBlockName": "about-intro"
+        },
+        {
+          "id": "impact-stats",
+          "edsBlockName": "impact-stats"
+        },
+        {
+          "id": "awards",
+          "edsBlockName": "awards"
+        },
+        {
+          "id": "values",
+          "edsBlockName": "values"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "business-banking",
+      "path": "/business-banking",
+      "templateId": "business-banking",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "listing-hero",
+          "edsBlockName": "listing-hero"
+        },
+        {
+          "id": "product-grid",
+          "edsBlockName": "product-grid"
+        },
+        {
+          "id": "app-band",
+          "edsBlockName": "app-band"
+        },
+        {
+          "id": "story-rail",
+          "edsBlockName": "story-rail"
+        },
+        {
+          "id": "video-rail",
+          "edsBlockName": "video-rail"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "contact-us",
+      "path": "/contact-us",
+      "templateId": "contact-us",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "contact-tabs",
+          "edsBlockName": "contact-tabs"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        },
+        {
+          "id": "rates",
+          "edsBlockName": "rates"
+        },
+        {
+          "id": "promo-carousel",
+          "edsBlockName": "promo-carousel"
+        },
+        {
+          "id": "fd-calculator",
+          "edsBlockName": "fd-calculator"
+        },
+        {
+          "id": "app-banner",
+          "edsBlockName": "app-banner"
+        },
+        {
+          "id": "product-cards",
+          "edsBlockName": "product-cards"
+        },
+        {
+          "id": "offer-cards",
+          "edsBlockName": "offer-cards"
+        },
+        {
+          "id": "home-blog",
+          "edsBlockName": "home-blog"
+        },
+        {
+          "id": "home-videos",
+          "edsBlockName": "home-videos"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "personal-banking",
+      "path": "/personal-banking",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

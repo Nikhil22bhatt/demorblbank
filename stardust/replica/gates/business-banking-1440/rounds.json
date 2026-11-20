@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T08:43:26.552Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T08:49:35.595Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T08:53:48.627Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T10-50-39-081Z",
+          "at": "2026-11-19T10:50:39.082Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T10-52-45-271Z",
+          "at": "2026-11-19T10:52:45.271Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T10-59-55-793Z",
+          "at": "2026-11-19T10:59:55.793Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-36-40-224Z",
+          "at": "2026-11-19T11:36:40.225Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-40-49-778Z",
+          "at": "2026-11-19T11:40:49.778Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-43-24-821Z",
+          "at": "2026-11-19T11:43:24.821Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-48-29-254Z",
+          "at": "2026-11-19T11:48:29.254Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T11-56-17-293Z",
+          "at": "2026-11-19T11:56:17.293Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

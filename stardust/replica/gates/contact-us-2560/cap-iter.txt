@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.rbl.bank.in/contact-us
+  shell     1140px  max-width #data-section2 > div.container  (tier 6, holds 90% of the text)
+  modules  2 sections: capped 1140 ×1, 985 ×1 · full-bleed ×0
+  contentMaxWidth 1140px (shell) · shellMaxWidth 1140px · root #content
+build  http://localhost:8791/contact-us-proposed.html
+  shell     1140px  max-width #content > section.contact-section > div.container  (tier 2, holds 90% of the text)
+  modules  2 sections: capped 1140 ×1, 985 ×1 · full-bleed ×0
+  contentMaxWidth 1140px (shell) · shellMaxWidth 1140px · root #content
+rows
+  ✓ wrapper cap: live 1140px = build 1140px (±20)
+  ✓ module 1/2: 1140px = 1140px
+  ✓ module 2/2: 985px = 985px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/contact-us-2560/cap-iter.json)

@@ -1,0 +1,778 @@
+{
+  "url": "http://localhost:8791/business-banking-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2063,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 563,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "43px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "140px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".rail-section--blog .rail__arrow--next",
+      "frames": [
+        {
+          "t": 13029.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13242.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13455.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13661.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".product-card__cta",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s linear"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 64, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s linear"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".rail-section--blog .story-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.story-card__title",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h3.story-card__title",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".rail-section--blog .btn-outline",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 48, 48)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s linear"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 64, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s linear"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".video-card__thumb",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".app-band__stores a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 64, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.app-band__store.app-band__store--gplay",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(48, 64, 135)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.app-band__store.app-band__store--gplay",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "html > body.page-business-banking.page-listing.scrolled > button.go-top",
+        "y": 800,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "body.page-business-banking.page-listing.scrolled > main.main-content > section.app-band > div.container > div.app-band__card.is-revealed",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body.page-business-banking.page-listing.scrolled > main.main-content > section.app-band > div.container > div.app-band__card.is-revealed",
+        "y": 1200,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-business-banking.page-listing.scrolled > button.go-top",
+        "y": 300,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body > button.go-top",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--prev > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--prev > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--prev > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > div.rail__viewport > ul.rail__track",
+        "y": 1772,
+        "dur": "1s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--next > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--next > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.rail-section.rail-section--blog > div.container > div.rail > button.rail__arrow.rail__arrow--next > span.rail__arrow-btn",
+        "y": 1772,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "li.product-grid__item > article.product-card > div.product-card__body > div.product-card__actions > a.product-card__cta",
+        "y": 721,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "main.main-content > section.rail-section.rail-section--blog > div.container > div.rail-section__cta > a.btn-outline",
+        "y": 2203,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 800
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-revealed"
+        ],
+        "el": "body.page-business-banking.page-listing.scrolled > main.main-content > section.app-band > div.container > div.app-band__card.is-revealed",
+        "y": 1200
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 2063
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 2063
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 2400
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 1200
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrolled",
+        "y": 1200
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrollup",
+        "y": 1772
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-business-banking.page-listing.scrollup",
+        "y": 1772
+      },
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 1772
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 1772
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 721
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 721
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 1987
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 1590
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-business-banking.page-listing.fixed-tab-body",
+        "y": 1590
+      }
+    ]
+  }
+}

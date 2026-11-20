@@ -1,0 +1,1330 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T08:54:24.951Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.rbl.bank.in/business-banking",
+  "at": "2026-11-19T08:54:03.826Z",
+  "docH": 5031
+ },
+ "eds": {
+  "url": "http://localhost:8791/business-banking-proposed.html",
+  "at": "2026-11-19T08:54:24.519Z",
+  "docH": 5031
+ },
+ "results": [
+  {
+   "sel": ".field--name-field-banking-categorys .product-card=.product-grid .product-card",
+   "family": "listing-product-cards",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.col-md-6.col-lg-4 > div.paragraph.paragraph--type--business-banking-category > div.card.product-card"
+     },
+     "eds": {
+      "path": "ul.product-grid > li.product-grid__item > article.product-card"
+     },
+     "rows": [
+      {
+       "key": "image:aaatest",
+       "role": "image",
+       "text": "aaatest",
+       "edsText": "aaatest",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200,
+        "sel": "img.product-card__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "box:div.card-body#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 281
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 281,
+        "sel": "div.product-card__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:business banking group",
+       "role": "text",
+       "text": "business banking group",
+       "edsText": "business banking group",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27
+       },
+       "eds": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27,
+        "sel": "h3.product-card__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/27/400",
+        "eds": "24/27/400"
+       }
+      },
+      {
+       "key": "text:meet your business obligations and opera",
+       "role": "text",
+       "text": "meet your business obligations and operational costs with rb",
+       "edsText": "meet your business obligations and operational costs with rb",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 121
+       },
+       "eds": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 121,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/400",
+        "eds": "18/30/400"
+       }
+      },
+      {
+       "key": "link:know more",
+       "role": "link",
+       "text": "know more",
+       "edsText": "know more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 403,
+        "w": 119,
+        "h": 48
+       },
+       "eds": {
+        "x": 30,
+        "y": 403,
+        "w": 119,
+        "h": 48,
+        "sel": "a.product-card__cta",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 839,
+       "w": 336,
+       "h": 481
+      },
+      "eds": {
+       "x": 12,
+       "y": 839,
+       "w": 336,
+       "h": 481
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.col-md-6.col-lg-4 > div.paragraph.paragraph--type--business-banking-category > div.card.product-card"
+     },
+     "eds": {
+      "path": "ul.product-grid > li.product-grid__item > article.product-card"
+     },
+     "rows": [
+      {
+       "key": "image:aaatest",
+       "role": "image",
+       "text": "aaatest",
+       "edsText": "aaatest",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200,
+        "sel": "img.product-card__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "box:div.card-body#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 281
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 281,
+        "sel": "div.product-card__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:agri banking",
+       "role": "text",
+       "text": "agri banking",
+       "edsText": "agri banking",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27
+       },
+       "eds": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27,
+        "sel": "h3.product-card__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/27/400",
+        "eds": "24/27/400"
+       }
+      },
+      {
+       "key": "text:our unique agri-banking offerings are ad",
+       "role": "text",
+       "text": "our unique agri-banking offerings are advantageous for your ",
+       "edsText": "our unique agri-banking offerings are advantageous for your ",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 121
+       },
+       "eds": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 121,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/400",
+        "eds": "18/30/400"
+       }
+      },
+      {
+       "key": "link:know more",
+       "role": "link",
+       "text": "know more",
+       "edsText": "know more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 403,
+        "w": 119,
+        "h": 48
+       },
+       "eds": {
+        "x": 30,
+        "y": 403,
+        "w": 119,
+        "h": 48,
+        "sel": "a.product-card__cta",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 1350,
+       "w": 336,
+       "h": 481
+      },
+      "eds": {
+       "x": 12,
+       "y": 1350,
+       "w": 336,
+       "h": 481
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.col-md-6.col-lg-4 > div.paragraph.paragraph--type--business-banking-category > div.card.product-card"
+     },
+     "eds": {
+      "path": "ul.product-grid > li.product-grid__item > article.product-card"
+     },
+     "rows": [
+      {
+       "key": "image:aaatest",
+       "role": "image",
+       "text": "aaatest",
+       "edsText": "aaatest",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200,
+        "sel": "img.product-card__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "box:div.card-body#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 308
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 308,
+        "sel": "div.product-card__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:government sponsored scheme",
+       "role": "text",
+       "text": "government sponsored scheme",
+       "edsText": "government sponsored scheme",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 54
+       },
+       "eds": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 54,
+        "sel": "h3.product-card__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/27/400",
+        "eds": "24/27/400"
+       }
+      },
+      {
+       "key": "text:celebrating the spirit of indian entrepr",
+       "role": "text",
+       "text": "celebrating the spirit of indian entrepreneurship. explore g",
+       "edsText": "celebrating the spirit of indian entrepreneurship. explore g",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 284,
+        "w": 276,
+        "h": 121
+       },
+       "eds": {
+        "x": 30,
+        "y": 284,
+        "w": 276,
+        "h": 121,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/400",
+        "eds": "18/30/400"
+       }
+      },
+      {
+       "key": "link:know more",
+       "role": "link",
+       "text": "know more",
+       "edsText": "know more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 430,
+        "w": 119,
+        "h": 48
+       },
+       "eds": {
+        "x": 30,
+        "y": 430,
+        "w": 119,
+        "h": 48,
+        "sel": "a.product-card__cta",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 1861,
+       "w": 336,
+       "h": 508
+      },
+      "eds": {
+       "x": 12,
+       "y": 1861,
+       "w": 336,
+       "h": 508
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.col-md-6.col-lg-4 > div.paragraph.paragraph--type--business-banking-category > div.card.product-card"
+     },
+     "eds": {
+      "path": "ul.product-grid > li.product-grid__item > article.product-card"
+     },
+     "rows": [
+      {
+       "key": "image:aaatest",
+       "role": "image",
+       "text": "aaatest",
+       "edsText": "aaatest",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 336,
+        "h": 200,
+        "sel": "img.product-card__img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "box:div.card-body#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 251
+       },
+       "eds": {
+        "x": 0,
+        "y": 200,
+        "w": 336,
+        "h": 251,
+        "sel": "div.product-card__body",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:business",
+       "role": "text",
+       "text": "business",
+       "edsText": "business",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27
+       },
+       "eds": {
+        "x": 30,
+        "y": 223,
+        "w": 276,
+        "h": 27,
+        "sel": "h3.product-card__title",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "24/27/400",
+        "eds": "24/27/400"
+       }
+      },
+      {
+       "key": "text:simplify your business banking experienc",
+       "role": "text",
+       "text": "simplify your business banking experience with our customize",
+       "edsText": "simplify your business banking experience with our customize",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 91
+       },
+       "eds": {
+        "x": 30,
+        "y": 257,
+        "w": 276,
+        "h": 91,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/30/400",
+        "eds": "18/30/400"
+       }
+      },
+      {
+       "key": "link:know more",
+       "role": "link",
+       "text": "know more",
+       "edsText": "know more",
+       "byPosition": false,
+       "origin": {
+        "x": 30,
+        "y": 373,
+        "w": 119,
+        "h": 48
+       },
+       "eds": {
+        "x": 30,
+        "y": 373,
+        "w": 119,
+        "h": 48,
+        "sel": "a.product-card__cta",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/700",
+        "eds": "16/24/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 2399,
+       "w": 336,
+       "h": 451
+      },
+      "eds": {
+       "x": 12,
+       "y": 2399,
+       "w": 336,
+       "h": 451
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#data-related-blog1 .csr-cate-card-wrap=.rail-section--blog .story-card",
+   "family": "listing-story-cards",
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div.item.slick-slide > div.csr-cate-card-wrap.mb0"
+     },
+     "eds": {
+      "path": "ul.rail__track > li.rail__slide > article.story-card"
+     },
+     "rows": [
+      {
+       "key": "box:div.csr-cate-card-wrap-bg.lazy-background#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 325
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 325,
+        "sel": "div.story-card__bg",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:nov 04, 2026",
+       "role": "text",
+       "text": "nov 04, 2026",
+       "edsText": "nov 04, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 195,
+        "w": 213,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 195,
+        "w": 213,
+        "h": 20,
+        "sel": "p.story-card__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/20/400",
+        "eds": "12/20/400"
+       }
+      },
+      {
+       "key": "link:how to protect your device from apk frau",
+       "role": "link",
+       "text": "how to protect your device from apk fraud?",
+       "edsText": "how to protect your device from apk fraud?",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 222,
+        "w": 196,
+        "h": 44
+       },
+       "eds": {
+        "x": 20,
+        "y": 222,
+        "w": 196,
+        "h": 44,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/23/700",
+        "eds": "18/23/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3.story-card__title",
+       "text": "how to protect your device from apk fraud?",
+       "boxed": false,
+       "x": 20,
+       "y": 221,
+       "w": 213,
+       "h": 47,
+       "absY": 3761,
+       "hidden": false,
+       "fs": 18,
+       "lh": 23,
+       "fw": "700",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "relative",
+       "key": "heading:how to protect your device from apk frau"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 3540,
+       "w": 253,
+       "h": 325
+      },
+      "eds": {
+       "x": 12,
+       "y": 3540,
+       "w": 253,
+       "h": 325
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.slick-track > div.item.slick-slide > div.csr-cate-card-wrap.mb0"
+     },
+     "eds": {
+      "path": "ul.rail__track > li.rail__slide > article.story-card"
+     },
+     "rows": [
+      {
+       "key": "box:div.csr-cate-card-wrap-bg.lazy-background#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 325
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 325,
+        "sel": "div.story-card__bg",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:oct 26, 2026",
+       "role": "text",
+       "text": "oct 26, 2026",
+       "edsText": "oct 26, 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 189,
+        "w": 213,
+        "h": 20
+       },
+       "eds": {
+        "x": 20,
+        "y": 189,
+        "w": 213,
+        "h": 20,
+        "sel": "p.story-card__date",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/20/400",
+        "eds": "12/20/400"
+       }
+      },
+      {
+       "key": "link:tips for identifying genuine bank commun",
+       "role": "link",
+       "text": "tips for identifying genuine bank communicationse",
+       "edsText": "tips for identifying genuine bank communicationse",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 216,
+        "w": 154,
+        "h": 68
+       },
+       "eds": {
+        "x": 20,
+        "y": 216,
+        "w": 154,
+        "h": 68,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/23/700",
+        "eds": "18/23/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "heading",
+       "tag": "h3",
+       "sel": "h3.story-card__title",
+       "text": "tips for identifying genuine bank communicationse",
+       "boxed": false,
+       "x": 20,
+       "y": 215,
+       "w": 213,
+       "h": 70,
+       "absY": 3754,
+       "hidden": false,
+       "fs": 18,
+       "lh": 23,
+       "fw": "700",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "relative",
+       "key": "heading:tips for identifying genuine bank commun"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 292,
+       "y": 3540,
+       "w": 253,
+       "h": 325
+      },
+      "eds": {
+       "x": 292,
+       "y": 3540,
+       "w": 253,
+       "h": 325
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#data-related-blog .csr-cate-card-wrap=.rail-section--video .video-card",
+   "family": "listing-video-cards",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.slick-track > div.item.slick-slide > div.csr-cate-card-wrap.mb0"
+     },
+     "eds": {
+      "path": "ul.rail__track > li.rail__slide > div.video-card"
+     },
+     "rows": [
+      {
+       "key": "image:business or chess, the right move can ch",
+       "role": "image",
+       "text": "business or chess, the right move can change the entire game",
+       "edsText": "business or chess, the right move can change the entire game",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 295
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 295,
+        "sel": "img.video-card__thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "button",
+       "tag": "button",
+       "sel": "button.video-card__play",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 253,
+       "h": 295,
+       "absY": 4099,
+       "hidden": false,
+       "fs": 16,
+       "lh": 27,
+       "fw": "400",
+       "color": "rgb(33, 37, 41)",
+       "bg": null,
+       "position": "static",
+       "key": "button:button.video-card__play#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 12,
+       "y": 4099,
+       "w": 253,
+       "h": 347
+      },
+      "eds": {
+       "x": 12,
+       "y": 4099,
+       "w": 253,
+       "h": 347
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.slick-track > div.item.slick-slide > div.csr-cate-card-wrap.mb0"
+     },
+     "eds": {
+      "path": "ul.rail__track > li.rail__slide > div.video-card"
+     },
+     "rows": [
+      {
+       "key": "image:csr initiatives - creating impact throug",
+       "role": "image",
+       "text": "csr initiatives - creating impact through h.e.lo health, edu",
+       "edsText": "csr initiatives - creating impact through h.e.lo health, edu",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 295
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 253,
+        "h": 295,
+        "sel": "img.video-card__thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "button",
+       "tag": "button",
+       "sel": "button.video-card__play",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 253,
+       "h": 295,
+       "absY": 4099,
+       "hidden": false,
+       "fs": 16,
+       "lh": 27,
+       "fw": "400",
+       "color": "rgb(33, 37, 41)",
+       "bg": null,
+       "position": "static",
+       "key": "button:button.video-card__play#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 292,
+       "y": 4099,
+       "w": 253,
+       "h": 347
+      },
+      "eds": {
+       "x": 292,
+       "y": 4099,
+       "w": 253,
+       "h": 347
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 28,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

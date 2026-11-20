@@ -1,0 +1,120 @@
+/* rates — homepage "Attractive Rates" band (replica canon index.css .rates), mobile-first. */
+.rates.block {
+  position: relative;
+  padding: 45px 0;
+  background: linear-gradient(270deg, #e5e7ef 16.04%, #fdefef 74.96%);
+}
+
+.rates .rates-head :is(h1, h2, h3) {
+  margin: 0 0 30px;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+  text-align: center;
+}
+
+.rates .rates-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+  padding-top: 20px;
+}
+
+.rates .rates-col {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 12px;
+}
+
+.rates .rates-col:nth-child(n + 3) {
+  margin-top: 20px;
+}
+
+.rates .rates-col-forex {
+  width: 100%;
+}
+
+.rates .rates-label p {
+  margin-bottom: 3px;
+  color: #262626;
+  font-size: 20px;
+  line-height: 33.6px;
+  text-align: center;
+}
+
+.rates .rates-label a:any-link {
+  color: #304087;
+}
+
+.rates .rates-value :is(h1, h2, h3, h4, h5, h6, p) {
+  color: #304087;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46.8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.rates .rates-value sup {
+  position: static;
+  vertical-align: baseline;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: inherit;
+}
+
+.rates .rates-value sub {
+  position: relative;
+  top: 2px;
+  vertical-align: baseline;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 0;
+}
+
+.rates .rates-value .icon {
+  width: 29px;
+  height: 29px;
+  vertical-align: middle;
+}
+
+.rates .rates-more a:any-link {
+  display: block;
+  margin: 5px 0 0;
+  color: #304087;
+  font-size: 14px;
+  line-height: 26.88px;
+  text-align: center;
+}
+
+.rates .rates-item:hover :is(.rates-label p, .rates-value h5, .rates-value p) {
+  color: #2872a8;
+}
+
+@media (width >= 768px) {
+  .rates .rates-head :is(h1, h2, h3) {
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .rates .rates-row {
+    padding-top: 0;
+  }
+
+  .rates .rates-col {
+    width: 20%;
+  }
+
+  .rates .rates-col:nth-child(n + 3) {
+    margin-top: 0;
+  }
+
+  .rates .rates-col-forex {
+    width: 20%;
+  }
+
+  .rates .rates-value :is(sup, sub) {
+    font-size: 75%;
+  }
+}

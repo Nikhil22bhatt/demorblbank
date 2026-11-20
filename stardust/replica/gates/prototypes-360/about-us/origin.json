@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.rbl.bank.in/about-us",
+  "reference": {
+    "dir": "stardust/replica/gates/about-us-360",
+    "capturedAt": "2026-11-19T08:46:04.085Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.07,
+    "variableRows": 260,
+    "maskArg": "0:68,712:96,1612:96"
+  },
+  "note": "reused stardust/replica/gates/about-us-360/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-19T09:46:48.631Z"
+}

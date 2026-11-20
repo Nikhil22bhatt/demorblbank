@@ -1,0 +1,96 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-19T10:31:46.933Z",
+ "source": "https://www.rbl.bank.in/contact-us",
+ "build": "https://main--1aa640c2--aemcoder.aem.page/contact-us",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360
+ ],
+ "counts": {
+  "error": 5,
+  "warn": 4,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "state-extra@360 More about banking products [click]",
+   "width": 360,
+   "path": "More about banking products",
+   "action": "click",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on click on the build only"
+  },
+  {
+   "key": "state-extra@360 More about banking products [key]",
+   "width": 360,
+   "path": "More about banking products",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "link-missing@360 View RBL Bank",
+   "width": 360,
+   "path": "View RBL Bank",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "control-missing@360 search",
+   "width": 360,
+   "path": "search",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source search control opens on click; the build has no control named \"search\" or of family search"
+  },
+  {
+   "key": "scroll-state@360 (header) [top]",
+   "width": 360,
+   "path": "(header)",
+   "action": "top",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled top: header 8px on the source, 80px on the build"
+  },
+  {
+   "key": "scroll-state@360 (header) [down]",
+   "width": 360,
+   "path": "(header)",
+   "action": "down",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled down: header 8px on the source, 80px on the build"
+  },
+  {
+   "key": "scroll-state@360 (header) [up]",
+   "width": 360,
+   "path": "(header)",
+   "action": "up",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled up: header 8px on the source, 80px on the build"
+  },
+  {
+   "key": "scroll-state@360 (header) [back]",
+   "width": 360,
+   "path": "(header)",
+   "action": "back",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled back: header 8px on the source, 80px on the build"
+  },
+  {
+   "key": "budget-truncated@360 (source)",
+   "width": 360,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  }
+ ]
+}

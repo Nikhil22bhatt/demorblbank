@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.rbl.bank.in/",
+  "reference": {
+    "dir": "stardust/replica/gates/index-1440",
+    "capturedAt": "2026-11-19T08:45:19.325Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 7.31,
+    "variableRows": 1024,
+    "maskArg": "772:456,1412:36,1672:136,1872:396"
+  },
+  "note": "reused stardust/replica/gates/index-1440/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-19T09:46:48.393Z"
+}

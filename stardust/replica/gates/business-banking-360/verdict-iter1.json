@@ -1,0 +1,107 @@
+{
+  "round": "iter1",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/business-banking-360/diff-iter1.png",
+    "json": "stardust/replica/gates/business-banking-360/pixel-iter1.json",
+    "pct": 1.39,
+    "alignedPct": 0.67,
+    "alignedUsed": true,
+    "totalShift": 17,
+    "steps": [
+      {
+        "y": 844,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 898,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2501,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2662,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 3538,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 3758,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 3893,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 4099,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 4462,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 4775,
+        "shift": -1,
+        "cumulative": -8
+      },
+      {
+        "y": 5031,
+        "shift": 1,
+        "cumulative": -7
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 228,
+    "noiseFloor": 0.19,
+    "reason": "offsets: 11 step(s), 17px total — +1px at y=844, −1px at y=898, −1px at y=2501, +1px at y=2662, −1px at y=3538, +1px at y=3758, … 5 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T08:40:17.716Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "32:36,712:96,1612:96"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/business-banking-360/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/business-banking-360/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/business-banking-360/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/business-banking-360/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/business-banking-360/units-iter1.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T08:43:24.053Z"
+}

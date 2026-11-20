@@ -1,0 +1,223 @@
+{
+  "a": "stardust/replica/gates/all-1440/about-us/origin.png",
+  "b": "stardust/replica/gates/all-1440/about-us/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 6135,
+    "mode": "overlap"
+  },
+  "heightDelta": 3,
+  "differingPixels": 195358,
+  "pct": 2.24,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/about-us/diff.png",
+  "masks": [
+    {
+      "yA": 852,
+      "h": 36,
+      "yB": 852
+    },
+    {
+      "yA": 5792,
+      "h": 36,
+      "yB": 5792
+    }
+  ],
+  "maskedRows": 72,
+  "textPct": 9.95,
+  "textBoxes": 212,
+  "textPixels": 861240,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.8
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.5
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 1.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 1.8
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.8
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 1.7
+    },
+    {
+      "y0": 6000,
+      "y1": 6135,
+      "pct": 1.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.16,
+    "differingPixels": 13650,
+    "compared": {
+      "width": 1440,
+      "height": 6064,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 181,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 5881,
+        "shift": -1,
+        "cumulative": -2
+      },
+      {
+        "y": 6137,
+        "shift": -1,
+        "cumulative": -3
+      }
+    ],
+    "maxOffset": 3,
+    "totalShift": 3,
+    "insertedRows": 0,
+    "deletedRows": 3,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.4,
+        "unaligned": 3
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.4,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.2,
+        "unaligned": 2.8
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 2.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 1.5
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 6000,
+        "y1": 6138,
+        "pct": 0.7,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/about-us/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 61,
+    "totalShift": 3,
+    "pass": true
+  },
+  "reason": null,
+  "maskReason": "self-varying rows of the frozen reference (noise floor 0.01%)",
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--1aa640c2--aemcoder.aem.page/about-us"
+  }
+}

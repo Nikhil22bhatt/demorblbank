@@ -1,0 +1,18 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://main--1aa640c2--aemcoder.aem.page/about-us",
+  "width": 360,
+  "vh": 900,
+  "height": 10609,
+  "chunks": 12,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 7,
+    "late": 0
+  },
+  "at": "2026-11-19T11:32:06.953Z"
+}

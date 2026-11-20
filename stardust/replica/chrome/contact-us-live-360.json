@@ -1,0 +1,227 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.rbl.bank.in/contact-us",
+ "at": "2026-11-19T08:00:46.974Z",
+ "shots": "stardust/replica/chrome/shots-360",
+ "widths": {
+  "360": {
+   "root": "body>div:nth-of-type(2)>div:nth-of-type(2)>nav:nth-of-type(2)",
+   "controls": [
+    {
+     "name": "More about banking products",
+     "key": "more about banking products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#mob-header-hamb-menu",
+     "expanded": null,
+     "rect": [
+      13,
+      102,
+      30,
+      27
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "View RBL Bank",
+     "key": "view rbl bank",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(2)>nav:nth-of-type(2)>div>div>div>div>div>div>div>div:nth-of-type(1)>div>a",
+     "href": "https://www.rbl.bank.in/",
+     "expanded": null,
+     "rect": [
+      54,
+      78,
+      116,
+      74
+     ],
+     "actions": {}
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#serach-btn-header",
+     "expanded": null,
+     "rect": [
+      236,
+      98,
+      36,
+      36
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "View close-black",
+          "href": "https://www.rbl.bank.in/contact-us?tabName=contact-us#"
+         },
+         {
+          "text": "Interest Rates",
+          "href": "https://www.rbl.bank.in/interest-rates"
+         },
+         {
+          "text": "Raise a Query / Request / Complaint",
+          "href": "https://outsys1.rbl.bank.in/WebForm"
+         },
+         {
+          "text": "Quick Services",
+          "href": "https://www.rbl.bank.in/quick-services"
+         },
+         {
+          "text": "Digital Savings Account",
+          "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website&utm_term=search&utm_content=pro-pg&utm_campaign=rbl-dsa-new-website"
+         },
+         {
+          "text": "Savings Accounts",
+          "href": "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts"
+         },
+         {
+          "text": "Credit Cards",
+          "href": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+         },
+         {
+          "text": "NRI Savings Account",
+          "href": "https://www.rbl.bank.in/nri-banking/nri-savings-account"
+         },
+         {
+          "text": "Current Accounts",
+          "href": "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts"
+         },
+         {
+          "text": "Housing Loan",
+          "href": "https://www.rbl.bank.in/personal-banking/loans/housing-loan"
+         },
+         {
+          "text": "Term Deposits",
+          "href": "https://www.rbl.bank.in/personal-banking/term-deposits"
+         },
+         {
+          "text": "Loan Against Gold Ornaments",
+          "href": "https://www.rbl.bank.in/personal-banking/loans/loan-against-gold-ornaments"
+         },
+         {
+          "text": "Two-Wheeler Loan",
+          "href": "https://www.rbl.bank.in/personal-banking/loans/two-wheeler-loan"
+         },
+         {
+          "text": "Open a Digital Fixed Deposits",
+          "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         11,
+         71,
+         335,
+         722
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.circle-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.modal-dialog"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button"
+        }
+       ],
+       "shot": "360-001-search-click.png"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.rbl.bank.in/contact-us"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 75,
+     "height": 8,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 75,
+     "height": 8,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 75,
+     "height": 8,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 75,
+     "height": 8,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 1,
+   "truncated": "request-budget",
+   "loads": 4,
+   "requests": 1050,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

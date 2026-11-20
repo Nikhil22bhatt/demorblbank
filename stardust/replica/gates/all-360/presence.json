@@ -1,0 +1,10 @@
+{
+ "index": {
+  "variable": [
+   ".home-banner-wrapper=.hero-carousel",
+   "#block-homebenefitsection=.promo-carousel",
+   "#block-homerblmobankapp=.app-banner"
+  ],
+  "reason": "autoplaying carousels (slick 6 s, restored at delivery \u2014 types.landing captureState restoreAtDelivery): the visible slide is time-variable on both origins"
+ }
+}

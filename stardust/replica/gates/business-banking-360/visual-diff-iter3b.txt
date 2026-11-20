@@ -1,0 +1,3 @@
+/workspace/1aa640c2/stardust/.work/replica/bg/bb-vdiff-360.log: 1369 lines, 2 match /flag|IMAGERY|BLANK|HEADING|•|verdict|PASS|FAIL/
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 94 images, build renders 37. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.

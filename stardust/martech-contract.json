@@ -1,0 +1,78 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-19T09:53:06.629Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.rbl.bank.in"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 4,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-WHQPXDKW.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-WHQPXDKW",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: session replay",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {
+  "Google Tag Manager": {
+   "rules": [],
+   "dataElements": [],
+   "notes": [
+    {
+     "text": "GA4 configuration tags (__googtag ×5) for G-1P7D0G14CN, G-25HQ35Y7J4, G-FG871NEB2D, G-GXD51EMQ4Y, G-X1E6469994",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-WHQPXDKW.js"
+    },
+    {
+     "text": "GA4 event tags (__gaawe ×665) fired by click triggers (__cl ×615, __lcl ×5) bound to source link/button selectors — rewrite selectors for the new markup before go-live",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-WHQPXDKW.js"
+    },
+    {
+     "text": "Google Ads conversion (__awct ×3, AW-969491432), conversion linker (__gclidw), LinkedIn Insight (__bzi ×3), 13 custom HTML tags (__html: Facebook, Twitter, Hotjar, Trackier pixels)",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-WHQPXDKW.js"
+    },
+    {
+     "text": "No consent gating seen in the container (no Consent Mode default on the pages, no CMP) — consent model owner-decision",
+     "from": "stardust/martech/consent-mode.json"
+    }
+   ]
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

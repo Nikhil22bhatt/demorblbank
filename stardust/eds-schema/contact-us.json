@@ -1,0 +1,303 @@
+{
+ "source": "http://localhost:8791/contact-us-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "contact-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Contact Us",
+     "href": "/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Investor Grievance Redressal",
+     "href": "/investor-grievance-redressal"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Report A Fraud",
+     "href": "/report-a-fraud"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Raise a Query / Request / Complaint",
+     "href": "https://outsys1.rbl.bank.in/WebForm/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Have questions or need assistance? Our team is ready to help you at every step."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Raise Here",
+     "href": "https://outsys1.rbl.bank.in/WebForm/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Customer Care",
+     "href": "/contact-us/customer-care"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Need assistance or support? We’re available to help with all your banking needs - anytime, anywhere"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Get in Touch",
+     "href": "/contact-us/customer-care"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Locate Us",
+     "href": "/locate-us"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Find the nearest branch or ATM with ease. Use our locator to get directions, hours, and contact details."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Find ATM / Branch",
+     "href": "/locate-us"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Registered Office"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "RBL Bank Ltd. 1st Lane, Shahupuri, Kolhapur - 416001."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "L65191PN1943PLC007308"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "CIN:"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Corporate Office"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "RBL Bank Ltd. One World Center, Tower 2B, 6th Floor, 841, Senapati Bapat Marg, Lower Parel (W), Mumbai - 400013."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Frequently asked Questions"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "How can I find the nearest RBL Bank branch?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "You can find the nearest RBL Bank branch by using the on the Contact Us page. Alternatively, use the RBL Cares Chatbot and select Banking Services → Branch Locator."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Branch Locator",
+     "href": "/locate-us"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "How do I contact RBL Bank for account-related queries?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "You can contact RBL Bank Customer Care at or use the feature on the website."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Raise a Query / Request / Complaint",
+     "href": "https://outsys1.rbl.bank.in/WebForm/"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Can I contact RBL Bank for credit card support?"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Yes, for credit card support including billing, payments, and activation, contact Customer Care at or raise a request via the website."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "How do I submit feedback or complaints to RBL Bank?"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "You can submit feedback or complaints using the feature on the website."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Raise a Query / Request / Complaint",
+     "href": "https://outsys1.rbl.bank.in/WebForm/"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "My RBL Bank account was closed without notification. What can I do?"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Please contact Customer Care at to understand the reason for the account closure."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "What if RBL Bank Customer Care is not responding?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "If Customer Care is not responding, submit your request using the online complaint form for quicker resolution."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "I am being harassed by RBL Bank recovery agents. What should I do?"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "If you experience harassment from collection agents, report it using the online complaint form on the website."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "How do I get my RBL Bank loan statement or resolve repayment issues?"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "For loan statements or repayment issues, contact Customer Care at or submit your request via the website."
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "My RBL Bank transaction failed but money was deducted. What should I do?"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "In case of a failed transaction, the amount is usually reversed within 7–10 business days. If not, contact Customer Care at ."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "+91 22 6232 7777",
+     "href": "tel:+91 22 6232 7777"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.row",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 6,
+      "imgs": 6,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.col-md-4",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.faq-card",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

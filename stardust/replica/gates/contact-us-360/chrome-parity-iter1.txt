@@ -1,0 +1,53 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.rbl.bank.in/contact-us
+  build: http://localhost:8791/contact-us-proposed.html
+
+■ header: 7 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  PAIR         "Skip to Main Content"  Δx +39px (117→156)
+  PAIR         "A"  Δx +38px (253→291)
+  PAIR         "Low Contrast View"  Δx +38px (269→307)
+  PAIR         "A"  Δx +38px (294→332)
+  PAIR         "High Contrast View"  Δx +38px (310→348)
+  PAIR         "Rent Your Property to RBL Bank"  Δy -2px (43→41)
+  ICON         "Rent Your Property to RBL Bank"  icon #0 near "Rent Your Property to RBL Bank": signature "Vector.svg" → "property.svg"
+
+■ footer: 36 delta(s) — 12 paired of 27/17 texts, 1/5 icons
+  REGION BOX   Δh -2px (477→475)
+  REGION STYLE backgroundColor rgb(0, 0, 0) → rgb(34, 34, 34)
+  PAIR         "Footer First"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Second"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Third"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Fourth"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Customer Service"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Others"  letterSpacing 0.2px → normal
+  PAIR         "Facebook"  lineHeight 30px → 26.88px; letterSpacing 0.2px → normal; Δx -4px (108→104); Δy +15px (3646→3661)
+  PAIR         "Linkedin"  lineHeight 30px → 26.88px; letterSpacing 0.2px → normal; Δx -6px (148→142); Δy +15px (3646→3661)
+  PAIR         "twitter"  lineHeight 30px → 26.88px; letterSpacing 0.2px → normal; Δx -7px (187→180); Δy +15px (3646→3661)
+  PAIR         "instagram"  lineHeight 30px → 26.88px; letterSpacing 0.2px → normal; Δx -6px (224→218); Δy +15px (3646→3661)
+  PAIR         "youtube"  lineHeight 30px → 26.88px; letterSpacing 0.2px → normal; Δx -7px (263→256); Δy +15px (3646→3661)
+  PAIR         "Copyright 2026 RBL Bank Ltd."  letterSpacing 0.2px → normal
+  MISSING      "About"  live <p> "About" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Media Center"  live <p> "Media Center" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Products"  live <p> "Products" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Important Links"  live <p> "Important Links" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Customer Service"  live <p> "Customer Service" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  EXTRA        "About ‌"  build <p> "About ‌" has no live source
+  EXTRA        "Media Center ‌"  build <p> "Media Center ‌" has no live source
+  EXTRA        "Products ‌"  build <p> "Products ‌" has no live source
+  EXTRA        "Important Links ‌"  build <p> "Important Links ‌" has no live source
+  EXTRA        "Customer Service ‌"  build <p> "Customer Service ‌" has no live source
+  ICONS        1 live vs 5 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+  ICON         "Follow RBL Bank on Twitter"  icon #0 near "Follow RBL Bank on Twitter": signature "viewBox=0 0 512 512 paths=1" → "viewBox=0 0 320 512 paths=1"
+
+✗ 43 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

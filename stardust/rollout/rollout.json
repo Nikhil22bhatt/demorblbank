@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-19T09:50:24.335Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.rbl.bank.in/",
+    "da": {
+      "org": "aemcoder",
+      "site": "1aa640c2",
+      "ref": "main"
+    },
+    "liveHost": "main--1aa640c2--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 5,
+    "discovered": 5,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-19T12:07:47.017Z",
+    "pages": {
+      "total": 5,
+      "verified": 5,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 20,
+      "converted": 20,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

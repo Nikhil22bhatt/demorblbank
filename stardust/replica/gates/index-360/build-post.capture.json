@@ -1,0 +1,22 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 360,
+  "vh": 900,
+  "height": 6339,
+  "chunks": 8,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 11,
+    "late": 0
+  },
+  "heightChange": {
+    "initial": 6514,
+    "final": 6339
+  },
+  "at": "2026-11-19T09:40:12.488Z"
+}

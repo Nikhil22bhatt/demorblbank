@@ -1,0 +1,62 @@
+{
+  "round": "iter3",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/about-us-1440/diff-iter3.png",
+    "json": "stardust/replica/gates/about-us-1440/pixel-iter3.json",
+    "pct": 0.34,
+    "alignedPct": 0.31,
+    "alignedUsed": true,
+    "totalShift": 2,
+    "steps": [
+      {
+        "y": 5844,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 6137,
+        "shift": -1,
+        "cumulative": -2
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 72,
+    "noiseFloor": 0.01,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T08:45:43.095Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "852:36,5792:36"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/about-us-1440/content-diff-iter3.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/about-us-1440/visual-diff-iter3.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/about-us-1440/chrome-parity-iter3.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/about-us-1440/clip-iter3.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/about-us-1440/units-iter3.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 7,
+  "at": "2026-11-19T08:54:58.997Z"
+}

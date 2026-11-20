@@ -1,0 +1,293 @@
+/* values — replica canon about-us.css (.au-values: .abtvision .contblock, .img-card-sm,
+   .two-col-card-wrap; AOS fade-up parity), scoped and mobile-first. */
+/* stylelint-disable no-descending-specificity */
+.values {
+  position: relative;
+  padding: 0 0 45px;
+  color: #303030;
+}
+
+.values h2 {
+  margin: 0 0 30px;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+/* ---- vision cards ---- */
+.values .vision {
+  margin-bottom: 60px;
+}
+
+.values .vision-card {
+  min-height: 0;
+  margin: 0 0 30px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.values .vision-card-odd {
+  background: #ffe2be;
+}
+
+.values .vision-card-even {
+  background: #c9e9e6;
+}
+
+.values :is(.vision-card, .mission-card) h3 {
+  min-height: 0;
+  margin: 18px 0;
+  color: #212121;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.2px;
+}
+
+.values :is(.vision-card, .mission-card) p {
+  max-width: 300px;
+  margin: 0 0 7px;
+  color: #212121;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+/* ---- mission cards ---- */
+.values .row.mission {
+  margin: 0;
+  padding: 0;
+}
+
+.values .mission-card {
+  position: relative;
+  z-index: 1;
+  min-height: 250px;
+  margin: 0 0 30px;
+  padding: 15px 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #9ad2d2;
+}
+
+.values .mission-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  display: none;
+  overflow: hidden;
+}
+
+.values .mission-bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+}
+
+.values .mission-bg img {
+  object-fit: cover;
+}
+
+/* mobile tones (live <= 767); the wide layout repaints #9ad2d2 under the photo */
+.values .mission-item-1 .mission-card {
+  background-color: #ffe5ca;
+}
+
+.values .mission-item-2 .mission-card {
+  background-color: #c8e6e4;
+}
+
+.values .mission-item-3 .mission-card {
+  background-color: #c6dff5;
+}
+
+.values .mission-item-4 .mission-card {
+  background-color: #ffefce;
+}
+
+/* ---- CSR / careers split rows ---- */
+.values .split {
+  margin: 30px 0 40px;
+}
+
+.values .split-col {
+  align-self: center;
+}
+
+.values .split-col > * {
+  margin-bottom: 20px;
+}
+
+.values .split-img {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.values .split-img picture {
+  display: block;
+}
+
+.values .split-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.values .split-text h4 {
+  color: #373f41;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+.values .split-text p {
+  margin: 10px 0 20px;
+  color: #303030;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.values .split-reverse .split-col-img {
+  order: 1;
+}
+
+.values .split-reverse .split-col-text {
+  order: 2;
+}
+
+/* the authored secondary CTA (<em> link) renders as the live .btn-outline */
+.values .split-text a.button:any-link {
+  display: inline-block;
+  min-width: 0;
+  height: auto;
+  padding: 10px 24px;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  background: transparent;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+.values .split-text a.button:any-link:hover {
+  background: #303030;
+  color: #fff;
+}
+
+/* live AOS fade-up (data-aos-duration 300, easing ease, once) */
+.values [data-aos="fade-up"] {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.values [data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.values [data-aos-delay="600"].aos-animate {
+  transition-delay: 0.6s;
+}
+
+.values [data-aos-delay="900"].aos-animate {
+  transition-delay: 0.9s;
+}
+
+.values [data-aos-delay="1500"].aos-animate {
+  transition-delay: 1.5s;
+}
+
+@media (width >= 576px) {
+  .values .mission-card {
+    min-height: 310px;
+  }
+
+  .values .split-img {
+    max-width: 440px;
+    height: 355px;
+  }
+}
+
+@media (width >= 768px) {
+  .values h2 {
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .values .col-md-4 {
+    flex: 0 0 auto;
+    width: calc(100% / 3);
+  }
+
+  .values .vision-card {
+    min-height: 270px;
+    margin: 0;
+  }
+
+  .values .vision-card h3 {
+    min-height: 65px;
+  }
+
+  .values :is(.vision-card, .mission-card) p {
+    max-width: 400px;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 30.24px;
+  }
+
+  .values .mission-card p {
+    max-width: 360px;
+  }
+
+  .values .row.mission {
+    margin: 0 -12px;
+    padding: 0 12px;
+  }
+
+  .values .mission-card {
+    padding: 30px 40px;
+  }
+
+  .values .row.mission .mission-card {
+    background-color: #9ad2d2;
+  }
+
+  .values .mission-bg {
+    display: block;
+  }
+}
+
+@media (width >= 992px) {
+  .values .split {
+    margin: 30px 0;
+  }
+
+  .values .split-col > * {
+    margin-bottom: 0;
+  }
+
+  .values .split-img-right {
+    float: right;
+    width: 440px;
+  }
+
+  .values .split-reverse .split-col-img,
+  .values .split-reverse .split-col-text {
+    order: 2;
+  }
+
+  .values .split-text h4 {
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+}

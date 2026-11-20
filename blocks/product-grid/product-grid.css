@@ -1,0 +1,127 @@
+/* product-grid — replica canon business-banking.css (.listing-products, .product-grid,
+   .product-card, outline CTA), scoped and mobile-first. */
+.product-grid {
+  padding: 45px 0;
+}
+
+.product-grid .product-grid-intro p {
+  margin-bottom: 30.24px;
+  color: #606060;
+  font-size: 18px;
+  line-height: 1.68;
+}
+
+.product-grid .product-grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.product-grid .product-grid-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 12px;
+}
+
+.product-grid .product-card {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: -2px 2px 4px rgb(0 0 0 / 15%);
+}
+
+.product-grid .product-card-img picture {
+  display: block;
+}
+
+.product-grid .product-card-img img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-grid .product-card-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 23px 30px 30px;
+  background: #e9ecf7;
+}
+
+.product-grid .product-card-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 7px;
+  color: var(--rbl-blue);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26.88px;
+}
+
+.product-grid .product-card-copy {
+  min-height: 80px;
+  margin-bottom: 25px;
+  color: var(--rbl-ink);
+}
+
+.product-grid .product-card-copy p {
+  font-size: 18px;
+  line-height: 1.68;
+}
+
+.product-grid .product-card-actions,
+.product-grid .product-card-actions p {
+  display: flex;
+}
+
+.product-grid .product-card-actions a:any-link {
+  display: inline-block;
+  min-width: 119px;
+  margin-right: 30px;
+  padding: 11px 10px;
+  border: 1px solid var(--rbl-ink);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--rbl-ink);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.2s linear;
+}
+
+.product-grid .product-card-actions a:any-link:hover,
+.product-grid .product-card-actions a:any-link:focus {
+  border-color: var(--rbl-blue);
+  color: var(--rbl-blue);
+}
+
+@media (width >= 768px) {
+  .product-grid .product-grid-item {
+    width: 50%;
+  }
+}
+
+@media (width >= 992px) {
+  .product-grid .product-grid-item {
+    width: calc(100% / 3);
+  }
+}
+
+@media (width >= 992px) {
+  .product-grid .product-card-actions a:any-link {
+    margin-right: 10px;
+  }
+}
+
+@media (width >= 1200px) {
+  .product-grid .product-card-actions a:any-link {
+    margin-right: 30px;
+  }
+}

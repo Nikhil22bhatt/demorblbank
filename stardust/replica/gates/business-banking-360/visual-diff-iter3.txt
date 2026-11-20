@@ -1,0 +1,6 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] www.rbl.bank.in: bot signal seen — one navigation at a time, 4000 ms apart from now on
+visual-diff error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.rbl.bank.in/business-banking
+Call log:
+  - navigating to "https://www.rbl.bank.in/business-banking", waiting until "domcontentloaded"
+

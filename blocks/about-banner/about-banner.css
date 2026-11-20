@@ -1,0 +1,147 @@
+/* about-banner — replica canon about-us.css (.au-banner: .banner-section.banner-para-right-section),
+   scoped and mobile-first. */
+main .about-banner-container {
+  background: #f4f5fc;
+}
+
+.about-banner {
+  position: relative;
+  display: block;
+  height: auto;
+  margin-top: -3px;
+  padding: 35px 0 0;
+  background: #f4f5fc;
+  color: #303030;
+}
+
+.about-banner .banner-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 620px;
+}
+
+.about-banner .banner-img {
+  width: 100%;
+  height: 218px;
+  overflow: hidden;
+}
+
+.about-banner .banner-img-desktop {
+  display: none;
+}
+
+.about-banner .banner-img-mobile {
+  display: block;
+}
+
+.about-banner .banner-img :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.about-banner .banner-img img {
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-banner .container {
+  position: relative;
+  display: block;
+  padding: 0;
+}
+
+.about-banner .banner-card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  margin: 165px 0 0;
+  padding: 15px 20px 30px;
+  border-radius: 20px 20px 0 0;
+  background: #e9ecf7;
+  box-shadow: -2px 4px 4px rgb(0 0 0 / 15%);
+}
+
+.about-banner .banner-inner {
+  width: 100%;
+}
+
+.about-banner .banner-inner h1 {
+  margin: 0 0 15px;
+  color: var(--rbl-blue);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.8px;
+}
+
+.about-banner .banner-inner p {
+  margin: 0 0 20px;
+  color: #303030;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (width >= 768px) {
+  .about-banner {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    margin-top: -1px;
+    padding: 30px 0;
+  }
+
+  .about-banner .banner-media {
+    width: 50%;
+    height: 100%;
+  }
+
+  .about-banner .banner-img {
+    height: 100%;
+  }
+
+  .about-banner .banner-img-desktop {
+    display: block;
+  }
+
+  .about-banner .banner-img-mobile {
+    display: none;
+  }
+
+  .about-banner .banner-img-desktop img {
+    object-position: center top;
+  }
+
+  .about-banner .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 12px;
+  }
+
+  .about-banner .banner-card {
+    width: 750px;
+    height: 330px;
+    margin: 0 -25px 0 0;
+    padding: 20px 30px;
+    border-radius: 8px;
+  }
+
+  .about-banner .banner-inner h1 {
+    font-size: 48px;
+    line-height: 57.6px;
+  }
+
+  .about-banner .banner-inner p {
+    margin-bottom: 27px;
+  }
+}
+
+@media (width >= 1600px) {
+  .about-banner .banner-img-desktop img {
+    object-fit: contain;
+  }
+}

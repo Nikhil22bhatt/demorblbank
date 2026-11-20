@@ -1,0 +1,1039 @@
+{
+ "url": "http://localhost:8791/index-proposed.html",
+ "at": "2026-11-19T09:26:16.687Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 6514,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 66,
+  "textNodes": 148,
+  "controls": 93,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 8,
+   "path": "nav.quicklinks > ul.quicklinks__list > li.quicklinks__item > a",
+   "text": "credit cards",
+   "clipper": "nav.quicklinks",
+   "rect": {
+    "l": 249,
+    "t": 344,
+    "r": 368,
+    "b": 405,
+    "w": 119,
+    "h": 61
+   },
+   "clip": {
+    "l": 0,
+    "t": 329,
+    "r": 360,
+    "b": 411,
+    "w": 360,
+    "h": 82
+   }
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 44,
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > div.offer-card__tag",
+   "text": "credit card",
+   "clipper": "div.offer-card",
+   "rect": {
+    "l": 322,
+    "t": 4620,
+    "r": 392,
+    "b": 4636,
+    "w": 70,
+    "h": 16
+   },
+   "clip": {
+    "l": 292,
+    "t": 4481,
+    "r": 545,
+    "b": 4776,
+    "w": 253,
+    "h": 295
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 59,
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__title",
+   "text": "attractive offers",
+   "clipper": "p.offer-card__title",
+   "rect": {
+    "l": 312,
+    "t": 4652,
+    "r": 407,
+    "b": 4671,
+    "w": 95,
+    "h": 19
+   },
+   "clip": {
+    "l": 312,
+    "t": 4649,
+    "r": 465,
+    "b": 4703,
+    "w": 153,
+    "h": 54
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 106,
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__text",
+   "text": "there's more to save & celebrate!",
+   "clipper": "div.offer-card",
+   "rect": {
+    "l": 312,
+    "t": 4706,
+    "r": 454,
+    "b": 4722,
+    "w": 142,
+    "h": 16
+   },
+   "clip": {
+    "l": 292,
+    "t": 4481,
+    "r": 545,
+    "b": 4776,
+    "w": 253,
+    "h": 295
+   },
+   "lines": 2
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 31,
+   "path": "li.rail__item > div.story-card > div.story-card__inner > p.story-card__date",
+   "text": "oct 26, 2026",
+   "clipper": "div.story-card",
+   "rect": {
+    "l": 312,
+    "t": 5202,
+    "r": 379,
+    "b": 5216,
+    "w": 67,
+    "h": 14
+   },
+   "clip": {
+    "l": 292,
+    "t": 5010,
+    "r": 545,
+    "b": 5335,
+    "w": 253,
+    "h": 325
+   },
+   "lines": 1
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 118,
+   "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+   "text": "tips for identifying genuine bank communicationse",
+   "clipper": "div.story-card",
+   "rect": {
+    "l": 312,
+    "t": 5226,
+    "r": 466,
+    "b": 5294,
+    "w": 154,
+    "h": 68
+   },
+   "clip": {
+    "l": 292,
+    "t": 5010,
+    "r": 545,
+    "b": 5335,
+    "w": 253,
+    "h": 325
+   }
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 118,
+   "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+   "text": "tips for identifying genuine bank communicationse",
+   "clipper": "div.story-card",
+   "rect": {
+    "l": 312,
+    "t": 5226,
+    "r": 466,
+    "b": 5247,
+    "w": 154,
+    "h": 21
+   },
+   "clip": {
+    "l": 292,
+    "t": 5010,
+    "r": 545,
+    "b": 5335,
+    "w": 253,
+    "h": 325
+   },
+   "lines": 3
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 197,
+   "path": "ul.rail__track > li.rail__item > div.video-card > button.video-card__btn",
+   "text": "csr initiatives - creating impact through h.e.lo health, edu",
+   "clipper": "div.rail__viewport",
+   "rect": {
+    "l": 292,
+    "t": 5570,
+    "r": 545,
+    "b": 5864,
+    "w": 253,
+    "h": 295
+   },
+   "clip": {
+    "l": 12,
+    "t": 5570,
+    "r": 348,
+    "b": 5917,
+    "w": 336,
+    "h": 347
+   }
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 120,
+   "y": 15,
+   "w": 111,
+   "h": 14
+  },
+  {
+   "x": 257,
+   "y": 15,
+   "w": 8,
+   "h": 14
+  },
+  {
+   "x": 298,
+   "y": 15,
+   "w": 8,
+   "h": 14
+  },
+  {
+   "x": 192,
+   "y": 48,
+   "w": 154,
+   "h": 13
+  },
+  {
+   "x": 55,
+   "y": 95,
+   "w": 249,
+   "h": 16
+  },
+  {
+   "x": 55,
+   "y": 119,
+   "w": 232,
+   "h": 16
+  },
+  {
+   "x": 55,
+   "y": 142,
+   "w": 241,
+   "h": 16
+  },
+  {
+   "x": 55,
+   "y": 166,
+   "w": 258,
+   "h": 16
+  },
+  {
+   "x": 55,
+   "y": 189,
+   "w": 266,
+   "h": 16
+  },
+  {
+   "x": 55,
+   "y": 213,
+   "w": 241,
+   "h": 16
+  },
+  {
+   "x": 10,
+   "y": 383,
+   "w": 108,
+   "h": 16
+  },
+  {
+   "x": 142,
+   "y": 383,
+   "w": 94,
+   "h": 16
+  },
+  {
+   "x": 268,
+   "y": 383,
+   "w": 80,
+   "h": 16
+  },
+  {
+   "x": 81,
+   "y": 901,
+   "w": 197,
+   "h": 33
+  },
+  {
+   "x": 25,
+   "y": 990,
+   "w": 131,
+   "h": 24
+  },
+  {
+   "x": 15,
+   "y": 1025,
+   "w": 72,
+   "h": 42
+  },
+  {
+   "x": 88,
+   "y": 1034,
+   "w": 19,
+   "h": 30
+  },
+  {
+   "x": 107,
+   "y": 1044,
+   "w": 58,
+   "h": 30
+  },
+  {
+   "x": 55,
+   "y": 1083,
+   "w": 69,
+   "h": 16
+  },
+  {
+   "x": 196,
+   "y": 990,
+   "w": 149,
+   "h": 24
+  },
+  {
+   "x": 195,
+   "y": 1025,
+   "w": 72,
+   "h": 42
+  },
+  {
+   "x": 268,
+   "y": 1034,
+   "w": 19,
+   "h": 30
+  },
+  {
+   "x": 287,
+   "y": 1044,
+   "w": 58,
+   "h": 30
+  },
+  {
+   "x": 235,
+   "y": 1083,
+   "w": 69,
+   "h": 16
+  },
+  {
+   "x": 21,
+   "y": 1129,
+   "w": 138,
+   "h": 24
+  },
+  {
+   "x": 12,
+   "y": 1163,
+   "w": 93,
+   "h": 42
+  },
+  {
+   "x": 105,
+   "y": 1172,
+   "w": 19,
+   "h": 30
+  },
+  {
+   "x": 124,
+   "y": 1182,
+   "w": 58,
+   "h": 30
+  },
+  {
+   "x": 208,
+   "y": 1129,
+   "w": 123,
+   "h": 24
+  },
+  {
+   "x": 195,
+   "y": 1163,
+   "w": 72,
+   "h": 42
+  },
+  {
+   "x": 268,
+   "y": 1172,
+   "w": 19,
+   "h": 30
+  },
+  {
+   "x": 287,
+   "y": 1182,
+   "w": 58,
+   "h": 30
+  },
+  {
+   "x": 127,
+   "y": 1235,
+   "w": 105,
+   "h": 24
+  },
+  {
+   "x": 131,
+   "y": 1270,
+   "w": 70,
+   "h": 42
+  },
+  {
+   "x": 50,
+   "y": 1392,
+   "w": 260,
+   "h": 33
+  },
+  {
+   "x": 33,
+   "y": 1429,
+   "w": 295,
+   "h": 33
+  },
+  {
+   "x": 72,
+   "y": 1465,
+   "w": 216,
+   "h": 33
+  },
+  {
+   "x": 51,
+   "y": 1533,
+   "w": 258,
+   "h": 16
+  },
+  {
+   "x": 154,
+   "y": 1560,
+   "w": 51,
+   "h": 16
+  },
+  {
+   "x": 137,
+   "y": 1622,
+   "w": 86,
+   "h": 21
+  },
+  {
+   "x": 12,
+   "y": 1951,
+   "w": 303,
+   "h": 33
+  },
+  {
+   "x": 44,
+   "y": 1997,
+   "w": 53,
+   "h": 19
+  },
+  {
+   "x": 44,
+   "y": 2032,
+   "w": 79,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 2083,
+   "w": 118,
+   "h": 19
+  },
+  {
+   "x": 285,
+   "y": 2087,
+   "w": 26,
+   "h": 14
+  },
+  {
+   "x": 311,
+   "y": 2087,
+   "w": 37,
+   "h": 14
+  },
+  {
+   "x": 293,
+   "y": 2174,
+   "w": 40,
+   "h": 19
+  },
+  {
+   "x": 59,
+   "y": 2206,
+   "w": 56,
+   "h": 19
+  },
+  {
+   "x": 59,
+   "y": 2241,
+   "w": 172,
+   "h": 19
+  },
+  {
+   "x": 63,
+   "y": 2267,
+   "w": 70,
+   "h": 19
+  },
+  {
+   "x": 59,
+   "y": 2302,
+   "w": 158,
+   "h": 19
+  },
+  {
+   "x": 63,
+   "y": 2329,
+   "w": 128,
+   "h": 19
+  },
+  {
+   "x": 27,
+   "y": 2337,
+   "w": 61,
+   "h": 19
+  },
+  {
+   "x": 88,
+   "y": 2337,
+   "w": 33,
+   "h": 19
+  },
+  {
+   "x": 223,
+   "y": 2341,
+   "w": 6,
+   "h": 14
+  },
+  {
+   "x": 27,
+   "y": 2395,
+   "w": 7,
+   "h": 11
+  },
+  {
+   "x": 34,
+   "y": 2393,
+   "w": 14,
+   "h": 14
+  },
+  {
+   "x": 304,
+   "y": 2395,
+   "w": 7,
+   "h": 11
+  },
+  {
+   "x": 311,
+   "y": 2393,
+   "w": 22,
+   "h": 14
+  },
+  {
+   "x": 27,
+   "y": 2436,
+   "w": 54,
+   "h": 19
+  },
+  {
+   "x": 81,
+   "y": 2436,
+   "w": 166,
+   "h": 19
+  },
+  {
+   "x": 27,
+   "y": 2463,
+   "w": 41,
+   "h": 19
+  },
+  {
+   "x": 27,
+   "y": 2519,
+   "w": 7,
+   "h": 14
+  },
+  {
+   "x": 320,
+   "y": 2519,
+   "w": 14,
+   "h": 14
+  },
+  {
+   "x": 27,
+   "y": 2561,
+   "w": 55,
+   "h": 19
+  },
+  {
+   "x": 27,
+   "y": 2617,
+   "w": 7,
+   "h": 14
+  },
+  {
+   "x": 320,
+   "y": 2617,
+   "w": 14,
+   "h": 14
+  },
+  {
+   "x": 27,
+   "y": 2678,
+   "w": 35,
+   "h": 19
+  },
+  {
+   "x": 27,
+   "y": 2734,
+   "w": 7,
+   "h": 14
+  },
+  {
+   "x": 320,
+   "y": 2734,
+   "w": 14,
+   "h": 14
+  },
+  {
+   "x": 43,
+   "y": 2827,
+   "w": 106,
+   "h": 16
+  },
+  {
+   "x": 91,
+   "y": 2853,
+   "w": 9,
+   "h": 21
+  },
+  {
+   "x": 222,
+   "y": 2827,
+   "w": 85,
+   "h": 16
+  },
+  {
+   "x": 233,
+   "y": 2852,
+   "w": 62,
+   "h": 24
+  },
+  {
+   "x": 41,
+   "y": 2915,
+   "w": 110,
+   "h": 16
+  },
+  {
+   "x": 91,
+   "y": 2941,
+   "w": 9,
+   "h": 21
+  },
+  {
+   "x": 222,
+   "y": 2915,
+   "w": 84,
+   "h": 16
+  },
+  {
+   "x": 22,
+   "y": 3075,
+   "w": 218,
+   "h": 15
+  },
+  {
+   "x": 47,
+   "y": 3154,
+   "w": 107,
+   "h": 15
+  },
+  {
+   "x": 225,
+   "y": 3154,
+   "w": 86,
+   "h": 15
+  },
+  {
+   "x": 12,
+   "y": 3221,
+   "w": 319,
+   "h": 15
+  },
+  {
+   "x": 12,
+   "y": 3243,
+   "w": 55,
+   "h": 15
+  },
+  {
+   "x": 12,
+   "y": 3871,
+   "w": 163,
+   "h": 33
+  },
+  {
+   "x": 32,
+   "y": 4160,
+   "w": 243,
+   "h": 25
+  },
+  {
+   "x": 32,
+   "y": 4189,
+   "w": 58,
+   "h": 25
+  },
+  {
+   "x": 51,
+   "y": 4245,
+   "w": 81,
+   "h": 19
+  },
+  {
+   "x": 204,
+   "y": 4245,
+   "w": 74,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 4415,
+   "w": 207,
+   "h": 33
+  },
+  {
+   "x": 42,
+   "y": 4600,
+   "w": 65,
+   "h": 16
+  },
+  {
+   "x": 32,
+   "y": 4632,
+   "w": 114,
+   "h": 19
+  },
+  {
+   "x": 32,
+   "y": 4659,
+   "w": 127,
+   "h": 16
+  },
+  {
+   "x": 32,
+   "y": 4682,
+   "w": 144,
+   "h": 16
+  },
+  {
+   "x": 32,
+   "y": 4706,
+   "w": 139,
+   "h": 16
+  },
+  {
+   "x": 32,
+   "y": 4729,
+   "w": 114,
+   "h": 16
+  },
+  {
+   "x": 322,
+   "y": 4620,
+   "w": 70,
+   "h": 16
+  },
+  {
+   "x": 312,
+   "y": 4652,
+   "w": 95,
+   "h": 19
+  },
+  {
+   "x": 312,
+   "y": 4679,
+   "w": 58,
+   "h": 19
+  },
+  {
+   "x": 312,
+   "y": 4706,
+   "w": 142,
+   "h": 16
+  },
+  {
+   "x": 312,
+   "y": 4729,
+   "w": 63,
+   "h": 16
+  },
+  {
+   "x": 126,
+   "y": 4819,
+   "w": 107,
+   "h": 21
+  },
+  {
+   "x": 12,
+   "y": 4945,
+   "w": 290,
+   "h": 33
+  },
+  {
+   "x": 32,
+   "y": 5208,
+   "w": 70,
+   "h": 14
+  },
+  {
+   "x": 32,
+   "y": 5232,
+   "w": 162,
+   "h": 21
+  },
+  {
+   "x": 32,
+   "y": 5256,
+   "w": 196,
+   "h": 21
+  },
+  {
+   "x": 312,
+   "y": 5202,
+   "w": 67,
+   "h": 14
+  },
+  {
+   "x": 312,
+   "y": 5226,
+   "w": 154,
+   "h": 21
+  },
+  {
+   "x": 312,
+   "y": 5249,
+   "w": 112,
+   "h": 21
+  },
+  {
+   "x": 312,
+   "y": 5273,
+   "w": 147,
+   "h": 21
+  },
+  {
+   "x": 147,
+   "y": 5379,
+   "w": 66,
+   "h": 21
+  },
+  {
+   "x": 12,
+   "y": 5504,
+   "w": 188,
+   "h": 33
+  },
+  {
+   "x": 142,
+   "y": 5960,
+   "w": 77,
+   "h": 21
+  },
+  {
+   "x": 12,
+   "y": 6070,
+   "w": 43,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 6106,
+   "w": 96,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 6143,
+   "w": 65,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 6180,
+   "w": 114,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 6217,
+   "w": 128,
+   "h": 19
+  },
+  {
+   "x": 12,
+   "y": 6250,
+   "w": 49,
+   "h": 19
+  },
+  {
+   "x": 85,
+   "y": 6384,
+   "w": 191,
+   "h": 16
+  },
+  {
+   "x": 20,
+   "y": 884,
+   "w": 32,
+   "h": 14
+  },
+  {
+   "x": 117,
+   "y": 884,
+   "w": 30,
+   "h": 14
+  },
+  {
+   "x": 201,
+   "y": 884,
+   "w": 53,
+   "h": 14
+  },
+  {
+   "x": 310,
+   "y": 884,
+   "w": 28,
+   "h": 14
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav.quicklinks",
+   "path": "nav.quicklinks > ul.quicklinks__list > li.quicklinks__item > a",
+   "text": "credit cards",
+   "cutMin": 8,
+   "cutMax": 8
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.offer-card",
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > div.offer-card__tag",
+   "text": "credit card",
+   "cutMin": 44,
+   "cutMax": 44
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "p.offer-card__title",
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__title",
+   "text": "attractive offers",
+   "cutMin": 59,
+   "cutMax": 59
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.offer-card",
+   "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__text",
+   "text": "there's more to save & celebrate!",
+   "cutMin": 106,
+   "cutMax": 106
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.story-card",
+   "path": "li.rail__item > div.story-card > div.story-card__inner > p.story-card__date",
+   "text": "oct 26, 2026",
+   "cutMin": 31,
+   "cutMax": 31
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.story-card",
+   "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+   "text": "tips for identifying genuine bank communicationse",
+   "cutMin": 118,
+   "cutMax": 118
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.story-card",
+   "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+   "text": "tips for identifying genuine bank communicationse",
+   "cutMin": 118,
+   "cutMax": 118
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.rail__viewport",
+   "path": "ul.rail__track > li.rail__item > div.video-card > button.video-card__btn",
+   "text": "csr initiatives - creating impact through h.e.lo health, edu",
+   "cutMin": 197,
+   "cutMax": 197
+  }
+ ],
+ "tier": "chrome"
+}

@@ -1,0 +1,445 @@
+{
+  "url": "http://localhost:8791/contact-us-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1827,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 327,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".mobile-nav__hamb",
+      "frames": [
+        {
+          "t": 10786.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 10996.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11202.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11421.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".drawer .acnav__list--level1 > li.has-children > .acnav__label",
+      "frames": [
+        {
+          "t": 12456.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12663.30000000028,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12868,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13075.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "up_down",
+        "el": "html > body.page-contact-us.scrolled.scrollup > button.go-top > img",
+        "txt": "",
+        "y": 327
+      },
+      {
+        "name": "up_down",
+        "el": "html > body.page-contact-us.scrolled.scrollup > button.go-top > img",
+        "txt": "",
+        "y": 300
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "right",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > div.drawer__dialog",
+        "y": 0,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > span.drawer__overlay",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > span.drawer__overlay",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.drawer__body > nav.acnav > ul.acnav__list.acnav__list--level1 > li.has-children.is-open > div.acnav__label.acnav__label--level1",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed-tab"
+        ],
+        "el": "body.page-contact-us.scrolled.scrolldown > main.main-content > section.contact-section > div.tab-wrap-outer > div.tab-wrap.fixed-tab",
+        "y": 800
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1827
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1827
+      },
+      {
+        "added": [
+          "fixed-tab"
+        ],
+        "el": "body.page-contact-us.scrolled.scrollup > main.main-content > section.contact-section > div.tab-wrap-outer > div.tab-wrap.fixed-tab",
+        "y": 2400
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrollup",
+        "y": 2400
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrollup",
+        "y": 2400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 2400
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1200
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1200
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show",
+        "y": 0
+      },
+      {
+        "added": [
+          "modal-open"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.drawer__dialog > div.drawer__body > nav.acnav > ul.acnav__list.acnav__list--level1 > li.has-children.is-open",
+        "y": 0
+      }
+    ]
+  }
+}

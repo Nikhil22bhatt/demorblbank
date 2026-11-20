@@ -1,0 +1,104 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T09:47:47.464Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 66,
+   "textNodes": 148,
+   "controls": 93,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav.quicklinks",
+    "path": "nav.quicklinks > ul.quicklinks__list > li.quicklinks__item > a",
+    "text": "credit cards",
+    "cutMin": 8,
+    "cutMax": 8
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.offer-card",
+    "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > div.offer-card__tag",
+    "text": "credit card",
+    "cutMin": 44,
+    "cutMax": 44
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "p.offer-card__title",
+    "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__title",
+    "text": "attractive offers",
+    "cutMin": 59,
+    "cutMax": 59
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.offer-card",
+    "path": "div.offer-card > div.offer-card__inner > div.offer-card__left > p.offer-card__text",
+    "text": "there's more to save & celebrate!",
+    "cutMin": 106,
+    "cutMax": 106
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "li.rail__item > div.story-card > div.story-card__inner > p.story-card__date",
+    "text": "oct 26, 2026",
+    "cutMin": 31,
+    "cutMax": 31
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+    "text": "tips for identifying genuine bank communicationse",
+    "cutMin": 118,
+    "cutMax": 118
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-advantages-of-digital-fd",
+    "text": "tips for identifying genuine bank communicationse",
+    "cutMin": 118,
+    "cutMax": 118
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.rail__viewport",
+    "path": "ul.rail__track > li.rail__item > div.video-card > button.video-card__btn",
+    "text": "csr initiatives - creating impact through h.e.lo health, edu",
+    "cutMin": 197,
+    "cutMax": 197
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

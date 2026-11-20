@@ -1,0 +1,192 @@
+/* home-blog — homepage "Money, People & Safety" story rail (replica canon index.css .blog),
+   mobile-first. Cards 253px (< 768) / 252px, gap 27px; arrows from 768px. */
+/* stylelint-disable no-descending-specificity */
+
+.home-blog.block {
+  position: relative;
+  padding: 45px 0;
+  background: #f4f5fc;
+}
+
+.home-blog .rail-head :is(h1, h2, h3, p) {
+  margin: 0 0 30px;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+.home-blog .rail {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.home-blog .rail-viewport {
+  overflow: hidden;
+}
+
+.home-blog .rail-track {
+  display: flex;
+  gap: 27px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: transform 0.5s ease;
+}
+
+.home-blog .rail-item {
+  flex: 0 0 auto;
+  width: 253px;
+}
+
+.home-blog .rail-cta {
+  text-align: center;
+}
+
+.home-blog .rail-cta a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  height: 48px;
+  padding: 0 20px;
+  border: 1px solid #303030;
+  background: transparent;
+  color: #303030;
+  font-size: 18px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.home-blog .rail-cta a.button:any-link:hover {
+  background: #303030;
+  color: #fff;
+}
+
+.home-blog .rail-nav {
+  position: absolute;
+  top: -72px;
+  right: 0;
+  display: none;
+  gap: 16px;
+}
+
+.home-blog .rail-btn {
+  width: 40px;
+  height: 40px;
+  padding: 8px 0 0;
+  border: 0;
+  border-radius: 50%;
+  background: #304087;
+  color: #fff;
+  font-size: 22px;
+  line-height: 26.88px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-blog .rail-btn:disabled {
+  background: #e8e8ec;
+  color: #304087;
+  opacity: 0.4;
+  cursor: default;
+}
+
+.home-blog .story-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  height: 325px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.home-blog .story-card-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+}
+
+.home-blog .story-card-bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.home-blog .story-card-bg img {
+  max-width: none;
+  object-fit: cover;
+  object-position: left top;
+}
+
+.home-blog .story-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #000 0%, rgb(255 255 255 / 0%) 100%);
+  opacity: 0.5;
+}
+
+.home-blog .story-card-inner {
+  position: relative;
+  top: 0;
+  z-index: 5;
+  min-height: 150px;
+  padding: 20px 20px 40px;
+  transition: top 0.3s ease;
+}
+
+.home-blog .story-card:hover .story-card-inner {
+  top: -15px;
+}
+
+.home-blog .story-card-date p {
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20.16px;
+}
+
+.home-blog .story-card-title {
+  position: relative;
+}
+
+.home-blog .story-card-title p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.home-blog .story-card-title a:any-link {
+  color: #fff;
+}
+
+.home-blog .story-card-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  width: 65px;
+  border-top: 2px solid #ed3338;
+}
+
+@media (width >= 768px) {
+  .home-blog .rail-head :is(h1, h2, h3, p) {
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .home-blog .rail-track {
+    padding-left: 5px;
+  }
+
+  .home-blog .rail-item {
+    width: 252px;
+  }
+
+  .home-blog .rail-nav {
+    display: flex;
+  }
+}

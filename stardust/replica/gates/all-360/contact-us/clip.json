@@ -1,0 +1,47 @@
+{
+ "url": "https://main--1aa640c2--aemcoder.aem.page/contact-us",
+ "at": "2026-11-19T11:50:54.025Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 1,
+  "offPage": 1,
+  "textNodes": 45,
+  "controls": 40,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul",
+   "path": "nav.page-tabs > ul > li > a",
+   "text": "report a fraud",
+   "cutMin": 127,
+   "cutMax": 127
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 1,
+   "textNodes": 45,
+   "controls": 41,
+   "total": 0
+  }
+ }
+}

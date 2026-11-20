@@ -1,0 +1,309 @@
+{
+  "archetype": "https://www.rbl.bank.in/business-banking",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".banner-section",
+    "card": ".field--name-field-banking-categorys .product-card",
+    "appband": ".rbl-myapp-section",
+    "story": "#data-related-blog1 .csr-cate-card-wrap",
+    "video": "#data-related-blog .csr-cate-card-wrap"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "section[0]",
+        "h": 3062
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".banner-section",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 400
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(244, 245, 252)",
+          "color": "rgb(33, 37, 41)",
+          "padding": "30px 0px 30px 0px",
+          "font": "roboto 16px/26.88px 400",
+          "borderRadius": "0px",
+          "heading": "h1 roboto 48px/57.6px 400 rgb(48, 64, 135)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Business Banking <!--td {border: 1px solid #cccccc;}br {mso-"
+      },
+      "card": {
+        "sel": ".field--name-field-banking-categorys .product-card",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 356,
+            "h": 508
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(33, 37, 41)",
+          "padding": "0px 0px 0px 0px",
+          "font": "roboto 16px/26.88px 400",
+          "borderRadius": "6px",
+          "heading": null,
+          "image": {
+            "w": 356,
+            "h": 200
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Business Banking Group Meet your business obligations and op"
+      },
+      "appband": {
+        "sel": ".rbl-myapp-section",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 374
+          },
+          "backgroundLayers": [
+            "linear-gradient(rgb(193, 188, 222) 0%",
+            "rgb(250, 212, 195) 99%",
+            "rgb(250, 212, 195) 99%",
+            "rgb(250, 212, 195) 100%)"
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(33, 37, 41)",
+          "padding": "0px 0px 0px 0px",
+          "font": "roboto 16px/26.88px 400",
+          "borderRadius": "0px",
+          "heading": "h2 roboto 48px/62.4px 700 rgb(48, 48, 48)",
+          "image": {
+            "w": 1440,
+            "h": 374
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "RBL MyBank App Safe | Simple | Fast"
+      },
+      "story": {
+        "sel": "#data-related-blog1 .csr-cate-card-wrap",
+        "count": 5,
+        "first": {
+          "rect": {
+            "w": 252,
+            "h": 325
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "color": "rgb(33, 37, 41)",
+          "padding": "0px 0px 0px 0px",
+          "font": "roboto 16px/26.88px 400",
+          "borderRadius": "4px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Nov 04, 2026How to Protect Your Device from APK Fraud?"
+      },
+      "video": {
+        "sel": "#data-related-blog .csr-cate-card-wrap",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 252,
+            "h": 325
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "color": "rgb(33, 37, 41)",
+          "padding": "0px 0px 0px 0px",
+          "font": "roboto 16px/26.88px 400",
+          "borderRadius": "4px",
+          "heading": null,
+          "image": {
+            "w": 252,
+            "h": 294
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.rbl.bank.in/personal-banking",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[0] 3062→3966"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "4 → 10 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 508 → 481}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 3966
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".banner-section",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 400
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(244, 245, 252)",
+              "color": "rgb(33, 37, 41)",
+              "padding": "30px 0px 30px 0px",
+              "font": "roboto 16px/26.88px 400",
+              "borderRadius": "0px",
+              "heading": "h1 roboto 48px/57.6px 400 rgb(48, 64, 135)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Personal Banking <!--td {border: 1px solid #cccccc;}br {mso-"
+          },
+          "card": {
+            "sel": ".field--name-field-banking-categorys .product-card",
+            "count": 10,
+            "first": {
+              "rect": {
+                "w": 356,
+                "h": 481
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(33, 37, 41)",
+              "padding": "0px 0px 0px 0px",
+              "font": "roboto 16px/26.88px 400",
+              "borderRadius": "6px",
+              "heading": null,
+              "image": {
+                "w": 356,
+                "h": 200
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Accounts A range of accounts to match your specific needs, i"
+          },
+          "appband": {
+            "sel": ".rbl-myapp-section",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 374
+              },
+              "backgroundLayers": [
+                "linear-gradient(rgb(193, 188, 222) 0%",
+                "rgb(250, 212, 195) 99%",
+                "rgb(250, 212, 195) 99%",
+                "rgb(250, 212, 195) 100%)"
+              ],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(33, 37, 41)",
+              "padding": "0px 0px 0px 0px",
+              "font": "roboto 16px/26.88px 400",
+              "borderRadius": "0px",
+              "heading": "h2 roboto 48px/62.4px 700 rgb(48, 48, 48)",
+              "image": {
+                "w": 1440,
+                "h": 374
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "RBL MyBank App Safe | Simple | Fast"
+          },
+          "story": {
+            "sel": "#data-related-blog1 .csr-cate-card-wrap",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 252,
+                "h": 325
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "color": "rgb(33, 37, 41)",
+              "padding": "0px 0px 0px 0px",
+              "font": "roboto 16px/26.88px 400",
+              "borderRadius": "4px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Nov 04, 2026How to Protect Your Device from APK Fraud?"
+          },
+          "video": {
+            "sel": "#data-related-blog .csr-cate-card-wrap",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 252,
+                "h": 325
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "color": "rgb(33, 37, 41)",
+              "padding": "0px 0px 0px 0px",
+              "font": "roboto 16px/26.88px 400",
+              "borderRadius": "4px",
+              "heading": null,
+              "image": {
+                "w": 252,
+                "h": 294
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "SECTION HEIGHTS",
+      "card"
+    ]
+  }
+}

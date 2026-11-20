@@ -1,0 +1,336 @@
+/* awards — replica canon about-us.css (.au-awards: .awards-section, .common-tab-wrap .nav-tabs,
+   .card-slider-wrap .carousel-indicators, .awards-card), scoped and mobile-first. */
+.awards {
+  position: relative;
+  padding: 45px 0 0;
+  color: #303030;
+}
+
+/* ---- tab strip (.common-tab-wrap .nav-tabs) ---- */
+.awards .tabs-wrap {
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.awards .page-tabs {
+  position: relative;
+  z-index: 9;
+  margin: 0 0 30px;
+  padding: 2px 0;
+  border-bottom: 1px solid transparent;
+  overflow: auto hidden;
+  scrollbar-width: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.awards .page-tabs ul {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.awards .page-tabs li[hidden] {
+  display: none;
+}
+
+.awards .page-tabs li a {
+  position: relative;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px 6px 0 0;
+  color: var(--rbl-blue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-decoration: none;
+}
+
+.awards .page-tabs li.is-active a {
+  font-weight: 700;
+}
+
+.awards .page-tabs li a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  z-index: 3;
+  width: 100%;
+  min-width: 32px;
+  height: 2px;
+  background: var(--rbl-blue);
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.awards .page-tabs li a:hover::after,
+.awards .page-tabs li.is-active a::after {
+  opacity: 1;
+}
+
+/* ---- pane + year strip ---- */
+.awards .awards-pane {
+  padding-top: 8px;
+}
+
+.awards .awards-pane[hidden] {
+  display: none;
+}
+
+.awards .years {
+  position: relative;
+  height: 70px;
+  margin: 0 0 32px;
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+.awards .years::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  width: calc(100% - 20px);
+  height: 2px;
+  background: #dbdcde;
+}
+
+.awards .years-viewport {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.awards .years-viewport ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translateX(5px);
+  transition: transform 0.3s ease;
+}
+
+.awards .years-item {
+  position: relative;
+  top: 11px;
+  flex: 0 0 33.3333%;
+  min-width: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.awards .years-item.is-any {
+  display: none;
+}
+
+.awards .years-item label {
+  display: block;
+  cursor: pointer;
+}
+
+.awards .years-item input {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 0 auto 10.88px;
+  padding: 0;
+  border: 1px solid var(--rbl-blue);
+  border-radius: 50%;
+  background: var(--rbl-blue);
+  appearance: none;
+  cursor: pointer;
+}
+
+.awards .years-item input:checked::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  display: block;
+  box-sizing: border-box;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--rbl-blue);
+  border-radius: 50%;
+}
+
+.awards .years-item span {
+  display: block;
+  width: 50px;
+  height: 35px;
+  margin: auto;
+  color: #707070;
+  font-size: 15px;
+  line-height: 26.88px;
+}
+
+.awards .years-item strong {
+  font-weight: inherit;
+}
+
+.awards .years-btn {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  padding: 7px 0 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 2px 4px 8px rgb(0 0 0 / 12%);
+  color: #606060;
+  font-size: 20px;
+  line-height: 26.88px;
+  text-align: center;
+}
+
+.awards .years-btn:disabled {
+  cursor: default;
+}
+
+.awards .years-btn-prev {
+  left: 5px;
+}
+
+.awards .years-btn-next {
+  right: 5px;
+}
+
+/* ---- award cards (.awards-card, hover scale as live .scale-img-wrap) ---- */
+.awards .award {
+  display: flex;
+  flex-direction: column;
+}
+
+.awards .award-card {
+  position: relative;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 0 0 30px;
+  padding: 15px 0;
+  overflow: hidden;
+  border: 1px solid #dbdcde;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.awards .award-card picture {
+  display: block;
+}
+
+.awards .award-card img {
+  display: block;
+  width: 100%;
+  height: 170px;
+  border-radius: 5px 5px 0 0;
+  object-fit: contain;
+  transition: all 0.2s linear 0s;
+}
+
+.awards .award-card:hover img {
+  transform: scale(1.03);
+}
+
+.awards .award-body {
+  flex: 1 1 auto;
+  padding: 15px 20px 10px;
+  text-align: center;
+}
+
+.awards .award-title p {
+  margin: 0 0 10px;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.awards .award-desc p {
+  margin: 0 0 10px;
+  color: #909090;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.awards .awards-empty {
+  max-width: 300px;
+  margin: auto;
+}
+
+@media (width >= 576px) {
+  .awards .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (width >= 768px) {
+  .awards .page-tabs {
+    padding: 13px 0;
+  }
+
+  .awards .page-tabs li a {
+    margin: 0 15px -1px 0;
+    padding: 8px 16px;
+  }
+
+  .awards .page-tabs li a::after {
+    bottom: -13px;
+    width: calc(100% - 20px);
+  }
+
+  .awards .years {
+    height: 101px;
+  }
+
+  .awards .years-item {
+    top: 10px;
+    flex-basis: 10%;
+  }
+
+  .awards .award-card img {
+    height: 210px;
+  }
+}
+
+@media (width >= 992px) {
+  .awards .col-lg-4 {
+    flex: 0 0 auto;
+    width: calc(100% / 3);
+  }
+
+  .awards .page-tabs {
+    overflow: visible;
+  }
+
+  .awards .page-tabs::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    right: 25px;
+    z-index: 3;
+    height: 1px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .awards .years-item span {
+    width: 72px;
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1200px) {
+  .awards .col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}

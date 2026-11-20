@@ -1,0 +1,18 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.rbl.bank.in/business-banking",
+  "width": 360,
+  "vh": 900,
+  "height": 5031,
+  "chunks": 6,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 30,
+    "late": 0
+  },
+  "at": "2026-11-19T08:40:17.716Z"
+}

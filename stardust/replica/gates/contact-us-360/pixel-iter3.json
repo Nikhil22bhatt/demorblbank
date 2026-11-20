@@ -1,0 +1,173 @@
+{
+  "a": "stardust/replica/gates/contact-us-360/live.png",
+  "b": "stardust/replica/gates/contact-us-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 3813,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 3340,
+  "pct": 0.26,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/contact-us-360/diff-iter3.png",
+  "masks": [
+    {
+      "yA": 32,
+      "h": 36,
+      "yB": 32
+    },
+    {
+      "yA": 712,
+      "h": 96,
+      "yB": 712
+    },
+    {
+      "yA": 1612,
+      "h": 96,
+      "yB": 1612
+    }
+  ],
+  "maskedRows": 228,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.1
+    },
+    {
+      "y0": 3500,
+      "y1": 3813,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.24,
+    "differingPixels": 3090,
+    "compared": {
+      "width": 360,
+      "height": 3587,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 844,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 898,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 3558,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 3813,
+        "shift": 1,
+        "cumulative": 0
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 4,
+    "insertedRows": 2,
+    "deletedRows": 2,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 3500,
+        "y1": 3813,
+        "pct": 1,
+        "unaligned": 1
+      }
+    ],
+    "diff": "stardust/replica/gates/contact-us-360/diff-iter3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null
+}

@@ -1,0 +1,100 @@
+/* notice — homepage notification ticker (replica canon index.css .notice), mobile-first.
+   Fixed under the utility strip (75px < 768, 43px >= 768); hides on scroll / close. */
+main .notice-container {
+  height: 0;
+}
+
+.notice.block {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  max-height: 175px;
+  overflow: hidden;
+  padding: 16px;
+  border: 1px solid #b6effb;
+  border-radius: 6px;
+  background: #f5f5f5;
+  color: #055160;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.notice .notice-wrap {
+  display: inline-block;
+  width: 95%;
+  margin-left: 0;
+}
+
+.notice .notice-text {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 0 33px;
+  background: url("noti.svg") no-repeat 1px 3px;
+}
+
+.notice .notice-text p {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  margin: 0 5px;
+  color: #303030;
+  font-size: 14px;
+  line-height: 23.52px;
+}
+
+.notice .notice-close {
+  position: absolute;
+  top: 19px;
+  right: 23px;
+  width: 16px;
+  height: 16px;
+  padding: 4px;
+  border: 1px solid #000;
+  border-radius: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center / 6px auto no-repeat;
+}
+
+.notice .notice-close:hover {
+  opacity: 0.75;
+}
+
+body.notice-hidden .notice.block,
+body.notice-closed .notice.block {
+  max-height: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (width >= 768px) {
+  .notice.block {
+    top: 43px;
+    max-height: 200px;
+  }
+
+  .notice .notice-wrap {
+    width: 97%;
+    margin-left: 20px;
+  }
+
+  .notice .notice-text {
+    width: 88%;
+    padding: 8px 0 8px 40px;
+    background-position: 1px 13px;
+  }
+
+  .notice .notice-text p {
+    width: 1000px;
+    font-size: 16px;
+    line-height: 26.88px;
+  }
+
+  .notice .notice-close {
+    top: 29px;
+    right: 122px;
+  }
+}

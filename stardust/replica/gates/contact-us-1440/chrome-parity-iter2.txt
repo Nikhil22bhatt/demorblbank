@@ -1,0 +1,9 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/contact-us (live side from cache stardust/replica/gates/contact-us-1440/chrome-live.json, probed 2026-11-19T07:48:19.907Z — delete the file to re-probe)
+  build: http://localhost:8791/contact-us-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: ✓ parity — 78 paired of 78/78 texts, 2/2 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

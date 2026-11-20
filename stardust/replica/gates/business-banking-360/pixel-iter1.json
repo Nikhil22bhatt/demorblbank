@@ -1,0 +1,241 @@
+{
+  "a": "stardust/replica/gates/business-banking-360/live.png",
+  "b": "stardust/replica/gates/business-banking-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 5024,
+    "mode": "overlap"
+  },
+  "heightDelta": 7,
+  "differingPixels": 23958,
+  "pct": 1.39,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/business-banking-360/diff-iter1.png",
+  "masks": [
+    {
+      "yA": 32,
+      "h": 36,
+      "yB": 32
+    },
+    {
+      "yA": 712,
+      "h": 96,
+      "yB": 712
+    },
+    {
+      "yA": 1612,
+      "h": 96,
+      "yB": 1612
+    }
+  ],
+  "maskedRows": 228,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 2.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 5.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5024,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.67,
+    "differingPixels": 11575,
+    "compared": {
+      "width": 360,
+      "height": 4808,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 844,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 898,
+        "shift": -1,
+        "cumulative": 0
+      },
+      {
+        "y": 2501,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 2662,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 3538,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 3758,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 3893,
+        "shift": -1,
+        "cumulative": -1
+      },
+      {
+        "y": 4099,
+        "shift": 1,
+        "cumulative": 0
+      },
+      {
+        "y": 4462,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 4775,
+        "shift": -1,
+        "cumulative": -8
+      },
+      {
+        "y": 5031,
+        "shift": 1,
+        "cumulative": -7
+      }
+    ],
+    "maxOffset": 8,
+    "totalShift": 17,
+    "insertedRows": 5,
+    "deletedRows": 12,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.4,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.9,
+        "unaligned": 1.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.9,
+        "unaligned": 2.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.6,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.5,
+        "unaligned": 5.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5031,
+        "pct": 3.1,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/business-banking-360/diff-iter1-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 17,
+    "pass": false
+  },
+  "reason": "offsets: 11 step(s), 17px total — +1px at y=844, −1px at y=898, −1px at y=2501, +1px at y=2662, −1px at y=3538, +1px at y=3758, … 5 more (bound 8px)"
+}

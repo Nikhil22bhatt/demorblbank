@@ -1,91 +1,127 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * RBL Bank replica foundation — tokens, base, Bootstrap-model grid, buttons, section
+ * scaffold and the chrome reservation. Values lifted from the gated replica canon
+ * (stardust/prototypes/shared/canon.css). Chrome lives in blocks/header + blocks/footer.
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* brand (canon) */
+  --rbl-blue: #304087;
+  --rbl-blue-hover: #213073;
+  --rbl-red: #ed3338;
+  --rbl-yellow: #fed525;
+  --rbl-text: #212529;
+  --rbl-ink: #303030;
+  --rbl-lavender: #f4f5fc;
+  --rbl-faq-bg: #f9faff;
+  --rbl-border: #dbdcde;
+  --rbl-topbar: #595959;
+  --rbl-footer: #222;
+  --rbl-footer-head: #adadad;
+  --rbl-footer-link: #f3f4f6;
+  --rbl-footer-rule: #606060;
+  --rbl-nav-gradient: linear-gradient(270deg, #8a676d 1.87%, #924b57 31.58%, #4b4a6c 59.77%, #262343 98.54%);
+  --font-base: roboto, roboto-fallback, sans-serif;
+  --container: 1140px;
+  --gutter: 24px;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* boilerplate aliases (stock blocks) */
+  --background-color: #fff;
+  --light-color: var(--rbl-lavender);
+  --dark-color: var(--rbl-ink);
+  --text-color: var(--rbl-text);
+  --link-color: var(--rbl-blue);
+  --link-hover-color: var(--rbl-blue-hover);
+  --body-font-family: var(--font-base);
+  --heading-font-family: var(--font-base);
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation (#81): fixed utility strip + nav, then the in-flow breadcrumb bar.
+     < 768: strip 75 + mobile header (body padding 115 on live), breadcrumb hidden (1px rule) */
+  --chrome-top: 115px;
+  --breadcrumb-h: 1px;
+  --nav-height: calc(var(--chrome-top) + var(--breadcrumb-h));
 }
 
-/* fallback fonts */
-@font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+@media (width >= 768px) {
+  :root {
+    --chrome-top: 140px;
+    --breadcrumb-h: 42px;
+  }
 }
 
+/* landing (homepage) chrome: notification ticker under the strip, no breadcrumb.
+   < 768 the mobile header flows under the ticker (80px); the ticker hides on scroll. */
+body.landing {
+  --chrome-top: 250px;
+  --breadcrumb-h: 80px;
+}
+
+body.landing.notice-hidden,
+body.landing.notice-closed {
+  --chrome-top: 75px;
+}
+
+@media (width >= 768px) {
+  body.landing {
+    --chrome-top: 248px;
+    --breadcrumb-h: 0px;
+  }
+
+  body.landing.notice-hidden,
+  body.landing.notice-closed {
+    --chrome-top: 144px;
+  }
+}
+
+/* fallback face, metric-matched to Roboto (boilerplate values) */
 @font-face {
   font-family: roboto-fallback;
   size-adjust: 99.529%;
-  src: local('Arial');
+  src: local('Arial'), local('Liberation Sans'), local('Helvetica'), local('DejaVu Sans');
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  text-size-adjust: 100%;
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  overflow-x: hidden;
+  background: #fff;
+  color: var(--rbl-text);
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.68;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.appear {
   display: block;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
+/* chrome reservation — the header block's rows are position: fixed, the breadcrumb flows */
 header {
-  height: var(--nav-height);
+  /* derived per element (not the :root --nav-height) so body-scoped template
+     overrides of --chrome-top / --breadcrumb-h reach the reservation */
+  height: calc(var(--chrome-top) + var(--breadcrumb-h));
+  padding-top: var(--chrome-top);
+  background: #fff;
+}
+
+body.landing header {
+  transition: padding-top 0.3s ease, height 0.3s ease;
 }
 
 header .header,
@@ -103,223 +139,264 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+h6,
+.h3,
+.h6 {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
+p {
+  margin: 0;
+}
 
-p,
-dl,
-ol,
 ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+a,
+a:any-link {
+  color: var(--rbl-blue);
+  text-decoration: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+img {
+  vertical-align: middle;
+  border: 0;
 }
 
-main > div {
-  margin: 40px 16px;
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
 }
 
 input,
 textarea,
-select,
-button {
+select {
   font: inherit;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+strong {
+  font-weight: 700;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+/* the live theme renders <em> upright */
+em {
+  font-style: normal;
 }
 
-/* buttons */
-p.button-wrapper {
-  margin: 12px 0;
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
-a.button:any-link,
-button.button {
-  box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
-  margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
-  text-decoration: none;
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+/* Font Awesome 4.7 glyphs used by chrome and blocks */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome, sans-serif;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
-}
-
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
+.fa-plus::before { content: "\f067"; }
+.fa-minus::before { content: "\f068"; }
+.fa-facebook::before { content: "\f09a"; }
+.fa-linkedin::before { content: "\f0e1"; }
+.fa-instagram::before { content: "\f16d"; }
+.fa-youtube-play::before { content: "\f16a"; }
+.fa-angle-left::before { content: "\f104"; }
+.fa-angle-right::before { content: "\f105"; }
 
 .icon {
   display: inline-block;
-  height: 24px;
   width: 24px;
+  height: 24px;
 }
 
 .icon img {
+  width: 100%;
   height: 100%;
+}
+
+/* ---- Grid: Bootstrap 5 model as the live site uses it (container capped 1140) ---- */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 12px;
+}
+
+.col-12 {
+  flex: 0 0 auto;
   width: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
-}
+@media (width >= 768px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: calc(100% / 3);
+  }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
-}
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 
-main > .section:first-of-type {
-  margin-top: 0;
-}
-
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
   }
 }
 
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
+@media (width >= 992px) {
+  .col-lg-1 {
+    flex: 0 0 auto;
+    width: calc(100% / 12);
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-11 {
+    flex: 0 0 auto;
+    width: calc(100% * 11 / 12);
+  }
+}
+
+/* ---- Buttons: the live .btn-blue / .common-btn-blue, also the EDS button family ---- */
+.btn-blue,
+a.button:any-link,
+button.button {
+  display: inline-block;
+  min-width: 146px;
+  height: 42px;
   margin: 0;
-  padding: 40px 0;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--rbl-blue);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.btn-blue:hover,
+a.button:any-link:hover,
+a.button:any-link:focus-visible,
+button.button:hover {
+  background: var(--rbl-blue-hover);
+  color: #fff;
+}
+
+a.button.secondary:any-link {
+  border: 1px solid var(--rbl-blue);
+  background: #fff;
+  color: var(--rbl-blue);
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks (EW3) */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-block;
+  min-width: 146px;
+  height: 42px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: var(--rbl-blue);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  border: 1px solid var(--rbl-blue);
+  background: #fff;
+  color: var(--rbl-blue);
+}
+
+/* card-as-link inner anchor while editing (EW6) */
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* stylelint-enable no-descending-specificity */
+
+/* ---- Sections: blocks paint their own sections (they carry .container) ---- */
+main {
+  display: block;
+}
+
+main > .section {
+  margin: 0;
+}
+
+main > .section > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+main > .section > .default-content-wrapper {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/* the page-metadata block leaves an empty section (runtime contract emptySectionCollapse) */
+main .section:empty {
+  display: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+main img {
+  max-width: 100%;
+  height: auto;
 }

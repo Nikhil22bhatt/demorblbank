@@ -1,0 +1,510 @@
+{
+  "types": {
+    "form": {
+      "archetype": "contact-us",
+      "prototype": "stardust/prototypes/contact-us-proposed.html",
+      "liveUrl": "https://www.rbl.bank.in/contact-us",
+      "main": "#content",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.24% aligned (0.26% unaligned)",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost yellow",
+          "clip": 0,
+          "overflow": "ok (360)",
+          "chromeHeaderBand": "1.65%",
+          "chromeFooterBand": "0.84%",
+          "chromeParity": "quiet",
+          "units": "PASS 17/17",
+          "visualDiff": "IMAGERY GAP advisory (same)",
+          "pass": true
+        },
+        "1440": {
+          "pixel": "0.34% aligned (1.45% unaligned)",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost yellow",
+          "clip": 0,
+          "overflow": "ok (1440)",
+          "chromeHeaderBand": "1.11%",
+          "chromeFooterBand": "0.75%",
+          "chromeParity": "quiet",
+          "units": "PASS 17/17",
+          "visualDiff": "IMAGERY GAP advisory (live counts hidden mega-menu/drawer/widget images)",
+          "pass": true
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 3 rows failed)",
+      "evidence": [
+        "stardust/replica/gates/contact-us-1440/verdict-iter3.json",
+        "stardust/replica/gates/contact-us-360/verdict-iter3.json",
+        "stardust/replica/gates/contact-us-2560/cap-iter.json"
+      ],
+      "residuals": [
+        {
+          "zone": "chrome / accessibility widget",
+          "cause": "third-party embed",
+          "note": "Skynet AIOA trigger is replicated as a static, non-functional launcher (stardust/prototypes/shared/images/aioa-icon-type-1.svg); real widget awaits owner licence (dynamic-features row 10)."
+        },
+        {
+          "zone": "chrome / RBL Cares launcher",
+          "cause": "third-party embed",
+          "note": "static launcher image interim (dynamic-features row 11); MoveUpDown keyframes lifted."
+        },
+        {
+          "zone": "login dropdown",
+          "cause": "not explored",
+          "note": "opens on :hover per lifted .logindd-show:hover rule; panel look lifted from CSS, not crop-verified."
+        },
+        {
+          "zone": "pixel offsets",
+          "cause": "sub-pixel",
+          "note": "1440: +1px at y=157, -1px at y=2243; 360: four 1px steps — within the 8px bound."
+        },
+        {
+          "zone": "header contract (chrome-compare, profile replica, 1440)",
+          "cause": "open-state visuals + search",
+          "note": "Behaviour parity reached (hover/click open, outside-click close, aria-expanded, 200ms item transitions, show-by-default sub-levels). Remaining: open-state crop deltas 2-17% per panel (Preferred Banking 41%: source panel 639px tall) and the header Search modal (dynamic-features row 2, index-backed widget, not built). Evidence: stardust/replica/chrome/header-parity-contact-us.json."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "blink animation on Rent-Your-Property icon (1s infinite)",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "RBL Cares launcher MoveUpDown 3s infinite alternate",
+          "restoreAtDelivery": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "scroll >= 500: .tab-wrap.fixed-tab + body.fixed-tab-body + body.body-active-effect (nav shadow, TOP button opacity 0.2s)",
+          "body.scrolled (>50px) / scrolldown / scrollup (barrio.js)",
+          "mega menus open on hover and click, close on outside click; sub-levels switch on hover",
+          "FAQ accordion: Bootstrap collapse, one-open, height 0.35s ease, button .collapsed",
+          "hover: .common-btn-blue background -> #213073 (0.2s linear); footer links -> #fff (0.2s linear); LOGIN box-shadow -> 0 4px 8px rgba(0,0,0,.16); header search circle bg -> #1a307c (0.15s)",
+          "360: hamburger opens #modal-products (right 0.3s ease-out, overlay opacity 0.2s linear 0.28s, body.modal-open); drawer level label -> li.is-open",
+          "360: footer head click -> .active-t + fa-minus",
+          "blink 1s infinite on property icon; up_down on TOP icon; MoveUpDown on chat launcher"
+        ],
+        "implemented": [
+          "shared/chrome.js: scroll morph (500px), barrio scroll classes, mega menus (.open, hover/click, outside-click close, hover sub-levels), FAQ collapse (collapse/collapsing/show/collapsed classes, 0.35s), footer accordion (active-t/fa-minus), drawer (.show, body.modal-open, acnav li.is-open)",
+          "canon.css: hover rules (btn-blue, footer links, LOGIN shadow, header circle buttons), login :hover dropdown, keyframes blink / up_down / MoveUpDown, go-top opacity transition"
+        ],
+        "dead": [
+          "hover on nav menu labels, FAQ header, follow-us icons (desktop), card h3 links, page tabs — no measured diff (source CSS hover rules for social icons NOT implemented)",
+          "navbar inline top re-set 0.2s (368 events, no visual change — JS re-writes the same 43px)",
+          "tb-megamenu \"animating\" class and li width 0ms transition (no visual)",
+          "common-btn-blue border-*-color 0.2s (border width 0 — invisible)",
+          "accessibility-widget button outline/transform/box-shadow transitions (third-party, out of scope)"
+        ],
+        "compare": [
+          "stardust/replica/motion/compare-1440.json",
+          "stardust/replica/motion/compare-360.json",
+          "stardust/replica/motion/compare-360d.json"
+        ]
+      },
+      "shared": [
+        "stardust/prototypes/shared/canon.css",
+        "stardust/prototypes/shared/chrome.js",
+        "stardust/prototypes/shared/header.html",
+        "stardust/prototypes/shared/footer.html",
+        "stardust/prototypes/shared/breadcrumb-contact-us.html",
+        "stardust/prototypes/shared/fonts/roboto-latin-var.woff2",
+        "stardust/prototypes/shared/fonts/fontawesome-webfont.woff2",
+        "stardust/prototypes/shared/images/"
+      ],
+      "generators": [
+        "stardust/replica/lift/extract-chrome.mjs (capture -> chrome-data.json)",
+        "stardust/replica/lift/gen-chrome.mjs (chrome-data.json -> shared/*.html)",
+        "stardust/replica/lift/assemble.mjs (partials + main fragment -> prototype)"
+      ],
+      "pageFiles": [
+        "stardust/prototypes/contact-us.css",
+        "stardust/prototypes/assets/contact-us/",
+        "stardust/replica/lift/contact-us.main.html",
+        "stardust/replica/lift/contact-us-faq.json"
+      ],
+      "fonts": "Roboto variable latin woff2 self-hosted (live face); Font Awesome 4.7 woff2 self-hosted from the live theme (SIL OFL 1.1) for footer/breadcrumb/login glyphs",
+      "updatedAt": "2026-11-19T08:16:23.610Z",
+      "headerContract": {
+        "live": "stardust/replica/chrome/contact-us-live-1440.json",
+        "build": "stardust/replica/chrome/contact-us-build-1440.json",
+        "verdict": "stardust/replica/chrome/header-parity-contact-us.json",
+        "errors": 17,
+        "kind": "panel-visual x16, search state-missing x1"
+      },
+      "postMotionPixel": {
+        "360": "0.24% aligned, Δh 0 (unchanged)",
+        "1440": "0.34% aligned, Δh 0 (unchanged)"
+      }
+    },
+    "listing": {
+      "archetype": "business-banking",
+      "prototype": "stardust/prototypes/business-banking-proposed.html",
+      "liveUrl": "https://www.rbl.bank.in/business-banking",
+      "siblings": [
+        "https://www.rbl.bank.in/personal-banking (10-card variant: data rows only — stardust/replica/lift/business-banking.data.json shape)"
+      ],
+      "main": "#content",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.19% aligned (0.20% unaligned)",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost yellow (8 advisory: build-only a11y labels on rail arrows/video dialog, editable count)",
+          "clip": 0,
+          "overflow": "ok (360)",
+          "chromeHeaderBand": "1.61% (0–115)",
+          "chromeFooterBand": "0.66%",
+          "chromeParity": "quiet",
+          "units": "PASS (8 compared)",
+          "visualDiff": "IMAGERY GAP advisory (live counts hidden mega-menu/drawer images) — iter3 probe hit net::ERR_HTTP2_PROTOCOL_ERROR, re-run standalone: visual-diff-iter3b.txt",
+          "pass": true
+        },
+        "1440": {
+          "pixel": "0.24% aligned (0.32% unaligned)",
+          "heightDelta": 2,
+          "contentDiff": "0 red / 0 nothing-lost yellow (8 advisory, same)",
+          "clip": 0,
+          "overflow": "ok (1440)",
+          "chromeHeaderBand": "0.65% (0–140)",
+          "chromeFooterBand": "0.81%",
+          "chromeParity": "2 footer deltas (RBI Kehta Hai / RBI Sachet Portal Δy −2px) — canon footer 819.05px vs live 820.42px on this page",
+          "units": "PASS (12 compared)",
+          "visualDiff": "IMAGERY GAP advisory (same)",
+          "pass": true
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 4 rows failed)",
+      "evidence": [
+        "stardust/replica/gates/business-banking-1440/verdict-iter3.json",
+        "stardust/replica/gates/business-banking-360/verdict-iter3.json",
+        "stardust/replica/gates/business-banking-2560/cap-iter.json"
+      ],
+      "residuals": [
+        {
+          "zone": "chrome / footer (1440)",
+          "cause": "canon drift",
+          "note": "live footer 820.42px vs canon 819.05px: the Others row starts 1px higher in the build (step at y=3727), the two .btn links (RBI Kehta Hai, RBI Sachet Portal) read Δy −2px in chrome-parity; footer band 0.81%. Back-port request for shared/canon.css — not compensated page-side."
+        },
+        {
+          "zone": "breadcrumb (≥768)",
+          "cause": "page-scoped compensation",
+          "note": "live breadcrumb measures 41px on this template vs canon 42px; .page-listing .breadcrumb {padding-bottom:6px} in business-banking.css — back-port candidate."
+        },
+        {
+          "zone": "product card alt text",
+          "cause": "verbatim source",
+          "note": "live card images carry alt=\"aaatest\" — kept verbatim (content fidelity); flag to content owner."
+        },
+        {
+          "zone": "video popup",
+          "cause": "not gated",
+          "note": "Trust & Beyond thumbs open the live YouTube embed URLs in a modal (live #video-popup); static gate sees the closed state only."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "hover .common-btn-outline -> color/border #304087 (0.2s linear)",
+          "slick next arrow on Money, People & Safety: track transform 1s (slick speed 1000), slick-current/active/disabled classes",
+          "AOS fade-up on .rbl-myapp-card (opacity+transform 0.3s ease) on scroll-in",
+          "chrome: navbar top re-set / body box-shadow (owned by canon, see types.form)"
+        ],
+        "implemented": [
+          "business-banking.css: outline-button hover, rail track transition 1s ease, [data-reveal] fade-up 0.3s ease (reduced-motion off)",
+          "business-banking.js: rail prev/next with disabled states (native scroll-snap <768), video modal, IntersectionObserver reveal"
+        ],
+        "dead": [
+          "hover on story cards, video thumbs, app-store badges — no measured diff on live",
+          "live next-arrow click: no sampled frame change in motion-observe (classes only); build mirrors slick behaviour anyway"
+        ],
+        "compare": [
+          "stardust/replica/motion/compare-business-banking-1440.json"
+        ]
+      },
+      "pageFiles": [
+        "stardust/prototypes/business-banking.css",
+        "stardust/prototypes/business-banking.js",
+        "stardust/prototypes/assets/business-banking/",
+        "stardust/replica/lift/business-banking.main.html",
+        "stardust/replica/lift/business-banking.data.json",
+        "stardust/replica/lift/assemble-business-banking.mjs",
+        "stardust/replica/lift/business-banking-live-measure.json",
+        "stardust/replica/lift/business-banking-live-measure2.json"
+      ],
+      "shared": "reuses stardust/prototypes/shared/{canon.css,chrome.js,header.html,footer.html,fonts,images} unchanged",
+      "updatedAt": "2026-11-19T08:56:30.630Z"
+    },
+    "static": {
+      "archetype": "about-us",
+      "prototype": "stardust/prototypes/about-us-proposed.html",
+      "liveUrl": "https://www.rbl.bank.in/about-us",
+      "main": "#content",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.12% aligned (0.12% unaligned) iter3; 0.12% post-motion standalone (motion-verify/pixel.json)",
+          "heightDelta": 0,
+          "contentDiff": "iter3 0 red / 7 nothing-lost yellow -> fixed; content-diff-verify.txt 0 red / 0 nothing-lost (4 advisory ICON MOVED: year-strip arrow glyphs anchored on their <button>s)",
+          "clip": 0,
+          "overflow": "ok (360)",
+          "chromeParity": "quiet",
+          "units": "n/a (no page families declared)",
+          "visualDiff": "no build red flags",
+          "confirmRound": "REFUSED by round ledger (rounds.mjs exit 6: 3/3 counted rounds, last iter3 FAIL) — no decision recorded; needs accept-residual|re-prototype from the orchestrator",
+          "decision": "accept-residual (rounds.mjs, 2026-11-19): iter3 fail was content-only, fixed, verified by content-diff-verify.txt",
+          "pass": true
+        },
+        "1440": {
+          "pixel": "0.31% aligned (0.34% unaligned) iter3; 0.35% unaligned post-motion standalone (motion-verify/pixel.json)",
+          "heightDelta": 2,
+          "contentDiff": "iter3 0 red / 7 nothing-lost yellow -> fixed; content-diff-verify.txt 0 red / 0 nothing-lost (4 advisory ICON MOVED, same)",
+          "clip": 0,
+          "overflow": "ok (1440)",
+          "chromeParity": "4 footer deltas (Trade & Forex Services Δh −2 + icon Δh −3; RBI Kehta Hai / RBI Sachet Portal Δy −3) — canon footer drift, same as business-banking",
+          "units": "n/a (no page families declared)",
+          "visualDiff": "no build red flags",
+          "confirmRound": "REFUSED by round ledger (exit 6, same reason)",
+          "decision": "accept-residual (rounds.mjs, 2026-11-19): iter3 fail was content-only, fixed, verified by content-diff-verify.txt",
+          "pass": true
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 6 rows failed)",
+      "evidence": [
+        "stardust/replica/gates/about-us-1440/verdict-iter3.json",
+        "stardust/replica/gates/about-us-360/verdict-iter3.json",
+        "stardust/replica/gates/about-us-1440/content-diff-verify.txt",
+        "stardust/replica/gates/about-us-360/content-diff-verify.txt",
+        "stardust/replica/gates/about-us-1440/motion-verify/pixel.json",
+        "stardust/replica/gates/about-us-360/motion-verify/pixel.json",
+        "stardust/replica/gates/about-us-2560/cap-iter.json"
+      ],
+      "residuals": [
+        {
+          "zone": "gate ledger",
+          "cause": "round cap",
+          "note": "iter3 (3rd counted round) failed on 7 nothing-lost yellows only; fixed afterwards and verified by standalone content-diff (0/0). Confirmation round refused (exit 6) at both widths — orchestrator decision pending (accept-residual or re-prototype)."
+        },
+        {
+          "zone": "chrome / footer (1440)",
+          "cause": "canon drift",
+          "note": "Trade & Forex Services Δh −2 (icon −3), RBI Kehta Hai / RBI Sachet Portal Δy −3 — same footer back-port as business-banking; shared/ not edited."
+        },
+        {
+          "zone": "awards / advertisements view",
+          "cause": "static snapshot",
+          "note": "Drupal view rendered as settled default state (year 2026 checked); year filter strip arrows implemented, filtering not (dynamic-features row 5)."
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "AOS fade-up (0.3s ease, once, offset 120) on the 4 impact cards (anchor #data-section3, delays 300/600/900/300) and the 3 Vision/Mission rows (anchor #data-section5, delays 600/900/1500)",
+          "hover .awards-card -> img scale(1.03), 0.2s linear",
+          "slick year-strip next arrow: class-only (slick-active/current/disabled), no sampled frame change",
+          "chrome: navbar top / box-shadow transitions on scroll (owned by canon, see types.form)"
+        ],
+        "implemented": [
+          "about-us.css: [data-aos=fade-up] + aos-animate (live class names) with delay steps; .au-award__card overflow hidden + img hover scale 1.03 0.2s linear",
+          "about-us.js: IntersectionObserver per anchor <section> (rootMargin −120px) adding aos-animate once; year-strip prev/next (pre-existing)",
+          "lift/about-us.main.html: data-aos/data-aos-delay on impact cards and the three .au-values rows (re-assembled)"
+        ],
+        "dead": [
+          "hover on impact cards, mission cards, vision two-col cards — no measured diff on live",
+          "banner/tabs AOS (#data-section1/2) — already animated at load, never observed firing; not implemented",
+          "year-strip arrow: no rendered change on live (classes only)"
+        ],
+        "compare": [
+          "stardust/replica/motion/compare-about-us-1440.json"
+        ]
+      },
+      "pageFiles": [
+        "stardust/prototypes/about-us.css",
+        "stardust/prototypes/about-us.js",
+        "stardust/prototypes/assets/about-us/",
+        "stardust/replica/lift/about-us.main.html",
+        "stardust/replica/lift/about-us.breadcrumb.html",
+        "stardust/replica/lift/about-us-awards.json",
+        "stardust/replica/lift/about-us.assemble.mjs",
+        "stardust/replica/lift/about-us-live-measure.json",
+        "stardust/replica/lift/about-us-live-measure2.json",
+        "stardust/replica/lift/about-us-proto-measure.json"
+      ],
+      "shared": "reuses stardust/prototypes/shared/{canon.css,chrome.js,header.html,footer.html,fonts,images} unchanged",
+      "updatedAt": "2026-11-19T09:05:44.384Z",
+      "verdict": "PASS (accept-residual on evidence)"
+    },
+    "landing": {
+      "archetype": "index",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "liveUrl": "https://www.rbl.bank.in/",
+      "siblings": [],
+      "main": "#content",
+      "regime": "prototype",
+      "verdict": "PASS (accept-residual on post-cap evidence: 1440 pixel 0.43%, 360 bands 1.99%/1.24%, content-diff 0/0 both widths)",
+      "verdictNote": "3 counted rounds per width spent (rounds.json: 1440 iter1 fail / iter2 pass / iter3 fail; 360 iter1 fail / iter2 fail / iter3 fail). Last counted rounds missed only on chrome bands + visual-diff HEADING FACE flags; those were fixed after the cap and verified with build-side stitches against the frozen live reference plus standalone live content-diff/visual-diff (no gate round) — every bar item now meets the bar, but a ledgered confirmation round needs an owner `rounds.mjs decide` (accept-residual or extend).",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "lastRound": "iter3 (--full) FAIL: pixel 2.54% (aligned 2.52%), Δh 1, content-diff 0/0, clip 0, overflow ok, header band 2.00%, visual-diff HEADING FACE ×7, chrome-parity footer Δy +2 / bg style",
+          "postCap": {
+            "pixel": "2.54% (Δh 1)",
+            "heightDelta": 1,
+            "contentDiff": "0 red / 0 nothing-lost (80 advisory)",
+            "clip": 0,
+            "overflow": "ok (360)",
+            "chromeHeaderBand": "1.99% (0–75)",
+            "chromeFooterBand": "1.24%",
+            "visualDiff": "CONTENT GAP advisory only (same cause; main 5612 vs 5611)"
+          },
+          "pass": true
+        },
+        "1440": {
+          "lastRound": "iter3 (--full) FAIL: pixel 0.78% unaligned, Δh 0, content-diff 0/0, clip 0, overflow ok, chrome-parity rc2 (footer Δy +2 live variance, Trade&Forex icon Δh -3 canon), footer band 2.37%, visual-diff HEADING FACE ×7 (hidden promo/hero/modal headings)",
+          "postCap": {
+            "pixel": "0.43% (build-final.png vs frozen live.png)",
+            "heightDelta": 0,
+            "contentDiff": "0 red / 0 nothing-lost (80 advisory: build-only carousel arrow labels, ICON MOVED on rail arrows)",
+            "clip": 0,
+            "overflow": "ok (1440)",
+            "chromeHeaderBand": "0.43% (0–248)",
+            "chromeFooterBand": "0.57%",
+            "visualDiff": "CONTENT GAP advisory only (42 vs 36 headings: live renders slick clones off-screen; build clones display:none; main 4345 = 4345)"
+          },
+          "pass": true
+        }
+      },
+      "capProbe": "PASS (2560, 0 of 8 rows failed; 6 vs 9 top-level sections advisory)",
+      "evidence": [
+        "stardust/replica/gates/index-1440/verdict-iter3.json",
+        "stardust/replica/gates/index-360/verdict-iter3.json",
+        "stardust/replica/gates/index-1440/build-final.png",
+        "stardust/replica/gates/index-360/build-final.png",
+        "stardust/replica/gates/index-1440/content-diff-final.txt",
+        "stardust/replica/gates/index-360/content-diff-final.txt",
+        "stardust/replica/gates/index-2560/cap-iter.json",
+        "stardust/replica/motion/compare-index-1440.json"
+      ],
+      "residuals": [
+        {
+          "zone": "chrome / header (360)",
+          "cause": "capture phase + AA",
+          "note": "header band 1.99–2.00%: the Rent-Your-Property icon blink (canon animation: blink 1s) is frozen at a different phase than the live reference, plus sub-pixel AA on \"Skip to Main Content\"; padding/launcher matched (live homepage strip padding 8px 5px, launcher 30px #304087 disc, no amber ring)."
+        },
+        {
+          "zone": "chrome / footer (1440)",
+          "cause": "live variance + canon",
+          "note": "chrome-parity footer Δy +2 is live-side height variance (live footer y 4588/4591/4593 across three loads; anchor.mjs live = build 4593); Trade & Forex icon Δh -3 is canon footer (contact-us owned)."
+        },
+        {
+          "zone": "hero / promo / app carousels",
+          "cause": "captureState",
+          "note": "autoplay frozen at the captured slide (data-autoplay-delivery=\"6000\"); app banners start at slide 2 below 768 (captured state) vs slide 3 at ≥768; hero rows are masked by the frozen reference (authored-volatile)."
+        },
+        {
+          "zone": "DOM parity",
+          "cause": "mirrored hidden DOM",
+          "note": "slick loop clones (last before + all after), \"1 of 1\" outer dots, slider tooltips, legacy hidden citizen radios and every capture aria-label mirrored (index-parity.mjs) — content-diff counts hidden DOM."
+        },
+        {
+          "zone": "360 1px",
+          "cause": "rounding",
+          "note": "Δh 1 at 360 (videos section + gap 567 vs 566)."
+        }
+      ],
+      "captureState": [
+        {
+          "what": "carousel autoplay (hero, promo cards, app banners: slick autoplay 6s, aniWidth dot fill)",
+          "state": "frozen at captured slide",
+          "restoreAtDelivery": true
+        },
+        {
+          "what": "notification ticker",
+          "state": "visible at load, hides on scroll ≥300 (implemented)",
+          "restoreAtDelivery": false
+        }
+      ],
+      "motion": {
+        "observed": [
+          "scroll: body scrolldown/scrollup/scrolled, ticker hide → page margin-top 0.3s, navbar top + box-shadow 0.2s",
+          "AOS fade-up 0.3s once on FDC container, products container + rail, offers container + rail + CTA",
+          "carousel autoplay: slick-track transform 1s, slick-current/active, aniWidth dot fill 6s",
+          "rail next arrows: slick-disabled class only (no sampled frame change)"
+        ],
+        "implemented": [
+          "index.css/index.js: notice-hidden machine (padding-top 0.3s, nav top/box-shadow 0.2s), AOS fade-up via IntersectionObserver (6/6 aos-animate parity), carousel track transition 1s ease, rail prev/next with disabled states"
+        ],
+        "dead": [
+          "hover on .product-card, .offer-card-wrap, .csr-cate-card-wrap — no measured diff on live",
+          "header scroll-morph — static on both"
+        ],
+        "frozen": [
+          "carousel autoplay + dot fill (captureState restoreAtDelivery)"
+        ],
+        "compare": [
+          "stardust/replica/motion/compare-index-1440.json"
+        ],
+        "notes": "remaining compare lines: transform timing 500ms on build = rail track vs live 1s carousel autoplay (frozen); margin-top vs build padding-top (same behaviour, different property)."
+      },
+      "pageFiles": [
+        "stardust/prototypes/index.css",
+        "stardust/prototypes/index.js",
+        "stardust/prototypes/assets/index/",
+        "stardust/replica/lift/index-assemble.mjs",
+        "stardust/replica/lift/index-parity.mjs",
+        "stardust/replica/lift/index-data.json",
+        "stardust/replica/lift/index-extract.mjs",
+        "stardust/replica/lift/index-modals.mjs",
+        "stardust/replica/lift/index-modals.html",
+        "stardust/replica/lift/index-live-measure.json",
+        "stardust/replica/lift/index-measure-2.json",
+        "stardust/replica/lift/index-live-measure-360.json",
+        "stardust/replica/lift/index-live-measure-360b.json"
+      ],
+      "shared": "reuses stardust/prototypes/shared/{canon.css,chrome.js,header.html,footer.html,fonts,images} unchanged; homepage chrome differences scoped to body.path-frontpage in index.css",
+      "backPorts": [
+        "canon: body.path-frontpage frontpage chrome (fixed ticker under the strip, padding-top 248/144 desktop, 250/75 mobile with in-flow mobile header, quick-links strip .credit-carousel < 768)",
+        "canon: homepage footer +15px bottom band in --rbl-footer (834 vs 819 at 1440; 13px at 360) and white copyright at < 768",
+        "canon: homepage top strip padding 8px 5px at < 768 and a11y launcher 30px #304087 without the amber ring"
+      ],
+      "updatedAt": "2026-11-19T09:46:43.492Z",
+      "verdictGate": "FAIL",
+      "decision": "accept-residual (rounds.mjs, 2026-11-19) at 1440 and 360"
+    }
+  },
+  "siblings": {
+    "personal-banking": {
+      "archetype": "business-banking",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/personal-banking/index.html"
+    }
+  }
+}

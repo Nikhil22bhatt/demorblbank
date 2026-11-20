@@ -1,0 +1,181 @@
+/* about-intro — replica canon about-us.css (.au-about: .about-us-tab-section, .common-tab-wrap
+   .nav-tabs, .nav-AboutUs-tab::after panel), scoped and mobile-first. */
+.about-intro {
+  position: relative;
+  padding: 5px 0 45px;
+  overflow: hidden;
+  color: #303030;
+}
+
+/* ---- tab strip (.common-tab-wrap .nav-tabs) ---- */
+.about-intro .tabs-wrap {
+  position: relative;
+  border-radius: 10px;
+}
+
+.about-intro .page-tabs {
+  position: relative;
+  z-index: 9;
+  margin: 0 0 30px;
+  padding: 2px 0;
+  border-bottom: 1px solid transparent;
+  overflow: auto hidden;
+  scrollbar-width: none;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.about-intro .page-tabs ul {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-intro .page-tabs li a {
+  position: relative;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px 6px 0 0;
+  color: var(--rbl-blue);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-decoration: none;
+}
+
+.about-intro .page-tabs li.is-active a {
+  font-weight: 700;
+}
+
+.about-intro .page-tabs li a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  z-index: 3;
+  width: 100%;
+  min-width: 32px;
+  height: 2px;
+  background: var(--rbl-blue);
+  opacity: 0;
+  transform: translateX(-50%);
+}
+
+.about-intro .page-tabs li a:hover::after,
+.about-intro .page-tabs li.is-active a::after {
+  opacity: 1;
+}
+
+/* ---- about pane ---- */
+.about-intro .intro-pane {
+  position: relative;
+}
+
+.about-intro .intro-text {
+  padding-bottom: 20px;
+}
+
+.about-intro .intro-text h2 {
+  margin: 20px 0 30px;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+.about-intro .intro-text p {
+  margin: 0 0 10px;
+  color: #303030;
+  font-size: 15px;
+  line-height: 25.2px;
+}
+
+.about-intro .intro-figure {
+  position: relative;
+  z-index: 5;
+  float: right;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.about-intro .intro-figure :is(picture, img) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width >= 576px) {
+  .about-intro .intro-figure {
+    max-width: 360px;
+  }
+
+  .about-intro .intro-figure img {
+    width: 100%;
+  }
+}
+
+@media (width >= 768px) {
+  .about-intro .page-tabs {
+    margin-left: -10px;
+    padding: 13px 0;
+  }
+
+  .about-intro .page-tabs li a {
+    margin: 0 15px -1px 0;
+    padding: 8px 16px;
+  }
+
+  .about-intro .page-tabs li a::after {
+    bottom: -13px;
+    width: calc(100% - 20px);
+  }
+
+  .about-intro .intro-text h2 {
+    margin-top: 0;
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .about-intro .intro-pane::after {
+    content: "";
+    position: absolute;
+    top: -106px;
+    left: 50%;
+    z-index: 3;
+    display: block;
+    width: 80%;
+    height: 721px;
+    margin-left: 760px;
+    background: #eff7ff;
+    transform: translateX(-50%);
+  }
+}
+
+@media (width >= 992px) {
+  .about-intro .page-tabs {
+    overflow: visible;
+  }
+
+  .about-intro .page-tabs::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    right: 25px;
+    z-index: 3;
+    height: 1px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .about-intro .intro-figure {
+    max-width: 480px;
+  }
+
+  .about-intro .intro-figure img {
+    width: auto;
+  }
+}

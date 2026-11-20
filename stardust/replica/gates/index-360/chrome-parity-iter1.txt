@@ -1,0 +1,44 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 3770 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.rbl.bank.in/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 6 delta(s) — 6 paired of 6/6 texts, 1/1 icons
+  PAIR         "Skip to Main Content"  Δx +5px (113→118)
+  PAIR         "A"  Δx +4px (249→253)
+  PAIR         "Low Contrast View"  Δx +4px (265→269)
+  PAIR         "A"  Δx +4px (290→294)
+  PAIR         "High Contrast View"  Δx +4px (306→310)
+  PAIR         "Rent Your Property to RBL Bank"  Δx +5px (154→159)
+
+■ footer: 28 delta(s) — 27 paired of 27/27 texts, 1/1 icons
+  REGION BOX   Δy -1039px (6023→4984), Δh +2px (490→492)
+  PAIR         "Footer First"  Δy -1039px (6067→5028)
+  PAIR         "About"  Δy -1039px (6068→5029)
+  PAIR         "‌"  Δy -1039px (6065→5026)
+  PAIR         "Footer Second"  Δy -1039px (6104→5065)
+  PAIR         "Media Center"  Δy -1039px (6105→5066)
+  PAIR         "‌"  Δy -1039px (6102→5063)
+  PAIR         "Footer Third"  Δy -1040px (6141→5101)
+  PAIR         "Products"  Δy -1040px (6142→5102)
+  PAIR         "‌"  Δy -1040px (6139→5099)
+  PAIR         "Footer Fourth"  Δy -1039px (6177→5138)
+  PAIR         "Important Links"  Δy -1039px (6178→5139)
+  PAIR         "‌"  Δy -1039px (6175→5136)
+  PAIR         "Customer Service"  Δy -1039px (6214→5175)
+  PAIR         "Customer Service"  Δy -1039px (6215→5176)
+  PAIR         "‌"  Δy -1039px (6212→5173)
+  PAIR         "Others"  Δy -1040px (6249→5209)
+  PAIR         "‌"  Δy -1040px (6246→5206)
+  PAIR         "‌"  Δy -1040px (6326→5286)
+  PAIR         "Facebook"  Δy -1040px (6319→5279)
+  PAIR         "‌"  Δy -1040px (6326→5286)
+  PAIR         "Linkedin"  Δy -1040px (6319→5279)
+  PAIR         "twitter"  Δy -1040px (6319→5279)
+  PAIR         "‌"  Δy -1040px (6326→5286)
+  PAIR         "instagram"  Δy -1040px (6319→5279)
+  PAIR         "‌"  Δy -1040px (6326→5286)
+  PAIR         "youtube"  Δy -1040px (6319→5279)
+  PAIR         "Copyright 2026 RBL Bank Ltd."  Δy -1040px (6381→5341)
+
+✗ 34 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

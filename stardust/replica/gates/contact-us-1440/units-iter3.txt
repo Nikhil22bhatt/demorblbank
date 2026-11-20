@@ -1,0 +1,131 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://www.rbl.bank.in/contact-us vs http://localhost:8791/contact-us-proposed.html
+unit 1 of contact-cards (required) .contus .col-md-4 .cardCont=.contus .col-md-4 .cardCont: origin 162,343 348×310 vs served 162,344 348×310 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "raise a query" | 16,26 50×35 | 16,26 50×35 | 0 | 0 | 0 | 0 | ✓ |
+| heading "raise a query / request / complaint" | 16,26 316×52 | 16,26 316×52 | 0 | 0 | 0 | 0 | ✓ |
+| link "raise a query / request / complaint" | 66,27 226×50 | 66,27 226×50 | 0 | 0 | 0 | 0 | ✓ |
+| text "have questions or need assistance? o" | 66,76 266×106 | 66,76 266×106 | 0 | 0 | 0 | 0 | ✓ |
+| link "raise here" | 66,197 146×42 | 66,197 146×42 | 0 | 0 | 0 | 0 | ✓ |
+| image "raise a query here" | 272,234 60×60 | 272,234 60×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of contact-cards (required) .contus .col-md-4 .cardCont=.contus .col-md-4 .cardCont: origin 534,343 348×310 vs served 534,344 348×310 → Δx 0 Δy +1 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "customer care" | 16,26 50×35 | 16,26 50×35 | 0 | 0 | 0 | 0 | ✓ |
+| link "customer care" | 66,27 133×24 | 66,27 133×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "need assistance or support? we’re av" | 66,76 266×106 | 66,76 266×106 | 0 | 0 | 0 | 0 | ✓ |
+| link "get in touch" | 66,197 146×42 | 66,197 146×42 | 0 | 0 | 0 | 0 | ✓ |
+| image "get in touch" | 272,234 60×60 | 272,234 60×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of contact-cards (required) .contus .col-md-4 .cardCont=.contus .col-md-4 .cardCont: origin 906,343 348×310 vs served 906,344 348×310 → Δx 0 Δy +1 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "locate branches and atms" | 16,26 50×35 | 16,26 50×35 | 0 | 0 | 0 | 0 | ✓ |
+| link "locate us" | 66,27 89×24 | 66,27 89×24 | 0 | 0 | 0 | 0 | ✓ |
+| text "find the nearest branch or atm with " | 66,76 266×106 | 66,76 266×106 | 0 | 0 | 0 | 0 | ✓ |
+| link "find atm / branch" | 66,197 173×42 | 66,197 173×42 | 0 | 0 | 0 | 0 | ✓ |
+| image "find branches and atms" | 272,234 60×60 | 272,234 60×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1060 1092×72 vs served 162,1061 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3367#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "how can i find the nearest rbl bank " | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1140 1092×72 vs served 162,1141 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3368#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "how do i contact rbl bank for accoun" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1220 1092×72 vs served 162,1221 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3369#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "can i contact rbl bank for credit ca" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1300 1092×72 vs served 162,1300 1092×72 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3370#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "how do i submit feedback or complain" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1379 1092×72 vs served 162,1380 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3371#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "my rbl bank account was closed witho" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1459 1092×72 vs served 162,1460 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3372#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "what if rbl bank customer care is no" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1539 1092×72 vs served 162,1540 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3373#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "i am being harassed by rbl bank reco" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1619 1092×72 vs served 162,1620 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3374#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "how do i get my rbl bank loan statem" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of faq-rows (required) .faq-rbl-inner .card=.faq-list .faq-card: origin 162,1699 1092×72 vs served 162,1700 1092×72 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div#heading3375#1" | 1,1 1090×70 | 1,1 1090×70 | 0 | 0 | 0 | 0 | ✓ |
+| button "my rbl bank transaction failed but m" | 31,21 1040×30 | 31,21 1040×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of footer-link-columns (required) .site-footer__top section.region=.footer-cols .footer-col: origin 150,1909 228×417 vs served 150,1910 228×417 → Δx 0 Δy +1 Δw 0 Δh 0; 8 elements: 8 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "about" | 12,0 204×27 | 12,0 204×27 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.underline#1" | 12,25 20×2 | 12,25 20×2 | 0 | 0 | 0 | 0 | ✓ |
+| link "the bank" | 12,42 58×16 | 12,42 58×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "board of directors" | 12,79 113×16 | 12,79 113×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "leadership team" | 12,116 107×16 | 12,116 107×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "careers" | 12,152 48×16 | 12,152 48×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "social responsibility" | 12,189 128×16 | 12,189 128×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "sustainability framework" | 12,226 157×16 | 12,226 157×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-link-columns (required) .site-footer__top section.region=.footer-cols .footer-col: origin 378,1909 228×417 vs served 378,1910 228×417 → Δx 0 Δy +1 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "media center" | 12,0 204×27 | 12,0 204×27 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.underline#1" | 12,25 20×2 | 12,25 20×2 | 0 | 0 | 0 | 0 | ✓ |
+| link "press releases" | 12,42 95×16 | 12,42 95×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "media kit" | 12,79 59×16 | 12,79 59×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "investor relations" | 12,116 112×16 | 12,116 112×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of footer-link-columns (required) .site-footer__top section.region=.footer-cols .footer-col: origin 606,1909 228×417 vs served 606,1910 228×417 → Δx 0 Δy +1 Δw 0 Δh 0; 8 elements: 8 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "products" | 12,0 204×27 | 12,0 204×27 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.underline#1" | 12,25 20×2 | 12,25 20×2 | 0 | 0 | 0 | 0 | ✓ |
+| link "savings account" | 12,42 104×16 | 12,42 104×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "current account" | 12,79 101×16 | 12,79 101×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "credit cards" | 12,116 77×16 | 12,116 77×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "term deposits" | 12,152 91×16 | 12,152 91×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "housing loan" | 12,189 86×16 | 12,189 86×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "nri services" | 12,226 79×16 | 12,226 79×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of footer-link-columns (required) .site-footer__top section.region=.footer-cols .footer-col: origin 834,1909 228×417 vs served 834,1910 228×417 → Δx 0 Δy +1 Δw 0 Δh 0; 9 elements: 9 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "important links" | 12,0 204×27 | 12,0 204×27 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.underline#1" | 12,25 20×2 | 12,25 20×2 | 0 | 0 | 0 | 0 | ✓ |
+| link "regulatory disclosures" | 12,42 143×16 | 12,42 143×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "bank codes & policies" | 12,79 139×16 | 12,79 139×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "news" | 12,116 35×16 | 12,116 35×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "service charges & fees" | 12,152 146×16 | 12,152 146×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "interest rates" | 12,189 86×16 | 12,189 86×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "download forms" | 12,226 106×16 | 12,226 106×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "site map" | 12,263 55×16 | 12,263 55×16 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of footer-link-columns (required) .site-footer__top section.region=.footer-cols .footer-col: origin 1062,1909 228×417 vs served 1062,1910 228×417 → Δx 0 Δy +1 Δw 0 Δh 0; 12 elements: 12 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "customer service" | 12,0 204×27 | 12,0 204×27 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:span.underline#1" | 12,25 20×2 | 12,25 20×2 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 12,42 69×16 | 12,42 69×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "raise a query / request / complaint" | 12,74 204×32 | 12,74 204×32 | 0 | 0 | 0 | 0 | ✓ |
+| link "locate us" | 12,127 62×16 | 12,127 62×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "do not call registry" | 12,163 124×16 | 12,163 124×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "grievance redressal" | 12,200 127×16 | 12,200 127×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "feedback" | 12,237 60×16 | 12,237 60×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "lodge a complaint" | 12,274 117×16 | 12,274 117×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "report a fraud" | 12,311 91×16 | 12,311 91×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "unclaimed deposits" | 12,348 125×16 | 12,348 125×16 | 0 | 0 | 0 | 0 | ✓ |
+| link "certificates issued by the bank" | 12,385 192×16 | 12,385 192×16 | 0 | 0 | 0 | 0 | ✓ |
+Units: 17 compared; elements within 76, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/contact-us-1440/units-iter3.json

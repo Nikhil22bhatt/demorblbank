@@ -1,0 +1,16 @@
+{
+ "index": {
+  "verdict": "PASS",
+  "waives": [
+   "content"
+  ],
+  "reason": "content MISSING only for the hero slide-5 headings — h1 \"Pay your taxes seamlessly with RBL Bank. Direct tax, GST, Custom duty & more.\" and h2 \"Pay via: Internet Banking | Branch\" — present in the served hero-carousel but on a slide not showing at probe time: live and build carousels autoplay (restoreAtDelivery, owner decision 2026-11-19); no other content finding"
+ },
+ "business-banking": {
+  "verdict": "PASS",
+  "waives": [
+   "units"
+  ],
+  "reason": "units hidden 3 = the 3 rows of story-rail card 5 (index 4), which sits past the rail viewport at 1440 on live and build alike (identical rects, dx/dy/dw/dh 0); the per-page unit count is raised to 5 by the footer-link-columns group, while listing-story-cards declares n 4 (the visible cards, all within 0 px). Not a delivery defect: pixel 0.13%, dh 0, clip 0, content 0"
+ }
+}

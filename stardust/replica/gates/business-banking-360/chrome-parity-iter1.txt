@@ -1,0 +1,12 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.rbl.bank.in/business-banking
+  build: http://localhost:8791/business-banking-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+  OFFSET       the region and its 6 paired text(s) sit Δy -14px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+■ footer: ✓ parity — 27 paired of 27/27 texts, 1/1 icons
+  OFFSET       the region and its 27 paired text(s) sit Δy -7px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

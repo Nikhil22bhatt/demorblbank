@@ -1,0 +1,84 @@
+{
+ "years": [
+  "2026",
+  "2025",
+  "2024",
+  "2023",
+  "2022",
+  "2021",
+  "2020",
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015",
+  "2014",
+  "2013",
+  "2012"
+ ],
+ "active": "2026",
+ "awards": [
+  {
+   "img": "finnoviti.gif",
+   "t": "Finnoviti Award by Banking Frontiers",
+   "d": "CONFIRMATION SERVICE API"
+  },
+  {
+   "img": "finnoviti.gif",
+   "t": "Finnoviti Award by Banking Frontiers",
+   "d": "KAVACH <br>(Mule Hunter)"
+  },
+  {
+   "img": "finnoviti.gif",
+   "t": "Finnoviti Award by Banking Frontiers",
+   "d": "RInsights DATA ANALYTICS"
+  },
+  {
+   "img": "finacle-2026.png",
+   "t": "Infosys Finacle Innovation Awards 2026",
+   "d": "BUSINESS MODEL INNOVATION<br>(Gold Winner - Software Development Kit for Gift City)"
+  },
+  {
+   "img": "aaa-2026.jpg",
+   "t": "Asset Triple A Digital Awards 2026",
+   "d": "BEST CORE SYSTEM PROJECT<br>(iManage)"
+  },
+  {
+   "img": "aaa-2026.jpg",
+   "t": "Asset Triple A Digital Awards 2026",
+   "d": "BEST DATA ANALYTICS PROJECT<br>(RInsights)"
+  },
+  {
+   "img": "aaa-2026.jpg",
+   "t": "Asset Triple A Digital Awards 2026",
+   "d": "BEST FINANCIAL ARTIFICIAL INTELLIGENCE PROJECT<br>(Mule Hunter)"
+  },
+  {
+   "img": "iba-2026.jpg",
+   "t": "21st Banking Technology Awards 2026",
+   "d": "Al &amp; ML ADOPTION<br>(Winner)"
+  },
+  {
+   "img": "iba-2026.jpg",
+   "t": "21st Banking Technology Awards 2026",
+   "d": "TECH TALENT &amp; ORGANIZATION<br>(Winner)"
+  },
+  {
+   "img": "iba-2026.jpg",
+   "t": "21st Banking Technology Awards 2026",
+   "d": "DIGITAL SALES &amp; ENGAGEMENT<br>(Special Mention)"
+  }
+ ],
+ "advYears": [
+  "2023",
+  "2024",
+  "2022",
+  "2021",
+  "2020",
+  "2019",
+  "2018",
+  "2017",
+  "2016",
+  "2015"
+ ]
+}

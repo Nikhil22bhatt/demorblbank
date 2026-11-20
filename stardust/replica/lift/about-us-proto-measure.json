@@ -1,0 +1,1061 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-19T08:40:25.510Z",
+    "urls": [
+      "http://localhost:8791/about-us-proposed.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".au-banner",
+      ".au-banner__card",
+      ".au-banner h1",
+      ".au-about",
+      ".au-tabs--page",
+      ".au-about__pane",
+      ".au-heading",
+      ".au-about__figure",
+      ".au-impact",
+      ".au-impact__card",
+      ".au-impact__date",
+      ".au-awards",
+      ".au-awards .au-tabs",
+      ".au-years",
+      ".au-years__item input",
+      ".au-years__item span",
+      ".au-years__btn--next",
+      ".au-awards__grid",
+      ".au-award__card",
+      ".au-award__body",
+      ".au-values",
+      ".au-vision__card",
+      ".au-mission__card",
+      ".au-split",
+      ".au-split__img",
+      ".au-split__title",
+      ".au-btn-outline",
+      ".site-footer"
+    ],
+    "props": [
+      "display"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".au-banner",
+    ".au-banner__card",
+    ".au-banner h1",
+    ".au-about",
+    ".au-tabs--page",
+    ".au-about__pane",
+    ".au-heading",
+    ".au-about__figure",
+    ".au-impact",
+    ".au-impact__card",
+    ".au-impact__date",
+    ".au-awards",
+    ".au-awards .au-tabs",
+    ".au-years",
+    ".au-years__item input",
+    ".au-years__item span",
+    ".au-years__btn--next",
+    ".au-awards__grid",
+    ".au-award__card",
+    ".au-award__body",
+    ".au-values",
+    ".au-vision__card",
+    ".au-mission__card",
+    ".au-split",
+    ".au-split__img",
+    ".au-split__title",
+    ".au-btn-outline",
+    ".site-footer"
+  ],
+  "root": {
+    "http://localhost:8791/about-us-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 10571,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 6127,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "http://localhost:8791/about-us-proposed.html": {
+      "360": {
+        ".au-banner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 113,
+              "w": 360,
+              "h": 550
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-banner__card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 313,
+              "w": 360,
+              "h": 350
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-banner h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 328,
+              "w": 320,
+              "h": 82
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-about": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 663,
+              "w": 360,
+              "h": 1686
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-tabs--page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 668,
+              "w": 336,
+              "h": 48
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-about__pane": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 745,
+              "w": 336,
+              "h": 1558
+            },
+            "visible": true,
+            "text": "About RBL Bank RBL Bank, a subsidiary o…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-heading": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 12,
+              "y": 765,
+              "w": 336,
+              "h": 36
+            },
+            "visible": true,
+            "text": "About RBL Bank",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-about__figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 1784,
+              "w": 336,
+              "h": 520
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-impact": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2309,
+              "w": 360,
+              "h": 612
+            },
+            "visible": true,
+            "text": "15 Million Customers 628 Branches 1078 …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-impact__card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 2354,
+              "w": 336,
+              "h": 109
+            },
+            "visible": true,
+            "text": "15 Million Customers",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-impact__date": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": -25,
+              "y": 2874,
+              "w": 360,
+              "h": 22
+            },
+            "visible": true,
+            "text": "As updated on September 30, 2026",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2921,
+              "w": 360,
+              "h": 3672
+            },
+            "visible": true,
+            "text": "Awards & Recognition 2026 2025 2024 202…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards .au-tabs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 2966,
+              "w": 336,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-years": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 3044,
+              "w": 336,
+              "h": 70
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__item input": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 98,
+              "y": 3055,
+              "w": 16,
+              "h": 16
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__item span": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 81,
+              "y": 3082,
+              "w": 50,
+              "h": 35
+            },
+            "visible": true,
+            "text": "2026",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__btn--next": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 303,
+              "y": 3044,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards__grid": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3146,
+              "w": 360,
+              "h": 3447
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-award__card": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 12,
+              "y": 3146,
+              "w": 336,
+              "h": 305
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-award__body": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 13,
+              "y": 3332,
+              "w": 334,
+              "h": 103
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-values": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6593,
+              "w": 360,
+              "h": 3501
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-vision__card": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 12,
+              "y": 6659,
+              "w": 336,
+              "h": 212
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-mission__card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 12,
+              "y": 7489,
+              "w": 336,
+              "h": 270
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 8699,
+              "w": 336,
+              "h": 649
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split__img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 8699,
+              "w": 336,
+              "h": 278
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split__title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 8997,
+              "w": 336,
+              "h": 36
+            },
+            "visible": true,
+            "text": "CSR Activities",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-btn-outline": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 12,
+              "y": 9278,
+              "w": 157,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 10094,
+              "w": 360,
+              "h": 477
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ FOOTER SECOND Medi…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".au-banner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 183,
+              "w": 1440,
+              "h": 400
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-banner__card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 553,
+              "y": 218,
+              "w": 750,
+              "h": 330
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’ Founded …",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-banner h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 583,
+              "y": 238,
+              "w": 690,
+              "h": 58
+            },
+            "visible": true,
+            "text": "A Bank You Can Call Your ‘Own’",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-about": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 583,
+              "w": 1440,
+              "h": 892
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-tabs--page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 152,
+              "y": 588,
+              "w": 1126,
+              "h": 70
+            },
+            "visible": true,
+            "text": "About Us Board of Directors Leadership …",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-about__pane": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 688,
+              "w": 1116,
+              "h": 742
+            },
+            "visible": true,
+            "text": "About RBL Bank RBL Bank, a subsidiary o…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-heading": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 162,
+              "y": 688,
+              "w": 546,
+              "h": 44
+            },
+            "visible": true,
+            "text": "About RBL Bank",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-about__figure": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 798,
+              "y": 688,
+              "w": 480,
+              "h": 742
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-impact": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1475,
+              "w": 1440,
+              "h": 347
+            },
+            "visible": true,
+            "text": "15 Million Customers 628 Branches 1078 …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-impact__card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 1520,
+              "w": 261,
+              "h": 235
+            },
+            "visible": true,
+            "text": "15 Million Customers",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-impact__date": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 150,
+              "y": 1780,
+              "w": 1140,
+              "h": 22
+            },
+            "visible": true,
+            "text": "As updated on September 30, 2026",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1822,
+              "w": 1440,
+              "h": 1483
+            },
+            "visible": true,
+            "text": "Awards & Recognition 2026 2025 2024 202…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards .au-tabs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 1867,
+              "w": 1116,
+              "h": 70
+            },
+            "visible": true,
+            "text": "Awards & Recognition",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-years": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 1967,
+              "w": 1116,
+              "h": 101
+            },
+            "visible": true,
+            "text": "2026 2025 2024 2023 2022 2021 2020 2019…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__item input": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 260,
+              "y": 1977,
+              "w": 16,
+              "h": 16
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__item span": [
+          {
+            "index": 0,
+            "of": 15,
+            "rect": {
+              "x": 232,
+              "y": 2003,
+              "w": 72,
+              "h": 35
+            },
+            "visible": true,
+            "text": "2026",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-years__btn--next": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1233,
+              "y": 1967,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-awards__grid": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 150,
+              "y": 2100,
+              "w": 1140,
+              "h": 1205
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-award__card": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 162,
+              "y": 2100,
+              "w": 261,
+              "h": 377
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "flex"
+            }
+          }
+        ],
+        ".au-award__body": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 163,
+              "y": 2326,
+              "w": 259,
+              "h": 135
+            },
+            "visible": true,
+            "text": "Finnoviti Award by Banking Frontiers CO…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-values": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3305,
+              "w": 1440,
+              "h": 2003
+            },
+            "visible": true,
+            "text": "Our Vision Bank of Choice To be a 'Bank…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-vision__card": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 162,
+              "y": 3379,
+              "w": 356,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Bank of Choice To be a 'Bank of Choice'…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-mission__card": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 162,
+              "y": 3783,
+              "w": 534,
+              "h": 310
+            },
+            "visible": true,
+            "text": "CUSTOMERS AT THE HEART To engage and un…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 4493,
+              "w": 1116,
+              "h": 355
+            },
+            "visible": true,
+            "text": "CSR Activities At RBL Bank, we have alw…",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split__img": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 162,
+              "y": 4493,
+              "w": 440,
+              "h": 355
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-split__title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 732,
+              "y": 4532,
+              "w": 546,
+              "h": 44
+            },
+            "visible": true,
+            "text": "CSR Activities",
+            "props": {
+              "display": "block"
+            }
+          }
+        ],
+        ".au-btn-outline": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 732,
+              "y": 4740,
+              "w": 157,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block"
+            }
+          }
+        ],
+        ".site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5308,
+              "w": 1440,
+              "h": 819
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ The Bank Board of …",
+            "props": {
+              "display": "block"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

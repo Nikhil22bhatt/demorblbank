@@ -1,0 +1,14 @@
+# Published-origin gate — all deployed pages, 1440px
+
+2026-11-19T11:56:17.294Z · **3 PASS / 2 FAIL / 0 error of 5** (+2 documented overrides → 5 delivered)
+
+Verdict: pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0
+
+Calibration — pixel-only verdict (criteria 1+2): **5 PASS**; full verdict (1–4): **3 PASS**. Failing by criterion: pixel 0, height 0, clip 0, content 1, units 1; content n/a (origin not probed) 0; pixel criterion met only thanks to alignment (unaligned % over the threshold): 0.
+| page | template | tier | origin | browser | pixel % aligned (unaligned) [text] | offsets | Δh px | clipped | content | units | verdict | reasons |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| `/personal-banking` | listing | - | stitch-live | chrome | 0.19 [1.17] | - | 0 | 0 | MISSING 0 / HIDDEN 0 | off 0 hidden 0 missing 0 | PASS | - |
+| `/contact-us` | contact-us | - | stitch-live | chrome | 0.2 (0.39) [0.38] | 1 step(s), 1px (bound 26) | 1 | 0 | MISSING 0 / HIDDEN 0 | off 0 hidden 0 missing 0 | PASS (masked 212 rows: self-varying rows of the frozen reference (noise floor 0.13%)) | - |
+| `/about-us` | about-us | - | stitch-live | chrome | 0.16 (2.24) [9.95] | 3 step(s), 3px (bound 61) | 3 | 0 | MISSING 0 / HIDDEN 0 | off 0 hidden 0 missing 0 | PASS (masked 72 rows: self-varying rows of the frozen reference (noise floor 0.01%)) | - |
+| `/business-banking` | business-banking | - | stitch-live | chrome | 0.13 [1.26] | - | 0 | 0 | MISSING 0 / HIDDEN 0 | off 0 hidden 3 missing 0 | FAIL (elements) (masked 232 rows: self-varying rows of the frozen reference (noise floor 0.08%)) → PASS: units hidden 3 = the 3 rows of story-rail card 5 (index 4), which sits past the rail viewport at 1440 on live and build alike (identical rects, dx/dy/dw/dh 0); the per-page unit count is raised to 5 by the footer-link-columns group, while listing-story-cards declares n 4 (the visible cards, all within 0 px). Not a delivery defect: pixel 0.13%, dh 0, clip 0, content 0 | units off 0 hidden 3 missing 0 |
+| `/` | index | - | stitch-live | chrome | 0.43 (0.48) [0.57] | 2 step(s), 2px (bound 53) | 0 | 0 | MISSING 2 / HIDDEN 0 | - | FAIL (elements) (masked 1419 rows: live carousel mid-rotation in the frozen origin (hero / promo / app-banner slide areas); restoreAtDelivery autoplay on the build; self-varying rows of the frozen reference (noise floor 7.31%)) → PASS: content MISSING only for the hero slide-5 headings — h1 "Pay your taxes seamlessly with RBL Bank. Direct tax, GST, Custom duty & more." and h2 "Pay via: Internet Banking | Branch" — present in the served hero-carousel but on a slide not showing at probe time: live and build carousels autoplay (restoreAtDelivery, owner decision 2026-11-19); no other content finding | content MISSING 2 / HIDDEN 0 |

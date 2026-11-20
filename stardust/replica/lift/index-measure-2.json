@@ -1,0 +1,4971 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-19T08:55:02.659Z",
+    "urls": [
+      "https://www.rbl.bank.in/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "#content",
+      "#data-section2",
+      "#data-section4",
+      "#data-section6",
+      "#data-section7",
+      "#data-related-blog1",
+      "#data-related-blog",
+      "footer.site-footer",
+      "#hp-rates-fd-view-rates",
+      "#hp-fd-calculator-existing-customer",
+      "#hp-fd-calculator-new-customer",
+      "#hp-our-products-know-dsa",
+      "#hp-our-products-apply-dsa",
+      "#hp-offers-explore-more",
+      "#hp-blog-read-more",
+      "#hp-video-watch-all",
+      "#hp-video-1",
+      "#hp-offers-arrow-first",
+      "#hp-blog-rbl-bank-protect-passwords",
+      "#hp-iocl-cc-banner-slot",
+      "#hp-chatbot-banner-know-more"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": [
+      "http://localhost:8791/index-proposed.html @360: horizontal overflow +39px (scrollWidth 399 > viewport 360)"
+    ]
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "#content",
+    "#data-section2",
+    "#data-section4",
+    "#data-section6",
+    "#data-section7",
+    "#data-related-blog1",
+    "#data-related-blog",
+    "footer.site-footer",
+    "#hp-rates-fd-view-rates",
+    "#hp-fd-calculator-existing-customer",
+    "#hp-fd-calculator-new-customer",
+    "#hp-our-products-know-dsa",
+    "#hp-our-products-apply-dsa",
+    "#hp-offers-explore-more",
+    "#hp-blog-read-more",
+    "#hp-video-watch-all",
+    "#hp-video-1",
+    "#hp-offers-arrow-first",
+    "#hp-blog-rbl-bank-protect-passwords",
+    "#hp-iocl-cc-banner-slot",
+    "#hp-chatbot-banner-know-more"
+  ],
+  "root": {
+    "https://www.rbl.bank.in/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 6913,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 5427,
+        "overflowX": 0
+      }
+    },
+    "http://localhost:8791/index-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 399,
+        "scrollHeight": 2821,
+        "overflowX": 39
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 2816,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.rbl.bank.in/": {
+      "360": {
+        "#content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 413,
+              "w": 360,
+              "h": 5389
+            },
+            "visible": true,
+            "text": "Pay your taxes seamlessly with RBL Bank…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "5389.33px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 808,
+              "w": 360,
+              "h": 504
+            },
+            "visible": true,
+            "text": "Attractive Rates Fixed Deposits 7.00%* …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "504.453px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1707,
+              "w": 360,
+              "h": 1361
+            },
+            "visible": true,
+            "text": "Fixed Deposit Calculator Normal Tax sav…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1360.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "21px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section6": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3603,
+              "w": 360,
+              "h": 544
+            },
+            "visible": true,
+            "text": "Our Products Digital Savings Account - …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "544.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4147,
+              "w": 360,
+              "h": 529
+            },
+            "visible": true,
+            "text": "Offers and Deals Debit Card FESTIVE OFF…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "529.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4676,
+              "w": 360,
+              "h": 559
+            },
+            "visible": true,
+            "text": "Money, People & Safety Nov 04, 2026 How…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "559.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5236,
+              "w": 360,
+              "h": 566
+            },
+            "visible": true,
+            "text": "Trust & Beyond Watch All",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "566.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer.site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5802,
+              "w": 360,
+              "h": 1110
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ FOOTER SECOND Medi…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1110.36px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-rates-fd-view-rates": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 1031,
+              "w": 156,
+              "h": 27
+            },
+            "visible": true,
+            "text": "View Rates",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "156px",
+              "height": "26.875px",
+              "maxWidth": "none",
+              "margin": "5px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-existing-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 27,
+              "y": 2920,
+              "w": 146,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Existing Customer",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "39.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-new-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 195,
+              "y": 2920,
+              "w": 146,
+              "h": 40
+            },
+            "visible": true,
+            "text": "New Customer",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "39.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-know-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 32,
+              "y": 4009,
+              "w": 120,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Know More",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "120px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px 30px 0px 0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(243, 244, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-apply-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 182,
+              "y": 4009,
+              "w": 119,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Open Now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "119px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-offers-explore-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 105,
+              "y": 4583,
+              "w": 149,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "149.016px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-blog-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 107,
+              "y": 5143,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "View All",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-watch-all": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 107,
+              "y": 5724,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Watch All",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 5347,
+              "w": 253,
+              "h": 295
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "253px",
+              "height": "294.938px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(204, 204, 204)",
+              "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 383,
+              "naturalHeight": 447,
+              "currentSrc": "https://webassets.rbl.bank.in/document/images/hp-video/chess-one-right-move.webp"
+            }
+          }
+        ],
+        "#hp-offers-arrow-first": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 185,
+              "y": 4467,
+              "w": 60,
+              "h": 60
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "60px",
+              "height": "60px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 70,
+              "naturalHeight": 70,
+              "currentSrc": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/next-btn.svg"
+            }
+          }
+        ],
+        "#hp-blog-rbl-bank-protect-passwords": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 32,
+              "y": 5010,
+              "w": 196,
+              "h": 44
+            },
+            "visible": true,
+            "text": "How to Protect Your Device from APK Fra…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "23.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-iocl-cc-banner-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 107,
+              "y": 1534,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Apply Now",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-chatbot-banner-know-more": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 3113,
+              "w": 0,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 248,
+              "w": 1440,
+              "h": 4345
+            },
+            "visible": true,
+            "text": "Pay your taxes seamlessly with RBL Bank…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "4345.06px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 643,
+              "w": 1440,
+              "h": 282
+            },
+            "visible": true,
+            "text": "Attractive Rates Fixed Deposits 7.00%* …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "282.469px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1320,
+              "w": 1440,
+              "h": 670
+            },
+            "visible": true,
+            "text": "Fixed Deposit Calculator Normal Tax sav…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "670.156px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section6": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2359,
+              "w": 1440,
+              "h": 552
+            },
+            "visible": true,
+            "text": "Our Products Digital Savings Account - …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "552.203px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2911,
+              "w": 1440,
+              "h": 592
+            },
+            "visible": true,
+            "text": "Offers and Deals Debit Card FESTIVE OFF…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "592.203px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3504,
+              "w": 1440,
+              "h": 567
+            },
+            "visible": true,
+            "text": "Money, People & Safety Nov 04, 2026 How…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "567.203px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4071,
+              "w": 1440,
+              "h": 522
+            },
+            "visible": true,
+            "text": "Trust & Beyond Watch All",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "522.203px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer.site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4593,
+              "w": 1440,
+              "h": 834
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ The Bank Board of …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "834.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-rates-fd-view-rates": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 853,
+              "w": 204,
+              "h": 27
+            },
+            "visible": true,
+            "text": "View Rates",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "204px",
+              "height": "26.875px",
+              "maxWidth": "none",
+              "margin": "5px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-existing-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 932,
+              "y": 1861,
+              "w": 158,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Existing Customer",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "158px",
+              "height": "39.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-new-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1110,
+              "y": 1861,
+              "w": 158,
+              "h": 40
+            },
+            "visible": true,
+            "text": "New Customer",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "158px",
+              "height": "39.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-know-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 197,
+              "y": 2773,
+              "w": 119,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Know More",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "119px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px 30px 0px 0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(243, 244, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-apply-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 346,
+              "y": 2773,
+              "w": 119,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Open Now",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "119px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-offers-explore-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 645,
+              "y": 3411,
+              "w": 149,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "149.016px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-blog-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 647,
+              "y": 3978,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "View All",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-watch-all": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 647,
+              "y": 4515,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Watch All",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(255, 255, 255, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 167,
+              "y": 4190,
+              "w": 252,
+              "h": 294
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "252px",
+              "height": "293.766px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(204, 204, 204)",
+              "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 383,
+              "naturalHeight": 447,
+              "currentSrc": "https://webassets.rbl.bank.in/document/images/hp-video/chess-one-right-move.webp"
+            }
+          }
+        ],
+        "#hp-offers-arrow-first": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 432,
+              "y": 3295,
+              "w": 60,
+              "h": 60
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "60px",
+              "height": "60px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(255, 255, 255, 0)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgba(255, 255, 255, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 70,
+              "naturalHeight": 70,
+              "currentSrc": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/next-btn.svg"
+            }
+          }
+        ],
+        "#hp-blog-rbl-bank-protect-passwords": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 187,
+              "y": 3845,
+              "w": 196,
+              "h": 44
+            },
+            "visible": true,
+            "text": "How to Protect Your Device from APK Fra…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "23.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-iocl-cc-banner-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 756,
+              "y": 1156,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Apply Now",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-chatbot-banner-know-more": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 1990,
+              "w": 0,
+              "h": 0
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/index-proposed.html": {
+      "360": {
+        "#content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 248,
+              "w": 360,
+              "h": 2096
+            },
+            "visible": true,
+            "text": "Apply for NRI Account Apply for Savings…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "2095.72px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 643,
+              "w": 360,
+              "h": 343
+            },
+            "visible": true,
+            "text": "Attractive Rates Fixed Deposits 7.00%* …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "342.938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1381,
+              "w": 360,
+              "h": 963
+            },
+            "visible": true,
+            "text": "Fixed Deposit Calculator Normal Tax sav…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "962.781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section6": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Our Products Digital Savings Account - …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Offers and Deals Debit CardFestive Offe…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Money, People & Safety Nov 04, 2026How …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Trust & Beyond Watch All ×",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer.site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2344,
+              "w": 360,
+              "h": 477
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ FOOTER SECOND Medi…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "476.797px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-rates-fd-view-rates": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 887,
+              "w": 48,
+              "h": 54
+            },
+            "visible": true,
+            "text": "View Rates",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "48px",
+              "height": "53.75px",
+              "maxWidth": "none",
+              "margin": "5px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-existing-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 776,
+              "y": 2190,
+              "w": 12,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Existing Customer",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "12px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-new-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 776,
+              "y": 2190,
+              "w": 12,
+              "h": 40
+            },
+            "visible": true,
+            "text": "New Customer",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "12px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-know-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Know More",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(243, 244, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-apply-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Open Now",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 30px",
+              "padding": "0px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-offers-explore-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-blog-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "View All",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-watch-all": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Watch All",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "120px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(204, 204, 204)",
+              "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "http://localhost:8791/assets/index/chess-one-right-move.webp"
+            }
+          }
+        ],
+        "#hp-offers-arrow-first": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "60px",
+              "height": "auto",
+              "maxWidth": "120px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 70,
+              "naturalHeight": 70,
+              "currentSrc": "http://localhost:8791/assets/index/next-btn.svg"
+            }
+          }
+        ],
+        "#hp-blog-rbl-bank-protect-passwords": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "How to Protect Your Device from APK Fra…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "23.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-iocl-cc-banner-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 12,
+              "y": 1419,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Apply Now",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-chatbot-banner-know-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 248,
+              "w": 1440,
+              "h": 1749
+            },
+            "visible": true,
+            "text": "Apply for NRI Account Apply for Savings…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "1749.17px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 643,
+              "w": 1440,
+              "h": 282
+            },
+            "visible": true,
+            "text": "Attractive Rates Fixed Deposits 7.00%* …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "282.469px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%)",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section4": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1320,
+              "w": 1440,
+              "h": 677
+            },
+            "visible": true,
+            "text": "Fixed Deposit Calculator Normal Tax sav…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "676.703px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section6": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Our Products Digital Savings Account - …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-section7": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Offers and Deals Debit CardFestive Offe…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Money, People & Safety Nov 04, 2026How …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(244, 245, 252)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#data-related-blog": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Trust & Beyond Watch All ×",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "45px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer.site-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1997,
+              "w": 1440,
+              "h": 819
+            },
+            "visible": true,
+            "text": "FOOTER FIRST About ‌ The Bank Board of …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "819.047px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-rates-fd-view-rates": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 162,
+              "y": 854,
+              "w": 204,
+              "h": 27
+            },
+            "visible": true,
+            "text": "View Rates",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "204px",
+              "height": "26.875px",
+              "maxWidth": "none",
+              "margin": "5px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-existing-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 932,
+              "y": 1870,
+              "w": 158,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Existing Customer",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "158px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-fd-calculator-new-customer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1110,
+              "y": 1870,
+              "w": 158,
+              "h": 40
+            },
+            "visible": true,
+            "text": "New Customer",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "158px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 5px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "700",
+              "lineHeight": "19.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-know-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Know More",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(243, 244, 246)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-our-products-apply-dsa": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Open Now",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 30px",
+              "padding": "0px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-offers-explore-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Explore More",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-blog-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "View All",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-watch-all": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Watch All",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 48, 48)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-video-1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "120px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 48, 48)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(204, 204, 204)",
+              "boxShadow": "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "http://localhost:8791/assets/index/chess-one-right-move.webp"
+            }
+          }
+        ],
+        "#hp-offers-arrow-first": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "60px",
+              "height": "auto",
+              "maxWidth": "120px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 70,
+              "naturalHeight": 70,
+              "currentSrc": "http://localhost:8791/assets/index/next-btn.svg"
+            }
+          }
+        ],
+        "#hp-blog-rbl-bank-protect-passwords": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "How to Protect Your Device from APK Fra…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "23.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-iocl-cc-banner-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 756,
+              "y": 1156,
+              "w": 146,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Apply Now",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "146px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(48, 64, 135)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "4px",
+              "border": "1px solid rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#hp-chatbot-banner-know-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(48, 64, 135)",
+              "fontFamily": "Roboto, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "22.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(48, 64, 135)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      "#content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -165,
+              "dw": 0,
+              "dh": -3293
+            },
+            "props": {
+              "height": [
+                "5389.33px",
+                "2095.72px"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section2": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -165,
+              "dw": 0,
+              "dh": -161
+            },
+            "props": {
+              "height": [
+                "504.453px",
+                "342.938px"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section4": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -326,
+              "dw": 0,
+              "dh": -398
+            },
+            "props": {
+              "height": [
+                "1360.5px",
+                "962.781px"
+              ],
+              "padding": [
+                "21px 0px 0px",
+                "45px 0px 0px"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section6": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -3603,
+              "dw": -360,
+              "dh": -544
+            },
+            "props": {
+              "width": [
+                "360px",
+                "auto"
+              ],
+              "height": [
+                "544.406px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section7": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -4147,
+              "dw": -360,
+              "dh": -529
+            },
+            "props": {
+              "width": [
+                "360px",
+                "auto"
+              ],
+              "height": [
+                "529.406px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-related-blog1": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -4676,
+              "dw": -360,
+              "dh": -559
+            },
+            "props": {
+              "width": [
+                "360px",
+                "auto"
+              ],
+              "height": [
+                "559.406px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-related-blog": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -5236,
+              "dw": -360,
+              "dh": -566
+            },
+            "props": {
+              "width": [
+                "360px",
+                "auto"
+              ],
+              "height": [
+                "566.406px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "footer.site-footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -3458,
+              "dw": 0,
+              "dh": -633
+            },
+            "props": {
+              "height": [
+                "1110.36px",
+                "476.797px"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-rates-fd-view-rates": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -144,
+              "dw": -108,
+              "dh": 27
+            },
+            "props": {
+              "width": [
+                "156px",
+                "48px"
+              ],
+              "height": [
+                "26.875px",
+                "53.75px"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-fd-calculator-existing-customer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 749,
+              "dy": -730,
+              "dw": -134,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "146px",
+                "12px"
+              ],
+              "height": [
+                "39.5px",
+                "40px"
+              ],
+              "padding": [
+                "10px 5px",
+                "0px 5px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-fd-calculator-new-customer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 581,
+              "dy": -730,
+              "dw": -134,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "146px",
+                "12px"
+              ],
+              "height": [
+                "39.5px",
+                "40px"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 5px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-our-products-know-dsa": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -32,
+              "dy": -4009,
+              "dw": -120,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "120px",
+                "auto"
+              ],
+              "margin": [
+                "0px 30px 0px 0px",
+                "0px"
+              ],
+              "padding": [
+                "10px",
+                "0px 10px"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-our-products-apply-dsa": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -182,
+              "dy": -4009,
+              "dw": -119,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "119px",
+                "auto"
+              ],
+              "margin": [
+                "0px",
+                "0px 0px 0px 30px"
+              ],
+              "padding": [
+                "10px",
+                "0px 10px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-offers-explore-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -105,
+              "dy": -4583,
+              "dw": -149,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "149.016px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-blog-read-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -107,
+              "dy": -5143,
+              "dw": -146,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "146px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-video-watch-all": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -107,
+              "dy": -5724,
+              "dw": -146,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "146px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-video-1": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -12,
+              "dy": -5347,
+              "dw": -253,
+              "dh": -295
+            },
+            "props": {
+              "width": [
+                "253px",
+                "100%"
+              ],
+              "height": [
+                "294.938px",
+                "auto"
+              ],
+              "maxWidth": [
+                "100%",
+                "120px"
+              ],
+              "color": [
+                "rgba(255, 255, 255, 0)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "textAlign": [
+                "start",
+                "center"
+              ],
+              "boxShadow": [
+                "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+                "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0px"
+              ]
+            },
+            "img": {
+              "naturalWidth": [
+                383,
+                0
+              ],
+              "naturalHeight": [
+                447,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-offers-arrow-first": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -185,
+              "dy": -4467,
+              "dw": -60,
+              "dh": -60
+            },
+            "props": {
+              "height": [
+                "60px",
+                "auto"
+              ],
+              "maxWidth": [
+                "100%",
+                "120px"
+              ],
+              "color": [
+                "rgba(255, 255, 255, 0)",
+                "rgb(48, 64, 135)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgba(255, 255, 255, 0)",
+                "0px none rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-blog-rbl-bank-protect-passwords": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -32,
+              "dy": -5010,
+              "dw": -196,
+              "dh": -44
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#hp-iocl-cc-banner-slot": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -95,
+              "dy": -115,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-chatbot-banner-know-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -3113,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline",
+                "block"
+              ],
+              "height": [
+                "auto",
+                "100%"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "1440": {
+      "#content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": -2596
+            },
+            "props": {
+              "height": [
+                "4345.06px",
+                "1749.17px"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section2": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#data-section4": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 7
+            },
+            "props": {
+              "height": [
+                "670.156px",
+                "676.703px"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section6": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -2359,
+              "dw": -1440,
+              "dh": -552
+            },
+            "props": {
+              "width": [
+                "1440px",
+                "auto"
+              ],
+              "height": [
+                "552.203px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-section7": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -2911,
+              "dw": -1440,
+              "dh": -592
+            },
+            "props": {
+              "width": [
+                "1440px",
+                "auto"
+              ],
+              "height": [
+                "592.203px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-related-blog1": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -3504,
+              "dw": -1440,
+              "dh": -567
+            },
+            "props": {
+              "width": [
+                "1440px",
+                "auto"
+              ],
+              "height": [
+                "567.203px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "#data-related-blog": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -4071,
+              "dw": -1440,
+              "dh": -522
+            },
+            "props": {
+              "width": [
+                "1440px",
+                "auto"
+              ],
+              "height": [
+                "522.203px",
+                "auto"
+              ],
+              "color": [
+                "rgb(33, 37, 41)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgb(33, 37, 41)",
+                "0px none rgb(48, 48, 48)"
+              ]
+            }
+          }
+        ]
+      },
+      "footer.site-footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -2596,
+              "dw": 0,
+              "dh": -15
+            },
+            "props": {
+              "height": [
+                "834.109px",
+                "819.047px"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-rates-fd-view-rates": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#hp-fd-calculator-existing-customer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 9,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "height": [
+                "39.5px",
+                "40px"
+              ],
+              "padding": [
+                "10px 5px",
+                "0px 5px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-fd-calculator-new-customer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 9,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "height": [
+                "39.5px",
+                "40px"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 5px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-our-products-know-dsa": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -197,
+              "dy": -2773,
+              "dw": -119,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "119px",
+                "auto"
+              ],
+              "margin": [
+                "0px 30px 0px 0px",
+                "0px"
+              ],
+              "padding": [
+                "10px",
+                "0px 10px"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-our-products-apply-dsa": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -346,
+              "dy": -2773,
+              "dw": -119,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "block",
+                "flex"
+              ],
+              "width": [
+                "119px",
+                "auto"
+              ],
+              "margin": [
+                "0px",
+                "0px 0px 0px 30px"
+              ],
+              "padding": [
+                "10px",
+                "0px 10px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-offers-explore-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -645,
+              "dy": -3411,
+              "dw": -149,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "149.016px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-blog-read-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -647,
+              "dy": -3978,
+              "dw": -146,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "146px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-video-watch-all": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -647,
+              "dy": -4515,
+              "dw": -146,
+              "dh": -48
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "width": [
+                "146px",
+                "auto"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "backgroundColor": [
+                "rgba(255, 255, 255, 0)",
+                "rgba(0, 0, 0, 0)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-video-1": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -167,
+              "dy": -4190,
+              "dw": -252,
+              "dh": -294
+            },
+            "props": {
+              "width": [
+                "252px",
+                "100%"
+              ],
+              "height": [
+                "293.766px",
+                "auto"
+              ],
+              "maxWidth": [
+                "100%",
+                "120px"
+              ],
+              "color": [
+                "rgba(255, 255, 255, 0)",
+                "rgb(48, 48, 48)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "textAlign": [
+                "start",
+                "center"
+              ],
+              "boxShadow": [
+                "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset",
+                "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0px"
+              ]
+            },
+            "img": {
+              "naturalWidth": [
+                383,
+                0
+              ],
+              "naturalHeight": [
+                447,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-offers-arrow-first": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -432,
+              "dy": -3295,
+              "dw": -60,
+              "dh": -60
+            },
+            "props": {
+              "height": [
+                "60px",
+                "auto"
+              ],
+              "maxWidth": [
+                "100%",
+                "120px"
+              ],
+              "color": [
+                "rgba(255, 255, 255, 0)",
+                "rgb(48, 64, 135)"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ],
+              "border": [
+                "0px none rgba(255, 255, 255, 0)",
+                "0px none rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-blog-rbl-bank-protect-passwords": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -187,
+              "dy": -3845,
+              "dw": -196,
+              "dh": -44
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#hp-iocl-cc-banner-slot": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline-block",
+                "inline-flex"
+              ],
+              "padding": [
+                "10px 20px",
+                "0px 20px"
+              ],
+              "border": [
+                "0px none rgb(255, 255, 255)",
+                "1px solid rgb(48, 64, 135)"
+              ]
+            }
+          }
+        ]
+      },
+      "#hp-chatbot-banner-know-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -1990,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline",
+                "block"
+              ],
+              "height": [
+                "auto",
+                "100%"
+              ],
+              "fontSize": [
+                "16px",
+                "14px"
+              ],
+              "lineHeight": [
+                "26.88px",
+                "22.4px"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": 39,
+      "scrollHeight": -4092
+    },
+    "1440": {
+      "scrollWidth": 0,
+      "scrollHeight": -2611
+    }
+  }
+}

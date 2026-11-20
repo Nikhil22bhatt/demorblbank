@@ -1,0 +1,64 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 689 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/contact-us
+  build: http://localhost:8791/contact-us-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: 54 delta(s) — 62 paired of 78/67 texts, 2/6 icons
+  REGION STYLE backgroundColor rgb(0, 0, 0) → rgb(34, 34, 34)
+  PAIR         "Footer First"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Second"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Third"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Footer Fourth"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Customer Service"  fontSize 16px → 24px; fontWeight 400 → 500; lineHeight 20.8px → 31.2px; textTransform uppercase → none; color rgba(255, 255, 255, 0.65) → rgb(33, 37, 41)
+  PAIR         "Others"  letterSpacing 0.2px → normal
+  PAIR         "Trade & Forex Services"  letterSpacing 0.2px → normal; Δw -5px (190→185); Δh -2px (18→16)
+  PAIR         "QIP 2019"  letterSpacing 0.2px → normal; Δx -5px (463→458); Δw -2px (59→57)
+  PAIR         "Important Documents"  letterSpacing 0.2px → normal; Δx -7px (538→531); Δw -4px (140→136)
+  PAIR         "Account Aggregator"  letterSpacing 0.2px → normal; Δx -10px (694→684); Δw -3px (128→125)
+  PAIR         "Terms & Conditions"  letterSpacing 0.2px → normal; Δx -13px (838→825); Δw -4px (126→122)
+  PAIR         "Banking Ombudsman"  letterSpacing 0.2px → normal; Δx -17px (980→963); Δw -3px (137→134)
+  PAIR         "Customer Knowledge Center"  letterSpacing 0.2px → normal; Δw -5px (183→178)
+  PAIR         "Financial Literacy"  letterSpacing 0.2px → normal; Δx -5px (456→451); Δw -4px (112→108)
+  PAIR         "RBI Kehta Hai"  letterSpacing 0.2px → normal; borderRadius 4px → 0px; Δx -9px (584→575); Δy -2px (2392→2390); Δw -3px (88→85)
+  PAIR         "RBI Sachet Portal"  letterSpacing 0.2px → normal; borderRadius 4px → 0px; Δx -11px (687→676); Δy -2px (2392→2390); Δw -3px (112→109)
+  PAIR         "Use of Un-parlimentary Language by Custo"  letterSpacing 0.2px → normal; Δx -14px (815→801); Δw -9px (306→297)
+  PAIR         "Aadhaar Enrolment Centers"  letterSpacing 0.2px → normal; Δw -5px (176→171)
+  PAIR         "NEFT Customer Facilitation Center"  letterSpacing 0.2px → normal; Δx -5px (449→444); Δw -6px (221→215)
+  PAIR         "Report loss or unauthorised use of Credi"  letterSpacing 0.2px → normal; Δx -12px (687→675); Δw -9px (297→288)
+  PAIR         "Report loss or unauthorised use of Debit"  letterSpacing 0.2px → normal; Δw -9px (292→283)
+  PAIR         "Block Retail Internet Banking"  letterSpacing 0.2px → normal; Δx -9px (565→556); Δw -6px (184→178)
+  PAIR         "Copyright 2026 RBL Bank Ltd."  letterSpacing 0.2px → normal
+  PAIR         "Site best viewed in IE 9-11, Edge 25, Ch"  letterSpacing 0.2px → normal
+  PAIR         "Follow us"  tag <p> → <li>; letterSpacing 0.2px → normal; Δx +2px (1018→1020); Δw -2px (70→68)
+  PAIR         "Facebook"  fontSize 12px → 16px; letterSpacing 0.2px → normal; Δx -3px (1132→1129); Δy +12px (2544→2556)
+  PAIR         "Linkedin"  fontSize 12px → 16px; letterSpacing 0.2px → normal; Δx -5px (1167→1162); Δy +12px (2544→2556)
+  PAIR         "twitter"  fontSize 12px → 16px; letterSpacing 0.2px → normal; Δx -6px (1201→1195); Δy +12px (2544→2556)
+  PAIR         "instagram"  fontSize 12px → 16px; letterSpacing 0.2px → normal; Δx -5px (1233→1228); Δy +12px (2544→2556)
+  PAIR         "youtube"  fontSize 12px → 16px; letterSpacing 0.2px → normal; Δx -6px (1267→1261); Δy +12px (2544→2556)
+  MISSING      "About"  live <p> "About" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Media Center"  live <p> "Media Center" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Products"  live <p> "Products" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Important Links"  live <p> "Important Links" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "Customer Service"  live <p> "Customer Service" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  MISSING      "‌"  live <i> "‌" has no build element with the same text
+  EXTRA        "About ‌"  build <p> "About ‌" has no live source
+  EXTRA        "Media Center ‌"  build <p> "Media Center ‌" has no live source
+  EXTRA        "Products ‌"  build <p> "Products ‌" has no live source
+  EXTRA        "Important Links ‌"  build <p> "Important Links ‌" has no live source
+  EXTRA        "Customer Service ‌"  build <p> "Customer Service ‌" has no live source
+  ICONS        2 live vs 6 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+  ICON         "Follow RBL Bank on Twitter"  icon #1 near "Follow RBL Bank on Twitter": signature "viewBox=0 0 512 512 paths=1" → "viewBox=0 0 320 512 paths=1"
+
+✗ 54 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

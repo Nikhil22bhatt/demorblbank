@@ -1,0 +1,77 @@
+{
+  "contact-cards": {
+    "origin": ".contus .col-md-4 .cardCont",
+    "build": ".contus .col-md-4 :is(.cardCont, .card-cont)",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "contact-us"
+    ],
+    "templates": [
+      "form"
+    ]
+  },
+  "faq-rows": {
+    "origin": ".faq-rbl-inner .card",
+    "build": ".faq-list .faq-card",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "contact-us"
+    ],
+    "templates": [
+      "form"
+    ]
+  },
+  "footer-link-columns": {
+    "origin": ".site-footer__top section.region",
+    "build": ".footer-cols .footer-col",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "contact-us"
+    ],
+    "templates": [
+      "form",
+      "home",
+      "about-us",
+      "business-banking"
+    ]
+  },
+  "listing-product-cards": {
+    "origin": ".field--name-field-banking-categorys .product-card",
+    "build": ".product-grid .product-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "business-banking"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "listing-story-cards": {
+    "origin": "#data-related-blog1 .csr-cate-card-wrap",
+    "build": ":is(.rail-section--blog, .story-rail) .story-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "business-banking"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "listing-video-cards": {
+    "origin": "#data-related-blog .csr-cate-card-wrap",
+    "build": ":is(.rail-section--video, .video-rail) .video-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "business-banking"
+    ],
+    "templates": [
+      "listing"
+    ]
+  }
+}

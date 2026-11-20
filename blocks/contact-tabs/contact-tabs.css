@@ -1,0 +1,379 @@
+/* contact-tabs — replica canon contact-us.css (tabs, contact/office cards — float model
+   from the page's inline style — FAQ), scoped and mobile-first. */
+
+/* stylelint-disable no-descending-specificity */
+main .contact-tabs-container {
+  background: #fff;
+}
+
+.contact-tabs .contact-section {
+  position: relative;
+  padding-bottom: 45px;
+  background: #fff;
+}
+
+/* ---- page tabs (fixed after 500px scroll: .tab-wrap.fixed-tab) ---- */
+.contact-tabs .tab-wrap-outer {
+  min-height: 40px;
+}
+
+.contact-tabs .tab-wrap {
+  margin-bottom: 0;
+  padding-top: 5px;
+  background: #fff;
+  box-shadow: -2px 4px 4px rgb(0 0 0 / 15%);
+}
+
+.contact-tabs .tab-wrap.fixed-tab {
+  position: fixed;
+  top: 87px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.contact-tabs .tab-wrap .container {
+  padding: 0;
+}
+
+.contact-tabs .page-tabs ul {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2px 0;
+  overflow: auto hidden;
+  border-bottom: 1px solid transparent;
+  scrollbar-width: none;
+}
+
+.contact-tabs .page-tabs a {
+  position: relative;
+  display: block;
+  margin: 0 0 -1px;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px 6px 0 0;
+  color: var(--rbl-blue);
+  font-size: 16px;
+  line-height: 26.88px;
+  white-space: nowrap;
+}
+
+.contact-tabs .page-tabs .is-active a {
+  font-weight: 700;
+}
+
+.contact-tabs .page-tabs .is-active a::after {
+  content: "";
+  position: absolute;
+  left: 0.5px;
+  right: 1.5px;
+  bottom: 0;
+  height: 2px;
+  background: var(--rbl-blue);
+}
+
+.contact-tabs .card-deck-tab {
+  padding: 20px 0;
+}
+
+/* ---- contact cards (float model ported from the inline rules) ---- */
+.contact-tabs .contus .col-md-4,
+.contact-tabs .contus .col-md-6 {
+  margin: 0 0 30px;
+}
+
+.contact-tabs .card-cont {
+  float: left;
+  width: 100%;
+  min-height: 280px;
+  padding: 25px 15px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%), inset 0 0 5px rgb(255 255 255 / 10%);
+}
+
+.contact-tabs .title-cont {
+  float: left;
+  width: 100%;
+  height: 50px;
+}
+
+.contact-tabs .card-title :is(h1, h2, h3, h4, p) {
+  margin: 0;
+  color: var(--rbl-blue);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.contact-tabs .title-cont img {
+  float: left;
+  width: 50px;
+  height: auto;
+  padding: 0 15px 0 0;
+}
+
+.contact-tabs .desc-cont {
+  float: left;
+  width: 100%;
+  min-height: 170px;
+  padding: 0 0 10px 50px;
+}
+
+.contact-tabs .card-cont .desc-cont p {
+  float: left;
+  width: 100%;
+  padding: 15px 0 25px;
+  color: var(--rbl-ink);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-tabs .card-cont > picture img,
+.contact-tabs .card-cont > img {
+  float: right;
+  width: 60px;
+  height: auto;
+  margin: -40px 0 0;
+}
+
+.contact-tabs .col-md-6 .desc-cont {
+  min-height: auto;
+}
+
+.contact-tabs .col-md-12 .card-cont {
+  min-height: auto;
+}
+
+.contact-tabs .mt40 {
+  margin-top: 40px;
+}
+
+/* office lines: live <div> lines; the address and phones sit in a padded <span> */
+.contact-tabs .card-cont .office-line p {
+  float: none;
+  width: auto;
+  padding: 0;
+  color: var(--rbl-text);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.contact-tabs .card-cont .office-line.is-boxed p {
+  float: left;
+  width: 100%;
+  padding: 0 0 15px;
+  line-height: 22px;
+}
+
+.contact-tabs .office-line a:any-link {
+  color: var(--rbl-blue);
+}
+
+/* ---- FAQ ---- */
+.contact-tabs .right-border-h2 {
+  position: relative;
+  margin: 50px 0;
+  padding: 0 12px 0 23px;
+}
+
+.contact-tabs .right-border-h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 5px;
+  height: 100%;
+  background: var(--rbl-blue);
+}
+
+.contact-tabs .right-border-h2 :is(h2, h3) {
+  margin: 0;
+  color: var(--rbl-ink);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.contact-tabs .faq-container {
+  margin-bottom: 8px;
+}
+
+.contact-tabs .faq-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  overflow: hidden;
+  border: 1px solid var(--rbl-border);
+  border-radius: 4px;
+  background: var(--rbl-faq-bg);
+}
+
+.contact-tabs .faq-card:last-child {
+  margin-bottom: 0;
+}
+
+.contact-tabs .faq-card-header {
+  position: relative;
+  padding: 15px 30px 15px 15px;
+  border-radius: 5px 5px 0 0;
+  background: #fff;
+  cursor: pointer;
+}
+
+.contact-tabs .faq-card-header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 3;
+  width: 4.1px;
+  height: 35.88px;
+  background: #909090;
+  transform: translateY(-50%);
+}
+
+.contact-tabs .faq-card-toggle {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0 35px 0 0;
+  color: #000;
+  line-height: 26.88px;
+  text-align: left;
+}
+
+.contact-tabs .faq-card-toggle p {
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  width: calc(100% - 20px);
+  color: var(--rbl-blue);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 148%;
+}
+
+.contact-tabs .faq-card-toggle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  z-index: 3;
+  width: 32px;
+  height: 32px;
+  margin-top: 7px;
+  background: url("../../icons/plus-acco.svg") no-repeat;
+  background-size: 22px;
+  transform: translateY(-50%);
+}
+
+.contact-tabs .faq-card-toggle[aria-expanded="true"]::after {
+  background-image: url("../../icons/minus-acco.svg");
+}
+
+.contact-tabs .faq-card-toggle[aria-expanded="true"]::before {
+  content: "";
+  position: absolute;
+  inset: -30px -30px -25px;
+  z-index: 3;
+  background: var(--rbl-faq-bg);
+}
+
+.contact-tabs .faq-card-toggle[aria-expanded="true"] p {
+  font-weight: 400;
+}
+
+.contact-tabs .faq-card-body {
+  position: relative;
+  z-index: 9;
+  padding: 0 18px 15px;
+  background: var(--rbl-faq-bg);
+}
+
+.contact-tabs .faq-card-body.collapsing {
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.contact-tabs .faq-card-body p {
+  margin-bottom: 20px;
+  color: var(--rbl-ink);
+  font-size: 16px;
+}
+
+/* ======================= >= 768 ======================= */
+@media (width >= 768px) {
+  main .contact-tabs-container,
+  .contact-tabs .contact-section {
+    background: var(--rbl-lavender);
+  }
+
+  .contact-tabs .tab-wrap-outer {
+    min-height: 70px;
+  }
+
+  .contact-tabs .tab-wrap {
+    margin-bottom: 45px;
+  }
+
+  .contact-tabs .tab-wrap.fixed-tab {
+    top: 140px;
+  }
+
+  .contact-tabs .tab-wrap .container {
+    padding: 0 12px;
+  }
+
+  .contact-tabs .page-tabs ul {
+    padding: 13px 0;
+  }
+
+  .contact-tabs .page-tabs a {
+    margin: 0 15px -1px 0;
+    padding: 8px 16px;
+  }
+
+  .contact-tabs .page-tabs .is-active a::after {
+    left: 10px;
+    right: 12px;
+    bottom: -12px;
+  }
+
+  .contact-tabs .card-deck-tab {
+    padding: 40px 0;
+  }
+
+  .contact-tabs .right-border-h2 :is(h2, h3) {
+    font-size: 34px;
+  }
+
+  .contact-tabs .faq-card-header {
+    padding: 20px 20px 20px 30px;
+  }
+
+  .contact-tabs .faq-card-toggle::after {
+    top: -4px;
+    right: 0;
+    margin-top: 0;
+    background-size: auto;
+    transform: none;
+  }
+
+  .contact-tabs .faq-card-body {
+    padding: 0 30px 30px;
+  }
+}
+
+@media (width >= 787px) {
+  .contact-tabs .contus .col-md-4,
+  .contact-tabs .contus .col-md-6 {
+    margin: 0;
+  }
+}

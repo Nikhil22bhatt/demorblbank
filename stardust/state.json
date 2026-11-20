@@ -1,0 +1,367 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-19T12:08:55Z",
+    "stardustVersion": "0.41.0"
+  },
+  "site": {
+    "originUrl": "https://www.rbl.bank.in",
+    "deployUrl": null,
+    "extractedAt": "2026-11-19T07:20:12.308Z",
+    "pageCap": null,
+    "totalDiscovered": 5,
+    "crawled": 5,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-19T07:20:12.308Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.rbl.bank.in/",
+      "title": "Savings & Current Accounts, Loans, Credit Cards, NRI Services, Investments | RBL Bank",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T07:14:12.307Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T09:46:43Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T12:08:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "about-us",
+      "url": "https://www.rbl.bank.in/about-us",
+      "title": "About Us | RBL Bank",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T07:14:10.353Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T09:05:44Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T12:08:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-us.json",
+      "prototypePath": "stardust/prototypes/about-us-proposed.html",
+      "migratedPath": "stardust/migrated/about-us/index.html"
+    },
+    {
+      "slug": "business-banking",
+      "url": "https://www.rbl.bank.in/business-banking",
+      "title": "Business Banking – Business Bank Accounts, Business Services Online India | Best Bank |RBL Bank",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T07:14:22.743Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-19T08:56:55Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T08:56:55Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T12:08:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/business-banking.json",
+      "prototypePath": "stardust/prototypes/business-banking-proposed.html",
+      "migratedPath": "stardust/migrated/business-banking/index.html"
+    },
+    {
+      "slug": "personal-banking",
+      "url": "https://www.rbl.bank.in/personal-banking",
+      "title": "Personal Banking, Online Banking Services | RBL Bank",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T07:14:32.186Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T12:08:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/personal-banking.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/personal-banking/index.html"
+    },
+    {
+      "slug": "contact-us",
+      "url": "https://www.rbl.bank.in/contact-us",
+      "title": "RBL Bank – Banking & Credit Helpline Services | Contact Us | Customer Care",
+      "type": "form",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T07:15:01.383Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-19T08:30:33Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T08:30:33Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T12:08:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/contact-us.json",
+      "prototypePath": "stardust/prototypes/contact-us-proposed.html",
+      "migratedPath": "stardust/migrated/contact-us/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-19T09:49:53Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about-us",
+        "outputPath": "about-us/index.html",
+        "slug": "about-us",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/business-banking",
+        "outputPath": "business-banking/index.html",
+        "slug": "business-banking",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/personal-banking",
+        "outputPath": "personal-banking/index.html",
+        "slug": "personal-banking",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/contact-us",
+        "outputPath": "contact-us/index.html",
+        "slug": "contact-us",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 130,
+    "bundledAssets": [
+      "about-us.css",
+      "about-us.js",
+      "about-us/AboutUS-BC-Branches.svg",
+      "about-us/AboutUS-BC-Outlets.svg",
+      "about-us/AboutUS-Branches.svg",
+      "about-us/AboutUS-customers.svg",
+      "about-us/aaa-2026.jpg",
+      "about-us/about-rating.webp",
+      "about-us/banner-desktop.jpg",
+      "about-us/banner-mobile.jpg",
+      "about-us/finacle-2026.png",
+      "about-us/finnoviti.gif",
+      "about-us/iba-2026.jpg",
+      "about-us/mission-community.jpg",
+      "about-us/mission-customers.jpg",
+      "about-us/mission-employees.jpg",
+      "about-us/mission-shareholder.jpg",
+      "about-us/two-col-img-1.png",
+      "about-us/two-col-img-2.png",
+      "business-banking.css",
+      "business-banking.js",
+      "business-banking/agri-banking.jpg",
+      "business-banking/app-google-play.png",
+      "business-banking/app-iphone-store.png",
+      "business-banking/blog-1600-series.webp",
+      "business-banking/blog-apk-fraud.webp",
+      "business-banking/blog-cybersecurity.webp",
+      "business-banking/blog-genuine-comms.webp",
+      "business-banking/blog-nri-accounts.webp",
+      "business-banking/business-banking-group.jpg",
+      "business-banking/business.jpg",
+      "business-banking/gss.jpg",
+      "business-banking/hero.jpg",
+      "business-banking/rbl-mybank-m.jpg",
+      "business-banking/rbl-mybank.jpg",
+      "business-banking/video-chess.webp",
+      "business-banking/video-csr-helo.webp",
+      "business-banking/video-voyedge.webp",
+      "business-banking/video-world-safari.webp",
+      "contact-us.css",
+      "contact-us/cont-corpoff-lg.svg",
+      "contact-us/cont-corpoff-sm.svg",
+      "contact-us/cont-custcare-lg.svg",
+      "contact-us/cont-custcare-sm.svg",
+      "contact-us/cont-locate-lg.svg",
+      "contact-us/cont-locate-sm.svg",
+      "contact-us/cont-raise-sr-lg.svg",
+      "contact-us/cont-raise-sr-sm.svg",
+      "contact-us/cont-regoff-sm.svg",
+      "index.css",
+      "index.js",
+      "index/10-cybersecurity-tips-to-stay-safe-online-hp-t.webp",
+      "index/apply-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+      "index/attractive-offers-rbl-bank-credit-cards.webp",
+      "index/chess-one-right-move.webp",
+      "index/csr-initiatives-helo.webp",
+      "index/download-icon.svg",
+      "index/how-to-protect-your-device-from-apk-fraud-hp.webp",
+      "index/hybrid-home-loan-m.webp",
+      "index/hybrid-home-loan.webp",
+      "index/indianoil-rbl-bank-xtra-credit-card-m.webp",
+      "index/indianoil-rbl-bank-xtra-credit-card.webp",
+      "index/irctc-rbl-bank-credit-card-m.webp",
+      "index/irctc-rbl-bank-credit-card.webp",
+      "index/nationwide-financial-inclusion-saturation-desktop.webp",
+      "index/nationwide-financial-inclusion-saturation-mob.webp",
+      "index/next-btn.svg",
+      "index/noti.svg",
+      "index/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india-hp.webp",
+      "index/ql-Credit_Cards.svg",
+      "index/ql-Fixed_deposits.svg",
+      "index/ql-Loans.svg",
+      "index/ql-NRI_Account.svg",
+      "index/ql-Savings_Account.svg",
+      "index/ql-preferredBanking.svg",
+      "index/rbl-bank-digital-fixed-deposits-op.webp",
+      "index/rbl-bank-digital-savings-account.webp",
+      "index/rbl-bank-direct-tax-gst-custom-duty-banner-m.webp",
+      "index/rbl-bank-direct-tax-gst-custom-duty-banner.webp",
+      "index/rbl-bank-earn-monthly-interest-payout-savings-account-m_0.webp",
+      "index/rbl-bank-earn-monthly-interest-payout-savings-account.webp",
+      "index/rbl-bank-education-loan-op.webp",
+      "index/rbl-bank-nri-banking-m_0.webp",
+      "index/rbl-bank-nri-banking_1.webp",
+      "index/rbl-bank-ratings-m_0.webp",
+      "index/rbl-bank-ratings_0.webp",
+      "index/rbl-bank-shoppers-stop-credit-cards-m.webp",
+      "index/rbl-bank-shoppers-stop-credit-cards.webp",
+      "index/rbl-bank-shoprite-credit-card.webp",
+      "index/rbl-bank-whatsapp-banking-services-m.webp",
+      "index/rbl-bank-whatsapp-banking-services.webp",
+      "index/rbl-bank-world-safar-credit-card-m.webp",
+      "index/rbl-bank-world-safar-credit-card.webp",
+      "index/rbl-cares-chatbot-m.webp",
+      "index/rbl-cares-chatbot.webp",
+      "index/rbl-mybizbank-business-banking-app-features-banner-m.webp",
+      "index/rbl-mybizbank-business-banking-app-features-banner.webp",
+      "index/sanchar-saathi-mobile-app-ad.webp",
+      "index/sanchar-saathi-mobile-app-am.webp",
+      "index/spend-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+      "index/spoofed-calls-1600-series-how-to-protect-yourself-hp.webp",
+      "index/tips-for-identifying-genuine-bank-communications-hp.webp",
+      "index/voyedge-forex-card.webp",
+      "index/world-safari-gukesh.webp",
+      "shared/canon.css",
+      "shared/chrome.js",
+      "shared/fonts/fontawesome-webfont.woff2",
+      "shared/fonts/roboto-latin-var.woff2",
+      "shared/images/Home.svg",
+      "shared/images/Login.svg",
+      "shared/images/New_default.png",
+      "shared/images/Payments.svg",
+      "shared/images/Vector.svg",
+      "shared/images/aioa-icon-type-1.svg",
+      "shared/images/bell.svg",
+      "shared/images/down-arrow-menu.svg",
+      "shared/images/favicon.ico",
+      "shared/images/menu/digital-fd-pm.webp",
+      "shared/images/menu/open-digital-savings-account-3-steps-mb.webp",
+      "shared/images/menu/rbl-world-safari-credit-card-offer-mb.webp",
+      "shared/images/minus-acco.svg",
+      "shared/images/mobile-more.svg",
+      "shared/images/new-trade.png",
+      "shared/images/new1.png",
+      "shared/images/plus-acco.svg",
+      "shared/images/rbl-cares.svg",
+      "shared/images/rbl-logo.svg",
+      "shared/images/search.svg",
+      "shared/images/top-icon.svg",
+      "shared/images/whatsapp.svg"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 79
+      },
+      {
+        "slug": "about-us",
+        "file": "stardust/migrated/about-us/index.html",
+        "assetsBundled": 39
+      },
+      {
+        "slug": "business-banking",
+        "file": "stardust/migrated/business-banking/index.html",
+        "assetsBundled": 40
+      },
+      {
+        "slug": "contact-us",
+        "file": "stardust/migrated/contact-us/index.html",
+        "assetsBundled": 32
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-19T09:49:53Z",
+      "rendered": [
+        "index",
+        "about-us",
+        "business-banking",
+        "contact-us"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

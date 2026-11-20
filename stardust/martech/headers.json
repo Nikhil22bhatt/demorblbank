@@ -1,0 +1,14 @@
+{
+ "cache-control": "max-age=0, no-cache, no-store",
+ "content-security-policy-report-only": "default-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com sdk.rsut.io code.jquery.com static.ads-twitter.com snap.licdn.com connect.facebook.net static.hotjar.com static-cdn.trackier.com bat.bing.com www.gstatic.com script.hotjar.com googleads.g.doubleclick.net webassets.rbl.bank.in cdnjs.cloudflare.com fonts.gstatic.com www.skynettechnologies.com www.google.com ad.doubleclick.net px.ads.linkedin.com wss://websoc.resu.io https://websoc.resu.io analytics.google.com freeada.skynettechnologies.com fontawesome.com d34s92jlbrwuc5.cloudfront.net t.co analytics.twitter.com www.google.co.in www.google-analytics.com ajax.googleapis.com chatbot.rbl.bank.in firebaseinstallations.googleapis.com cdn.jsdelivr.net is.com ada.skynettechnologies.us *.amazonaws.com chatbotpub.rbl.bank.in chatbotpvt.rbl.bank.in chatbotps.rbl.bank.in stats.g.doubleclick.net chat.rbl.bank.in; img-src 'self' data: https:; object-src 'none'; script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com sdk.rsut.io code.jquery.com static.ads-twitter.com snap.licdn.com connect.facebook.net static.hotjar.com static-cdn.trackier.com bat.bing.com www.gstatic.com script.hotjar.com googleads.g.doubleclick.net *.googleapis.com chatbot.rbl.bank.in cdn.jsdelivr.net https://cdn.datatables.net https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://pay.billdesk.com https://www.google.com https://www.skynettechnologies.com mdbootstrap.com; style-src * 'report-sample' 'unsafe-inline'; frame-ancestors 'self' chat.rbl.bank.in chatbot.rbl.bank.in",
+ "permissions-policy": "geolocation=(), microphone=(), camera=(), fullscreen=(self), payment=()",
+ "referrer-policy": "no-referrer-when-downgrade",
+ "strict-transport-security": "max-age=31536000; includeSubDomains",
+ "x-akamai-transformed": "0 - 0 -",
+ "x-content-type-options": "nosniff",
+ "x-csrf-protection": "1",
+ "x-drupal-cache": "HIT",
+ "x-drupal-dynamic-cache": "MISS",
+ "x-frame-options": "SAMEORIGIN",
+ "x-xss-protection": "1; mode=block"
+}

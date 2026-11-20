@@ -1,0 +1,8 @@
+clip-probe http://localhost:8791/index-proposed.html @ 360px — docH 5476, 142 text nodes, 95 controls (HTTP 200, chrome)
+  🔴 CONTROL CLIPPED        ×3     in div.carousel__viewport  div.carousel__track > div.carousel__slide.hero__slide > div.container > a.hero__link  "apply for nri account"  cut 5px
+  🔴 TEXT CLIPPED           ×1     in div.carousel__viewport  div.carousel__slide.promo__slide > div.container.promo__container > div.promo__offer.promo__offer--light > h2.promo__title  "elevate your travel"  cut 29px
+  🔴 CONTROL HIDDEN         ×1     in div.carousel__viewport  div.promo__offer.promo__offer--light > div > p > a#hp-irctc-cc-banner-slot  "apply now"  cut 48px
+  🔴 CONTROL CLIPPED        ×1     in div.carousel__viewport  div.carousel__viewport > div.carousel__track > div.carousel__slide.appban__slide > a#hp-nomination-banner  "financial inclusion saturation campaign 2026"  cut 5px
+  🔴 CONTROL CLIPPED        ×1     in div.carousel__viewport  div.carousel__viewport > div.carousel__track > div.carousel__slide.appban__slide > a#hp-bizbank-banner-know-more  "know more about rbl mybizbank business banking app features"  cut 5px
+Clipped: 7 (text clipped 1, text hidden 0, controls hidden 1, controls clipped 5; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 8)
+json → stardust/replica/gates/index-360/clip-iter1.json

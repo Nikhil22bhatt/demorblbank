@@ -1,0 +1,58 @@
+{
+  "round": "iter2",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/contact-us-1440/diff-iter2.png",
+    "json": "stardust/replica/gates/contact-us-1440/pixel-iter2.json",
+    "pct": 1.46,
+    "alignedPct": 0.35,
+    "alignedUsed": true,
+    "totalShift": 2,
+    "steps": [
+      {
+        "y": 157,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 2243,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 212,
+    "noiseFloor": 0.13,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T07:30:53.676Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "772:136,1672:76"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/contact-us-1440/content-diff-iter2.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/contact-us-1440/visual-diff-iter2.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/contact-us-1440/chrome-parity-iter2.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/contact-us-1440/clip-iter2.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T07:56:15.947Z"
+}

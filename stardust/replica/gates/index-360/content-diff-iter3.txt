@@ -1,0 +1,102 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 3970 ms
+
+Content diff @ 360px (profile "generic", roots: #content, header, footer)
+root "#content"
+  source: 320 text nodes — 40 headings, 3 eyebrows, 65 CTAs, 212 body; 68 img
+  build: 313 text nodes — 41 headings, 3 eyebrows, 65 CTAs, 204 body; 64 img
+  editable texts (outermost h*/p/ul/ol): source 141 / build 109
+  attributes (placeholder/aria-label/title): source 165 / build 217; icons: source 20 / build 14
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "Our Products"
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 9 / build 9; icons: source 2 / build 2
+root "footer"
+  source: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  build: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 25
+  attributes (placeholder/aria-label/title): source 57 / build 57; icons: source 2 / build 2
+
+Findings: 80 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 1 (owner 0, auto 1) · advisory 80
+  🟡 MISSING BODY [#content]: source body "Interest Payout"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "%*"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Reinvestment"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Quarterly Payout"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Monthly Payout"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "We are currently experiencing a technical issue."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#content]: source body "Launch demo modal"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#content]: build has 109 outermost editable element(s) vs 141 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING TITLE [#content]: source <img> title="Download PDF" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#content]: build <section> aria-label="Featured banners" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <ul> aria-label="Choose banner" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="1 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="2 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="3 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="4 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <section> aria-label="Credit card offers" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="4 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="1 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="2 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="3 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="4 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <ul> aria-label="Choose card offer" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="1 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="2 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="3 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="4 of 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <section> aria-label="Digital banking services" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="1 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="2 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="3 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="4 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="1 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="2 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="3 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="4 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <ul> aria-label="Choose service banner" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="1 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="2 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="3 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="4 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="5 of 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="Our Products" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="Offers and Deals" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="Money, People & Safety" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="Trust & Beyond" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Close video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#content]: build <iframe> title="Trust & Beyond video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 0×0) at "pay your taxes seamlessly with rbl bank." is at "previous slide" in the build — same icon, paired by order within "pay your taxes seamlessly with rbl bank.". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 0×0) at "pay your taxes seamlessly with rbl bank." is at "next slide" in the build — same icon, paired by order within "pay your taxes seamlessly with rbl bank.". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 0×0) at "you're just a card away from amazing off" is at "previous slide" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 0×0) at "you're just a card away from amazing off" is at "next slide" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ICON [#content]: source image down-icon1.svg (30×35) at "cumulative quarterly monthly" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image down-icon1.svg (30×29) at "reinvestment quarterly payout monthly pa" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "net banking" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "debit card" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "upi" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "mobile app" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "neft payment" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [#content]: source image right-arrow-pay.svg (13×11) at "other ways to pay" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 0×0) at "1 2 3 4 5" is at "previous slide" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 0×0) at "1 2 3 4 5" is at "next slide" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F104 (FontAwesome, 8×22) at "digital savings account - prime know mor" is at "previous" in the build — same icon, paired by order within "our products". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [#content]: source icon-font glyph U+F105 (FontAwesome, 8×22) at "digital savings account - prime know mor" is at "next" in the build — same icon, paired by order within "our products". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [#content]: build icon-font glyph U+F104 (FontAwesome, 0×0) at "previous" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#content]: build icon-font glyph U+F105 (FontAwesome, 0×0) at "next" has no source source. Build-only icon — confirm it is intended.

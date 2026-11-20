@@ -1,0 +1,1000 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-19T07:23:04.561Z",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://www.rbl.bank.in",
+      "role": "primary",
+      "pages": 5
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/rbl.svg",
+    "alt": "RBL Bank",
+    "file": "stardust/current/assets/logo.svg",
+    "sourceSelector": "div > div > div > div > div:nth-of-type(1) > div > a > img",
+    "variants": [
+      "svg (header)"
+    ]
+  },
+  "favicon": {
+    "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/favicon.ico",
+    "file": "stardust/current/assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "value": "#f3f4f6",
+      "role": "background",
+      "occurrences": 805,
+      "usedAs": [
+        "text",
+        "background",
+        "link",
+        "button-background",
+        "border",
+        "button-text",
+        "heading"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#block-footerfirst > div > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#block-footerfirst > div > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "selector": "#block-footerfirst > div > ul > li:nth-of-type(1) > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#303030",
+      "role": "accent",
+      "occurrences": 384,
+      "usedAs": [
+        "text",
+        "border",
+        "button-border",
+        "button-text",
+        "heading"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/personal-banking",
+          "selector": "nav > ol > li:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/personal-banking",
+          "selector": "#data-section1 > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "nav > ol > li:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#304087",
+      "role": "primary",
+      "occurrences": 281,
+      "usedAs": [
+        "text",
+        "background",
+        "border",
+        "link",
+        "button-background",
+        "button-text",
+        "heading"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#loginmenu",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#hp-rates-fd",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/contact-us?tabName=contact-us",
+          "selector": "#loginmenu",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#000000",
+      "role": "surface",
+      "occurrences": 101,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#dark-body-a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#aioa_skip_to_main_content > div",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#aioa_skip_to_main_content > div",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#00a972",
+      "role": "secondary",
+      "occurrences": 10,
+      "usedAs": [
+        "background",
+        "button-background"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#loginmenu",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#loginmenu",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "selector": "#loginmenu",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#212121",
+      "role": null,
+      "occurrences": 110,
+      "usedAs": [
+        "text",
+        "background",
+        "heading"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#data-section3 > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#save-tab > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > label",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#save-tab > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > label",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#606060",
+      "role": null,
+      "occurrences": 89,
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#block-footerfirst > div > p > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#block-footerfirst > div > p > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "selector": "#block-footerfirst > div > p > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#dbdcde",
+      "role": null,
+      "occurrences": 67,
+      "usedAs": [
+        "border",
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#nav-tab1",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div > div > div > div > div > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.rbl.bank.in/contact-us?tabName=contact-us",
+          "selector": "#accordion > div:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "value": "#adadad",
+      "role": null,
+      "occurrences": 65,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#block-footerfirst > div > p",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#block-footerfirst > div > p",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "selector": "#block-footerfirst > div > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#909090",
+      "role": null,
+      "occurrences": 62,
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#save-tab > div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > label",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "div > div > div > div > div > div > div > p:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "header > div > div > div > ul:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "value": "#c2c4c7",
+      "role": null,
+      "occurrences": 37,
+      "usedAs": [
+        "border"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "div > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div > div:nth-of-type(5) > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "div > div:nth-of-type(3) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#hp-video-1",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "value": "#ffffff0a",
+      "role": null,
+      "occurrences": 25,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "selector": "footer > div > div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#ed3338",
+      "role": null,
+      "occurrences": 18,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "#navbarOffers > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "div > div > div > div > div:nth-of-type(2) > div > button:nth-of-type(2) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "#navbarOffers > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#707070",
+      "role": null,
+      "occurrences": 11,
+      "usedAs": [
+        "text"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "div > div > ul > div > div > li:nth-of-type(2) > div > label",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#00000010",
+      "role": null,
+      "occurrences": 10,
+      "usedAs": [
+        "background"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "selector": "div > div > div:nth-of-type(3) > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#373f41",
+      "role": null,
+      "occurrences": 8,
+      "usedAs": [
+        "text",
+        "heading"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > h4",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > h4",
+          "prop": "heading"
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "selector": "div:nth-of-type(3) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > h4",
+          "prop": "heading"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "Roboto",
+        "count": 234,
+        "headings": 76,
+        "text": 79,
+        "buttons": 79
+      }
+    ],
+    "headingFamily": "Roboto",
+    "bodyFamily": "Roboto",
+    "sizes": [
+      {
+        "px": 48,
+        "count": 5,
+        "headings": 5,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 40,
+        "count": 10,
+        "headings": 10,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 36,
+        "count": 10,
+        "headings": 10,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 34,
+        "count": 17,
+        "headings": 17,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 14,
+        "headings": 14,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 14,
+        "headings": 14,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 22,
+        "count": 4,
+        "headings": 4,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 74,
+        "headings": 0,
+        "text": 49,
+        "buttons": 25
+      },
+      {
+        "px": 16,
+        "count": 52,
+        "headings": 0,
+        "text": 10,
+        "buttons": 42
+      },
+      {
+        "px": 15,
+        "count": 10,
+        "headings": 0,
+        "text": 10,
+        "buttons": 0
+      },
+      {
+        "px": 14,
+        "count": 17,
+        "headings": 0,
+        "text": 7,
+        "buttons": 10
+      },
+      {
+        "px": 13,
+        "count": 5,
+        "headings": 0,
+        "text": 3,
+        "buttons": 2
+      }
+    ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 122,
+        "headings": 52,
+        "text": 60,
+        "buttons": 10
+      },
+      {
+        "weight": "700",
+        "count": 112,
+        "headings": 24,
+        "text": 19,
+        "buttons": 69
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 48,
+        "fontWeight": "400",
+        "count": 3,
+        "score": 83.14
+      },
+      "h2": {
+        "fontSize": 40,
+        "fontWeight": "700",
+        "count": 10,
+        "score": 221.36
+      },
+      "h3": {
+        "fontSize": 24,
+        "fontWeight": "400",
+        "count": 14,
+        "score": 89.8
+      },
+      "h4": {
+        "fontSize": 34,
+        "fontWeight": "400",
+        "count": 2,
+        "score": 48.08
+      },
+      "h5": {
+        "fontSize": 36,
+        "fontWeight": "700",
+        "count": 10,
+        "score": 199.22
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        48,
+        40,
+        36,
+        34,
+        28,
+        24,
+        22,
+        20,
+        18,
+        16,
+        15,
+        14,
+        13
+      ]
+    },
+    "files": [
+      {
+        "family": "Roboto",
+        "file": "stardust/current/assets/fonts/roboto-latin-var.woff2",
+        "source": "fonts.gstatic.com (Google Fonts, @import in style.css)",
+        "license": "Apache-2.0 (open, self-hostable)"
+      }
+    ]
+  },
+  "motifs": {
+    "borderRadius": {
+      "mode": "4px",
+      "occurrences": [
+        {
+          "value": "4px",
+          "count": 172
+        },
+        {
+          "value": "50%",
+          "count": 96
+        },
+        {
+          "value": "6px",
+          "count": 58
+        },
+        {
+          "value": "10px",
+          "count": 51
+        },
+        {
+          "value": "5px 5px 0px 0px",
+          "count": 42
+        },
+        {
+          "value": "50px",
+          "count": 40
+        },
+        {
+          "value": "8px",
+          "count": 24
+        },
+        {
+          "value": "6px 6px 0px 0px",
+          "count": 14
+        },
+        {
+          "value": "0px 100px 100px 0px",
+          "count": 10
+        },
+        {
+          "value": "16px",
+          "count": 10
+        },
+        {
+          "value": "20px",
+          "count": 8
+        },
+        {
+          "value": "5px",
+          "count": 8
+        },
+        {
+          "value": "71.5px",
+          "count": 8
+        },
+        {
+          "value": "20px 20px 0px 0px",
+          "count": 3
+        },
+        {
+          "value": "100%",
+          "count": 2
+        }
+      ]
+    },
+    "shadows": [
+      "rgba(0, 0, 0, 0.15) -2px 2px 4px 0px",
+      "rgba(0, 0, 0, 0.15) 0px 2px 4px 0px",
+      "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset"
+    ],
+    "gradients": [
+      "linear-gradient(270deg, rgb(138, 103, 109) 1.87%, rgb(146, 75, 87) 31.58%, rgb(75, 74, 108) 59.77%, rgb(38, 35, 67) 98.54%)",
+      "linear-gradient(0deg, rgb(254, 213, 37), rgb(254, 213, 37)), none",
+      "linear-gradient(45deg, rgb(240, 148, 51) 0%, rgb(230, 104, 60) 25%, rgb(220, 39, 67) 50%, rgb(204, 35, 102) 75%, rgb(188, 24, 136) 100%)",
+      "linear-gradient(rgb(193, 188, 222) 0%, rgb(250, 212, 195) 99%, rgb(250, 212, 195) 99%, rgb(250, 212, 195) 100%)",
+      "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%)",
+      "linear-gradient(to right, rgb(253, 239, 239) 0%, rgb(229, 231, 239) 50%)"
+    ]
+  },
+  "voice": {
+    "heroHeadline": "Enjoy Monthly Interest Payout Of 6%",
+    "tagline": "RBL Bank is one of India’s leading private sector banks, offering a range of personal and business banking products and services, including Savings and Current Accounts, Loans, Credit Cards, NRI Services, and Investments.",
+    "firstParagraph": "RBL Bank is one of India’s fastest growing private sector banks with an expanding presence across the country through a growing network of branches and ATMs."
+  },
+  "iconFont": {
+    "families": [
+      "FontAwesome",
+      "Glyphicons Halflings"
+    ],
+    "glyphs": [
+      {
+        "class": "acnav__label",
+        "pseudo": "::after",
+        "codepoint": "U+F067",
+        "fontFamily": "FontAwesome",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "acnav__label acnav__label--level2",
+        "pseudo": "::after",
+        "codepoint": "U+F067",
+        "fontFamily": "FontAwesome",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-decrease-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E904",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E905",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E937",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E916",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90B",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E906",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E902",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E900",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E901",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90A",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E919",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90E",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E90F",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E917",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-increase-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E904",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "fa fa-reorder",
+        "pseudo": "::before",
+        "codepoint": "U+F0C9",
+        "fontFamily": "FontAwesome",
+        "count": 10,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "acnav__label acnav__label--level3",
+        "pseudo": "::after",
+        "codepoint": "U+F107",
+        "fontFamily": "FontAwesome",
+        "count": 8,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "acnav__label acnav__label--level4 acnav__list--level4-pl30",
+        "pseudo": "::after",
+        "codepoint": "U+F107",
+        "fontFamily": "FontAwesome",
+        "count": 8,
+        "sources": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E91E",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 2,
+        "sources": [
+          "https://www.rbl.bank.in/contact-us?tabName=contact-us",
+          "https://www.rbl.bank.in/contact-us?tabName=contact-us"
+        ]
+      },
+      {
+        "class": "aioa-icon",
+        "pseudo": "::before",
+        "codepoint": "U+E926",
+        "fontFamily": "\"Skynet Technologies\"",
+        "count": 2,
+        "sources": [
+          "https://www.rbl.bank.in/contact-us?tabName=contact-us",
+          "https://www.rbl.bank.in/contact-us?tabName=contact-us"
+        ]
+      }
+    ]
+  },
+  "systemComponents": [
+    {
+      "kind": "header",
+      "occurrences": 5
+    },
+    {
+      "kind": "footer",
+      "occurrences": 5
+    },
+    {
+      "kind": "breadcrumb",
+      "occurrences": 4
+    },
+    {
+      "kind": "chat-launcher",
+      "occurrences": 5
+    }
+  ],
+  "crossPromo": {
+    "detected": true,
+    "blocks": [
+      "Money, People & Safety",
+      "Trust & Beyond",
+      "RBL MyBank App"
+    ]
+  }
+}

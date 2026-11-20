@@ -1,0 +1,67 @@
+{
+ "url": "https://main--1aa640c2--aemcoder.aem.page/personal-banking",
+ "at": "2026-11-19T11:55:54.385Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 3,
+  "offPage": 0,
+  "textNodes": 117,
+  "controls": 94,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "article.story-card",
+   "path": "article.story-card > div.story-card-inner > div.story-card-date > p",
+   "text": "oct 07, 2026",
+   "cutMin": 0,
+   "cutMax": 0
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "article.story-card",
+   "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+   "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "article.story-card",
+   "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+   "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+   "cutMin": 53,
+   "cutMax": 53
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 0,
+   "textNodes": 121,
+   "controls": 88,
+   "total": 0
+  }
+ }
+}

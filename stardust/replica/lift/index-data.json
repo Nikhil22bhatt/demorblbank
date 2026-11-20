@@ -1,0 +1,324 @@
+{
+ "notification": "In our endeavour to serve you better, our NEFT and RTGS services will undergo maintenance on Friday, 20th Nov 2026, between 12:00 AM & 1:30 AM. During this period, NEFT and RTGS services will not be available. We regret the inconvenience.",
+ "hero": [
+  {
+   "active": false,
+   "label": "RBL Bank Credit Ratings",
+   "desktop": "https://d34s92jlbrwuc5.cloudfront.net/2026-08/rbl-bank-ratings_0.webp?VersionId=jSDjMtvN1npu5.MSrjKd1THXvb0q.8A0",
+   "mobile": "https://d34s92jlbrwuc5.cloudfront.net/2026-08/rbl-bank-ratings-m_0.webp?VersionId=Gu2gKyZ6BbOp5P.Tcl9JVoe52Eav2ykK",
+   "info": ""
+  },
+  {
+   "active": false,
+   "label": "RBL Bank NRI Banking solutions for Indians living abroad",
+   "desktop": "https://d34s92jlbrwuc5.cloudfront.net/2026-06/rbl-bank-nri-banking_1.webp?VersionId=Dd0PyumS6IEOTv1Qoq0IcLLgdTU4W6rH",
+   "mobile": "https://d34s92jlbrwuc5.cloudfront.net/2026-06/rbl-bank-nri-banking-m_0.webp?VersionId=flyyKcCBQKqiKuvB_0NxzBzzgGQfnUm3",
+   "info": "<div class=\"clearfix text-formatted field field--name-field-banner-description field--type-text-long field--label-hidden field__item a3\"><style type=\"text/css\">.ccOffer .banner-info-inner\n    {\n      width:1300px;\nheight:400px;\nmargin: 0 0 0 -100px;\nfloat:left;\ncolor:#fff;\ndisplay: block;\n  text-decoration: none;\n    }\n\t.ccOffer .banner-info-inner span {\n  display: block;\n  width: 100%;\n  height: 100%;\n  font-size: 0;\n  line-height: 0;\n  color: transparent;\n}\n\t\n\t\n.home-banner-wrapper .slick-dots { bottom: 5px;}\n</style><div class=\"ccOffer\"><a class=\"banner-info-inner a-attention-link-add-script\" href=\"/nri-banking\" id=\"hp-hero-banner-go-account\" tabindex=\"-1\" aria-label=\"Apply for NRI Account for Nri Banking\"><span>Apply for NRI Account</span></a></div></div>"
+  },
+  {
+   "active": true,
+   "label": " RBL Bank savings account with monthly interest payout",
+   "desktop": "https://d34s92jlbrwuc5.cloudfront.net/2026-11/rbl-bank-earn-monthly-interest-payout-savings-account.webp?VersionId=LOLTce1TuKCne8Om7jOPypCxnZXk7h9O",
+   "mobile": "https://d34s92jlbrwuc5.cloudfront.net/2026-11/rbl-bank-earn-monthly-interest-payout-savings-account-m_0.webp?VersionId=SuPiuqc2JefQtv0a8O5RyqnuH3gc2Rya",
+   "info": "<div class=\"clearfix text-formatted field field--name-field-banner-description field--type-text-long field--label-hidden field__item a3\"><style type=\"text/css\">.ccOffer .banner-info-inner\n    {\n      width:1300px;\nheight:400px;\nmargin: 0 0 0 -100px;\nfloat:left;\ncolor:#fff;\ndisplay: block;\n  text-decoration: none;\n    }\n\t.ccOffer .banner-info-inner span {\n  display: block;\n  width: 100%;\n  height: 100%;\n  font-size: 0;\n  line-height: 0;\n  color: transparent;\n}\n\t\n\t\n.home-banner-wrapper .slick-dots { bottom: 5px;}\n</style><div class=\"ccOffer\"><a class=\"banner-info-inner a-attention-link-add-script\" href=\"https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&amp;utm_medium=hp-monthly-interest-sa-banner&amp;utm_campaign=rbl-dsa-new-website\" id=\"hp-cc-festive-offer\" tabindex=\"0\" aria-label=\"Apply for Savings Account for Website\" target=\"_blank\"><span>Apply for Savings Account</span></a></div></div>"
+  },
+  {
+   "active": false,
+   "label": "Apply for Hybrid Home Loan with RBL Bank",
+   "desktop": "https://d34s92jlbrwuc5.cloudfront.net/2026-09/hybrid-home-loan.webp?VersionId=rKSjcD6Zj8xvFhsgBiNj3g5izRaDCUjG",
+   "mobile": "https://d34s92jlbrwuc5.cloudfront.net/2026-09/hybrid-home-loan-m.webp?VersionId=4riLldZqtAcygipzJUvqKTDdY1CpE4E8",
+   "info": "<div class=\"clearfix text-formatted field field--name-field-banner-description field--type-text-long field--label-hidden field__item a3\"><style type=\"text/css\">.ccOffer .banner-info-inner\n    {\n      width:1300px;\nheight:400px;\nmargin: 0 0 0 -100px;\nfloat:left;\ncolor:#fff;\ndisplay: block;\n  text-decoration: none;\n    }\n\t.ccOffer .banner-info-inner span {\n  display: block;\n  width: 100%;\n  height: 100%;\n  font-size: 0;\n  line-height: 0;\n  color: transparent;\n}\n\t\n\t\n.home-banner-wrapper .slick-dots { bottom: 5px;}\n</style><div class=\"ccOffer\"><a class=\"banner-info-inner a-attention-link-add-script\" href=\"/personal-banking/loans/housing-loan\" id=\"hp-hero-banner-home-loan\" tabindex=\"-1\" aria-label=\"Apply for Home Loan for Housing Loan\"><span>Apply for Home Loan</span></a></div></div>"
+  },
+  {
+   "active": false,
+   "label": "Pay your taxes seamlessly with RBL Bank. Direct tax, GST, Custom duty & more.",
+   "desktop": "https://d34s92jlbrwuc5.cloudfront.net/2026-09/rbl-bank-direct-tax-gst-custom-duty-banner.webp?VersionId=daA6C8PU9O9o9nIySSF4Bbu3CpsLFgr4",
+   "mobile": "https://d34s92jlbrwuc5.cloudfront.net/2026-09/rbl-bank-direct-tax-gst-custom-duty-banner-m.webp?VersionId=c9sdwaYuMSu5zi3So5.5nUqJHN22LDc7",
+   "info": "<div class=\"clearfix text-formatted field field--name-field-banner-description field--type-text-long field--label-hidden field__item a3\"><style type=\"text/css\">\n\tbody .banner-section .banner-info .tax .banner-info-inner h1{font-size:30px !important;}\n@media screen and (max-width: 768px) {\n  body .banner-section .banner-info .tax .banner-info-inner h1{font-size:24px !important;}\n}\t\n</style><div class=\"tax\"><div class=\"banner-info-inner\"><h1 class=\"text-white mb15\">Pay your taxes seamlessly with RBL Bank. <br>Direct tax, GST, Custom duty &amp; more.</h1><h2 class=\"text-white h4 mb25\"><strong>Pay via:</strong> Internet Banking | Branch</h2><div class=\"aos-init aos-animate\" data-aos=\"fade-up\" data-aos-anchor=\"#data-section1\" data-aos-delay=\"900\"><a class=\"btn common-btn-blue a-attention-link-add-script\" href=\"/personal-banking/convenience-banking/tax-payments/direct-tax/?tabName=what-is-direct-tax\" id=\"hp-hero-banner-tax-payment\" tabindex=\"-1\" aria-label=\"Know More for What Is Direct Tax\">Know More</a></div></div></div></div>"
+  }
+ ],
+ "promo": [
+  {
+   "active": false,
+   "cls": "slick-slide",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-shoppers-stop-credit-cards.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-shoppers-stop-credit-cards-m.webp",
+   "sectionStyle": "",
+   "offer": ""
+  },
+  {
+   "active": false,
+   "cls": "slick-slide",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/irctc-rbl-bank-credit-card.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/irctc-rbl-bank-credit-card-m.webp",
+   "sectionStyle": "",
+   "offer": "<h2 class=\"common-section-heading\" style=\"color:white;\">Elevate your travel<br>with Incredible Benefits</h2><div class=\"banner-para p20 text-white\"><ul><li><span>Get 40X value of the annual fees</span></li><li><span>1 Reward Point on IRCTC= INR 1</span></li><li><span>Tap &amp; Go</span></li></ul></div><div><p><a class=\"btn common-btn-blue a-attention-link-add-script\" href=\"https://creditcard.rbl.bank.in/s/applynow?Creditcard=irctc&amp;cs=website-hp-irctc-cc-banner-slot&amp;cg=creditcard&amp;sg=101&amp;sc=WEB01&amp;fc=FF&amp;ofc=NIL&amp;utm_campaign=CreditCard&amp;utm_medium=website&amp;utm_source=website-hp-irctc-cc-banner-slot\" id=\"hp-irctc-cc-banner-slot\" tabindex=\"-1\" aria-label=\"Apply Now for Irctc\" target=\"_blank\">Apply Now</a></p></div>"
+  },
+  {
+   "active": true,
+   "cls": "iocl",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/indianoil-rbl-bank-xtra-credit-card.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/indianoil-rbl-bank-xtra-credit-card-m.webp",
+   "sectionStyle": "",
+   "offer": "<h2 class=\"common-section-heading\" style=\"color:#fff;\"><strong>Go Further &amp; Beyond</strong><br>with IndianOil RBL Bank XTRA Credit Card</h2><div class=\"banner-para p20 fw-400\"><span>Upto 250 Litres Free Fuel at IndianOil Fuel Stations</span></div><div><p><a class=\"btn common-btn-blue a-attention-link-add-script\" href=\"https://creditcard.rbl.bank.in/s/applynow?Creditcard=IOCLXTRA&amp;cs=website-hp-iocl-cc-banner-slot&amp;cg=creditcard&amp;sg=101&amp;sc=WEB01&amp;fc=FF&amp;ofc=NIL&amp;utm_campaign=CreditCard&amp;utm_medium=website&amp;utm_source=website-hp-iocl-cc-banner-slot\" id=\"hp-iocl-cc-banner-slot\" tabindex=\"0\" aria-label=\"Apply Now for IOCLXTRA\" target=\"_blank\">Apply Now</a></p></div>"
+  },
+  {
+   "active": false,
+   "cls": "shprt",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-world-safar-credit-card.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-world-safar-credit-card-m.webp",
+   "sectionStyle": "",
+   "offer": "<h2 class=\"common-section-heading\">You're just a card away<br>from Amazing Offers!</h2><div class=\"banner-para p20 fw-400\"><span>Your Card </span><span class=\"mr10 ml10\">|</span> <span>Your Benefits </span><span class=\"mr10 ml10\">|</span> <span>Your Rules</span></div><div><p><a class=\"btn common-btn-blue a-attention-link-add-script\" href=\"https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&amp;cs=website-hp-world-safari-cc-banner-slot&amp;cg=creditcard&amp;sg=101&amp;sc=WEB01&amp;fc=FF&amp;ofc=NIL&amp;utm_campaign=CreditCard&amp;utm_medium=website&amp;utm_source=website-hp-world-safari-cc-banner-slot\" id=\"hp-cc-banner-slot\" tabindex=\"-1\" aria-label=\"Apply Now for WorldSafari\" target=\"_blank\">Apply Now</a></p></div>"
+  }
+ ],
+ "app": [
+  {
+   "active": false,
+   "style": "background-color:#e3fcff;",
+   "href": "/financial-inclusion-saturation-campaign",
+   "id": "hp-nomination-banner",
+   "alt": "Financial Inclusion Saturation Campaign 2026",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-desktop.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-mob.webp"
+  },
+  {
+   "active": false,
+   "style": "background-color:#edf7ff;",
+   "href": "/corporate-banking/rbl-mybizbank-app?tabName=why-us",
+   "id": "hp-bizbank-banner-know-more",
+   "alt": "Know more about RBL MyBizBank business banking app features",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner-m.webp"
+  },
+  {
+   "active": true,
+   "style": "background-color:#ede8f7;",
+   "href": "/chatbot",
+   "id": "hp-chatbot-banner-know-more",
+   "alt": "RBL Cares Chatbot",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot-m.webp"
+  },
+  {
+   "active": false,
+   "style": "background-image:linear-gradient(to right, #92caa5, #76bb82);",
+   "href": "https://api.whatsapp.com/send?phone=918433598888&text=Hi%20RBL&source=&data=&app_absent=",
+   "id": "hp-whatsapp-banner-start-now",
+   "alt": "WhatsApp Banking by RBL Bank - Convenient banking at your fingertips",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services-m.webp"
+  },
+  {
+   "active": false,
+   "style": "background-color:#fbfbfb;",
+   "href": "https://sancharsaathi.gov.in/",
+   "id": "hp-sancharsaathi-banner1",
+   "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+   "desktop": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-ad.webp",
+   "mobile": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-am.webp"
+  }
+ ],
+ "products": [
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-digital-savings-account.webp",
+   "alt": "Digital Savings Account offering easy account access, online transactions, and smart savings features",
+   "title": "Digital Savings Account - Prime",
+   "links": [
+    {
+     "href": "/personal-banking/accounts/savings-accounts/digital-savings-account-prime",
+     "id": "hp-our-products-know-dsa",
+     "cls": "btn common-btn-gray mr15 a-attention-link-add-script",
+     "text": "Know More"
+    },
+    {
+     "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dsa&utm_content=home&utm_campaign=rbl-dsa-new-website",
+     "id": "hp-our-products-apply-dsa",
+     "cls": "btn common-btn-blue a-attention-link-add-script",
+     "text": "Open Now"
+    }
+   ]
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-shoprite-credit-card.webp",
+   "alt": "Get the ShopRite Credit Card from RBL Bank for exciting discounts and offers",
+   "title": "Shoprite Credit Card",
+   "links": [
+    {
+     "href": "/personal-banking/cards/credit-cards/shoprite-credit-card",
+     "id": "hp-our-products-know-shoprite",
+     "cls": "btn common-btn-gray mr15 a-attention-link-add-script",
+     "text": "Know More"
+    },
+    {
+     "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=Shoprite&cs=Website-hp-ourprod-Shoprite&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-hp-ourprod-Shoprite",
+     "id": "hp-our-products-apply-shoprite",
+     "cls": "btn common-btn-blue a-attention-link-add-script",
+     "text": "Apply Now"
+    }
+   ]
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-digital-fixed-deposits-op.webp",
+   "alt": "Digital Fixed Deposit",
+   "title": "Digital Fixed Deposit",
+   "links": [
+    {
+     "href": "/personal-banking/term-deposits/digital-fixed-deposit",
+     "id": "hp-our-products-know-dig-fd",
+     "cls": "btn common-btn-outline br1w mr15 a-attention-link-add-script",
+     "text": "Know More"
+    },
+    {
+     "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dig-fd&utm_content=home&utm_campaign=rbl-dig-fd-website",
+     "id": "hp-our-products-apply-dig-fd",
+     "cls": "btn common-btn-blue a-attention-link-add-script",
+     "text": "Apply Now"
+    }
+   ]
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-education-loan-op.webp",
+   "alt": "Education Loan ",
+   "title": "Education Loan",
+   "links": [
+    {
+     "href": "/personal-banking/loans/education-loan",
+     "id": "hp-our-products-know-education-loan",
+     "cls": "btn common-btn-gray mr15 a-attention-link-add-script",
+     "text": "Know More"
+    },
+    {
+     "href": "/apply-form?product=Education-Loan&LeadSource=website-hp-ourprod-education-loan&utm_campaign=Loan&utm_medium=Website&utm_source=website-hp-ourprod-education-loan",
+     "id": "hp-our-products-apply-education-loan",
+     "cls": "btn common-btn-blue a-attention-link-add-script",
+     "text": "Apply Now"
+    }
+   ]
+  }
+ ],
+ "offers": [
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/apply-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+   "tag": "Debit Card",
+   "title": "Festive Offer",
+   "text": "Apply for a new Visa Enterprise Debit Card & get INR 1,000 Amazon Shopping Voucher",
+   "href": "/offers-and-promotions/apply-spend-to-earn-amazon-vouchers-on-your-enterprise-debit-card",
+   "id": "hp-offers-arrow-first"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/attractive-offers-rbl-bank-credit-cards.webp",
+   "tag": "Credit Card",
+   "title": "Attractive Offers",
+   "text": "There's More to Save & Celebrate!",
+   "href": "/offers-and-promotions/attractive-offers-with-rbl-bank-credit-cards",
+   "id": "hp-offers-arrow-second"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/spend-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+   "tag": "Debit Card",
+   "title": "Festive Offer",
+   "text": "Exclusive Festive Offer for Existing Visa Enterprise Debit Cardholders. Earn Amazon Shopping Vouchers worth INR 2,000 every month.",
+   "href": "/offers-and-promotions/exclusive-festive-offer-existing-visa-enterprise-debit-cardholders-amazon-shopping-vouchers",
+   "id": "hp-offers-arrow-fourth"
+  }
+ ],
+ "blog": [
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/how-to-protect-your-device-from-apk-fraud-hp.webp",
+   "date": "Nov 04, 2026",
+   "title": "How to Protect Your Device from APK Fraud?",
+   "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud",
+   "id": "hp-blog-rbl-bank-protect-passwords"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/tips-for-identifying-genuine-bank-communications-hp.webp",
+   "date": "Oct 26, 2026",
+   "title": "Tips for Identifying Genuine Bank Communicationse",
+   "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications",
+   "id": "hp-blog-advantages-of-digital-fd"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/10-cybersecurity-tips-to-stay-safe-online-hp-t.webp",
+   "date": "Oct 16, 2026",
+   "title": "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+   "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online",
+   "id": "hp-blog-how-much-money-savings"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india-hp.webp",
+   "date": "Oct 14, 2026",
+   "title": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+   "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india",
+   "id": "hp-blog-rbl-bank-api-banking-transformation"
+  },
+  {
+   "bg": "https://webassets.rbl.bank.in/document/images/webp/spoofed-calls-1600-series-how-to-protect-yourself-hp.webp",
+   "date": "Oct 07, 2026",
+   "title": "1600-Series Call Scam: How Fraudsters Spoof Numbers to Steal from You",
+   "href": "/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself",
+   "id": "hp-blog-rbl-bank-type-of-fd"
+  }
+ ],
+ "videos": [
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/hp-video/chess-one-right-move.webp",
+   "alt": "Business or Chess, the right move can change the entire game | Ft. D Gukesh X RBL Bank",
+   "id": "hp-video-1",
+   "attrs": {
+    "class": "item slick-slide slick-current slick-active",
+    "data-slick-index": "0",
+    "aria-hidden": "false",
+    "style": "width: 252px;"
+   },
+   "inner": "<div class=\"csr-cate-card-wrap-bg lazy-background\"><img class=\"video-thumb\" src=\"https://webassets.rbl.bank.in/document/images/hp-video/chess-one-right-move.webp\" alt=\"Business or Chess, the right move can change the entire game | Ft. D Gukesh X RBL Bank\" width=\"383\" height=\"447\" data-video=\"https://www.youtube.com/embed/2XGgxeKXOAU?si=Noh20xgIlRzBihz_&amp;autoplay=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0&amp;controls=1\" id=\"hp-video-1\" loading=\"lazy\"></div>"
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/hp-video/csr-initiatives-helo.webp",
+   "alt": "CSR Initiatives - Creating Impact Through H.E.LO Health, Education & Livelihood Opportunities",
+   "id": "hp-video-3",
+   "attrs": {
+    "class": "item slick-slide slick-active",
+    "data-slick-index": "1",
+    "aria-hidden": "false",
+    "style": "width: 252px;"
+   },
+   "inner": "<div class=\"csr-cate-card-wrap-bg lazy-background\"><img class=\"video-thumb\" src=\"https://webassets.rbl.bank.in/document/images/hp-video/csr-initiatives-helo.webp\" alt=\"CSR Initiatives - Creating Impact Through H.E.LO Health, Education &amp; Livelihood Opportunities\" width=\"383\" height=\"447\" data-video=\"https://www.youtube.com/embed/aGpwDa9Z4aY?si=QsAfOcDC0ZrlvvGU&amp;autoplay=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0&amp;controls=1\" id=\"hp-video-3\" loading=\"lazy\"></div>"
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/hp-video/world-safari-gukesh.webp",
+   "alt": "Who’s the best travel companion for World Chess Champion D. Gukesh?",
+   "id": "hp-video-2",
+   "attrs": {
+    "class": "item slick-slide slick-active",
+    "data-slick-index": "2",
+    "aria-hidden": "false",
+    "style": "width: 252px;"
+   },
+   "inner": "<div class=\"csr-cate-card-wrap-bg lazy-background\"><img class=\"video-thumb\" src=\"https://webassets.rbl.bank.in/document/images/hp-video/world-safari-gukesh.webp\" alt=\"Who’s the best travel companion for World Chess Champion D. Gukesh?\" width=\"383\" height=\"447\" data-video=\"https://www.youtube.com/embed/HdMYmrBVKBM?si=ZJg6wi1BVGIvUjBO&amp;autoplay=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0&amp;controls=1\" id=\"hp-video-2\" loading=\"lazy\"></div>"
+  },
+  {
+   "img": "https://webassets.rbl.bank.in/document/images/hp-video/voyedge-forex-card.webp",
+   "alt": "RBL Bank VoyEdge Forex Card. Experience every travel moment, with an edge.",
+   "id": "hp-video-4",
+   "attrs": {
+    "class": "item slick-slide slick-active",
+    "data-slick-index": "3",
+    "aria-hidden": "false",
+    "style": "width: 252px;"
+   },
+   "inner": "<div class=\"csr-cate-card-wrap-bg lazy-background\"><img class=\"video-thumb\" src=\"https://webassets.rbl.bank.in/document/images/hp-video/voyedge-forex-card.webp\" alt=\"RBL Bank VoyEdge Forex Card. Experience every travel moment, with an edge.\" width=\"383\" height=\"447\" data-video=\"https://www.youtube.com/embed/tMUvCjXiqCo?si=m1AZ1ddbp1nUPNae&amp;autoplay=1&amp;rel=0&amp;modestbranding=1&amp;showinfo=0&amp;controls=1\" id=\"hp-video-4\" loading=\"lazy\"></div>"
+  }
+ ],
+ "calcButtons": [
+  {
+   "href": "https://online.rbl.bank.in/corp/",
+   "id": "hp-fd-calculator-existing-customer",
+   "text": "Existing Customer"
+  },
+  {
+   "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hp-calculator-fd-newcust-button&utm_term=hp-calculator-fd-newcust-button&utm_campaign=website-dig-fd",
+   "id": "hp-fd-calculator-new-customer",
+   "text": "New Customer"
+  }
+ ]
+}

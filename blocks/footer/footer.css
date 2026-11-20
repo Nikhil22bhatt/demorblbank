@@ -1,20 +1,581 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* stylelint-disable no-descending-specificity */
+
+/* RBL Bank footer — replica canon (shared/canon.css), mobile-first. */
+
+footer .site-footer {
+  background: #000;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-wrap {
+  padding: 45px 0;
+  background: var(--rbl-footer);
 }
 
-footer .footer p {
+footer .footer-main {
+  color: rgb(255 255 255 / 65%);
+  font-size: 13.712px;
+}
+
+footer .footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+footer .footer-col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 12px;
+}
+
+footer .footer-col h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+footer .footer-head {
+  position: relative;
   margin: 0;
+  color: var(--rbl-footer-head);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .footer-head .underline {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 4px 0 10px;
+  background: var(--rbl-footer-rule);
+  opacity: 0;
+}
+
+footer .footer-head-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  width: 25px;
+  height: 25px;
+  margin-top: -3px;
+  padding-top: 5px;
+  border: 1px solid #909090;
+  border-radius: 4px;
+  color: #909090;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  opacity: 1;
+}
+
+footer .footer-list li {
+  margin-bottom: 10px;
+  line-height: 26.88px;
+}
+
+footer .footer-list a,
+footer .others-list a {
+  display: inline-block;
+  color: var(--rbl-footer-link);
+  font-size: 14px;
+  line-height: 16px;
+  transition: all 0.2s linear;
+}
+
+footer .footer-list a:hover,
+footer .others-list a:hover {
+  color: #fff;
+}
+
+footer .footer-list,
+footer .others-wrap {
+  display: none;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+footer .footer-head.active-t ~ .footer-list,
+footer .others-row:has(.footer-head.active-t) .others-wrap {
+  display: block;
+}
+
+footer .footer-bottom {
+  padding-top: 6px;
+  padding-bottom: 21.5px;
+  border-top: 0;
+  letter-spacing: 0.2px;
+}
+
+footer .others-row {
+  display: flex;
+  flex-direction: column;
+  margin: -10px -12px 0;
+  padding-top: 0;
+}
+
+footer .others-row > *,
+footer .footer-legal > * {
+  width: 100%;
+  padding: 0 12px;
+}
+
+footer .others-row .footer-head {
+  margin-bottom: 13px;
+}
+
+footer .others-row .footer-head::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 4px 0 10px;
+  background: var(--rbl-footer-rule);
+  opacity: 0;
+}
+
+footer .others-wrap {
+  position: relative;
+}
+
+footer .others-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13.712px;
+  line-height: 26.88px;
+}
+
+footer .others-list li {
+  position: relative;
+  width: 100%;
+  margin: 0 0 10px;
+  padding-right: 0;
+}
+
+footer .others-list li a {
+  position: relative;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+footer .others-list li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -9px;
+  display: none;
+  width: 1px;
+  height: 15px;
+  background: var(--rbl-footer-rule);
+}
+
+footer .others-list sup {
+  line-height: 0;
+}
+
+footer .others-list sup img {
+  width: 40px;
+  height: 15.5px;
+  margin-bottom: 2.5px;
+  vertical-align: bottom;
+}
+
+footer .others-toggle {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  z-index: 3;
+  display: none;
+  width: 25px;
+  height: 25px;
+  padding-top: 2px;
+  border: 1px solid #909090;
+  border-radius: 4px;
+  color: #909090;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* live: the two RBI links are .btn anchors, their box sits 2px lower (chrome-parity Δy) */
+footer .others-list li a.others-list-btn {
+  top: 2px;
+  border-radius: 4px;
+}
+
+footer .footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 13px -12px 0;
+  padding: 16px 0 30px;
+  border-top: 1px solid #303030;
+}
+
+footer .pbottom {
+  display: none;
+  margin-bottom: 15px;
+  color: #dbdcde;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+footer .follow-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+footer .follow-us li {
+  margin: 0 3px;
+}
+
+footer .follow-us-item-label {
+  display: none;
+}
+
+footer .follow-us-label {
+  margin-right: 22px;
+  color: var(--rbl-footer-head);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.88px;
+}
+
+footer .follow-us a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--rbl-footer-rule);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 4%);
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+footer .follow-us svg {
+  width: 16px;
+  height: 16px;
+  fill: currentcolor;
+  vertical-align: middle;
+}
+
+footer .follow-us a.a-fb { background: #1877f2; }
+footer .follow-us a.a-linkedin { background: #0762cb; }
+footer .follow-us a.a-twitter { background: #5da9dd; }
+footer .follow-us a.a-yt { background: #fe0000; }
+
+footer .follow-us a.a-insta {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+footer .copyright-mobile {
+  display: block;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 23.52px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+/* leaving-site notice (hidden until a third-party link asks for it) */
+footer .modal[hidden] {
+  display: none;
+}
+
+@media (width >= 768px) {
+  footer .footer-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  footer .footer-head .underline {
+    opacity: 1;
+  }
+
+  footer .footer-head-toggle {
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0;
+  }
+
+  footer .footer-list,
+  footer .others-wrap {
+    display: block;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  footer .others-row > .others-wrap {
+    padding-left: 12px;
+  }
+
+  footer .footer-bottom {
+    padding-top: 22px;
+    padding-bottom: 20px;
+    border-top: 1px solid #303030;
+  }
+
+  footer .others-row {
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  footer .others-list li {
+    width: auto;
+    margin: 0 8px 10px 0;
+    padding-right: 8px;
+  }
+
+  footer .others-list li a::after {
+    display: block;
+  }
+
+  footer .others-list li:last-child a::after {
+    display: none;
+  }
+
+  footer .others-toggle {
+    display: block;
+  }
+
+  footer .pbottom {
+    display: block;
+  }
+
+  footer .follow-us {
+    justify-content: flex-end;
+    margin-bottom: 0;
+  }
+
+  footer .follow-us-item-label {
+    display: list-item;
+  }
+
+  footer .follow-us a {
+    width: 27px;
+    height: 27px;
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+  footer .follow-us svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  footer .follow-us a.a-fb,
+  footer .follow-us a.a-linkedin,
+  footer .follow-us a.a-twitter,
+  footer .follow-us a.a-insta,
+  footer .follow-us a.a-yt {
+    background: rgb(255 255 255 / 4%);
+  }
+
+  footer .copyright-mobile {
+    display: none;
+  }
+
+  /* listing template: live footer is 1.37px taller, the Others row starts lower */
+  body.listing footer .footer-bottom {
+    padding-top: 23.37px;
+  }
+}
+
+@media (width >= 992px) {
+  footer .others-row > .col-lg-1 {
+    width: calc(100% / 12);
+  }
+
+  footer .others-row > .col-lg-11 {
+    width: calc(100% * 11 / 12);
+  }
+
+  footer .footer-legal > .col-lg-6 {
+    width: 50%;
+  }
+}
+
+/* homepage footer: an extra band in the footer colour; full-white mobile copyright */
+body.landing footer .site-footer {
+  padding-bottom: 13px;
+  background: var(--rbl-footer);
+}
+
+body.landing footer .copyright-mobile {
+  opacity: 1;
+}
+
+@media (width >= 768px) {
+  body.landing footer .site-footer {
+    padding-bottom: 15px;
+  }
+}
+
+/* ======================= Mobile tab bar (< 992) ======================= */
+footer .tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 15%);
+}
+
+footer .tabbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 72px;
+  padding-top: 11px;
+}
+
+footer .tabbar-item img {
+  width: 62px;
+  height: 26px;
+}
+
+footer .tabbar-item-more img {
+  width: 30px;
+}
+
+footer .tabbar-label,
+footer a.tabbar-label:any-link {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.16px;
+}
+
+footer a.tabbar-label-home:any-link {
+  color: var(--rbl-blue);
+  font-weight: 600;
+}
+
+@media (width >= 992px) {
+  footer .tabbar {
+    display: none;
+  }
+}
+
+/* ======================= Fixed launchers ======================= */
+
+/* RBL Cares chat: static stand-in (dynamics row 11), MoveUpDown restored at delivery */
+footer .chat-launcher {
+  position: fixed;
+  right: 0;
+  bottom: 100px;
+  z-index: 999;
+  min-width: 64px;
+  min-height: 64px;
+  padding: 2px;
+  text-align: center;
+  cursor: pointer;
+  animation: move-up-down 3s infinite alternate;
+}
+
+footer .chat-launcher-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 62px;
+  height: 67px;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+footer .chat-launcher-icon {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: 70px;
+  height: auto;
+}
+
+footer .chat-launcher-label {
+  display: none;
+}
+
+@keyframes move-up-down {
+  0%,
+  100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+footer .go-top {
+  position: fixed;
+  right: 53px;
+  bottom: 180px;
+  z-index: 999;
+  width: 75px;
+  height: 73px;
+  padding-top: 11px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+  text-align: center;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.body-active-effect footer .go-top {
+  display: none;
+  opacity: 1;
+}
+
+footer .go-top img {
+  position: relative;
+  margin-top: -30px;
+  animation: up-down 2s ease infinite;
+}
+
+footer .go-top-label {
+  display: block;
+  margin-top: -4px;
+  color: var(--rbl-blue);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26.88px;
+}
+
+@keyframes up-down {
+  0% { top: 10px; }
+  50% { top: 15px; }
+  100% { top: 10px; }
+}
+
+@media (width >= 768px) {
+  footer .chat-launcher {
+    right: 30px;
+    bottom: 20px;
+  }
+
+  footer .chat-launcher-icon {
+    width: 104px;
+    height: 115px;
+  }
+
+  .body-active-effect footer .go-top {
+    display: block;
   }
 }

@@ -1,0 +1,152 @@
+{
+  "live": "stardust/replica/motion/about-us-live-1440.json",
+  "build": "stardust/replica/motion/about-us-proto-1440.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 5,
+  "counts": {
+    "behaviors": 19,
+    "parity": 9,
+    "missing": 5,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 5,
+    "advisory": 0
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".right-btn-carousel → .au-years__btn--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .right-btn-carousel → .au-years__btn--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".awards-card → .au-award__card",
+      "state": "parity",
+      "note": "img.transform; 200ms; paired by order",
+      "line": "motion hover .awards-card → .au-award__card: parity (img.transform; 200ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": ".card-impact → .au-impact__card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .card-impact → .au-impact__card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".img-card → .au-mission__card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .img-card → .au-mission__card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".two-col-card → .au-vision__card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .two-col-card → .au-vision__card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "box-shadow",
+      "state": "missing",
+      "note": "2 event(s) on live, 200ms",
+      "line": "motion transition box-shadow: MISSING on build (2 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "9 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition opacity: parity (9 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "missing",
+      "note": "383 event(s) on live, 200ms",
+      "line": "motion transition top: MISSING on build (383 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "7 event(s) on live, 10 on build, 300ms",
+      "line": "motion transition transform: parity (7 event(s) on live, 10 on build, 300ms)"
+    },
+    {
+      "cls": "class",
+      "name": "aos-animate",
+      "state": "parity",
+      "note": "added 7× on live, 7× on build",
+      "line": "motion class aos-animate: parity (added 7× on live, 7× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "body-active-effect",
+      "state": "parity",
+      "note": "added 4× on live, 4× on build",
+      "line": "motion class body-active-effect: parity (added 4× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "fixed-tab-body",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class fixed-tab-body: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolldown",
+      "state": "parity",
+      "note": "added 6× on live, 5× on build",
+      "line": "motion class scrolldown: parity (added 6× on live, 5× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolled",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class scrolled: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrollup",
+      "state": "parity",
+      "note": "added 4× on live, 6× on build",
+      "line": "motion class scrollup: parity (added 4× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-active",
+      "state": "missing",
+      "note": "trigger class added 11× on live, never on build",
+      "line": "motion class slick-active: MISSING on build (trigger class added 11× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-current",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class slick-current: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-disabled",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class slick-disabled: MISSING on build (trigger class added 1× on live, never on build)"
+    }
+  ]
+}

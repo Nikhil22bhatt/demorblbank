@@ -1,0 +1,11 @@
+{
+  "writtenBy": "gate.sh --gate-against-baseline",
+  "origin": "baseline",
+  "url": "https://www.rbl.bank.in/about-us",
+  "width": 1440,
+  "at": "2026-11-19T08:45:43.095Z",
+  "originBaseline": {
+    "capturedAt": "2026-11-19T08:45:43.095Z",
+    "height": 6138
+  }
+}

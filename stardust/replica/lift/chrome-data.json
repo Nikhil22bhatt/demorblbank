@@ -1,0 +1,3619 @@
+{
+ "drawer": {
+  "title": "Our Products",
+  "close": "Close",
+  "navs": [
+   {
+    "cls": "acnav acnavOurProd acnavOurProd-xs",
+    "items": [
+     {
+      "label": "Products",
+      "link": null,
+      "children": [
+       {
+        "label": "",
+        "link": null,
+        "title": "Top 3 Products",
+        "cards": [
+         {
+          "cls": "top-pro-card top-pro-card1",
+          "paras": [
+           {
+            "cls": "p17",
+            "text": "Higher Interest Rate on Digital FD",
+            "links": []
+           },
+           {
+            "cls": "",
+            "text": "Know More",
+            "links": [
+             {
+              "text": "Know More",
+              "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+              "aria": "Know More for Website",
+              "target": "_blank"
+             }
+            ]
+           }
+          ],
+          "img": {
+           "src": "https://webassets.rbl.bank.in/document/images/webp/digital-fd-pm.webp",
+           "alt": "Digital Fixed Deposits – Open your Digital FD now and get market-high interest rate, without having to open a savings bank account."
+          }
+         },
+         {
+          "cls": "top-pro-card top-pro-card2",
+          "paras": [
+           {
+            "cls": "p18 text-white",
+            "text": "INR 3,000 Voucher from MakeMyTrip",
+            "links": []
+           },
+           {
+            "cls": "",
+            "text": "Apply Now",
+            "links": [
+             {
+              "text": "Apply Now",
+              "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari",
+              "aria": "Apply Now for WorldSafari",
+              "target": "_blank"
+             }
+            ]
+           }
+          ],
+          "img": {
+           "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-world-safari-credit-card-offer-mb.webp",
+           "alt": "Exclusive travel perks with RBL Bank World Safari Credit Card"
+          }
+         },
+         {
+          "cls": "top-pro-card top-pro-card2",
+          "paras": [
+           {
+            "cls": "p18 text-white",
+            "text": "Open Digital Savings account in 3 steps",
+            "links": []
+           },
+           {
+            "cls": "",
+            "text": "Open Now",
+            "links": [
+             {
+              "text": "Open Now",
+              "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+              "aria": "Open Now for Website",
+              "target": "_blank"
+             }
+            ]
+           }
+          ],
+          "img": {
+           "src": "https://webassets.rbl.bank.in/document/images/webp/open-digital-savings-account-3-steps-mb.webp",
+           "alt": "Open a digital savings account in 3 simple steps with RBL Bank for easy online banking"
+          }
+         }
+        ]
+       },
+       {
+        "label": "Personal Banking",
+        "link": {
+         "text": "Personal Banking",
+         "href": "/personal-banking",
+         "aria": "Personal Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "Accounts",
+          "link": {
+           "text": "Accounts",
+           "href": "/personal-banking/accounts",
+           "aria": "Accounts for personal banking"
+          },
+          "children": [
+           {
+            "label": "Savings Accounts",
+            "link": {
+             "text": "Savings Accounts",
+             "href": "/personal-banking/accounts/savings-accounts",
+             "aria": "Savings Accounts for accounts"
+            }
+           },
+           {
+            "label": "Salary Accounts",
+            "link": {
+             "text": "Salary Accounts",
+             "href": "/personal-banking/accounts/salary-account",
+             "aria": "Salary Accounts for Salary Account"
+            }
+           },
+           {
+            "label": "Current Accounts",
+            "link": {
+             "text": "Current Accounts",
+             "href": "/business-banking/business/partnering-your-growth/current-accounts",
+             "aria": "Current Accounts for partnering your growth"
+            }
+           },
+           {
+            "label": "Special Institutions Account",
+            "link": {
+             "text": "Special Institutions Account",
+             "href": "/personal-banking/accounts/special-institutions-account",
+             "aria": "Special Institutions Account for accounts"
+            }
+           },
+           {
+            "label": "Safe Deposit Lockers",
+            "link": {
+             "text": "Safe Deposit Lockers",
+             "href": "/personal-banking/accounts/safe-deposit-lockers",
+             "aria": "Safe Deposit Lockers for accounts"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Term Deposits",
+          "link": {
+           "text": "Term Deposits",
+           "href": "/personal-banking/term-deposits",
+           "aria": "Term Deposits for personal banking"
+          },
+          "children": [
+           {
+            "label": "Raksha Kavach Fixed Deposits",
+            "link": {
+             "text": "Raksha Kavach Fixed Deposits",
+             "href": "/personal-banking/term-deposits/raksha-kavach-fixed-deposits",
+             "aria": "Raksha Kavach Fixed Deposits for term deposits"
+            }
+           },
+           {
+            "label": "Digital Fixed Deposits",
+            "link": {
+             "text": "Digital Fixed Deposits",
+             "href": "/personal-banking/term-deposits/digital-fixed-deposit",
+             "aria": "Digital Fixed Deposits for Digital Fixed Deposit"
+            }
+           },
+           {
+            "label": "Ace Fixed Deposits",
+            "link": {
+             "text": "Ace Fixed Deposits",
+             "href": "/personal-banking/term-deposits/ace-fixed-deposit",
+             "aria": "Ace Fixed Deposits for Ace Fixed Deposit"
+            }
+           },
+           {
+            "label": "Smart Recurring Deposits",
+            "link": {
+             "text": "Smart Recurring Deposits",
+             "href": "/personal-banking/term-deposits/smart-recurring-deposit",
+             "aria": "Smart Recurring Deposits for Smart Recurring Deposit"
+            }
+           },
+           {
+            "label": "Money Max Deposits",
+            "link": {
+             "text": "Money Max Deposits",
+             "href": "/personal-banking/term-deposits/money-max-deposits",
+             "aria": "Money Max Deposits for term deposits"
+            }
+           },
+           {
+            "label": "Flexi Sure Fixed Deposits",
+            "link": {
+             "text": "Flexi Sure Fixed Deposits",
+             "href": "/personal-banking/term-deposits/flexi-sure-fixed-deposits",
+             "aria": "Flexi Sure Fixed Deposits for term deposits"
+            }
+           },
+           {
+            "label": "Regular Fixed Deposits",
+            "link": {
+             "text": "Regular Fixed Deposits",
+             "href": "/personal-banking/term-deposits/regular-fixed-deposits",
+             "aria": "Regular Fixed Deposits for term deposits"
+            }
+           },
+           {
+            "label": "Senior Citizen Fixed Deposits (Wealth Secure)",
+            "link": {
+             "text": "Senior Citizen Fixed Deposits (Wealth Secure)",
+             "href": "/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits",
+             "aria": "Senior Citizen Fixed Deposits (Wealth Secure) for Senior Citizen Wealth Secure Fixed Deposits"
+            }
+           },
+           {
+            "label": "Super Senior Citizen Fixed Deposits (Akshay Nidhi)",
+            "link": {
+             "text": "Super Senior Citizen Fixed Deposits (Akshay Nidhi)",
+             "href": "/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits",
+             "aria": "Super Senior Citizen Fixed Deposits (Akshay Nidhi) for Super Senior Citizen Akshay Nidhi Fixed Deposits"
+            }
+           },
+           {
+            "label": "Tax Saving Fixed Deposits",
+            "link": {
+             "text": "Tax Saving Fixed Deposits",
+             "href": "/personal-banking/term-deposits/tax-savings-fixed-deposits",
+             "aria": "Tax Saving Fixed Deposits for Tax Savings Fixed Deposits"
+            }
+           },
+           {
+            "label": "Recurring Deposits",
+            "link": {
+             "text": "Recurring Deposits",
+             "href": "/personal-banking/term-deposits/recurring-deposits",
+             "aria": "Recurring Deposits for term deposits"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Cards",
+          "link": {
+           "text": "Cards",
+           "href": "/personal-banking/cards",
+           "aria": "Cards for personal banking"
+          },
+          "children": [
+           {
+            "label": "Credit Cards",
+            "link": {
+             "text": "Credit Cards",
+             "href": "/personal-banking/cards/credit-cards",
+             "aria": "Credit Cards for cards"
+            }
+           },
+           {
+            "label": "Debit Cards",
+            "link": {
+             "text": "Debit Cards",
+             "href": "/personal-banking/cards/debit-cards",
+             "aria": "Debit Cards for cards"
+            }
+           },
+           {
+            "label": "Commercial Cards",
+            "link": {
+             "text": "Commercial Cards",
+             "href": "/personal-banking/cards/commercial-cards",
+             "aria": "Commercial Cards for cards"
+            }
+           },
+           {
+            "label": "Prepaid Cards",
+            "link": {
+             "text": "Prepaid Cards",
+             "href": "/personal-banking/cards/prepaid-cards",
+             "aria": "Prepaid Cards for cards"
+            }
+           },
+           {
+            "label": "Forex Cards",
+            "link": {
+             "text": "Forex Cards",
+             "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+             "aria": "Forex Cards for Voyedge Forex Card"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Loans",
+          "link": {
+           "text": "Loans",
+           "href": "/personal-banking/loans",
+           "aria": "Loans for personal banking"
+          },
+          "children": [
+           {
+            "label": "Loan Against Securities",
+            "link": {
+             "text": "Loan Against Securities",
+             "href": "/personal-banking/loans/loan-against-securities",
+             "aria": "Loan Against Securities for loans"
+            }
+           },
+           {
+            "label": "Business Loan",
+            "link": {
+             "text": "Business Loan",
+             "href": "/personal-banking/loans/business-loan",
+             "aria": "Business Loan for loans"
+            }
+           },
+           {
+            "label": "Education Loan",
+            "link": {
+             "text": "Education Loan",
+             "href": "/personal-banking/loans/education-loan",
+             "aria": "Education Loan for loans"
+            }
+           },
+           {
+            "label": "Loan Against Gold Ornaments",
+            "link": {
+             "text": "Loan Against Gold Ornaments",
+             "href": "/personal-banking/loans/loan-against-gold-ornaments",
+             "aria": "Loan Against Gold Ornaments for loans"
+            }
+           },
+           {
+            "label": "",
+            "link": null
+           },
+           {
+            "label": "Car Loan",
+            "link": {
+             "text": "Car Loan",
+             "href": "/personal-banking/loans/car-loan",
+             "aria": "Car Loan for loans"
+            }
+           },
+           {
+            "label": "Two Wheeler Loan",
+            "link": {
+             "text": "Two Wheeler Loan",
+             "href": "/personal-banking/loans/two-wheeler-loan",
+             "aria": "Two Wheeler Loan for loans"
+            }
+           },
+           {
+            "label": "Loan Against Property",
+            "link": {
+             "text": "Loan Against Property",
+             "href": "/personal-banking/loans/loan-against-property",
+             "aria": "Loan Against Property for loans"
+            }
+           },
+           {
+            "label": "EasyGain Overdraft",
+            "link": {
+             "text": "EasyGain Overdraft",
+             "href": "/personal-banking/loans/easygain-overdraft",
+             "aria": "EasyGain Overdraft for loans"
+            }
+           },
+           {
+            "label": "Rural Vehicle Finance",
+            "link": {
+             "text": "Rural Vehicle Finance",
+             "href": "/personal-banking/loans/rural-vehicle-finance",
+             "aria": "Rural Vehicle Finance for loans"
+            }
+           },
+           {
+            "label": "Housing Loan",
+            "link": {
+             "text": "Housing Loan",
+             "href": "/personal-banking/loans/housing-loan",
+             "aria": "Housing Loan for loans"
+            }
+           },
+           {
+            "label": "Personal Loan",
+            "link": {
+             "text": "Personal Loan",
+             "href": "/personal-banking/loans/personal-loan",
+             "aria": "Personal Loan for loans"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Insurance",
+          "link": {
+           "text": "Insurance",
+           "href": "/personal-banking/insurance",
+           "aria": "Insurance for personal banking"
+          },
+          "children": [
+           {
+            "label": "Life Insurance",
+            "link": {
+             "text": "Life Insurance",
+             "href": "/personal-banking/insurance/life-insurance",
+             "aria": "Life Insurance for insurance"
+            }
+           },
+           {
+            "label": "General Insurance",
+            "link": {
+             "text": "General Insurance",
+             "href": "/personal-banking/insurance/general-insurance",
+             "aria": "General Insurance for insurance"
+            }
+           },
+           {
+            "label": "Health Insurance",
+            "link": {
+             "text": "Health Insurance",
+             "href": "/personal-banking/insurance/health-insurance",
+             "aria": "Health Insurance for insurance"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Wealth Management",
+          "link": {
+           "text": "Wealth Management",
+           "href": "/personal-banking/wealth-management",
+           "aria": "Wealth Management for personal banking"
+          },
+          "children": [
+           {
+            "label": "Mutual Funds",
+            "link": {
+             "text": "Mutual Funds",
+             "href": "/personal-banking/wealth-management/mutual-fund",
+             "aria": "Mutual Funds for Mutual Fund"
+            }
+           },
+           {
+            "label": "Alternate Investment Fund",
+            "link": {
+             "text": "Alternate Investment Fund",
+             "href": "/personal-banking/wealth-management/alternate-investment-products",
+             "aria": "Alternate Investment Fund for Alternate Investment Products"
+            }
+           },
+           {
+            "label": "Alternate Investment Via Gift City",
+            "link": {
+             "text": "Alternate Investment Via Gift City",
+             "href": "/gift-city/alternate-investment-funds",
+             "aria": "Alternate Investment Via Gift City for Alternate Investment Funds"
+            }
+           },
+           {
+            "label": "e-ASBA",
+            "link": {
+             "text": "e-ASBA",
+             "href": "/personal-banking/wealth-management/e-asba",
+             "aria": "e-ASBA for wealth management"
+            }
+           },
+           {
+            "label": "3 in 1 Account",
+            "link": {
+             "text": "3 in 1 Account",
+             "href": "/personal-banking/wealth-management/3-in-1-account",
+             "aria": "3 in 1 Account for wealth management"
+            }
+           },
+           {
+            "label": "Demat Services",
+            "link": {
+             "text": "Demat Services",
+             "href": "/personal-banking/demat",
+             "aria": "Demat Services for Demat"
+            }
+           },
+           {
+            "label": "Loan Against Securities",
+            "link": {
+             "text": "Loan Against Securities",
+             "href": "/personal-banking/loans/loan-against-securities",
+             "aria": "Loan Against Securities for loans"
+            }
+           },
+           {
+            "label": "National Pension System",
+            "link": {
+             "text": "National Pension System",
+             "href": "/personal-banking/wealth-management/national-pension-system",
+             "aria": "National Pension System for wealth management"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Demat",
+          "link": {
+           "text": "Demat",
+           "href": "/personal-banking/demat",
+           "aria": "Demat for personal banking"
+          }
+         },
+         {
+          "label": "Convenience Banking",
+          "link": {
+           "text": "Convenience Banking",
+           "href": "/personal-banking/convenience-banking",
+           "aria": "Convenience Banking for personal banking"
+          },
+          "children": [
+           {
+            "label": "Tax Payment",
+            "link": {
+             "text": "Tax Payment",
+             "href": "/personal-banking/convenience-banking/online-tax-payments",
+             "aria": "Tax Payment for Online Tax Payments"
+            }
+           },
+           {
+            "label": "Bill Payment",
+            "link": {
+             "text": "Bill Payment",
+             "href": "/personal-banking/convenience-banking/bill-payment",
+             "aria": "Bill Payment for convenience banking"
+            }
+           },
+           {
+            "label": "Self Service Kiosk",
+            "link": {
+             "text": "Self Service Kiosk",
+             "href": "/personal-banking/convenience-banking/self-service-kiosk",
+             "aria": "Self Service Kiosk for convenience banking"
+            }
+           },
+           {
+            "label": "Re-KYC",
+            "link": {
+             "text": "Re-KYC",
+             "href": "/personal-banking/convenience-banking/re-kyc",
+             "aria": "Re-KYC for convenience banking"
+            }
+           },
+           {
+            "label": "Bharat QR",
+            "link": {
+             "text": "Bharat QR",
+             "href": "/personal-banking/convenience-banking/bharat-qr",
+             "aria": "Bharat QR for convenience banking"
+            }
+           },
+           {
+            "label": "Bhim UPI @RBL Bank",
+            "link": {
+             "text": "Bhim UPI @RBL Bank",
+             "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+             "aria": "Bhim UPI @RBL Bank for Bhim Upi Rbl Bank"
+            }
+           },
+           {
+            "label": "Verified by Visa / 3d secure",
+            "link": {
+             "text": "Verified by Visa / 3d secure",
+             "href": "/personal-banking/convenience-banking/verified-by-visa-secure",
+             "aria": "Verified by Visa / 3d secure for Verified By Visa Secure"
+            }
+           },
+           {
+            "label": "Payment Gateway",
+            "link": {
+             "text": "Payment Gateway",
+             "href": "/personal-banking/convenience-banking/payment-gateway",
+             "aria": "Payment Gateway for convenience banking"
+            }
+           },
+           {
+            "label": "Missed Call Facility",
+            "link": {
+             "text": "Missed Call Facility",
+             "href": "/personal-banking/convenience-banking/missed-call-facility",
+             "aria": "Missed Call Facility for convenience banking"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Ways to Banking",
+          "link": {
+           "text": "Ways to Banking",
+           "href": "/personal-banking/ways-to-bank",
+           "aria": "Ways to Banking for Ways To Bank"
+          },
+          "children": [
+           {
+            "label": "Online Banking",
+            "link": {
+             "text": "Online Banking",
+             "href": "/personal-banking/ways-to-bank/internet-banking",
+             "aria": "Online Banking for Internet Banking"
+            }
+           },
+           {
+            "label": "Mobile Banking",
+            "link": {
+             "text": "Mobile Banking",
+             "href": "/personal-banking/ways-to-bank/mobile-banking",
+             "aria": "Mobile Banking for ways to bank"
+            }
+           },
+           {
+            "label": "Chat with RBL Cares",
+            "link": {
+             "text": "Chat with RBL Cares",
+             "href": "/personal-banking/ways-to-bank/rbl-cares",
+             "aria": "Chat with RBL Cares for Rbl Cares",
+             "target": "_blank"
+            }
+           },
+           {
+            "label": "Bank in Person",
+            "link": {
+             "text": "Bank in Person",
+             "href": "/personal-banking/ways-to-bank/bank-by-person",
+             "aria": "Bank in Person for Bank By Person"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Forex Services",
+          "link": {
+           "text": "Forex Services",
+           "href": "/personal-banking/forex-services",
+           "aria": "Forex Services for personal banking"
+          },
+          "children": [
+           {
+            "label": "Outward Remittance",
+            "link": {
+             "text": "Outward Remittance",
+             "href": "/personal-banking/forex-services/outward-remittance",
+             "aria": "Outward Remittance for forex services"
+            }
+           },
+           {
+            "label": "VoyEdge Forex Card",
+            "link": {
+             "text": "VoyEdge Forex Card",
+             "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+             "aria": "VoyEdge Forex Card for forex cards"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "label": "NRI Banking",
+        "link": {
+         "text": "NRI Banking",
+         "href": "/nri-banking",
+         "aria": "NRI Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "NRI Savings Account",
+          "link": {
+           "text": "NRI Savings Account",
+           "href": "/nri-banking/nri-savings-account",
+           "aria": "NRI Savings Account for nri banking"
+          },
+          "children": [
+           {
+            "label": "NRE Savings Account",
+            "link": {
+             "text": "NRE Savings Account",
+             "href": "/nri-banking/nre-savings-account",
+             "aria": "NRE Savings Account for nri banking"
+            }
+           },
+           {
+            "label": "NRO Savings Account",
+            "link": {
+             "text": "NRO Savings Account",
+             "href": "/nri-banking/nro-savings-account",
+             "aria": "NRO Savings Account for nri banking"
+            }
+           },
+           {
+            "label": "Seafarer Account",
+            "link": {
+             "text": "Seafarer Account",
+             "href": "/nri-banking/seafarer-account",
+             "aria": "Seafarer Account for nri banking"
+            }
+           },
+           {
+            "label": "Portfolio Investment Scheme (PIS)",
+            "link": {
+             "text": "Portfolio Investment Scheme (PIS)",
+             "href": "/nri-banking/portfolio-investment-scheme",
+             "aria": "Portfolio Investment Scheme (PIS) for Portfolio Investment Scheme"
+            }
+           }
+          ]
+         },
+         {
+          "label": "NRI Deposits",
+          "link": {
+           "text": "NRI Deposits",
+           "href": "/nri-banking/deposits",
+           "aria": "NRI Deposits for Deposits"
+          },
+          "children": [
+           {
+            "label": "NRE Deposits",
+            "link": {
+             "text": "NRE Deposits",
+             "href": "/nri-banking/deposits/nre-deposits",
+             "aria": "NRE Deposits for deposits"
+            }
+           },
+           {
+            "label": "NRO Deposits",
+            "link": {
+             "text": "NRO Deposits",
+             "href": "/nri-banking/deposits/nro-deposits",
+             "aria": "NRO Deposits for deposits"
+            }
+           },
+           {
+            "label": "FCNR(B) Deposits",
+            "link": {
+             "text": "FCNR(B) Deposits",
+             "href": "/nri-banking/deposits/fcnr",
+             "aria": "FCNR(B) Deposits for Fcnr"
+            }
+           },
+           {
+            "label": "Yield Maximiser",
+            "link": {
+             "text": "Yield Maximiser",
+             "href": "/nri-banking/deposits/yield-maximiser",
+             "aria": "Yield Maximiser for deposits"
+            }
+           },
+           {
+            "label": "NRO Tax Saver Fixed Deposits",
+            "link": {
+             "text": "NRO Tax Saver Fixed Deposits",
+             "href": "/nri-banking/deposits/nro-tax-saver-fixed-deposits",
+             "aria": "NRO Tax Saver Fixed Deposits for deposits"
+            }
+           }
+          ]
+         },
+         {
+          "label": "NRI Money Transfer",
+          "link": {
+           "text": "NRI Money Transfer",
+           "href": "/nri-banking/money-transfer",
+           "aria": "NRI Money Transfer for Money Transfer"
+          },
+          "children": [
+           {
+            "label": "Wire Transfers",
+            "link": {
+             "text": "Wire Transfers",
+             "href": "/nri-banking/money-transfer/wire-transfers",
+             "aria": "Wire Transfers for money transfer"
+            }
+           },
+           {
+            "label": "Foreign Currency Cheques",
+            "link": {
+             "text": "Foreign Currency Cheques",
+             "href": "/nri-banking/money-transfer/foreign-currency-cheques",
+             "aria": "Foreign Currency Cheques for money transfer"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Returning NRIs",
+          "link": {
+           "text": "Returning NRIs",
+           "href": "/nri-banking/deposits/rfc-deposits",
+           "aria": "Returning NRIs for Rfc Deposits"
+          }
+         },
+         {
+          "label": "GIFT City for NRIs",
+          "link": {
+           "text": "GIFT City for NRIs",
+           "href": "/gift-city/nri-pios-and-foreign-nationals",
+           "aria": "GIFT City for NRIs for Nri Pios And Foreign Nationals"
+          }
+         },
+         {
+          "label": "Home Loan for NRIs",
+          "link": {
+           "text": "Home Loan for NRIs",
+           "href": "/nri-banking/home-loan-for-nri",
+           "aria": "Home Loan for NRIs for Home Loan For Nri"
+          }
+         }
+        ]
+       },
+       {
+        "label": "Preferred Banking",
+        "link": {
+         "text": "Preferred Banking",
+         "href": "/preferred-banking",
+         "aria": "Preferred Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "Insignia Banking",
+          "link": {
+           "text": "Insignia Banking",
+           "href": "/preferred-banking/insignia",
+           "aria": "Insignia Banking for Insignia"
+          }
+         },
+         {
+          "label": "Signature Banking",
+          "link": {
+           "text": "Signature Banking",
+           "href": "/preferred-banking/signature-banking",
+           "aria": "Signature Banking for preferred banking"
+          }
+         },
+         {
+          "label": "Aspire Banking",
+          "link": {
+           "text": "Aspire Banking",
+           "href": "/preferred-banking/aspire-banking",
+           "aria": "Aspire Banking for preferred banking"
+          }
+         }
+        ]
+       },
+       {
+        "label": "Business Banking",
+        "link": {
+         "text": "Business Banking",
+         "href": "/business-banking",
+         "aria": "Business Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "Business Banking Group",
+          "link": {
+           "text": "Business Banking Group",
+           "href": "/business-banking/business-banking-group",
+           "aria": "Business Banking Group for business banking"
+          }
+         },
+         {
+          "label": "Agri Banking",
+          "link": {
+           "text": "Agri Banking",
+           "href": "/business-banking/agri-banking",
+           "aria": "Agri Banking for business banking"
+          },
+          "children": [
+           {
+            "label": "Agri Business",
+            "link": {
+             "text": "Agri Business",
+             "href": "/business-banking/agri-banking/agri-business",
+             "aria": "Agri Business for agri banking"
+            }
+           },
+           {
+            "label": "Developmental Banking & Financial Inclusion",
+            "link": {
+             "text": "Developmental Banking & Financial Inclusion",
+             "href": "/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+             "aria": "Developmental Banking & Financial Inclusion for Developmental Banking And Financial Inclusion"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Government Sponsored Scheme",
+          "link": {
+           "text": "Government Sponsored Scheme",
+           "href": "/business-banking/government-sponsored-scheme",
+           "aria": "Government Sponsored Scheme for business banking"
+          },
+          "children": [
+           {
+            "label": "Prime Minister Employment Generation Programme",
+            "link": {
+             "text": "Prime Minister Employment Generation Programme",
+             "href": "/business-banking/government-sponsored-scheme/prime-minister-employment-generation-programme",
+             "aria": "Prime Minister Employment Generation Programme for government sponsored scheme"
+            }
+           },
+           {
+            "label": "Pradhan Mantri Mudra Yojana",
+            "link": {
+             "text": "Pradhan Mantri Mudra Yojana",
+             "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-mudra-yojana",
+             "aria": "Pradhan Mantri Mudra Yojana for government sponsored scheme"
+            }
+           },
+           {
+            "label": "PM Street Vendor’s Atmanirbhar Nidhi Scheme",
+            "link": {
+             "text": "PM Street Vendor’s Atmanirbhar Nidhi Scheme",
+             "href": "/business-banking/government-sponsored-scheme/pm-street-vendors-atmanirbhar-nidhi-scheme",
+             "aria": "PM Street Vendor’s Atmanirbhar Nidhi Scheme for Pm Street Vendors Atmanirbhar Nidhi Scheme"
+            }
+           },
+           {
+            "label": "Maharashtra Chief Minister Employment Generation Programme",
+            "link": {
+             "text": "Maharashtra Chief Minister Employment Generation Programme",
+             "href": "/business-banking/government-sponsored-scheme/maharashtra-chief-minister-employment-generation-programme",
+             "aria": "Maharashtra Chief Minister Employment Generation Programme for government sponsored scheme"
+            }
+           },
+           {
+            "label": "Pradhan Mantri Formalization Of Micro Food Processing Enterprises Scheme",
+            "link": {
+             "text": "Pradhan Mantri Formalization Of Micro Food Processing Enterprises Scheme",
+             "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-formalization-of-micro-food-processing-enterprises-scheme",
+             "aria": "Pradhan Mantri Formalization Of Micro Food Processing Enterprises Scheme for government sponsored scheme"
+            }
+           },
+           {
+            "label": "Agriculture Infrastructure Fund",
+            "link": {
+             "text": "Agriculture Infrastructure Fund",
+             "href": "/business-banking/government-sponsored-scheme/agriculture-infrastructure-fund",
+             "aria": "Agriculture Infrastructure Fund for government sponsored scheme"
+            }
+           },
+           {
+            "label": "PM Vishwakarma Scheme",
+            "link": {
+             "text": "PM Vishwakarma Scheme",
+             "href": "/business-banking/government-sponsored-scheme/pm-vishwakarma-scheme",
+             "aria": "PM Vishwakarma Scheme for government sponsored scheme"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Business",
+          "link": {
+           "text": "Business",
+           "href": "/business-banking/business",
+           "aria": "Business for business banking"
+          },
+          "children": [
+           {
+            "label": "Partnering your Growth",
+            "link": {
+             "text": "Partnering your Growth",
+             "href": "/business-banking/business/partnering-your-growth",
+             "aria": "Partnering your Growth for business"
+            }
+           },
+           {
+            "label": "Convenience",
+            "link": {
+             "text": "Convenience",
+             "href": "/business-banking/business/convenience",
+             "aria": "Convenience for business"
+            }
+           },
+           {
+            "label": "Specialized Packages",
+            "link": {
+             "text": "Specialized Packages",
+             "href": "/business-banking/business/specialised-packages",
+             "aria": "Specialized Packages for Specialised Packages"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Credit Guarantee Schemes",
+          "link": {
+           "text": "Credit Guarantee Schemes",
+           "href": "/business-banking/credit-guarantee-schemes",
+           "aria": "Credit Guarantee Schemes for business banking"
+          },
+          "children": [
+           {
+            "label": "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+            "link": {
+             "text": "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+             "href": "/business-banking/credit-guarantee-schemes/credit-guarantee-fund-trust-for-micro-and-small-enterprises",
+             "aria": "Credit Guarantee Fund Trust for Micro and Small Enterprises for credit guarantee schemes"
+            }
+           },
+           {
+            "label": "National Credit Guarantee Trustee Company",
+            "link": {
+             "text": "National Credit Guarantee Trustee Company",
+             "href": "/business-banking/credit-guarantee-schemes/national-credit-guarantee-trustee-company",
+             "aria": "National Credit Guarantee Trustee Company for credit guarantee schemes"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "label": "Wholesale Banking",
+        "link": {
+         "text": "Wholesale Banking",
+         "href": "/wholesale-banking",
+         "aria": "Wholesale Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "Clients",
+          "link": {
+           "text": "Clients",
+           "href": "/wholesale-banking/clients",
+           "aria": "Clients for wholesale banking"
+          },
+          "children": [
+           {
+            "label": "Corporate Banking",
+            "link": {
+             "text": "Corporate Banking",
+             "href": "/wholesale-banking/clients/corporate-banking",
+             "aria": "Corporate Banking for clients"
+            }
+           },
+           {
+            "label": "Commercial Banking",
+            "link": {
+             "text": "Commercial Banking",
+             "href": "/wholesale-banking/clients/commercial-banking",
+             "aria": "Commercial Banking for clients"
+            }
+           },
+           {
+            "label": "Government Banking",
+            "link": {
+             "text": "Government Banking",
+             "href": "/wholesale-banking/clients/government-banking",
+             "aria": "Government Banking for clients"
+            }
+           },
+           {
+            "label": "Financial Institutions Group",
+            "link": {
+             "text": "Financial Institutions Group",
+             "href": "/wholesale-banking/clients/financial-institutions-group",
+             "aria": "Financial Institutions Group for clients"
+            }
+           },
+           {
+            "label": "Multinational Corporates",
+            "link": {
+             "text": "Multinational Corporates",
+             "href": "/wholesale-banking/clients/multinational-corporates",
+             "aria": "Multinational Corporates for clients"
+            }
+           },
+           {
+            "label": "Inclusive Finance Institutions",
+            "link": {
+             "text": "Inclusive Finance Institutions",
+             "href": "/wholesale-banking/clients/inclusive-finance-institutions",
+             "aria": "Inclusive Finance Institutions for clients"
+            }
+           }
+          ]
+         },
+         {
+          "label": "Products and Services",
+          "link": {
+           "text": "Products and Services",
+           "href": "/wholesale-banking/products-and-services",
+           "aria": "Products and Services for wholesale banking"
+          },
+          "children": [
+           {
+            "label": "Corporate Finance",
+            "link": {
+             "text": "Corporate Finance",
+             "href": "/wholesale-banking/products-and-services/corporate-finance",
+             "aria": "Corporate Finance for products and services"
+            }
+           },
+           {
+            "label": "Transaction Banking",
+            "link": {
+             "text": "Transaction Banking",
+             "href": "/wholesale-banking/products-and-services/transaction-banking",
+             "aria": "Transaction Banking for products and services"
+            }
+           },
+           {
+            "label": "Financial Markets & Treasury",
+            "link": {
+             "text": "Financial Markets & Treasury",
+             "href": "/wholesale-banking/products-and-services/financial-markets-and-treasury",
+             "aria": "Financial Markets & Treasury for Financial Markets And Treasury"
+            }
+           },
+           {
+            "label": "Wholesale Client Services",
+            "link": {
+             "text": "Wholesale Client Services",
+             "href": "/wholesale-banking/products-and-services/wholesale-client-services",
+             "aria": "Wholesale Client Services for products and services"
+            }
+           },
+           {
+            "label": "Commercial Cards",
+            "link": {
+             "text": "Commercial Cards",
+             "href": "/personal-banking/cards/commercial-cards",
+             "aria": "Commercial Cards for cards"
+            }
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "label": "Corporate Banking",
+        "link": {
+         "text": "Corporate Banking",
+         "href": "/corporate-banking",
+         "aria": "Corporate Banking for www.rbl.bank.in"
+        },
+        "children": [
+         {
+          "label": "Corporate Internet Banking",
+          "link": {
+           "text": "Corporate Internet Banking",
+           "href": "/corporate-banking/corporate-internet-banking",
+           "aria": "Corporate Internet Banking for corporate banking"
+          }
+         },
+         {
+          "label": "RBL MyBizBank App",
+          "link": {
+           "text": "RBL MyBizBank App",
+           "href": "/corporate-banking/rbl-mybizbank-app",
+           "aria": "RBL MyBizBank App for corporate banking"
+          }
+         }
+        ]
+       },
+       {
+        "label": "India Startup Club",
+        "link": {
+         "text": "India Startup Club",
+         "href": "/india-startup-club",
+         "aria": "India Startup Club for www.rbl.bank.in",
+         "target": "_blank"
+        }
+       },
+       {
+        "label": "Gift City",
+        "link": {
+         "text": "Gift City",
+         "href": "/gift-city",
+         "aria": "Gift City for www.rbl.bank.in",
+         "target": "_blank"
+        }
+       }
+      ]
+     },
+     {
+      "label": "Offers",
+      "link": null,
+      "children": [
+       {
+        "label": "Credit Card Offers",
+        "link": null,
+        "children": [
+         {
+          "label": "Festive Offers",
+          "link": {
+           "text": "Festive Offers",
+           "href": "/offers?cat[]=315494&type=155357",
+           "aria": "Festive Offers for 315494"
+          }
+         },
+         {
+          "label": "Flights, Hotels & Travel",
+          "link": {
+           "text": "Flights, Hotels & Travel",
+           "href": "/offers?type=155357&cat%5B0%5D=155362",
+           "aria": "Flights, Hotels & Travel for 155357"
+          }
+         },
+         {
+          "label": "Electronics",
+          "link": {
+           "text": "Electronics",
+           "href": "/offers?type=155357&cat%5B0%5D=245009",
+           "aria": "Electronics for 155357"
+          }
+         },
+         {
+          "label": "EMI Offers",
+          "link": {
+           "text": "EMI Offers",
+           "href": "/offers?cat[]=245034&type=155357",
+           "aria": "EMI Offers for 245034"
+          }
+         },
+         {
+          "label": "Exclusive Facilities",
+          "link": {
+           "text": "Exclusive Facilities",
+           "href": "/offers?cat%5B0%5D=155406&type=155357",
+           "aria": "Exclusive Facilities for 155406"
+          }
+         },
+         {
+          "label": "Others",
+          "link": {
+           "text": "Others",
+           "href": "/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407",
+           "aria": "Others for 155357"
+          }
+         }
+        ]
+       },
+       {
+        "label": "Debit Card Offers",
+        "link": null,
+        "children": [
+         {
+          "label": "Festive Offers",
+          "link": {
+           "text": "Festive Offers",
+           "href": "/offers?cat[]=315494&type=155356",
+           "aria": "Festive Offers for 315494"
+          }
+         },
+         {
+          "label": "Health & Wellness",
+          "link": {
+           "text": "Health & Wellness",
+           "href": "/offers?type=155356&cat[]=155365",
+           "aria": "Health & Wellness for 155356"
+          }
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "Customer Services",
+      "link": null,
+      "children": [
+       {
+        "label": "Contact Us",
+        "link": {
+         "text": "Contact Us",
+         "href": "/contact-us",
+         "aria": "Contact Us for www.rbl.bank.in"
+        }
+       },
+       {
+        "label": "Raise a Query / Request / Complaint",
+        "link": {
+         "text": "Raise a Query / Request / Complaint",
+         "href": "https://outsys1.rbl.bank.in/WebForm/",
+         "aria": "Raise a Query / Request / Complaint for WebForm",
+         "target": "_blank"
+        }
+       },
+       {
+        "label": "Grievance Mechanism – Flowchart",
+        "link": {
+         "text": "Grievance Mechanism – Flowchart",
+         "href": "/grievance-mechanism-flowchart",
+         "aria": "Grievance Mechanism – Flowchart for Grievance Mechanism Flowchart"
+        }
+       },
+       {
+        "label": "Quick Services",
+        "link": {
+         "text": "Quick Services",
+         "href": "/quick-services",
+         "aria": "Quick Services for www.rbl.bank.in"
+        }
+       },
+       {
+        "label": "Report loss of Card or Fraud",
+        "link": null,
+        "children": [
+         {
+          "label": "Report a Fraud",
+          "link": {
+           "text": "Report a Fraud",
+           "href": "/report-a-fraud",
+           "aria": "Report a Fraud for www.rbl.bank.in"
+          }
+         },
+         {
+          "label": "Credit Card - Report Loss or Unauthorised Use",
+          "link": {
+           "text": "Credit Card - Report Loss or Unauthorised Use",
+           "href": "/static-pages/report-loss-or-unauthorised-use-of-credit-card",
+           "aria": "Credit Card - Report Loss or Unauthorised Use for Report Loss Or Unauthorised Use Of Credit Card"
+          }
+         },
+         {
+          "label": "Debit Card - Report Loss or Unauthorised Use",
+          "link": {
+           "text": "Debit Card - Report Loss or Unauthorised Use",
+           "href": "/static-pages/report-loss-or-unauthorised-use-of-debit-card",
+           "aria": "Debit Card - Report Loss or Unauthorised Use for Report Loss Or Unauthorised Use Of Debit Card"
+          }
+         }
+        ]
+       },
+       {
+        "label": "Information Centre",
+        "link": null,
+        "children": [
+         {
+          "label": "Feedback",
+          "link": {
+           "text": "Feedback",
+           "href": "/feedback",
+           "aria": "Feedback for www.rbl.bank.in"
+          }
+         },
+         {
+          "label": "Download Forms",
+          "link": {
+           "text": "Download Forms",
+           "href": "/download-form",
+           "aria": "Download Forms for Download Form"
+          }
+         },
+         {
+          "label": "Positive Pay System",
+          "link": {
+           "text": "Positive Pay System",
+           "href": "/static-pages/positive-pay",
+           "aria": "Positive Pay System for Positive Pay"
+          }
+         }
+        ]
+       },
+       {
+        "label": "MyUPI",
+        "link": {
+         "text": "MyUPI",
+         "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh",
+         "aria": "View promotion",
+         "target": "_blank"
+        }
+       },
+       {
+        "label": "Locate Us",
+        "link": {
+         "text": "Locate Us",
+         "href": "/locate-branch",
+         "aria": "Locate Us for Locate Branch"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "modal": {
+  "title": "Attention",
+  "body": "<p class=\"p14 text-para-gray\">You are leaving RBL Bank website (“RBL Bank’s website”) and being re-directed to third party website at your request. The privacy and security policy of this website may differ from RBL Bank and may provide less security than RBL Bank’s website. RBL Bank and its affiliates do not endorse, make any warranty or assume legal liability for the products, services, content accuracy or opinions expressed in the website or other links provided on the website. RBL Bank and its affiliates are not responsible for any loss, damage, cost etc. that you may incur in the event of any deficiency in the product or services offered on this website.</p>",
+  "close": "Close",
+  "proceed": {
+   "text": "Proceed",
+   "href": "https://www.rbi.org.in/CommonPerson/english/scripts/rbikehtahai.aspx",
+   "aria": "Proceed",
+   "target": "_blank"
+  }
+ },
+ "footAria": "Site footer",
+ "top": [
+  {
+   "text": "Rent Your Property to RBL Bank",
+   "href": "/propose-your-property",
+   "id": "header-propose-your-property",
+   "aria": "Rent Your Property to RBL Bank for Propose Your Property",
+   "title": "Rent Your Property to RBL Bank",
+   "cls": "a-attention-link-add-script",
+   "img": "https://webassets.rbl.bank.in/s3fs-public/2026-08/Vector.svg"
+  },
+  {
+   "text": "Skip to Main Content",
+   "href": "#content",
+   "id": "skip-main-content-btn",
+   "aria": "Skip to Main Content for Login",
+   "title": "Skip to Main Content",
+   "cls": "a-attention-link-add-script"
+  },
+  {
+   "text": "ALow Contrast View",
+   "href": "#",
+   "id": "light-body-a",
+   "aria": "A Low contrast view",
+   "cls": "active-theme a-attention-link-add-script"
+  },
+  {
+   "text": "AHigh Contrast View",
+   "href": "#",
+   "id": "dark-body-a",
+   "aria": "A high contrast view",
+   "title": "High Contrast View",
+   "cls": "active-theme a-attention-link-add-script"
+  },
+  {
+   "text": "Rent Your Property to RBL Bank",
+   "href": "/propose-your-property",
+   "id": "header-propose-your-property",
+   "aria": "Rent Your Property to RBL Bank for Propose Your Property",
+   "title": "Rent Your Property to RBL Bank",
+   "cls": "a-attention-link-add-script",
+   "img": "https://webassets.rbl.bank.in/s3fs-public/2026-08/Vector.svg"
+  }
+ ],
+ "menu": [
+  {
+   "label": "Products",
+   "href": null,
+   "cls": "tb-megamenu-item level-1 mega products-menu dropdown products-menu-show",
+   "linkCls": "dropdown-toggle tb-megamenu-no-link",
+   "showDefault": false,
+   "cards": [
+    {
+     "cls": "top-pro-card top-pro-card1",
+     "paras": [
+      {
+       "cls": "p17",
+       "text": "Higher Interest Rates on Digital FD",
+       "links": []
+      },
+      {
+       "cls": "",
+       "text": "Know More",
+       "links": [
+        {
+         "text": "Know More",
+         "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+         "aria": "Know More",
+         "target": "_blank"
+        }
+       ]
+      }
+     ],
+     "img": {
+      "src": "https://webassets.rbl.bank.in/document/images/webp/digital-fd-pm.webp",
+      "alt": "Digital Fixed Deposits – Open your Digital FD now and get market-high interest rate, without having to open a savings bank account."
+     }
+    },
+    {
+     "cls": "top-pro-card top-pro-card2",
+     "paras": [
+      {
+       "cls": "p18 text-white",
+       "text": "INR 3,000 Voucher from MakeMyTrip",
+       "links": []
+      },
+      {
+       "cls": "",
+       "text": "Apply Now",
+       "links": [
+        {
+         "text": "Apply Now",
+         "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari",
+         "aria": "Apply Now",
+         "target": "_blank"
+        }
+       ]
+      }
+     ],
+     "img": {
+      "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-world-safari-credit-card-offer-mb.webp",
+      "alt": "Exclusive travel perks with RBL Bank World Safari Credit Card"
+     }
+    },
+    {
+     "cls": "top-pro-card top-pro-card2",
+     "paras": [
+      {
+       "cls": "p18 text-white",
+       "text": "Open Digital Savings account in 3 steps",
+       "links": []
+      },
+      {
+       "cls": "",
+       "text": "Open Now",
+       "links": [
+        {
+         "text": "Open Now",
+         "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+         "aria": "Open Now",
+         "target": "_blank"
+        }
+       ]
+      }
+     ],
+     "img": {
+      "src": "https://webassets.rbl.bank.in/document/images/webp/open-digital-savings-account-3-steps-mb.webp",
+      "alt": "Open a digital savings account in 3 simple steps with RBL Bank for easy online banking"
+     }
+    }
+   ],
+   "children": [
+    {
+     "label": "Personal Banking",
+     "href": "/personal-banking",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": true,
+     "cards": [],
+     "children": [
+      {
+       "label": "Accounts",
+       "href": "/personal-banking/accounts",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "saving_account_unquie_class a-attention-link-add-script",
+       "showDefault": true,
+       "cards": [],
+       "children": [
+        {
+         "label": "Savings Accounts",
+         "href": "/personal-banking/accounts/savings-accounts",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Salary Accounts",
+         "href": "/personal-banking/accounts/salary-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Current Accounts",
+         "href": "/business-banking/business/partnering-your-growth/current-accounts",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Special Institutions Account",
+         "href": "/personal-banking/accounts/special-institutions-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Safe Deposit Lockers",
+         "href": "/personal-banking/accounts/safe-deposit-lockers",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Term Deposits",
+       "href": "/personal-banking/term-deposits",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Raksha Kavach Fixed Deposits",
+         "href": "/personal-banking/term-deposits/raksha-kavach-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Digital Fixed Deposits",
+         "href": "/personal-banking/term-deposits/digital-fixed-deposit",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "ACE Fixed Deposits",
+         "href": "/personal-banking/term-deposits/ace-fixed-deposit",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Smart Recurring Deposits",
+         "href": "/personal-banking/term-deposits/smart-recurring-deposit",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Money Max Deposits",
+         "href": "/personal-banking/term-deposits/money-max-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Flexi Sure Fixed Deposits",
+         "href": "/personal-banking/term-deposits/flexi-sure-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Regular Fixed Deposits",
+         "href": "/personal-banking/term-deposits/regular-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Tax Saving Fixed Deposits",
+         "href": "/personal-banking/term-deposits/tax-savings-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Senior Citizen Fixed Deposits (Wealth Secure)",
+         "href": "/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Super Senior Citizen Fixed Deposits (Akshay Nidhi)",
+         "href": "/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Recurring Deposits",
+         "href": "/personal-banking/term-deposits/recurring-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Cards",
+       "href": "/personal-banking/cards",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Credit Cards",
+         "href": "/personal-banking/cards/credit-cards",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Debit Cards",
+         "href": "/personal-banking/cards/debit-cards",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Commercial Cards",
+         "href": "/personal-banking/cards/commercial-cards",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Prepaid Cards",
+         "href": "/personal-banking/cards/prepaid-cards",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Forex Cards",
+         "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Loans",
+       "href": "/personal-banking/loans",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Loan Against Securities",
+         "href": "/personal-banking/loans/loan-against-securities",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Business Loan",
+         "href": "/personal-banking/loans/business-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Education Loan",
+         "href": "/personal-banking/loans/education-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Loan Against Gold Ornaments",
+         "href": "/personal-banking/loans/loan-against-gold-ornaments",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Small & Micro Loan Against Property",
+         "href": "/personal-banking/loans/small-and-micro-loan-against-property",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Car Loan",
+         "href": "/personal-banking/loans/car-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Two-Wheeler Loan",
+         "href": "/personal-banking/loans/two-wheeler-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Loan Against Property",
+         "href": "/personal-banking/loans/loan-against-property",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "EasyGain Overdraft",
+         "href": "/personal-banking/loans/easygain-overdraft",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Rural Vehicle Finance",
+         "href": "/personal-banking/loans/rural-vehicle-finance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Housing Loan",
+         "href": "/personal-banking/loans/housing-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Personal Loan",
+         "href": "/personal-banking/loans/personal-loan",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Insurance",
+       "href": "/personal-banking/insurance",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Life Insurance",
+         "href": "/personal-banking/insurance/life-insurance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "General Insurance",
+         "href": "/personal-banking/insurance/general-insurance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Health Insurance",
+         "href": "/personal-banking/insurance/health-insurance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Wealth Management",
+       "href": "/personal-banking/wealth-management",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Mutual Funds",
+         "href": "/personal-banking/wealth-management/mutual-fund",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Alternate Investment Fund",
+         "href": "/personal-banking/wealth-management/alternate-investment-products",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Alternate Investment Via Gift City",
+         "href": "/gift-city/alternate-investment-funds",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "e-ASBA",
+         "href": "/personal-banking/wealth-management/e-asba",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "3 in 1 Account",
+         "href": "/personal-banking/wealth-management/3-in-1-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Demat Services",
+         "href": "/personal-banking/demat",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Loan Against Securities",
+         "href": "/personal-banking/loans/loan-against-securities",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "National Pension System",
+         "href": "/personal-banking/wealth-management/national-pension-system",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Demat",
+       "href": "/personal-banking/demat",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Convenience Banking",
+       "href": "/personal-banking/convenience-banking",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Tax Payment",
+         "href": "/personal-banking/convenience-banking/online-tax-payments",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Bill Payment",
+         "href": "/personal-banking/convenience-banking/bill-payment",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Self Service Kiosk",
+         "href": "/personal-banking/convenience-banking/self-service-kiosk",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Re-KYC",
+         "href": "/personal-banking/convenience-banking/re-kyc",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Bharat QR",
+         "href": "/personal-banking/convenience-banking/bharat-qr",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Bhim UPI @RBL Bank",
+         "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Verified by Visa / 3d secure",
+         "href": "/personal-banking/convenience-banking/verified-by-visa-secure",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Payment Gateway",
+         "href": "/personal-banking/convenience-banking/payment-gateway",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Missed Call Facility",
+         "href": "/personal-banking/convenience-banking/missed-call-facility",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Ways to Banking",
+       "href": "/personal-banking/ways-to-bank",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Online Banking",
+         "href": "/personal-banking/ways-to-bank/internet-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Mobile Banking",
+         "href": "/personal-banking/ways-to-bank/mobile-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Chat with RBL Cares",
+         "href": "/personal-banking/ways-to-bank/rbl-cares",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Bank in Person",
+         "href": "/personal-banking/ways-to-bank/bank-by-person",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Forex Services",
+       "href": "/personal-banking/forex-services",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Outward Remittance",
+         "href": "/personal-banking/forex-services/outward-remittance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "VoyEdge Forex Card",
+         "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "NRI Banking",
+     "href": "/nri-banking",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "NRI Savings Account",
+       "href": "/nri-banking/nri-savings-account",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "NRE Savings Account",
+         "href": "/nri-banking/nre-savings-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "NRE Savings Account",
+         "href": "/nri-banking/nre-savings-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "NRO Savings Account",
+         "href": "/nri-banking/nro-savings-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Seafarer Account",
+         "href": "/nri-banking/seafarer-account",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Portfolio Investment Scheme (PIS)",
+         "href": "/nri-banking/portfolio-investment-scheme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "NRI Deposits",
+       "href": "/nri-banking/deposits",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "NRE Deposits",
+         "href": "/nri-banking/deposits/nre-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "NRO Deposits",
+         "href": "/nri-banking/deposits/nro-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "FCNR(B) Deposits",
+         "href": "/nri-banking/deposits/fcnr",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Yield Maximiser",
+         "href": "/nri-banking/deposits/yield-maximiser",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "NRO Tax Saver Fixed Deposits",
+         "href": "/nri-banking/deposits/nro-tax-saver-fixed-deposits",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "NRI Money Transfer",
+       "href": "/nri-banking/money-transfer",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Wire Transfers",
+         "href": "/nri-banking/money-transfer/wire-transfers",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Foreign Currency Cheques",
+         "href": "/nri-banking/money-transfer/foreign-currency-cheques",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Returning NRIs",
+       "href": "/nri-banking/deposits/rfc-deposits",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "GIFT City for NRIs",
+       "href": "/gift-city/nri-pios-and-foreign-nationals",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Home Loan for NRIs",
+       "href": "/nri-banking/home-loan-for-nri",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Preferred Banking",
+     "href": "/preferred-banking",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Insignia Banking",
+       "href": "/preferred-banking/insignia-banking",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Signature Banking",
+       "href": "/preferred-banking/signature-banking",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Aspire Banking",
+       "href": "/preferred-banking/aspire-banking",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Business Banking",
+     "href": "/business-banking",
+     "cls": "tb-megamenu-item level-2 mega sub-hidden-collapse dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Business Banking Group",
+       "href": "/business-banking/business-banking-group",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Agri Banking",
+       "href": "/business-banking/agri-banking",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Agri Business",
+         "href": "/business-banking/agri-banking/agri-business",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Developmental Banking & Financial Inclusion",
+         "href": "/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Government Sponsored Scheme",
+       "href": "/business-banking/government-sponsored-scheme",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Prime Minister Employment Generation Programme",
+         "href": "/business-banking/government-sponsored-scheme/prime-minister-employment-generation-programme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Pradhan Mantri Mudra Yojana",
+         "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-mudra-yojana",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "PM Street Vendor’s Atmanirbhar Nidhi Scheme",
+         "href": "/business-banking/government-sponsored-scheme/pm-street-vendors-atmanirbhar-nidhi-scheme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Maharashtra Chief Minister Employment Generation Programme",
+         "href": "/business-banking/government-sponsored-scheme/maharashtra-chief-minister-employment-generation-programme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Pradhan Mantri Formalization Of Micro Food Processing Enterprises Scheme",
+         "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-formalization-of-micro-food-processing-enterprises-scheme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Agriculture Infrastructure Fund",
+         "href": "/business-banking/government-sponsored-scheme/agriculture-infrastructure-fund",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "PM Vishwakarma Scheme",
+         "href": "/business-banking/government-sponsored-scheme/pm-vishwakarma-scheme",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Business",
+       "href": "/business-banking/business",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Partnering your Growth",
+         "href": "/business-banking/business/partnering-your-growth",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Convenience",
+         "href": "/business-banking/business/convenience",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Specialized Packages",
+         "href": "/business-banking/business/specialised-packages",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Credit Guarantee Schemes",
+       "href": "/business-banking/credit-guarantee-schemes",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "National Credit Guarantee Trustee Company",
+         "href": "/business-banking/credit-guarantee-schemes/national-credit-guarantee-trustee-company",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Credit Guarantee Fund Trust for Micro and Small Enterprises",
+         "href": "/business-banking/credit-guarantee-schemes/credit-guarantee-fund-trust-for-micro-and-small-enterprises",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Wholesale Banking",
+     "href": "/wholesale-banking",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Clients",
+       "href": "/wholesale-banking/clients",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Corporate Banking",
+         "href": "/wholesale-banking/clients/corporate-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Commercial Banking",
+         "href": "/wholesale-banking/clients/commercial-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Government Banking",
+         "href": "/wholesale-banking/clients/government-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Financial Institutions Group",
+         "href": "/wholesale-banking/clients/financial-institutions-group",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Multinational Corporates",
+         "href": "/wholesale-banking/clients/multinational-corporates",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Inclusive Finance Institutions",
+         "href": "/wholesale-banking/clients/inclusive-finance-institutions",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      },
+      {
+       "label": "Products and Services",
+       "href": "/wholesale-banking/products-and-services",
+       "cls": "tb-megamenu-item level-3 mega dropdown-submenu",
+       "linkCls": "dropdown-toggle a-attention-link-add-script",
+       "showDefault": false,
+       "cards": [],
+       "children": [
+        {
+         "label": "Corporate Finance",
+         "href": "/wholesale-banking/products-and-services/corporate-finance",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Transaction Banking",
+         "href": "/wholesale-banking/products-and-services/transaction-banking",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Financial Markets & Treasury",
+         "href": "/wholesale-banking/products-and-services/financial-markets-and-treasury",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Wholesale Client Services",
+         "href": "/wholesale-banking/products-and-services/wholesale-client-services",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        },
+        {
+         "label": "Commercial Cards",
+         "href": "/personal-banking/cards/commercial-cards",
+         "cls": "tb-megamenu-item level-4 mega",
+         "linkCls": "a-attention-link-add-script"
+        }
+       ],
+       "blocks": []
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Corporate Banking",
+     "href": "/corporate-banking",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Corporate Internet Banking",
+       "href": "/corporate-banking/corporate-internet-banking",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "RBL MyBizBank App",
+       "href": "/corporate-banking/rbl-mybizbank-app",
+       "cls": "tb-megamenu-item level-3 mega border-bottom-adj-a",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "India Startup Club",
+     "href": "/india-startup-club",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Gift City",
+     "href": "/gift-city",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    }
+   ],
+   "blocks": []
+  },
+  {
+   "label": "Payments",
+   "href": null,
+   "cls": "tb-megamenu-item level-1 mega Payments-menu dropdown Payments-menu-show",
+   "linkCls": "dropdown-toggle tb-megamenu-no-link",
+   "showDefault": false,
+   "cards": [],
+   "children": [
+    {
+     "label": "Credit Card Payments",
+     "href": null,
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle tb-megamenu-no-link",
+     "showDefault": true,
+     "cards": [],
+     "children": [
+      {
+       "label": "Using Net Banking",
+       "href": "/?onlineCardPayment=netBanking",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Using Debit Card",
+       "href": "/?onlineCardPayment=debitCard",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Using UPI",
+       "href": "/?onlineCardPayment=upiPayment",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Using RBL MyBank Mobile App",
+       "href": "/?onlineCardPayment=mobApp",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Via NEFT",
+       "href": "/?onlineCardPayment=neft",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Other Ways to Payment",
+       "href": "/?onlineCardPayment=otherWay",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Online Tax Payment",
+     "href": "/personal-banking/convenience-banking/online-tax-payments",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Bill Payment",
+     "href": "/personal-banking/convenience-banking/bill-payment",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Merchant Payments",
+     "href": null,
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle tb-megamenu-no-link",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Google Pay",
+       "href": "/static-pages/gpay",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Samsung Pay",
+       "href": "/static-pages/samsung-pay",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "BHIM UPI @ RBL Bank",
+       "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Bharat QR",
+       "href": "/personal-banking/convenience-banking/bharat-qr",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Recurring Merchant Payments",
+     "href": "/static-pages/manage-recurring-merchant-payments",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    }
+   ],
+   "blocks": []
+  },
+  {
+   "label": "Offers",
+   "href": null,
+   "cls": "tb-megamenu-item level-1 mega Payments-menu dropdown Payments-menu-show",
+   "linkCls": "dropdown-toggle tb-megamenu-no-link",
+   "showDefault": false,
+   "cards": [],
+   "children": [
+    {
+     "label": "Credit Card Offers",
+     "href": "/offers-and-promotions?type=155357",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": true,
+     "cards": [],
+     "children": [
+      {
+       "label": "Festive Offers",
+       "href": "/offers?cat%5B0%5D=315494&type=155357",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Flights, Hotels & Travel",
+       "href": "/offers?type=155357&cat%5B0%5D=155362",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Electronics",
+       "href": "/offers?type=155357&cat%5B0%5D=245009",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "EMI Offers",
+       "href": "/offers?type=155357&cat%5B0%5D=245034",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Exclusive Facilities",
+       "href": "/offers?cat%5B0%5D=155406&type=155357",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Others",
+       "href": "/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Debit Card Offers",
+     "href": "/offers-and-promotions?type=155356",
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle a-attention-link-add-script",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Festive Offers",
+       "href": "/offers?cat%5B0%5D=315494&type=155356",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Health & Wellness",
+       "href": "/offers?cat%5B0%5D=155365&type=155356",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    }
+   ],
+   "blocks": []
+  },
+  {
+   "label": "Customer Services",
+   "href": null,
+   "cls": "tb-megamenu-item level-1 mega Payments-menu dropdown active active-trail Payments-menu-show",
+   "linkCls": "dropdown-toggle active-trail tb-megamenu-no-link",
+   "showDefault": false,
+   "cards": [],
+   "children": [
+    {
+     "label": "Contact Us",
+     "href": "/contact-us",
+     "cls": "tb-megamenu-item level-2 mega active active-trail",
+     "linkCls": "active-trail a-attention-link-add-script"
+    },
+    {
+     "label": "Raise a Query / Request / Complaint",
+     "href": "https://outsys1.rbl.bank.in/WebForm/",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "menu-item-quick-services a-attention-link-add-script"
+    },
+    {
+     "label": "Grievance Mechanism – Flowchart",
+     "href": "/grievance-mechanism-flowchart",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Quick Services",
+     "href": "/quick-services",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Report loss of Card or Fraud",
+     "href": null,
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle tb-megamenu-no-link",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Report a Fraud",
+       "href": "/report-a-fraud",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Credit Card - Report Loss or Unauthorised Use",
+       "href": "/static-pages/report-loss-or-unauthorised-use-of-credit-card",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Debit Card - Report Loss or Unauthorised Use",
+       "href": "/static-pages/report-loss-or-unauthorised-use-of-debit-card",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "Information Centre",
+     "href": null,
+     "cls": "tb-megamenu-item level-2 mega dropdown-submenu",
+     "linkCls": "dropdown-toggle tb-megamenu-no-link",
+     "showDefault": false,
+     "cards": [],
+     "children": [
+      {
+       "label": "Feedback",
+       "href": "/feedback",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Download Forms",
+       "href": "/download-form",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      },
+      {
+       "label": "Positive Pay System",
+       "href": "/static-pages/positive-pay",
+       "cls": "tb-megamenu-item level-3 mega",
+       "linkCls": "a-attention-link-add-script"
+      }
+     ],
+     "blocks": []
+    },
+    {
+     "label": "MyUPI",
+     "href": "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    },
+    {
+     "label": "Locate Us",
+     "href": "/locate-branch",
+     "cls": "tb-megamenu-item level-2 mega",
+     "linkCls": "a-attention-link-add-script"
+    }
+   ],
+   "blocks": []
+  }
+ ],
+ "login": [
+  {
+   "cls": "dropdown-item subitem",
+   "link": {
+    "text": "Personal Banking",
+    "href": "https://online.rbl.bank.in/corp",
+    "id": "header-login-pb-1",
+    "aria": "Manage Personal Account",
+    "target": "_blank"
+   },
+   "children": [
+    {
+     "text": "Personal Banking",
+     "href": "https://online.rbl.bank.in/corp",
+     "id": "header-login-pb-1",
+     "aria": "Manage Personal Account",
+     "target": "_blank"
+    }
+   ]
+  },
+  {
+   "cls": "dropdown-item subitem",
+   "link": {
+    "text": "Corporate Banking",
+    "href": "https://online.rbl.bank.in/CorpBank",
+    "id": "header-login-cb-1",
+    "aria": "Manage Corporate account",
+    "target": "_blank"
+   },
+   "children": [
+    {
+     "text": "Corporate Banking",
+     "href": "https://online.rbl.bank.in/CorpBank",
+     "id": "header-login-cb-1",
+     "aria": "Manage Corporate account",
+     "target": "_blank"
+    }
+   ]
+  },
+  {
+   "cls": "dropdown-item subitem",
+   "link": {
+    "text": "Forex Cards",
+    "href": "https://forexcard.rbl.bank.in/",
+    "id": "header-login-fc",
+    "aria": "Manage Forex Cards",
+    "target": "_blank"
+   },
+   "children": [
+    {
+     "text": "Forex Cards",
+     "href": "https://forexcard.rbl.bank.in/",
+     "id": "header-login-fc",
+     "aria": "Manage Forex Cards",
+     "target": "_blank"
+    }
+   ]
+  },
+  {
+   "cls": "dropdown-item subitem crdtcards subli",
+   "link": {
+    "text": "Prepaid Cards",
+    "href": "#prepaidsubmenu-1",
+    "aria": "Prepaid Cards"
+   },
+   "children": [
+    {
+     "text": "Prepaid Cards",
+     "href": "#prepaidsubmenu-1",
+     "aria": "Prepaid Cards"
+    },
+    {
+     "text": "EMS Login",
+     "href": "https://ems.rbl.bank.in/",
+     "id": "header-login-prepaid-ems-1",
+     "aria": "Check your Prepaid card details",
+     "target": "_blank"
+    },
+    {
+     "text": "Namma Metro Login",
+     "href": "https://nammametro.paycraftsol.in/",
+     "id": "header-login-prepaid-namma-metro-1",
+     "aria": "Prepaid card customer service",
+     "target": "_blank"
+    }
+   ]
+  },
+  {
+   "cls": "dropdown-item subitem crdtcards subli",
+   "link": {
+    "text": "Credit Cards",
+    "href": "#creditsubmenu-1",
+    "id": "header-login-credit-cards-1",
+    "aria": "Credit Cards"
+   },
+   "children": [
+    {
+     "text": "Credit Cards",
+     "href": "#creditsubmenu-1",
+     "id": "header-login-credit-cards-1",
+     "aria": "Credit Cards"
+    },
+    {
+     "text": "Set Your Credit Card PIN",
+     "href": "/creditcard-pin-change",
+     "id": "header-login-cc-set-pin-1",
+     "aria": "Set your credit card pin",
+     "target": "_blank"
+    },
+    {
+     "text": "Online Card Payment",
+     "href": "/?onlineCardPayment=netBanking",
+     "id": "header-login-cc-card-payment-1",
+     "aria": "Online card payment using netbanking"
+    },
+    {
+     "text": "Online Card Account",
+     "href": "https://online.rbl.bank.in/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=176",
+     "id": "header-login-cc-card-account-1",
+     "aria": "See the card details Online",
+     "target": "_blank"
+    },
+    {
+     "text": "Card Settings",
+     "href": "/auth-controls",
+     "id": "header-login-cc-card-setting-1",
+     "aria": "Credit Card settings",
+     "target": "_blank"
+    },
+    {
+     "text": "Redeem Reward Points",
+     "href": "https://rblrewards.rbl.bank.in/",
+     "id": "header-login-cc-card-rewards-1",
+     "aria": "Redeem Rewards points",
+     "target": "_blank"
+    },
+    {
+     "text": "Card Activation",
+     "href": "/activation-credit-card",
+     "id": "header-login-cc-card-activation-1",
+     "aria": "Activate your card",
+     "target": "_blank"
+    },
+    {
+     "text": "Save your Card on Merchants",
+     "href": "https://rblbankaddcard.cardhq.com/",
+     "id": "header-login-cc-save-merchants1",
+     "aria": "Save your card on Merchants",
+     "target": "_blank"
+    }
+   ]
+  },
+  {
+   "cls": "dropdown-item subitem crdtcards subli",
+   "link": {
+    "text": "Debit Cards",
+    "href": "#debitsubmenu-1",
+    "id": "header-login-debit-cards-1",
+    "aria": "Debit Cards"
+   },
+   "children": [
+    {
+     "text": "Debit Cards",
+     "href": "#debitsubmenu-1",
+     "id": "header-login-debit-cards-1",
+     "aria": "Debit Cards"
+    },
+    {
+     "text": "Debit Card",
+     "href": "https://online.rbl.bank.in/corp",
+     "id": "header-login-dc-card-debit-card-1",
+     "aria": "See Debit card details",
+     "target": "_blank"
+    },
+    {
+     "text": "Generate Debit Card PIN",
+     "href": "/static-pages/ways-to-generate-debit-card-pin",
+     "id": "header-login-dc-card-generate-pin-1",
+     "aria": "Generate Debit card Pin",
+     "target": "_blank"
+    },
+    {
+     "text": "Recurring Merchant Payments on Credit & Debit Cards",
+     "href": "/static-pages/manage-recurring-merchant-payments",
+     "id": "header-login-dc-card-merchant-payment-1",
+     "aria": "Recurring Merchant Payments on Credit and debit cards",
+     "target": "_blank"
+    }
+   ]
+  }
+ ],
+ "icons": [
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/rbl.svg",
+   "alt": "Logo",
+   "href": null,
+   "cls": "img-fluid rbl-logo lazy"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/personal-banking.svg",
+   "alt": "Mobile Personal banking",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/corporate-banking.svg",
+   "alt": "Mobile  Corporate banking",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/prepaid-cards.svg",
+   "alt": "Manage Forex Cards",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/prepaid-cards.svg",
+   "alt": "Mobile Prepaid Cards",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/credit-cards.svg",
+   "alt": "Mobile Credit Cards",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/debit-cards.svg",
+   "alt": "Mobile Debit Cards",
+   "href": null,
+   "cls": "img-fluid pr15"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://webassets.rbl.bank.in/document/images/webp/digital-fd-pm.webp",
+   "alt": "Digital Fixed Deposits – Open your Digital FD now and get market-high interest rate, without having to open a savings bank account.",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-world-safari-credit-card-offer-mb.webp",
+   "alt": "Exclusive travel perks with RBL Bank World Safari Credit Card",
+   "href": null,
+   "cls": "top-pro-right-img"
+  },
+  {
+   "tag": "IMG",
+   "src": "https://webassets.rbl.bank.in/document/images/webp/open-digital-savings-account-3-steps-mb.webp",
+   "alt": "Open a digital savings account in 3 simple steps with RBL Bank for easy online banking",
+   "href": null,
+   "cls": "top-pro-right-img"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/Home.svg",
+   "alt": "Mobile Home",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/Login.svg",
+   "alt": "Login",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/Payments.svg",
+   "alt": "Payments",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/mobile-more.svg",
+   "alt": "More",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/icons/Savings_Account.svg",
+   "alt": "Savings Account",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/icons/Fixed_deposits.svg",
+   "alt": "Term Deposits",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/icons/Credit_Cards.svg",
+   "alt": "Credit Cards",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/icons/NRI_Account.svg",
+   "alt": "NRI Account",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/Loans.svg",
+   "alt": "Loans",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/preferredBanking.svg",
+   "alt": "Preferred Banking",
+   "href": null,
+   "cls": ""
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/search.svg",
+   "alt": "search",
+   "href": null,
+   "cls": "img-fluid img-blue "
+  },
+  {
+   "tag": "A",
+   "src": null,
+   "alt": null,
+   "href": "https://api.whatsapp.com/send?phone=918433598888&text=Hi%20RBL&source=&data=&app_absent=",
+   "cls": "circle-btn nav-link serach-btn-header whatsapp-header-link a-attention-link-add-script"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/whatsapp.svg",
+   "alt": "whatsapp",
+   "href": null,
+   "cls": "img-fluid img-blue"
+  },
+  {
+   "tag": "IMG",
+   "src": "/themes/custom/rbl_bank/images/bell.svg",
+   "alt": "bell",
+   "href": null,
+   "cls": "img-fluid img-blue"
+  }
+ ],
+ "cols": [
+  {
+   "h2": "Footer First",
+   "head": "About ‌",
+   "links": [
+    {
+     "text": "The Bank",
+     "href": "/about-us",
+     "aria": "The Bank"
+    },
+    {
+     "text": "Board of Directors",
+     "href": "/about-us/board-of-directors",
+     "aria": "Board of Directors"
+    },
+    {
+     "text": "Leadership Team",
+     "href": "/about-us/leadership-team",
+     "aria": "Leadership Team"
+    },
+    {
+     "text": "Careers",
+     "href": "/careers",
+     "aria": "Careers"
+    },
+    {
+     "text": "Social Responsibility",
+     "href": "/social-responsibility",
+     "aria": "Social Responsibility"
+    },
+    {
+     "text": "Sustainability Framework",
+     "href": "/sustainability-framework",
+     "aria": "Sustainability Framework"
+    }
+   ]
+  },
+  {
+   "h2": "Footer Second",
+   "head": "Media Center ‌",
+   "links": [
+    {
+     "text": "Press Releases",
+     "href": "/press-releases",
+     "aria": "Press Releases"
+    },
+    {
+     "text": "Media Kit",
+     "href": "/media-kit",
+     "aria": "Media Kit"
+    },
+    {
+     "text": "Investor Relations",
+     "href": "/investor-relations",
+     "aria": "Investor Relations"
+    }
+   ]
+  },
+  {
+   "h2": "Footer Third",
+   "head": "Products ‌",
+   "links": [
+    {
+     "text": "Savings Account",
+     "href": "/personal-banking/accounts/savings-accounts",
+     "aria": "Savings Account"
+    },
+    {
+     "text": "Current Account",
+     "href": "/business-banking/business/partnering-your-growth/current-accounts",
+     "aria": "Current Account"
+    },
+    {
+     "text": "Credit Cards",
+     "href": "/personal-banking/cards/credit-cards",
+     "aria": "Credit Cards"
+    },
+    {
+     "text": "Term Deposits",
+     "href": "/personal-banking/term-deposits",
+     "aria": "Term Deposits"
+    },
+    {
+     "text": "Housing Loan",
+     "href": "/personal-banking/loans/housing-loan",
+     "aria": "Housing Loan"
+    },
+    {
+     "text": "NRI Services",
+     "href": "/nri-banking",
+     "aria": "NRI Services"
+    }
+   ]
+  },
+  {
+   "h2": "Footer Fourth",
+   "head": "Important Links ‌",
+   "links": [
+    {
+     "text": "Regulatory Disclosures",
+     "href": "/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures",
+     "aria": "Regulatory Disclosures"
+    },
+    {
+     "text": "Bank Codes & Policies",
+     "href": "/codes-and-policies",
+     "aria": "Bank Codes & Policies"
+    },
+    {
+     "text": "News",
+     "href": "/news",
+     "aria": "News"
+    },
+    {
+     "text": "Service Charges & Fees",
+     "href": "/service-charges",
+     "aria": "Service Charges & Fees"
+    },
+    {
+     "text": "Interest Rates",
+     "href": "/interest-rates",
+     "aria": "Interest Rates"
+    },
+    {
+     "text": "Download Forms",
+     "href": "/download-form",
+     "aria": "Download Forms"
+    },
+    {
+     "text": "Site Map",
+     "href": "/site-map",
+     "aria": "Site Map"
+    }
+   ]
+  },
+  {
+   "h2": "Customer Service",
+   "head": "Customer Service ‌",
+   "links": [
+    {
+     "text": "Contact Us",
+     "href": "/contact-us",
+     "aria": "Contact Us"
+    },
+    {
+     "text": "Raise a Query / Request / Complaint",
+     "href": "https://outsys1.rbl.bank.in/WebForm/",
+     "aria": "Raise a Query / Request / Complaint",
+     "target": "_blank"
+    },
+    {
+     "text": "Locate Us",
+     "href": "/locate-branch",
+     "aria": "Locate Us"
+    },
+    {
+     "text": "Do Not Call Registry",
+     "href": "/do-not-call",
+     "aria": "Do Not Call Registry"
+    },
+    {
+     "text": "Grievance Redressal",
+     "href": "https://webassets.rbl.bank.in/document/Footer%20-%20Grievance%20Redressal/GrievanceRedressalProcess.pdf",
+     "aria": "Grievance Redressal",
+     "target": "_blank"
+    },
+    {
+     "text": "Feedback",
+     "href": "/feedback",
+     "aria": "Feedback"
+    },
+    {
+     "text": "Lodge a Complaint",
+     "href": "/lodge-a-complaint",
+     "aria": "Lodge a Complaint"
+    },
+    {
+     "text": "Report a Fraud",
+     "href": "/report-a-fraud",
+     "aria": "Report a Fraud"
+    },
+    {
+     "text": "Unclaimed Deposits",
+     "href": "/unclaimed-deposit-services",
+     "aria": "Unclaimed Deposits"
+    },
+    {
+     "text": "Certificates Issued by the Bank",
+     "href": "/certificates-issued-by-the-bank",
+     "aria": "Certificates Issued by the Bank"
+    }
+   ]
+  }
+ ],
+ "others": [
+  {
+   "cls": "list-unstyled xs-mb0",
+   "links": [
+    {
+     "text": "Trade & Forex Services",
+     "href": "https://webassets.rbl.bank.in/document/pdfs/trade-and-forex-services.pdf",
+     "aria": "Trade & Forex Services",
+     "target": "_blank",
+     "cls": "a-attention-link-add-script",
+     "sup": "https://webassets.rbl.bank.in/document/image/new-trade.png"
+    },
+    {
+     "text": "QIP 2019",
+     "href": "/investor-relations/disclosures-regulation-46/intimations",
+     "aria": "QIP 2019",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Important Documents",
+     "href": "/important-documents",
+     "aria": "Important Documents",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Account Aggregator",
+     "href": "/account-aggregator",
+     "id": "footer-others-account-aggregator",
+     "aria": "Account Aggregator",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Terms & Conditions",
+     "href": "/terms-and-conditions",
+     "aria": "Terms & Conditions",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Banking Ombudsman",
+     "href": "/banking-ombudsman",
+     "aria": "Banking Ombudsman",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Customer Knowledge Center",
+     "href": "/customer-knowledge-center",
+     "aria": "Customer Knowledge Center",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Financial Literacy",
+     "href": "/financial-literacy",
+     "aria": "Financial Literacy",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "RBI Kehta Hai",
+     "href": "https://www.rbi.org.in/CommonPerson/english/scripts/rbikehtahai.aspx",
+     "aria": "RBI Kehta Hai",
+     "target": "_blank",
+     "cls": "btn common-btn-blue a-attention-link-add-script"
+    },
+    {
+     "text": "RBI Sachet Portal",
+     "href": "https://sachet.rbi.org.in/",
+     "aria": "RBI Sachet Portal",
+     "target": "_blank",
+     "cls": "btn common-btn-blue a-attention-link-add-script"
+    },
+    {
+     "text": "Use of Un-parlimentary Language by Customers",
+     "href": "https://webassets.rbl.bank.in/document/footer-use-of-un-parliamentary-language/use-of-un-parliamentary-language.pdf",
+     "aria": "Use of Un-parlimentary Language by Customers",
+     "target": "_blank",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Aadhaar Enrolment Centers",
+     "href": "https://webassets.rbl.bank.in/document/pdfs/aadhaar-enrolment-updation-centers.pdf",
+     "aria": "Aadhaar Enrolment Centers",
+     "target": "_blank",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "NEFT Customer Facilitation Center",
+     "href": "https://webassets.rbl.bank.in/document/Footer%20-%20NEFT%20Customer%20Facilitation%20Center/NEFT-NOC.pdf",
+     "aria": "NEFT Customer Facilitation Center",
+     "target": "_blank",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Report loss or unauthorised use of Credit Card",
+     "href": "/report-loss-or-unautho-use-of-credit-card",
+     "aria": "Report loss or unauthorised use of Credit Card",
+     "cls": "a-attention-link-add-script"
+    }
+   ]
+  },
+  {
+   "cls": "list-unstyled footerIcons-toggle",
+   "links": [
+    {
+     "text": "Report loss or unauthorised use of Debit Card",
+     "href": "/report-loss-or-unautho-use-of-debit-card",
+     "aria": "Report loss or unauthorised use of Debit Card",
+     "cls": "a-attention-link-add-script"
+    },
+    {
+     "text": "Block Retail Internet Banking",
+     "href": "/block-channel",
+     "aria": "Block Retail Internet Banking",
+     "cls": "a-attention-link-add-script"
+    }
+   ]
+  }
+ ],
+ "row3": [
+  {
+   "cls": "pbottom mb15 hide-mobile",
+   "text": "Copyright 2026 RBL Bank Ltd."
+  },
+  {
+   "cls": "pbottom mb15 hide-mobile",
+   "text": "Site best viewed in IE 9-11, Edge 25, Chrome 58, Firefox 53, Safari 10.1"
+  },
+  {
+   "cls": "p16",
+   "text": "Follow us"
+  },
+  {
+   "cls": "p14 hide-desktop-above show-mobile mt15 text-white text-center",
+   "text": "Copyright 2026 RBL Bank Ltd."
+  }
+ ],
+ "social": [
+  {
+   "text": "‌Facebook",
+   "href": "https://www.facebook.com/TheRBLBank",
+   "aria": "Follow RBL Bank on Facebook (opens in new tab)",
+   "target": "_blank",
+   "cls": "a-fb a-attention-link-add-script"
+  },
+  {
+   "text": "‌Linkedin",
+   "href": "https://www.linkedin.com/company/rbl-bank",
+   "aria": "Follow RBL Bank on LinkedIn (opens in new tab)",
+   "target": "_blank",
+   "cls": "a-linkedin a-attention-link-add-script"
+  },
+  {
+   "text": "twitter",
+   "href": "https://twitter.com/rblbank",
+   "aria": "Follow RBL Bank on Twitter",
+   "target": "_blank",
+   "cls": "a-twitter a-attention-link-add-script"
+  },
+  {
+   "text": "‌instagram",
+   "href": "https://www.instagram.com/rbl_bank/",
+   "aria": "Follow RBL Bank on Instagram (opens in new tab)",
+   "target": "_blank",
+   "cls": "a-insta a-attention-link-add-script"
+  },
+  {
+   "text": "‌youtube",
+   "href": "https://www.youtube.com/@RblBankofficial?sub_confirmation=1",
+   "aria": "Follow RBL Bank on Youtube (opens in new tab)",
+   "target": "_blank",
+   "cls": "a-yt a-attention-link-add-script"
+  }
+ ],
+ "tabbar": [
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "/",
+    "id": "product-menu-side-banner-desktop-4",
+    "aria": "Mobile home menu"
+   },
+   "img": "/themes/custom/rbl_bank/images/Home.svg",
+   "alt": "Mobile Home",
+   "label": "<a href=\"/\" aria-label=\"Mobile about website page\" class=\"a-attention-link-add-script\">Home<span class=\"visually-hidden\">about website page</span></a>"
+  },
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "#modal-login",
+    "id": "product-menu-side-banner-desktop-5",
+    "aria": "view more login details"
+   },
+   "img": "/themes/custom/rbl_bank/images/Login.svg",
+   "alt": "Login",
+   "label": "<button data-bs-toggle=\"modal\" aria-label=\"View more details about login different services\" data-bs-target=\"#modal-login\">Login<span class=\"visually-hidden\">about login different services</span>\n                                                                                 </button>"
+  },
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "#modal-makepayment",
+    "id": "product-menu-side-banner-desktop-6",
+    "aria": "View more details payment modal"
+   },
+   "img": "/themes/custom/rbl_bank/images/Payments.svg",
+   "alt": "Payments",
+   "label": "<button aria-label=\"View more details about making payment\" data-bs-toggle=\"modal\" data-bs-target=\"#modal-makepayment\">\n                                                                                Payments<span class=\"visually-hidden\">about making payment</span>\n                                                                                </button>"
+  },
+  {
+   "cls": "tab-bar-icon active-menu",
+   "a": {
+    "text": "",
+    "href": "#modal-products",
+    "id": "product-menu-side-banner-desktop-7",
+    "aria": "View more details about this product"
+   },
+   "img": "/themes/custom/rbl_bank/images/mobile-more.svg",
+   "alt": "More",
+   "label": "<button data-bs-toggle=\"modal\" aria-label=\"View more details about banking products\" data-bs-target=\"#modal-products\">\n                                                                                More<span class=\"visually-hidden\">About banking products</span>\n                                                                                </button>"
+  },
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "/",
+    "aria": "Mobile home menu"
+   },
+   "img": "/themes/custom/rbl_bank/images/Home.svg",
+   "alt": "Mobile Home",
+   "label": "<a href=\"/\" aria-label=\"Mobile about website page\" class=\"a-attention-link-add-script\">Home<span class=\"visually-hidden\">about website page</span></a>"
+  },
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "#modal-login",
+    "aria": "view more login details"
+   },
+   "img": "/themes/custom/rbl_bank/images/Login.svg",
+   "alt": "Login",
+   "label": "<button data-bs-toggle=\"modal\" aria-label=\"View more details about login different services\" data-bs-target=\"#modal-login\">Login<span class=\"visually-hidden\">about login different services</span>\n                                                                                 </button>"
+  },
+  {
+   "cls": "tab-bar-icon",
+   "a": {
+    "text": "",
+    "href": "#modal-makepayment",
+    "aria": "View more details payment modal"
+   },
+   "img": "/themes/custom/rbl_bank/images/Payments.svg",
+   "alt": "Payments",
+   "label": "<button aria-label=\"View more details about making payment\" data-bs-toggle=\"modal\" data-bs-target=\"#modal-makepayment\">\n                                                                                Payments<span class=\"visually-hidden\">about making payment</span>\n                                                                                </button>"
+  },
+  {
+   "cls": "tab-bar-icon active-menu",
+   "a": {
+    "text": "",
+    "href": "#modal-products",
+    "aria": "View more details about this product"
+   },
+   "img": "/themes/custom/rbl_bank/images/mobile-more.svg",
+   "alt": "More",
+   "label": "<button data-bs-toggle=\"modal\" aria-label=\"View more details about banking products\" data-bs-target=\"#modal-products\">\n                                                                                More<span class=\"visually-hidden\">About banking products</span>\n                                                                                </button>"
+  }
+ ],
+ "mobImgs": [
+  {
+   "src": "/themes/custom/rbl_bank/images/mobile-more.svg",
+   "alt": "",
+   "cls": ""
+  },
+  {
+   "src": "/themes/custom/rbl_bank/images/rbl.svg",
+   "alt": "RBL Bank",
+   "cls": "logo-mob"
+  },
+  {
+   "src": "/themes/custom/rbl_bank/images/search.svg",
+   "alt": "search",
+   "cls": "img-fluid img-white"
+  },
+  {
+   "src": "/themes/custom/rbl_bank/images/whatsapp.svg",
+   "alt": "whatsapp",
+   "cls": "img-fluid img-blue"
+  },
+  {
+   "src": "/themes/custom/rbl_bank/images/bell.svg",
+   "alt": "bell",
+   "cls": "img-fluid img-blue"
+  }
+ ],
+ "crumbs": [
+  {
+   "text": "Home",
+   "href": "/"
+  },
+  {
+   "text": "Contact Us"
+  }
+ ],
+ "chat": [
+  {
+   "tag": "IMG",
+   "src": "https://webassets.rbl.bank.in/themes/custom/rbl_bank/images/chat.svg",
+   "alt": "chat",
+   "href": null,
+   "aria": null,
+   "cls": "chat-icon"
+  }
+ ]
+}

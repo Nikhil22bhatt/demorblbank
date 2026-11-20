@@ -1,0 +1,11 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/business-banking (live side from cache stardust/replica/gates/business-banking-1440/chrome-live.json, probed 2026-11-19T08:43:07.311Z — delete the file to re-probe)
+  build: http://localhost:8791/business-banking-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: 2 delta(s) — 78 paired of 78/78 texts, 2/2 icons
+  PAIR         "RBI Kehta Hai"  Δy -2px (3773→3771)
+  PAIR         "RBI Sachet Portal"  Δy -2px (3773→3771)
+
+✗ 2 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

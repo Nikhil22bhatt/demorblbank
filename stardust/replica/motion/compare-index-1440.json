@@ -1,0 +1,197 @@
+{
+  "live": "stardust/replica/motion/index-live-1440.json",
+  "build": "stardust/replica/motion/index-proto-1440.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 6,
+  "counts": {
+    "behaviors": 25,
+    "parity": 9,
+    "missing": 5,
+    "extra": 0,
+    "tolerance": 1,
+    "dead": 6,
+    "advisory": 4
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": ".our-products-slick .next-owl-btn → .rail--products .rail__btn--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .our-products-slick .next-owl-btn → .rail--products .rail__btn--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "widget",
+      "name": ".related-blog-slick .next-owl-btn → .rail--blog .rail__btn--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget .related-blog-slick .next-owl-btn → .rail--blog .rail__btn--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".product-card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .product-card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".offer-card-wrap → .offer-card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .offer-card-wrap → .offer-card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".csr-cate-card-wrap → .story-card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .csr-cate-card-wrap → .story-card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "entrance",
+      "name": "aniWidth",
+      "state": "missing",
+      "note": "fired on 9 element(s) on live",
+      "line": "motion entrance aniWidth: MISSING on build (fired on 9 element(s) on live)"
+    },
+    {
+      "cls": "transition",
+      "name": "box-shadow",
+      "state": "parity",
+      "note": "3 event(s) on live, 3 on build, 200ms",
+      "line": "motion transition box-shadow: parity (3 event(s) on live, 3 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "margin-top",
+      "state": "missing",
+      "note": "3 event(s) on live, 300ms",
+      "line": "motion transition margin-top: MISSING on build (3 event(s) on live, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "9 event(s) on live, 12 on build, 300ms",
+      "line": "motion transition opacity: parity (9 event(s) on live, 12 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "parity",
+      "note": "374 event(s) on live, 3 on build, 200ms",
+      "line": "motion transition top: parity (374 event(s) on live, 3 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "tolerance",
+      "deltas": [
+        "timing delta 500ms > 150ms [longest duration: live 1000ms, build 500ms]"
+      ],
+      "note": "12 event(s) on live, 8 on build",
+      "line": "motion transition transform: timing delta 500ms > 150ms [longest duration: live 1000ms, build 500ms] (12 event(s) on live, 8 on build)"
+    },
+    {
+      "cls": "transition",
+      "name": "left",
+      "state": "advisory",
+      "note": "2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition left: extra on build — advisory (2 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "max-height",
+      "state": "advisory",
+      "note": "3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition max-height: extra on build — advisory (3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "padding-top",
+      "state": "advisory",
+      "note": "3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition padding-top: extra on build — advisory (3 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "aos-animate",
+      "state": "parity",
+      "note": "added 6× on live, 6× on build",
+      "line": "motion class aos-animate: parity (added 6× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "body-active-effect",
+      "state": "parity",
+      "note": "added 4× on live, 4× on build",
+      "line": "motion class body-active-effect: parity (added 4× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "fixed-tab-body",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class fixed-tab-body: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolldown",
+      "state": "parity",
+      "note": "added 8× on live, 6× on build",
+      "line": "motion class scrolldown: parity (added 8× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolled",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class scrolled: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrollup",
+      "state": "parity",
+      "note": "added 6× on live, 6× on build",
+      "line": "motion class scrollup: parity (added 6× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-active",
+      "state": "missing",
+      "note": "trigger class added 36× on live, never on build",
+      "line": "motion class slick-active: MISSING on build (trigger class added 36× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-current",
+      "state": "missing",
+      "note": "trigger class added 13× on live, never on build",
+      "line": "motion class slick-current: MISSING on build (trigger class added 13× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-disabled",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class slick-disabled: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "notice-hidden",
+      "state": "advisory",
+      "note": "added 2× on build, never on live — check it drives no invented behavior",
+      "line": "motion class notice-hidden: extra on build — advisory (added 2× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

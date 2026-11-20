@@ -1,0 +1,608 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-19T08:52:07.581Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.rbl.bank.in/business-banking",
+      "http://localhost:8791/business-banking-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.rbl.bank.in/business-banking",
+    "http://localhost:8791/business-banking-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#content",
+      "isBody": false,
+      "leaves": 34,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section1 > div.container",
+        "tier": 6,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 750,
+        "via": "max-width",
+        "selector": "div.container > div.row.align-items-center > div.col-12 > div.banner-info.left-wrap",
+        "tier": 9,
+        "share": 0.09,
+        "section": 0,
+        "w1": 750,
+        "maxWidth": "750px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-section2 > div.container",
+        "tier": 6,
+        "share": 0.38,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "#data-section2 > div.container > div.field.row > div.col-md-6.col-lg-4",
+        "tier": 8,
+        "share": 0.09,
+        "section": 0,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "#data-section2 > div.container > div.field.row > div.col-md-6.col-lg-4",
+        "tier": 8,
+        "share": 0.09,
+        "section": 0,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "#data-section2 > div.container > div.field.row > div.col-md-6.col-lg-4",
+        "tier": 8,
+        "share": 0.09,
+        "section": 0,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "#data-section2 > div.container > div.field.row > div.col-md-6.col-lg-4",
+        "tier": 8,
+        "share": 0.09,
+        "section": 0,
+        "w1": 380,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-mobank-app > div.container",
+        "tier": 5,
+        "share": 0.12,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 472,
+        "via": "fixed",
+        "selector": "div.row > div.col-md-12 > div.rbl-myapp-card.aos-init > div.clearfix.text-formatted",
+        "tier": 9,
+        "share": 0.12,
+        "section": 1,
+        "w1": 472,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 372,
+        "via": "fixed",
+        "selector": "div.col-md-12 > div.rbl-myapp-card.aos-init > div.clearfix.text-formatted > div.rbl-myapp-right",
+        "tier": 10,
+        "share": 0.12,
+        "section": 1,
+        "w1": 372,
+        "maxWidth": "445px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-related-blog1 > div.container",
+        "tier": 8,
+        "share": 0.35,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0.06,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0.06,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0.06,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0.06,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0.06,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#data-related-blog > div.container",
+        "tier": 8,
+        "share": 0.06,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.related-blog-slick.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+        "tier": 15,
+        "share": 0,
+        "section": 1,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#block-rbl-bank-content",
+        "px": 1140,
+        "capSelector": "#data-section1 > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#block-savingaccountrblmobileapp",
+        "px": 1140,
+        "capSelector": "#data-mobank-app > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1140,
+    "contentFrom": "module",
+    "maxCap": 1140,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 202
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#content",
+      "isBody": false,
+      "leaves": 34,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.listing-hero > div.container",
+        "tier": 2,
+        "share": 0.09,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 750,
+        "via": "max-width",
+        "selector": "#content > section.listing-hero > div.container > div.listing-hero__panel",
+        "tier": 3,
+        "share": 0.09,
+        "section": 0,
+        "w1": 750,
+        "maxWidth": "750px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.listing-products > div.container",
+        "tier": 2,
+        "share": 0.38,
+        "section": 1,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "section.listing-products > div.container > ul.product-grid > li.product-grid__item",
+        "tier": 4,
+        "share": 0.09,
+        "section": 1,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "section.listing-products > div.container > ul.product-grid > li.product-grid__item",
+        "tier": 4,
+        "share": 0.09,
+        "section": 1,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "section.listing-products > div.container > ul.product-grid > li.product-grid__item",
+        "tier": 4,
+        "share": 0.09,
+        "section": 1,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "section.listing-products > div.container > ul.product-grid > li.product-grid__item",
+        "tier": 4,
+        "share": 0.09,
+        "section": 1,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.app-band > div.container",
+        "tier": 2,
+        "share": 0.12,
+        "section": 2,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 372,
+        "via": "fixed",
+        "selector": "section.app-band > div.container > div.app-band__card.is-revealed > div.app-band__copy",
+        "tier": 4,
+        "share": 0.12,
+        "section": 2,
+        "w1": 372,
+        "maxWidth": "445px"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.rail-section.rail-section--blog > div.container",
+        "tier": 2,
+        "share": 0.35,
+        "section": 3,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 1111,
+        "via": "fixed",
+        "selector": "div.container > div.rail > div.rail__viewport > ul.rail__track",
+        "tier": 5,
+        "share": 0.29,
+        "section": 3,
+        "w1": 1111,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0.06,
+        "section": 3,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1140,
+        "via": "max-width",
+        "selector": "#content > section.rail-section.rail-section--video > div.container",
+        "tier": 2,
+        "share": 0.06,
+        "section": 4,
+        "w1": 1140,
+        "maxWidth": "1140px"
+      },
+      {
+        "kind": "module",
+        "px": 1111,
+        "via": "fixed",
+        "selector": "div.container > div.rail > div.rail__viewport > ul.rail__track",
+        "tier": 5,
+        "share": 0,
+        "section": 4,
+        "w1": 1111,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 252,
+        "via": "fixed",
+        "selector": "div.rail > div.rail__viewport > ul.rail__track > li.rail__slide",
+        "tier": 6,
+        "share": 0,
+        "section": 4,
+        "w1": 252,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#content > section.listing-hero",
+        "px": 1140,
+        "capSelector": "#content > section.listing-hero > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#content > section.listing-products",
+        "px": 1140,
+        "capSelector": "#content > section.listing-products > div.container"
+      },
+      {
+        "index": 2,
+        "selector": "#content > section.app-band",
+        "px": 1140,
+        "capSelector": "#content > section.app-band > div.container"
+      },
+      {
+        "index": 3,
+        "selector": "#content > section.rail-section.rail-section--blog",
+        "px": 1140,
+        "capSelector": "#content > section.rail-section.rail-section--blog > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#content > section.rail-section.rail-section--video",
+        "px": 1140,
+        "capSelector": "#content > section.rail-section.rail-section--video > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1140,
+    "contentFrom": "module",
+    "maxCap": 1140,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 135
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1140px = build 1140px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 2 vs build 5 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "1140px = 1140px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/business-banking-2560/cap-iter.json"
+}

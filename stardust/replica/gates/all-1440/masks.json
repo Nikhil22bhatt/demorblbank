@@ -1,0 +1,10 @@
+{
+ "index": {
+  "masks": [
+   "248:395",
+   "880:345",
+   "1880:380"
+  ],
+  "reason": "live carousel mid-rotation in the frozen origin (hero / promo / app-banner slide areas); restoreAtDelivery autoplay on the build"
+ }
+}

@@ -1,0 +1,1 @@
+reference: frozen 1440×6138, primed, noise floor 0.01% in 2 variable region(s) (rows 852–888, 5792–5828) → mask 852:36,5792:36; outside them 0.00%

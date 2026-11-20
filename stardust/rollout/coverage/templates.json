@@ -1,0 +1,113 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-19T09:50:24.335Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T12:07:47.017Z",
+  "templates": [
+    {
+      "id": "about-us",
+      "representativeSlug": "about-us",
+      "pages": [
+        "about-us"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "about-banner",
+        "about-intro",
+        "awards",
+        "impact-stats",
+        "values"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "business-banking",
+      "representativeSlug": "business-banking",
+      "pages": [
+        "business-banking"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "app-band",
+        "listing-hero",
+        "product-grid",
+        "story-rail",
+        "video-rail"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "contact-us",
+      "representativeSlug": "contact-us",
+      "pages": [
+        "contact-us"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "contact-tabs"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "app-banner",
+        "fd-calculator",
+        "hero-carousel",
+        "home-blog",
+        "home-videos",
+        "offer-cards",
+        "product-cards",
+        "promo-carousel",
+        "rates"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "personal-banking",
+      "pages": [
+        "personal-banking"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

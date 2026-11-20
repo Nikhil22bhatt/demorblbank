@@ -1,0 +1,3451 @@
+{
+  "url": "https://www.rbl.bank.in/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 0,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 1200,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 2400,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 3600,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 3427,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 1927,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 2400,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 1200,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 800,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 500,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 300,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 200,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 150,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 120,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 90,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 60,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 30,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    },
+    {
+      "y": 0,
+      "cls": "accessibility-top-bar",
+      "position": "fixed",
+      "height": "42.875px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 3
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".our-products-slick .next-owl-btn",
+      "frames": [
+        {
+          "t": 42292.39999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 42500.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 42713.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 42924.09999999963,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".related-blog-slick .next-owl-btn",
+      "frames": [
+        {
+          "t": 44128.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 44400.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 44624.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 44852.39999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".product-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) -2px 2px 4px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.card-img-top.scale-img",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.btn.common-btn-gray",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgb(243, 244, 246)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "a.btn.common-btn-blue",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(48, 64, 135)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.15) -2px 2px 4px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.card-img-top.scale-img",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.btn.common-btn-gray",
+            "transform": "none",
+            "color": "rgb(48, 48, 48)",
+            "background": "rgb(243, 244, 246)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "a.btn.common-btn-blue",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(48, 64, 135)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".offer-card-wrap",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(255, 255, 255, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.next-arrow-btn.a-attention-link-add-script",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.2s, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(255, 255, 255, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.next-arrow-btn.a-attention-link-add-script",
+            "transform": "none",
+            "color": "rgb(48, 64, 135)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.2s, transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".csr-cate-card-wrap",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(255, 255, 255, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-white.a-attention-link-add-script",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(255, 255, 255, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-white.a-attention-link-add-script",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s linear"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "5",
+        "y": 1600
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "1",
+        "y": 3600
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "5",
+        "y": 4400
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "1",
+        "y": 2146
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "2",
+        "y": 500
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "2",
+        "y": 0
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "1",
+        "y": 1872
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "3",
+        "y": 2652
+      },
+      {
+        "name": "aniWidth",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "txt": "3",
+        "y": 3225
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 274,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 274,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 384,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 384,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 394,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "margin-top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.dialog-off-canvas-main-canvas > div",
+        "y": 394,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 394,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 402,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.common-section.home-section4.overflow-hidden > div.container > div.row > div.clearfix.text-formatted.field > div.col-md-12.aos-init.aos-animate",
+        "y": 402,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.common-section.home-section4.overflow-hidden > div.container > div.row > div.clearfix.text-formatted.field > div.col-md-12.aos-init.aos-animate",
+        "y": 402,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 434,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 482,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-footer-wrapper > button.go-to-top-wrap.show-mobile.st",
+        "y": 630,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 630,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 630,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 778,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 784,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 790,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 794,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 799,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 800,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 802,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 812,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 834,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 882,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 963,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1030,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1074,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1104,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1145,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1158,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1169,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1178,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1184,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1190,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1194,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1197,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1199,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1202,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1212,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1234,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1282,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1363,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1430,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1474,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1504,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1527,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1545,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1558,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1569,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1578,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1584,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1590,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1594,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1597,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1599,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1600,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 1600,
+        "dur": "1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section.pb0 > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 1600,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section.pb0 > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 1600,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1602,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1612,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1634,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1682,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1763,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1830,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1904,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1927,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1945,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.our-products-slick.mb30.slick-initialized",
+        "y": 1945,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.our-products-slick.mb30.slick-initialized",
+        "y": 1945,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1958,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1969,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1978,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1984,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1994,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1999,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2000,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 2000,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 2000,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2002,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2012,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2034,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2082,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2163,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2230,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2274,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2327,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2345,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2358,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2369,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2378,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2384,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2390,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2394,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2397,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.offers-deals-slick.mb30.slick-initialized",
+        "y": 2397,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.offers-deals-slick.mb30.slick-initialized",
+        "y": 2397,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2399,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.text-center.aos-init.aos-animate",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.text-center.aos-init.aos-animate",
+        "y": 2400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2402,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2412,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2434,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2482,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2563,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2630,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2674,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2704,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2745,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2758,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2778,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2784,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2790,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2794,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2797,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2800,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2802,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2812,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2834,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2882,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2963,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3030,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3074,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3127,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3145,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3158,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3169,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3178,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3184,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3190,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3194,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3197,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3199,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3202,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3212,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3234,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3282,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3363,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3430,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3474,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3504,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3527,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3545,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3558,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3569,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3578,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3584,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3590,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3594,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3597,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3599,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3600,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 3600,
+        "dur": "1s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3602,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3612,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3634,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3682,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3763,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3830,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3874,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3904,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3927,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3945,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3958,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3969,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3978,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3984,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3990,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3997,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3999,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4000,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4002,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4012,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4082,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4163,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4230,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4274,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4304,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4327,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4345,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4358,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4369,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4378,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4384,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4390,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4394,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4397,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4399,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 4400,
+        "dur": "1s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4398,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4226,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 4109,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3979,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3872,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3792,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3730,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3680,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3639,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3605,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3577,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3552,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3531,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3513,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3498,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3485,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3473,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3463,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3455,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3448,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3442,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3437,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3433,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3431,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3429,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3427,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3425,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3417,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3403,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3380,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3344,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3289,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3207,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3086,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2928,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2767,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2634,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2527,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2441,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2371,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2311,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 2261,
+        "dur": "1s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2261,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2217,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2146,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2117,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2091,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2068,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2047,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2013,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1999,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1986,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1975,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1966,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1957,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1950,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1944,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1939,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1935,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1932,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1930,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1928,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1927,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1929,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2000,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2165,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2224,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2265,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2295,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2318,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2337,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2351,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2363,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2373,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2380,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2386,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2391,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2397,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2399,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2398,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 2146,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1865,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1749,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1658,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1587,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1529,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1480,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1440,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1405,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1375,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1349,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1326,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1306,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1289,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1274,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1261,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1249,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1239,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1231,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1223,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1217,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1212,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1208,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1205,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1202,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1201,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1198,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1188,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1166,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1118,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1037,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 970,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 926,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 896,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 873,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 855,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 842,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 831,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 822,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 816,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 810,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 806,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 803,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 800,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 798,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 787,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 762,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 702,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 637,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 537,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 508,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 504,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 500,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 500,
+        "dur": "1s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-footer-wrapper > button.go-to-top-wrap.show-mobile.st",
+        "y": 497,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 497,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 497,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 319,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 307,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 304,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 300,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 297,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 243,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 214,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 204,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 200,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 174,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 150,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 145,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 123,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 121,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 120,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 115,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 99,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 93,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 91,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 90,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 85,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 69,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 63,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 61,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 60,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 55,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 39,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 30,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 25,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 9,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 3,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track",
+        "y": 0,
+        "dur": "1s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "margin-top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.dialog-off-canvas-main-canvas > div",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 10,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 191,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 191,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 851,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-footer-wrapper > button.go-to-top-wrap.show-mobile.st",
+        "y": 851,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 851,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 851,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1553,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "margin-top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.dialog-off-canvas-main-canvas > div",
+        "y": 1553,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1553,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1625,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1625,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1655,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1655,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1707,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1707,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1766,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1766,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1809,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1809,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "top",
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage > div.common-header-wrap > div.navbar-common-wrap > nav.navbar.navbar-expand-md.navbar-light",
+        "y": 1846,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2
+      },
+      {
+        "added": [
+          "scrolled"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 274
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "section.common-section.home-section4.overflow-hidden > div.container > div.row > div.clearfix.text-formatted.field > div.col-md-12.aos-init.aos-animate",
+        "y": 394
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 630
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 630
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section.pb0 > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 1474
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.our-products-slick.mb30.slick-initialized",
+        "y": 1474
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 1600
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 1600
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 1600
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "div.clearfix.text-formatted.field > section.common-section.related-blog-section > div.container > div.row > div.col-md-12.aos-init.aos-animate",
+        "y": 1984
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.offers-deals-slick.mb30.slick-initialized",
+        "y": 1984
+      },
+      {
+        "added": [
+          "aos-animate"
+        ],
+        "el": "div.container > div.row > div.col-md-12.aos-init.aos-animate > div > div.text-center.aos-init.aos-animate",
+        "y": 1984
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 3600
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 3600
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 3600
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 4400
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 4400
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 4400
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 4398
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 4398
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 2311
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 2311
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 2311
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 1929
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 1929
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2398
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2398
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 500
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 500
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 500
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 1
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 1
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 1
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 10
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 10
+      },
+      {
+        "added": [
+          "scrolled"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 191
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 851
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 851
+      },
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div > div.our-products-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div > div.our-products-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.our-products-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.our-products-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-active",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.our-products-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-active",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.row > div.col-md-12.aos-init.aos-animate > div > div.our-products-slick.mb30.slick-initialized > span.next-owl-btn.slick-arrow.slick-disabled",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 1872
+      },
+      {
+        "added": [
+          "slick-current"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-current",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-active",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-active",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div > div.related-blog-slick.mb30.slick-initialized > div.slick-list.draggable > div.slick-track > div.item.slick-slide.slick-active",
+        "y": 3017
+      },
+      {
+        "added": [
+          "slick-disabled"
+        ],
+        "el": "div.row > div.col-md-12 > div > div.related-blog-slick.mb30.slick-initialized > span.next-owl-btn.slick-arrow.slick-disabled",
+        "y": 3017
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 3015
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 3015
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2113
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html.js > body.layout-no-sidebars.page-node-1.path-frontpage",
+        "y": 2113
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.iocl.slick-slide",
+        "y": 2652
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > div.item.iocl.slick-slide",
+        "y": 2652
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.slick-team-wrap-single.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 2652
+      },
+      {
+        "added": [
+          "slick-current",
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 3210
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > div.slick-list.draggable > div.slick-track > section.common-section.banner-section.home-page-banner",
+        "y": 3210
+      },
+      {
+        "added": [
+          "slick-active"
+        ],
+        "el": "div.slick-list.draggable > div.slick-track > div.home-banner-wrapper.slick-slide.slick-current > ul.slick-dots > li.slick-active",
+        "y": 3210
+      }
+    ]
+  }
+}

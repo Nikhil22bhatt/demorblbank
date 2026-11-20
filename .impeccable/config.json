@@ -1,0 +1,32 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-11-19T08:31:22.042Z",
+        "reason": "replica run: Roboto is the live rbl.bank.in face (style.css @import, census headingFamily/bodyFamily) — same-design migration forbids substitution"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/contact-us.css"
+        ],
+        "createdAt": "2026-11-19T08:31:22.058Z",
+        "reason": "replica run: the live contact-us FAQ rows carry this left accent border; gated at 0.34% pixel diff against the source"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "blocks/contact-tabs/contact-tabs.css"
+        ],
+        "createdAt": "2026-11-19T10:39:48.694Z",
+        "reason": "replica migration: 5px left bar on FAQ heading lifted verbatim from source style.css .right-border-h2 (stardust/current/assets/css/style.css); design changes are out of scope without a register entry"
+      }
+    ]
+  }
+}

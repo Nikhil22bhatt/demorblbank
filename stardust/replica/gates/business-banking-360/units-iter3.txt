@@ -1,0 +1,60 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.rbl.bank.in/business-banking vs http://localhost:8791/business-banking-proposed.html
+unit 1 of listing-product-cards (required) .field--name-field-banking-categorys .product-card=.product-grid .product-card: origin 12,839 336×481 vs served 12,839 336×481 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "aaatest" | 0,0 336×200 | 0,0 336×200 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.card-body#1" | 0,200 336×281 | 0,200 336×281 | 0 | 0 | 0 | 0 | ✓ |
+| text "business banking group" | 30,223 276×27 | 30,223 276×27 (heading) | 0 | 0 | 0 | 0 | ✓ |
+| text "meet your business obligations and o" | 30,257 276×121 | 30,257 276×121 | 0 | 0 | 0 | 0 | ✓ |
+| link "know more" | 30,403 119×48 | 30,403 119×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of listing-product-cards (required) .field--name-field-banking-categorys .product-card=.product-grid .product-card: origin 12,1350 336×481 vs served 12,1350 336×481 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "aaatest" | 0,0 336×200 | 0,0 336×200 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.card-body#1" | 0,200 336×281 | 0,200 336×281 | 0 | 0 | 0 | 0 | ✓ |
+| text "agri banking" | 30,223 276×27 | 30,223 276×27 (heading) | 0 | 0 | 0 | 0 | ✓ |
+| text "our unique agri-banking offerings ar" | 30,257 276×121 | 30,257 276×121 | 0 | 0 | 0 | 0 | ✓ |
+| link "know more" | 30,403 119×48 | 30,403 119×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of listing-product-cards (required) .field--name-field-banking-categorys .product-card=.product-grid .product-card: origin 12,1861 336×508 vs served 12,1861 336×508 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "aaatest" | 0,0 336×200 | 0,0 336×200 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.card-body#1" | 0,200 336×308 | 0,200 336×308 | 0 | 0 | 0 | 0 | ✓ |
+| text "government sponsored scheme" | 30,223 276×54 | 30,223 276×54 (heading) | 0 | 0 | 0 | 0 | ✓ |
+| text "celebrating the spirit of indian ent" | 30,284 276×121 | 30,284 276×121 | 0 | 0 | 0 | 0 | ✓ |
+| link "know more" | 30,430 119×48 | 30,430 119×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of listing-product-cards (required) .field--name-field-banking-categorys .product-card=.product-grid .product-card: origin 12,2399 336×451 vs served 12,2399 336×451 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "aaatest" | 0,0 336×200 | 0,0 336×200 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.card-body#1" | 0,200 336×251 | 0,200 336×251 | 0 | 0 | 0 | 0 | ✓ |
+| text "business" | 30,223 276×27 | 30,223 276×27 (heading) | 0 | 0 | 0 | 0 | ✓ |
+| text "simplify your business banking exper" | 30,257 276×91 | 30,257 276×91 | 0 | 0 | 0 | 0 | ✓ |
+| link "know more" | 30,373 119×48 | 30,373 119×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of listing-story-cards (required) #data-related-blog1 .csr-cate-card-wrap=.rail-section--blog .story-card: origin 12,3540 253×325 vs served 12,3540 253×325 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.csr-cate-card-wrap-bg.lazy-b" | 0,0 253×325 | 0,0 253×325 | 0 | 0 | 0 | 0 | ✓ |
+| text "nov 04, 2026" | 20,195 213×20 | 20,195 213×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "how to protect your device from apk " | 20,222 196×44 | 20,222 196×44 | 0 | 0 | 0 | 0 | ✓ |
+| heading "how to protect your device from apk " | — | 20,221 213×47 | | | | | 🟡 extra |
+unit 2 of listing-story-cards (required) #data-related-blog1 .csr-cate-card-wrap=.rail-section--blog .story-card: origin 292,3540 253×325 vs served 292,3540 253×325 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.csr-cate-card-wrap-bg.lazy-b" | 0,0 253×325 | 0,0 253×325 | 0 | 0 | 0 | 0 | ✓ |
+| text "oct 26, 2026" | 20,189 213×20 | 20,189 213×20 | 0 | 0 | 0 | 0 | ✓ |
+| link "tips for identifying genuine bank co" | 20,216 154×68 | 20,216 154×68 | 0 | 0 | 0 | 0 | ✓ |
+| heading "tips for identifying genuine bank co" | — | 20,215 213×70 | | | | | 🟡 extra |
+unit 1 of listing-video-cards (required) #data-related-blog .csr-cate-card-wrap=.rail-section--video .video-card: origin 12,4099 253×347 vs served 12,4099 253×347 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "business or chess, the right move ca" | 0,0 253×295 | 0,0 253×295 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:button.video-card__play#1" | — | 0,0 253×295 | | | | | 🟡 extra |
+unit 2 of listing-video-cards (required) #data-related-blog .csr-cate-card-wrap=.rail-section--video .video-card: origin 292,4099 253×347 vs served 292,4099 253×347 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "csr initiatives - creating impact th" | 0,0 253×295 | 0,0 253×295 | 0 | 0 | 0 | 0 | ✓ |
+| button "button:button.video-card__play#1" | — | 0,0 253×295 | | | | | 🟡 extra |
+Units: 8 compared; elements within 28, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/business-banking-360/units-iter3.json

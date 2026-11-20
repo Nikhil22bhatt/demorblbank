@@ -1,0 +1,54 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T09:47:50.844Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 11,
+   "textNodes": 102,
+   "controls": 31,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav.au-tabs.au-tabs--page",
+    "path": "div.container > div.au-tabs-wrap > nav.au-tabs.au-tabs--page > a.au-tabs__link",
+    "text": "leadership team",
+    "cutMin": 77,
+    "cutMax": 77
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "nav.au-tabs.au-tabs--page",
+    "path": "div.container > div.au-tabs-wrap > nav.au-tabs.au-tabs--page > a.au-tabs__link",
+    "text": "leadership team",
+    "cutMin": 61,
+    "cutMax": 61
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.au-years__viewport",
+    "path": "ul.au-years__track > li.au-years__item > label > span",
+    "text": "2023",
+    "cutMin": 11,
+    "cutMax": 11
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

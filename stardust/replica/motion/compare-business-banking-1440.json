@@ -1,0 +1,208 @@
+{
+  "live": "stardust/replica/motion/business-banking-live-1440.json",
+  "build": "stardust/replica/motion/business-banking-proto-1440.json",
+  "toleranceMs": 150,
+  "tolerancePx": 8,
+  "advisory": true,
+  "findings": 6,
+  "counts": {
+    "behaviors": 27,
+    "parity": 11,
+    "missing": 6,
+    "extra": 0,
+    "tolerance": 0,
+    "dead": 5,
+    "advisory": 5
+  },
+  "verdicts": [
+    {
+      "cls": "header",
+      "name": "scroll-morph",
+      "state": "dead",
+      "note": "header static across the scroll traversal on both sides",
+      "line": "motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)"
+    },
+    {
+      "cls": "widget",
+      "name": "#data-related-blog1 .next-owl-btn → .rail-section--blog .rail__arrow--next",
+      "state": "dead",
+      "note": "no sampled change across the frames (track/scroll/box/indicator)",
+      "line": "motion widget #data-related-blog1 .next-owl-btn → .rail-section--blog .rail__arrow--next: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))"
+    },
+    {
+      "cls": "hover",
+      "name": ".product-card .common-btn-outline → .product-card__cta",
+      "state": "parity",
+      "note": "self.color; 200ms; paired by order",
+      "line": "motion hover .product-card .common-btn-outline → .product-card__cta: parity (self.color; 200ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": "#data-related-blog1 .csr-cate-card-wrap → .rail-section--blog .story-card",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #data-related-blog1 .csr-cate-card-wrap → .rail-section--blog .story-card: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": "#data-related-blog1 .text-center a → .rail-section--blog .btn-outline",
+      "state": "parity",
+      "note": "self.color; 200ms; paired by order",
+      "line": "motion hover #data-related-blog1 .text-center a → .rail-section--blog .btn-outline: parity (self.color; 200ms; paired by order)"
+    },
+    {
+      "cls": "hover",
+      "name": "#data-related-blog .video-thumb → .video-card__thumb",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover #data-related-blog .video-thumb → .video-card__thumb: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "hover",
+      "name": ".apps-download a → .app-band__stores a",
+      "state": "dead",
+      "note": "no measured hover diff",
+      "line": "motion hover .apps-download a → .app-band__stores a: dead on live — not required (no measured hover diff)"
+    },
+    {
+      "cls": "transition",
+      "name": "background-color",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 200ms",
+      "line": "motion transition background-color: parity (2 event(s) on live, 2 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "box-shadow",
+      "state": "missing",
+      "note": "3 event(s) on live, 200ms",
+      "line": "motion transition box-shadow: MISSING on build (3 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "color",
+      "state": "parity",
+      "note": "2 event(s) on live, 6 on build, 200ms",
+      "line": "motion transition color: parity (2 event(s) on live, 6 on build, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "opacity",
+      "state": "parity",
+      "note": "6 event(s) on live, 6 on build, 300ms",
+      "line": "motion transition opacity: parity (6 event(s) on live, 6 on build, 300ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "top",
+      "state": "missing",
+      "note": "386 event(s) on live, 200ms",
+      "line": "motion transition top: MISSING on build (386 event(s) on live, 200ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "transform",
+      "state": "parity",
+      "note": "2 event(s) on live, 2 on build, 1000ms",
+      "line": "motion transition transform: parity (2 event(s) on live, 2 on build, 1000ms)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-bottom-color",
+      "state": "advisory",
+      "note": "4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-bottom-color: extra on build — advisory (4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-left-color",
+      "state": "advisory",
+      "note": "4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-left-color: extra on build — advisory (4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-right-color",
+      "state": "advisory",
+      "note": "4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-right-color: extra on build — advisory (4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "transition",
+      "name": "border-top-color",
+      "state": "advisory",
+      "note": "4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion",
+      "line": "motion transition border-top-color: extra on build — advisory (4 event(s) on build, none on live — a build-only transitioned property; incidental unless a live line names the motion)"
+    },
+    {
+      "cls": "class",
+      "name": "aos-animate",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class aos-animate: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "body-active-effect",
+      "state": "parity",
+      "note": "added 4× on live, 4× on build",
+      "line": "motion class body-active-effect: parity (added 4× on live, 4× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "fixed-tab-body",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class fixed-tab-body: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolldown",
+      "state": "parity",
+      "note": "added 8× on live, 6× on build",
+      "line": "motion class scrolldown: parity (added 8× on live, 6× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrolled",
+      "state": "parity",
+      "note": "added 2× on live, 2× on build",
+      "line": "motion class scrolled: parity (added 2× on live, 2× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "scrollup",
+      "state": "parity",
+      "note": "added 8× on live, 8× on build",
+      "line": "motion class scrollup: parity (added 8× on live, 8× on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-active",
+      "state": "missing",
+      "note": "trigger class added 5× on live, never on build",
+      "line": "motion class slick-active: MISSING on build (trigger class added 5× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-current",
+      "state": "missing",
+      "note": "trigger class added 2× on live, never on build",
+      "line": "motion class slick-current: MISSING on build (trigger class added 2× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "slick-disabled",
+      "state": "missing",
+      "note": "trigger class added 1× on live, never on build",
+      "line": "motion class slick-disabled: MISSING on build (trigger class added 1× on live, never on build)"
+    },
+    {
+      "cls": "class",
+      "name": "is-revealed",
+      "state": "advisory",
+      "note": "added 1× on build, never on live — check it drives no invented behavior",
+      "line": "motion class is-revealed: extra on build — advisory (added 1× on build, never on live — check it drives no invented behavior)"
+    }
+  ]
+}

@@ -1,0 +1,1860 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-19T07:14:12.307Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.rbl.bank.in/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-19T07:14:12.307Z",
+  "finalUrl": "https://www.rbl.bank.in/",
+  "title": "Savings & Current Accounts, Loans, Credit Cards, NRI Services, Investments | RBL Bank",
+  "description": "RBL Bank is one of India’s leading private sector banks, offering a range of personal and business banking products and services, including Savings and Current Accounts, Loans, Credit Cards, NRI Services, and Investments.",
+  "og": {
+    "title": "Personal Banking, Online Banking Services | RBL Bank",
+    "description": "Wide range of Online Banking, Personal Banking services including Credit cards, personal loans, fixed deposits, savings account & insurance for all your personal needs.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Attractive Rates"
+    },
+    {
+      "tag": "h5",
+      "text": "7.00%* p.a."
+    },
+    {
+      "tag": "h5",
+      "text": "6.00%* p.a."
+    },
+    {
+      "tag": "h5",
+      "text": "10.00%* p.a."
+    },
+    {
+      "tag": "h5",
+      "text": "9.00%* p.a."
+    },
+    {
+      "tag": "h5",
+      "text": "$¥€"
+    },
+    {
+      "tag": "h2",
+      "text": "Go Further & Beyondwith IndianOil RBL Bank XTRA Credit Card"
+    },
+    {
+      "tag": "h2",
+      "text": "Fixed Deposit Calculator"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Products"
+    },
+    {
+      "tag": "h3",
+      "text": "Digital Savings Account - Prime"
+    },
+    {
+      "tag": "h3",
+      "text": "Shoprite Credit Card"
+    },
+    {
+      "tag": "h3",
+      "text": "Digital Fixed Deposit"
+    },
+    {
+      "tag": "h2",
+      "text": "Offers and Deals"
+    },
+    {
+      "tag": "h2",
+      "text": "Money, People & Safety"
+    }
+  ],
+  "body": [
+    "Fixed Deposits",
+    "View Rates",
+    "Savings Account",
+    "View Rates",
+    "Education Loan",
+    "Housing Loan",
+    "Forex Rates",
+    "Apply Now",
+    "Amount (Rs.)",
+    "₹ 5K",
+    "₹ 1 Cr",
+    "Years",
+    "10",
+    "Months",
+    "12",
+    "Days",
+    "31",
+    "Interest Amount*",
+    "Interest Rate*",
+    "Maturity Amount*",
+    "Maturity Date",
+    "*Terms and conditions apply. | For detailed information, click herefor interest rates",
+    "Festive Offer",
+    "Apply for a new Visa Enterprise Debit Card & get INR 1,000 Amazon Shopping Voucher",
+    "Attractive Offers",
+    "There's More to Save & Celebrate!",
+    "Festive Offer",
+    "Exclusive Festive Offer for Existing Visa Enterprise Debit Cardholders. Earn Amazon Shopping Vouchers worth INR 2,000 every month.",
+    "Nov 04, 2026",
+    "How to Protect Your Device from APK Fraud?",
+    "Oct 26, 2026",
+    "Tips for Identifying Genuine Bank Communicationse",
+    "Oct 16, 2026",
+    "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+    "Oct 14, 2026",
+    "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+    "Trust & Beyond"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Accessibility",
+      "href": null
+    },
+    {
+      "label": "Rent Your Property to RBL Bank",
+      "href": "/propose-your-property"
+    },
+    {
+      "label": "Skip to Main Content",
+      "href": "#content"
+    },
+    {
+      "label": "ALow Contrast View",
+      "href": "#"
+    },
+    {
+      "label": "AHigh Contrast View",
+      "href": "#"
+    },
+    {
+      "label": "Products",
+      "href": null
+    },
+    {
+      "label": "Payments",
+      "href": null
+    },
+    {
+      "label": "Offers",
+      "href": null
+    },
+    {
+      "label": "Customer Services",
+      "href": null
+    },
+    {
+      "label": "Login",
+      "href": null
+    },
+    {
+      "label": "Apply for Savings Account",
+      "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=hp-monthly-interest-sa-banner&utm_campaign=rbl-dsa-new-website"
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "Fixed Deposits",
+      "href": "/interest-rates?tab=fixed-deposit"
+    },
+    {
+      "label": "View Rates",
+      "href": "/interest-rates?tab=fixed-deposit"
+    },
+    {
+      "label": "Savings Account",
+      "href": "/interest-rates?tab=saving-account"
+    },
+    {
+      "label": "View Rates",
+      "href": "/interest-rates?tab=saving-account"
+    },
+    {
+      "label": "Education Loan",
+      "href": "/personal-banking/loans/education-loan"
+    },
+    {
+      "label": "Housing Loan",
+      "href": "/personal-banking/loans/housing-loan"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=IOCLXTRA&cs=website-hp-iocl-cc-banner-slot&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=website-hp-iocl-cc-banner-slot"
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "Reset",
+      "href": "#"
+    },
+    {
+      "label": "Existing Customer",
+      "href": "https://online.rbl.bank.in/corp/"
+    },
+    {
+      "label": "New Customer",
+      "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hp-calculator-fd-newcust-button&utm_term=hp-calculator-fd-newcust-button&utm_campaign=website-dig-fd"
+    },
+    {
+      "label": "click herefor interest rates",
+      "href": "/interest-rates?tab=fixed-deposit"
+    },
+    {
+      "label": "1",
+      "href": null
+    },
+    {
+      "label": "2",
+      "href": null
+    },
+    {
+      "label": "3",
+      "href": null
+    },
+    {
+      "label": "4",
+      "href": null
+    },
+    {
+      "label": "5",
+      "href": null
+    },
+    {
+      "label": "Know More",
+      "href": "/personal-banking/accounts/savings-accounts/digital-savings-account-prime"
+    },
+    {
+      "label": "Open Now",
+      "href": "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dsa&utm_content=home&utm_campaign=rbl-dsa-new-website"
+    },
+    {
+      "label": "Know More",
+      "href": "/personal-banking/cards/credit-cards/shoprite-credit-card"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://creditcard.rbl.bank.in/s/applynow?Creditcard=Shoprite&cs=Website-hp-ourprod-Shoprite&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-hp-ourprod-Shoprite"
+    },
+    {
+      "label": "Know More",
+      "href": "/personal-banking/term-deposits/digital-fixed-deposit"
+    },
+    {
+      "label": "Apply Now",
+      "href": "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dig-fd&utm_content=home&utm_campaign=rbl-dig-fd-website"
+    },
+    {
+      "label": "Explore More",
+      "href": "/offers"
+    },
+    {
+      "label": "How to Protect Your Device from APK Fraud?",
+      "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud"
+    },
+    {
+      "label": "Tips for Identifying Genuine Bank Communicationse",
+      "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications"
+    },
+    {
+      "label": "Stay Safe Online: Simple Tips to Avoid Cybercrime",
+      "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online"
+    },
+    {
+      "label": "Which NRI Account Do You Actually Need? NRE vs NRO vs FCNR(B) Explained",
+      "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india"
+    },
+    {
+      "label": "View All",
+      "href": "/blog"
+    },
+    {
+      "label": "Watch All",
+      "href": "/trust-and-beyond"
+    },
+    {
+      "label": "The Bank",
+      "href": "/about-us"
+    },
+    {
+      "label": "Board of Directors",
+      "href": "/about-us/board-of-directors"
+    },
+    {
+      "label": "Leadership Team",
+      "href": "/about-us/leadership-team"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    },
+    {
+      "label": "Social Responsibility",
+      "href": "/social-responsibility"
+    },
+    {
+      "label": "Sustainability Framework",
+      "href": "/sustainability-framework"
+    },
+    {
+      "label": "Press Releases",
+      "href": "/press-releases"
+    },
+    {
+      "label": "Media Kit",
+      "href": "/media-kit"
+    },
+    {
+      "label": "Investor Relations",
+      "href": "/investor-relations"
+    },
+    {
+      "label": "Savings Account",
+      "href": "/personal-banking/accounts/savings-accounts"
+    },
+    {
+      "label": "Current Account",
+      "href": "/business-banking/business/partnering-your-growth/current-accounts"
+    },
+    {
+      "label": "Credit Cards",
+      "href": "/personal-banking/cards/credit-cards"
+    },
+    {
+      "label": "Term Deposits",
+      "href": "/personal-banking/term-deposits"
+    },
+    {
+      "label": "Housing Loan",
+      "href": "/personal-banking/loans/housing-loan"
+    },
+    {
+      "label": "NRI Services",
+      "href": "/nri-banking"
+    },
+    {
+      "label": "Regulatory Disclosures",
+      "href": "/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures"
+    },
+    {
+      "label": "Bank Codes & Policies",
+      "href": "/codes-and-policies"
+    },
+    {
+      "label": "News",
+      "href": "/news"
+    },
+    {
+      "label": "Service Charges & Fees",
+      "href": "/service-charges"
+    },
+    {
+      "label": "Interest Rates",
+      "href": "/interest-rates"
+    },
+    {
+      "label": "Download Forms",
+      "href": "/download-form"
+    },
+    {
+      "label": "Site Map",
+      "href": "/site-map"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/contact-us"
+    },
+    {
+      "label": "Raise a Query / Request / Complaint",
+      "href": "https://outsys1.rbl.bank.in/WebForm/"
+    },
+    {
+      "label": "Locate Us",
+      "href": "/locate-branch"
+    },
+    {
+      "label": "Do Not Call Registry",
+      "href": "/do-not-call"
+    },
+    {
+      "label": "Grievance Redressal",
+      "href": "https://webassets.rbl.bank.in/document/Footer%20-%20Grievance%20Redressal/GrievanceRedressalProcess.pdf"
+    },
+    {
+      "label": "Feedback",
+      "href": "/feedback"
+    },
+    {
+      "label": "Lodge a Complaint",
+      "href": "/lodge-a-complaint"
+    },
+    {
+      "label": "Report a Fraud",
+      "href": "/report-a-fraud"
+    },
+    {
+      "label": "Unclaimed Deposits",
+      "href": "/unclaimed-deposit-services"
+    },
+    {
+      "label": "Certificates Issued by the Bank",
+      "href": "/certificates-issued-by-the-bank"
+    },
+    {
+      "label": "‌",
+      "href": "#"
+    },
+    {
+      "label": "Trade & Forex Services",
+      "href": "https://webassets.rbl.bank.in/document/pdfs/trade-and-forex-services.pdf"
+    },
+    {
+      "label": "QIP 2019",
+      "href": "/investor-relations/disclosures-regulation-46/intimations"
+    },
+    {
+      "label": "Important Documents",
+      "href": "/important-documents"
+    },
+    {
+      "label": "Account Aggregator",
+      "href": "/account-aggregator"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Banking Ombudsman",
+      "href": "/banking-ombudsman"
+    },
+    {
+      "label": "Customer Knowledge Center",
+      "href": "/customer-knowledge-center"
+    },
+    {
+      "label": "Financial Literacy",
+      "href": "/financial-literacy"
+    },
+    {
+      "label": "RBI Kehta Hai",
+      "href": "https://www.rbi.org.in/CommonPerson/english/scripts/rbikehtahai.aspx"
+    },
+    {
+      "label": "RBI Sachet Portal",
+      "href": "https://sachet.rbi.org.in/"
+    },
+    {
+      "label": "Use of Un-parlimentary Language by Customers",
+      "href": "https://webassets.rbl.bank.in/document/footer-use-of-un-parliamentary-language/use-of-un-parliamentary-language.pdf"
+    },
+    {
+      "label": "Aadhaar Enrolment Centers",
+      "href": "https://webassets.rbl.bank.in/document/pdfs/aadhaar-enrolment-updation-centers.pdf"
+    },
+    {
+      "label": "NEFT Customer Facilitation Center",
+      "href": "https://webassets.rbl.bank.in/document/Footer%20-%20NEFT%20Customer%20Facilitation%20Center/NEFT-NOC.pdf"
+    },
+    {
+      "label": "Report loss or unauthorised use of Credit Card",
+      "href": "/report-loss-or-unautho-use-of-credit-card"
+    },
+    {
+      "label": "Report loss or unauthorised use of Debit Card",
+      "href": "/report-loss-or-unautho-use-of-debit-card"
+    },
+    {
+      "label": "Block Retail Internet Banking",
+      "href": "/block-channel"
+    },
+    {
+      "label": "‌Facebook",
+      "href": "https://www.facebook.com/TheRBLBank"
+    },
+    {
+      "label": "‌Linkedin",
+      "href": "https://www.linkedin.com/company/rbl-bank"
+    }
+  ],
+  "links": [
+    "https://www.rbl.bank.in/#content",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://www.rbl.bank.in/personal-banking/term-deposits",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "https://www.rbl.bank.in/nri-banking",
+    "https://www.rbl.bank.in/personal-banking/loans",
+    "https://www.rbl.bank.in/preferred-banking",
+    "https://www.rbl.bank.in/propose-your-property",
+    "https://www.rbl.bank.in/#",
+    "https://www.rbl.bank.in/",
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+    "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking",
+    "https://www.rbl.bank.in/personal-banking/accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/salary-account",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/special-institutions-account",
+    "https://www.rbl.bank.in/personal-banking/accounts/safe-deposit-lockers",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/raksha-kavach-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/digital-fixed-deposit",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/ace-fixed-deposit",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/smart-recurring-deposit",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/money-max-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/flexi-sure-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/regular-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/tax-savings-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits",
+    "https://www.rbl.bank.in/personal-banking/term-deposits/recurring-deposits",
+    "https://www.rbl.bank.in/personal-banking/cards",
+    "https://www.rbl.bank.in/personal-banking/cards/debit-cards",
+    "https://www.rbl.bank.in/personal-banking/cards/commercial-cards",
+    "https://www.rbl.bank.in/personal-banking/cards/prepaid-cards",
+    "https://www.rbl.bank.in/personal-banking/cards/forex-cards/voyedge-forex-card",
+    "https://www.rbl.bank.in/personal-banking/loans/loan-against-securities",
+    "https://www.rbl.bank.in/personal-banking/loans/business-loan",
+    "https://www.rbl.bank.in/personal-banking/loans/education-loan",
+    "https://www.rbl.bank.in/personal-banking/loans/loan-against-gold-ornaments",
+    "https://www.rbl.bank.in/personal-banking/loans/small-and-micro-loan-against-property",
+    "https://www.rbl.bank.in/personal-banking/loans/car-loan",
+    "https://www.rbl.bank.in/personal-banking/loans/two-wheeler-loan",
+    "https://www.rbl.bank.in/personal-banking/loans/loan-against-property",
+    "https://www.rbl.bank.in/personal-banking/loans/easygain-overdraft",
+    "https://www.rbl.bank.in/personal-banking/loans/rural-vehicle-finance",
+    "https://www.rbl.bank.in/personal-banking/loans/housing-loan",
+    "https://www.rbl.bank.in/personal-banking/loans/personal-loan",
+    "https://www.rbl.bank.in/personal-banking/insurance",
+    "https://www.rbl.bank.in/personal-banking/insurance/life-insurance",
+    "https://www.rbl.bank.in/personal-banking/insurance/general-insurance",
+    "https://www.rbl.bank.in/personal-banking/insurance/health-insurance",
+    "https://www.rbl.bank.in/personal-banking/wealth-management",
+    "https://www.rbl.bank.in/personal-banking/wealth-management/mutual-fund",
+    "https://www.rbl.bank.in/personal-banking/wealth-management/alternate-investment-products",
+    "https://www.rbl.bank.in/gift-city/alternate-investment-funds",
+    "https://www.rbl.bank.in/personal-banking/wealth-management/e-asba",
+    "https://www.rbl.bank.in/personal-banking/wealth-management/3-in-1-account",
+    "https://www.rbl.bank.in/personal-banking/demat",
+    "https://www.rbl.bank.in/personal-banking/wealth-management/national-pension-system",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/online-tax-payments",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/bill-payment",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/self-service-kiosk",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/re-kyc",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/bharat-qr",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/verified-by-visa-secure",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/payment-gateway",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/missed-call-facility",
+    "https://www.rbl.bank.in/personal-banking/ways-to-bank",
+    "https://www.rbl.bank.in/personal-banking/ways-to-bank/internet-banking",
+    "https://www.rbl.bank.in/personal-banking/ways-to-bank/mobile-banking",
+    "https://www.rbl.bank.in/personal-banking/ways-to-bank/rbl-cares",
+    "https://www.rbl.bank.in/personal-banking/ways-to-bank/bank-by-person",
+    "https://www.rbl.bank.in/personal-banking/forex-services",
+    "https://www.rbl.bank.in/personal-banking/forex-services/outward-remittance",
+    "https://www.rbl.bank.in/nri-banking/nri-savings-account",
+    "https://www.rbl.bank.in/nri-banking/nre-savings-account",
+    "https://www.rbl.bank.in/nri-banking/nro-savings-account",
+    "https://www.rbl.bank.in/nri-banking/seafarer-account",
+    "https://www.rbl.bank.in/nri-banking/portfolio-investment-scheme",
+    "https://www.rbl.bank.in/nri-banking/deposits",
+    "https://www.rbl.bank.in/nri-banking/deposits/nre-deposits",
+    "https://www.rbl.bank.in/nri-banking/deposits/nro-deposits",
+    "https://www.rbl.bank.in/nri-banking/deposits/fcnr",
+    "https://www.rbl.bank.in/nri-banking/deposits/yield-maximiser",
+    "https://www.rbl.bank.in/nri-banking/deposits/nro-tax-saver-fixed-deposits",
+    "https://www.rbl.bank.in/nri-banking/money-transfer",
+    "https://www.rbl.bank.in/nri-banking/money-transfer/wire-transfers",
+    "https://www.rbl.bank.in/nri-banking/money-transfer/foreign-currency-cheques",
+    "https://www.rbl.bank.in/nri-banking/deposits/rfc-deposits",
+    "https://www.rbl.bank.in/gift-city/nri-pios-and-foreign-nationals",
+    "https://www.rbl.bank.in/nri-banking/home-loan-for-nri",
+    "https://www.rbl.bank.in/preferred-banking/insignia-banking",
+    "https://www.rbl.bank.in/preferred-banking/signature-banking",
+    "https://www.rbl.bank.in/preferred-banking/aspire-banking",
+    "https://www.rbl.bank.in/business-banking",
+    "https://www.rbl.bank.in/business-banking/business-banking-group",
+    "https://www.rbl.bank.in/business-banking/agri-banking",
+    "https://www.rbl.bank.in/business-banking/agri-banking/agri-business",
+    "https://www.rbl.bank.in/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/prime-minister-employment-generation-programme",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/pradhan-mantri-mudra-yojana",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/pm-street-vendors-atmanirbhar-nidhi-scheme",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/maharashtra-chief-minister-employment-generation-programme",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/pradhan-mantri-formalization-of-micro-food-processing-enterprises-scheme",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/agriculture-infrastructure-fund",
+    "https://www.rbl.bank.in/business-banking/government-sponsored-scheme/pm-vishwakarma-scheme",
+    "https://www.rbl.bank.in/business-banking/business",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth",
+    "https://www.rbl.bank.in/business-banking/business/convenience",
+    "https://www.rbl.bank.in/business-banking/business/specialised-packages",
+    "https://www.rbl.bank.in/business-banking/credit-guarantee-schemes",
+    "https://www.rbl.bank.in/business-banking/credit-guarantee-schemes/national-credit-guarantee-trustee-company",
+    "https://www.rbl.bank.in/business-banking/credit-guarantee-schemes/credit-guarantee-fund-trust-for-micro-and-small-enterprises",
+    "https://www.rbl.bank.in/wholesale-banking",
+    "https://www.rbl.bank.in/wholesale-banking/clients",
+    "https://www.rbl.bank.in/wholesale-banking/clients/corporate-banking",
+    "https://www.rbl.bank.in/wholesale-banking/clients/commercial-banking",
+    "https://www.rbl.bank.in/wholesale-banking/clients/government-banking",
+    "https://www.rbl.bank.in/wholesale-banking/clients/financial-institutions-group",
+    "https://www.rbl.bank.in/wholesale-banking/clients/multinational-corporates",
+    "https://www.rbl.bank.in/wholesale-banking/clients/inclusive-finance-institutions",
+    "https://www.rbl.bank.in/wholesale-banking/products-and-services",
+    "https://www.rbl.bank.in/wholesale-banking/products-and-services/corporate-finance",
+    "https://www.rbl.bank.in/wholesale-banking/products-and-services/transaction-banking",
+    "https://www.rbl.bank.in/wholesale-banking/products-and-services/financial-markets-and-treasury",
+    "https://www.rbl.bank.in/wholesale-banking/products-and-services/wholesale-client-services",
+    "https://www.rbl.bank.in/corporate-banking",
+    "https://www.rbl.bank.in/corporate-banking/corporate-internet-banking",
+    "https://www.rbl.bank.in/corporate-banking/rbl-mybizbank-app",
+    "https://www.rbl.bank.in/india-startup-club",
+    "https://www.rbl.bank.in/gift-city",
+    "https://www.rbl.bank.in/?onlineCardPayment=netBanking",
+    "https://www.rbl.bank.in/?onlineCardPayment=debitCard",
+    "https://www.rbl.bank.in/?onlineCardPayment=upiPayment",
+    "https://www.rbl.bank.in/?onlineCardPayment=mobApp",
+    "https://www.rbl.bank.in/?onlineCardPayment=neft",
+    "https://www.rbl.bank.in/?onlineCardPayment=otherWay",
+    "https://www.rbl.bank.in/static-pages/gpay",
+    "https://www.rbl.bank.in/static-pages/samsung-pay",
+    "https://www.rbl.bank.in/static-pages/manage-recurring-merchant-payments",
+    "https://www.rbl.bank.in/offers-and-promotions?type=155357",
+    "https://www.rbl.bank.in/offers?cat%5B0%5D=315494&type=155357",
+    "https://www.rbl.bank.in/offers?type=155357&cat%5B0%5D=155362",
+    "https://www.rbl.bank.in/offers?type=155357&cat%5B0%5D=245009",
+    "https://www.rbl.bank.in/offers?type=155357&cat%5B0%5D=245034",
+    "https://www.rbl.bank.in/offers?cat%5B0%5D=155406&type=155357",
+    "https://www.rbl.bank.in/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407",
+    "https://www.rbl.bank.in/offers-and-promotions?type=155356",
+    "https://www.rbl.bank.in/offers?cat%5B0%5D=315494&type=155356",
+    "https://www.rbl.bank.in/offers?cat%5B0%5D=155365&type=155356",
+    "https://www.rbl.bank.in/contact-us",
+    "https://outsys1.rbl.bank.in/WebForm/",
+    "https://www.rbl.bank.in/grievance-mechanism-flowchart",
+    "https://www.rbl.bank.in/quick-services",
+    "https://www.rbl.bank.in/report-a-fraud",
+    "https://www.rbl.bank.in/static-pages/report-loss-or-unauthorised-use-of-credit-card",
+    "https://www.rbl.bank.in/static-pages/report-loss-or-unauthorised-use-of-debit-card",
+    "https://www.rbl.bank.in/feedback",
+    "https://www.rbl.bank.in/download-form",
+    "https://www.rbl.bank.in/static-pages/positive-pay",
+    "https://upihelp.npci.org.in/?token=2UEPp2QV8pV4IHh",
+    "https://www.rbl.bank.in/locate-branch",
+    "https://online.rbl.bank.in/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=176",
+    "https://online.rbl.bank.in/CorpBank/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=176",
+    "https://forexcard.rbl.bank.in/",
+    "https://ems.rbl.bank.in/",
+    "https://nammametro.paycraftsol.in/",
+    "https://www.rbl.bank.in/creditcard-pin-change",
+    "https://www.rbl.bank.in/auth-controls",
+    "https://rblrewards.rbl.bank.in/",
+    "https://www.rbl.bank.in/activation-credit-card",
+    "https://rblbankaddcard.cardhq.com/",
+    "https://www.rbl.bank.in/static-pages/ways-to-generate-debit-card-pin",
+    "https://www.rbl.bank.in/preferred-banking/insignia",
+    "https://www.rbl.bank.in/offers?cat[]=315494&type=155357",
+    "https://www.rbl.bank.in/offers?cat[]=245034&type=155357",
+    "https://www.rbl.bank.in/offers?cat[]=315494&type=155356",
+    "https://www.rbl.bank.in/offers?type=155356&cat[]=155365",
+    "https://www.rbl.bank.in/#modal-login",
+    "https://www.rbl.bank.in/#modal-makepayment",
+    "https://www.rbl.bank.in/#modal-products",
+    "https://www.rbl.bank.in/product/credit-cards/samsung-pay",
+    "https://api.whatsapp.com/send?phone=918433598888&text=Hi%20RBL&source=&data=&app_absent=",
+    "https://online.rbl.bank.in/corp",
+    "https://online.rbl.bank.in/CorpBank",
+    "https://www.rbl.bank.in/#prepaidsubmenu-1",
+    "https://www.rbl.bank.in/#creditsubmenu-1",
+    "https://www.rbl.bank.in/#debitsubmenu-1",
+    "https://www.rbl.bank.in/chatbot",
+    "https://www.rbl.bank.in/personal-banking/convenience-banking/tax-payments/direct-tax/?tabName=what-is-direct-tax",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=hp-monthly-interest-sa-banner&utm_campaign=rbl-dsa-new-website",
+    "https://www.rbl.bank.in/interest-rates?tab=fixed-deposit",
+    "https://www.rbl.bank.in/interest-rates?tab=saving-account",
+    "https://www.rbl.bank.in/nrfxrates",
+    "https://creditcard.rbl.bank.in/s/applynow?Creditcard=WorldSafari&cs=website-hp-world-safari-cc-banner-slot&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=website-hp-world-safari-cc-banner-slot",
+    "https://creditcard.rbl.bank.in/s/applynow?Creditcard=irctc&cs=website-hp-irctc-cc-banner-slot&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=website-hp-irctc-cc-banner-slot",
+    "https://creditcard.rbl.bank.in/s/applynow?Creditcard=IOCLXTRA&cs=website-hp-iocl-cc-banner-slot&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=website-hp-iocl-cc-banner-slot",
+    "https://online.rbl.bank.in/corp/",
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hp-calculator-fd-newcust-button&utm_term=hp-calculator-fd-newcust-button&utm_campaign=website-dig-fd",
+    "https://www.rbl.bank.in/api/v1/doc/document/pdfs/cc-avenues-list.pdf",
+    "https://www.rbl.bank.in/api/v1/doc/document/pdfs/bank-list-netbanking-billdesk.pdf",
+    "https://www.rbl.bank.in/api/v1/doc/document/pdfs/bank-list-netbanking-razorpay.pdf",
+    "https://webassets.rbl.bank.in/document/pdfs/bank-list-debit-cards.pdf",
+    "https://rcollect.rbl.bank.in/rzpjrney/payment/",
+    "https://apps.apple.com/in/app/rbl-mybank-prev-rbl-mobank/id916461662",
+    "https://play.google.com/store/apps/details?id=com.rblbank.mobank&hl=en",
+    "https://www.rbl.bank.in/credit-card-payments",
+    "tel:7045906905",
+    "https://www.rbl.bank.in/make-payment/bill-desk",
+    "https://sancharsaathi.gov.in/",
+    "https://www.rbl.bank.in/financial-inclusion-saturation-campaign",
+    "https://www.rbl.bank.in/corporate-banking/rbl-mybizbank-app?tabName=why-us",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts/digital-savings-account-prime",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dsa&utm_content=home&utm_campaign=rbl-dsa-new-website",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/shoprite-credit-card",
+    "https://creditcard.rbl.bank.in/s/applynow?Creditcard=Shoprite&cs=Website-hp-ourprod-Shoprite&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-hp-ourprod-Shoprite",
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website&utm_term=website-hp-ourprod-dig-fd&utm_content=home&utm_campaign=rbl-dig-fd-website",
+    "https://www.rbl.bank.in/apply-form?product=Education-Loan&LeadSource=website-hp-ourprod-education-loan&utm_campaign=Loan&utm_medium=Website&utm_source=website-hp-ourprod-education-loan",
+    "https://www.rbl.bank.in/offers-and-promotions/apply-spend-to-earn-amazon-vouchers-on-your-enterprise-debit-card",
+    "https://www.rbl.bank.in/offers-and-promotions/attractive-offers-with-rbl-bank-credit-cards",
+    "https://www.rbl.bank.in/offers-and-promotions/exclusive-festive-offer-existing-visa-enterprise-debit-cardholders-amazon-shopping-vouchers",
+    "https://www.rbl.bank.in/offers",
+    "https://www.rbl.bank.in/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud",
+    "https://www.rbl.bank.in/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications",
+    "https://www.rbl.bank.in/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online",
+    "https://www.rbl.bank.in/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india",
+    "https://www.rbl.bank.in/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself",
+    "https://www.rbl.bank.in/blog",
+    "https://www.rbl.bank.in/trust-and-beyond",
+    "https://webassets.rbl.bank.in/document/pdfs/continuous-cheque-clearing-1025.pdf",
+    "https://www.dicgc.org.in/",
+    "https://www.rbl.bank.in/static-pages/linking-pan-with-aadhaar",
+    "https://www.rbl.bank.in/static-pages/manage-recurring-merchant-payments?itm_campaign=payments&itm_medium=Website&itm_source=ticker-rec-merchant",
+    "https://webassets.rbl.bank.in/document/pdfs/properties-for-sale-under-sarfaesi.pdf",
+    "https://www.rbl.bank.in/about-us",
+    "https://www.rbl.bank.in/about-us/board-of-directors",
+    "https://www.rbl.bank.in/about-us/leadership-team",
+    "https://www.rbl.bank.in/careers",
+    "https://www.rbl.bank.in/social-responsibility",
+    "https://www.rbl.bank.in/sustainability-framework",
+    "https://www.rbl.bank.in/press-releases",
+    "https://www.rbl.bank.in/media-kit",
+    "https://www.rbl.bank.in/investor-relations",
+    "https://www.rbl.bank.in/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures",
+    "https://www.rbl.bank.in/codes-and-policies",
+    "https://www.rbl.bank.in/news",
+    "https://www.rbl.bank.in/service-charges",
+    "https://www.rbl.bank.in/interest-rates",
+    "https://www.rbl.bank.in/site-map",
+    "https://www.rbl.bank.in/do-not-call",
+    "https://webassets.rbl.bank.in/document/Footer%20-%20Grievance%20Redressal/GrievanceRedressalProcess.pdf",
+    "https://www.rbl.bank.in/lodge-a-complaint",
+    "https://www.rbl.bank.in/unclaimed-deposit-services",
+    "https://www.rbl.bank.in/certificates-issued-by-the-bank",
+    "https://webassets.rbl.bank.in/document/pdfs/trade-and-forex-services.pdf",
+    "https://www.rbl.bank.in/investor-relations/disclosures-regulation-46/intimations",
+    "https://www.rbl.bank.in/important-documents",
+    "https://www.rbl.bank.in/account-aggregator",
+    "https://www.rbl.bank.in/terms-and-conditions",
+    "https://www.rbl.bank.in/banking-ombudsman",
+    "https://www.rbl.bank.in/customer-knowledge-center",
+    "https://www.rbl.bank.in/financial-literacy",
+    "https://www.rbi.org.in/CommonPerson/english/scripts/rbikehtahai.aspx",
+    "https://sachet.rbi.org.in/",
+    "https://webassets.rbl.bank.in/document/footer-use-of-un-parliamentary-language/use-of-un-parliamentary-language.pdf",
+    "https://webassets.rbl.bank.in/document/pdfs/aadhaar-enrolment-updation-centers.pdf",
+    "https://webassets.rbl.bank.in/document/Footer%20-%20NEFT%20Customer%20Facilitation%20Center/NEFT-NOC.pdf",
+    "https://www.rbl.bank.in/report-loss-or-unautho-use-of-credit-card",
+    "https://www.rbl.bank.in/report-loss-or-unautho-use-of-debit-card",
+    "https://www.rbl.bank.in/block-channel",
+    "https://www.facebook.com/TheRBLBank",
+    "https://www.linkedin.com/company/rbl-bank",
+    "https://twitter.com/rblbank",
+    "https://www.instagram.com/rbl_bank/",
+    "https://www.youtube.com/@RblBankofficial?sub_confirmation=1",
+    "https://outsys1.rbl.bank.in/WebForm",
+    "https://www.rbl.bank.in/locate-us",
+    "https://www.rbl.bank.in/credit-card-application?cs=website-search-tag-apply&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=website-search-tag-apply",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website&utm_term=search&utm_content=pro-pg&utm_campaign=rbl-dsa-new-website",
+    "https://creditcard.rbl.bank.in/s/cobranding?partner=WorldSafari&cs=Website-NavMenu-world-safari&cg=creditcard&sg=101&sc=WEB01&fc=FF&ofc=NIL&utm_campaign=CreditCard&utm_medium=website&utm_source=Website-NavMenu-world-safari",
+    "https://www.rbl.bank.in/static-pages/cookie-policy"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.skynettechnologies.com/sites/default/files/aioa-icon-type-1.svg",
+        "alt": "",
+        "w": 55,
+        "h": 55
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Savings_Account.svg",
+        "alt": "Savings Account",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Fixed_deposits.svg",
+        "alt": "Term Deposits",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Credit_Cards.svg",
+        "alt": "Credit Cards",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/NRI_Account.svg",
+        "alt": "NRI Account",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/Loans.svg",
+        "alt": "Loans",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/preferredBanking.svg",
+        "alt": "Preferred Banking",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/s3fs-public/2026-08/Vector.svg",
+        "alt": "Property Logo",
+        "w": 10,
+        "h": 9
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/s3fs-public/2026-08/Vector.svg",
+        "alt": "Property Logo",
+        "w": 10,
+        "h": 9
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/rbl.svg",
+        "alt": "Logo",
+        "w": 146,
+        "h": 60
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Savings_Account.svg",
+        "alt": "Savings Account",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Fixed_deposits.svg",
+        "alt": "Term Deposits",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/Credit_Cards.svg",
+        "alt": "Credit Cards",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/NRI_Account.svg",
+        "alt": "NRI Account",
+        "w": 150,
+        "h": 150
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/Loans.svg",
+        "alt": "Loans",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/preferredBanking.svg",
+        "alt": "Preferred Banking",
+        "w": 60,
+        "h": 60
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/search.svg",
+        "alt": "search",
+        "w": 17,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/whatsapp.svg",
+        "alt": "whatsapp",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/bell.svg",
+        "alt": "bell",
+        "w": 18,
+        "h": 21
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/rbl.svg",
+        "alt": "RBL Bank",
+        "w": 146,
+        "h": 60
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/search.svg",
+        "alt": "search",
+        "w": 17,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/whatsapp.svg",
+        "alt": "whatsapp",
+        "w": 21,
+        "h": 21
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/bell.svg",
+        "alt": "bell",
+        "w": 18,
+        "h": 21
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/themes/custom/rbl_bank/images/chat.svg",
+        "alt": "chat",
+        "w": 41,
+        "h": 37
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/download-icon.svg",
+        "alt": "download pdf",
+        "w": 29,
+        "h": 30
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/down-icon1.svg",
+        "alt": "down-icon",
+        "w": 30,
+        "h": 29
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/down-icon1.svg",
+        "alt": "down-icon",
+        "w": 30,
+        "h": 29
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-ad.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-am.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 414,
+        "h": 547
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-desktop.webp",
+        "alt": "Financial Inclusion Saturation Campaign 2026",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-mob.webp",
+        "alt": "Financial Inclusion Saturation Campaign 2026",
+        "w": 614,
+        "h": 811
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner.webp",
+        "alt": "Know more about RBL MyBizBank business banking app features",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner-m.webp",
+        "alt": "Know more about RBL MyBizBank business banking app features",
+        "w": 414,
+        "h": 527
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot.webp",
+        "alt": "RBL Cares Chatbot",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot-m.webp",
+        "alt": "RBL Cares Chatbot",
+        "w": 414,
+        "h": 527
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services.webp",
+        "alt": "WhatsApp Banking by RBL Bank - Convenient banking at your fingertips",
+        "w": 1302,
+        "h": 339
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services-m.webp",
+        "alt": "WhatsApp Banking by RBL Bank - Convenient banking at your fingertips",
+        "w": 430,
+        "h": 547
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-ad.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-am.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 414,
+        "h": 547
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-desktop.webp",
+        "alt": "Financial Inclusion Saturation Campaign 2026",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/nationwide-financial-inclusion-saturation-mob.webp",
+        "alt": "Financial Inclusion Saturation Campaign 2026",
+        "w": 614,
+        "h": 811
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner.webp",
+        "alt": "Know more about RBL MyBizBank business banking app features",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-mybizbank-business-banking-app-features-banner-m.webp",
+        "alt": "Know more about RBL MyBizBank business banking app features",
+        "w": 414,
+        "h": 527
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot.webp",
+        "alt": "RBL Cares Chatbot",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-cares-chatbot-m.webp",
+        "alt": "RBL Cares Chatbot",
+        "w": 414,
+        "h": 527
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services.webp",
+        "alt": "WhatsApp Banking by RBL Bank - Convenient banking at your fingertips",
+        "w": 1302,
+        "h": 339
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-whatsapp-banking-services-m.webp",
+        "alt": "WhatsApp Banking by RBL Bank - Convenient banking at your fingertips",
+        "w": 430,
+        "h": 547
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-ad.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 1440,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/sanchar-saathi-mobile-app-am.webp",
+        "alt": "Sancharsaathi App - Empowering customers with digital banking services",
+        "w": 414,
+        "h": 547
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-digital-savings-account.webp",
+        "alt": "Digital Savings Account offering easy account access, online transactions, and smart savings features",
+        "w": 700,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-shoprite-credit-card.webp",
+        "alt": "Get the ShopRite Credit Card from RBL Bank for exciting discounts and offers",
+        "w": 700,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-digital-fixed-deposits-op.webp",
+        "alt": "Digital Fixed Deposit",
+        "w": 700,
+        "h": 400
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-education-loan-op.webp",
+        "alt": "Education Loan ",
+        "w": 700,
+        "h": 400
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/next-btn.svg",
+        "alt": "next-btn",
+        "w": 70,
+        "h": 70
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/next-btn.svg",
+        "alt": "next-btn",
+        "w": 70,
+        "h": 70
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/next-btn.svg",
+        "alt": "next-btn",
+        "w": 70,
+        "h": 70
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/hp-video/chess-one-right-move.webp",
+        "alt": "Business or Chess, the right move can change the entire game | Ft. D Gukesh X RBL Bank",
+        "w": 383,
+        "h": 447
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/hp-video/csr-initiatives-helo.webp",
+        "alt": "CSR Initiatives - Creating Impact Through H.E.LO Health, Education & Livelihood Opportunities",
+        "w": 383,
+        "h": 447
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/hp-video/world-safari-gukesh.webp",
+        "alt": "Who’s the best travel companion for World Chess Champion D. Gukesh?",
+        "w": 383,
+        "h": 447
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/images/hp-video/voyedge-forex-card.webp",
+        "alt": "RBL Bank VoyEdge Forex Card. Experience every travel moment, with an edge.",
+        "w": 383,
+        "h": 447
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/noti.svg",
+        "alt": "Generic placeholder image",
+        "w": 21,
+        "h": 17
+      },
+      {
+        "src": "https://webassets.rbl.bank.in/document/image/new-trade.png",
+        "alt": "Trade & Forex Services",
+        "w": 49,
+        "h": 19
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/top-icon.svg",
+        "alt": "",
+        "w": 24,
+        "h": 25
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/search/blue_cross_search.png",
+        "alt": "close-black",
+        "w": 15,
+        "h": 15
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/search/microphone.png",
+        "alt": "Mic",
+        "w": 14,
+        "h": 20
+      },
+      {
+        "src": "https://www.rbl.bank.in/themes/custom/rbl_bank/images/icons/cookies-graphic.png",
+        "alt": "cookie-image",
+        "w": 47,
+        "h": 44
+      }
+    ],
+    "allImgCount": 151,
+    "cssBackgrounds": [
+      "https://d34s92jlbrwuc5.cloudfront.net/2026-09/rbl-bank-direct-tax-gst-custom-duty-banner.webp?VersionId=daA6C8PU9O9o9nIySSF4Bbu3CpsLFgr4",
+      "https://d34s92jlbrwuc5.cloudfront.net/2026-08/rbl-bank-ratings_0.webp?VersionId=jSDjMtvN1npu5.MSrjKd1THXvb0q.8A0",
+      "https://d34s92jlbrwuc5.cloudfront.net/2026-06/rbl-bank-nri-banking_1.webp?VersionId=Dd0PyumS6IEOTv1Qoq0IcLLgdTU4W6rH",
+      "https://d34s92jlbrwuc5.cloudfront.net/2026-11/rbl-bank-earn-monthly-interest-payout-savings-account.webp?VersionId=LOLTce1TuKCne8Om7jOPypCxnZXk7h9O",
+      "https://d34s92jlbrwuc5.cloudfront.net/2026-09/hybrid-home-loan.webp?VersionId=rKSjcD6Zj8xvFhsgBiNj3g5izRaDCUjG",
+      "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-world-safar-credit-card.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/rbl-bank-shoppers-stop-credit-cards.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/irctc-rbl-bank-credit-card.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/indianoil-rbl-bank-xtra-credit-card.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/apply-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/attractive-offers-rbl-bank-credit-cards.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/spend-to-earn-amazon-vouchers-on-your-enterprise-debit-card-hp.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/how-to-protect-your-device-from-apk-fraud-hp.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/tips-for-identifying-genuine-bank-communications-hp.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/10-cybersecurity-tips-to-stay-safe-online-hp-t.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india-hp.webp",
+      "https://webassets.rbl.bank.in/document/images/webp/spoofed-calls-1600-series-how-to-protect-yourself-hp.webp"
+    ],
+    "modals": [
+      "CloseCredit Card Bill Payment OptionsNet Banking Debit Card UPI Mobile App NEFT Payment Other Ways to Pay Pay Using the net banking facility Using RBL Bank AccountPay Using Other Bank AccountPowered by View the list of banks herePowered by View the list of banks herePowered by View the list of banks hereCancelPay NowIMPORTANT NOTE (For payments from other Bank accounts using Net Banking): If your Bank is not listed in one of the three Net Banking options given above, we recommend you to try the two other available options.Pay Using Debit cardPowered by All Bank Debit Cards acceptedPowered by All Bank Debit Cards acceptedPowered by View list of accepted Debit Cards hereCancelPay NowPay Using UPIOn RBL Bank WebsiteOn RBL MyBank AppPay NowKnow MorePay using RBL MyBank AppDownload Options:Scan the QR CodePay via NEFT using below 'Payee / Beneficiary' detailsPayee Name: Name as on your RBL Bank CardPayee Account Number: 16-digit Credit Card numberBank Name: RBL BankIFSC Code: RATN0CRCARDBranch Location: NOC Goregaon, MumbaiOther ways to payNACH FacilityCash DepositChequeLearn MoreNet BankingPay Using the net banking facility Using RBL Bank AccountPay Using Other Bank AccountPowered by View the list of banks herePowered by View the list of banks herePowered by View the list of banks herePay NowCancelIMPORTANT NOTE (For payments from other Bank accounts using Net Banking): If your Bank is not listed in one of the three Net Banking options given above, we recommend you to try the two other available options.Debit CardPay Using Debit cardPowered by All Bank Debit Cards acceptedPowered by All Bank Debit Cards acceptedPowered by View list of accepted Debit Cards herePay NowCancelUPIPay Using UPIOn RBL Bank WebsiteOn RBL MyBank AppPay NowKnow MoreMobile AppPay using RBL MyBank AppDownload Options:Scan the QR CodeGive a Missed Call on 7045 906 905NEFT PaymentPay via NEFT using below 'Payee / Beneficiary' detailsPayee Name: Name as on your RBL Bank CardPayee Account Number: 16-digit Credit Card numberBank Name: RBL BankIFSC Code: RATN0CRCARDBranch Location: NOC Goregaon, MumbaiOther Ways to PayOther ways to payNACH FacilityCash DepositChequeLearn More",
+      "CloseCredit Card Bill Payment OptionsNet Banking Debit Card UPI Mobile App NEFT Payment Other Ways to Pay Pay Using the net banking facility Using RBL Bank AccountPay Using Other Bank AccountPowered by View the list of banks herePowered by View the list of banks herePowered by View the list of banks hereCancelPay NowIMPORTANT NOTE (For payments from other Bank accounts using Net Banking): If your Bank is not listed in one of the three Net Banking options given above, we recommend you to try the two other available options.Pay Using Debit cardPowered by All Bank Debit Cards acceptedPowered by All Bank Debit Cards acceptedPowered by View list of accepted Debit Cards hereCancelPay NowPay Using UPIOn RBL Bank WebsiteOn RBL MyBank AppPay NowKnow MorePay using RBL MyBank AppDownload Options:Scan the QR CodePay via NEFT using below 'Payee / Beneficiary' detailsPayee Name: Name as on your RBL Bank CardPayee Account Number: 16-digit Credit Card numberBank Name: RBL BankIFSC Code: RATN0CRCARDBranch Location: NOC Goregaon, MumbaiOther ways to payNACH FacilityCash DepositChequeLearn MoreNet BankingPay Using the net banking facility Using RBL Bank AccountPay Using Other Bank AccountPowered by View the list of banks herePowered by View the list of banks herePowered by View the list of banks herePay NowCancelIMPORTANT NOTE (For payments from other Bank accounts using Net Banking): If your Bank is not listed in one of the three Net Banking options given above, we recommend you to try the two other available options.Debit CardPay Using Debit cardPowered by All Bank Debit Cards acceptedPowered by All Bank Debit Cards acceptedPowered by View list of accepted Debit Cards herePay NowCancelUPIPay Using UPIOn RBL Bank WebsiteOn RBL MyBank AppPay NowKnow MoreMobile AppPay using RBL MyBank AppDownload Options:Scan the QR CodeGive a Missed Call on 7045 906 905NEFT PaymentPay via NEFT using below 'Payee / Beneficiary' detailsPayee Name: Name as on your RBL Bank CardPayee Account Number: 16-digit Credit Card numberBank Name: RBL BankIFSC Code: RATN0CRCARDBranch Location: NOC Goregaon, MumbaiOther Ways to PayOther ways to payNACH FacilityCash DepositChequeLearn More",
+      "Attention !!You are leaving RBL Bank website (“RBL Bank’s website”) and being re-directed to pgi.billdesk.com at your request. The privacy and security policy of this website may differ from RBL Bank and may provide less security than RBL Bank’s website.RBL Bank and its affiliates do not endorse, make any warranty or assume legal liability for the products, services, content accuracy or opinions expressed in the website or other links provided on the website.RBL Bank and its affiliates are not responsible for any loss, damage, cost etc. that you may incur in the event of any deficiency in the product or services offered on this website.Proceed",
+      "Attention !!You are leaving RBL Bank website (“RBL Bank’s website”) and being re-directed to pgi.billdesk.com at your request. The privacy and security policy of this website may differ from RBL Bank and may provide less security than RBL Bank’s website.RBL Bank and its affiliates do not endorse, make any warranty or assume legal liability for the products, services, content accuracy or opinions expressed in the website or other links provided on the website.RBL Bank and its affiliates are not responsible for any loss, damage, cost etc. that you may incur in the event of any deficiency in the product or services offered on this website.Proceed",
+      "AttentionYou are leaving RBL Bank website (“RBL Bank’s website”) and being re-directed to third party website at your request. The privacy and security policy of this website may differ from RBL Bank and may provide less security than RBL Bank’s website. RBL Bank and its affiliates do not endorse, make any warranty or assume legal liability for the products, services, content accuracy or opinions expressed in the website or other links provided on the website. RBL Bank and its affiliates are not responsible for any loss, damage, cost etc. that you may incur in the event of any deficiency in the product or services offered on this website.Proceed",
+      "AttentionYou are leaving RBL Bank website (“RBL Bank’s website”) and being re-directed to third party website at your request. The privacy and security policy of this website may differ from RBL Bank and may provide less security than RBL Bank’s website. RBL Bank and its affiliates do not endorse, make any warranty or assume legal liability for the products, services, content accuracy or opinions expressed in the website or other links provided on the website. RBL Bank and its affiliates are not responsible for any loss, damage, cost etc. that you may incur in the event of any deficiency in the product or services offered on this website.Proceed",
+      "Login Personal BankingCorporate BankingForex CardsPrepaid Cards EMS LoginNamma Metro Login Credit Cards Set Your Credit Card PINOnline Card PaymentOnline Card AccountCard SettingsRedeem Reward PointsCard ActivationSave your Card on Merchants Debit Cards Debit CardGenerate Debit Card PINRecurring Merchant",
+      "Login Personal BankingCorporate BankingForex CardsPrepaid Cards EMS LoginNamma Metro Login Credit Cards Set Your Credit Card PINOnline Card PaymentOnline Card AccountCard SettingsRedeem Reward PointsCard ActivationSave your Card on Merchants Debit Cards Debit CardGenerate Debit Card PINRecurring Merchant",
+      "Make Payment Credit Card Payments Using Net BankingUsing Debit CardUsing UPIUsing RBL MyBank Mobile AppVia NEFTOther ways to Payment Online Tax PaymentBill PaymentMerchant Payments Google PaySamsung PayBHIM UPI @ RBL BankBharat QR Recurring Merchant Payments",
+      "Make Payment Credit Card Payments Using Net BankingUsing Debit CardUsing UPIUsing RBL MyBank Mobile AppVia NEFTOther ways to Payment Online Tax PaymentBill PaymentMerchant Payments Google PaySamsung PayBHIM UPI @ RBL BankBharat QR Recurring Merchant Payments"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--bb-primary-dark": "#0c63e3",
+    "--bb-primary-text": "#212529",
+    "--bb-secondary-dark": "#5a6168",
+    "--bb-h1-color": "#212529",
+    "--bb-h2-color": "#212529",
+    "--bb-h3-color": "#212529",
+    "--bs-blue": "#0d6efd",
+    "--bs-indigo": "#6610f2",
+    "--bs-purple": "#6f42c1",
+    "--bs-pink": "#d63384",
+    "--bs-red": "#dc3545",
+    "--bs-orange": "#fd7e14",
+    "--bs-yellow": "#ffc107",
+    "--bs-green": "#198754",
+    "--bs-teal": "#20c997",
+    "--bs-cyan": "#0dcaf0",
+    "--bs-black": "#000",
+    "--bs-white": "#fff",
+    "--bs-gray": "#6c757d",
+    "--bs-gray-dark": "#343a40",
+    "--bs-gray-100": "#f8f9fa",
+    "--bs-gray-200": "#e9ecef",
+    "--bs-gray-300": "#dee2e6",
+    "--bs-gray-400": "#ced4da",
+    "--bs-gray-500": "#adb5bd",
+    "--bs-gray-600": "#6c757d",
+    "--bs-gray-700": "#495057",
+    "--bs-gray-800": "#343a40",
+    "--bs-gray-900": "#212529",
+    "--bs-primary": "#0d6efd",
+    "--bs-secondary": "#6c757d",
+    "--bs-success": "#198754",
+    "--bs-info": "#0dcaf0",
+    "--bs-warning": "#ffc107",
+    "--bs-danger": "#dc3545",
+    "--bs-light": "#f8f9fa",
+    "--bs-dark": "#212529",
+    "--bs-primary-rgb": "13,110,253",
+    "--bs-secondary-rgb": "108,117,125",
+    "--bs-success-rgb": "25,135,84",
+    "--bs-info-rgb": "13,202,240",
+    "--bs-warning-rgb": "255,193,7",
+    "--bs-danger-rgb": "220,53,69",
+    "--bs-light-rgb": "248,249,250",
+    "--bs-dark-rgb": "33,37,41",
+    "--bs-white-rgb": "255,255,255",
+    "--bs-black-rgb": "0,0,0",
+    "--bs-body-color-rgb": "33,37,41",
+    "--bs-body-bg-rgb": "255,255,255",
+    "--bs-font-sans-serif": "\"Roboto\",sans-serif",
+    "--bs-font-monospace": "\"Roboto\",sans-serif",
+    "--bs-gradient": "linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))",
+    "--bs-body-font-family": "\"Roboto\",sans-serif",
+    "--bs-body-font-size": "1rem",
+    "--bs-body-font-weight": "400",
+    "--bs-body-line-height": "1.5",
+    "--bs-body-color": "#212529",
+    "--bs-body-bg": "#fff",
+    "--bs-border-width": "1px",
+    "--bs-border-style": "solid",
+    "--bs-border-color": "#dee2e6",
+    "--bs-border-color-translucent": "rgba(0, 0, 0, 0.175)",
+    "--bs-border-radius": "0.375rem",
+    "--bs-border-radius-sm": "0.25rem",
+    "--bs-border-radius-lg": "0.5rem",
+    "--bs-border-radius-xl": "1rem",
+    "--bs-border-radius-2xl": "2rem",
+    "--bs-border-radius-pill": "50rem",
+    "--bs-link-color": "#0d6efd",
+    "--bs-link-hover-color": "#0a58ca",
+    "--bs-code-color": "#d63384",
+    "--bs-highlight-bg": "#fff3cd",
+    "--aioa-shimmer": "color-mix(in lch, white, transparent 35%)",
+    "--accessibility-widget-primary-color": "#304086",
+    "--accessibility-widget-primary-color-darken": "#17276d",
+    "--accessibility-widget-primary-color-rgb": "48,64,134",
+    "--accessibility-widget-text-color": "#ffffff",
+    "--is-primary-white": "0",
+    "--accessibility-widget-text-color-reverse": "#000000",
+    "--accessibility-widget-switch-color": "#304086"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 14,
+    "mainTextLen": 14247,
+    "realImageCount": 72,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 5427
+    }
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "freeada.skynettechnologies.com",
+        "path": "/api/widget-settings",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 5189,
+        "hits": 1,
+        "example": "https://freeada.skynettechnologies.com/api/widget-settings",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/notification-frontend-data",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 395,
+        "hits": 1,
+        "example": "https://www.rbl.bank.in/notification-frontend-data",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RS/kwC1EWWV4",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RS/kwC1EWWV4",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/getWebConfig",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/getWebConfig",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/969491432/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/GetLastVisitnew",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/GetLastVisitnew",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/UserJourneybulk",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/UserJourneybulk",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/FetchDropOff",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/FetchDropOff",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/GetCustomEventList",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/GetCustomEventList",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/getsdkrules",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/getsdkrules",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/g",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bat.bing.com/p/insights/c/g",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/DeviceRegister",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/DeviceRegister",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/ir_admin/user",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 403,
+        "bytes": 25,
+        "hits": 1,
+        "example": "https://www.rbl.bank.in/ir_admin/user",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/SetLastVisitnew",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://sdk.rsut.io/Campaign/SetLastVisitnew",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.skynettechnologies.com",
+        "count": 19
+      },
+      {
+        "host": "sdk.rsut.io",
+        "count": 11
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 5
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 4
+      },
+      {
+        "host": "static-cdn.trackier.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "code.jquery.com",
+        "count": 1
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      },
+      {
+        "host": "www.gstatic.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [
+      {
+        "id": null,
+        "type": "application/json",
+        "bytes": 2677,
+        "topLevelKeys": [
+          "path",
+          "pluralDelimiter",
+          "suppressDeprecationErrors",
+          "ajaxTrustedUrl",
+          "get_card_data",
+          "base_url",
+          "custom_creditcard",
+          "custom_creditcard_pincode",
+          "custom_creditcard_online_email_sms",
+          "custom_creditcard_verify_otp",
+          "custom_creditcard_get_otp",
+          "custom_creditcard_qd_insert"
+        ]
+      }
+    ],
+    "globalState": [
+      "drupalSettings",
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "accessibility-modal-reset-button",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 3,
+      "thirdPartyEndpoints": 15,
+      "thirdPartyScriptHosts": 14,
+      "inlineDataBlobs": 1,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html",
+  "slots": {
+    "hero": "carousel banner",
+    "rates": "Attractive Rates strip",
+    "promo": "IndianOil XTRA card banner",
+    "calculator": "Fixed Deposit Calculator",
+    "products": "Our Products carousel",
+    "offers": "Offers and Deals",
+    "blog": "Money, People & Safety",
+    "videos": "Trust & Beyond"
+  }
+}

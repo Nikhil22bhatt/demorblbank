@@ -1,0 +1,5928 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T11:53:40.848Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.rbl.bank.in/business-banking",
+  "at": "2026-11-19T11:53:22.558Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4065,
+  "root": "main#content",
+  "items": [
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#aioa-trigger-button > div > button#accessibility_settings_toggle",
+    "x": 1322,
+    "y": 5,
+    "w": 33,
+    "h": 33,
+    "text": "show accessibility preferences"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > button#accessibility_settings_toggle > img.accessibility_settings_toggle_icon",
+    "x": 1328,
+    "y": 10,
+    "w": 22,
+    "h": 22,
+    "text": "",
+    "file": "aioa-icon-type-1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li.hide-mobile > a#header-propose-your-property",
+    "x": 819,
+    "y": 11,
+    "w": 213,
+    "h": 24,
+    "text": "rent your property to rbl bank",
+    "href": "/propose-your-property"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.hide-mobile > a#header-propose-your-property > img#header-propose-your-property",
+    "x": 826,
+    "y": 11,
+    "w": 25,
+    "h": 24,
+    "text": "property logo",
+    "file": "Vector"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#skip-main-content-btn",
+    "x": 1042,
+    "y": 11,
+    "w": 125,
+    "h": 22,
+    "text": "skip to main content",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#light-body-a",
+    "x": 1177,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.accessibility-ul > li > a#dark-body-a",
+    "x": 1218,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div.navbar-brand > a.navbar-brand-a.a-attention-link-add-script",
+    "x": 162,
+    "y": 77,
+    "w": 162,
+    "h": 24,
+    "text": "logo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand > a.navbar-brand-a.a-attention-link-add-script > img.img-fluid.rbl-logo",
+    "x": 162,
+    "y": 57,
+    "w": 142,
+    "h": 73,
+    "text": "logo",
+    "file": "rbl"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.active-trail",
+    "x": 390,
+    "y": 49,
+    "w": 125,
+    "h": 95,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.active-trail",
+    "x": 390,
+    "y": 49,
+    "w": 125,
+    "h": 95,
+    "label": "products",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 515,
+    "y": 49,
+    "w": 132,
+    "h": 95,
+    "text": "payments"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 515,
+    "y": 49,
+    "w": 132,
+    "h": 95,
+    "label": "payments",
+    "value": "payments",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 647,
+    "y": 49,
+    "w": 105,
+    "h": 95,
+    "text": "offers"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 647,
+    "y": 49,
+    "w": 105,
+    "h": 95,
+    "label": "offers",
+    "value": "offers",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 752,
+    "y": 49,
+    "w": 196,
+    "h": 95,
+    "text": "customer services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.tb-megamenu-nav.nav > li.tb-megamenu-item.level-1 > span.dropdown-toggle.tb-megamenu-no-link",
+    "x": 752,
+    "y": 49,
+    "w": 196,
+    "h": 95,
+    "label": "customer services",
+    "value": "customer services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div#normal_search > button.circle-btn.nav-link",
+    "x": 972,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#normal_search > button.circle-btn.nav-link > img.img-fluid.img-blue",
+    "x": 985,
+    "y": 85,
+    "w": 17,
+    "h": 17,
+    "text": "search",
+    "file": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div#refid > a#header-whatsapp",
+    "x": 1036,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "whatsapp",
+    "href": "/send"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#refid > a#header-whatsapp > img.img-fluid.img-blue",
+    "x": 1047,
+    "y": 83,
+    "w": 21,
+    "h": 21,
+    "text": "whatsapp",
+    "file": "whatsapp"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div#notification_message_data > button#navbarOffers",
+    "x": 1100,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "bell"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div#notification_message_data > button#navbarOffers",
+    "x": 1100,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "label": "trigger",
+    "value": "bell",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#notification_message_data > button#navbarOffers > img.img-fluid.img-blue",
+    "x": 1112,
+    "y": 83,
+    "w": 18,
+    "h": 21,
+    "text": "bell",
+    "file": "bell"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container.rbl-nav-header > div.form-inline.my-2 > button#loginmenu",
+    "x": 1164,
+    "y": 71,
+    "w": 114,
+    "h": 45,
+    "text": "login"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.chat-wrap2 > div.chat-wrap2-inner > img.chat-icon",
+    "x": 1291,
+    "y": 780,
+    "w": 104,
+    "h": 115,
+    "text": "chat",
+    "file": "chat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ol.breadcrumb > li.breadcrumb-item > a.a-attention-link-add-script",
+    "x": 170,
+    "y": 152,
+    "w": 38,
+    "h": 16,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav > ol.breadcrumb > li.breadcrumb-item.active",
+    "x": 207,
+    "y": 147,
+    "w": 134,
+    "h": 27,
+    "text": "Business Banking"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-info-inner > div.field.row > h1",
+    "x": 155,
+    "y": 237,
+    "w": 714,
+    "h": 58,
+    "level": 1,
+    "text": "business banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-info-inner > div.field.row > div.p20.mb15",
+    "x": 155,
+    "y": 310,
+    "w": 714,
+    "h": 24,
+    "text": "Elevate your banking experience with our comprehensive suite of business banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.banner-info-inner > div.field.row > div.p20.mb15",
+    "x": 155,
+    "y": 361,
+    "w": 714,
+    "h": 24,
+    "text": "From startup to expansion, our tailored Business Banking solutions support your "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.field.row > p.p18.text-level2",
+    "x": 150,
+    "y": 627,
+    "w": 1140,
+    "h": 60,
+    "text": "A business goes through various stages of growth and success. We are here to sup"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.product-card > div.scale-img-wrap > img.lazy",
+    "x": 162,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "business-banking-group"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex > div.card-body-col-flex-top > div.field.field--name-field-category-title",
+    "x": 192,
+    "y": 941,
+    "w": 296,
+    "h": 27,
+    "text": "Business Banking Group"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.p18.field--name-field-category-description > div.clearfix.text-formatted > p",
+    "x": 192,
+    "y": 975,
+    "w": 296,
+    "h": 91,
+    "text": "Meet your business obligations and operational costs with RBL Bank's business ba"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex-bottom > div.d-flex > a.btn.common-btn-outline",
+    "x": 192,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/business-banking-group"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.product-card > div.scale-img-wrap > img.lazy",
+    "x": 542,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "agri-banking_2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex > div.card-body-col-flex-top > div.field.field--name-field-category-title",
+    "x": 572,
+    "y": 941,
+    "w": 296,
+    "h": 27,
+    "text": "Agri Banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.p18.field--name-field-category-description > div.clearfix.text-formatted > p",
+    "x": 572,
+    "y": 975,
+    "w": 296,
+    "h": 121,
+    "text": "Our unique agri-banking offerings are advantageous for your various agri-busines"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex-bottom > div.d-flex > a.btn.common-btn-outline",
+    "x": 572,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/agri-banking"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.product-card > div.scale-img-wrap > img.lazy",
+    "x": 922,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "gss_1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex > div.card-body-col-flex-top > div.field.field--name-field-category-title",
+    "x": 952,
+    "y": 941,
+    "w": 296,
+    "h": 54,
+    "text": "Government Sponsored Scheme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.p18.field--name-field-category-description > div.clearfix.text-formatted > p",
+    "x": 952,
+    "y": 1001,
+    "w": 296,
+    "h": 121,
+    "text": "Celebrating the Spirit of Indian Entrepreneurship. Explore Government sponsored "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex-bottom > div.d-flex > a.btn.common-btn-outline",
+    "x": 952,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/government-sponsored-scheme"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card.product-card > div.scale-img-wrap > img.lazy",
+    "x": 162,
+    "y": 1255,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex > div.card-body-col-flex-top > div.field.field--name-field-category-title",
+    "x": 192,
+    "y": 1478,
+    "w": 296,
+    "h": 27,
+    "text": "Business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.p18.field--name-field-category-description > div.clearfix.text-formatted > p",
+    "x": 192,
+    "y": 1512,
+    "w": 296,
+    "h": 91,
+    "text": "Simplify your business banking experience with our customized solutions."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.card-body-col-flex-bottom > div.d-flex > a.btn.common-btn-outline",
+    "x": 192,
+    "y": 1628,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.content > section#data-mobank-app > img.img-fluid.banner-img-desktop",
+    "x": 0,
+    "y": 1781,
+    "w": 1440,
+    "h": 374,
+    "text": "rbl mobank app",
+    "file": "rbl-mybank_0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.clearfix.text-formatted > div.rbl-myapp-right > h2.h1",
+    "x": 776,
+    "y": 1861,
+    "w": 372,
+    "h": 62,
+    "level": 2,
+    "text": "rbl mybank app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rbl-myapp-right > div.banner-para.p20 > p",
+    "x": 865,
+    "y": 1949,
+    "w": 194,
+    "h": 30,
+    "text": "Safe Simple Fast"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rbl-myapp-right > div.apps-download > a#other-mobank-banner-google-play",
+    "x": 789,
+    "y": 2016,
+    "w": 160,
+    "h": 48,
+    "text": "app google pay",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.apps-download > a#other-mobank-banner-google-play > img.app-google-play",
+    "x": 789,
+    "y": 2016,
+    "w": 160,
+    "h": 48,
+    "text": "app google pay",
+    "file": "app-google-play"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rbl-myapp-right > div.apps-download > a#other-mobank-banner-istore",
+    "x": 974,
+    "y": 2016,
+    "w": 161,
+    "h": 49,
+    "text": "iphone",
+    "href": "/in/app/rbl-mobank/id916461662"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.apps-download > a#other-mobank-banner-istore > img.app-iphone-store",
+    "x": 974,
+    "y": 2016,
+    "w": 161,
+    "h": 49,
+    "text": "iphone",
+    "file": "app-iphone-store"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-12 > div > h2.common-section-heading",
+    "x": 162,
+    "y": 2200,
+    "w": 1116,
+    "h": 44,
+    "level": 2,
+    "text": "money, people & safety"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+    "x": 187,
+    "y": 2469,
+    "w": 212,
+    "h": 20,
+    "text": "Nov 04, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-rbl-bank-protect-passwords",
+    "x": 187,
+    "y": 2496,
+    "w": 196,
+    "h": 44,
+    "text": "how to protect your device from apk fraud?",
+    "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+    "x": 466,
+    "y": 2463,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 26, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-advantages-of-digital-fd",
+    "x": 466,
+    "y": 2490,
+    "w": 154,
+    "h": 68,
+    "text": "tips for identifying genuine bank communicationse",
+    "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+    "x": 745,
+    "y": 2469,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 16, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-how-much-money-savings",
+    "x": 745,
+    "y": 2496,
+    "w": 204,
+    "h": 44,
+    "text": "stay safe online: simple tips to avoid cybercrime",
+    "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+    "x": 1024,
+    "y": 2439,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 14, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-rbl-bank-api-banking-transformation",
+    "x": 1024,
+    "y": 2467,
+    "w": 196,
+    "h": 91,
+    "text": "which nri account do you actually need? nre vs nro vs fcnr(b) explained",
+    "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+    "x": 1303,
+    "y": 2439,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 07, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-rbl-bank-type-of-fd",
+    "x": 1303,
+    "y": 2467,
+    "w": 190,
+    "h": 91,
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal from you",
+    "href": "/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.text-center > a#hp-blog-read-more",
+    "x": 647,
+    "y": 2629,
+    "w": 146,
+    "h": 48,
+    "text": "view all",
+    "href": "/blog"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.col-md-12 > div > p.h2.common-section-heading",
+    "x": 162,
+    "y": 2767,
+    "w": 1116,
+    "h": 44,
+    "text": "Trust & Beyond"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-bg.lazy-background > img#hp-video-1",
+    "x": 167,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "business or chess, the right move can change the entire game",
+    "file": "chess-one-right-move"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-bg.lazy-background > img#hp-video-3",
+    "x": 446,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "csr initiatives - creating impact through h.e.lo health, edu",
+    "file": "csr-initiatives-helo"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-bg.lazy-background > img#hp-video-2",
+    "x": 725,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "who’s the best travel companion for world chess champion d. ",
+    "file": "world-safari-gukesh"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-bg.lazy-background > img#hp-video-4",
+    "x": 1004,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "rbl bank voyedge forex card. experience every travel moment,",
+    "file": "voyedge-forex-card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > div.text-center.mb30 > a#hp-video-watch-all",
+    "x": 647,
+    "y": 3166,
+    "w": 146,
+    "h": 48,
+    "text": "watch all",
+    "href": "/trust-and-beyond"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerfirst > div > p.h6.footer-head",
+    "x": 162,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "About"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--about-us",
+    "x": 162,
+    "y": 3331,
+    "w": 58,
+    "h": 16,
+    "text": "the bank",
+    "href": "/about-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--about-us-board-of-directors",
+    "x": 162,
+    "y": 3368,
+    "w": 113,
+    "h": 16,
+    "text": "board of directors",
+    "href": "/about-us/board-of-directors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--about-us-leadership-team",
+    "x": 162,
+    "y": 3405,
+    "w": 107,
+    "h": 16,
+    "text": "leadership team",
+    "href": "/about-us/leadership-team"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--careers",
+    "x": 162,
+    "y": 3442,
+    "w": 48,
+    "h": 16,
+    "text": "careers",
+    "href": "/careers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--social-responsibility",
+    "x": 162,
+    "y": 3479,
+    "w": 128,
+    "h": 16,
+    "text": "social responsibility",
+    "href": "/social-responsibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--sustainability-framework",
+    "x": 162,
+    "y": 3516,
+    "w": 157,
+    "h": 16,
+    "text": "sustainability framework",
+    "href": "/sustainability-framework"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footersecond > div > p.h6.footer-head",
+    "x": 390,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Media Center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--press-releases",
+    "x": 390,
+    "y": 3331,
+    "w": 95,
+    "h": 16,
+    "text": "press releases",
+    "href": "/press-releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--media-kit",
+    "x": 390,
+    "y": 3368,
+    "w": 59,
+    "h": 16,
+    "text": "media kit",
+    "href": "/media-kit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--investor-relations",
+    "x": 390,
+    "y": 3405,
+    "w": 112,
+    "h": 16,
+    "text": "investor relations",
+    "href": "/investor-relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerthird > div > p.h6.footer-head",
+    "x": 618,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--personal-banking-accounts-savings-accounts",
+    "x": 618,
+    "y": 3331,
+    "w": 104,
+    "h": 16,
+    "text": "savings account",
+    "href": "/personal-banking/accounts/savings-accounts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--business-banking-business-partnering-your-growth-current-accounts",
+    "x": 618,
+    "y": 3368,
+    "w": 101,
+    "h": 16,
+    "text": "current account",
+    "href": "/business-banking/business/partnering-your-growth/current-accounts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--personal-banking-cards-credit-cards",
+    "x": 618,
+    "y": 3405,
+    "w": 77,
+    "h": 16,
+    "text": "credit cards",
+    "href": "/personal-banking/cards/credit-cards"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--personal-banking-term-deposits",
+    "x": 618,
+    "y": 3442,
+    "w": 91,
+    "h": 16,
+    "text": "term deposits",
+    "href": "/personal-banking/term-deposits"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--personal-banking-loans-housing-loan",
+    "x": 618,
+    "y": 3479,
+    "w": 86,
+    "h": 16,
+    "text": "housing loan",
+    "href": "/personal-banking/loans/housing-loan"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.list-unstyled > li > a.nav-link.nav-link--nri-banking",
+    "x": 618,
+    "y": 3516,
+    "w": 79,
+    "h": 16,
+    "text": "nri services",
+    "href": "/nri-banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-footerfourth > div > p.h6.footer-head",
+    "x": 846,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Important Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--investor-relations-regulatory-basel-capital-instruments-lcr-disclosures",
+    "x": 846,
+    "y": 3331,
+    "w": 143,
+    "h": 16,
+    "text": "regulatory disclosures",
+    "href": "/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--codes-and-policies",
+    "x": 846,
+    "y": 3368,
+    "w": 139,
+    "h": 16,
+    "text": "bank codes & policies",
+    "href": "/codes-and-policies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--news",
+    "x": 846,
+    "y": 3405,
+    "w": 35,
+    "h": 16,
+    "text": "news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--service-charges",
+    "x": 846,
+    "y": 3442,
+    "w": 146,
+    "h": 16,
+    "text": "service charges & fees",
+    "href": "/service-charges"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--interest-rates",
+    "x": 846,
+    "y": 3479,
+    "w": 86,
+    "h": 16,
+    "text": "interest rates",
+    "href": "/interest-rates"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--download-form",
+    "x": 846,
+    "y": 3516,
+    "w": 106,
+    "h": 16,
+    "text": "download forms",
+    "href": "/download-form"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--site-map",
+    "x": 846,
+    "y": 3552,
+    "w": 55,
+    "h": 16,
+    "text": "site map",
+    "href": "/site-map"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav#block-customerservice > div > p.footer-head.h6",
+    "x": 1074,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Customer Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--contact-us",
+    "x": 1074,
+    "y": 3331,
+    "w": 69,
+    "h": 16,
+    "text": "contact us",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link-https--outsys1rblbankin-webform-",
+    "x": 1074,
+    "y": 3363,
+    "w": 204,
+    "h": 32,
+    "text": "raise a query / request / complaint",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--locate-branch",
+    "x": 1074,
+    "y": 3416,
+    "w": 62,
+    "h": 16,
+    "text": "locate us",
+    "href": "/locate-branch"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--do-not-call",
+    "x": 1074,
+    "y": 3453,
+    "w": 124,
+    "h": 16,
+    "text": "do not call registry",
+    "href": "/do-not-call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link-https--webassetsrblbankin-document-footer20-20grievance20redressal-grievanceredressalprocesspdf",
+    "x": 1074,
+    "y": 3490,
+    "w": 127,
+    "h": 16,
+    "text": "grievance redressal",
+    "href": "/document/Footer%20-%20Grievance%20Redressal/GrievanceRedressalProcess.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--feedback",
+    "x": 1074,
+    "y": 3527,
+    "w": 60,
+    "h": 16,
+    "text": "feedback",
+    "href": "/feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--lodge-a-complaint",
+    "x": 1074,
+    "y": 3563,
+    "w": 117,
+    "h": 16,
+    "text": "lodge a complaint",
+    "href": "/lodge-a-complaint"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--report-a-fraud",
+    "x": 1074,
+    "y": 3600,
+    "w": 91,
+    "h": 16,
+    "text": "report a fraud",
+    "href": "/report-a-fraud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--unclaimed-deposit-services",
+    "x": 1074,
+    "y": 3637,
+    "w": 125,
+    "h": 16,
+    "text": "unclaimed deposits",
+    "href": "/unclaimed-deposit-services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.clearfix.nav > li > a.nav-link.nav-link--certificates-issued-by-the-bank",
+    "x": 1074,
+    "y": 3674,
+    "w": 192,
+    "h": 16,
+    "text": "certificates issued by the bank",
+    "href": "/certificates-issued-by-the-bank"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.row2 > div.col-lg-1 > p.h6.footer-head",
+    "x": 162,
+    "y": 3730,
+    "w": 71,
+    "h": 27,
+    "text": "Others"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.other-list-wrap.xs-mb0 > p > a#footerIcons-other-a",
+    "x": 1253,
+    "y": 3730,
+    "w": 25,
+    "h": 25,
+    "text": "‌",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 257,
+    "y": 3735,
+    "w": 190,
+    "h": 18,
+    "text": "trade & forex services",
+    "href": "/document/pdfs/trade-and-forex-services.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 463,
+    "y": 3735,
+    "w": 59,
+    "h": 16,
+    "text": "qip 2019",
+    "href": "/investor-relations/disclosures-regulation-46/intimations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 538,
+    "y": 3735,
+    "w": 140,
+    "h": 16,
+    "text": "important documents",
+    "href": "/important-documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a#footer-others-account-aggregator",
+    "x": 694,
+    "y": 3735,
+    "w": 128,
+    "h": 16,
+    "text": "account aggregator",
+    "href": "/account-aggregator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 838,
+    "y": 3735,
+    "w": 126,
+    "h": 16,
+    "text": "terms & conditions",
+    "href": "/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 980,
+    "y": 3735,
+    "w": 137,
+    "h": 16,
+    "text": "banking ombudsman",
+    "href": "/banking-ombudsman"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 257,
+    "y": 3772,
+    "w": 183,
+    "h": 16,
+    "text": "customer knowledge center",
+    "href": "/customer-knowledge-center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 456,
+    "y": 3772,
+    "w": 112,
+    "h": 16,
+    "text": "financial literacy",
+    "href": "/financial-literacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.btn.common-btn-blue",
+    "x": 584,
+    "y": 3773,
+    "w": 88,
+    "h": 16,
+    "text": "rbi kehta hai",
+    "href": "/CommonPerson/english/scripts/rbikehtahai.aspx"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.btn.common-btn-blue",
+    "x": 687,
+    "y": 3773,
+    "w": 112,
+    "h": 16,
+    "text": "rbi sachet portal",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 815,
+    "y": 3772,
+    "w": 306,
+    "h": 16,
+    "text": "use of un-parlimentary language by customers",
+    "href": "/document/footer-use-of-un-parliamentary-language/use-of-un-parliamentary-language.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 257,
+    "y": 3809,
+    "w": 176,
+    "h": 16,
+    "text": "aadhaar enrolment centers",
+    "href": "/document/pdfs/aadhaar-enrolment-updation-centers.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 449,
+    "y": 3809,
+    "w": 221,
+    "h": 16,
+    "text": "neft customer facilitation center",
+    "href": "/document/Footer%20-%20NEFT%20Customer%20Facilitation%20Center/NEFT-NOC.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.list-unstyled.xs-mb0 > li > a.a-attention-link-add-script",
+    "x": 687,
+    "y": 3809,
+    "w": 297,
+    "h": 16,
+    "text": "report loss or unauthorised use of credit card",
+    "href": "/report-loss-or-unautho-use-of-credit-card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#footerIcons-toggle-ul > li > a.a-attention-link-add-script",
+    "x": 257,
+    "y": 3845,
+    "w": 292,
+    "h": 16,
+    "text": "report loss or unauthorised use of debit card",
+    "href": "/report-loss-or-unautho-use-of-debit-card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul#footerIcons-toggle-ul > li > a.a-attention-link-add-script",
+    "x": 565,
+    "y": 3845,
+    "w": 184,
+    "h": 16,
+    "text": "block retail internet banking",
+    "href": "/block-channel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.row3 > div.col-lg-6.col-md-12 > p.pbottom.mb15",
+    "x": 162,
+    "y": 3907,
+    "w": 546,
+    "h": 16,
+    "text": "Copyright 2026 RBL Bank Ltd."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.row3 > div.col-lg-6.col-md-12 > p.pbottom.mb15",
+    "x": 162,
+    "y": 3938,
+    "w": 546,
+    "h": 16,
+    "text": "Site best viewed in IE 9-11, Edge 25, Chrome 58, Firefox 53, Safari 10.1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li.hide-mobile > p.p16",
+    "x": 1018,
+    "y": 3925,
+    "w": 70,
+    "h": 27,
+    "text": "Follow us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-fb.a-attention-link-add-script",
+    "x": 1116,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/TheRBLBank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-linkedin.a-attention-link-add-script",
+    "x": 1149,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/company/rbl-bank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-twitter.a-attention-link-add-script",
+    "x": 1182,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "follow rbl bank on twitter",
+    "href": "/rblbank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-insta.a-attention-link-add-script",
+    "x": 1215,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/rbl_bank/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us-ul > li > a.a-yt.a-attention-link-add-script",
+    "x": 1248,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/@RblBankofficial"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 3,
+    "offPage": 0,
+    "textNodes": 104,
+    "controls": 82,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.csr-cate-card-wrap.mb0",
+     "path": "div.item.slick-slide > div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.p12.date",
+     "text": "oct 07, 2026",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.csr-cate-card-wrap.mb0",
+     "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-rbl-bank-type-of-fd",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.csr-cate-card-wrap.mb0",
+     "path": "div.csr-cate-card-wrap.mb0 > div.csr-cate-card-wrap-inner > p.h6 > a#hp-blog-rbl-bank-type-of-fd",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "cutMin": 53,
+     "cutMax": 53
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--1aa640c2--aemcoder.aem.page/business-banking",
+  "at": "2026-11-19T11:53:40.735Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4065,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li.topbar-property.topbar-property-desktop > a",
+    "x": 819,
+    "y": 10,
+    "w": 213,
+    "h": 24,
+    "text": "rent your property to rbl bank",
+    "href": "/propose-your-property"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.topbar-property.topbar-property-desktop > a > img",
+    "x": 826,
+    "y": 10,
+    "w": 25,
+    "h": 24,
+    "text": "property logo",
+    "file": "property"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a",
+    "x": 1042,
+    "y": 11,
+    "w": 125,
+    "h": 22,
+    "text": "skip to main content",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a.topbar-contrast.topbar-contrast-light",
+    "x": 1177,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-list > li > a.topbar-contrast.topbar-contrast-dark",
+    "x": 1218,
+    "y": 10,
+    "w": 26,
+    "h": 24,
+    "text": "a",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.header-wrapper > div.header.block > button.a11y-launcher",
+    "x": 1321,
+    "y": 3,
+    "w": 36,
+    "h": 36,
+    "text": ""
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > button.a11y-launcher > img",
+    "x": 1326,
+    "y": 8,
+    "w": 26,
+    "h": 26,
+    "text": "",
+    "file": "aioa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.site-nav-inner > div.site-nav-brand > a",
+    "x": 162,
+    "y": 54,
+    "w": 162,
+    "h": 19,
+    "text": "logo",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.site-nav-logo",
+    "x": 162,
+    "y": 57,
+    "w": 142,
+    "h": 73,
+    "text": "logo",
+    "file": "media_14da5594bf8091320f17d9a598b7dbcc77"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle.site-nav-toggle-active",
+    "x": 390,
+    "y": 49,
+    "w": 125,
+    "h": 95,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle.site-nav-toggle-active",
+    "x": 390,
+    "y": 49,
+    "w": 125,
+    "h": 95,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 515,
+    "y": 49,
+    "w": 132,
+    "h": 95,
+    "text": "payments"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 515,
+    "y": 49,
+    "w": 132,
+    "h": 95,
+    "label": "trigger",
+    "value": "payments",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 647,
+    "y": 49,
+    "w": 105,
+    "h": 95,
+    "text": "offers"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 647,
+    "y": 49,
+    "w": 105,
+    "h": 95,
+    "label": "trigger",
+    "value": "offers",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 752,
+    "y": 49,
+    "w": 196,
+    "h": 95,
+    "text": "customer services"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.site-nav-menu > li.site-nav-item > span.site-nav-toggle",
+    "x": 752,
+    "y": 49,
+    "w": 196,
+    "h": 95,
+    "label": "trigger",
+    "value": "customer services",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.site-nav-inner > div.site-nav-actions > button.circle-btn",
+    "x": 972,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "search"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-actions > button.circle-btn > img",
+    "x": 985,
+    "y": 86,
+    "w": 17,
+    "h": 17,
+    "text": "search",
+    "file": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.site-nav-inner > div.site-nav-actions > a.circle-btn",
+    "x": 1036,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "whatsapp",
+    "href": "/send"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-actions > a.circle-btn > img",
+    "x": 1047,
+    "y": 84,
+    "w": 21,
+    "h": 21,
+    "text": "whatsapp",
+    "file": "whatsapp"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container.site-nav-inner > div.site-nav-actions > button.circle-btn",
+    "x": 1100,
+    "y": 73,
+    "w": 42,
+    "h": 42,
+    "text": "bell"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-actions > button.circle-btn > img",
+    "x": 1112,
+    "y": 84,
+    "w": 18,
+    "h": 21,
+    "text": "bell",
+    "file": "bell"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-nav-actions > div.login > span.btn-login",
+    "x": 1164,
+    "y": 71,
+    "w": 114,
+    "h": 45,
+    "text": "login"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumb > li > a",
+    "x": 170,
+    "y": 152,
+    "w": 38,
+    "h": 16,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav > ol.breadcrumb > li",
+    "x": 207,
+    "y": 147,
+    "w": 134,
+    "h": 28,
+    "label": "current",
+    "value": "business banking",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "nav > ol.breadcrumb > li",
+    "x": 207,
+    "y": 147,
+    "w": 134,
+    "h": 28,
+    "text": "Business Banking"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.listing-hero-media > picture > img",
+    "x": 720,
+    "y": 182,
+    "w": 720,
+    "h": 400,
+    "text": "",
+    "file": "media_1301bdbcf94caedb92c5cd3a820029a910"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.listing-hero-panel > div.listing-hero-text > h1#business-banking",
+    "x": 167,
+    "y": 237,
+    "w": 690,
+    "h": 58,
+    "level": 1,
+    "text": "business banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.listing-hero-panel > div.listing-hero-text > p",
+    "x": 167,
+    "y": 310,
+    "w": 690,
+    "h": 24,
+    "text": "Elevate your banking experience with our comprehensive suite of business banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.listing-hero-panel > div.listing-hero-text > p",
+    "x": 167,
+    "y": 361,
+    "w": 690,
+    "h": 24,
+    "text": "From startup to expansion, our tailored Business Banking solutions support your "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.product-grid-intro > p",
+    "x": 162,
+    "y": 627,
+    "w": 1116,
+    "h": 60,
+    "text": "A business goes through various stages of growth and success. We are here to sup"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-img > picture > img",
+    "x": 162,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "media_1a36034436493576ab7f0f0199b3bd2474"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-title > h3#business-banking-group",
+    "x": 192,
+    "y": 941,
+    "w": 296,
+    "h": 27,
+    "level": 3,
+    "text": "business banking group"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-copy > p",
+    "x": 192,
+    "y": 975,
+    "w": 296,
+    "h": 91,
+    "text": "Meet your business obligations and operational costs with RBL Bank's business ba"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-actions > p > a",
+    "x": 192,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/business-banking-group"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-img > picture > img",
+    "x": 542,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "media_174662c1d45f544f8d1ab0399f4204f4e3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-title > h3#agri-banking",
+    "x": 572,
+    "y": 941,
+    "w": 296,
+    "h": 27,
+    "level": 3,
+    "text": "agri banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-copy > p",
+    "x": 572,
+    "y": 975,
+    "w": 296,
+    "h": 121,
+    "text": "Our unique agri-banking offerings are advantageous for your various agri-busines"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-actions > p > a",
+    "x": 572,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/agri-banking"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-img > picture > img",
+    "x": 922,
+    "y": 718,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "media_1e64db4c862d1c851569716f9c1654bb0f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-title > h3#government-sponsored-scheme",
+    "x": 952,
+    "y": 941,
+    "w": 296,
+    "h": 54,
+    "level": 3,
+    "text": "government sponsored scheme"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-copy > p",
+    "x": 952,
+    "y": 1001,
+    "w": 296,
+    "h": 121,
+    "text": "Celebrating the Spirit of Indian Entrepreneurship. Explore Government sponsored "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-actions > p > a",
+    "x": 952,
+    "y": 1147,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/government-sponsored-scheme"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-img > picture > img",
+    "x": 162,
+    "y": 1255,
+    "w": 356,
+    "h": 200,
+    "text": "aaatest",
+    "file": "media_1a90db8a8ce340e050d84111792236a9c7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-title > h3#business",
+    "x": 192,
+    "y": 1478,
+    "w": 296,
+    "h": 27,
+    "level": 3,
+    "text": "business"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-top > div.product-card-copy > p",
+    "x": 192,
+    "y": 1512,
+    "w": 296,
+    "h": 91,
+    "text": "Simplify your business banking experience with our customized solutions."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-card-actions > p > a",
+    "x": 192,
+    "y": 1628,
+    "w": 119,
+    "h": 48,
+    "text": "know more",
+    "href": "/business-banking/business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.app-band-bg > picture > img",
+    "x": 0,
+    "y": 1781,
+    "w": 1440,
+    "h": 374,
+    "text": "rbl mobank app",
+    "file": "media_1fc62e45a545e87b7e465a8d552f074b92"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.app-band-copy > div.app-band-title > h2#rbl-mybank-app",
+    "x": 776,
+    "y": 1861,
+    "w": 372,
+    "h": 62,
+    "level": 2,
+    "text": "rbl mybank app"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.app-band-copy > div.app-band-tagline > p",
+    "x": 865,
+    "y": 1949,
+    "w": 194,
+    "h": 30,
+    "text": "Safe | Simple | Fast"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.app-band-stores > p > a",
+    "x": 789,
+    "y": 2016,
+    "w": 160,
+    "h": 48,
+    "text": "app google pay",
+    "href": "/store/apps/details"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 789,
+    "y": 2016,
+    "w": 160,
+    "h": 48,
+    "text": "app google pay",
+    "file": "media_16ae1e3c5814736bc2aa4d9aec06474c1a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.app-band-stores > p > a",
+    "x": 974,
+    "y": 2016,
+    "w": 161,
+    "h": 49,
+    "text": "iphone",
+    "href": "/in/app/rbl-mobank/id916461662"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 974,
+    "y": 2016,
+    "w": 161,
+    "h": 49,
+    "text": "iphone",
+    "file": "media_1b639a661deef6a9ee825b18be078f26cf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.rail-head > h2#money-people--safety",
+    "x": 162,
+    "y": 2200,
+    "w": 1116,
+    "h": 44,
+    "level": 2,
+    "text": "money, people & safety"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.rail > button.rail-arrow.rail-arrow-prev",
+    "x": 1182,
+    "y": 2202,
+    "w": 40,
+    "h": 40,
+    "text": "previous"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-bg > picture > img",
+    "x": 167,
+    "y": 2274,
+    "w": 252,
+    "h": 325,
+    "text": "how to protect your device from apk fraud?",
+    "file": "media_1dfe2a2d4f09f77d922f12bb0050554a8d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-date > p",
+    "x": 187,
+    "y": 2469,
+    "w": 212,
+    "h": 20,
+    "text": "Nov 04, 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-title > h3#how-to-protect-your-device-from-apk-fraud",
+    "x": 187,
+    "y": 2495,
+    "w": 212,
+    "h": 47,
+    "level": 3,
+    "text": "how to protect your device from apk fraud?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-title > h3#how-to-protect-your-device-from-apk-fraud > a",
+    "x": 187,
+    "y": 2496,
+    "w": 196,
+    "h": 44,
+    "text": "how to protect your device from apk fraud?",
+    "href": "/blog/banking/safe-banking/how-to-protect-your-device-from-apk-fraud"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-bg > picture > img",
+    "x": 446,
+    "y": 2274,
+    "w": 252,
+    "h": 325,
+    "text": "tips for identifying genuine bank communications",
+    "file": "media_1bbb7fdd6b69de62dd6580beda21813713"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-date > p",
+    "x": 466,
+    "y": 2463,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 26, 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-title > h3#tips-for-identifying-genuine-bank-communicationse",
+    "x": 466,
+    "y": 2489,
+    "w": 212,
+    "h": 70,
+    "level": 3,
+    "text": "tips for identifying genuine bank communicationse"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-title > h3#tips-for-identifying-genuine-bank-communicationse > a",
+    "x": 466,
+    "y": 2490,
+    "w": 154,
+    "h": 68,
+    "text": "tips for identifying genuine bank communicationse",
+    "href": "/blog/banking/safe-banking/tips-for-identifying-genuine-bank-communications"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-bg > picture > img",
+    "x": 725,
+    "y": 2274,
+    "w": 252,
+    "h": 325,
+    "text": "stay safe online: simple tips to avoid cybercrime",
+    "file": "media_1bf66a488b4f2f25da8f43e884711584c6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-date > p",
+    "x": 745,
+    "y": 2469,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 16, 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-title > h3#stay-safe-online-simple-tips-to-avoid-cybercrime",
+    "x": 745,
+    "y": 2495,
+    "w": 212,
+    "h": 47,
+    "level": 3,
+    "text": "stay safe online: simple tips to avoid cybercrime"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-title > h3#stay-safe-online-simple-tips-to-avoid-cybercrime > a",
+    "x": 745,
+    "y": 2496,
+    "w": 204,
+    "h": 44,
+    "text": "stay safe online: simple tips to avoid cybercrime",
+    "href": "/blog/banking/safe-banking/10-cybersecurity-tips-to-stay-safe-online"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-bg > picture > img",
+    "x": 1004,
+    "y": 2274,
+    "w": 252,
+    "h": 325,
+    "text": "which nri account do you actually need? nre vs nro vs fcnr(b",
+    "file": "media_1e4abcdc822c1839657bae206181ed873b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-date > p",
+    "x": 1024,
+    "y": 2439,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 14, 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-title > h3#which-nri-account-do-you-actually-need-nre-vs-nro-vs-fcnrb-explained",
+    "x": 1024,
+    "y": 2466,
+    "w": 212,
+    "h": 94,
+    "level": 3,
+    "text": "which nri account do you actually need? nre vs nro vs fcnr(b) explained"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-title > h3#which-nri-account-do-you-actually-need-nre-vs-nro-vs-fcnrb-explained > a",
+    "x": 1024,
+    "y": 2467,
+    "w": 196,
+    "h": 91,
+    "text": "which nri account do you actually need? nre vs nro vs fcnr(b) explained",
+    "href": "/blog/banking/nri-banking/nre-vs-nro-vs-fcnr-complete-guide-to-nri-accounts-in-india"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-bg > picture > img",
+    "x": 1283,
+    "y": 2274,
+    "w": 252,
+    "h": 325,
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+    "file": "media_1e1cb007a1e2a903a4f300b97c8dcdecb9"
+   },
+   {
+    "kind": "text",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-date > p",
+    "x": 1303,
+    "y": 2439,
+    "w": 212,
+    "h": 20,
+    "text": "Oct 07, 2026"
+   },
+   {
+    "kind": "heading",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you",
+    "x": 1303,
+    "y": 2466,
+    "w": 212,
+    "h": 94,
+    "level": 3,
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal from you"
+   },
+   {
+    "kind": "link",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+    "x": 1303,
+    "y": 2467,
+    "w": 190,
+    "h": 91,
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal from you",
+    "href": "/blog/banking/safe-banking/spoofed-calls-1600-series-how-to-protect-yourself"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.rail > button.rail-arrow.rail-arrow-next",
+    "x": 1238,
+    "y": 2202,
+    "w": 40,
+    "h": 40,
+    "text": "next"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-cta > p > a",
+    "x": 647,
+    "y": 2629,
+    "w": 146,
+    "h": 48,
+    "text": "view all",
+    "href": "/blog"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container > div.rail-head > h2#trust--beyond",
+    "x": 162,
+    "y": 2767,
+    "w": 1116,
+    "h": 44,
+    "level": 2,
+    "text": "trust & beyond"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.rail-slide > div.video-card > button.video-card-play",
+    "x": 167,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "business or chess, the right move can change the entire game | ft. d gukesh x rb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "button.video-card-play > picture > img",
+    "x": 167,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "business or chess, the right move can change the entire game",
+    "file": "media_10b94a92c83c2c4038ca2ba49f32acba68"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.rail-slide > div.video-card > button.video-card-play",
+    "x": 446,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "csr initiatives - creating impact through h.e.lo health, education & livelihood "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "button.video-card-play > picture > img",
+    "x": 446,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "csr initiatives - creating impact through h.e.lo health, edu",
+    "file": "media_1bbcaedc09518e838426f76f4474c7714c"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.rail-slide > div.video-card > button.video-card-play",
+    "x": 725,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "who’s the best travel companion for world chess champion d. gukesh?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "button.video-card-play > picture > img",
+    "x": 725,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "who’s the best travel companion for world chess champion d. ",
+    "file": "media_1c896793945ded499e6ff9dc8216faa6cf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li.rail-slide > div.video-card > button.video-card-play",
+    "x": 1004,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "rbl bank voyedge forex card. experience every travel moment, with an edge."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "button.video-card-play > picture > img",
+    "x": 1004,
+    "y": 2841,
+    "w": 252,
+    "h": 294,
+    "text": "rbl bank voyedge forex card. experience every travel moment,",
+    "file": "media_1b79ecae75546e4a533fb58d00231b2d08"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-cta > p > a",
+    "x": 647,
+    "y": 3166,
+    "w": 146,
+    "h": 48,
+    "text": "watch all",
+    "href": "/trust-and-beyond"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 162,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "About"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3331,
+    "w": 58,
+    "h": 16,
+    "text": "the bank",
+    "href": "/about-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3368,
+    "w": 113,
+    "h": 16,
+    "text": "board of directors",
+    "href": "/about-us/board-of-directors"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3405,
+    "w": 107,
+    "h": 16,
+    "text": "leadership team",
+    "href": "/about-us/leadership-team"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3442,
+    "w": 48,
+    "h": 16,
+    "text": "careers",
+    "href": "/careers"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3479,
+    "w": 128,
+    "h": 16,
+    "text": "social responsibility",
+    "href": "/social-responsibility"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 162,
+    "y": 3516,
+    "w": 157,
+    "h": 16,
+    "text": "sustainability framework",
+    "href": "/sustainability-framework"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 390,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Media Center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 390,
+    "y": 3331,
+    "w": 95,
+    "h": 16,
+    "text": "press releases",
+    "href": "/press-releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 390,
+    "y": 3368,
+    "w": 59,
+    "h": 16,
+    "text": "media kit",
+    "href": "/media-kit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 390,
+    "y": 3405,
+    "w": 112,
+    "h": 16,
+    "text": "investor relations",
+    "href": "/investor-relations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 618,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3331,
+    "w": 104,
+    "h": 16,
+    "text": "savings account",
+    "href": "/personal-banking/accounts/savings-accounts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3368,
+    "w": 101,
+    "h": 16,
+    "text": "current account",
+    "href": "/business-banking/business/partnering-your-growth/current-accounts"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3405,
+    "w": 77,
+    "h": 16,
+    "text": "credit cards",
+    "href": "/personal-banking/cards/credit-cards"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3442,
+    "w": 91,
+    "h": 16,
+    "text": "term deposits",
+    "href": "/personal-banking/term-deposits"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3479,
+    "w": 86,
+    "h": 16,
+    "text": "housing loan",
+    "href": "/personal-banking/loans/housing-loan"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 618,
+    "y": 3516,
+    "w": 79,
+    "h": 16,
+    "text": "nri services",
+    "href": "/nri-banking"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 846,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Important Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3331,
+    "w": 143,
+    "h": 16,
+    "text": "regulatory disclosures",
+    "href": "/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3368,
+    "w": 139,
+    "h": 16,
+    "text": "bank codes & policies",
+    "href": "/codes-and-policies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3405,
+    "w": 35,
+    "h": 16,
+    "text": "news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3442,
+    "w": 146,
+    "h": 16,
+    "text": "service charges & fees",
+    "href": "/service-charges"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3479,
+    "w": 86,
+    "h": 16,
+    "text": "interest rates",
+    "href": "/interest-rates"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3516,
+    "w": 106,
+    "h": 16,
+    "text": "download forms",
+    "href": "/download-form"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 846,
+    "y": 3552,
+    "w": 55,
+    "h": 16,
+    "text": "site map",
+    "href": "/site-map"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-cols > nav.footer-col > p.footer-head.h6",
+    "x": 1074,
+    "y": 3289,
+    "w": 204,
+    "h": 27,
+    "text": "Customer Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3331,
+    "w": 69,
+    "h": 16,
+    "text": "contact us",
+    "href": "/contact-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3363,
+    "w": 204,
+    "h": 32,
+    "text": "raise a query / request / complaint",
+    "href": "/WebForm/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3416,
+    "w": 62,
+    "h": 16,
+    "text": "locate us",
+    "href": "/locate-branch"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3453,
+    "w": 124,
+    "h": 16,
+    "text": "do not call registry",
+    "href": "/do-not-call"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3490,
+    "w": 127,
+    "h": 16,
+    "text": "grievance redressal",
+    "href": "/document/Footer%20-%20Grievance%20Redressal/GrievanceRedressalProcess.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3527,
+    "w": 60,
+    "h": 16,
+    "text": "feedback",
+    "href": "/feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3563,
+    "w": 117,
+    "h": 16,
+    "text": "lodge a complaint",
+    "href": "/lodge-a-complaint"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3600,
+    "w": 91,
+    "h": 16,
+    "text": "report a fraud",
+    "href": "/report-a-fraud"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3637,
+    "w": 125,
+    "h": 16,
+    "text": "unclaimed deposits",
+    "href": "/unclaimed-deposit-services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-list > li > a",
+    "x": 1074,
+    "y": 3674,
+    "w": 192,
+    "h": 16,
+    "text": "certificates issued by the bank",
+    "href": "/certificates-issued-by-the-bank"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.others-row > div.col-lg-1 > p.footer-head.h6",
+    "x": 162,
+    "y": 3730,
+    "w": 71,
+    "h": 27,
+    "text": "Others"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-lg-11.others-wrap > p.others-toggle-wrap > a.others-toggle",
+    "x": 1253,
+    "y": 3730,
+    "w": 25,
+    "h": 25,
+    "text": "‌",
+    "href": "/business-banking"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 257,
+    "y": 3735,
+    "w": 190,
+    "h": 18,
+    "text": "trade & forex services",
+    "href": "/document/pdfs/trade-and-forex-services.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 463,
+    "y": 3735,
+    "w": 59,
+    "h": 16,
+    "text": "qip 2019",
+    "href": "/investor-relations/disclosures-regulation-46/intimations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 538,
+    "y": 3735,
+    "w": 140,
+    "h": 16,
+    "text": "important documents",
+    "href": "/important-documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 694,
+    "y": 3735,
+    "w": 128,
+    "h": 16,
+    "text": "account aggregator",
+    "href": "/account-aggregator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 838,
+    "y": 3735,
+    "w": 126,
+    "h": 16,
+    "text": "terms & conditions",
+    "href": "/terms-and-conditions"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 980,
+    "y": 3735,
+    "w": 137,
+    "h": 16,
+    "text": "banking ombudsman",
+    "href": "/banking-ombudsman"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 257,
+    "y": 3772,
+    "w": 183,
+    "h": 16,
+    "text": "customer knowledge center",
+    "href": "/customer-knowledge-center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 456,
+    "y": 3772,
+    "w": 112,
+    "h": 16,
+    "text": "financial literacy",
+    "href": "/financial-literacy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a.others-list-btn",
+    "x": 584,
+    "y": 3774,
+    "w": 88,
+    "h": 16,
+    "text": "rbi kehta hai",
+    "href": "/CommonPerson/english/scripts/rbikehtahai.aspx"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a.others-list-btn",
+    "x": 687,
+    "y": 3774,
+    "w": 112,
+    "h": 16,
+    "text": "rbi sachet portal",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 815,
+    "y": 3772,
+    "w": 306,
+    "h": 16,
+    "text": "use of un-parlimentary language by customers",
+    "href": "/document/footer-use-of-un-parliamentary-language/use-of-un-parliamentary-language.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 257,
+    "y": 3809,
+    "w": 176,
+    "h": 16,
+    "text": "aadhaar enrolment centers",
+    "href": "/document/pdfs/aadhaar-enrolment-updation-centers.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 449,
+    "y": 3809,
+    "w": 221,
+    "h": 16,
+    "text": "neft customer facilitation center",
+    "href": "/document/Footer%20-%20NEFT%20Customer%20Facilitation%20Center/NEFT-NOC.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list > li > a",
+    "x": 687,
+    "y": 3809,
+    "w": 297,
+    "h": 16,
+    "text": "report loss or unauthorised use of credit card",
+    "href": "/report-loss-or-unautho-use-of-credit-card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list.others-list-more > li > a",
+    "x": 257,
+    "y": 3846,
+    "w": 292,
+    "h": 16,
+    "text": "report loss or unauthorised use of debit card",
+    "href": "/report-loss-or-unautho-use-of-debit-card"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.others-list.others-list-more > li > a",
+    "x": 565,
+    "y": 3846,
+    "w": 184,
+    "h": 16,
+    "text": "block retail internet banking",
+    "href": "/block-channel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-legal > div.col-lg-6 > p.pbottom",
+    "x": 162,
+    "y": 3908,
+    "w": 546,
+    "h": 16,
+    "text": "Copyright 2026 RBL Bank Ltd."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-legal > div.col-lg-6 > p.pbottom",
+    "x": 162,
+    "y": 3939,
+    "w": 546,
+    "h": 16,
+    "text": "Site best viewed in IE 9-11, Edge 25, Chrome 58, Firefox 53, Safari 10.1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li.follow-us-item-label > p.follow-us-label",
+    "x": 1018,
+    "y": 3925,
+    "w": 70,
+    "h": 27,
+    "text": "Follow us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-fb",
+    "x": 1116,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/TheRBLBank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-linkedin",
+    "x": 1149,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/company/rbl-bank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-twitter",
+    "x": 1182,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "",
+    "href": "/rblbank"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-insta",
+    "x": 1215,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/rbl_bank/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.follow-us > li > a.a-yt",
+    "x": 1248,
+    "y": 3925,
+    "w": 27,
+    "h": 27,
+    "text": "‌",
+    "href": "/@RblBankofficial"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.chat-launcher > div.chat-launcher-inner > img.chat-launcher-icon",
+    "x": 1291,
+    "y": 782,
+    "w": 104,
+    "h": 115,
+    "text": "chat",
+    "file": "rbl-cares"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 3,
+    "offPage": 0,
+    "textNodes": 100,
+    "controls": 88,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.story-card",
+     "path": "article.story-card > div.story-card-inner > div.story-card-date > p",
+     "text": "oct 07, 2026",
+     "cutMin": 0,
+     "cutMax": 0
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.story-card",
+     "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "article.story-card",
+     "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "cutMin": 53,
+     "cutMax": 53
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 0,
+     "path": "article.story-card > div.story-card-inner > div.story-card-date > p",
+     "text": "oct 07, 2026",
+     "clipper": "article.story-card",
+     "rect": {
+      "l": 1303,
+      "t": 2442,
+      "r": 1370,
+      "b": 2456,
+      "w": 67,
+      "h": 14
+     },
+     "clip": {
+      "l": 1283,
+      "t": 2274,
+      "r": 1535,
+      "b": 2599,
+      "w": 252,
+      "h": 325
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-HIDDEN",
+     "advisory": true,
+     "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "clipper": "article.story-card",
+     "rect": {
+      "l": 1303,
+      "t": 2467,
+      "r": 1493,
+      "b": 2558,
+      "w": 190,
+      "h": 91
+     },
+     "clip": {
+      "l": 1283,
+      "t": 2274,
+      "r": 1535,
+      "b": 2599,
+      "w": 252,
+      "h": 325
+     }
+    },
+    {
+     "kind": "TEXT X-HIDDEN",
+     "advisory": true,
+     "cut": 53,
+     "path": "div.story-card-inner > div.story-card-title > h3#series-call-scam-how-fraudsters-spoof-numbers-to-steal-from-you > a",
+     "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+     "clipper": "article.story-card",
+     "rect": {
+      "l": 1303,
+      "t": 2467,
+      "r": 1493,
+      "b": 2488,
+      "w": 190,
+      "h": 21
+     },
+     "clip": {
+      "l": 1283,
+      "t": 2274,
+      "r": 1535,
+      "b": 2599,
+      "w": 252,
+      "h": 325
+     },
+     "lines": 4
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "business banking",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 11,
+    "image": 5
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 5,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "rbl mybank app",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "money, people & safety",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 5,
+    "image": 4
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 1,
+    "button": 6,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 1,
+    "image": 8,
+    "imageHidden": 1
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"business banking group\" (y 941) has no origin heading",
+   "text": "business banking group"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"agri banking\" (y 941) has no origin heading",
+   "text": "agri banking"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"government sponsored scheme\" (y 941) has no origin heading",
+   "text": "government sponsored scheme"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"business\" (y 1478) has no origin heading",
+   "text": "business"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"which nri account do you actually need? nre vs nro vs fcnr(b) explained\" (y 2466) has no origin heading",
+   "text": "which nri account do you actually need? nre vs nro vs fcnr(b) explained"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"tips for identifying genuine bank communicationse\" (y 2489) has no origin heading",
+   "text": "tips for identifying genuine bank communicationse"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"how to protect your device from apk fraud?\" (y 2495) has no origin heading",
+   "text": "how to protect your device from apk fraud?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"stay safe online: simple tips to avoid cybercrime\" (y 2495) has no origin heading",
+   "text": "stay safe online: simple tips to avoid cybercrime"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"trust & beyond\" (y 2767) has no origin heading",
+   "text": "trust & beyond"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"business banking\": 11 origin → 7 served visible",
+   "band": 1,
+   "origin": 11,
+   "eds": 7,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"previous\" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "previous"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"next\" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "next"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"business or chess, the right move can change the entire game | ft. d gukesh x rb\" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "business or chess, the right move can change the entire game | ft. d gukesh x rb"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"csr initiatives - creating impact through h.e.lo health, education & livelihood \" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "csr initiatives - creating impact through h.e.lo health, education & livelihood "
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"who’s the best travel companion for world chess champion d. gukesh?\" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "who’s the best travel companion for world chess champion d. gukesh?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"rbl bank voyedge forex card. experience every travel moment, with an edge.\" served in band \"money, people & safety\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "rbl bank voyedge forex card. experience every travel moment, with an edge."
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"money, people & safety\": 4 origin → 8 served visible (+1 clipped away)",
+   "band": 3,
+   "origin": 4,
+   "eds": 8,
+   "hidden": 1
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 9,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 17,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 857,
+    "y": 15,
+    "w": 168,
+    "h": 14
+   },
+   {
+    "x": 1049,
+    "y": 15,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 1186,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 1227,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 407,
+    "y": 87,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 532,
+    "y": 87,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 664,
+    "y": 87,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 769,
+    "y": 87,
+    "w": 140,
+    "h": 19
+   },
+   {
+    "x": 1188,
+    "y": 84,
+    "w": 52,
+    "h": 21
+   },
+   {
+    "x": 170,
+    "y": 152,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 231,
+    "y": 152,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 167,
+    "y": 237,
+    "w": 390,
+    "h": 57
+   },
+   {
+    "x": 167,
+    "y": 312,
+    "w": 658,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 363,
+    "w": 680,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 631,
+    "w": 1068,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 661,
+    "w": 481,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 940,
+    "w": 260,
+    "h": 28
+   },
+   {
+    "x": 192,
+    "y": 979,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1009,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1039,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 211,
+    "y": 1160,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 572,
+    "y": 940,
+    "w": 135,
+    "h": 28
+   },
+   {
+    "x": 572,
+    "y": 979,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1009,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1039,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1069,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 591,
+    "y": 1160,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 952,
+    "y": 940,
+    "w": 251,
+    "h": 28
+   },
+   {
+    "x": 952,
+    "y": 967,
+    "w": 87,
+    "h": 28
+   },
+   {
+    "x": 952,
+    "y": 1005,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1036,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1066,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1096,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 971,
+    "y": 1160,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 192,
+    "y": 1477,
+    "w": 97,
+    "h": 28
+   },
+   {
+    "x": 192,
+    "y": 1516,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1547,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1577,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 211,
+    "y": 1641,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 776,
+    "y": 1863,
+    "w": 372,
+    "h": 57
+   },
+   {
+    "x": 865,
+    "y": 1953,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 916,
+    "y": 1953,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 931,
+    "y": 1953,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 1006,
+    "y": 1953,
+    "w": 5,
+    "h": 21
+   },
+   {
+    "x": 1020,
+    "y": 1953,
+    "w": 39,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 2202,
+    "w": 353,
+    "h": 40
+   },
+   {
+    "x": 187,
+    "y": 2472,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 187,
+    "y": 2496,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 187,
+    "y": 2520,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2466,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 466,
+    "y": 2490,
+    "w": 154,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2513,
+    "w": 112,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2537,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 745,
+    "y": 2472,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 745,
+    "y": 2496,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 745,
+    "y": 2520,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2442,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1024,
+    "y": 2467,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2490,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2513,
+    "w": 157,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2537,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2442,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1303,
+    "y": 2467,
+    "w": 190,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2490,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2513,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2537,
+    "w": 31,
+    "h": 21
+   },
+   {
+    "x": 687,
+    "y": 2643,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 2769,
+    "w": 228,
+    "h": 40
+   },
+   {
+    "x": 682,
+    "y": 3180,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 3289,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 3331,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3368,
+    "w": 113,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3405,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3442,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3479,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3516,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3289,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 3331,
+    "w": 95,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3368,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3405,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3289,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 618,
+    "y": 3331,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3368,
+    "w": 101,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3405,
+    "w": 77,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3442,
+    "w": 91,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3479,
+    "w": 86,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3516,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3289,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 3331,
+    "w": 143,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3368,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3405,
+    "w": 35,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3442,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3479,
+    "w": 86,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3516,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3552,
+    "w": 55,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3289,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3331,
+    "w": 69,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3363,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3379,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3416,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3453,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3490,
+    "w": 127,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3527,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3563,
+    "w": 117,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3600,
+    "w": 91,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3637,
+    "w": 125,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3674,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3730,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 257,
+    "y": 3735,
+    "w": 150,
+    "h": 16
+   },
+   {
+    "x": 463,
+    "y": 3735,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 538,
+    "y": 3735,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 694,
+    "y": 3735,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 838,
+    "y": 3735,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 980,
+    "y": 3735,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3772,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 456,
+    "y": 3772,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 584,
+    "y": 3773,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 687,
+    "y": 3773,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 815,
+    "y": 3772,
+    "w": 306,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3809,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 449,
+    "y": 3809,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 687,
+    "y": 3809,
+    "w": 297,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3845,
+    "w": 292,
+    "h": 16
+   },
+   {
+    "x": 565,
+    "y": 3845,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3907,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3938,
+    "w": 449,
+    "h": 16
+   },
+   {
+    "x": 1018,
+    "y": 3928,
+    "w": 70,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 857,
+    "y": 15,
+    "w": 168,
+    "h": 14
+   },
+   {
+    "x": 1049,
+    "y": 15,
+    "w": 111,
+    "h": 14
+   },
+   {
+    "x": 1186,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 1227,
+    "y": 15,
+    "w": 8,
+    "h": 14
+   },
+   {
+    "x": 407,
+    "y": 87,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 532,
+    "y": 87,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 664,
+    "y": 87,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 769,
+    "y": 87,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "x": 1184,
+    "y": 84,
+    "w": 52,
+    "h": 21
+   },
+   {
+    "x": 170,
+    "y": 152,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 231,
+    "y": 153,
+    "w": 110,
+    "h": 16
+   },
+   {
+    "x": 167,
+    "y": 237,
+    "w": 378,
+    "h": 57
+   },
+   {
+    "x": 167,
+    "y": 312,
+    "w": 658,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 363,
+    "w": 680,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 631,
+    "w": 1068,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 661,
+    "w": 481,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 940,
+    "w": 260,
+    "h": 28
+   },
+   {
+    "x": 192,
+    "y": 979,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1009,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1039,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 211,
+    "y": 1161,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 572,
+    "y": 940,
+    "w": 135,
+    "h": 28
+   },
+   {
+    "x": 572,
+    "y": 979,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1009,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1039,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 572,
+    "y": 1069,
+    "w": 122,
+    "h": 21
+   },
+   {
+    "x": 591,
+    "y": 1161,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 952,
+    "y": 940,
+    "w": 251,
+    "h": 28
+   },
+   {
+    "x": 952,
+    "y": 967,
+    "w": 87,
+    "h": 28
+   },
+   {
+    "x": 952,
+    "y": 1005,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1036,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1066,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 952,
+    "y": 1096,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 971,
+    "y": 1161,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 192,
+    "y": 1477,
+    "w": 97,
+    "h": 28
+   },
+   {
+    "x": 192,
+    "y": 1516,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1547,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 192,
+    "y": 1577,
+    "w": 78,
+    "h": 21
+   },
+   {
+    "x": 211,
+    "y": 1642,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 776,
+    "y": 1863,
+    "w": 372,
+    "h": 57
+   },
+   {
+    "x": 865,
+    "y": 1953,
+    "w": 194,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 2202,
+    "w": 353,
+    "h": 40
+   },
+   {
+    "x": 187,
+    "y": 2472,
+    "w": 70,
+    "h": 14
+   },
+   {
+    "x": 187,
+    "y": 2496,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 187,
+    "y": 2520,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2466,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 466,
+    "y": 2490,
+    "w": 154,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2513,
+    "w": 112,
+    "h": 21
+   },
+   {
+    "x": 466,
+    "y": 2537,
+    "w": 147,
+    "h": 21
+   },
+   {
+    "x": 745,
+    "y": 2472,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 745,
+    "y": 2496,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 745,
+    "y": 2520,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2442,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1024,
+    "y": 2467,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2490,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2513,
+    "w": 157,
+    "h": 21
+   },
+   {
+    "x": 1024,
+    "y": 2537,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2442,
+    "w": 67,
+    "h": 14
+   },
+   {
+    "x": 1303,
+    "y": 2467,
+    "w": 190,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2490,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2513,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 1303,
+    "y": 2537,
+    "w": 31,
+    "h": 21
+   },
+   {
+    "x": 687,
+    "y": 2642,
+    "w": 66,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 2769,
+    "w": 228,
+    "h": 40
+   },
+   {
+    "x": 682,
+    "y": 3179,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 3289,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 3331,
+    "w": 58,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3368,
+    "w": 113,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3405,
+    "w": 107,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3442,
+    "w": 48,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3479,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3516,
+    "w": 157,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3289,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 3331,
+    "w": 95,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3368,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 390,
+    "y": 3405,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3289,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 618,
+    "y": 3331,
+    "w": 104,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3368,
+    "w": 101,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3405,
+    "w": 77,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3442,
+    "w": 91,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3479,
+    "w": 86,
+    "h": 16
+   },
+   {
+    "x": 618,
+    "y": 3516,
+    "w": 79,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3289,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 3331,
+    "w": 143,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3368,
+    "w": 139,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3405,
+    "w": 35,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3442,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3479,
+    "w": 86,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3516,
+    "w": 106,
+    "h": 16
+   },
+   {
+    "x": 846,
+    "y": 3552,
+    "w": 55,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3289,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3331,
+    "w": 69,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3363,
+    "w": 158,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3379,
+    "w": 64,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3416,
+    "w": 62,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3453,
+    "w": 124,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3490,
+    "w": 127,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3527,
+    "w": 60,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3563,
+    "w": 117,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3600,
+    "w": 91,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3637,
+    "w": 125,
+    "h": 16
+   },
+   {
+    "x": 1074,
+    "y": 3674,
+    "w": 192,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3730,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 257,
+    "y": 3737,
+    "w": 146,
+    "h": 16
+   },
+   {
+    "x": 463,
+    "y": 3735,
+    "w": 59,
+    "h": 16
+   },
+   {
+    "x": 538,
+    "y": 3735,
+    "w": 140,
+    "h": 16
+   },
+   {
+    "x": 694,
+    "y": 3735,
+    "w": 128,
+    "h": 16
+   },
+   {
+    "x": 838,
+    "y": 3735,
+    "w": 126,
+    "h": 16
+   },
+   {
+    "x": 980,
+    "y": 3735,
+    "w": 137,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3772,
+    "w": 183,
+    "h": 16
+   },
+   {
+    "x": 456,
+    "y": 3772,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 584,
+    "y": 3774,
+    "w": 88,
+    "h": 16
+   },
+   {
+    "x": 687,
+    "y": 3774,
+    "w": 112,
+    "h": 16
+   },
+   {
+    "x": 815,
+    "y": 3772,
+    "w": 306,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3809,
+    "w": 176,
+    "h": 16
+   },
+   {
+    "x": 449,
+    "y": 3809,
+    "w": 221,
+    "h": 16
+   },
+   {
+    "x": 687,
+    "y": 3809,
+    "w": 297,
+    "h": 16
+   },
+   {
+    "x": 257,
+    "y": 3846,
+    "w": 292,
+    "h": 16
+   },
+   {
+    "x": 565,
+    "y": 3846,
+    "w": 184,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3908,
+    "w": 191,
+    "h": 16
+   },
+   {
+    "x": 162,
+    "y": 3939,
+    "w": 449,
+    "h": 16
+   },
+   {
+    "x": 1018,
+    "y": 3928,
+    "w": 70,
+    "h": 19
+   }
+  ]
+ }
+}

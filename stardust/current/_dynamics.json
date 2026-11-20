@@ -1,0 +1,2817 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-19T09:51:33.062Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.rbl.bank.in/",
+   "https://www.rbl.bank.in/about-us",
+   "https://www.rbl.bank.in/business-banking",
+   "https://www.rbl.bank.in/contact-us"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.rbl.bank.in/",
+   "status": 200,
+   "host": "www.rbl.bank.in",
+   "title": "Savings & Current Accounts, Loans, Credit Cards, NRI Services, Investments | RBL Bank",
+   "forms": [
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [
+    {
+     "container": "div.form-group-radio",
+     "controls": 5,
+     "names": [
+      "typeOfCustomer",
+      "typeOfCustomer",
+      "typeOfCustomer_citizen",
+      "typeOfCustomer_citizen",
+      "typeOfCustomer_citizen"
+     ],
+     "submit": null
+    },
+    {
+     "container": "input.form-control-small-white",
+     "controls": 3,
+     "names": [],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "Reset",
+     "href": null,
+     "marker": "accessibility-modal-reset-button",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "group",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 276,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 231,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 5,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Credit Card Bill Payment Options",
+     "textLen": 2175,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Credit Card Bill Payment Options",
+     "textLen": 2175,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 76,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "aioa-widget-wrapper",
+     "attrs": [
+      "data-nosnippet"
+     ]
+    }
+   ],
+   "auth": [
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking/accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/salary-account",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/special-institutions-account",
+    "https://www.rbl.bank.in/personal-banking/accounts/safe-deposit-lockers"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hp-calculator-fd-newcust-button&utm_term=hp-calculator-fd-newcust-button&utm_campaign=website-dig-fd",
+     "https://apps.apple.com/in/app/rbl-mybank-prev-rbl-mobank/id916461662",
+     "https://apps.apple.com/in/app/rbl-mybank-prev-rbl-mobank/id916461662"
+    ]
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "ajaxTrustedUrl",
+     "get_card_data",
+     "base_url",
+     "custom_creditcard",
+     "custom_creditcard_pincode",
+     "custom_creditcard_online_email_sms",
+     "custom_creditcard_verify_otp",
+     "custom_creditcard_get_otp",
+     "custom_creditcard_qd_insert",
+     "custom_creditcard_qd_insert2",
+     "financial_analytics_data",
+     "dropdown_options",
+     "generate_graph",
+     "iradmin_user_loggin",
+     "custom_emailnewsletter",
+     "rbl_custom",
+     "custom_triger_otp",
+     "custom_validate_otp",
+     "fxadmin_welcomeone",
+     "fxadmin_welcometwo",
+     "TBMegaMenu",
+     "csp",
+     "user"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "hj",
+    "Drupal",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "row attractive-rates-row",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": false
+    },
+    {
+     "cls": "row other",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "row other",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "slick-track",
+     "cards": 11,
+     "sameSite": 6,
+     "hasDate": false
+    },
+    {
+     "cls": "slick-track",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "slick-track",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "slick-track",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 13,
+   "inlineFetch": true,
+   "mainText": 2954,
+   "domAddedAfterLoad": 8,
+   "hosts": {
+    "www.rbl.bank.in": 197,
+    "cdnjs.cloudflare.com": 1,
+    "fonts.googleapis.com": 1,
+    "code.jquery.com": 1,
+    "d34s92jlbrwuc5.cloudfront.net": 5,
+    "webassets.rbl.bank.in": 39,
+    "fonts.gstatic.com": 3,
+    "www.skynettechnologies.com": 28,
+    "freeada.skynettechnologies.com": 1,
+    "sdk.rsut.io": 19,
+    "www.google.com": 5,
+    "www.googletagmanager.com": 5,
+    "www.gstatic.com": 1,
+    "snap.licdn.com": 1,
+    "static.hotjar.com": 1,
+    "connect.facebook.net": 2,
+    "ad.doubleclick.net": 1,
+    "static-cdn.trackier.com": 2,
+    "static.ads-twitter.com": 1,
+    "bat.bing.com": 7,
+    "px.ads.linkedin.com": 4,
+    "analytics.google.com": 3,
+    "stats.g.doubleclick.net": 3,
+    "googleads.g.doubleclick.net": 1,
+    "www.linkedin.com": 1,
+    "t.co": 4,
+    "analytics.twitter.com": 4,
+    "www.google-analytics.com": 1,
+    "script.hotjar.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "www.facebook.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "code.jquery.com",
+    "d34s92jlbrwuc5.cloudfront.net",
+    "fonts.gstatic.com",
+    "www.skynettechnologies.com",
+    "freeada.skynettechnologies.com",
+    "sdk.rsut.io",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "snap.licdn.com",
+    "static.hotjar.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "static-cdn.trackier.com",
+    "static.ads-twitter.com",
+    "bat.bing.com",
+    "px.ads.linkedin.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "www.linkedin.com",
+    "t.co",
+    "analytics.twitter.com",
+    "www.google-analytics.com",
+    "script.hotjar.com",
+    "px4.ads.linkedin.com",
+    "www.facebook.com"
+   ],
+   "scripts": [
+    "https://code.jquery.com/jquery-3.7.1.min.js",
+    "https://www.rbl.bank.in/core/assets/vendor/jquery/jquery.min.js?v=3.7.1",
+    "https://www.rbl.bank.in/core/misc/drupal.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/assets/vendor/once/once.min.js?v=1.0.1",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/core/misc/drupal.init.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/misc/drupalSettingsLoader.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.13.2",
+    "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/position-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/menu-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/email-suggestion.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery_form/jquery.form.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery/jquery.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/contrib/bootstrap_barrio/js/barrio.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/city-autocomplete.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slider/bootstrap-slider.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slick-1.8.1/slick/slick.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/bootstrap/js/bootstrap.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/waypoints/waypoints.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/timepicker/js/timepicki.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl.carousel.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/datepicker/bootstrap-datepicker.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazyload.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazy.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/aos/aos.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slider-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/offer.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/header-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/scroll-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jacket-cc-init.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/accessibility-loader.js?colorcode=",
+    "https://www.skynettechnologies.com/accessibility/js/assets/preload-helper.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/interest-cal-init.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/assets/main-widget.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/colorOptions.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/footer.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/linkNewTabHandler.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/contrastAdjustments.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/i18next.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/widget-core.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/investment-mf-cal.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/card-category.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/payment-menu-init.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/assets/widget.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/notification-frontend-data",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.rbl.bank.in/notification-frontend-data"
+    },
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0"
+    },
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/ir_admin/user",
+     "query": [],
+     "status": 403,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/ir_admin/user"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET www.skynettechnologies.com/accessibility/sounds/close.mp3",
+    "POST freeada.skynettechnologies.com/api/widget-settings",
+    "GET www.skynettechnologies.com/accessibility/sounds/open.mp3",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST sdk.rsut.io/Campaign/getWebConfig",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/rmkt/collect/969491432/",
+    "POST www.google-analytics.com/g/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST sdk.rsut.io/Campaign/GetLastVisitnew",
+    "POST sdk.rsut.io/Campaign/UserJourneybulk",
+    "POST sdk.rsut.io/Campaign/GetCustomEventList",
+    "POST bat.bing.com/p/insights/c/p",
+    "POST sdk.rsut.io/Campaign/FetchDropOff",
+    "POST sdk.rsut.io/Campaign/getsdkrules",
+    "POST sdk.rsut.io/Campaign/DeviceRegister",
+    "POST sdk.rsut.io/Campaign/SetLastVisitnew"
+   ],
+   "postBodies": [
+    {
+     "url": "https://freeada.skynettechnologies.com/api/widget-settings",
+     "body": "------WebKitFormBoundaryU7hMU1Hqz1WMXGtU\r\nContent-Disposition: form-data; name=\"website_url\"\r\n\r\nwww.rbl.bank.in\r\n------WebKitFormBoundaryU7hMU1Hqz1WMXGtU--\r\n"
+    },
+    {
+     "url": "https://www.rbl.bank.in/notification-frontend-data",
+     "body": ""
+    },
+    {
+     "url": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "body": "{\"sensor_data\":\"3;0;1;0;3293749;GhDeOLd1owx92CveytUjbrkQh7aTZ1thqsHTKumsunQ=;64,0,0,2,4,0;!KVs,ZY)t~U>OP5[\\\"7AG\\\"|!tbP\\\"(8\\\")\\\":J`1uOgX@b>c!=kz]PXPC~8/{/o)#uTX.Pl>P4PINdDhTbV=6l{{\\\"C\\\"9B|\\\"Y\\\"\\\"Q\\\"L{A\\\"^\\\"N{&I-$@sOJRU|oCLxt}g_xG67>Q!Q1X@T!F`O>rJ(y$3[d.Hg!4!m9mc[*.i.xA+T#7jb^%^RIgw4Hu>cl*yrJ|#u=a9g^ m6w<c`e3ryj)-_vY$KOqooF$+-_!i3#SM n-GQk8{x!6a8Z-H)0efh;|19k)pHE%}KD`8=a9pz)KjFpJw]rE;V0r/.cA\\\"f\\\"){m"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=1297620424.1795081901&dt=Savings%20%26%20Current%20Accounts%2C%20Loans%2C%20Credit%20Cards%2C%20NRI%20Services%2C%20Investments%20%7C%2",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=bjsScXIgWnYxmpmMqqzkKYuU_Y7UNGiNjQ&auid=1297620424.1795081901&gtm=45He6bh1h1v9135017126za200zd9135017126xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://sdk.rsut.io/Campaign/getWebConfig",
+     "body": "n@keyJkb21haW5OYW1lIjoiaHR0cHM6Ly93d3cucmJsLmJhbmsuaW4iLCJmYWxsYmFja0RvbWFpbiI6Imh0dHBzOi8vYmFuay5pbiJ9k@"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-X1E6469994&gtm=45je6bh1h1v9127305697za20ozb9135017126zd9135017126xf1&_p=1795081895975&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=404186603.17",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/969491432/?random=1795081902252&cv=11&fst=1795081902252&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1h1v9127305697za20ozb9135017126zd9135017126xecxf1&",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=1297620424.1795081901&dt=Savings%20%26%20Current%20Accounts%2C%20Loans%2C%20Credit%20Cards%2C%20NRI%20Services%2C%20Investments%20%7C%20RBL%",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-GXD51EMQ4Y&gtm=45je6bh1h1v9128807834za20ozb9135017126zd9135017126xf1&_p=1795081895975&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=404186603.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1P7D0G14CN&gtm=45je6bh1h1v9233668585za20ozb9135017126zd9135017126xf1&_p=1795081895975&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=404186603.1795081902&frm=0&n",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-25HQ35Y7J4&gtm=45je6bh1h1v9138867624za20ozb9135017126zd9135017126xf1&_p=1795081895975&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=404186603.17",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 2954,
+   "mainEmptyAtLoad": false
+  },
+  "/about-us": {
+   "url": "https://www.rbl.bank.in/about-us",
+   "status": 200,
+   "host": "www.rbl.bank.in",
+   "title": "About Us | RBL Bank",
+   "forms": [
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-awards-block-1",
+     "action": "https://www.rbl.bank.in/about-us",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 16,
+     "signature": [
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-advertisements-block-1",
+     "action": "https://www.rbl.bank.in/about-us",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 11,
+     "signature": [
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id",
+      "radio:field_years_target_id"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Reset",
+     "href": null,
+     "marker": "accessibility-modal-reset-button",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "group",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 276,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 231,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 5,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 63,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "aioa-widget-wrapper",
+     "attrs": [
+      "data-nosnippet"
+     ]
+    }
+   ],
+   "auth": [
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking/accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/salary-account",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/special-institutions-account",
+    "https://www.rbl.bank.in/personal-banking/accounts/safe-deposit-lockers"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+    ]
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "ajaxPageState",
+     "ajaxTrustedUrl",
+     "get_card_data",
+     "base_url",
+     "custom_creditcard",
+     "custom_creditcard_pincode",
+     "custom_creditcard_online_email_sms",
+     "custom_creditcard_verify_otp",
+     "custom_creditcard_get_otp",
+     "custom_creditcard_qd_insert",
+     "custom_creditcard_qd_insert2",
+     "financial_analytics_data",
+     "dropdown_options",
+     "generate_graph",
+     "iradmin_user_loggin",
+     "custom_emailnewsletter",
+     "rbl_custom",
+     "custom_triger_otp",
+     "custom_validate_otp",
+     "fxadmin_welcomeone",
+     "fxadmin_welcometwo",
+     "views",
+     "better_exposed_filters",
+     "TBMegaMenu",
+     "csp",
+     "user"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "hj",
+    "Drupal",
+    "grecaptcha"
+   ],
+   "clientRendered": [
+    {
+     "cls": "view view-awards view-id-awards",
+     "attrs": [],
+     "text": "- Any - 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 20"
+    },
+    {
+     "cls": "fieldgroup form-composite js-form-item",
+     "attrs": [],
+     "text": "- Any - 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 20"
+    },
+    {
+     "cls": "view view-advertisements view-id-advertisements",
+     "attrs": [],
+     "text": "- Any - 2023 2024 2022 2021 2020 2019 2018 2017 2016 2015 Ap"
+    },
+    {
+     "cls": "fieldgroup form-composite js-form-item",
+     "attrs": [],
+     "text": "- Any - 2023 2024 2022 2021 2020 2019 2018 2017 2016 2015"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 12,
+   "inlineFetch": true,
+   "mainText": 4702,
+   "domAddedAfterLoad": 8,
+   "hosts": {
+    "www.rbl.bank.in": 213,
+    "cdnjs.cloudflare.com": 1,
+    "code.jquery.com": 1,
+    "fonts.googleapis.com": 1,
+    "webassets.rbl.bank.in": 16,
+    "fonts.gstatic.com": 2,
+    "d34s92jlbrwuc5.cloudfront.net": 12,
+    "www.skynettechnologies.com": 28,
+    "freeada.skynettechnologies.com": 1,
+    "sdk.rsut.io": 19,
+    "www.google.com": 5,
+    "www.googletagmanager.com": 5,
+    "www.gstatic.com": 1,
+    "static.ads-twitter.com": 1,
+    "snap.licdn.com": 1,
+    "static-cdn.trackier.com": 2,
+    "bat.bing.com": 8,
+    "ad.doubleclick.net": 1,
+    "connect.facebook.net": 2,
+    "static.hotjar.com": 1,
+    "analytics.twitter.com": 4,
+    "t.co": 4,
+    "px.ads.linkedin.com": 4,
+    "www.linkedin.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "analytics.google.com": 3,
+    "stats.g.doubleclick.net": 3,
+    "www.google-analytics.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "script.hotjar.com": 1,
+    "www.facebook.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "d34s92jlbrwuc5.cloudfront.net",
+    "www.skynettechnologies.com",
+    "freeada.skynettechnologies.com",
+    "sdk.rsut.io",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.gstatic.com",
+    "static.ads-twitter.com",
+    "snap.licdn.com",
+    "static-cdn.trackier.com",
+    "bat.bing.com",
+    "ad.doubleclick.net",
+    "connect.facebook.net",
+    "static.hotjar.com",
+    "analytics.twitter.com",
+    "t.co",
+    "px.ads.linkedin.com",
+    "www.linkedin.com",
+    "px4.ads.linkedin.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google-analytics.com",
+    "googleads.g.doubleclick.net",
+    "script.hotjar.com",
+    "www.facebook.com"
+   ],
+   "scripts": [
+    "https://code.jquery.com/jquery-3.7.1.min.js",
+    "https://www.rbl.bank.in/core/assets/vendor/jquery/jquery.min.js?v=3.7.1",
+    "https://www.rbl.bank.in/core/assets/vendor/once/once.min.js?v=1.0.1",
+    "https://www.rbl.bank.in/core/misc/drupalSettingsLoader.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/misc/drupal.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/misc/drupal.init.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/position-min.js?v=1.13.2",
+    "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/menu-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/core/misc/debounce.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/contrib/bootstrap_barrio/js/barrio.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/better_exposed_filters/js/auto_submit.js?tnuuyl",
+    "https://www.rbl.bank.in/modules/contrib/better_exposed_filters/js/better_exposed_filters.js?tnuuyl",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/email-suggestion.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery_form/jquery.form.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/city-autocomplete.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery/jquery.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slider/bootstrap-slider.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slick-1.8.1/slick/slick.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/datepicker/bootstrap-datepicker.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/timepicker/js/timepicki.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/aos/aos.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/waypoints/waypoints.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazyload.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazy.min.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/accessibility-loader.js?colorcode=",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/bootstrap/js/bootstrap.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/offer.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/assets/preload-helper.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl.carousel.min.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/assets/main-widget.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/widget-core.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/i18next.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/footer.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/colorOptions.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/linkNewTabHandler.js",
+    "https://www.skynettechnologies.com/accessibility/js/assets/contrastAdjustments.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/header-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/scroll-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slider-init.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/assets/widget.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jacket-cc-init.js?v=10.5.6"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0"
+    },
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/ir_admin/user",
+     "query": [],
+     "status": 403,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/ir_admin/user"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET www.skynettechnologies.com/accessibility/sounds/close.mp3",
+    "POST freeada.skynettechnologies.com/api/widget-settings",
+    "GET www.skynettechnologies.com/accessibility/sounds/open.mp3",
+    "POST sdk.rsut.io/Campaign/getWebConfig",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google-analytics.com/g/collect",
+    "POST www.google.com/rmkt/collect/969491432/",
+    "POST sdk.rsut.io/Campaign/GetLastVisitnew",
+    "POST px.ads.linkedin.com/wa/",
+    "POST sdk.rsut.io/Campaign/UserJourneybulk",
+    "POST sdk.rsut.io/Campaign/GetCustomEventList",
+    "POST sdk.rsut.io/Campaign/FetchDropOff",
+    "POST sdk.rsut.io/Campaign/getsdkrules",
+    "POST bat.bing.com/p/insights/c/u",
+    "POST sdk.rsut.io/Campaign/DeviceRegister",
+    "POST sdk.rsut.io/Campaign/SetLastVisitnew"
+   ],
+   "postBodies": [
+    {
+     "url": "https://freeada.skynettechnologies.com/api/widget-settings",
+     "body": "------WebKitFormBoundaryJVGxddfpdbYrLjWx\r\nContent-Disposition: form-data; name=\"website_url\"\r\n\r\nwww.rbl.bank.in\r\n------WebKitFormBoundaryJVGxddfpdbYrLjWx--\r\n"
+    },
+    {
+     "url": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "body": "{\"sensor_data\":\"3;0;1;0;3159092;GhDeOLd1owx92CveytUjbrkQh7aTZ1thqsHTKumsunQ=;55,0,0,2,3,0;=}Vfc?nqKWLZKA= \\\"qv>\\\"#tkp-\\\"Kg\\\"^\\\"X/l,cD*K*FB-$>oHV=LOb%(.@y:egv8!aE&AR9}TLXT:ksw#Tik5\\\"X\\\"@yy\\\"@\\\"\\\"A\\\"6pv\\\"t\\\"*1)NImk&|)ucx1-r!6ZtRgEW39O85DmcO[Pqs7E]a \\\"K\\\"teg\\\"O\\\"3u3n\\\"S{{\\\"h~^\\\"VWUV/\\\"Djv\\\"M\\\">[\\\"o\\\"&k}\\\"_jM\\\"5A=\\\"C\\\"YEe\\\"&\\\"UfG\\\"&l^=R\\\"Bco\\\"X/\\\"CyO\\\"om#\\\"FC>YO0B\\\"xCZ\\\":<oGQEw?{;+]\\\"oO{4\\\"{H~%x6Tp\\\"s"
+    },
+    {
+     "url": "https://sdk.rsut.io/Campaign/getWebConfig",
+     "body": "h$heyJkb21haW5OYW1lIjoiaHR0cHM6Ly93d3cucmJsLmJhbmsuaW4iLCJmYWxsYmFja0RvbWFpbiI6Imh0dHBzOi8vYmFuay5pbiJ9$n"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=625583419.1795081926&dt=About%20Us%20%7C%20RBL%20Bank&en=page_view&dl=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&scrsrc=www.googletagmanag",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=625583419.1795081926&gtm=45He6bh1v9135017126za200zd9135017126xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-25HQ35Y7J4&gtm=45je6bh1v9138867624za20ozb9135017126zd9135017126xf1&_p=1795081920773&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1862394520.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1P7D0G14CN&gtm=45je6bh1v9233668585za20ozb9135017126zd9135017126xf1&_p=1795081920773&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1862394520.1795081927&frm=0&ng",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-GXD51EMQ4Y&gtm=45je6bh1v9128807834za20ozb9135017126zd9135017126xf1&_p=1795081920773&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1862394520.1795",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-X1E6469994&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xf1&_p=1795081920773&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1862394520.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/969491432/?random=1795081927891&cv=11&fst=1795081927891&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xecxf1&gc",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=625583419.1795081926&dt=About%20Us%20%7C%20RBL%20Bank&tid=AW-969491432&en=page_view&dl=https%3A%2F%2Fwww.rbl.bank.in%2Fabout-us&scrsrc=www.go",
+     "body": ""
+    },
+    {
+     "url": "https://sdk.rsut.io/Campaign/GetCustomEventList",
+     "body": "dkdeyJkb21haW5OYW1lIjoid3d3LnJibC5iYW5rLmluIn0=dd"
+    }
+   ],
+   "textAtLoad": 4702,
+   "mainEmptyAtLoad": false
+  },
+  "/business-banking": {
+   "url": "https://www.rbl.bank.in/business-banking",
+   "status": 200,
+   "host": "www.rbl.bank.in",
+   "title": "Business Banking – Business Bank Accounts, Business Services Online India | Best Bank |RBL Bank",
+   "forms": [
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Reset",
+     "href": null,
+     "marker": "accessibility-modal-reset-button",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "group",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 276,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 231,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 5,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 63,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "aioa-widget-wrapper",
+     "attrs": [
+      "data-nosnippet"
+     ]
+    }
+   ],
+   "auth": [
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking/accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/salary-account",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/special-institutions-account",
+    "https://www.rbl.bank.in/personal-banking/accounts/safe-deposit-lockers"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://apps.apple.com/in/app/rbl-mobank/id916461662",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+    ]
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "ajaxTrustedUrl",
+     "get_card_data",
+     "base_url",
+     "custom_creditcard",
+     "custom_creditcard_pincode",
+     "custom_creditcard_online_email_sms",
+     "custom_creditcard_verify_otp",
+     "custom_creditcard_get_otp",
+     "custom_creditcard_qd_insert",
+     "custom_creditcard_qd_insert2",
+     "financial_analytics_data",
+     "dropdown_options",
+     "generate_graph",
+     "iradmin_user_loggin",
+     "custom_emailnewsletter",
+     "rbl_custom",
+     "custom_triger_otp",
+     "custom_validate_otp",
+     "fxadmin_welcomeone",
+     "fxadmin_welcometwo",
+     "TBMegaMenu",
+     "csp",
+     "user"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "hj",
+    "Drupal",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "field row",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "slick-track",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 12,
+   "inlineFetch": true,
+   "mainText": 1364,
+   "domAddedAfterLoad": 47,
+   "hosts": {
+    "www.rbl.bank.in": 195,
+    "cdnjs.cloudflare.com": 1,
+    "code.jquery.com": 1,
+    "fonts.googleapis.com": 1,
+    "d34s92jlbrwuc5.cloudfront.net": 7,
+    "webassets.rbl.bank.in": 20,
+    "fonts.gstatic.com": 2,
+    "www.skynettechnologies.com": 26,
+    "sdk.rsut.io": 19,
+    "www.google.com": 5,
+    "www.googletagmanager.com": 5,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "ad.doubleclick.net": 1,
+    "static.hotjar.com": 1,
+    "static-cdn.trackier.com": 2,
+    "bat.bing.com": 8,
+    "connect.facebook.net": 2,
+    "px.ads.linkedin.com": 4,
+    "analytics.twitter.com": 4,
+    "t.co": 4,
+    "www.linkedin.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "stats.g.doubleclick.net": 3,
+    "analytics.google.com": 3,
+    "script.hotjar.com": 1,
+    "www.google-analytics.com": 1,
+    "googleads.g.doubleclick.net": 1,
+    "www.facebook.com": 1,
+    "www.gstatic.com": 1,
+    "freeada.skynettechnologies.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "fonts.googleapis.com",
+    "d34s92jlbrwuc5.cloudfront.net",
+    "fonts.gstatic.com",
+    "www.skynettechnologies.com",
+    "sdk.rsut.io",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "ad.doubleclick.net",
+    "static.hotjar.com",
+    "static-cdn.trackier.com",
+    "bat.bing.com",
+    "connect.facebook.net",
+    "px.ads.linkedin.com",
+    "analytics.twitter.com",
+    "t.co",
+    "www.linkedin.com",
+    "px4.ads.linkedin.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "script.hotjar.com",
+    "www.google-analytics.com",
+    "googleads.g.doubleclick.net",
+    "www.facebook.com",
+    "www.gstatic.com",
+    "freeada.skynettechnologies.com"
+   ],
+   "scripts": [
+    "https://code.jquery.com/jquery-3.7.1.min.js",
+    "https://www.rbl.bank.in/core/assets/vendor/once/once.min.js?v=1.0.1",
+    "https://www.rbl.bank.in/core/assets/vendor/jquery/jquery.min.js?v=3.7.1",
+    "https://www.rbl.bank.in/core/misc/drupalSettingsLoader.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/misc/drupal.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/misc/drupal.init.js?v=10.5.6",
+    "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=",
+    "https://www.skynettechnologies.com/accessibility/js/accessibility-loader.js",
+    "https://sdk.rsut.io/handlers/22f5edd7e3e74c50868d4b28f4e83f4d.sdk",
+    "https://www.google.com/recaptcha/api.js",
+    "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WHQPXDKW",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/position-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/labels-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/email-suggestion.js?v=1.x",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/aos/aos.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/header-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazyload.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/timepicker/js/timepicki.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/interest-cal-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slick-1.8.1/slick/slick.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/waypoints/waypoints.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/scroll-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/card-category.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl.carousel.min.js?v=10.5.6",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-25HQ35Y7J4&cx=c&gtm=4e6bh1",
+    "https://www.googletagmanager.com/gtag/js?id=G-GXD51EMQ4Y&cx=c&gtm=4e6bh1",
+    "https://static.hotjar.com/c/hotjar-2266472.js?sv=6",
+    "https://www.googletagmanager.com/gtag/js?id=G-1P7D0G14CN&cx=c&gtm=4e6bh1",
+    "https://static-cdn.trackier.com/js/trackier-websdk-init.js",
+    "https://bat.bing.com/bat.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-X1E6469994&cx=c&gtm=4e6bh1",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/highcharts/highcharts.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/slider/bootstrap-slider.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/interest-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/payment-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/contrib/bootstrap_barrio/js/barrio.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/term-modal.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/offer.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/gototop/gototop.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/APICALL.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/custom/rbl_custom/js/chatbot.js?v=1.x"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0"
+    },
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/ir_admin/user",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/ir_admin/user"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google-analytics.com/g/collect",
+    "POST www.google.com/rmkt/collect/969491432/",
+    "POST px.ads.linkedin.com/wa/",
+    "POST bat.bing.com/p/insights/c/o",
+    "POST sdk.rsut.io/Campaign/getWebConfig",
+    "GET www.skynettechnologies.com/accessibility/sounds/close.mp3",
+    "POST sdk.rsut.io/Campaign/GetCustomEventList",
+    "POST sdk.rsut.io/Campaign/FetchDropOff",
+    "POST sdk.rsut.io/Campaign/GetLastVisitnew",
+    "POST sdk.rsut.io/Campaign/UserJourneybulk",
+    "POST freeada.skynettechnologies.com/api/widget-settings",
+    "POST sdk.rsut.io/Campaign/DeviceRegister",
+    "POST sdk.rsut.io/Campaign/getsdkrules",
+    "GET www.skynettechnologies.com/accessibility/sounds/open.mp3",
+    "POST sdk.rsut.io/Campaign/SetLastVisitnew"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1527304373.1795081945&dt=Business%20Banking%20%E2%80%93%20Business%20Bank%20Accounts%2C%20Business%20Services%20Online%20India%20%7C%20",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1527304373.1795081945&gtm=45He6bh1v9135017126za200zd9135017126xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-25HQ35Y7J4&gtm=45je6bh1v9138867624za20ozb9135017126zd9135017126xf1&_p=1795081944436&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1249418258.179",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-GXD51EMQ4Y&gtm=45je6bh1v9128807834za20ozb9135017126zd9135017126xf1&_p=1795081944436&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1249418258.1795",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1P7D0G14CN&gtm=45je6bh1v9233668585za20ozb9135017126zd9135017126xf1&_p=1795081944436&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1249418258.1795081945&frm=0&ng",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-X1E6469994&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xf1&_p=1795081944436&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1249418258.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/969491432/?random=1795081945993&cv=11&fst=1795081945993&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xecxf1&gc",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1527304373.1795081945&dt=Business%20Banking%20%E2%80%93%20Business%20Bank%20Accounts%2C%20Business%20Services%20Online%20India%20%7C%20Best%",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA1VQ22obMRD9lWWepVhaay/Smw1tWDC0xCYvJZSRNOuIrOXtSttSkkD/oX/YLylrh17e5pzhnJlznmEMPoH5JJVcN3X5wCC5KYz5nqYUzhGMFEKISjDI4URgZKMr0Uqt6lIKBv58whDBwGSHG4vx6SZEYDBPAxh4zHlMZrX6Z7eycwqRUuILEeIRGHwjm0KmfThGHO7oy0wpdx4M1N6pEtuWN73uuVsTcdU3NS+96GvEtnVKAoMRj7Q7o79odF21irTiddMgV1ZprnvV8sa15HTZWrQtMAjpMGFMA2byYHocEjEYwnu8XoYF3AaM+QpOITkwzzAmu8+YCQxXr4vLLsQn8l3cjOMfm+WfQ8gDgYHtW9xie41b/Prxs/iPLDbOneeY"
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/o",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�N�@\u0010���<�4�w����'�C��Vj@����M�\t[���\u000e\u0004JQ���/��1�xk��t������|\u0003\u000fG\u0016d�GY\u0006H(�(A�Z\u0018���\u0017�\u0000\b�[���\u0011\u0010��դ�:>p�u��(����fVE3W�D��g�6ԾmGL�z\u0005%��#kIb����TiY�%B~�)�@$9R�\u0012T\u001a�dz:\u0001�@�K���w�a�|���ϗn�4��Ζ4r�f��(�L�©T\u0003���3��4�mX]w��V_>�(+H\u000f姡}�>\u0011��in����c�*\u0017�H���Do�y��;���i�\u000f��fS�O~v\u0016�ب,R�88{wyq��\n7^�����8�nַ>&SD�����k�\u0010\u0002%\u0012����B\u000b�\u0016�=-~��)^��x>_o�ſ��7wa�[�B��i�\bN<��o�}����y���\u0002-�zt5a�\u0006-l�Z9�'��'F\u0019Z��\u0006JL\u0012��7�"
+    },
+    {
+     "url": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "body": "{\"sensor_data\":\"3;0;1;0;4600624;GhDeOLd1owx92CveytUjbrkQh7aTZ1thqsHTKumsunQ=;59,0,0,2,10,0;P7fa=ZP[TaQM&Lir\\\"x})\\\"|>Uo!\\\".-\\\"#\\\"K%Zdz/9%n-z]0vzh1q!wq^/ElOjtj@;B3iRXIal[`|lIU-b![|~,\\\"p\\\"7&/\\\"?\\\"\\\"q\\\"5%q\\\":\\\"Uu,A@K5{Fe[UkeHX6j5VA5T>Be.x[h!9J !CIRL3W=\\\"k\\\"*O-\\\"R\\\"c3>]\\\"Bv9\\\" #@\\\"1ZTfB\\\"x}L\\\"P\\\"=N\\\"r\\\"gb|\\\"I(@\\\"}<<\\\"s\\\"L]7\\\"s\\\"}y*\\\"NN<i$\\\"$b1\\\"7g\\\">KJ\\\"I;G\\\"Es$i{[b\\\"kcM\\\"YWzF8eU>1FBS\\\"~*r;\\\"n7L$NrO{\\\""
+    },
+    {
+     "url": "https://sdk.rsut.io/Campaign/getWebConfig",
+     "body": "eh@eyJkb21haW5OYW1lIjoiaHR0cHM6Ly93d3cucmJsLmJhbmsuaW4iLCJmYWxsYmFja0RvbWFpbiI6Imh0dHBzOi8vYmFuay5pbiJ9$k"
+    }
+   ],
+   "textAtLoad": 1364,
+   "mainEmptyAtLoad": false
+  },
+  "/contact-us": {
+   "url": "https://www.rbl.bank.in/contact-us",
+   "status": 200,
+   "host": "www.rbl.bank.in",
+   "title": "RBL Bank – Banking & Credit Helpline Services | Contact Us | Customer Care",
+   "forms": [
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-search-results-page-1",
+     "action": "https://www.rbl.bank.in/search-rbl-data",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search_api_fulltext"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Reset",
+     "href": null,
+     "marker": "accessibility-modal-reset-button",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 0,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "group",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 276,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Accessibility Preferences (Ctrl + Shift + A)",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 44,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 231,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 5,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Notifications",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Attention",
+     "textLen": 653,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 63,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [
+    {
+     "cls": "aioa-widget-wrapper",
+     "attrs": [
+      "data-nosnippet"
+     ]
+    }
+   ],
+   "auth": [
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking/accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/salary-account",
+    "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts",
+    "https://www.rbl.bank.in/personal-banking/accounts/special-institutions-account",
+    "https://www.rbl.bank.in/personal-banking/accounts/safe-deposit-lockers"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+     "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+    ]
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "ajaxTrustedUrl",
+     "get_card_data",
+     "base_url",
+     "custom_creditcard",
+     "custom_creditcard_pincode",
+     "custom_creditcard_online_email_sms",
+     "custom_creditcard_verify_otp",
+     "custom_creditcard_get_otp",
+     "custom_creditcard_qd_insert",
+     "custom_creditcard_qd_insert2",
+     "financial_analytics_data",
+     "dropdown_options",
+     "generate_graph",
+     "iradmin_user_loggin",
+     "custom_emailnewsletter",
+     "rbl_custom",
+     "custom_triger_otp",
+     "custom_validate_otp",
+     "fxadmin_welcomeone",
+     "fxadmin_welcometwo",
+     "TBMegaMenu",
+     "csp",
+     "user"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "hj",
+    "Drupal",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 13,
+   "inlineFetch": true,
+   "mainText": 1256,
+   "domAddedAfterLoad": 53,
+   "hosts": {
+    "www.rbl.bank.in": 194,
+    "cdnjs.cloudflare.com": 1,
+    "code.jquery.com": 1,
+    "fonts.googleapis.com": 1,
+    "webassets.rbl.bank.in": 13,
+    "fonts.gstatic.com": 2,
+    "www.skynettechnologies.com": 26,
+    "sdk.rsut.io": 19,
+    "www.google.com": 9,
+    "www.googletagmanager.com": 5,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "ad.doubleclick.net": 1,
+    "static.hotjar.com": 1,
+    "static-cdn.trackier.com": 2,
+    "bat.bing.com": 12,
+    "connect.facebook.net": 2,
+    "px.ads.linkedin.com": 6,
+    "analytics.twitter.com": 4,
+    "t.co": 4,
+    "www.linkedin.com": 1,
+    "analytics.google.com": 6,
+    "stats.g.doubleclick.net": 3,
+    "www.google-analytics.com": 2,
+    "px4.ads.linkedin.com": 1,
+    "googleads.g.doubleclick.net": 2,
+    "script.hotjar.com": 1,
+    "www.facebook.com": 2,
+    "www.gstatic.com": 1,
+    "freeada.skynettechnologies.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "www.skynettechnologies.com",
+    "sdk.rsut.io",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "ad.doubleclick.net",
+    "static.hotjar.com",
+    "static-cdn.trackier.com",
+    "bat.bing.com",
+    "connect.facebook.net",
+    "px.ads.linkedin.com",
+    "analytics.twitter.com",
+    "t.co",
+    "www.linkedin.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google-analytics.com",
+    "px4.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "script.hotjar.com",
+    "www.facebook.com",
+    "www.gstatic.com",
+    "freeada.skynettechnologies.com"
+   ],
+   "scripts": [
+    "https://code.jquery.com/jquery-3.7.1.min.js",
+    "https://www.rbl.bank.in/core/assets/vendor/once/once.min.js?v=1.0.1",
+    "https://www.rbl.bank.in/core/misc/drupalSettingsLoader.js?v=10.5.6",
+    "https://www.rbl.bank.in/core/assets/vendor/jquery/jquery.min.js?v=3.7.1",
+    "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=",
+    "https://www.skynettechnologies.com/accessibility/js/accessibility-loader.js",
+    "https://sdk.rsut.io/handlers/22f5edd7e3e74c50868d4b28f4e83f4d.sdk",
+    "https://www.google.com/recaptcha/api.js",
+    "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WHQPXDKW",
+    "https://www.rbl.bank.in/core/misc/drupal.init.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/core/misc/drupal.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/data-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/form-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/custom/custom_creditcard/js/email-suggestion.js?v=1.x",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.lazy.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/contrib/bootstrap_barrio/js/barrio.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/interest-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/scroll-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/term-modal.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/offer.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/owl/owl-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/header-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/APICALL.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/simplelightbox/dist/simple-lightbox.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/ie-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jacket-cc-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/RdCal.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/downloadnew.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/datetimepicker/js/moment.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/custom/rbl_custom/js/chatbot.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/custom_all_in_accessibility_updates.js?v=10.5.6",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/position-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=1.13.2",
+    "https://www.rbl.bank.in/modules/contrib/tb_megamenu/js/tb-megamenu-frontend.js?v=1.x",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/card-category.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/lightbox/index.bundle.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/insigniasurvey.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery_form/jquery.form.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/payment-menu-init.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/global.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/datetimepicker/js/bootstrap-datetimepicker.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/custom-survey.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/jquery.multiselect.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/select2.multi-checkboxes.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/select2.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/search.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/waypoints/waypoints.min.js?v=10.5.6",
+    "https://www.rbl.bank.in/themes/custom/rbl_bank/js/qip-mobile.js?v=10.5.6"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0"
+    },
+    {
+     "method": "POST",
+     "host": "www.rbl.bank.in",
+     "path": "/ir_admin/user",
+     "query": [],
+     "status": 403,
+     "contentType": "application/json",
+     "example": "https://www.rbl.bank.in/ir_admin/user"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google-analytics.com/g/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google.com/rmkt/collect/969491432/",
+    "POST sdk.rsut.io/Campaign/getWebConfig",
+    "POST bat.bing.com/p/insights/c/o",
+    "GET www.skynettechnologies.com/accessibility/sounds/close.mp3",
+    "POST sdk.rsut.io/Campaign/GetLastVisitnew",
+    "POST sdk.rsut.io/Campaign/UserJourneybulk",
+    "POST sdk.rsut.io/Campaign/FetchDropOff",
+    "POST sdk.rsut.io/Campaign/GetCustomEventList",
+    "POST sdk.rsut.io/Campaign/getsdkrules",
+    "POST freeada.skynettechnologies.com/api/widget-settings",
+    "POST sdk.rsut.io/Campaign/DeviceRegister",
+    "GET www.skynettechnologies.com/accessibility/sounds/open.mp3",
+    "POST sdk.rsut.io/Campaign/SetLastVisitnew"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&auid=307245841.1795081963&dt=RBL%20Bank%20%E2%80%93%20Banking%20%26%20Credit%20Helpline%20Services%20%7C%20Contact%20Us%20%7C%20Customer%20Ca",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=307245841.1795081963&gtm=45He6bh1v9135017126za200zd9135017126xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-GXD51EMQ4Y&gtm=45je6bh1v9128807834za20ozb9135017126zd9135017126xf1&_p=1795081962140&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1291546772.1795",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-1P7D0G14CN&gtm=45je6bh1v9233668585za20ozb9135017126zd9135017126xf1&_p=1795081962140&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1291546772.1795081963&frm=0&ng",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA02QTW7bMBCFr0LMoisyFiXqj7vEaFMBXhSxm01RFCNy5BCmKFWkWxRpgN4hN+xJCstF0d18GMx7894zzM5G0J+kkkVd5Z85RLO4OT3SEt0UQMssy7Iy45DcSKBl3ZZZI9uqqIqCg51GdAE0LL2/6TGcblwADufFg4anlOaoN5v/dhszhYQmiXMEDt+pjy7R3h0D+gf6eqaYOgsalESsyz4Xsq4qUSBVohzUIKQiowwVRVOXwGHGI+0mtOtN3+Q5yWYQWdOgUFmeCcSCBNWNrK0dTG8UcHDxsGCIHhNZ0AP6SBy8e4dXZ7jAvcOQrjC6aEA/wxz7fcJEoIV6uajsXDiR7cLtPP+TufxzcMkTaHi427E7DCf2+9frOrhwZG/YdiHr"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-X1E6469994&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xf1&_p=1795081962140&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1291546772.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/969491432/?random=1795081963862&cv=11&fst=1795081963862&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6bh1v9127305697za20ozb9135017126zd9135017126xecxf1&gc",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=307245841.1795081963&dt=RBL%20Bank%20%E2%80%93%20Banking%20%26%20Credit%20Helpline%20Services%20%7C%20Contact%20Us%20%7C%20Customer%20Care&t",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-25HQ35Y7J4&gtm=45je6bh1v9138867624za20ozb9135017126zd9135017126xf1&_p=1795081962140&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1291546772.179",
+     "body": ""
+    },
+    {
+     "url": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+     "body": "{\"sensor_data\":\"3;0;1;0;4273460;GhDeOLd1owx92CveytUjbrkQh7aTZ1thqsHTKumsunQ=;49,0,0,1,9,0;Z)K6/ToM(xYP.oF&\\\"M>O\\\"Y8+y \\\"u|\\\"J\\\"z<en3^/<d[C*k`/AKkfTc`^?=r|$pk)])F#*&Fv9z$Y+G;+~==+>\\\"9\\\"Uzf\\\"b\\\"\\\"%\\\"O(g\\\"<\\\"7wZlRbKP4*b;<>%VPO`e//VTykmAw$9xPHv5!0*-z&\\\"u\\\"(Q?\\\"]\\\"(U]%\\\"@C?\\\"Pc{\\\"[H l@\\\"->6\\\"2\\\"hq\\\"[\\\"8hf\\\"|sB\\\"ogN\\\"y\\\"g>I\\\"P\\\"FBm\\\"#T2Zl\\\"3/7\\\"Eu\\\"Pr4\\\";rr\\\"le;B#MK\\\"Xmp\\\"&r3TJ*GX!,e$\\\"l8OQ\\\"`)J;ypz4\\\"["
+    },
+    {
+     "url": "https://sdk.rsut.io/Campaign/getWebConfig",
+     "body": "dn$eyJkb21haW5OYW1lIjoiaHR0cHM6Ly93d3cucmJsLmJhbmsuaW4iLCJmYWxsYmFja0RvbWFpbiI6Imh0dHBzOi8vYmFuay5pbiJ9@k"
+    },
+    {
+     "url": "https://bat.bing.com/p/insights/c/o",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�n�@\u0010���<�V��ޛ�-Om\u001e(jၴ\u0002ieE\u001bw�.q�d��RJ�?��|\t\u001a'E�Z[:3>;g<s~��\u0013\u000bYR&E\u0001�1CnJ��Ѳ��W�\u001d\u0010��q��\u0002�&�\u0007��it�n\u00186�I����'q�$\u000b׮�Цu�\u000e�\u001e&�\u001e*\u0004\u0007'��\fK�Je(�RUh9Gz(c��\u0012\u0002E��B+J�\u001caVǰ\u0019����\t����i\u0010�ئD�\u0010���3@\u000b\u001c��V\b�\u001f���V��-��6��(����O�R\u0016N/�+�\u0001|\u001d�*�T4�}��\u001b���(_\u0016�0\\\u001d���/�ġ:4Mó�{\fM�R�d��\u000b�o�ehw\u000f���:f��M�?��E\u0018R-�D�������%�&�<{��Uw̦w�[��k�dt��-]\f�+P!G��-I���쒝�v����=��޲7l\u001a�M\u0018عo6Mh=���-ԾgOl�/���`�\u000f��G6u�C�\u0006-�vr=�>4��\u0019D��R"
+    }
+   ],
+   "textAtLoad": 1256,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-www-skynettechnologies-com",
+   "class": "A",
+   "feature": "unknown third-party host www.skynettechnologies.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.skynettechnologies.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-freeada-skynettechnologies-com",
+   "class": "A",
+   "feature": "unknown third-party host freeada.skynettechnologies.com",
+   "hint": "inspect",
+   "evidence": [
+    "freeada.skynettechnologies.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-sdk-rsut-io",
+   "class": "A",
+   "feature": "unknown third-party host sdk.rsut.io",
+   "hint": "inspect",
+   "evidence": [
+    "sdk.rsut.io"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-ps5ycry5pu9z-u3-e-zl2fdc6m-p9umtzvpsc",
+   "class": "A",
+   "feature": "first-party API POST /pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0",
+   "api": {
+    "method": "POST",
+    "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RC/IbZy0BUl0 → 201"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-ir-admin-user",
+   "class": "A",
+   "feature": "first-party API POST /ir_admin/user",
+   "api": {
+    "method": "POST",
+    "path": "/ir_admin/user"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /ir_admin/user → 403",
+    "POST /ir_admin/user → 200"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-drupalsettings",
+   "class": "A",
+   "feature": "CMS / app settings object drupalSettings",
+   "hint": "settings",
+   "evidence": [
+    "ajaxTrustedUrl",
+    "base_url",
+    "financial_analytics_data"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-view-view-awards-view-id-awards",
+   "class": "CR",
+   "feature": "client-rendered slot view view-awards view-id-awards",
+   "hint": "client-rendered",
+   "evidence": [
+    "- Any - 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 20"
+   ],
+   "pages": [
+    "/about-us"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-fieldgroup-form-composite-js-form-it",
+   "class": "CR",
+   "feature": "client-rendered slot fieldgroup form-composite js-form-item",
+   "hint": "client-rendered",
+   "evidence": [
+    "- Any - 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 20",
+    "- Any - 2023 2024 2022 2021 2020 2019 2018 2017 2016 2015"
+   ],
+   "pages": [
+    "/about-us"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-view-view-advertisements-view-id-adv",
+   "class": "CR",
+   "feature": "client-rendered slot view view-advertisements view-id-advertisements",
+   "hint": "client-rendered",
+   "evidence": [
+    "- Any - 2023 2024 2022 2021 2020 2019 2018 2017 2016 2015 Ap"
+   ],
+   "pages": [
+    "/about-us"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-div-form-group-radio-5-controls",
+   "class": "F",
+   "feature": "form-less control group in div.form-group-radio (5 controls)",
+   "hint": "forms",
+   "evidence": [
+    "typeOfCustomer,typeOfCustomer,typeOfCustomer_citizen,typeOfCustomer_citizen,typeOfCustomer_citizen"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-input-form-control-small-white-",
+   "class": "F",
+   "feature": "form-less control group in input.form-control-small-white (3 controls)",
+   "hint": "forms",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-views-exposed-form-awards-block-1-origin-about-us-16-",
+   "class": "F",
+   "feature": "form \"views-exposed-form-awards-block-1\" → origin /about-us (16 fields)",
+   "signature": [
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id"
+   ],
+   "pages": [
+    "/about-us"
+   ]
+  },
+  {
+   "id": "f-form-views-exposed-form-advertisements-block-1-origin-abou",
+   "class": "F",
+   "feature": "form \"views-exposed-form-advertisements-block-1\" → origin /about-us (11 fields)",
+   "signature": [
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id",
+    "radio:field_years_target_id"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id,radio:field_years_target_id"
+   ],
+   "pages": [
+    "/about-us"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-fd-fd-fd-fd-fd",
+   "class": "I18N",
+   "feature": "locale variants fd,fd,fd,fd,fd",
+   "hint": "locale",
+   "evidence": [
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd"
+   ],
+   "pages": [
+    "/about-us",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-fd-fd-fd-in-in",
+   "class": "I18N",
+   "feature": "locale variants fd,fd,fd,in,in",
+   "hint": "locale",
+   "evidence": [
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hp-calculator-fd-newcust-button&utm_term=hp-calculator-fd-newcust-button&utm_campaign=website-dig-fd"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-fd-fd-in-fd-fd",
+   "class": "I18N",
+   "feature": "locale variants fd,fd,in,fd,fd",
+   "hint": "locale",
+   "evidence": [
+    "https://digital.rbl.bank.in/fd?utm_source=website&utm_medium=website-hamb-menu-digital-fd-banner&utm_term=hamb-digital-fd-banner&utm_campaign=website-dig-fd",
+    "https://apps.apple.com/in/app/rbl-mobank/id916461662"
+   ],
+   "pages": [
+    "/business-banking"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-slick-track-5-cards",
+   "class": "L",
+   "feature": "listing candidate slick-track (5 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/business-banking"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-slick-track-11-cards",
+   "class": "L",
+   "feature": "listing candidate slick-track (11 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-accessibility-modal-reset-button-target-outs",
+   "class": "M",
+   "feature": "modal trigger accessibility-modal-reset-button → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "Reset"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ],
+   "reach": {
+    "pages": 5,
+    "of": 5
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 5
+   }
+  },
+  {
+   "id": "s-site-search-form-search-rbl-data",
+   "class": "S",
+   "feature": "site search form → /search-rbl-data",
+   "hint": "search",
+   "evidence": [
+    "text:search_api_fulltext"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 5
+   }
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "snap.licdn.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "bat.bing.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "static.hotjar.com",
+    "script.hotjar.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cdn-trackier-com",
+   "class": "T",
+   "feature": "unknown third-party host static-cdn.trackier.com",
+   "hint": "inspect",
+   "evidence": [
+    "static-cdn.trackier.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com",
+    "www.google-analytics.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-t-co",
+   "class": "T",
+   "feature": "unknown third-party host t.co",
+   "hint": "inspect",
+   "evidence": [
+    "t.co"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px4.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-third-party-mount-div-data-nosnippet-tag-manager-injected-",
+   "class": "T",
+   "feature": "third-party mount <div data-nosnippet> (tag-manager-injected widget)",
+   "hint": "tags",
+   "evidence": [
+    "data-nosnippet"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-d34s92jlbrwuc5-cloudfront-net",
+   "class": "T",
+   "feature": "unknown third-party host d34s92jlbrwuc5.cloudfront.net",
+   "hint": "inspect",
+   "evidence": [
+    "d34s92jlbrwuc5.cloudfront.net"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/",
+    "/business-banking"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.rbl.bank.in/personal-banking/accounts/savings-accounts",
+    "https://digital.rbl.bank.in/fe-dsa/savings/regular?utm_source=website&utm_medium=website-hamb-menu-dsa-account-banner&utm_term=hamb-dsa-account-banner&utm_campaign=website-dsa-account",
+    "https://www.rbl.bank.in/personal-banking/accounts"
+   ],
+   "pages": [
+    "/",
+    "/about-us",
+    "/business-banking",
+    "/contact-us"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 5,
+  "of": 5,
+  "endpoints": {
+   "POST freeada.skynettechnologies.com/api/widget-settings": 5,
+   "POST www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RS/kwC1EWWV4": 5,
+   "POST www.google.com/ccm/collect": 5,
+   "POST sdk.rsut.io/Campaign/getWebConfig": 5,
+   "POST www.google.com/rmkt/collect/{n}/": 5,
+   "POST px.ads.linkedin.com/wa/": 5,
+   "POST sdk.rsut.io/Campaign/GetCustomEventList": 5,
+   "POST sdk.rsut.io/Campaign/GetLastVisitnew": 5,
+   "POST sdk.rsut.io/Campaign/UserJourneybulk": 5,
+   "POST sdk.rsut.io/Campaign/FetchDropOff": 5,
+   "POST sdk.rsut.io/Campaign/getsdkrules": 5,
+   "POST bat.bing.com/p/insights/c/q": 2,
+   "POST sdk.rsut.io/Campaign/DeviceRegister": 3,
+   "POST sdk.rsut.io/Campaign/SetLastVisitnew": 5,
+   "POST www.rbl.bank.in/ir_admin/user": 5,
+   "POST analytics.google.com/g/collect": 4,
+   "POST www.google-analytics.com/g/collect": 5,
+   "POST bat.bing.com/p/insights/c/k": 1,
+   "POST bat.bing.com/p/insights/c/g": 2,
+   "POST www.rbl.bank.in/notification-frontend-data": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 1,
+  "triggerPages": {
+   "accessibility-modal-reset-button": 5,
+   "aria-haspopup": 10
+  }
+ }
+}

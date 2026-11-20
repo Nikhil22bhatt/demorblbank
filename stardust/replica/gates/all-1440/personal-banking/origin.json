@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.rbl.bank.in/personal-banking",
+  "reference": {
+    "dir": "stardust/replica/gates/all-1440/personal-banking",
+    "capturedAt": "2026-11-19T11:12:18.244Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.01,
+    "variableRows": 0,
+    "maskArg": ""
+  },
+  "note": "reused stardust/replica/gates/all-1440/personal-banking/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-19T11:38:57.375Z"
+}

@@ -1,0 +1,152 @@
+{
+  "generatedAt": "2026-11-19T12:08:51.910Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.rbl.bank.in/",
+    "liveHost": "main--1aa640c2--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 5,
+    "prototyped": 5,
+    "deployed": 5,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 5,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "stage": "deployed",
+      "templateId": "about-us",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "business-banking",
+      "path": "/business-banking",
+      "stage": "deployed",
+      "templateId": "business-banking",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "contact-us",
+      "path": "/contact-us",
+      "stage": "deployed",
+      "templateId": "contact-us",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "personal-banking",
+      "path": "/personal-banking",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "about-us",
+      "archetype": "about-us",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "business-banking",
+      "archetype": "business-banking",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "contact-us",
+      "archetype": "contact-us",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "personal-banking",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 20,
+    "converted": 20
+  },
+  "quality": {
+    "overall": 71,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 92,
+      "content-conversion": null,
+      "ai-search": 50,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 5,
+      "P3": 2
+    },
+    "history": [
+      71
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "platform-migration": 7,
+      "out-of-scope": 1
+    },
+    "byAutofix": {
+      "pending": 7
+    }
+  }
+}

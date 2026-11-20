@@ -1,0 +1,48 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: 38 delta(s) — 78 paired of 78/78 texts, 2/2 icons
+  REGION BOX   Δy +2px (4591→4593)
+  PAIR         "Footer First"  Δy +2px (4635→4637)
+  PAIR         "About"  Δy +2px (4636→4638)
+  PAIR         "‌"  Δy +2px (4636→4638)
+  PAIR         "The Bank"  Δy +2px (4678→4680)
+  PAIR         "Board of Directors"  Δy +2px (4715→4717)
+  PAIR         "Leadership Team"  Δy +2px (4752→4754)
+  PAIR         "Footer Second"  Δy +2px (4635→4637)
+  PAIR         "Media Center"  Δy +2px (4636→4638)
+  PAIR         "‌"  Δy +2px (4636→4638)
+  PAIR         "Press Releases"  Δy +2px (4678→4680)
+  PAIR         "Media Kit"  Δy +2px (4715→4717)
+  PAIR         "Investor Relations"  Δy +2px (4752→4754)
+  PAIR         "Footer Third"  Δy +2px (4635→4637)
+  PAIR         "Products"  Δy +2px (4636→4638)
+  PAIR         "‌"  Δy +2px (4636→4638)
+  PAIR         "Savings Account"  Δy +2px (4678→4680)
+  PAIR         "Current Account"  Δy +2px (4715→4717)
+  PAIR         "Credit Cards"  Δy +2px (4752→4754)
+  PAIR         "Footer Fourth"  Δy +2px (4635→4637)
+  PAIR         "Important Links"  Δy +2px (4636→4638)
+  PAIR         "‌"  Δy +2px (4636→4638)
+  PAIR         "Regulatory Disclosures"  Δy +2px (4678→4680)
+  PAIR         "Bank Codes & Policies"  Δy +2px (4715→4717)
+  PAIR         "News"  Δy +2px (4752→4754)
+  PAIR         "Site Map"  Δy +2px (4899→4901)
+  PAIR         "Customer Service"  Δy +2px (4635→4637)
+  PAIR         "Customer Service"  Δy +2px (4636→4638)
+  PAIR         "‌"  Δy +2px (4636→4638)
+  PAIR         "Contact Us"  Δy +2px (4678→4680)
+  PAIR         "Raise a Query / Request / Complaint"  Δy +2px (4710→4712)
+  PAIR         "Locate Us"  Δy +2px (4763→4765)
+  PAIR         "Lodge a Complaint"  Δy +2px (4910→4912)
+  PAIR         "Report a Fraud"  Δy +2px (4947→4949)
+  PAIR         "Unclaimed Deposits"  Δy +2px (4984→4986)
+  PAIR         "Certificates Issued by the Bank"  Δy +2px (5021→5023)
+  PAIR         "Trade & Forex Services"  Δh -2px (20→18)
+  ICON         "Trade & Forex Services"  icon #0 near "Trade & Forex Services": Δh -3px (19→16)
+
+✗ 38 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

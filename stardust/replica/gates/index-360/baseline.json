@@ -1,0 +1,70 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-19T08:58:16.856Z",
+  "url": "https://www.rbl.bank.in/",
+  "width": 360,
+  "vh": 900,
+  "height": 6340,
+  "settle": true,
+  "chunks": 8,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 33,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 6340,
+    "pct": 0.19,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    6340,
+    6340
+  ],
+  "noiseFloor": 3.68,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 392,
+      "h": 456,
+      "pct": 91.3
+    },
+    {
+      "y": 1612,
+      "h": 96,
+      "pct": 2.1
+    },
+    {
+      "y": 3612,
+      "h": 36,
+      "pct": 0.6
+    }
+  ],
+  "variableShare": 9.27,
+  "maskArg": "392:456,1612:96,3612:36",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-19T08:59:17.647Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

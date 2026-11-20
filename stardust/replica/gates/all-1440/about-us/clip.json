@@ -1,0 +1,47 @@
+{
+ "url": "https://main--1aa640c2--aemcoder.aem.page/about-us",
+ "at": "2026-11-19T11:53:38.744Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 3,
+  "textNodes": 155,
+  "controls": 77,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.years-viewport",
+   "path": "ul > li.years-item > label > span",
+   "text": "2016",
+   "cutMin": 0,
+   "cutMax": 24
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 3,
+   "textNodes": 155,
+   "controls": 75,
+   "total": 0
+  }
+ }
+}

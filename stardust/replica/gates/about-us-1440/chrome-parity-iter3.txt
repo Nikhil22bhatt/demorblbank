@@ -1,0 +1,13 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.rbl.bank.in/about-us (live side from cache stardust/replica/gates/about-us-1440/chrome-live.json, probed 2026-11-19T08:48:50.080Z — delete the file to re-probe)
+  build: http://localhost:8791/about-us-proposed.html
+
+■ header: ✓ parity — 6 paired of 6/6 texts, 1/1 icons
+
+■ footer: 4 delta(s) — 78 paired of 78/78 texts, 2/2 icons
+  PAIR         "Trade & Forex Services"  Δh -2px (20→18)
+  PAIR         "RBI Kehta Hai"  Δy -3px (5846→5843)
+  PAIR         "RBI Sachet Portal"  Δy -3px (5846→5843)
+  ICON         "Trade & Forex Services"  icon #0 near "Trade & Forex Services": Δh -3px (19→16)
+
+✗ 4 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

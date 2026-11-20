@@ -1,0 +1,133 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T11:51:39.086Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 2,
+   "hiddenHeadings": 0,
+   "extraHeadings": 1,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 8,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 2,
+   "findings": 13,
+   "structural": 2,
+   "missing": 2,
+   "hidden": 0
+  },
+  "variable": [
+   ".home-banner-wrapper=.hero-carousel",
+   "#block-homebenefitsection=.promo-carousel",
+   "#block-homerblmobankapp=.app-banner"
+  ],
+  "reason": "autoplaying carousels (slick 6 s, restored at delivery — types.landing captureState restoreAtDelivery): the visible slide is time-variable on both origins",
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 8,
+   "offPage": 61,
+   "textNodes": 153,
+   "controls": 90,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 2,
+    "clipper": "div.offer-card",
+    "path": "div.offer-card-inner > div.offer-card-left > div.offer-card-tag > p",
+    "text": "credit card",
+    "cutMin": 44,
+    "cutMax": 106
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.quick-links.block",
+    "path": "div.quick-links.block > ul.quick-links-list > li.quick-links-item > a",
+    "text": "credit cards",
+    "cutMin": 8,
+    "cutMax": 8
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "p",
+    "path": "div.offer-card-inner > div.offer-card-left > div.offer-card-title > p",
+    "text": "attractive offers",
+    "cutMin": 59,
+    "cutMax": 59
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card > div.story-card-inner > div.story-card-date > p",
+    "text": "oct 26, 2026",
+    "cutMin": 31,
+    "cutMax": 31
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card-inner > div.story-card-title > p > a",
+    "text": "tips for identifying genuine bank communicationse",
+    "cutMin": 118,
+    "cutMax": 118
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card-inner > div.story-card-title > p > a",
+    "text": "tips for identifying genuine bank communicationse",
+    "cutMin": 118,
+    "cutMax": 118
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.rail-viewport",
+    "path": "ul.rail-track > li.rail-item > div.video-card > div.video-card-btn",
+    "text": "csr initiatives - creating impact through h.e.lo health, edu",
+    "cutMin": 197,
+    "cutMax": 197
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 10,
+   "offPage": 111,
+   "textNodes": 182,
+   "controls": 102,
+   "total": 0
+  },
+  "source": "content-presence"
+ }
+}

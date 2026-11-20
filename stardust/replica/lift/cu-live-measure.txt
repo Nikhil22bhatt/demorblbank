@@ -1,0 +1,98 @@
+measure  https://www.rbl.bank.in/contact-us
+  widths 1440, 360 · 15 selector(s) · 24 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   2684
+  header.accessibility-top-bar
+       x     0  y      0  w  1440  h    43  vis  "Rent Your Property to RBL Bank Skip to …"
+      display: block; position: fixed; boxSizing: border-box; width: 1440px; height: 42.875px; maxWidth: none; margin: 0px; padding: 8px 0px; gap: normal; backgroundColor: rgb(89, 89, 89); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  header#header
+       x     0  y      0  w     0  h     0  hid  "Fulltext search Apply"
+      display: none; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  #navbar-main
+       x     0  y      0  w     0  h     0  hid  "Fulltext search Apply"
+      display: flex; position: relative; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 8px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  .breadcrumb
+       x   163  y    140  w  1115  h    41  vis  "Home Contact Us"
+      display: flex; position: static; boxSizing: border-box; width: 1115px; height: 41px; maxWidth: 1115px; margin: 0px 162.5px; padding: 7px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  main#content
+       x     0  y    182  w  1440  h  1682  vis  "Contact Us Investor Grievance Redressal…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 1681.83px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  .contact-tab-section .tab-wrap
+       x     0  y    182  w  1440  h    76  vis  "Contact Us Investor Grievance Redressal…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 75.875px; maxWidth: none; margin: 0px 0px 45px; padding: 5px 0px 0px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: rgba(0, 0, 0, 0.15) -2px 4px 4px 0px; opacity: 1; objectFit: fill
+  .contus .cardCont [1 of 4]
+       x   162  y    343  w   348  h   310  vis  "Raise a Query / Request / Complaint Hav…"
+      display: block; position: static; boxSizing: border-box; width: 348px; height: 310px; maxWidth: none; margin: 0px; padding: 25px 15px 15px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 5px; border: 1px solid rgb(204, 204, 204); boxShadow: rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset; opacity: 1; objectFit: fill
+  .contus .titleCont .h3 [1 of 5]
+       x   178  y    369  w   316  h    52  vis  "Raise a Query / Request / Complaint"
+      display: block; position: static; boxSizing: border-box; width: 316px; height: 52px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 64, 135); fontFamily: Roboto, sans-serif; fontSize: 20px; fontWeight: 400; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 64, 135); boxShadow: none; opacity: 1; objectFit: fill
+  .contus .descCont p [1 of 6]
+       x   228  y    419  w   266  h   106  vis  "Have questions or need assistance? Our …"
+      display: block; position: static; boxSizing: border-box; width: 266px; height: 106px; maxWidth: none; margin: 0px; padding: 15px 0px 25px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 48, 48); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 22px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 48, 48); boxShadow: none; opacity: 1; objectFit: fill
+  .common-btn-blue [1 of 6]
+       x   228  y    540  w   146  h    42  vis  "Raise Here"
+      display: inline-block; position: static; boxSizing: border-box; width: 146px; height: 42px; maxWidth: none; margin: 0px; padding: 10px 20px; gap: normal; backgroundColor: rgb(48, 64, 135); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 4px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  h2.right-border-h2
+       x   150  y    966  w  1116  h    44  vis  "Frequently asked Questions"
+      display: block; position: relative; boxSizing: border-box; width: 1116px; height: 44.2031px; maxWidth: 100%; margin: 50px 0px; padding: 0px 12px 0px 23px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 48, 48); fontFamily: Roboto, sans-serif; fontSize: 34px; fontWeight: 700; lineHeight: 44.2px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 48, 48); boxShadow: none; opacity: 1; objectFit: fill
+  .faq-rbl-inner .card [1 of 9]
+       x   162  y   1060  w  1092  h    72  vis  "How can I find the nearest RBL Bank bra…"
+      display: flex; position: relative; boxSizing: border-box; width: 1092px; height: 71.875px; maxWidth: none; margin: 0px 0px 8px; padding: 0px; gap: normal; backgroundColor: rgb(249, 250, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 4px; border: 1px solid rgb(219, 220, 222); boxShadow: none; opacity: 1; objectFit: fill
+  .faq-rbl-link-faq [1 of 9]
+       x   193  y   1081  w  1040  h    30  vis  "How can I find the nearest RBL Bank bra…"
+      display: inline-block; position: relative; boxSizing: border-box; width: 1040px; height: 29.875px; maxWidth: none; margin: 0px; padding: 0px 35px 0px 0px; gap: normal; backgroundColor: rgba(255, 255, 255, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  footer [1 of 3]
+       x     0  y   1864  w  1440  h   820  vis  "FOOTER FIRST About ‌ The Bank Board of …"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 820.422px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgb(0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  body
+       x     0  y      0  w  1440  h  2684  vis  "Skip to Content ↵ ENTER Skip to Navigat…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 2684.25px; maxWidth: none; margin: 0px; padding: 140px 0px 0px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   4447
+  header.accessibility-top-bar
+       x     0  y      0  w   360  h    75  vis  "Skip to Main Content A Low Contrast Vie…"
+      display: block; position: fixed; boxSizing: border-box; width: 360px; height: 74.9688px; maxWidth: none; margin: 0px; padding: 8px 0px; gap: normal; backgroundColor: rgb(89, 89, 89); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  header#header
+       x     0  y      0  w     0  h     0  hid  "Fulltext search Apply"
+      display: none; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  #navbar-main
+       x     0  y      0  w     0  h     0  hid  "Fulltext search Apply"
+      display: flex; position: relative; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 8px 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  .breadcrumb
+       x     0  y      0  w     0  h     0  hid  "Home Contact Us"
+      display: none; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: 1115px; margin: 0px auto; padding: 5px 12px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  main#content
+       x     0  y    116  w   360  h  3235  vis  "Contact Us Investor Grievance Redressal…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 3234.59px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  .contact-tab-section .tab-wrap
+       x     0  y    116  w   360  h    54  vis  "Contact Us Investor Grievance Redressal…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 53.875px; maxWidth: none; margin: 0px; padding: 5px 0px 0px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: rgba(0, 0, 0, 0.15) -2px 4px 4px 0px; opacity: 1; objectFit: fill
+  .contus .cardCont [1 of 4]
+       x    12  y    190  w   312  h   310  vis  "Raise a Query / Request / Complaint Hav…"
+      display: block; position: static; boxSizing: border-box; width: 312px; height: 310px; maxWidth: none; margin: 0px; padding: 25px 15px 15px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 5px; border: 1px solid rgb(204, 204, 204); boxShadow: rgba(0, 0, 0, 0.3) 2px 2px 5px 0px, rgba(255, 255, 255, 0.1) 0px 0px 5px 0px inset; opacity: 1; objectFit: fill
+  .contus .titleCont .h3 [1 of 5]
+       x    28  y    216  w   280  h    52  vis  "Raise a Query / Request / Complaint"
+      display: block; position: static; boxSizing: border-box; width: 280px; height: 52px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 64, 135); fontFamily: Roboto, sans-serif; fontSize: 20px; fontWeight: 400; lineHeight: 26px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 64, 135); boxShadow: none; opacity: 1; objectFit: fill
+  .contus .descCont p [1 of 6]
+       x    78  y    266  w   230  h   106  vis  "Have questions or need assistance? Our …"
+      display: block; position: static; boxSizing: border-box; width: 230px; height: 106px; maxWidth: none; margin: 0px; padding: 15px 0px 25px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 48, 48); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 22px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 48, 48); boxShadow: none; opacity: 1; objectFit: fill
+  .common-btn-blue [1 of 6]
+       x    78  y    387  w   146  h    42  vis  "Raise Here"
+      display: inline-block; position: static; boxSizing: border-box; width: 146px; height: 42px; maxWidth: none; margin: 0px; padding: 10px 20px; gap: normal; backgroundColor: rgb(48, 64, 135); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 700; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 4px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  h2.right-border-h2
+       x     0  y   1853  w   336  h    73  vis  "Frequently asked Questions"
+      display: block; position: relative; boxSizing: border-box; width: 336px; height: 72.8125px; maxWidth: 100%; margin: 50px 0px; padding: 0px 12px 0px 23px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(48, 48, 48); fontFamily: Roboto, sans-serif; fontSize: 28px; fontWeight: 700; lineHeight: 36.4px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(48, 48, 48); boxShadow: none; opacity: 1; objectFit: fill
+  .faq-rbl-inner .card [1 of 9]
+       x    12  y   1976  w   312  h   121  vis  "How can I find the nearest RBL Bank bra…"
+      display: flex; position: relative; boxSizing: border-box; width: 312px; height: 121.062px; maxWidth: none; margin: 0px 0px 8px; padding: 0px; gap: normal; backgroundColor: rgb(249, 250, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 4px; border: 1px solid rgb(219, 220, 222); boxShadow: none; opacity: 1; objectFit: fill
+  .faq-rbl-link-faq [1 of 9]
+       x    28  y   1992  w   265  h    89  vis  "How can I find the nearest RBL Bank bra…"
+      display: inline-block; position: relative; boxSizing: border-box; width: 265px; height: 89.0625px; maxWidth: none; margin: 0px; padding: 0px 35px 0px 0px; gap: normal; backgroundColor: rgba(255, 255, 255, 0); backgroundImage: none; color: rgb(0, 0, 0); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(0, 0, 0); boxShadow: none; opacity: 1; objectFit: fill
+  footer [1 of 3]
+       x     0  y   3351  w   360  h  1097  vis  "FOOTER FIRST About ‌ FOOTER SECOND Medi…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 1096.67px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgb(0, 0, 0); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill
+  body
+       x     0  y      0  w   360  h  4447  vis  "Skip to Content ↵ ENTER Skip to Navigat…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 4447.27px; maxWidth: none; margin: 0px; padding: 115px 0px 0px; gap: normal; backgroundColor: rgb(255, 255, 255); backgroundImage: none; color: rgb(33, 37, 41); fontFamily: Roboto, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 26.88px; letterSpacing: normal; textTransform: none; textAlign: start; borderRadius: 0px; border: 0px none rgb(33, 37, 41); boxShadow: none; opacity: 1; objectFit: fill

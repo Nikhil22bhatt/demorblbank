@@ -1,0 +1,1366 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/business-banking-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • IMAGERY GAP: source renders 94 images, build renders 37. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4441,
+  "textLen": 1396,
+  "images": [
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "22x22",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chat.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "business-banking-group.jpg?VersionId=eIADIEcdin83xKSYnn.vUW1LCt.1.hvT",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "agri-banking_2.jpg?VersionId=F.rNrTzdcTf1eRmkwv1U7SX5jQ6C5R9X",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gss_1.jpg?VersionId=ehfMksolffqwkiZDIIw5GGpVJfL5PrAG",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "business.jpg?VersionId=X4liR9I7GW1OBIKiOeITdu7zTc4vKXw3",
+    "natural": "1000x667",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybank_0.jpg?VersionId=EAqNim4n3v3WptRfI0lVhAVIH4Wr_fsJ",
+    "natural": "1440x375",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybank-m_0.jpg?VersionId=z4GyJHPqizg2d.QbNIJXtDqZiTK9ksNu",
+    "natural": "430x339",
+    "rendered": "336x265",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app-google-play.png",
+    "natural": "160x48",
+    "rendered": "153x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app-iphone-store.png",
+    "natural": "161x49",
+    "rendered": "151x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chess-one-right-move.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csr-initiatives-helo.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "world-safari-gukesh.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "voyedge-forex-card.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-logo.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-qr.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blue_cross_search.png",
+    "natural": "15x15",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "microphone.png",
+    "natural": "14x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-digital-fd.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-world-safari-card.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-dsa.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c0bf6718-9ec2-4099-a038-3c02424303d6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=31&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=c0bf6718-9ec2-4099-a038-3c02424303d6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=31&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187179141&Ver=2&mid=d7cc948f-4978-4d3a-b247-26ee0b50a787&bo=1&sid=bf2b1eb0e3e811f1854ef31833105c24&vid=bf2b7f70e3e811f190e4b7997b0fd088&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Business%20Banking%20%E2%80%93%20Business%20Bank%20Accounts,%20Business%20Services%20Online%20India%20%7C%20Best%20Bank%20%7CRBL%20Bank&p=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&r=&lt=24754&evt=pageLoad&sv=2&cdb=AQAA&rn=571559",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6771b3f8-5f67-476d-b296-cb7e919d54e6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=20&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=6771b3f8-5f67-476d-b296-cb7e919d54e6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=20&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=48f70a48-2e93-4061-826e-26027c19a6c3&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=10093&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=48f70a48-2e93-4061-826e-26027c19a6c3&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=10093&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=5f32ed7e-775b-42e0-bd82-4b5b4adc54f3&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=10113&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=5f32ed7e-775b-42e0-bd82-4b5b4adc54f3&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=3d6e33b9-1d3b-4219-8e48-0c332c606edd&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2Fbusiness-banking&tw_engaged_ms=10113&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Business Banking",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "RBL MyBank App",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Money, People & Safety",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "field",
+    "width": 354,
+    "left": 3
+   },
+   {
+    "sel": "field",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "clearfix",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "clearfix",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "clearfix",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "clearfix",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "banner-para",
+    "width": 224,
+    "left": 68
+   },
+   {
+    "sel": "csr-cate-card-wrap-inner",
+    "width": 253,
+    "left": 12
+   },
+   {
+    "sel": "csr-cate-card-wrap-inner",
+    "width": 253,
+    "left": 292
+   },
+   {
+    "sel": "csr-cate-card-wrap-inner",
+    "width": 253,
+    "left": 572
+   },
+   {
+    "sel": "csr-cate-card-wrap-inner",
+    "width": 253,
+    "left": 852
+   },
+   {
+    "sel": "csr-cate-card-wrap-inner",
+    "width": 253,
+    "left": 1132
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4404,
+  "textLen": 1389,
+  "images": [
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "business-banking-group.jpg",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "agri-banking.jpg",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gss.jpg",
+    "natural": "700x400",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "business.jpg",
+    "natural": "1000x667",
+    "rendered": "336x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybank.jpg",
+    "natural": "1440x375",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybank-m.jpg",
+    "natural": "430x339",
+    "rendered": "336x265",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app-google-play.png",
+    "natural": "160x48",
+    "rendered": "153x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app-iphone-store.png",
+    "natural": "161x49",
+    "rendered": "151x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "video-chess.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "video-csr-helo.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "video-world-safari.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "video-voyedge.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "49x19",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Business Banking",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "34px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Business Banking Group",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Agri Banking",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Government Sponsored Scheme",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Business",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "RBL MyBank App",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "40px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Money, People & Safety",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How to Protect Your Device from ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tips for Identifying Genuine Ban",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Stay Safe Online: Simple Tips to",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Which NRI Account Do You Actuall",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "1600-Series Call Scam: How Fraud",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Trust & Beyond",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "listing-hero__text",
+    "width": 330,
+    "left": 15
+   },
+   {
+    "sel": "product-card__copy",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "product-card__copy",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "product-card__copy",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "product-card__copy",
+    "width": 276,
+    "left": 42
+   },
+   {
+    "sel": "app-band__tagline",
+    "width": 224,
+    "left": 68
+   },
+   {
+    "sel": "story-card__inner",
+    "width": 253,
+    "left": 12
+   },
+   {
+    "sel": "story-card__inner",
+    "width": 253,
+    "left": 292
+   },
+   {
+    "sel": "story-card__inner",
+    "width": 253,
+    "left": 572
+   },
+   {
+    "sel": "story-card__inner",
+    "width": 253,
+    "left": 852
+   },
+   {
+    "sel": "story-card__inner",
+    "width": 253,
+    "left": 1132
+   },
+   {
+    "sel": "container",
+    "width": 360,
+    "left": 0
+   }
+  ]
+ }
+}

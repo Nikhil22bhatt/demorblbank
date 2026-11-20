@@ -1,0 +1,49 @@
+{
+ "pages": 4,
+ "vendors": [
+  {
+   "host": "sdk.rsut.io",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.rbl.bank.in",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "code.jquery.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "library CDN (not dynamic by itself)",
+   "class": "-",
+   "inCsp": false
+  },
+  {
+   "host": "www.skynettechnologies.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.google.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 4
+ },
+ "cspHosts": []
+}

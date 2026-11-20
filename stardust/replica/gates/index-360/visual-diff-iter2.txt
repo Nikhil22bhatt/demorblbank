@@ -1,0 +1,2796 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter2/
+
+build red flags (advisory): 
+  • CONTENT GAP: source 42 headings / 12 content-boxes / main 5611px vs build 36 / 12 / 5582px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • HEADING FACE: <h1> "Pay your taxes seamlessly with R" is 22px Roboto in build vs 24px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Pay via: Internet Banking | Bran" is 16px Roboto in build vs 20px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h1> "Pay your taxes seamlessly with R" is 22px Roboto in build vs 24px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Pay via: Internet Banking | Bran" is 16px Roboto in build vs 20px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h1> "Pay your taxes seamlessly with R" is 22px Roboto in build vs 24px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Pay via: Internet Banking | Bran" is 16px Roboto in build vs 20px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Other ways to pay" is 16px Roboto in build vs 28px Roboto in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • IMAGE DID NOT LOAD: rbl-bank-education-loan-op.webp rendered 309x200 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5611,
+  "textLen": 3048,
+  "images": [
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "22x22",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "38x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "38x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Loans.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl.svg",
+    "natural": "146x60",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chat.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "download-icon.svg",
+    "natural": "29x30",
+    "rendered": "29x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "down-icon1.svg",
+    "natural": "30x29",
+    "rendered": "30x35",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "down-icon1.svg",
+    "natural": "30x29",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rblV1.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "upi.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "mybank-nm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AppStore.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "google-play.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay2contact-code.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rblV1.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "upi.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "mybank-nm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AppStore.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "google-play.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay2contact-code.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "414x547",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-desktop.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-mob.webp",
+    "natural": "614x811",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services.webp",
+    "natural": "1302x339",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services-m.webp",
+    "natural": "430x547",
+    "rendered": "336x427",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "414x547",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-desktop.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-mob.webp",
+    "natural": "614x811",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services.webp",
+    "natural": "1302x339",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services-m.webp",
+    "natural": "430x547",
+    "rendered": "336x427",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "1440x400",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "414x547",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-digital-savings-account.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-shoprite-credit-card.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-digital-fixed-deposits-op.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-education-loan-op.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chess-one-right-move.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csr-initiatives-helo.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "world-safari-gukesh.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "voyedge-forex-card.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-logo.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "dicgc-qr.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noti.svg",
+    "natural": "21x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "personal-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-banking.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "prepaid-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "credit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "debit-cards.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "blue_cross_search.png",
+    "natural": "15x15",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "microphone.png",
+    "natural": "14x20",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-digital-fd.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-world-safari-card.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "search-dsa.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=e3f047f4-9d40-4b13-bdb3-a5f4ac8aa290&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=18&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=e3f047f4-9d40-4b13-bdb3-a5f4ac8aa290&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=18&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187179141&Ver=2&mid=ea74c2a4-00eb-4e02-944c-59fd164237ef&bo=1&sid=bf2b1eb0e3e811f1854ef31833105c24&vid=bf2b7f70e3e811f190e4b7997b0fd088&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Savings%20%26%20Current%20Accounts,%20Loans,%20Credit%20Cards,%20NRI%20Services,%20Investments%20%7C%20RBL%20Bank&p=https%3A%2F%2Fwww.rbl.bank.in%2F&r=&lt=11463&evt=pageLoad&sv=2&cdb=AQAQ&rn=714936",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=d6e83cda-6be9-427a-97e7-aa744aba38a1&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=5&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=3&event=%7B%7D&event_id=d6e83cda-6be9-427a-97e7-aa744aba38a1&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=5&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=6e35c2e4-0793-45d4-9f67-cf5ed20f28d2&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=10045&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=6e35c2e4-0793-45d4-9f67-cf5ed20f28d2&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=10045&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=nyw15&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=084340cf-3c42-4b40-bd03-05f98d53457f&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=10051&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adsct?bci=4&cv=100%261&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%26360%261000%264%2624%26360%261000%260%26na%261&eci=2&event_id=084340cf-3c42-4b40-bd03-05f98d53457f&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=56dab626-c9cb-4bea-b142-af929f19fdb0&tw_document_href=https%3A%2F%2Fwww.rbl.bank.in%2F&tw_engaged_ms=10051&tw_iframe_status=0&tw_pid_src=2&tw_session_count=1&tw_session_id=1795072419704-418857436&twpid=tw.1795072419704.858808882518495332&txn_id=pb36b&type=javascript&version=2.4.12",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Attractive Rates",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Elevate your travelwith Incredib",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Go Further & Beyondwith IndianOi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Elevate your travelwith Incredib",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Go Further & Beyondwith IndianOi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fixed Deposit Calculator",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using the net banking facili",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Other Bank Account",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Debit card",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using UPI",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay using RBL MyBank App",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay via NEFT using below 'Payee ",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other ways to pay",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Net Banking",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using the net banking facili",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Other Bank Account",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Debit Card",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Debit card",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "UPI",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using UPI",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Mobile App",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay using RBL MyBank App",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "NEFT Payment",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay via NEFT using below 'Payee ",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Other Ways to Pay",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other ways to pay",
+    "color": "rgb(58, 66, 134)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Products",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital Savings Account - Prime",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Shoprite Credit Card",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital Fixed Deposit",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Education Loan",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Offers and Deals",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Money, People & Safety",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "↵",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "ENTER",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "banner-info-inner",
+    "width": 336,
+    "left": -1428
+   },
+   {
+    "sel": "banner-info-inner",
+    "width": 336,
+    "left": 372
+   },
+   {
+    "sel": "banner-info-inner",
+    "width": 336,
+    "left": 2172
+   },
+   {
+    "sel": "col-md-12",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "couter-wrap",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": -1428
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": -708
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": -348
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": 732
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": 1092
+   },
+   {
+    "sel": "amazing-offer",
+    "width": 336,
+    "left": 1452
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5582,
+  "textLen": 2289,
+  "images": [
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector.svg",
+    "natural": "10x9",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "aioa-icon-type-1.svg",
+    "natural": "55x55",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-logo.svg",
+    "natural": "291x150",
+    "rendered": "116x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "search.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "whatsapp.svg",
+    "natural": "21x21",
+    "rendered": "20x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bell.svg",
+    "natural": "18x21",
+    "rendered": "18x21",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-Savings_Account.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-Fixed_deposits.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-Credit_Cards.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-NRI_Account.svg",
+    "natural": "150x150",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-Loans.svg",
+    "natural": "60x60",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ql-preferredBanking.svg",
+    "natural": "60x60",
+    "rendered": "30x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "download-icon.svg",
+    "natural": "29x30",
+    "rendered": "29x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "right-arrow-pay.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rblV1.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "upi.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "mybank-nm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AppStore.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "google-play.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay2contact-code.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rblV1.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cc-avenue-logo.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rzp-logo-RBL_Bank.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Billdesk_logo.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "upi.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "mybank-nm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "AppStore.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "google-play.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay2contact-code.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-desktop.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-mob.webp",
+    "natural": "614x811",
+    "rendered": "336x444",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot-m.webp",
+    "natural": "414x527",
+    "rendered": "336x428",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services-m.webp",
+    "natural": "430x547",
+    "rendered": "336x427",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "0x0",
+    "rendered": "336x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-desktop.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nationwide-financial-inclusion-saturation-mob.webp",
+    "natural": "614x811",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-mybizbank-business-banking-app-features-banner-m.webp",
+    "natural": "414x527",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares-chatbot-m.webp",
+    "natural": "414x527",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-whatsapp-banking-services-m.webp",
+    "natural": "430x547",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-ad.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "sanchar-saathi-mobile-app-am.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-digital-savings-account.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-shoprite-credit-card.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-digital-fixed-deposits-op.webp",
+    "natural": "700x400",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-bank-education-loan-op.webp",
+    "natural": "0x0",
+    "rendered": "309x200",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "next-btn.svg",
+    "natural": "70x70",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "chess-one-right-move.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csr-initiatives-helo.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "world-safari-gukesh.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "voyedge-forex-card.webp",
+    "natural": "383x447",
+    "rendered": "253x295",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new-trade.png",
+    "natural": "49x19",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "Home.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Login.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Payments.svg",
+    "natural": "150x150",
+    "rendered": "62x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mobile-more.svg",
+    "natural": "30x17",
+    "rendered": "30x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-cares.svg",
+    "natural": "41x37",
+    "rendered": "70x63",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "top-icon.svg",
+    "natural": "24x25",
+    "rendered": "24x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "digital-fd-pm.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rbl-world-safari-credit-card-offer-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "open-digital-savings-account-3-steps-mb.webp",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "Pay your taxes seamlessly with R",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Pay via: Internet Banking | Bran",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Attractive Rates",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Elevate your travelwith Incredib",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Go Further & Beyondwith IndianOi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Elevate your travelwith Incredib",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Go Further & Beyondwith IndianOi",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "You're just a card awayfrom Amaz",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fixed Deposit Calculator",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using the net banking facili",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Other Bank Account",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Debit card",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using UPI",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay using RBL MyBank App",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay via NEFT using below 'Payee ",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other ways to pay",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using the net banking facili",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Other Bank Account",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using Debit card",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay Using UPI",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay using RBL MyBank App",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Pay via NEFT using below 'Payee ",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other ways to pay",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "16px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Products",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital Savings Account - Prime",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Shoprite Credit Card",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digital Fixed Deposit",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Education Loan",
+    "color": "rgb(48, 64, 135)",
+    "fontSize": "22px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Offers and Deals",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Money, People & Safety",
+    "color": "rgb(48, 48, 48)",
+    "fontSize": "28px",
+    "family": "Roboto",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Festive Offer",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Attractive Offers",
+    "color": "rgb(255, 255, 255)"
+   },
+   {
+    "text": "Festive Offer",
+    "color": "rgb(255, 255, 255)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "hero__card",
+    "width": 336,
+    "left": 1452
+   },
+   {
+    "sel": "rates__item",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "promo__offer",
+    "width": 336,
+    "left": -348
+   },
+   {
+    "sel": "promo__offer",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "promo__offer",
+    "width": 336,
+    "left": 372
+   },
+   {
+    "sel": "fdc-range__head",
+    "width": 306,
+    "left": 27
+   },
+   {
+    "sel": "fdc-range__head",
+    "width": 306,
+    "left": 27
+   },
+   {
+    "sel": "fdc-range__head",
+    "width": 306,
+    "left": 27
+   },
+   {
+    "sel": "fdc-range__head",
+    "width": 306,
+    "left": 27
+   },
+   {
+    "sel": "fdc__table",
+    "width": 336,
+    "left": 12
+   },
+   {
+    "sel": "hp-dialogs",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "product-card__body",
+    "width": 309,
+    "left": 12
+   }
+  ]
+ }
+}

@@ -1,0 +1,413 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-19T09:50:30.755Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T11:20:48.789Z",
+  "blocks": [
+    {
+      "id": "about-banner",
+      "label": "about-banner",
+      "kind": "module",
+      "signature": "module:about-banner",
+      "source": null,
+      "usedByTemplates": [
+        "about-us"
+      ],
+      "usedByPages": [
+        "about-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "about-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "about-intro",
+      "label": "about-intro",
+      "kind": "module",
+      "signature": "module:about-intro",
+      "source": null,
+      "usedByTemplates": [
+        "about-us"
+      ],
+      "usedByPages": [
+        "about-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "about-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "app-band",
+      "label": "app-band",
+      "kind": "module",
+      "signature": "module:app-band",
+      "source": null,
+      "usedByTemplates": [
+        "business-banking"
+      ],
+      "usedByPages": [
+        "business-banking"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "app-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "app-banner",
+      "label": "app-banner",
+      "kind": "module",
+      "signature": "module:app-banner",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "app-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "awards",
+      "label": "awards",
+      "kind": "module",
+      "signature": "module:awards",
+      "source": null,
+      "usedByTemplates": [
+        "about-us"
+      ],
+      "usedByPages": [
+        "about-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "awards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-tabs",
+      "label": "contact-tabs",
+      "kind": "module",
+      "signature": "module:contact-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "contact-us"
+      ],
+      "usedByPages": [
+        "contact-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "contact-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "fd-calculator",
+      "label": "fd-calculator",
+      "kind": "module",
+      "signature": "module:fd-calculator",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "fd-calculator",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-blog",
+      "label": "home-blog",
+      "kind": "module",
+      "signature": "module:home-blog",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-blog",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-videos",
+      "label": "home-videos",
+      "kind": "module",
+      "signature": "module:home-videos",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "home-videos",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "impact-stats",
+      "label": "impact-stats",
+      "kind": "module",
+      "signature": "module:impact-stats",
+      "source": null,
+      "usedByTemplates": [
+        "about-us"
+      ],
+      "usedByPages": [
+        "about-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "impact-stats",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "listing-hero",
+      "label": "listing-hero",
+      "kind": "module",
+      "signature": "module:listing-hero",
+      "source": null,
+      "usedByTemplates": [
+        "business-banking"
+      ],
+      "usedByPages": [
+        "business-banking"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "listing-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "offer-cards",
+      "label": "offer-cards",
+      "kind": "module",
+      "signature": "module:offer-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "offer-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-cards",
+      "label": "product-cards",
+      "kind": "module",
+      "signature": "module:product-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-grid",
+      "label": "product-grid",
+      "kind": "module",
+      "signature": "module:product-grid",
+      "source": null,
+      "usedByTemplates": [
+        "business-banking"
+      ],
+      "usedByPages": [
+        "business-banking"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "promo-carousel",
+      "label": "promo-carousel",
+      "kind": "module",
+      "signature": "module:promo-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "promo-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "rates",
+      "label": "rates",
+      "kind": "module",
+      "signature": "module:rates",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "rates",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "story-rail",
+      "label": "story-rail",
+      "kind": "module",
+      "signature": "module:story-rail",
+      "source": null,
+      "usedByTemplates": [
+        "business-banking"
+      ],
+      "usedByPages": [
+        "business-banking"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "story-rail",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "values",
+      "label": "values",
+      "kind": "module",
+      "signature": "module:values",
+      "source": null,
+      "usedByTemplates": [
+        "about-us"
+      ],
+      "usedByPages": [
+        "about-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "values",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "video-rail",
+      "label": "video-rail",
+      "kind": "module",
+      "signature": "module:video-rail",
+      "source": null,
+      "usedByTemplates": [
+        "business-banking"
+      ],
+      "usedByPages": [
+        "business-banking"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "video-rail",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+/* promo-carousel — homepage credit-card offer banners (replica canon index.css .promo),
+   mobile-first. Slick model: one track translated by --i, 1s ease; dots fill in 6s. */
+.promo-carousel.block {
+  position: relative;
+}
+
+.promo-carousel .carousel-viewport {
+  position: relative;
+  height: 570px;
+  overflow: hidden;
+}
+
+.promo-carousel .carousel-track {
+  display: flex;
+  transform: translate3d(calc(var(--i, 0) * -100%), 0, 0);
+  transition: transform 1s ease;
+}
+
+.promo-carousel .carousel-slide {
+  position: relative;
+  display: block;
+  flex: 0 0 100%;
+  min-width: 100%;
+  height: 575px;
+  margin-top: -3px;
+  padding: 35px 0 0;
+  background: #f3f4f6;
+}
+
+.promo-carousel .promo-img {
+  position: absolute;
+  inset: 0;
+}
+
+.promo-carousel .promo-img-d {
+  display: none;
+}
+
+.promo-carousel .promo-img-m {
+  height: 577px;
+}
+
+.promo-carousel .promo-img :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.promo-carousel .promo-img img {
+  max-width: none;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.promo-carousel .promo-container {
+  position: relative;
+  z-index: 5;
+}
+
+.promo-carousel .promo-offer {
+  width: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.promo-carousel .promo-offer :is(h1, h2, h3) {
+  margin: 0 0 20px;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+.promo-carousel .promo-offer-light :is(h1, h2, h3) {
+  color: #fff;
+}
+
+.promo-carousel .promo-offer :is(h1, h2, h3) strong {
+  font-weight: 700;
+}
+
+.promo-carousel .promo-para {
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 7px 12px;
+  border-radius: 4px;
+  background: rgb(48 48 48 / 60%);
+  color: #fff;
+  font-size: 14px;
+  line-height: 26.88px;
+}
+
+.promo-carousel .promo-para ul {
+  padding-left: 20px;
+  list-style: disc;
+  text-align: left;
+}
+
+.promo-carousel .promo-cta a.button:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 146px;
+  height: 48px;
+  padding: 0 20px;
+  border: 1px solid var(--rbl-blue);
+  font-size: 18px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.promo-carousel .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  display: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 56px;
+  line-height: 26.88px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.promo-carousel .carousel-arrow-prev {
+  left: 35px;
+}
+
+.promo-carousel .carousel-arrow-next {
+  right: 35px;
+}
+
+.promo-carousel .carousel-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.promo-carousel .carousel-dots li {
+  display: block;
+}
+
+.promo-carousel .carousel-dot {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin: 0 8px;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.promo-carousel .carousel-dot::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: #ec0a0a;
+}
+
+.promo-carousel.is-playing .carousel-dot.is-active::after {
+  animation: promo-dot-fill 6s linear forwards;
+}
+
+@keyframes promo-dot-fill {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@media (width >= 768px) {
+  .promo-carousel .carousel-viewport {
+    height: 395px;
+  }
+
+  .promo-carousel .carousel-slide {
+    display: flex;
+    align-items: center;
+    height: auto;
+    min-height: 400px;
+    margin-top: 0;
+    padding: 30px 0;
+  }
+
+  .promo-carousel .promo-img-d {
+    display: block;
+  }
+
+  .promo-carousel .promo-img-m {
+    display: none;
+  }
+
+  .promo-carousel .promo-img img {
+    object-position: center top;
+  }
+
+  .promo-carousel .promo-offer {
+    width: fit-content;
+    margin: -60px 190px 0 auto;
+  }
+
+  .promo-carousel .promo-offer :is(h1, h2, h3) {
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .promo-carousel .promo-slide-compact .promo-offer :is(h1, h2, h3) {
+    font-size: 28px;
+    line-height: 36.4px;
+  }
+
+  .promo-carousel .promo-para {
+    margin: 0 0 30px;
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+
+  .promo-carousel .carousel-arrow {
+    display: block;
+  }
+}
+
+.promo-carousel .carousel-slide-clone[hidden] {
+  display: none;
+}

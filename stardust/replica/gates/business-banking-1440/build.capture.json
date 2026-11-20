@@ -1,0 +1,18 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "http://localhost:8791/business-banking-proposed.html",
+  "width": 1440,
+  "vh": 900,
+  "height": 4063,
+  "chunks": 5,
+  "denialCheck": "ok",
+  "freeze": "applied",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 7,
+    "late": 0
+  },
+  "at": "2026-11-19T08:52:11.560Z"
+}

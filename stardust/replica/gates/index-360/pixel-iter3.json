@@ -1,0 +1,213 @@
+{
+  "a": "stardust/replica/gates/index-360/live.png",
+  "b": "stardust/replica/gates/index-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 6339,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 52685,
+  "pct": 2.54,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/index-360/diff-iter3.png",
+  "masks": [
+    {
+      "yA": 392,
+      "h": 456,
+      "yB": 392
+    },
+    {
+      "yA": 1612,
+      "h": 96,
+      "yB": 1612
+    },
+    {
+      "yA": 3612,
+      "h": 36,
+      "yB": 3612
+    }
+  ],
+  "maskedRows": 588,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.9
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.3
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 2.1
+    },
+    {
+      "y0": 6000,
+      "y1": 6339,
+      "pct": 1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.52,
+    "differingPixels": 52231,
+    "compared": {
+      "width": 360,
+      "height": 5752,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 6126,
+        "shift": -1,
+        "cumulative": -1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 0,
+    "deletedRows": 1,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 2.6,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.9,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.7,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.4,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 10.6,
+        "unaligned": 10.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.6,
+        "unaligned": 1.6
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 2.1,
+        "unaligned": 2.1
+      },
+      {
+        "y0": 6000,
+        "y1": 6340,
+        "pct": 0.6,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/index-360/diff-iter3-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null
+}

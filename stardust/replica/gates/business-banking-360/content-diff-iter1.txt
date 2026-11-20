@@ -1,0 +1,30 @@
+[live-session] waiting to pace live navigations to www.rbl.bank.in (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #content, header, footer)
+root "#content"
+  source: 35 text nodes — 3 headings, 0 eyebrows, 11 CTAs, 21 body; 12 img
+  build: 35 text nodes — 8 headings, 0 eyebrows, 11 CTAs, 16 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 10
+  attributes (placeholder/aria-label/title): source 18 / build 23; icons: source 0 / build 2
+  accepted (invisible, nothing lost): 5 ROLE UPGRADE body → heading — "Business Banking Group", "Agri Banking", "Government Sponsored Scheme", "Business" …
+root "header"
+  source: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 5 CTAs, 0 body; 2 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 9 / build 9; icons: source 2 / build 2
+root "footer"
+  source: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  build: 77 text nodes — 6 headings, 0 eyebrows, 54 CTAs, 17 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 25 / build 25
+  attributes (placeholder/aria-label/title): source 57 / build 57; icons: source 2 / build 2
+
+Findings: 8 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 5 (owner 0, auto 5) · advisory 8
+  🟡 EDITABLE COUNT [#content]: build has 10 outermost editable element(s) vs 21 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Previous" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <div> aria-label="Video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#content]: build <button> aria-label="Close" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#content]: build <iframe> title="Video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [#content]: build icon-font glyph U+F104 (FontAwesome, 0×0) at "previous" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#content]: build icon-font glyph U+F105 (FontAwesome, 0×0) at "next" has no source source. Build-only icon — confirm it is intended.

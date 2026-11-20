@@ -1,0 +1,84 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T09:47:42.575Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 31,
+   "textNodes": 193,
+   "controls": 140,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.product-card",
+    "path": "li.rail__item > article.product-card > div.product-card__body > h3",
+    "text": "education loan",
+    "cutMin": 25,
+    "cutMax": 25
+   },
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.product-card",
+    "path": "article.product-card > div.product-card__body > div.product-card__ctas > a#hp-our-products-know-education-loan",
+    "text": "know more",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "article.product-card",
+    "path": "article.product-card > div.product-card__body > div.product-card__ctas > a#hp-our-products-know-education-loan",
+    "text": "know more",
+    "cutMin": 0,
+    "cutMax": 0
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "li.rail__item > div.story-card > div.story-card__inner > p.story-card__date",
+    "text": "oct 07, 2026",
+    "cutMin": 0,
+    "cutMax": 0
+   },
+   {
+    "kind": "CONTROL X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-rbl-bank-type-of-fd",
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "TEXT X-HIDDEN",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.story-card",
+    "path": "div.story-card > div.story-card__inner > p.story-card__title > a#hp-blog-rbl-bank-type-of-fd",
+    "text": "1600-series call scam: how fraudsters spoof numbers to steal",
+    "cutMin": 53,
+    "cutMax": 53
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ }
+}

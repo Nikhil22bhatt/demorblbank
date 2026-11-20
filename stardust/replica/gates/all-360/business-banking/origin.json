@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.rbl.bank.in/business-banking",
+  "reference": {
+    "dir": "stardust/replica/gates/business-banking-360",
+    "capturedAt": "2026-11-19T08:40:17.716Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.19,
+    "variableRows": 228,
+    "maskArg": "32:36,712:96,1612:96"
+  },
+  "note": "reused stardust/replica/gates/business-banking-360/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-19T11:31:27.132Z"
+}

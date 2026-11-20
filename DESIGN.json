@@ -1,0 +1,505 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "mode": "descriptive",
+    "source": "https://www.rbl.bank.in/ (5 pages, --prep --pages)",
+    "evidence": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/style.css",
+      "stardust/current/pages/*.json"
+    ]
+  },
+  "colors": {
+    "primary": "#304087",
+    "primary-hover": "#1a307c",
+    "primary-deep": "#17276d",
+    "accent-yellow": "#fed525",
+    "accent-red": "#ed3338",
+    "secondary-green": "#00a972",
+    "text": "#303030",
+    "text-strong": "#212121",
+    "text-muted": "#606060",
+    "border": "#dbdcde",
+    "surface": "#ffffff",
+    "surface-tint": "#f3f4f6",
+    "surface-lavender": "#e4e9ff",
+    "footer": "#303030"
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "Roboto, sans-serif",
+      "body": "Roboto, sans-serif"
+    },
+    "scale": {
+      "h1": {
+        "fontSize": "48px",
+        "fontWeight": 400
+      },
+      "h2": {
+        "fontSize": "40px",
+        "fontWeight": 700
+      },
+      "h3": {
+        "fontSize": "24px",
+        "fontWeight": 400
+      },
+      "section-title": {
+        "fontSize": "36px",
+        "fontWeight": 700
+      },
+      "body-lg": {
+        "fontSize": "18px",
+        "fontWeight": 400
+      },
+      "body": {
+        "fontSize": "16px",
+        "fontWeight": 400
+      },
+      "small": {
+        "fontSize": "14px",
+        "fontWeight": 400
+      },
+      "button": {
+        "fontSize": "16px",
+        "fontWeight": 700
+      }
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        48,
+        40,
+        36,
+        34,
+        28,
+        24,
+        22,
+        20,
+        18,
+        16,
+        15,
+        14,
+        13
+      ]
+    }
+  },
+  "rounded": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "10px",
+    "xl": "16px",
+    "pill": "50px",
+    "circle": "50%"
+  },
+  "spacing": {
+    "unit": "4px",
+    "notes": "Bootstrap 5 container + gutter system (style.css)"
+  },
+  "components": {
+    "button-primary": {
+      "background": "#304087",
+      "color": "#ffffff",
+      "radius": "4px",
+      "hover": {
+        "background": "#1a307c"
+      }
+    },
+    "button-login": {
+      "background": "#fed525",
+      "color": "#303030",
+      "radius": "4px"
+    },
+    "card": {
+      "background": "#ffffff",
+      "radius": "10px",
+      "shadow": "rgba(0,0,0,0.15) 0px 2px 4px 0px"
+    }
+  },
+  "extensions": {
+    "motifs": {
+      "shadows": [
+        "rgba(0, 0, 0, 0.15) -2px 2px 4px 0px",
+        "rgba(0, 0, 0, 0.15) 0px 2px 4px 0px",
+        "rgba(0, 0, 0, 0.3) 2px 2px 5px 0px"
+      ],
+      "gradients": [
+        "linear-gradient(270deg, rgb(138, 103, 109) 1.87%, rgb(146, 75, 87) 31.58%, rgb(75, 74, 108) 59.77%, rgb(38, 35, 67) 98.x%) — header bar",
+        "linear-gradient(rgb(193, 188, 222) 0%, rgb(250, 212, 195) 99%) — hero bands",
+        "linear-gradient(270deg, rgb(229, 231, 239) 16.04%, rgb(253, 239, 239) 74.96%) — app band"
+      ],
+      "radiusMode": "4px",
+      "radiusAreaMode": "10px"
+    },
+    "componentStyle": [],
+    "voice": {
+      "heroHeadline": "Enjoy Monthly Interest Payout Of 6%",
+      "ctas": [
+        "Apply Now",
+        "Know More",
+        "View All",
+        "Login"
+      ],
+      "register": "brand"
+    },
+    "iconFont": {
+      "families": [
+        "FontAwesome",
+        "Glyphicons Halflings"
+      ]
+    },
+    "modules": [
+      {
+        "id": "site-header",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "about-us",
+          "business-banking",
+          "personal-banking",
+          "contact-us"
+        ],
+        "notes": "utility strip (Rent Your Property, Skip to Main Content, contrast toggles) + gradient nav bar with logo, Products/Payments/Offers/Customer Services mega menus, search, WhatsApp, chat, LOGIN button"
+      },
+      {
+        "id": "site-footer",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "about-us",
+          "business-banking",
+          "personal-banking",
+          "contact-us"
+        ],
+        "notes": "dark #303030 five-column link footer + Others row + copyright + follow-us icons"
+      },
+      {
+        "id": "breadcrumb",
+        "status": "candidate",
+        "instances": [
+          "about-us",
+          "business-banking",
+          "personal-banking",
+          "contact-us"
+        ]
+      },
+      {
+        "id": "page-hero-banner",
+        "status": "candidate",
+        "instances": [
+          "about-us",
+          "business-banking",
+          "personal-banking"
+        ],
+        "notes": "image hero with title + lede"
+      },
+      {
+        "id": "product-card-grid",
+        "status": "candidate",
+        "instances": [
+          "business-banking",
+          "personal-banking"
+        ],
+        "notes": "image-top cards, title, copy, Know More button"
+      },
+      {
+        "id": "mybank-app-band",
+        "status": "candidate",
+        "instances": [
+          "business-banking",
+          "personal-banking"
+        ]
+      },
+      {
+        "id": "money-people-safety",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "business-banking",
+          "personal-banking"
+        ],
+        "notes": "blog card carousel + View All"
+      },
+      {
+        "id": "trust-and-beyond",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "business-banking",
+          "personal-banking"
+        ],
+        "notes": "video card carousel + Watch All / Watch All"
+      },
+      {
+        "id": "rbl-cares-chat-launcher",
+        "status": "candidate",
+        "instances": [
+          "index",
+          "about-us",
+          "business-banking",
+          "personal-banking",
+          "contact-us"
+        ],
+        "notes": "fixed right-side chatbot launcher"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1140px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1140px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1140,
+          "via": "max-width",
+          "selector": "#data-section2 > div.container",
+          "pages": [
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1300,
+          "via": "fixed",
+          "selector": "#hp-hero-banner-go-account",
+          "pages": [
+            "https://www.rbl.bank.in/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1140,
+          "via": "max-width",
+          "selector": "div.slick-list.draggable > div.slick-track > section.common-section.banner-section > div.container",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/business-banking",
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 985,
+          "via": "fixed",
+          "selector": "div.card.mb-2 > div.card-header.cursor-pointer > button.faq-rbl-link-faq > span",
+          "pages": [
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 750,
+          "via": "max-width",
+          "selector": "div.container > div.row.align-items-center > div.col-12 > div.banner-info.left-wrap",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/business-banking"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 558,
+          "via": "fixed",
+          "selector": "div.row.align-items-center > div.col-12 > div.banner-info.left-wrap > div.clearfix.text-formatted",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 518,
+          "via": "fixed",
+          "selector": "div.col-md-12.aos-init > div > div.clearfix.text-formatted > div.amazing-offer",
+          "pages": [
+            "https://www.rbl.bank.in/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 470,
+          "via": "max-width",
+          "selector": "div.col-md-12.aos-init > div > div.clearfix.text-formatted > div.amazing-offer.ccirctc",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/business-banking",
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 433,
+          "via": "fixed",
+          "selector": "div > div.clearfix.text-formatted > div.amazing-offer > div.banner-para.p20",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 400,
+          "via": "fixed",
+          "selector": "div.col-md-12.aos-init > div > div.clearfix.text-formatted > div.amazing-offer",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/business-banking"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 367,
+          "via": "fixed",
+          "selector": "div.row > div.col-md-12 > h2.common-section-heading > span",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us",
+            "https://www.rbl.bank.in/business-banking",
+            "https://www.rbl.bank.in/contact-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 345,
+          "via": "fixed",
+          "selector": "div.our-products-slick.mb30 > div.slick-list.draggable > div.slick-track > div.item.slick-slide",
+          "pages": [
+            "https://www.rbl.bank.in/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 288,
+          "via": "fixed",
+          "selector": "div.col-lg-8.col-md-12 > div.calc-form-wrap.clearfix > div.row > div.radio-wrap.d-flex",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/about-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 260,
+          "via": "fixed",
+          "selector": "div.clearfix.text-formatted > div.amazing-offer > h2.common-section-heading > strong",
+          "pages": [
+            "https://www.rbl.bank.in/",
+            "https://www.rbl.bank.in/business-banking"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 0,
+          "selector": "#content > section.section > div.home-banner-wrapper.slick-initialized",
+          "px": 1300
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 1,
+          "selector": "#block-attractiverates",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 2,
+          "selector": "#block-homebenefitsection",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 3,
+          "selector": "#block-homepagecalculator",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 4,
+          "selector": "#block-homerblmobankapp",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/",
+          "section": 5,
+          "selector": "#block-rblmobileapp",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "section": 0,
+          "selector": "#data-section1",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "section": 1,
+          "selector": "#data-section2",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "section": 2,
+          "selector": "#data-section3",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "section": 3,
+          "selector": "#data-section4",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/about-us",
+          "section": 4,
+          "selector": "#data-section5",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "section": 0,
+          "selector": "#block-rbl-bank-content",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/business-banking",
+          "section": 1,
+          "selector": "#block-savingaccountrblmobileapp",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/contact-us",
+          "section": 0,
+          "selector": "#data-section2 > div.tab-wrap-outer-height",
+          "px": 1140
+        },
+        {
+          "url": "https://www.rbl.bank.in/contact-us",
+          "section": 1,
+          "selector": "#data-section2 > div.container",
+          "px": 985
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://www.rbl.bank.in/), fluid (https://www.rbl.bank.in/about-us), fluid (https://www.rbl.bank.in/business-banking), 1140 (https://www.rbl.bank.in/contact-us)",
+        "module cap 1300px on a single section (#hp-hero-banner-go-account, https://www.rbl.bank.in/) — intent or mistake? register it",
+        "module cap 985px on a single section (div.card.mb-2 > div.card-header.cursor-pointer > button.faq-rbl-link-faq > span, https://www.rbl.bank.in/contact-us) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-19T07:20:38.026Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.rbl.bank.in/",
+          "https://www.rbl.bank.in/about-us",
+          "https://www.rbl.bank.in/business-banking",
+          "https://www.rbl.bank.in/contact-us"
+        ]
+      }
+    }
+  }
+}

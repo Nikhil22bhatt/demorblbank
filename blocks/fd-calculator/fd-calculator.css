@@ -1,0 +1,546 @@
+/* fd-calculator — homepage Fixed Deposit Calculator (replica canon index.css .fdc),
+   mobile-first (stacked < 768, form + result side by side from 768px). */
+
+/* stylelint-disable no-descending-specificity */
+.fd-calculator.block {
+  position: relative;
+  padding: 21px 0 0;
+  overflow: hidden;
+}
+
+.fd-calculator .fdc-head :is(h1, h2, h3) {
+  margin: 0;
+  color: #303030;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+}
+
+.fd-calculator .fdc-top {
+  display: block;
+}
+
+.fd-calculator .fdc-type {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 78px;
+  margin-bottom: 15px;
+  padding-top: 7px;
+}
+
+.fd-calculator .fdc-radio {
+  position: relative;
+}
+
+.fd-calculator .fdc-radio input {
+  position: absolute;
+  opacity: 0;
+}
+
+.fd-calculator .fdc-radio label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  color: #909090;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  cursor: pointer;
+}
+
+.fd-calculator .fdc-radio label::before {
+  content: "";
+  position: relative;
+  top: 3px;
+  grid-row: 1 / span 2;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  border: 1px solid #bebebe;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.fd-calculator .fdc-radio-text {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2;
+  column-gap: 4px;
+}
+
+.fd-calculator .fdc-radio input:checked + label {
+  color: #212121;
+  font-weight: 700;
+}
+
+.fd-calculator .fdc-radio input:checked + label::before {
+  border-color: #304087;
+  background: #304087;
+  box-shadow: inset 0 0 0 4px #fff;
+}
+
+.fd-calculator .fdc-radio input:focus-visible + label::before {
+  outline: 2px solid #304087;
+  outline-offset: 2px;
+}
+
+.fd-calculator .fdc-payout {
+  width: auto;
+}
+
+.fd-calculator .fdc-payout-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 27px;
+}
+
+.fd-calculator .fdc-payout-label {
+  color: #303030;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.fd-calculator .fdc-payout-rate {
+  display: flex;
+  gap: 3px;
+  color: #303030;
+  font-size: 12px;
+}
+
+.fd-calculator .fdc-select select {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 6px 20px 6px 10px;
+  border: 0;
+  border-radius: 4px;
+  appearance: none;
+  background: #f3f4f6 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 35'%3e%3crect width='30' height='35' rx='0' fill='%23304087'/%3e%3cpath d='M10 15l5 5 5-5' fill='none' stroke='%23fff' stroke-width='1.6'/%3e%3c/svg%3e") right center / 30px 35px no-repeat;
+  color: #303030;
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.fd-calculator .fdc-grid {
+  display: block;
+  margin-top: 14px;
+}
+
+.fd-calculator .fdc-form {
+  height: 631px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  background: #f3f4f6;
+}
+
+.fd-calculator .fdc-reset {
+  margin-bottom: 5px;
+  line-height: 26.88px;
+  text-align: right;
+}
+
+.fd-calculator .fdc-reset a:any-link {
+  color: #304087;
+  text-decoration: underline;
+}
+
+.fd-calculator .fdc-citizen {
+  display: block;
+  height: 131px;
+  margin: 0;
+}
+
+.fd-calculator .fdc-citizen-col {
+  width: auto;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.fd-calculator .fdc-range {
+  position: relative;
+}
+
+.fd-calculator .fdc-range-amount {
+  height: 79px;
+  margin-bottom: 20px;
+}
+
+.fd-calculator .fdc-range-head {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  padding-top: 2px;
+}
+
+.fd-calculator .fdc-range-label {
+  margin-top: -2px;
+  color: #212529;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.fd-calculator .fdc-range-label strong {
+  color: #212121;
+  font-weight: 700;
+}
+
+.fd-calculator .fdc-range-input {
+  position: relative;
+  width: 50px;
+}
+
+.fd-calculator .fdc-range-input-amount {
+  width: 120px;
+}
+
+.fd-calculator .fdc-range-unit {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  padding-right: 6px;
+  border-right: 0.5px solid #dbdcde;
+  color: #909090;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.fd-calculator .fdc-range-input input {
+  display: block;
+  width: 100%;
+  height: 24px;
+  padding: 5px;
+  border: 0.5px solid #dbdcde;
+  border-radius: 4px;
+  background: #fff;
+  color: #304087;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: right;
+}
+
+.fd-calculator .fdc-slider {
+  --pct: 0%;
+
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.fd-calculator .fdc-slider::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 71.5px;
+  background: linear-gradient(to right, #304087 0 var(--pct), #eaecf3 var(--pct) 100%);
+}
+
+.fd-calculator .fdc-slider::-moz-range-track {
+  height: 6px;
+  border-radius: 71.5px;
+  background: #eaecf3;
+}
+
+.fd-calculator .fdc-slider::-moz-range-progress {
+  height: 6px;
+  border-radius: 71.5px;
+  background: #304087;
+}
+
+.fd-calculator .fdc-slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  margin-top: -7px;
+  border: 0;
+  border-radius: 20px;
+  appearance: none;
+  background: #ed3338;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+}
+
+.fd-calculator .fdc-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 20px;
+  background: #ed3338;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+}
+
+.fd-calculator .fdc-range-scale {
+  display: flex;
+  justify-content: space-between;
+  height: 27px;
+  padding-top: 4px;
+  color: #909090;
+  font-size: 12px;
+  line-height: 20.16px;
+}
+
+.fd-calculator .fdc-tenure-label {
+  height: 27px;
+  color: #212529;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.fd-calculator .fdc-tenure {
+  display: block;
+  margin: 0 -12px;
+}
+
+.fd-calculator .fdc-range-col {
+  width: auto;
+  height: 97px;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.fd-calculator .fdc-range-col:first-child {
+  height: 78px;
+  margin-bottom: 20px;
+}
+
+.fd-calculator .fdc-range-col:nth-child(3) {
+  margin-top: 20px;
+}
+
+.fd-calculator .fdc-result {
+  width: auto;
+}
+
+.fd-calculator .fdc-table {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-collapse: collapse;
+  border-radius: 4px;
+  background: #e4e9ff;
+  table-layout: fixed;
+}
+
+.fd-calculator .fdc-table tr {
+  background: rgb(0 0 0 / 6.3%);
+}
+
+.fd-calculator .fdc-table td {
+  width: 50%;
+  height: 88px;
+  padding: 15px 10px;
+  border: 1px dashed #c2c4c7;
+  font-size: 13.712px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.fd-calculator .fdc-table tr:first-child td {
+  border-top: 0;
+}
+
+.fd-calculator .fdc-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.fd-calculator .fdc-table td:first-child {
+  border-left: 0;
+}
+
+.fd-calculator .fdc-table td:last-child {
+  border-right: 0;
+}
+
+.fd-calculator .fdc-k {
+  color: #303030;
+  font-size: 14px;
+  line-height: 26.88px;
+}
+
+.fd-calculator .fdc-v {
+  min-height: 30px;
+  color: #262626;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.fd-calculator .fdc-v-rate {
+  font-size: 20px;
+}
+
+.fd-calculator .fdc-open td {
+  height: auto;
+  padding: 87px 10px 29px;
+  color: #303030;
+  font-size: 13px;
+  line-height: 26.88px;
+  text-align: left;
+}
+
+.fd-calculator .fdc-btns td {
+  height: 70px;
+  padding: 15px 7px 16px 15px;
+  border: 0;
+}
+
+.fd-calculator .fdc-btns a.button:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  padding: 0 5px;
+  border: 1px solid var(--rbl-blue);
+  font-size: 13px;
+  line-height: 19.5px;
+  white-space: nowrap;
+}
+
+.fd-calculator .fdc-terms {
+  margin: 0 0 28px;
+  color: #303030;
+  font-size: 13px;
+  line-height: 21.84px;
+}
+
+.fd-calculator [data-aos="fade-up"] {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fd-calculator [data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+@media (width >= 768px) {
+  .fd-calculator.block {
+    padding-top: 45px;
+  }
+
+  .fd-calculator .fdc-head :is(h1, h2, h3) {
+    margin-bottom: 30px;
+    font-size: 34px;
+    line-height: 44.2px;
+  }
+
+  .fd-calculator .fdc-top {
+    display: flex;
+    height: 71px;
+  }
+
+  .fd-calculator .fdc-type {
+    flex-direction: row;
+    gap: 20px;
+    width: 465px;
+    height: auto;
+    margin-bottom: 0;
+    padding-top: 16px;
+  }
+
+  .fd-calculator .fdc-payout {
+    width: 279px;
+  }
+
+  .fd-calculator .fdc-radio-text {
+    display: block;
+  }
+
+  .fd-calculator .fdc-grid {
+    display: flex;
+    gap: 24px;
+  }
+
+  .fd-calculator .fdc-form {
+    width: 736px;
+    height: 395px;
+    padding: 20px 35px 18px;
+  }
+
+  .fd-calculator .fdc-citizen {
+    display: flex;
+    height: 82px;
+    margin: 0 -12px;
+  }
+
+  .fd-calculator .fdc-citizen-col {
+    margin-bottom: 0;
+    padding: 0 12px;
+  }
+
+  .fd-calculator .fdc-citizen-col-1 {
+    width: 25%;
+  }
+
+  .fd-calculator .fdc-citizen-col-2 {
+    width: 41.6667%;
+  }
+
+  .fd-calculator .fdc-citizen-col-3 {
+    width: 33.3333%;
+  }
+
+  .fd-calculator .fdc-tenure {
+    display: flex;
+    height: 117px;
+    margin: 0 0 0 -12px;
+  }
+
+  .fd-calculator .fdc-range-col,
+  .fd-calculator .fdc-range-col:first-child {
+    width: 214px;
+    height: 97px;
+    margin: 0 10px 0 0;
+  }
+
+  .fd-calculator .fdc-range-col:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .fd-calculator .fdc-range-rule {
+    border-right: 1px dashed #c2c4c7;
+  }
+
+  .fd-calculator .fdc-result {
+    width: 356px;
+  }
+
+  .fd-calculator .fdc-table tr {
+    background: none;
+  }
+
+  .fd-calculator .fdc-table td {
+    padding: 15.5px 10px;
+    font-size: inherit;
+  }
+
+  .fd-calculator .fdc-v {
+    min-height: 33px;
+  }
+
+  .fd-calculator .fdc-open td {
+    padding: 89px 10px 29px;
+    font-size: 14px;
+  }
+
+  .fd-calculator .fdc-btns td {
+    height: 72px;
+    padding: 16px 10px;
+  }
+
+  .fd-calculator .fdc-terms {
+    margin-bottom: 17px;
+    font-size: 14px;
+    line-height: 26.88px;
+  }
+}

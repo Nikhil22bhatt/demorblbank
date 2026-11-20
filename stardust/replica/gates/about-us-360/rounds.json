@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T08:50:02.159Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T08:51:48.789Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T08:55:57.078Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 failed only on 7 nothing-lost content findings, fixed in the prototype; standalone re-run content-diff-verify.txt shows 0 red / 0 nothing-lost; pixel iter3 within bar, clip 0, overflow ok; motion-verify/ pixel unchanged after motion work",
+          "at": "2026-11-19T09:05:38.285Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T10-50-55-699Z",
+          "at": "2026-11-19T10:50:55.699Z",
+          "verdict": "pass",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T10-57-36-076Z",
+          "at": "2026-11-19T10:57:36.076Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-19T11-02-57-000Z",
+          "at": "2026-11-19T11:02:57.000Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        },
+        {
+          "label": "all-2026-11-19T11-37-09-221Z",
+          "at": "2026-11-19T11:37:09.221Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

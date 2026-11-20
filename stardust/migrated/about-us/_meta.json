@@ -1,0 +1,1469 @@
+{
+  "slug": "about-us",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "about-banner",
+    "about-intro",
+    "impact-stats",
+    "awards",
+    "values"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "au-banner",
+    "au-about",
+    "au-impact",
+    "au-awards",
+    "au-values"
+  ],
+  "canonShas": {
+    "header": "2b1f403458b2",
+    "footer": "b74daba180f8",
+    "css": "c5884a6ebd06"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "About Us | RBL Bank",
+    "description": "RBL Bank is one of India’s fastest growing private sector banks with an expanding presence across the country through a growing network of branches and ATMs.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "About Us | RBL Bank",
+    "description": "RBL Bank is one of India’s fastest growing private sector banks with an expanding presence across the country through a growing network of branches and ATMs.",
+    "url": "https://www.rbl.bank.in/about-us"
+  },
+  "migratedAt": "2026-11-19T09:49:53Z",
+  "designMdSha": "3f2ebdc87287",
+  "designJsonSha": "4e1a0a0072aa",
+  "sourceCurrentSha": "e5ee7e369ff5",
+  "sourceProposedSha": "b3557369b300",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 39,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/propose-your-property",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/propose-your-property",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/personal-banking/accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/savings-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/salary-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/partnering-your-growth/current-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/special-institutions-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/safe-deposit-lockers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/raksha-kavach-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/digital-fixed-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/ace-fixed-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/smart-recurring-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/money-max-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/flexi-sure-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/regular-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/tax-savings-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/recurring-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/credit-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/debit-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/commercial-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/prepaid-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-securities",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/business-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/education-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-gold-ornaments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/small-and-micro-loan-against-property",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/two-wheeler-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-property",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/easygain-overdraft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/rural-vehicle-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/housing-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/personal-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/life-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/general-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/mutual-fund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/alternate-investment-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city/alternate-investment-funds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/e-asba",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/3-in-1-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/demat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-securities",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/national-pension-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/demat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/online-tax-payments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bill-payment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/self-service-kiosk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/re-kyc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bharat-qr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/verified-by-visa-secure",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/payment-gateway",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/missed-call-facility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/internet-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/mobile-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/rbl-cares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/bank-by-person",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/forex-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/forex-services/outward-remittance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nri-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nre-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nre-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nro-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/seafarer-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/portfolio-investment-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nre-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nro-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/fcnr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/yield-maximiser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nro-tax-saver-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer/wire-transfers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer/foreign-currency-cheques",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/rfc-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city/nri-pios-and-foreign-nationals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/home-loan-for-nri",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/insignia-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/signature-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/aspire-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business-banking-group",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking/agri-business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/prime-minister-employment-generation-programme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-mudra-yojana",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pm-street-vendors-atmanirbhar-nidhi-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/maharashtra-chief-minister-employment-generation-programme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-formalization-of-micro-food-processing-enterprises-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/agriculture-infrastructure-fund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pm-vishwakarma-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/partnering-your-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/convenience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/specialised-packages",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes/national-credit-guarantee-trustee-company",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes/credit-guarantee-fund-trust-for-micro-and-small-enterprises",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/corporate-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/commercial-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/government-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/financial-institutions-group",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/multinational-corporates",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/inclusive-finance-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/corporate-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/transaction-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/financial-markets-and-treasury",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/wholesale-client-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/commercial-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking/corporate-internet-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking/rbl-mybizbank-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/india-startup-club",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/online-tax-payments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bill-payment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/gpay",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/samsung-pay",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bharat-qr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/manage-recurring-merchant-payments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers-and-promotions?type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat%5B0%5D=315494&type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=155362",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=245009",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=245034",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat%5B0%5D=155406&type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers-and-promotions?type=155356",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat%5B0%5D=315494&type=155356",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat%5B0%5D=155365&type=155356",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/grievance-mechanism-flowchart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/quick-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/report-a-fraud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/report-loss-or-unauthorised-use-of-credit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/report-loss-or-unauthorised-use-of-debit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/feedback",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/download-form",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/positive-pay",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locate-branch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/creditcard-pin-change",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/auth-controls",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/activation-credit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/ways-to-generate-debit-card-pin",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/manage-recurring-merchant-payments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us/board-of-directors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us/leadership-team",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/social-responsibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us/board-of-directors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us/leadership-team",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/social-responsibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sustainability-framework",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/press-releases",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/media-kit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/investor-relations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/savings-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/partnering-your-growth/current-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/credit-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/housing-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/investor-relations/regulatory/basel-capital-instruments-lcr-disclosures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/codes-and-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/service-charges",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/interest-rates",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/download-form",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/site-map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locate-branch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/do-not-call",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/feedback",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/lodge-a-complaint",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/report-a-fraud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/unclaimed-deposit-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/certificates-issued-by-the-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/investor-relations/disclosures-regulation-46/intimations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/important-documents",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/account-aggregator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-and-conditions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/banking-ombudsman",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/customer-knowledge-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/financial-literacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/report-loss-or-unautho-use-of-credit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/report-loss-or-unautho-use-of-debit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/block-channel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/personal-banking/accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/savings-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/salary-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/partnering-your-growth/current-accounts",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/special-institutions-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/accounts/safe-deposit-lockers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/raksha-kavach-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/digital-fixed-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/ace-fixed-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/smart-recurring-deposit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/money-max-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/flexi-sure-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/regular-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/senior-citizen-wealth-secure-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/super-senior-citizen-akshay-nidhi-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/tax-savings-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/term-deposits/recurring-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/credit-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/debit-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/commercial-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/prepaid-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-securities",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/business-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/education-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-gold-ornaments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/car-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/two-wheeler-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-property",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/easygain-overdraft",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/rural-vehicle-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/housing-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/personal-loan",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/life-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/general-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/insurance/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/mutual-fund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/alternate-investment-products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city/alternate-investment-funds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/e-asba",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/3-in-1-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/demat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/loans/loan-against-securities",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/wealth-management/national-pension-system",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/demat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/online-tax-payments",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bill-payment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/self-service-kiosk",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/re-kyc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bharat-qr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/bhim-upi-rbl-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/verified-by-visa-secure",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/payment-gateway",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/convenience-banking/missed-call-facility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/internet-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/mobile-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/rbl-cares",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/ways-to-bank/bank-by-person",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/forex-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/forex-services/outward-remittance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/forex-cards/voyedge-forex-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nri-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nre-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/nro-savings-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/seafarer-account",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/portfolio-investment-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nre-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nro-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/fcnr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/yield-maximiser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/nro-tax-saver-fixed-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer/wire-transfers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/money-transfer/foreign-currency-cheques",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/deposits/rfc-deposits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city/nri-pios-and-foreign-nationals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nri-banking/home-loan-for-nri",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/insignia",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/signature-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/preferred-banking/aspire-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business-banking-group",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking/agri-business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/agri-banking/developmental-banking-and-financial-inclusion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/prime-minister-employment-generation-programme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-mudra-yojana",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pm-street-vendors-atmanirbhar-nidhi-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/maharashtra-chief-minister-employment-generation-programme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pradhan-mantri-formalization-of-micro-food-processing-enterprises-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/agriculture-infrastructure-fund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/government-sponsored-scheme/pm-vishwakarma-scheme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/partnering-your-growth",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/convenience",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/business/specialised-packages",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes/credit-guarantee-fund-trust-for-micro-and-small-enterprises",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/business-banking/credit-guarantee-schemes/national-credit-guarantee-trustee-company",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/corporate-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/commercial-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/government-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/financial-institutions-group",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/multinational-corporates",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/clients/inclusive-finance-institutions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/corporate-finance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/transaction-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/financial-markets-and-treasury",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/wholesale-banking/products-and-services/wholesale-client-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/personal-banking/cards/commercial-cards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking/corporate-internet-banking",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-banking/rbl-mybizbank-app",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/india-startup-club",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gift-city",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat[]=315494&type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=155362",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=245009",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat[]=245034&type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat%5B0%5D=155406&type=155357",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155357&cat%5B0%5D=155406&cat%5B1%5D=155407",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?cat[]=315494&type=155356",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/offers?type=155356&cat[]=155365",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/grievance-mechanism-flowchart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/quick-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/report-a-fraud",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/report-loss-or-unauthorised-use-of-credit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/report-loss-or-unauthorised-use-of-debit-card",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/feedback",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/download-form",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/static-pages/positive-pay",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locate-branch",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "about-us/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "about-us/_meta.json",
+  "driverVersion": "1"
+}

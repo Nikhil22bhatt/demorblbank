@@ -1,0 +1,238 @@
+/* story-rail — replica canon business-banking.css (.rail-section--blog, .rail, .story-card,
+   outline CTA), scoped and mobile-first. */
+.story-rail {
+  position: relative;
+  padding: 45px 0;
+  background: var(--rbl-lavender);
+}
+
+.story-rail .rail-head :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 30px;
+  color: var(--rbl-ink);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.story-rail .rail {
+  --per: 1.2;
+  --gap: 27px;
+
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.story-rail .rail-viewport {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.story-rail .rail-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.story-rail .rail-track {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.story-rail .rail-slide {
+  flex: 0 0 auto;
+  width: calc(100% / var(--per) - var(--gap));
+  margin-right: var(--gap);
+  scroll-snap-align: start;
+}
+
+.story-rail .rail-arrow {
+  position: absolute;
+  top: -72px;
+  z-index: 3;
+  display: none;
+}
+
+.story-rail .rail-arrow-prev {
+  right: 56px;
+}
+
+.story-rail .rail-arrow-next {
+  right: 0;
+}
+
+.story-rail .rail-arrow-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  border-radius: 50%;
+  background: var(--rbl-blue);
+  color: #fff;
+  font-size: 22px;
+  line-height: 26.88px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+.story-rail .rail-arrow:disabled {
+  cursor: not-allowed;
+}
+
+.story-rail .rail-arrow:disabled .rail-arrow-btn {
+  background: #e8e8ec;
+  color: var(--rbl-blue);
+  opacity: 0.4;
+}
+
+.story-rail .rail-cta {
+  text-align: center;
+}
+
+.story-rail .rail-cta a:any-link {
+  display: inline-block;
+  min-width: 146px;
+  padding: 10px 20px;
+  border: 1px solid var(--rbl-ink);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--rbl-ink);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.2s linear;
+}
+
+.story-rail .rail-cta a:any-link:hover,
+.story-rail .rail-cta a:any-link:focus {
+  border-color: var(--rbl-blue);
+  color: var(--rbl-blue);
+}
+
+/* story card (live csr-cate-card-wrap): the picture paints like background-size: cover at 0 0 */
+.story-rail .story-card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 100%;
+  height: 325px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+/* the image layer is a painted box (live .csr-cate-card-wrap-bg lazy-background): a placeholder
+   tone shows until the picture loads */
+.story-rail .story-card-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background-color: var(--rbl-lavender);
+}
+
+.story-rail .story-card-bg picture {
+  display: block;
+  height: 100%;
+}
+
+.story-rail .story-card-bg img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.story-rail .story-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #000 0%, #fff0 100%);
+  opacity: 0.5;
+}
+
+.story-rail .story-card-inner {
+  position: relative;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  min-height: 150px;
+  padding: 20px 20px 40px;
+  transition: top 0.2s linear;
+}
+
+.story-rail .story-card:hover .story-card-inner {
+  top: -15px;
+}
+
+.story-rail .story-card-date p {
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.68;
+}
+
+.story-rail .story-card-title {
+  position: relative;
+}
+
+.story-rail .story-card-title :is(h1, h2, h3, h4, h5, h6) {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.story-rail .story-card-title a:any-link {
+  color: #fff;
+}
+
+.story-rail .story-card-title::after {
+  content: "";
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  width: 65px;
+  border-top: 2px solid var(--rbl-red);
+}
+
+@media (width >= 768px) {
+  .story-rail .rail {
+    --per: 2;
+  }
+
+  .story-rail .rail-head :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 34px;
+  }
+
+  .story-rail .rail-viewport {
+    overflow: hidden;
+    scroll-snap-type: none;
+  }
+
+  .story-rail .rail-track {
+    margin-left: 5px;
+  }
+
+  .story-rail .rail-slide {
+    width: calc((100% + 5px) / var(--per) - var(--gap));
+  }
+
+  .story-rail .rail-arrow {
+    display: block;
+  }
+
+  .story-rail .rail-arrow[hidden] {
+    display: none;
+  }
+}
+
+@media (width >= 992px) {
+  .story-rail .rail {
+    --per: 4;
+  }
+}

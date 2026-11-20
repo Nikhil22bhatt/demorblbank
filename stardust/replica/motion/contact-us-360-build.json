@@ -1,0 +1,584 @@
+{
+  "url": "http://localhost:8791/contact-us-proposed.html",
+  "width": 360,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1827,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 327,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "topbar",
+      "position": "fixed",
+      "height": "75px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "115px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".mobile-nav__hamb",
+      "frames": [
+        {
+          "t": 10958.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11165.899999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11371.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 11577.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".footer-col:nth-child(1) .footer-head",
+      "frames": [
+        {
+          "t": 12608.399999999907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 12818.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13027.600000000093,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13235.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "#heading3367 button",
+      "frames": [
+        {
+          "t": 14284.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14493.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14701,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14907,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "up_down",
+        "el": "html > body.page-contact-us.scrolled.scrollup > button.go-top > img",
+        "txt": "",
+        "y": 327
+      },
+      {
+        "name": "up_down",
+        "el": "html > body.page-contact-us.scrolled.scrollup > button.go-top > img",
+        "txt": "",
+        "y": 300
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "right",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > div.drawer__dialog",
+        "y": 0,
+        "dur": "0.3s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > span.drawer__overlay",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show > span.drawer__overlay",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "height",
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapsing",
+        "y": 1573,
+        "dur": "0.35s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 400
+      },
+      {
+        "added": [
+          "fixed-tab"
+        ],
+        "el": "body.page-contact-us.scrolled.scrolldown > main.main-content > section.contact-section > div.tab-wrap-outer > div.tab-wrap.fixed-tab",
+        "y": 800
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrolldown",
+        "y": 800
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1827
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1827
+      },
+      {
+        "added": [
+          "fixed-tab"
+        ],
+        "el": "body.page-contact-us.scrolled.scrollup > main.main-content > section.contact-section > div.tab-wrap-outer > div.tab-wrap.fixed-tab",
+        "y": 2400
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrollup",
+        "y": 2400
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrolled.scrollup",
+        "y": 2400
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 2400
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1200
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.scrolled.fixed-tab-body",
+        "y": 1200
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open > div.drawer.show",
+        "y": 0
+      },
+      {
+        "added": [
+          "modal-open"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open",
+        "y": 0
+      },
+      {
+        "added": [
+          "fixed-tab"
+        ],
+        "el": "body.page-contact-us.scrollup.modal-open > main.main-content > section.contact-section > div.tab-wrap-outer > div.tab-wrap.fixed-tab",
+        "y": 2913
+      },
+      {
+        "added": [
+          "fixed-tab-body",
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open",
+        "y": 2913
+      },
+      {
+        "added": [
+          "body-active-effect"
+        ],
+        "el": "html > body.page-contact-us.scrollup.modal-open",
+        "y": 2913
+      },
+      {
+        "added": [
+          "scrolled",
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.modal-open.fixed-tab-body",
+        "y": 2913
+      },
+      {
+        "added": [
+          "scrolldown"
+        ],
+        "el": "html > body.page-contact-us.modal-open.fixed-tab-body",
+        "y": 2913
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.modal-open.fixed-tab-body",
+        "y": 2913
+      },
+      {
+        "added": [
+          "scrollup"
+        ],
+        "el": "html > body.page-contact-us.modal-open.fixed-tab-body",
+        "y": 2913
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "div.footer-wrap > footer.footer-main > div.container > div.footer-cols > nav.footer-col.is-open",
+        "y": 2913
+      },
+      {
+        "added": [
+          "active-t"
+        ],
+        "el": "footer.footer-main > div.container > div.footer-cols > nav.footer-col.is-open > p.footer-head.h6.active-t",
+        "y": 2913
+      },
+      {
+        "added": [
+          "fa-minus"
+        ],
+        "el": "div.container > div.footer-cols > nav.footer-col.is-open > p.footer-head.h6.active-t > i.fa.footer-head__toggle.fa-minus",
+        "y": 2913
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapsing",
+        "y": 1573
+      },
+      {
+        "added": [
+          "collapsing"
+        ],
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapsing",
+        "y": 1573
+      },
+      {
+        "added": [
+          "collapse",
+          "show"
+        ],
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapse.show",
+        "y": 1573
+      },
+      {
+        "added": [
+          "collapse",
+          "show"
+        ],
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapse.show",
+        "y": 1573
+      },
+      {
+        "added": [
+          "show"
+        ],
+        "el": "div.row > div.col-12 > div.faq-list > div.faq-card > div.faq-card__body.collapse.show",
+        "y": 1573
+      }
+    ]
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-19T12:04:11.598Z",
+    "phase": "replica rollout D2-dynamic",
+    "input": "stardust/dynamic-features.md",
+    "replay": "stardust/qa/dynamics-report.md: 27/27 checks pass (2026-11-19, 2nd run; 1st run had 7 transient load misses on non-root paths, not reproducible)"
+  },
+  "method": "17 curated rows (stardust/dynamic-features.md) replayed on the published origin at 1440 by dynamics-check.mjs; chrome/interactive rows rebuilt native in blocks, tag rows ride scripts/martech.js with every route disabled",
+  "features": [
+    {
+      "id": "m-chrome-menus",
+      "feature": "header mega menus + mobile drawer",
+      "class": "M",
+      "pages": 5,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "4 nav toggles with aria-expanded; 171 mega items; drawer #modal-products 32 acnav lists",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .site-nav .site-nav-item .site-nav-toggle[aria-expanded]",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .site-nav .mega-list .mega-item",
+          "min": 10
+        },
+        {
+          "type": "dom-count",
+          "path": "/about-us",
+          "selector": "header #modal-products[role=dialog] .acnav-list",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "s-site-search",
+      "feature": "header search -> /search-rbl-data",
+      "class": "S",
+      "pages": 5,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "accepted: search modal / results page not built in this rollout; the header search circle links out as on the chrome contract; /query-index.json 404 (no consumer)",
+      "owner": "search scope: migrated-pages index (interim) vs the source search service",
+      "checks": []
+    },
+    {
+      "id": "c-fd-calculator",
+      "feature": "Fixed Deposit Calculator (home)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "13 inputs; 1 result panel (client compute, no backend)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".fd-calculator input",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".fd-calculator .fdc-result",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "l-carousels",
+      "feature": "carousels: hero, Our Products, Offers and Deals, app banners (autoplay 6 s)",
+      "class": "L",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "autoplay running (.is-playing): hero 11 slides incl. clones, promo 9, app-banner 11; hero 5 dots (6 s timer, restoreAtDelivery honoured)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-carousel.is-playing .carousel-slide",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".promo-carousel.is-playing .carousel-slide",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".app-banner.is-playing .carousel-slide",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-carousel .carousel-dot",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "v-video-plays",
+      "feature": "Trust & Beyond video popups (YouTube embeds)",
+      "class": "V",
+      "pages": 3,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "click opens popup iframe; 20 youtube.com playback requests status < 400 on /, /business-banking, /personal-banking",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/",
+          "trigger": ".home-videos .video-card-btn",
+          "iframeSelector": ".home-videos-popup iframe",
+          "playbackHost": "youtube.com"
+        },
+        {
+          "type": "video-plays",
+          "path": "/business-banking",
+          "trigger": ".video-rail .video-card-play",
+          "iframeSelector": ".video-popup iframe",
+          "playbackHost": "youtube.com"
+        },
+        {
+          "type": "video-plays",
+          "path": "/personal-banking",
+          "trigger": ".video-rail .video-card-play",
+          "iframeSelector": ".video-popup iframe",
+          "playbackHost": "youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "cr-awards-filter",
+      "feature": "About us awards timeline + year filter",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "10 award cards; 27 year filter items (settled All state)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/about-us",
+          "selector": ".awards .award-card",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/about-us",
+          "selector": ".awards .years-item",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "cr-advertisements",
+      "feature": "About us advertisements view (hidden tab)",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "accepted: hidden tab on the source; settled default state ships, no visible surface to replay",
+      "owner": "revisit: whether the advertisements tab is shown",
+      "checks": []
+    },
+    {
+      "id": "m-faq-accordion",
+      "feature": "Contact us FAQ accordion",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "9 FAQ toggles with aria-expanded",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/contact-us",
+          "selector": ".contact-tabs .faq-card .faq-card-toggle[aria-expanded]",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "m-about-tabs",
+      "feature": "About us tabs",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "5 page-tab links",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/about-us",
+          "selector": ".page-tabs a",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "m-accessibility-contrast",
+      "feature": "utility strip contrast toggles + a11y launcher",
+      "class": "M",
+      "pages": 5,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "2 contrast toggles; 1 a11y launcher",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .topbar-contrast",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header .a11y-launcher",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "t-accessibility-widget",
+      "feature": "Skynet All in One Accessibility widget",
+      "class": "T",
+      "pages": 5,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "no request to skynettechnologies hosts by default",
+      "owner": "widget licence/domain for the new host",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "skynettechnologies.com",
+            "freeada.skynettechnologies.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-chatbot",
+      "feature": "RBL Cares chat launcher",
+      "class": "T",
+      "pages": 5,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "status": "interim",
+      "verifiedBy": "1 static launcher; 0 requests to sdk.rsut.io",
+      "owner": "chatbot SDK key for the new host; interim = static launcher",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".chat-launcher",
+          "min": 1
+        },
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "sdk.rsut.io"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-gtm",
+      "feature": "Google Tag Manager GTM-WHQPXDKW",
+      "class": "T",
+      "pages": 5,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "0 requests to GTM / pixel hosts on /; martech contract 1 route (google-tag-manager) enabled:false; /scripts/martech.js 200 on live; martech gate check pass",
+      "owner": "enable the route in stardust/martech-contract.json",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "connect.facebook.net",
+            "snap.licdn.com",
+            "static.hotjar.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v-runtime-iframes",
+      "feature": "runtime-injected tag-manager iframes",
+      "class": "V",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "rides t-gtm",
+      "owner": "rides GTM row 12",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/about-us",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "td.doubleclick.net"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-captcha",
+      "feature": "reCAPTCHA on source forms",
+      "class": "F",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "0 requests to www.google.com / recaptcha on /contact-us",
+      "owner": "no on-site submission on the five pages; flows link out",
+      "checks": [
+        {
+          "type": "consent-gate",
+          "path": "/contact-us",
+          "forbiddenHosts": [
+            "www.google.com",
+            "www.recaptcha.net"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-first-party-api",
+      "feature": "first-party POST /ir_admin/user + bot-defense POST",
+      "class": "A",
+      "pages": 5,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "accepted: host-bound API on www.rbl.bank.in; no consumer on the migrated pages",
+      "environmentLimit": "host-bound to the source origin; not reachable from the new host by design",
+      "owner": "confirm no migrated surface needs /ir_admin/user",
+      "checks": []
+    },
+    {
+      "id": "a-settings",
+      "feature": "drupalSettings / dataLayer objects",
+      "class": "A",
+      "pages": 5,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "0 uncaught exceptions on 5 pages",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/about-us",
+            "/business-banking",
+            "/personal-banking",
+            "/contact-us"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x-sign-in",
+      "feature": "LOGIN menu + account-opening links",
+      "class": "X",
+      "pages": 5,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "8 header links to online./digital.rbl.bank.in",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header a[href*='rbl.bank.in']:is([href*='online.'], [href*='digital.'])",
+          "min": 1
+        }
+      ]
+    }
+  ]
+}

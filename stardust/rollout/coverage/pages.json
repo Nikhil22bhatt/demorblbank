@@ -1,0 +1,246 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-19T09:50:24.335Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T12:07:47.017Z",
+  "pages": [
+    {
+      "slug": "about-us",
+      "path": "/about-us",
+      "title": "About Us | RBL Bank",
+      "templateId": "about-us",
+      "source": {
+        "migratedHtml": "stardust/migrated/about-us/index.html",
+        "metaJson": "stardust/migrated/about-us/_meta.json",
+        "sourceHash": "sha256:662ebe0981c1f728591964032f9fe24483535f601d810beada2e49906f172d7c",
+        "sourceUrl": "https://www.rbl.bank.in/about-us"
+      },
+      "blocks": [
+        "about-banner",
+        "about-intro",
+        "impact-stats",
+        "awards",
+        "values"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--1aa640c2--aemcoder.aem.live/about-us",
+        "deployedAt": "2026-11-19T11:03:50.095Z",
+        "verifiedAt": "2026-11-19T12:07:46.904Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.14,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T11:56:21.487Z"
+        }
+      }
+    },
+    {
+      "slug": "business-banking",
+      "path": "/business-banking",
+      "title": "Business Banking – Business Bank Accounts, Business Services Online India | Best Bank |RBL Bank",
+      "templateId": "business-banking",
+      "source": {
+        "migratedHtml": "stardust/migrated/business-banking/index.html",
+        "metaJson": "stardust/migrated/business-banking/_meta.json",
+        "sourceHash": "sha256:4c0253f831b47daffbc0de5917761d59e9f2bb541649b9a0ef960256138a5565",
+        "sourceUrl": "https://www.rbl.bank.in/business-banking"
+      },
+      "blocks": [
+        "listing-hero",
+        "product-grid",
+        "app-band",
+        "story-rail",
+        "video-rail"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--1aa640c2--aemcoder.aem.live/business-banking",
+        "deployedAt": "2026-11-19T11:02:37.570Z",
+        "verifiedAt": "2026-11-19T12:07:46.963Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.28,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T11:56:21.487Z"
+        }
+      }
+    },
+    {
+      "slug": "contact-us",
+      "path": "/contact-us",
+      "title": "RBL Bank – Banking &amp; Credit Helpline Services | Contact Us | Customer Care",
+      "templateId": "contact-us",
+      "source": {
+        "migratedHtml": "stardust/migrated/contact-us/index.html",
+        "metaJson": "stardust/migrated/contact-us/_meta.json",
+        "sourceHash": "sha256:6e2d0c3c8e7fbdbddcbb7a39db49d8293dc38a5e092dda17c0ebc03095207209",
+        "sourceUrl": "https://www.rbl.bank.in/contact-us"
+      },
+      "blocks": [
+        "contact-tabs"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--1aa640c2--aemcoder.aem.live/contact-us",
+        "deployedAt": "2026-11-19T10:15:20.776Z",
+        "verifiedAt": "2026-11-19T12:07:47.017Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T11:56:21.487Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Savings &amp; Current Accounts, Loans, Credit Cards, NRI Services, Investments | RBL Bank",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:85343ac8caa0a3a836f950f5fcb9bd97ea3d7056adac1fcce1b17acc01434517",
+        "sourceUrl": "https://www.rbl.bank.in/"
+      },
+      "blocks": [
+        "hero-carousel",
+        "rates",
+        "promo-carousel",
+        "fd-calculator",
+        "app-banner",
+        "product-cards",
+        "offer-cards",
+        "home-blog",
+        "home-videos"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--1aa640c2--aemcoder.aem.live/",
+        "deployedAt": "2026-11-19T11:29:07.868Z",
+        "verifiedAt": "2026-11-19T12:07:38.241Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.3,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 2,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": [
+              ".home-banner-wrapper=.hero-carousel",
+              "#block-homebenefitsection=.promo-carousel",
+              "#block-homerblmobankapp=.app-banner"
+            ]
+          },
+          "reasons": [
+            "content MISSING 2 / HIDDEN 0"
+          ],
+          "override": "PASS",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T11:56:21.487Z"
+        }
+      }
+    },
+    {
+      "slug": "personal-banking",
+      "path": "/personal-banking",
+      "title": "Personal Banking, Online Banking Services | RBL Bank",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1fa6b3772bf8a1dfc586805faef9e66767bbf4a67efdfbe581786f0e368791cd",
+        "currentStatePath": "stardust/current/pages/personal-banking.json",
+        "sourceUrl": "https://www.rbl.bank.in/personal-banking"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--1aa640c2--aemcoder.aem.page/personal-banking",
+        "deployedAt": "2026-11-19T11:11:01.779Z",
+        "verifiedAt": "2026-11-19T12:07:38.241Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 18,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T11:56:21.487Z"
+        }
+      }
+    }
+  ]
+}

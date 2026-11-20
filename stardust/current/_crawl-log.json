@@ -1,0 +1,661 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 5,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 120000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 5,
+    "pagesWithSameSiteData": 5,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 5,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "freeada.skynettechnologies.com",
+        "path": "/api/widget-settings",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://freeada.skynettechnologies.com/api/widget-settings",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RS/kwC1EWWV4",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.rbl.bank.in/pS5ycrY5Pu9Z/u3/E_zl2fDc6m/p9umtzVpScpJbJ/SgwXNDU/RS/kwC1EWWV4",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/getWebConfig",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/getWebConfig",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/969491432/",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/GetCustomEventList",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/GetCustomEventList",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/GetLastVisitnew",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/GetLastVisitnew",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/UserJourneybulk",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/UserJourneybulk",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/FetchDropOff",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/FetchDropOff",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/getsdkrules",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/getsdkrules",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/SetLastVisitnew",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/SetLastVisitnew",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/ir_admin/user",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.rbl.bank.in/ir_admin/user",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 4,
+        "examples": [
+          "about-us",
+          "index",
+          "personal-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sdk.rsut.io",
+        "path": "/Campaign/DeviceRegister",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sdk.rsut.io/Campaign/DeviceRegister",
+        "pages": 3,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/q",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/q",
+        "pages": 2,
+        "examples": [
+          "about-us",
+          "personal-banking"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/g",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/g",
+        "pages": 2,
+        "examples": [
+          "index",
+          "contact-us"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.rbl.bank.in",
+        "path": "/notification-frontend-data",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.rbl.bank.in/notification-frontend-data",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/insights/c/k",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/insights/c/k",
+        "pages": 1,
+        "examples": [
+          "business-banking"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.skynettechnologies.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "sdk.rsut.io",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "static-cdn.trackier.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "code.jquery.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "static.hotjar.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "script.hotjar.com",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "drupalSettings",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      },
+      {
+        "name": "dataLayer",
+        "pages": 5,
+        "examples": [
+          "about-us",
+          "index",
+          "business-banking"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.rbl.bank.in/about-us",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "field_years_target_id"
+        ],
+        "pages": 1,
+        "examples": [
+          "about-us"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, sections and footer rendered; no consent wall or bot page"
+    },
+    {
+      "slug": "about-us",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, sections and footer rendered; no consent wall or bot page"
+    },
+    {
+      "slug": "business-banking",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, sections and footer rendered; no consent wall or bot page"
+    },
+    {
+      "slug": "personal-banking",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, sections and footer rendered; no consent wall or bot page"
+    },
+    {
+      "slug": "contact-us",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, sections and footer rendered; no consent wall or bot page"
+    }
+  ],
+  "siblingCandidates": []
+}

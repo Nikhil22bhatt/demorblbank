@@ -1,0 +1,588 @@
+{
+ "source": "http://localhost:8791/about-us-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "au-banner",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A Bank You Can Call Your ‘Own’"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Founded in the pre-independence era in 1943, we have partnered India for over 80 years."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "With our tailored product suite & loan solutions, we want to partner our customers’ journey and become their banking partner for life."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "au-about",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "About Us",
+     "href": "/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Board of Directors",
+     "href": "/about-us/board-of-directors"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Leadership Team",
+     "href": "/about-us/leadership-team"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "About RBL Bank"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "RBL Bank, a subsidiary of Emirates NBD Bank P.J.S.C., is one of India’s leading private sector banks, with a legacy dating back to 1943."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Headquartered in Mumbai, the Bank has evolved into a dynamic financial institution offering a comprehensive suite of banking products and services catering to wide range of individual customer segments; small and medium enterprises, large corporations, and governments with a full range of banking, investment management, trade and other financial solutions. The Bank has a strong digital offering with sizeable operation under digital payments space."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "With a strong focus on innovation, customer-centricity, and digital transformation, RBL Bank serves over 15 million customers through a robust network of 628 branches, 1,326 business correspondent branches (of which 248 banking outlets) spread across 28 Indian states and union territories."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "RBL Bank is committed to being a ‘Bank of Choice’ by fostering enduring relationships built on trust, transparency, and responsiveness. Backed by a strong capital base, endorsed with an International Baa2 rating by Moody’s Ratings, a first one to be assigned to any Bank in India, and reinforced with a long-term credit rating of AAA Stable by Crisil, ICRA and CARE Ratings; it continues to strengthen stakeholder confidence. RBL Bank drives financial inclusion, and supports community development through impactful CSR initiatives, and creates a thriving workplace culture for its employees."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "RBL Bank is listed on both NSE and BSE (RBLBANK)."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-lg-6",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "au-impact",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "15"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Million Customers"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "628"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Branches"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "1078"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "BC Branches"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "248"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "BC Outlets"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "As updated on September 30, 2026"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-md-3",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "au-awards",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Awards & Recognition",
+     "href": "#au-awards-pane"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Advertisements",
+     "href": "#au-adv-pane"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "- Any -"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "2026"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "2025"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "2024"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "2023"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "2022"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "2021"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "2020"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2019"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "2018"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "2017"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "2016"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "2015"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "2014"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "2013"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "2012"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Apply"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Finnoviti Award by Banking Frontiers"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "CONFIRMATION SERVICE API"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Finnoviti Award by Banking Frontiers"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "KAVACH (Mule Hunter)"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Finnoviti Award by Banking Frontiers"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "RInsights DATA ANALYTICS"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Infosys Finacle Innovation Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "BUSINESS MODEL INNOVATION (Gold Winner - Software Development Kit for Gift City)"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Asset Triple A Digital Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "BEST CORE SYSTEM PROJECT (iManage)"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Asset Triple A Digital Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "BEST DATA ANALYTICS PROJECT (RInsights)"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Asset Triple A Digital Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "BEST FINANCIAL ARTIFICIAL INTELLIGENCE PROJECT (Mule Hunter)"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "21st Banking Technology Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Al & ML ADOPTION (Winner)"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "21st Banking Technology Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "TECH TALENT & ORGANIZATION (Winner)"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "21st Banking Technology Awards 2026"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "DIGITAL SALES & ENGAGEMENT (Special Mention)"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "- Any -"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "2023"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "2024"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "2022"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "2021"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "2020"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "2019"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "2018"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "2017"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "2016"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "2015"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Apply"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "NO Record Found"
+    }
+   ],
+   "imgCount": 10,
+   "editableTexts": 22,
+   "repeats": [
+    {
+     "unitSelector": "DIV.au-awards__pane",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 10,
+      "textRuns": 37
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "au-values",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our Vision"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Bank of Choice"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "To be a 'Bank of Choice' by creating and nurturing enduring relationships through trust and respect of our customers, employees and partners."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Trust and Respect of our Stakeholders"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "To engage and ensure that all our stakeholders commitments are fulfilled, while working as a team."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Creating and Nurturing Enduring Relationships"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "To create and build lasting partnership with all our customers based on full disclosure and transparency."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Our Mission"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "CUSTOMERS AT THE HEART"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "To engage and understand customer needs, provide best-in-class products & services, be responsive and quick in resolving queries - resulting in true customer delight & peace of mind."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "EMPLOYEES AS THE PILLAR"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "To provide an enabling work culture, where career aspirations can be realized through consistent performance and demonstration of the Bank’s core values & beliefs."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "COMMUNITY AS THE CAUSE"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "To deliver robust and cost-effective banking services that promote financial inclusion, catalyse growth and reduce social inequalities."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "SHAREHOLDER VALUE AS THE FOCUS"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "To demonstrate high corporate governance standards that protects and balances stakeholder interests in the journey to achieving short and long term business goals."
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "CSR Activities"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "At RBL Bank, we have always believed in bringing real change in the society through our CSR initiatives under Health, Education and Livelihood Opportunities. We are grateful for the unwavering support and contributions of our partners, NGOs, customers and employees, for helping us consistently deliver on our mission pillar of 'Community as the Cause'."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Explore More",
+     "href": "/social-responsibility"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Careers at RBL Bank"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Guided by the mission of 'Employees as the Pillar' and PREET values (Professionalism, Respect, Excellence, Entrepreneurial, Teamwork), we at RBL Bank constantly strive to be an organization that provides an equal, healthy and flourishing environment for its employees to grow with."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Explore More",
+     "href": "/careers"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 22,
+   "repeats": [
+    {
+     "unitSelector": "DIV.row",
+     "count": 3,
+     "unit": {
+      "headings": 4,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.col-12",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

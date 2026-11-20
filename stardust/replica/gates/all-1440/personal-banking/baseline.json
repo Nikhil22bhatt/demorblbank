@@ -1,0 +1,54 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-19T11:12:18.244Z",
+  "url": "https://www.rbl.bank.in/personal-banking",
+  "width": 1440,
+  "vh": 900,
+  "height": 4969,
+  "settle": true,
+  "chunks": 6,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 29,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 4969,
+    "pct": 0.02,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    4969,
+    4969
+  ],
+  "noiseFloor": 0.01,
+  "heightSpread": 0,
+  "outside": 0.01,
+  "variable": [],
+  "variableShare": 0,
+  "maskArg": "",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-19T11:12:58.722Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": "en-US",
+    "vh": null,
+    "headed": true
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}
