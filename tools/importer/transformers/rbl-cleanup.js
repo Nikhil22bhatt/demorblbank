@@ -237,5 +237,17 @@ export default function transform(hookName, element, payload) {
     TRACKING_ATTRS.forEach((attr) => {
       safeQueryAll(root, `[${attr}]`).forEach((el) => el.removeAttribute(attr));
     });
+
+    // Edge Delivery accepts at most 200 images per page. The source "related posts" slider holds
+    // nearly every blog post (~240 cards, 3 visible at a time), so keep the first
+    // RELATED_CARDS_MAX cards of each cards-blog rail.
+    safeQueryAll(root, 'table').forEach((table) => {
+      const rows = [...table.querySelectorAll(':scope > tbody > tr, :scope > tr')];
+      const head = rows[0] && rows[0].textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+      if (!head || !head.startsWith('cards blog')) return;
+      rows.slice(1 + RELATED_CARDS_MAX).forEach(remove);
+    });
   }
 }
+
+const RELATED_CARDS_MAX = 12;
