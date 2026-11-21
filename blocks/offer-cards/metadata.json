@@ -1,0 +1,32 @@
+{
+  "variantName": "offer-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image",
+    "purpose": "offers-rail",
+    "summary": "Homepage \"Offers and Deals\" card rail: background image cards with tag, title, text and arrow link."
+  },
+  "contentPattern": {
+    "structure": "Title row, card rows [background picture] [tag + title + text paragraphs + arrow link], CTA row."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "offer-cards"
+  ],
+  "usage": "Homepage \"Offers and Deals\" card rail: background image cards with tag, title, text and arrow link.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "offer / deal teasers"
+    ],
+    "notSuitableFor": [
+      "product cards"
+    ]
+  }
+}

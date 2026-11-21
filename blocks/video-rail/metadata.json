@@ -1,0 +1,32 @@
+{
+  "variantName": "video-rail",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking",
+    "originPage": "/business-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "video-rail",
+    "summary": "\"Trust & Beyond\" video thumbnail rail; thumbnails open the YouTube video in a popup."
+  },
+  "contentPattern": {
+    "structure": "Section default content holds the heading and one paragraph per video (thumbnail linked to embed URL); block row holds the Watch All CTA."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "video-rail"
+  ],
+  "usage": "\"Trust & Beyond\" video thumbnail rail; thumbnails open the YouTube video in a popup.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "video thumbnail rails with popup playback"
+    ],
+    "notSuitableFor": [
+      "image-only carousels"
+    ]
+  }
+}

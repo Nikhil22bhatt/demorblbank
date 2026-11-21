@@ -1,0 +1,198 @@
+/* anchor-nav — sticky in-page tab bar (live .common-tab-wrap .nav-tabs / .tab-wrap.fixed-tab) */
+
+/* the block's own section (made by anchor-nav.js) sticks under the fixed header bar:
+   --chrome-top is the header bar's bottom edge (styles.css, per breakpoint and template) */
+.anchor-nav-section {
+  position: sticky;
+  top: var(--chrome-top, 0);
+  z-index: 100;
+}
+
+.anchor-nav-section.anchor-nav-static {
+  position: static;
+}
+
+.anchor-nav {
+  --anchor-nav-bg: transparent;
+  --anchor-nav-shadow: none;
+  --anchor-nav-tabs-offset: 0;
+
+  background: var(--anchor-nav-bg);
+  box-shadow: var(--anchor-nav-shadow);
+  color: rgb(33 37 41);
+}
+
+.anchor-nav .anchor-nav-inner {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  max-width: var(--container, 1140px);
+  margin: 0 auto;
+  padding: 3px 0 0;
+}
+
+.anchor-nav .anchor-nav-tabs {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-left: var(--anchor-nav-tabs-offset);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.anchor-nav .anchor-nav-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.anchor-nav .anchor-nav-tabs ul {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.anchor-nav .anchor-nav-tabs li {
+  position: relative;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.anchor-nav .anchor-nav-link,
+.anchor-nav .anchor-nav-link:any-link {
+  display: block;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 6px 6px 0 0;
+  background: transparent;
+  color: var(--brand-blue, #304087);
+  font-family: var(--font-base, roboto, sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.anchor-nav .anchor-nav-link:hover {
+  color: var(--brand-blue, #304087);
+  text-decoration: none;
+}
+
+.anchor-nav .anchor-nav-link.active {
+  font-weight: 700;
+}
+
+/* active underline: 2px rule just above the bar's bottom edge (on the li, which spans the bar) */
+.anchor-nav .anchor-nav-link.active::after {
+  content: "";
+  position: absolute;
+  right: 1px;
+  bottom: 2px;
+  left: 1px;
+  height: 2px;
+  background: var(--brand-blue, #304087);
+}
+
+/* CTA (live .tab-applynow-btn): appears in the bar once it is stuck, desktop only;
+   visibility keeps its room so the bar does not change height when it sticks */
+.anchor-nav .anchor-nav-cta {
+  display: none;
+  flex: 0 0 auto;
+  align-self: flex-start;
+  gap: 8px;
+  visibility: hidden;
+}
+
+.anchor-nav.anchor-nav-stuck .anchor-nav-cta {
+  visibility: visible;
+}
+
+main .anchor-nav .anchor-nav-cta a.button:any-link {
+  min-width: 146px;
+  height: auto;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+/* default look (live .no-box-shadow.border-0.bg-transparent): page tabs, flat */
+.anchor-nav:not(.shadow, .shadow-light, .shadow-2) {
+  --anchor-nav-tabs-offset: 12px;
+
+  padding-top: 5px;
+}
+
+.anchor-nav:not(.shadow, .shadow-light, .shadow-2) .anchor-nav-inner {
+  padding-top: 2px;
+}
+
+/* shadow looks (live .tab-wrap.fixed-tab): white bar with a soft all-round shadow */
+.anchor-nav.shadow,
+.anchor-nav.shadow-light,
+.anchor-nav.shadow-2 {
+  --anchor-nav-bg: #fff;
+  --anchor-nav-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.anchor-nav.light,
+.anchor-nav.light-2 {
+  --anchor-nav-bg: var(--light-color, #f4f5fc);
+}
+
+.anchor-nav.grey {
+  --anchor-nav-bg: #f2f2f2;
+}
+
+.anchor-nav.blue-light {
+  --anchor-nav-bg: #f3f5fb;
+}
+
+@media (width >= 900px) {
+  .anchor-nav {
+    --anchor-nav-tabs-offset: 7px;
+  }
+
+  .anchor-nav .anchor-nav-inner {
+    padding: 16px 12px 0;
+  }
+
+  .anchor-nav .anchor-nav-tabs ul {
+    gap: 15px;
+  }
+
+  .anchor-nav .anchor-nav-tabs li {
+    padding-bottom: 6px;
+  }
+
+  .anchor-nav .anchor-nav-link,
+  .anchor-nav .anchor-nav-link:any-link {
+    padding: 8px 16px;
+  }
+
+  .anchor-nav .anchor-nav-link.active::after {
+    right: 11px;
+    bottom: 1px;
+    left: 11px;
+  }
+
+  .anchor-nav .anchor-nav-cta {
+    display: flex;
+    margin-top: -1px;
+    padding-bottom: 9px;
+  }
+
+  .anchor-nav:not(.shadow, .shadow-light, .shadow-2) {
+    --anchor-nav-tabs-offset: -10px;
+  }
+
+  .anchor-nav:not(.shadow, .shadow-light, .shadow-2) .anchor-nav-inner {
+    padding-top: 13px;
+  }
+}

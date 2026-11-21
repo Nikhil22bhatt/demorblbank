@@ -55,6 +55,43 @@ export default function decorate(block) {
     });
   });
 
+  /* card hero (theme .banner-para-right-section): an h1 with no lede, whose highlights strip,
+     CTA and terms note were authored after the block in the same section. They are MOVED into
+     the panel (the live .banner-info holds them), and the panel sits right of the image.
+     Only the run right after the hero is taken: a cards-highlights strip, then the leading
+     paragraphs of the next default content; any heading or other block ends the hero. */
+  const wrapper = block.parentElement;
+  const trailing = [];
+  if (!text.querySelector('p') && wrapper?.parentElement?.classList.contains('section')) {
+    let next = wrapper.nextElementSibling;
+    if (next?.classList.contains('cards-highlights-wrapper')) {
+      trailing.push(next);
+      next = next.nextElementSibling;
+    }
+    if (next?.classList.contains('default-content-wrapper')) {
+      const lead = [];
+      for (let node = next.firstElementChild; node?.tagName === 'P'; node = node.nextElementSibling) {
+        lead.push(node);
+      }
+      trailing.push(...lead);
+    }
+  }
+  if (trailing.some((node) => node.classList.contains('cards-highlights-wrapper'))) {
+    block.classList.add('card-hero');
+    const emptied = trailing.find((node) => node.tagName === 'P')?.parentElement;
+    text.append(...trailing);
+    if (emptied && !emptied.children.length) emptied.remove();
+    let cta = null;
+    [...text.children].forEach((node) => {
+      if (node.tagName !== 'P') return;
+      const links = node.querySelectorAll('a');
+      if (!cta && links.length === 1 && node.textContent.trim() === links[0].textContent.trim()) {
+        cta = node;
+        node.classList.add('listing-hero-cta');
+      } else if (cta && !links.length) node.classList.add('listing-hero-terms');
+    });
+  }
+
   panel.append(text);
   container.append(panel);
   block.replaceChildren(media, container);

@@ -216,3 +216,131 @@
     transition: none;
   }
 }
+
+/* video shape (rbl-mybank-demo): YouTube player beside store badges + QR code.
+   Source: .row > .col-md-8 (iframe) + .col-md-4 (p20 title, .flex-app-wrap, .qr-code-block) */
+.app-band.app-band-video {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0;
+  overflow: visible;
+  background: none;
+  color: var(--brand-text);
+  font-family: var(--brand-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+}
+
+.app-band.app-band-video .app-band-player,
+.app-band.app-band-video .app-band-get {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 12px;
+}
+
+/* the source iframe is inline: its line box adds a 9px strut descent below the player.
+   Block + padding keeps that gap independent of the document mode and font metrics */
+.app-band.app-band-video .app-band-frame {
+  padding-bottom: 9px;
+}
+
+.app-band.app-band-video .app-band-frame iframe {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 315px;
+  border: 1px solid rgb(204 204 204);
+  border-radius: 5px;
+}
+
+.app-band.app-band-video .app-band-get {
+  margin-top: 30px;
+  padding-bottom: 59px;
+}
+
+.app-band.app-band-video .app-band-get-title {
+  margin: 0 0 10px;
+  color: var(--brand-copy);
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.24px;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.app-band.app-band-video .app-band-badges {
+  display: flex;
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.app-band.app-band-video .app-band-badges a {
+  display: block;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 3px;
+}
+
+.app-band.app-band-video .app-band-badges picture {
+  display: block;
+}
+
+.app-band.app-band-video .app-band-badges img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.app-band.app-band-video .app-band-qr {
+  box-sizing: content-box;
+  width: 140px;
+  margin: 30px 0 0 15px;
+  padding: 15px 15px 16px;
+  border-radius: 5px;
+  background-color: rgb(244 245 252);
+  text-align: center;
+}
+
+.app-band.app-band-video .app-band-qr picture {
+  display: block;
+  line-height: 0;
+}
+
+.app-band.app-band-video .app-band-qr img {
+  width: 124px;
+  height: auto;
+}
+
+.app-band.app-band-video .app-band-qr-caption {
+  margin: 10px 0 0;
+  color: var(--brand-copy);
+  font-size: 18px;
+  line-height: normal;
+}
+
+@media (width >= 768px) {
+  .app-band.app-band-video {
+    height: auto;
+  }
+
+  .app-band.app-band-video .app-band-player {
+    width: 66.6667%;
+  }
+
+  .app-band.app-band-video .app-band-get {
+    width: 33.3333%;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+
+  .app-band.app-band-video .app-band-frame iframe {
+    width: 90%;
+    height: 400px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "app-banner",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "multi",
+    "purpose": "service-banners",
+    "summary": "Digital-banking service banner carousel; each slide is a link card with a colour theme."
+  },
+  "contentPattern": {
+    "structure": "Each row is a slide: [desktop picture] [mobile picture] [link paragraph] [optional colour: aqua | sky | lavender | green | white]. Class start-N / start-mobile-N sets the initial slide."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "app-banner"
+  ],
+  "usage": "Digital-banking service banner carousel; each slide is a link card with a colour theme.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "clickable service banners"
+    ],
+    "notSuitableFor": [
+      "banners with copy (use promo-carousel)"
+    ]
+  }
+}

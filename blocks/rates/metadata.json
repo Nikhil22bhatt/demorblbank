@@ -1,0 +1,49 @@
+{
+  "variantName": "rates",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "rates-band",
+    "summary": "Homepage \"Attractive Rates\" band: label + rate value + View Rates link per column."
+  },
+  "contentPattern": {
+    "structure": "Heading row + rate rows [label] [value heading] [optional View Rates link]; a value without heading (download icon link) is the Forex column."
+  },
+  "options": [
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "rates",
+    "v_eb65d9e0081c",
+    "v_27f92c2b8d20",
+    "v_9488b43fae9d",
+    "v_e6fef71dac80"
+  ],
+  "usage": "Homepage \"Attractive Rates\" band: label + rate value + View Rates link per column.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "interest / exchange rate highlights"
+    ],
+    "notSuitableFor": [
+      "detailed rate tables"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+.columns-interview > .columns-interview-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-interview > .columns-interview-row + .columns-interview-row {
+  margin-top: 24px;
+}
+
+.columns-interview .columns-interview-text-col {
+  order: 1;
+  min-width: 0;
+}
+
+.columns-interview .columns-interview-img-col {
+  order: 0;
+}
+
+.columns-interview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.columns-interview .columns-interview-question,
+.columns-interview .columns-interview-answer {
+  margin: 16px 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.columns-interview .columns-interview-question {
+  background-color: var(--light-color, #eee);
+}
+
+.columns-interview .columns-interview-answer {
+  background-color: var(--light-color, #f3f3fb);
+}
+
+.columns-interview .columns-interview-question > p,
+.columns-interview .columns-interview-answer > p {
+  margin: 0;
+}
+
+.columns-interview .columns-interview-question > p + p,
+.columns-interview .columns-interview-answer > p + p {
+  margin-top: 8px;
+}
+
+@media (width >= 900px) {
+  .columns-interview > .columns-interview-row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .columns-interview .columns-interview-text-col {
+    flex: 2;
+    order: unset;
+  }
+
+  .columns-interview .columns-interview-img-col {
+    flex: 1;
+    order: unset;
+  }
+
+  .columns-interview .columns-interview-full > div {
+    flex: 1;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "awards",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "awards-list",
+    "summary": "Awards & Recognition view: tabbed panes with a year filter and award cards (image, title, description)."
+  },
+  "contentPattern": {
+    "structure": "Tabs row (ul of links), years row (ul, strong = checked), award rows [picture] [title + description], empty-note rows."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "awards"
+  ],
+  "usage": "Awards & Recognition view: tabbed panes with a year filter and award cards (image, title, description).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "filterable awards / recognition listings"
+    ],
+    "notSuitableFor": [
+      "simple card grids"
+    ]
+  }
+}

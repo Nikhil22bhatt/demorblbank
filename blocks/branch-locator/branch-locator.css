@@ -1,0 +1,120 @@
+/* branch-locator — structural layout only; brand styling comes in the design pass */
+.branch-locator .branch-locator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 640px;
+  padding: 20px;
+  border: 1px solid currentcolor;
+  border-radius: 4px;
+}
+
+.branch-locator .branch-locator-form :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+}
+
+.branch-locator .branch-locator-selects {
+  display: grid;
+  gap: 16px;
+}
+
+.branch-locator .branch-locator-select {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.branch-locator .branch-locator-select-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.branch-locator .branch-locator-select select {
+  width: 100%;
+  padding: 12px 16px;
+  font: inherit;
+}
+
+.branch-locator .branch-locator-looking {
+  margin: 0;
+}
+
+.branch-locator .branch-locator-services {
+  max-width: 300px;
+  padding: 8px 16px;
+}
+
+.branch-locator .branch-locator-services summary {
+  cursor: pointer;
+  padding: 4px 0;
+  border-bottom: 1px solid currentcolor;
+}
+
+.branch-locator .branch-locator-service-list {
+  margin: 0;
+  padding: 8px 0 0;
+  list-style: none;
+}
+
+.branch-locator .branch-locator-service-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.branch-locator .branch-locator-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.branch-locator .branch-locator-reset {
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.branch-locator .branch-locator-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 16px;
+}
+
+.branch-locator .branch-locator-result-list {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.branch-locator .branch-locator-result {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border: 1px solid currentcolor;
+}
+
+.branch-locator .branch-locator-result :is(h3, p) {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .branch-locator .branch-locator-selects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .branch-locator .branch-locator-result-list {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}

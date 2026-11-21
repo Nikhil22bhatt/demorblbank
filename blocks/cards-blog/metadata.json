@@ -1,0 +1,35 @@
+{
+  "variantName": "cards-blog",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + link + heading + text"
+  },
+  "contentPattern": {
+    "structure": "One row per article: [image] [category tag, heading, excerpt, date, Read More link].",
+    "rows": "variable",
+    "columns": 2
+  },
+  "options": [
+    { "class": "alt", "label": "Alt" }
+  ],
+  "memberVariantIds": [
+    "v_8b97f49700de",
+    "v_b10370047c20"
+  ],
+  "usage": "Blog article teaser cards (related posts on blog articles, listing on the blog landing page) with photo, category tag, title, excerpt, date and Read More.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "related blog posts",
+      "blog listing grids"
+    ],
+    "notSuitableFor": [
+      "homepage blog rail with arrows (use home-blog)",
+      "icon tiles linking to documents (use cards-document-links)"
+    ]
+  }
+}

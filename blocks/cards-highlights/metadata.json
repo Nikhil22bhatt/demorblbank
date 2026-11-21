@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-highlights",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text"
+  },
+  "contentPattern": {
+    "structure": "Optional first row with a heading (block title), then one row per highlight: [icon] [label text]. Icon may also sit inline in the text cell.",
+    "rows": "variable",
+    "columns": 2
+  },
+  "options": [
+    { "class": "alt", "label": "Alt" },
+    { "class": "light", "label": "Light" }
+  ],
+  "memberVariantIds": [
+    "v_8ac8e11d9bde",
+    "v_a36017a067ba",
+    "v_aae8f1ab00a5",
+    "v_84f5ffb93f21",
+    "v_aae8f1ab00a5-1"
+  ],
+  "usage": "Row of icon + short label feature highlights on product, NRI and careers pages. alt: bold lead line plus supporting text; light: compact single-line items, optionally under a title.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "product USP strips",
+      "icon + label benefit rows"
+    ],
+    "notSuitableFor": [
+      "linked document tiles (use cards-document-links)",
+      "large numeric stats (use impact-stats)"
+    ]
+  }
+}

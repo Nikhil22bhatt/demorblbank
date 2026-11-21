@@ -1,0 +1,49 @@
+.columns-profile > .columns-profile-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-profile > .columns-profile-row + .columns-profile-row {
+  margin-top: 24px;
+}
+
+.columns-profile .columns-profile-card {
+  padding: 32px 24px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--light-color, #eef0f8);
+}
+
+.columns-profile .columns-profile-photo {
+  margin: 0 auto 24px;
+  max-width: 260px;
+}
+
+.columns-profile .columns-profile-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.columns-profile .columns-profile-bio {
+  min-width: 0;
+}
+
+@media (width >= 900px) {
+  .columns-profile > .columns-profile-row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .columns-profile .columns-profile-card {
+    flex: 0 0 32%;
+  }
+
+  .columns-profile .columns-profile-bio {
+    flex: 1;
+  }
+}

@@ -1,3 +1,5 @@
+@import url('brand.css');
+
 /*
  * RBL Bank replica foundation — tokens, base, Bootstrap-model grid, buttons, section
  * scaffold and the chrome reservation. Values lifted from the gated replica canon
@@ -5,15 +7,15 @@
  */
 
 :root {
-  /* brand (canon) */
-  --rbl-blue: #304087;
-  --rbl-blue-hover: #213073;
+  /* brand (canon) — aliased to styles/brand.css where the values are the same */
+  --rbl-blue: var(--brand-blue);
+  --rbl-blue-hover: var(--brand-blue-hover);
   --rbl-red: #ed3338;
   --rbl-yellow: #fed525;
-  --rbl-text: #212529;
-  --rbl-ink: #303030;
-  --rbl-lavender: #f4f5fc;
-  --rbl-faq-bg: #f9faff;
+  --rbl-text: var(--brand-text);
+  --rbl-ink: var(--brand-ink);
+  --rbl-lavender: var(--brand-light);
+  --rbl-faq-bg: var(--brand-highlight);
   --rbl-border: #dbdcde;
   --rbl-topbar: #595959;
   --rbl-footer: #222;
@@ -21,12 +23,12 @@
   --rbl-footer-link: #f3f4f6;
   --rbl-footer-rule: #606060;
   --rbl-nav-gradient: linear-gradient(270deg, #8a676d 1.87%, #924b57 31.58%, #4b4a6c 59.77%, #262343 98.54%);
-  --font-base: roboto, roboto-fallback, sans-serif;
-  --container: 1140px;
+  --font-base: var(--brand-font-family);
+  --container: var(--brand-content-max-width);
   --gutter: 24px;
 
   /* boilerplate aliases (stock blocks) */
-  --background-color: #fff;
+  --background-color: var(--brand-background);
   --light-color: var(--rbl-lavender);
   --dark-color: var(--rbl-ink);
   --text-color: var(--rbl-text);
@@ -35,36 +37,53 @@
   --body-font-family: var(--font-base);
   --heading-font-family: var(--font-base);
 
-  /* chrome reservation (#81): fixed utility strip + nav, then the in-flow breadcrumb bar.
-     < 768: strip 75 + mobile header (body padding 115 on live), breadcrumb hidden (1px rule) */
-  --chrome-top: 115px;
+  /* chrome reservation (#81): fixed utility strip + fixed nav bar, then the in-flow breadcrumb.
+     --chrome-top is the bottom edge of the fixed header bar (blocks/header positions the bar
+     at --chrome-top minus its own height). < 768: strip 75 + mobile bar 76, breadcrumb is in-flow page content (breadcrumb block), so no reservation */
+  --chrome-top: 151px;
   --breadcrumb-h: 1px;
   --nav-height: calc(var(--chrome-top) + var(--breadcrumb-h));
 }
 
 @media (width >= 768px) {
   :root {
-    --chrome-top: 140px;
-    --breadcrumb-h: 42px;
+    --chrome-top: 119px;
+    --breadcrumb-h: 0px;
   }
 }
 
-/* landing (homepage) chrome: notification ticker under the strip, no breadcrumb.
-   < 768 the mobile header flows under the ticker (80px); the ticker hides on scroll. */
+@media (width >= 900px) {
+  :root {
+    --chrome-top: 144px;
+  }
+}
+
+/* landing (homepage) chrome: notification ticker under the strip, header bar under the
+   ticker, no breadcrumb; the ticker hides on scroll and the bar moves up under the strip. */
 body.landing {
-  --chrome-top: 250px;
-  --breadcrumb-h: 80px;
+  --chrome-top: 326px;
+  --breadcrumb-h: 0px;
 }
 
 body.landing.notice-hidden,
 body.landing.notice-closed {
-  --chrome-top: 75px;
+  --chrome-top: 151px;
 }
 
 @media (width >= 768px) {
   body.landing {
+    --chrome-top: 223px;
+  }
+
+  body.landing.notice-hidden,
+  body.landing.notice-closed {
+    --chrome-top: 119px;
+  }
+}
+
+@media (width >= 900px) {
+  body.landing {
     --chrome-top: 248px;
-    --breadcrumb-h: 0px;
   }
 
   body.landing.notice-hidden,
@@ -94,12 +113,12 @@ body {
   display: none;
   margin: 0;
   overflow-x: hidden;
-  background: #fff;
+  background: var(--brand-background);
   color: var(--rbl-text);
   font-family: var(--font-base);
-  font-size: 16px;
+  font-size: var(--brand-body-font-size);
   font-weight: 400;
-  line-height: 1.68;
+  line-height: var(--brand-body-line-height);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -164,6 +183,9 @@ a:any-link {
   text-decoration: none;
 }
 
+/* live theme: a:hover / a:active / a:focus keep the link colour (#304087) and no underline —
+   the base rule above already does that, so no hover override (it would repaint block links) */
+
 img {
   vertical-align: middle;
   border: 0;
@@ -183,6 +205,13 @@ input,
 textarea,
 select {
   font: inherit;
+}
+
+/* the theme strips focus outlines; keep a keyboard-only ring for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--brand-blue);
+  outline-offset: 2px;
 }
 
 strong {
@@ -331,6 +360,43 @@ a.button.secondary:any-link {
   color: var(--rbl-blue);
 }
 
+/* live .btn:active and .btn:disabled */
+a.button:any-link:active,
+button.button:active {
+  background: var(--rbl-blue-hover);
+  color: #fff;
+}
+
+button.button:disabled,
+a.button[aria-disabled="true"] {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* EDS button reset — scoped to the stock .button-container wrapper only. This project's
+   decorateButtons buttonizes authored strong/em links into p.button-wrapper > a.button.primary /
+   .secondary (the live .common-btn-blue / .common-btn-outline above), and blocks emit their own
+   a.button, so the unscoped stock reset would flatten every CTA on the migrated pages. */
+main .button-container {
+  display: inline;
+}
+
+main .button-container > a.button:any-link {
+  min-width: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+  white-space: normal;
+}
+
 /* stylelint-disable no-descending-specificity */
 
 /* Experience Workspace edit mode: repaint CTAs from their authored marks (EW3) */
@@ -399,4 +465,156 @@ main .section:empty {
 main img {
   max-width: 100%;
   height: auto;
+}
+
+/* ---- Default content: the live theme's base type (style.css h1–h6, .p18 .text-level2,
+   .disk-ul-common, .table). Scoped to default content at element specificity (:where) so
+   block markup keeps the reset base above and any block rule still wins. ---- */
+:where(main .default-content-wrapper) :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--brand-heading-font-family);
+  font-weight: var(--brand-heading-font-weight);
+  line-height: var(--brand-heading-line-height);
+  color: var(--brand-heading);
+}
+
+:where(main .default-content-wrapper) h1 {
+  margin: 0 0 15px;
+  font-size: var(--brand-heading-font-size-xxl);
+}
+
+:where(main .default-content-wrapper) h2 {
+  margin: 0 0 30px;
+  font-size: var(--brand-heading-font-size-xl);
+  color: var(--brand-ink);
+}
+
+:where(main .default-content-wrapper) h3 {
+  margin: 10px 0;
+  font-size: var(--brand-heading-font-size-l);
+}
+
+:where(main .default-content-wrapper) h4 {
+  margin: 10px 0;
+  font-size: var(--brand-heading-font-size-m);
+}
+
+:where(main .default-content-wrapper) :is(h5, h6) {
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+:where(main .default-content-wrapper) h5 {
+  font-size: var(--brand-heading-font-size-s);
+}
+
+:where(main .default-content-wrapper) h6 {
+  font-size: var(--brand-heading-font-size-xs);
+}
+
+:where(main .default-content-wrapper) p {
+  margin: 0 0 20px;
+  color: var(--brand-copy);
+  font-size: var(--brand-copy-font-size);
+  line-height: var(--brand-body-line-height);
+}
+
+:where(main .default-content-wrapper) :is(ul, ol) {
+  margin: 0 0 20px 26px;
+  padding: 0;
+  color: var(--brand-copy);
+  font-size: var(--brand-copy-font-size);
+}
+
+:where(main .default-content-wrapper) ul {
+  list-style: disc;
+}
+
+:where(main .default-content-wrapper) ol {
+  list-style: decimal;
+}
+
+:where(main .default-content-wrapper) li {
+  margin: 0 0 10px;
+  line-height: 1.68rem;
+}
+
+:where(main .default-content-wrapper) li :is(ul, ol) {
+  margin: 10px 0 0 26px;
+}
+
+:where(main .default-content-wrapper) table {
+  width: 100%;
+  margin: 0 0 16px;
+  border-collapse: collapse;
+  font-size: var(--brand-body-font-size);
+}
+
+:where(main .default-content-wrapper) :is(th, td) {
+  padding: 8px;
+  border: 1px solid var(--brand-table-rule);
+  color: var(--brand-copy);
+  text-align: left;
+  vertical-align: middle;
+}
+
+:where(main .default-content-wrapper) th {
+  background: var(--brand-table-head);
+  font-weight: 700;
+}
+
+/* last child, and paragraphs that render nothing (e.g. the empty video links a rail block
+   reads from its section) add no spacing */
+:where(main .default-content-wrapper) > :last-child,
+:where(main .default-content-wrapper) p:is(:empty, :has(> a:only-child:empty)) {
+  margin-bottom: 0;
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* default-content CTAs: live .btn (48px) — primary = .common-btn-blue (base rule above),
+   secondary = .common-btn-outline: transparent, #303030 1px outline, hover to the brand blue */
+:where(main .default-content-wrapper) a.button:any-link {
+  height: var(--brand-button-height);
+}
+
+:where(main .default-content-wrapper) a.button.secondary:any-link {
+  border: 1px solid var(--brand-ink);
+  background: transparent;
+  color: var(--brand-ink);
+}
+
+:where(main .default-content-wrapper) a.button.secondary:any-link:hover,
+:where(main .default-content-wrapper) a.button.secondary:any-link:focus-visible {
+  border-color: var(--brand-blue);
+  background: transparent;
+  color: var(--brand-blue);
+}
+
+/* stylelint-enable no-descending-specificity */
+
+@media (width >= 768px) {
+  :where(main .default-content-wrapper) h1 {
+    font-size: var(--brand-heading-font-size-xxl-desktop);
+  }
+
+  :where(main .default-content-wrapper) h2 {
+    font-size: var(--brand-heading-font-size-xl-desktop);
+  }
+}
+
+/* ---- Section variants (section-metadata Style): the live .common-section bands ---- */
+main > .section:is(.light, .lavender) {
+  background: var(--brand-light);
+}
+
+main > .section.highlight {
+  background: var(--brand-highlight);
+}
+
+main > .section.grey {
+  background: var(--brand-grey);
+}
+
+main > .section:is(.light, .lavender, .highlight, .grey, .padded) {
+  padding: var(--brand-section-padding) 0;
 }

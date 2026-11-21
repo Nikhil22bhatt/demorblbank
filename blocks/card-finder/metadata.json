@@ -1,0 +1,36 @@
+{
+  "variantName": "card-finder",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:36.615Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "originPage": "/personal-banking/cards/credit-cards/category"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + text + field + image + list + link",
+    "purpose": "filterable catalogue",
+    "summary": "Filterable credit-card catalogue: category tabs (optional icons), a live \"Showing N Cards\" count, and a grid of cards (image, title, bullet list, Know More / Apply Now CTAs) filtered client-side by category."
+  },
+  "contentPattern": {
+    "structure": "Optional intro row; optional tabs row [Filters | tab | tab ...]; optional count row \"Showing {count} Cards\"; one card per row [image | title + list + links | comma-separated categories]."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_2f322fe25715-12"
+  ],
+  "usage": "Filterable credit-card catalogue: category tabs (optional icons), a live \"Showing N Cards\" count, and a grid of cards (image, title, bullet list, Know More / Apply Now CTAs) filtered client-side by category.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "product catalogues filtered by category tabs"
+    ],
+    "notSuitableFor": [
+      "contact or lead forms (the report-a-fraud instance is a form, not a card finder)"
+    ]
+  }
+}

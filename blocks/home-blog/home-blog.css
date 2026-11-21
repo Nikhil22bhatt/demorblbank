@@ -149,6 +149,14 @@
   line-height: 20.16px;
 }
 
+/* orange (insignia related-blog rail): the date is itself a link (p.date > a.text-white) */
+.home-blog .story-card-date a:any-link {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .home-blog .story-card-title {
   position: relative;
 }
@@ -188,5 +196,104 @@
 
   .home-blog .rail-nav {
     display: flex;
+  }
+}
+
+/* rail only (no title row): the inner-page related-blog slick (.related-blog-slick.mb30) —
+   sits in the page container, no tinted panel; 266px cards below 768 */
+.home-blog.block:not(:has(.rail-head)) {
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto 30px;
+  padding: 0;
+  background: transparent;
+}
+
+.home-blog:not(:has(.rail-head)) .container {
+  max-width: none;
+  padding: 0;
+}
+
+.home-blog:not(:has(.rail-head)) .rail {
+  margin-bottom: 0;
+}
+
+.home-blog:not(:has(.rail-head)) .rail-cta {
+  margin-top: 30px;
+}
+
+.home-blog:not(:has(.rail-head)) .rail-item {
+  width: 266px;
+}
+
+@media (width >= 768px) {
+  .home-blog:not(:has(.rail-head)) .rail-item {
+    width: 252px;
+  }
+}
+
+/* ---- options (structural; colours are placeholder hooks for the design pass) ---- */
+
+/* light / orange: the same story rail on a tinted section; text sits on a coloured panel */
+.home-blog.light,
+.home-blog.orange {
+  background: var(--home-blog-section-bg, transparent);
+}
+
+.home-blog.light .story-card-inner,
+.home-blog.orange .story-card-inner {
+  background: var(--home-blog-panel-bg, transparent);
+}
+
+/* shadow: quick-link tiles — icon above a centred label, no photo overlay */
+.home-blog.shadow .story-card {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  min-height: 170px;
+  padding: 24px 16px;
+  background: var(--home-blog-tile-bg, #fff);
+  box-shadow: var(--home-blog-tile-shadow, 0 2px 4px rgb(0 0 0 / 15%));
+  text-align: center;
+}
+
+.home-blog.shadow .story-card::after,
+.home-blog.shadow .story-card-title::after {
+  content: none;
+}
+
+.home-blog.shadow .story-card-bg {
+  position: static;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+.home-blog.shadow .story-card-bg img {
+  object-fit: contain;
+  object-position: center;
+}
+
+.home-blog.shadow .story-card-inner {
+  min-height: 0;
+  padding: 0;
+}
+
+.home-blog.shadow .story-card:hover .story-card-inner {
+  top: 0;
+}
+
+.home-blog.shadow .story-card-title p {
+  font-weight: 400;
+}
+
+.home-blog.shadow .story-card-title a:any-link {
+  color: inherit;
+}
+
+@media (width >= 768px) {
+  .home-blog.shadow .rail-item {
+    width: 160px;
   }
 }

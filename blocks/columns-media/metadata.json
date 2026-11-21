@@ -1,0 +1,90 @@
+{
+  "variantName": "columns-media",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:27.502Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/blog/banking/credit-card/4-reasons-why-you-need-the-rbl-bank-cookies-credit-card"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + link + image",
+    "purpose": "Text beside media (image, video embed or image slider), with boxed, grey and background-image treatments"
+  },
+  "contentPattern": {
+    "structure": "Each row: [text cell: heading, text, lists, CTA] [media cell: picture, a single YouTube/Vimeo/.mp4 link, or several pictures with image-slider]. Single-cell rows span full width. With background-image options, a single-cell picture-only row becomes the block background"
+  },
+  "options": [
+    {
+      "class": "boxed",
+      "label": "Boxed"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "background-image",
+      "label": "Background Image"
+    },
+    {
+      "class": "boxed-blue",
+      "label": "Boxed Blue"
+    },
+    {
+      "class": "grey-2",
+      "label": "Grey 2"
+    },
+    {
+      "class": "boxed-2",
+      "label": "Boxed 2"
+    },
+    {
+      "class": "image-slider",
+      "label": "Image Slider"
+    },
+    {
+      "class": "boxed-dark",
+      "label": "Boxed Dark"
+    },
+    {
+      "class": "background-image-2",
+      "label": "Background Image 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_7559af6603a9",
+    "v_ea2658f51749",
+    "v_b3de88521e53",
+    "v_c40945605547",
+    "v_b39cb25b6207-16",
+    "v_14e9cbf0ea19",
+    "v_278ba58d9725",
+    "v_43cd9e9c5db7",
+    "v_48024dc14ffa",
+    "v_754d4b1cf3b1",
+    "v_88bc0624b113-1",
+    "v_ab8f5ad9e85c",
+    "v_bfe073be372d",
+    "v_c5db73db8d1c",
+    "v_e3ab854d52da"
+  ],
+  "usage": "Text beside media (image, video embed or image slider), with boxed, grey and background-image treatments.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature/product sections with image or video",
+      "blog inline text+image",
+      "partner offer boxes",
+      "dark/background-image showcase sections"
+    ],
+    "notSuitableFor": [
+      "Q&A interviews (use columns-interview)",
+      "profile bios (use columns-profile)",
+      "dense listings (use columns-location)"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "variantName": "apr-calculator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:36.615Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/apr-calculator",
+    "originPage": "/apr-calculator"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link + text + field",
+    "purpose": "calculator",
+    "summary": "Loan APR/EMI calculator: five slider fields (loan amount, interest rate, tenure in months, processing fees, other charges) with synced number inputs and a Reset, and a result panel showing APR % and EMI amount. Client-side only."
+  },
+  "contentPattern": {
+    "structure": "One row per item: optional heading; field rows [label | min | max | default | step] identified by label keywords (amount, rate, tenure, fees, charges); one-cell result label rows containing APR / EMI; a Reset row; link rows as CTAs."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_772ddf7bcb82"
+  ],
+  "usage": "Loan APR/EMI calculator: five slider fields (loan amount, interest rate, tenure in months, processing fees, other charges) with synced number inputs and a Reset, and a result panel showing APR % and EMI amount. Client-side only.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "loan APR / EMI calculators"
+    ],
+    "notSuitableFor": [
+      "deposit or investment calculators (use fd-calculator / investment-calculator)"
+    ]
+  }
+}

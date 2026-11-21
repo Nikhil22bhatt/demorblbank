@@ -1,0 +1,133 @@
+{
+  "variantName": "about-banner",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "image-banner",
+    "summary": "About Us page banner: full-width image (separate desktop/mobile) with the page heading and intro paragraphs."
+  },
+  "contentPattern": {
+    "structure": "Row of picture cells (desktop image, optional mobile image) + text cell with heading and paragraphs."
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "split-background",
+      "label": "Split Background"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "product-cutout",
+      "label": "Product Cutout"
+    },
+    {
+      "class": "product-cutout-light",
+      "label": "Product Cutout Light"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "product-cutout-image-left",
+      "label": "Product Cutout Image Left"
+    },
+    {
+      "class": "orange-light",
+      "label": "Orange Light"
+    },
+    {
+      "class": "split-background-2",
+      "label": "Split Background 2"
+    },
+    {
+      "class": "product-cutout-cyan",
+      "label": "Product Cutout Cyan"
+    },
+    {
+      "class": "product-cutout-red",
+      "label": "Product Cutout Red"
+    },
+    {
+      "class": "full-bleed",
+      "label": "Full Bleed"
+    },
+    {
+      "class": "blue-light",
+      "label": "Blue Light"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    },
+    {
+      "class": "product-cutout-2",
+      "label": "Product Cutout 2"
+    },
+    {
+      "class": "product-cutout-orange",
+      "label": "Product Cutout Orange"
+    },
+    {
+      "class": "light-3",
+      "label": "Light 3"
+    },
+    {
+      "class": "product-cutout-3",
+      "label": "Product Cutout 3"
+    },
+    {
+      "class": "product-cutout-purple",
+      "label": "Product Cutout Purple"
+    }
+  ],
+  "memberVariantIds": [
+    "about-banner",
+    "v_b39cb25b6207",
+    "v_b39cb25b6207-1",
+    "v_b39cb25b6207-2",
+    "v_b39cb25b6207-9",
+    "v_b39cb25b6207-14",
+    "v_b39cb25b6207-3",
+    "v_b39cb25b6207-17",
+    "v_b39cb25b6207-4",
+    "v_b39cb25b6207-15",
+    "v_b39cb25b6207-5",
+    "v_b39cb25b6207-10",
+    "v_b39cb25b6207-18",
+    "v_b39cb25b6207-6",
+    "v_b39cb25b6207-7",
+    "v_13780d62a271",
+    "v_b39cb25b6207-11",
+    "v_b39cb25b6207-12",
+    "v_b39cb25b6207-13",
+    "v_b39cb25b6207-19",
+    "v_b39cb25b6207-20",
+    "v_b39cb25b6207-21",
+    "v_b39cb25b6207-22",
+    "v_b39cb25b6207-23",
+    "v_b39cb25b6207-8"
+  ],
+  "usage": "About Us page banner: full-width image (separate desktop/mobile) with the page heading and intro paragraphs.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "page banner with responsive desktop/mobile images"
+    ],
+    "notSuitableFor": [
+      "carousels (use hero-carousel)"
+    ]
+  }
+}

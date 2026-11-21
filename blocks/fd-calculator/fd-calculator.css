@@ -544,3 +544,21 @@
     line-height: 26.88px;
   }
 }
+
+/* ---- option: alt — the options row only (deposit type radios + interest payout select);
+   the form, result table and terms are not shown ---- */
+.fd-calculator.alt.block {
+  padding: 0;
+}
+
+.fd-calculator.alt :is(.fdc-head, .fdc-grid, .fdc-terms) {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .fd-calculator.alt .fdc-top {
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+}

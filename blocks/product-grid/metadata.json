@@ -1,0 +1,54 @@
+{
+  "variantName": "product-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking",
+    "originPage": "/business-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "product-grid",
+    "summary": "Listing intro paragraphs followed by a grid of product cards (image, heading, copy, CTA)."
+  },
+  "contentPattern": {
+    "structure": "Intro row (paragraphs only) + card rows [picture] [heading + copy + CTA link paragraph]."
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    },
+    {
+      "class": "image-blue",
+      "label": "Image Blue"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "product-grid",
+    "v_5a49b4721c88-1",
+    "v_8b97f49700de-1",
+    "v_8b97f49700de-3",
+    "v_767f97c381ce",
+    "v_c15d7ec7e26e"
+  ],
+  "usage": "Listing intro paragraphs followed by a grid of product cards (image, heading, copy, CTA).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "product listings on category pages"
+    ],
+    "notSuitableFor": [
+      "horizontal rails (use product-cards)"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "app-band",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking",
+    "originPage": "/business-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image",
+    "purpose": "app-promo",
+    "summary": "RBL MyBank app promo band: full-bleed image (phone image on mobile) with heading, tagline and store badges."
+  },
+  "contentPattern": {
+    "structure": "Media row (band picture, mobile phone picture) + copy (heading, tagline, paragraph of linked store badges)."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "app-band"
+  ],
+  "usage": "RBL MyBank app promo band: full-bleed image (phone image on mobile) with heading, tagline and store badges.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "mobile app download promo band"
+    ],
+    "notSuitableFor": [
+      "multi-slide banners (use app-banner)"
+    ]
+  }
+}

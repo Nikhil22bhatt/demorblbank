@@ -1,0 +1,36 @@
+{
+  "variantName": "columns-interview",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:27.502Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/careers/empowering-women/ami-doctor"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + image",
+    "purpose": "Employee interview layout: intro and Q/A boxes beside a portrait image"
+  },
+  "contentPattern": {
+    "structure": "Each row: [text cell: intro paragraph, then paragraphs starting with \"Q:\" and \"A:\"] [image cell]. Q:/A: paragraphs (plus following paragraphs) are wrapped into question/answer boxes"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_9fb42ae89b1e"
+  ],
+  "usage": "Employee interview layout: intro and Q/A boxes beside a portrait image.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "careers / empowering-women interview pages",
+      "Q&A with a side image"
+    ],
+    "notSuitableFor": [
+      "FAQs without an image (use an accordion)",
+      "generic text + image (use columns-media)"
+    ]
+  }
+}

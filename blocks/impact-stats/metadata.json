@@ -1,0 +1,55 @@
+{
+  "variantName": "impact-stats",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "stats",
+    "summary": "Impact counters: icon + figure + label per stat, with an \"as updated on\" note; fades up on scroll."
+  },
+  "contentPattern": {
+    "structure": "Rows: [icon picture] [figure heading + label]; a single text cell row is the date note."
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "impact-stats",
+    "v_93ae00b2b520",
+    "v_88bc0624b113",
+    "v_43cd9e9c5db7-1",
+    "v_bc1f312fb0d1-2",
+    "v_755fc6e5f9cf",
+    "v_dec9f5b4da44"
+  ],
+  "usage": "Impact counters: icon + figure + label per stat, with an \"as updated on\" note; fades up on scroll.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "key figures / counters with icons"
+    ],
+    "notSuitableFor": [
+      "product cards"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+/* table-data: Bootstrap .table.table-bordered.investment_table as the source renders it.
+   Mobile is the base; the table scrolls inside .table-data-scroll instead of overflowing. */
+.table-data {
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto;
+  color: var(--brand-text);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.table-data .table-data-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-data table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 13.712px;
+  line-height: 26.88px;
+}
+
+.table-data tr {
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #dee2e6;
+}
+
+.table-data th,
+.table-data td {
+  padding: 8px;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #efefef;
+  color: var(--brand-text);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-data td {
+  text-indent: 14px;
+}
+
+.table-data thead tr {
+  background: var(--rbl-nav-gradient);
+}
+
+.table-data th {
+  padding: 4px 8px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+}
+
+.table-data th strong {
+  font-weight: 700;
+}
+
+.table-data th p,
+.table-data td p {
+  margin: 0;
+}
+
+.table-data td p + p {
+  margin-top: 0.25em;
+}
+
+.table-data a:any-link {
+  color: var(--brand-link);
+  font-size: 13.712px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.table-data a:any-link:hover {
+  text-decoration: underline;
+}
+
+/* dark option */
+.table-data.dark th,
+.table-data.dark td {
+  background-color: var(--dark-color, #222);
+  color: var(--background-color, #fff);
+}
+
+.table-data.dark a:any-link {
+  color: inherit;
+}
+
+@media (width >= 900px) {
+  .table-data th {
+    padding: 8px;
+  }
+}

@@ -50,7 +50,10 @@ export default function decorate(block) {
     const cells = [...r.children];
     const picCell = cells.find((c) => media(c) && !c.textContent.trim());
     const textCells = cells.filter((c) => c !== picCell);
-    if (!picCell) {
+    /* option `light`: text-only rows are link columns (cards without an icon), not notes */
+    const textCard = !picCell && block.classList.contains('light')
+      && textCells.some((c) => c.querySelector('h1, h2, h3, h4, h5, h6, a'));
+    if (!picCell && !textCard) {
       textCells.forEach((c) => notes.push(...c.children));
       return;
     }
@@ -60,10 +63,11 @@ export default function decorate(block) {
       'data-aos-delay': String(DELAYS[n % DELAYS.length]),
     });
     const icon = el('div', 'stat-icon');
-    icon.append(media(picCell));
+    if (picCell) icon.append(media(picCell));
     const body = el('div', 'stat-body');
     textCells.forEach((c) => [...c.children].forEach((node) => body.append(node)));
-    card.append(icon, body);
+    if (picCell) card.append(icon);
+    card.append(body);
     col.append(card);
     row.append(col);
     n += 1;
@@ -73,6 +77,33 @@ export default function decorate(block) {
     const note = el('div', 'stat-note');
     notes.forEach((node) => note.append(node));
     row.append(note);
+  }
+
+  /* layouts classified by content (default look only; variants keep their own):
+     feature — a single picture row beside heading + copy (full-bleed media panel)
+     links   — no stat rows, only a list of links (the "Important Links:" bar) */
+  const variant = [...block.classList].some((c) => ['light', 'shadow', 'orange', 'dark'].includes(c));
+  if (!variant && n === 1 && !notes.length && row.querySelector('.stat-icon :is(picture, img)')
+    && row.querySelector('.stat-body :is(h1, h2, h3, h4, h5, h6)')) {
+    block.classList.add('feature');
+  }
+  if (!variant && n === 0 && notes.some((node) => node.matches('ul, ol'))) {
+    block.classList.add('links');
+  }
+
+  /* light cards: the copy above the call-to-action is one group (equal-height top block) */
+  if (block.classList.contains('light')) {
+    row.querySelectorAll('.stat-body').forEach((body) => {
+      const cta = [...body.children].find((c) => c.matches('p')
+        && c.querySelector('a') && c.textContent.trim() === c.querySelector('a').textContent.trim());
+      if (!cta) return;
+      cta.classList.add('stat-cta');
+      const before = [...body.children].slice(0, [...body.children].indexOf(cta));
+      if (!before.length) return;
+      const top = el('div', 'stat-top');
+      before.forEach((node) => top.append(node));
+      body.prepend(top);
+    });
   }
   container.append(row);
   block.replaceChildren(container);

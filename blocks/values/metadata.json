@@ -1,0 +1,33 @@
+{
+  "variantName": "values",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "values-split",
+    "summary": "Vision / Mission / CSR and Careers module: headed groups, mission card on background image, alternating image/text split rows with CTAs."
+  },
+  "contentPattern": {
+    "structure": "Heading rows (h2), vision (h3 text), mission [h3 + text] [background picture], split [picture] [h4 + text + CTA] or reversed."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "values"
+  ],
+  "usage": "Vision / Mission / CSR and Careers module: headed groups, mission card on background image, alternating image/text split rows with CTAs.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "vision/mission statements",
+      "alternating image/text rows with CTAs"
+    ],
+    "notSuitableFor": [
+      "product grids"
+    ]
+  }
+}

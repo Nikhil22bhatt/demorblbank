@@ -148,15 +148,21 @@ export default function decorate(block) {
     const card = el('div', 'story-card');
     const bg = el('div', 'story-card-bg');
     const inner = el('div', 'story-card-inner');
+    const texts = [];
     [...row.children].forEach((cell) => items(cell).forEach((n) => {
       if (n.matches('picture') || (n.querySelector('picture, img') && !n.textContent.trim())) {
         bg.append(n);
         return;
       }
-      const box = el('div', n.querySelector('a[href]') ? 'story-card-title' : 'story-card-date');
+      texts.push(n);
+    }));
+    /* the last linked item is the title; anything before it (a plain or linked date) is a date */
+    const title = texts.filter((n) => n.querySelector('a[href]')).pop();
+    texts.forEach((n) => {
+      const box = el('div', n === title ? 'story-card-title' : 'story-card-date');
       box.append(n);
       inner.append(box);
-    }));
+    });
     card.append(bg, inner);
     return card;
   });

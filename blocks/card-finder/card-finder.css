@@ -1,0 +1,99 @@
+/* card-finder — structural layout only; brand styling comes in the design pass */
+.card-finder .card-finder-intro {
+  text-align: center;
+}
+
+.card-finder .card-finder-tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: 8px 0;
+  scrollbar-width: none;
+}
+
+.card-finder .card-finder-tab {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 88px;
+  padding: 8px 12px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.card-finder .card-finder-tab[aria-selected="true"] {
+  border-bottom-color: currentcolor;
+  font-weight: 700;
+}
+
+.card-finder .card-finder-tab-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.card-finder .card-finder-count {
+  margin: 16px 0;
+}
+
+.card-finder .card-finder-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card-finder .card-finder-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-finder .card-finder-card[hidden] {
+  display: none;
+}
+
+.card-finder .card-finder-card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-finder .card-finder-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.card-finder .card-finder-card-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+@media (width >= 600px) {
+  .card-finder .card-finder-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .card-finder .card-finder-tabs {
+    justify-content: center;
+  }
+
+  .card-finder .card-finder-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

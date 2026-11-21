@@ -115,3 +115,498 @@
     margin: 25px 0 -25px;
   }
 }
+
+/* ---- options (structural; colours are placeholder hooks for the design pass) ---- */
+.impact-stats:is(.light, .shadow, .orange) {
+  margin-top: 0;
+  background: var(--impact-stats-bg, transparent);
+}
+
+/* light: two bordered FD cards — copy, a call-to-action and a feature list each */
+.impact-stats.light {
+  padding: 45px 0;
+  color: rgb(33 37 41);
+}
+
+.impact-stats.light .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  border: 1px solid #dbe0f2;
+}
+
+.impact-stats.light .col-md-3 {
+  flex: 1 1 100%;
+  padding: 0;
+}
+
+.impact-stats.light .col-md-3:not(:last-child) {
+  border-bottom: 1px solid #dbe0f2;
+}
+
+.impact-stats.light .stat-card {
+  display: block;
+  max-width: none;
+  margin: 0;
+  padding: 22px 25px;
+  border-radius: 0;
+  background: transparent;
+  text-align: start;
+}
+
+.impact-stats.light .stat-top {
+  margin: 0 0 20px;
+}
+
+.impact-stats.light .stat-body h4 {
+  margin: 0 0 10px;
+  font-family: var(--brand-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: var(--brand-heading);
+  text-align: start;
+}
+
+/* "Features:" is a bold inline run on the source: size the heading to its text */
+.impact-stats.light .stat-body > h4 {
+  width: fit-content;
+}
+
+.impact-stats.light .stat-top h4 {
+  font-weight: 400;
+}
+
+.impact-stats.light .stat-body p {
+  margin: 0;
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+  line-height: 30.24px;
+  color: var(--brand-copy);
+  text-align: start;
+}
+
+.impact-stats.light .stat-body .stat-cta {
+  display: flex;
+  margin: 0 0 30px;
+}
+
+.impact-stats.light .stat-cta a:any-link {
+  display: inline-block;
+  min-height: var(--brand-button-height);
+  padding: 10px 20px;
+  border: 0;
+  border-radius: var(--brand-button-radius);
+  background-color: var(--brand-blue);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.impact-stats.light .stat-body ul {
+  margin: 0;
+  padding: 0 0 0 26px;
+  list-style: disc;
+}
+
+.impact-stats.light .stat-body li {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 26.88px;
+  color: var(--brand-copy);
+}
+
+.impact-stats.light .stat-body li::marker {
+  color: var(--brand-blue);
+}
+
+.impact-stats.light .stat-body li a:any-link {
+  color: var(--brand-link);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* shadow: document tiles — small icon beside a left-aligned label, on a panel */
+.impact-stats.shadow .container {
+  padding: 24px;
+  border-radius: 10px;
+  background: var(--impact-stats-panel-bg, transparent);
+  box-shadow: var(--impact-stats-panel-shadow, 0 2px 4px rgb(0 0 0 / 15%));
+}
+
+.impact-stats.shadow .stat-card {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: none;
+  margin: 0 0 16px;
+  padding: 24px;
+  text-align: left;
+}
+
+.impact-stats.shadow .stat-icon,
+.impact-stats.shadow .stat-icon :is(picture, img) {
+  width: 36px;
+  height: 36px;
+}
+
+.impact-stats.shadow .stat-icon {
+  flex: 0 0 auto;
+  margin: 0 16px 0 0;
+}
+
+.impact-stats.shadow .stat-body :is(h2, h3, h4, p) {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* orange: the Insignia "Your Team" panel (.ing_content_second_nth) — round photo above
+   (mobile) / beside (lg) a gold-barred heading, copy and a gold-bulleted list, full bleed on
+   the pale-olive gradient */
+.impact-stats.orange {
+  padding: 45px 0 0;
+  background: linear-gradient(to top, rgb(235 236 195) 88%, rgb(248 249 215) 50%);
+  color: rgb(33 37 41);
+}
+
+.impact-stats.orange .container {
+  max-width: none;
+  padding: 0;
+}
+
+.impact-stats.orange .row {
+  margin: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.impact-stats.orange .col-md-3 {
+  width: 100%;
+  padding: 0;
+}
+
+.impact-stats.orange .stat-card {
+  display: grid;
+  gap: 0;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  text-align: start;
+}
+
+.impact-stats.orange .stat-icon {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0 33px;
+}
+
+.impact-stats.orange .stat-icon :is(picture, img) {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.impact-stats.orange .stat-body {
+  padding: 0 0 0 15px;
+}
+
+.impact-stats.orange .stat-body h2 {
+  position: relative;
+  margin: 20px 0 6px;
+  padding: 0 0 0 23px;
+  font-family: var(--brand-heading-font-family);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 49px;
+  color: rgb(9 16 72);
+  text-align: start;
+}
+
+.impact-stats.orange .stat-body h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  background: rgb(172 130 48);
+}
+
+.impact-stats.orange .stat-body p {
+  margin: 20px 0 10px;
+  padding: 0 20px;
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+  line-height: 30.24px;
+  color: rgb(55 63 65);
+  text-align: start;
+}
+
+.impact-stats.orange .stat-body ul ~ p {
+  margin-bottom: 20px;
+}
+
+.impact-stats.orange .stat-body ul {
+  margin: 0 12px 0 0;
+  padding: 0 0 0 26px;
+  list-style: disc;
+}
+
+.impact-stats.orange .stat-body li {
+  padding-bottom: 2px;
+  font-size: 18px;
+  line-height: 26.88px;
+  color: rgb(55 63 65);
+}
+
+.impact-stats.orange .stat-body li::marker {
+  color: rgb(172 130 48);
+}
+
+/* dark, and the variant-less links bar: "Important Links:" then document links —
+   stacked on mobile, one line with "|" separators on desktop */
+.impact-stats:is(.dark, .links) {
+  margin-top: 0;
+  padding: 0;
+  background: linear-gradient(rgb(0 0 0), rgb(26 26 26));
+  color: rgb(33 37 41);
+}
+
+.impact-stats:is(.dark, .links) .container {
+  max-width: none;
+  padding: 0;
+}
+
+.impact-stats:is(.dark, .links) .row {
+  margin: 0;
+}
+
+.impact-stats:is(.dark, .links) .row > .stat-note {
+  margin: 0;
+  padding: 25px 52px 15px;
+}
+
+.impact-stats:is(.dark, .links) .stat-note ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: outfit, var(--brand-font-family);
+  font-size: 16px;
+  line-height: 26.88px;
+  color: #fff;
+  text-align: justify;
+}
+
+.impact-stats:is(.dark, .links) .stat-note li {
+  margin: 0 0 5px;
+}
+
+.impact-stats:is(.dark, .links) .stat-note strong {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.impact-stats:is(.dark, .links) .stat-note :is(h2, h3, h4, p) {
+  margin: 0;
+  color: inherit;
+  font-style: normal;
+  text-align: inherit;
+}
+
+.impact-stats:is(.dark, .links) .stat-note li a:any-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* feature (variant-less, one picture row): full-bleed photo + copy on the navy panel */
+.impact-stats.feature {
+  margin-top: 0;
+  padding: 0;
+  background: none;
+  color: rgb(33 37 41);
+}
+
+.impact-stats.feature .container {
+  max-width: none;
+  padding: 0;
+  background: rgb(24 27 47);
+}
+
+.impact-stats.feature .row {
+  margin: 0;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.impact-stats.feature .col-md-3 {
+  width: 100%;
+  padding: 0;
+}
+
+.impact-stats.feature .stat-card {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  text-align: start;
+}
+
+.impact-stats.feature .stat-icon {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.impact-stats.feature .stat-icon :is(picture, img) {
+  width: 100%;
+  height: auto;
+}
+
+.impact-stats.feature .stat-body {
+  padding: 20px;
+}
+
+.impact-stats.feature .stat-body h2 {
+  margin: 0 0 15px;
+  font-family: Averox, var(--brand-heading-font-family);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+  text-align: start;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.impact-stats.feature .stat-body p {
+  margin: 0 0 10px;
+  font-family: "Noto Sans", var(--brand-font-family);
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  text-align: start;
+}
+
+@media (width >= 768px) {
+  .impact-stats.light .col-md-3 {
+    flex: 1 1 0;
+    width: auto;
+  }
+
+  .impact-stats.light .col-md-3:not(:last-child) {
+    border-right: 1px solid #dbe0f2;
+    border-bottom: 0;
+  }
+
+  .impact-stats.light .stat-top {
+    min-height: 120px;
+  }
+
+  .impact-stats:is(.dark, .links) .row > .stat-note {
+    padding: 28px max(52px, calc((100% - 1230px) / 2));
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note li {
+    margin: 0;
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note li + li {
+    margin-left: 10px;
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note li + li + li {
+    margin-left: 12px;
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note li + li + li::before {
+    content: "|";
+    margin-right: 12px;
+  }
+
+  .impact-stats:is(.dark, .links) .stat-note strong {
+    font-size: 28px;
+  }
+
+  .impact-stats.feature .stat-icon {
+    margin: 0;
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  .impact-stats.shadow .col-md-3 {
+    width: 50%;
+  }
+
+  .impact-stats.shadow .stat-icon {
+    margin: 0 16px 0 0;
+  }
+}
+
+@media (width >= 992px) {
+  .impact-stats.orange {
+    padding: 0;
+    background: linear-gradient(to top, rgb(235 236 195) 86%, rgb(248 249 215) 50%);
+  }
+
+  .impact-stats.orange .stat-card {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .impact-stats.orange .stat-icon {
+    padding: 0 0 0 71px;
+  }
+
+  .impact-stats.orange .stat-icon :is(picture, img) {
+    width: 420px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .impact-stats.orange .stat-body {
+    padding: 90px 0 0 12px;
+  }
+
+  .impact-stats.orange .stat-body h2 {
+    font-size: 34px;
+  }
+
+  .impact-stats.orange .stat-body p {
+    padding: 0;
+  }
+
+  .impact-stats.orange .stat-body :is(ul, ul ~ p) {
+    margin-right: 35px;
+  }
+
+  .impact-stats.feature .stat-card {
+    display: grid;
+    grid-template-columns: minmax(0, 715fr) minmax(0, 725fr);
+    align-items: center;
+  }
+
+  .impact-stats.feature .stat-icon {
+    grid-area: 1 / 1;
+  }
+
+  .impact-stats.feature .stat-body {
+    grid-area: 1 / 2;
+    padding: 0 40px 0 45px;
+  }
+}

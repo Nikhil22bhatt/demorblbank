@@ -1,0 +1,37 @@
+{
+  "variantName": "investment-calculator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:36.615Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/personal-banking/wealth-management",
+    "originPage": "/personal-banking/wealth-management"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + field + table",
+    "purpose": "calculator",
+    "summary": "Lump-sum investment calculator: amount, tenure (Year + Months inputs on a months slider) and expected annual growth sliders, with maturity value, principal and interest outputs and a CTA. Client-side only, annual compounding."
+  },
+  "contentPattern": {
+    "structure": "One row per item: optional heading; field rows [label | min | max | default | step] identified by label keywords (amount, keep/tenure, grow/rate); one-cell output label rows (value/maturity, principal, interest); link row as CTA."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_c3171b75ffc9"
+  ],
+  "usage": "Lump-sum investment calculator: amount, tenure (Year + Months inputs on a months slider) and expected annual growth sliders, with maturity value, principal and interest outputs and a CTA. Client-side only, annual compounding.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "one-time / lump-sum investment growth calculators"
+    ],
+    "notSuitableFor": [
+      "loan EMI calculators (use apr-calculator)",
+      "SIP / recurring calculators"
+    ]
+  }
+}

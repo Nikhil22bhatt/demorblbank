@@ -1,0 +1,48 @@
+{
+  "variantName": "video-inline",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:44.080Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/blog/banking/safe-banking/8-types-of-bank-frauds-everyone-should-know",
+    "originPage": "/blog/banking/safe-banking/8-types-of-bank-frauds-everyone-should-know"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "video",
+    "summary": "Single embedded video (YouTube, Vimeo or MP4) inside an article, with an optional poster image and title; also a full-width looping decorative banner video."
+  },
+  "contentPattern": {
+    "structure": "One row: optional title/heading text, optional poster picture, and the video link (YouTube/Vimeo/MP4). With a poster the embed loads on click; without one it loads when scrolled into view."
+  },
+  "options": [
+    {
+      "class": "full-width-banner",
+      "label": "Full Width Banner"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "v_ae1fb5a6bfe0",
+    "v_833eae2d5809",
+    "v_a07b6691d84e"
+  ],
+  "usage": "Single embedded video (YouTube, Vimeo or MP4) inside an article, with an optional poster image and title; also a full-width looping decorative banner video.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "article videos",
+      "full-width decorative looping banner video (full-width-banner)"
+    ],
+    "notSuitableFor": [
+      "video carousels or rails",
+      "hero with text over video"
+    ]
+  }
+}

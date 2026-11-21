@@ -1,0 +1,36 @@
+{
+  "variantName": "blog-tools",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:44.080Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/blog",
+    "originPage": "/blog"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + text + field + button",
+    "summary": "Two side-by-side panels: newsletter signup (heading, description, email field, consent checkbox, Subscribe) and Archives (Year and Month selects, Submit)."
+  },
+  "contentPattern": {
+    "structure": "Row 1 (newsletter): heading + description paragraph, optional consent paragraph, optional link whose text is the button label and href the POST endpoint. Row 2 (archives; detected by \"Archive\" in the heading): heading, optional link to the archive listing page (text = button label; year/month sent as ?year=&month=), optional 4-digit earliest year."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_3aca0136e25b"
+  ],
+  "usage": "Two side-by-side panels: newsletter signup (heading, description, email field, consent checkbox, Subscribe) and Archives (Year and Month selects, Submit).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog newsletter signup plus archive navigation"
+    ],
+    "notSuitableFor": [
+      "general contact or lead forms",
+      "search"
+    ]
+  }
+}

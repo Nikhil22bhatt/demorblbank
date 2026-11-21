@@ -1,0 +1,36 @@
+{
+  "variantName": "branch-locator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:36.615Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/locate-us",
+    "originPage": "/locate-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + field + button + link",
+    "purpose": "search form",
+    "summary": "Find Branches & ATMs search: state and city selects, a collapsible service-type checklist, Reset/Search buttons, links under the form, and client-side results from authored rows or a same-origin JSON sheet."
+  },
+  "contentPattern": {
+    "structure": "Optional heading; key rows [State | All], [City | All], [Looking for | text], [Services | list], [Search | text], [Reset | text], [No results | text], [Data | link to .json]; location rows [name | type | state | city | address | services | phone/link]; a links-only row shown under the form."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_ce9f9981cbdb"
+  ],
+  "usage": "Find Branches & ATMs search: state and city selects, a collapsible service-type checklist, Reset/Search buttons, links under the form, and client-side results from authored rows or a same-origin JSON sheet.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "branch / ATM / store locators with state-city filters"
+    ],
+    "notSuitableFor": [
+      "map-based locators needing a geocoding API"
+    ]
+  }
+}

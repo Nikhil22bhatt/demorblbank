@@ -1,0 +1,167 @@
+/* callout — RBL boxed note (source: .general-text.terms-conditions) and options */
+.callout {
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid rgb(219 224 242);
+  border-radius: 2px;
+  background-color: rgb(248 250 255);
+  color: var(--brand-text);
+  font-family: var(--brand-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-align: start;
+}
+
+.callout .callout-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.callout .callout-media + .callout-body {
+  margin-top: 16px;
+}
+
+.callout .callout-media picture,
+.callout .callout-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.callout .callout-body p {
+  margin: 0;
+  color: var(--brand-ink);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.callout .callout-body > :last-child {
+  margin-bottom: 10px;
+}
+
+.callout a:any-link:not(.callout-link),
+main .callout a.button:any-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--brand-link);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.callout .button-container {
+  margin: 0;
+}
+
+/* tagline: one-line strip "Safe | Simple | Fast" (source: .banner-para.p20) */
+.callout.tagline {
+  width: fit-content;
+  max-width: calc(100% - 24px);
+  margin: 0 auto 15px max(12px, calc((100% - var(--container)) / 2 + 12px));
+  padding: 6px 15px;
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(48 48 48 / 60%);
+  color: rgb(255 255 255);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.callout.tagline .callout-body > :last-child {
+  margin-bottom: 0;
+}
+
+.callout.tagline .callout-tagline {
+  margin: 0;
+  color: rgb(255 255 255);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30.24px;
+}
+
+.callout .callout-tagline-sep {
+  margin: 0 10px;
+}
+
+/* blue: dark box */
+.callout.blue {
+  background-color: var(--brand-blue);
+  color: rgb(255 255 255);
+}
+
+.callout.blue p,
+.callout.blue a:any-link {
+  color: inherit;
+}
+
+/* summary: bordered text panel (source: inline-styled div, border #ccc, padding 5px 10px 0) */
+.callout.summary {
+  margin-bottom: 20px;
+  padding: 5px 10px 0;
+  border-color: rgb(204 204 204);
+  border-radius: 0;
+  background-color: transparent;
+  text-align: justify;
+}
+
+.callout.summary .callout-body,
+.callout.summary .callout-body p {
+  color: var(--brand-ink);
+  font-size: 18px;
+  line-height: 30.24px;
+}
+
+.callout.summary .callout-body p {
+  margin: 0 0 15px;
+}
+
+.callout.summary .callout-body > :last-child {
+  margin-bottom: 15px;
+}
+
+/* a bare-text cell (no paragraph) keeps the source's closing 15px paragraph gap */
+.callout.summary .callout-body:not(:has(> p)) {
+  padding-bottom: 15px;
+}
+
+main .callout.summary a:any-link:not(.callout-link) {
+  color: rgb(0 31 255);
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+/* shadow: elevated tile; whole tile clickable when it holds one link */
+.callout.shadow {
+  box-shadow: 0 2px 6px rgb(0 0 0 / 15%);
+  text-align: center;
+}
+
+.callout .callout-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .callout.tagline {
+    margin-bottom: 30px;
+  }
+}

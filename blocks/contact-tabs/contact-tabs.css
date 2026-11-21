@@ -377,3 +377,38 @@ main .contact-tabs-container {
     margin: 0;
   }
 }
+
+/* ---- option: alt — a cards-only row (e.g. the offices card beside a "write to us" card);
+   no tab strip or FAQ, the offices card takes two thirds of the row from 787px ---- */
+.contact-tabs.alt .card-deck-tab {
+  padding: 0 0 20px;
+}
+
+.contact-tabs.alt .mt40 {
+  margin-top: 0;
+}
+
+@media (width >= 787px) {
+  .contact-tabs.alt .contus {
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
+  }
+
+  .contact-tabs.alt .contus > .row {
+    display: contents;
+  }
+
+  .contact-tabs.alt .contus .col-md-12 {
+    flex: 2 1 0;
+    order: -1;
+  }
+
+  .contact-tabs.alt .contus .col-md-4 {
+    flex: 1 1 0;
+  }
+
+  .contact-tabs.alt .card-cont {
+    height: 100%;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "variantName": "tabs-card-selector",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:44.080Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+    "originPage": "/personal-banking/cards/credit-cards"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + image + text + link + video",
+    "summary": "Vertical list of credit-card tabs (card name + card image) beside a panel with \"Benefits for <card>\" heading, View Details / Apply Now links and a benefits animation video or image."
+  },
+  "contentPattern": {
+    "structure": "One row per card: cell 1 = tab label (heading with card name + card image); cell 2 = panel content (heading, links, image, .mp4 link for video) or a single link to a fragment (e.g. /fragments/cards/platinum-maxima-plus) that is loaded when the tab is first opened."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_f2b2cd992410"
+  ],
+  "usage": "Vertical list of credit-card tabs (card name + card image) beside a panel with \"Benefits for <card>\" heading, View Details / Apply Now links and a benefits animation video or image.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "choosing between several products, each with its own detail panel"
+    ],
+    "notSuitableFor": [
+      "horizontal text-only tabs",
+      "FAQ accordions"
+    ]
+  }
+}

@@ -123,7 +123,9 @@
 }
 
 .product-cards .product-card-body {
+  display: flex;
   flex: 1;
+  flex-direction: column;
   padding: 23px 20px 30px;
   background: #e9ecf7;
 }
@@ -140,6 +142,7 @@
 .product-cards .product-card-ctas {
   display: flex;
   gap: 30px;
+  margin-top: auto;
 }
 
 .product-cards .product-card-ctas a.button:any-link {
@@ -198,5 +201,279 @@
 
   .product-cards .product-card-body {
     padding: 23px 30px 30px;
+  }
+}
+
+/* ---- options ---- */
+
+/* description cards (category pages: default, premium, slider-2): the live .product-card with
+   .card-flex-wrap-col — title, copy, CTA row pinned to the card foot */
+.product-cards .product-card-body > p {
+  margin: 0;
+  color: #303030;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.product-cards .product-card-ctas > p {
+  margin: 0;
+}
+
+.product-cards .product-card:has(.product-card-body > p),
+.product-cards:is(.premium, .slider-2) .product-card {
+  height: auto;
+  min-height: 536px;
+}
+
+.product-cards .product-card:has(.product-card-body > p) .product-card-body :is(h2, h3, h4),
+.product-cards:is(.premium, .slider-2) .product-card-body :is(h2, h3, h4) {
+  height: auto;
+}
+
+/* premium / slider-2: the block is the live 1140 container (padding 0 12px) */
+.product-cards.block:is(.premium, .slider-2) {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.product-cards:is(.premium, .slider-2) > .container {
+  display: flow-root;
+  max-width: none;
+  padding: 0;
+}
+
+.product-cards:is(.premium, .slider-2) .product-card-ctas {
+  gap: 0;
+}
+
+.product-cards:is(.premium, .slider-2) .product-card-ctas a.button:any-link {
+  display: block;
+  min-width: 119px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.product-cards:is(.premium, .slider-2) .product-card-ctas a.button.secondary:any-link {
+  border: 1px solid rgb(9 16 72);
+  background: rgb(255 255 255 / 0%);
+  color: rgb(9 16 72);
+}
+
+.product-cards:is(.premium, .slider-2) .product-card-ctas a.button.secondary:any-link:hover {
+  background: rgb(9 16 72);
+  color: #fff;
+}
+
+.product-cards:is(.premium, .slider-2) .product-card-ctas a.button.primary:any-link {
+  border: 0;
+  background: var(--rbl-blue);
+  color: #fff;
+}
+
+/* slider / slider-2: the default rail (one card per step, prev/next); slider-2 has no
+   section title, so the arrows sit above the block, beside the section heading */
+.product-cards.slider .rail-viewport,
+.product-cards.slider-2 .rail-viewport {
+  touch-action: pan-y;
+}
+
+.product-cards.slider-2 .rail-item {
+  width: 324px;
+}
+
+.product-cards.slider-2 .product-card-ctas > p:first-child {
+  flex: 1 1 auto;
+  margin-right: 30px;
+}
+
+/* premium (Insignia): two-up cards, pale gold body, gold "Start a Relationship" */
+.product-cards.premium .rail {
+  padding-top: 45px;
+}
+
+.product-cards.premium .rail-nav {
+  display: none;
+}
+
+.product-cards.premium .rail-track {
+  gap: 24px;
+  padding-left: 12px;
+}
+
+.product-cards.premium .rail-item {
+  width: 321px;
+}
+
+.product-cards.premium .product-card-body {
+  background: #fff5b1;
+}
+
+.product-cards.premium .product-card-ctas {
+  margin-left: -11px;
+}
+
+.product-cards.premium .product-card-ctas > p:first-child {
+  flex: 1 1 auto;
+  margin-right: 8px;
+}
+
+.product-cards.premium .product-card-ctas > p + p a.button:is(.primary, .secondary):any-link {
+  border: 0;
+  background: rgb(172 130 48);
+  color: #fff;
+}
+
+@media (width >= 768px) {
+  .product-cards .product-card:has(.product-card-body > p),
+  .product-cards.slider-2 .product-card {
+    min-height: 506px;
+  }
+
+  .product-cards.premium .rail-item .product-card {
+    min-height: 518px;
+  }
+
+  .product-cards.slider-2 .rail-item {
+    width: 345px;
+  }
+
+  .product-cards.slider-2 .product-card-ctas > p:first-child {
+    flex: 0 0 auto;
+  }
+
+  .product-cards.premium .rail-track {
+    padding-left: 17px;
+  }
+
+  .product-cards.premium .product-card-ctas {
+    margin-right: -13px;
+    margin-left: -14px;
+  }
+}
+
+/* blue: a wrapping grid of variable-height cards (feature lists), no rail motion */
+.product-cards.blue .rail-track {
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 0;
+  transform: none !important;
+}
+
+.product-cards.blue .rail-item {
+  width: 100%;
+}
+
+.product-cards.blue .product-card {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.product-cards.blue .product-card-img,
+.product-cards.blue .product-card-img :is(picture, img) {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.product-cards.blue .product-card-body {
+  display: flex;
+  flex-direction: column;
+  background: var(--product-cards-blue-body-bg, #e9ecf7);
+}
+
+.product-cards.blue .product-card-body :is(h2, h3, h4) {
+  height: auto;
+}
+
+.product-cards.blue .product-card-ctas {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+@media (width >= 768px) {
+  .product-cards.blue .rail-item {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media (width >= 992px) {
+  .product-cards.blue .rail-item {
+    width: calc((100% - 40px) / 3);
+  }
+}
+
+/* slider (homepage "Our Products" rail, also the class-less homepage block): image-only cards
+   (no description copy) — live .our-products-slick: rounded image top, 10px-padded CTAs,
+   borderless blue CTA; mobile cards 324px with CTAs sharing the card width */
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-img img {
+  border-radius: 5px 5px 0 0;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas a.button:any-link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas a.button.primary:any-link {
+  border: 0 none #fff;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .rail-item:not(:has(.product-card-body > p)) {
+  width: 324px;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas > p {
+  flex: 1 1 auto;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas > p a.button:any-link {
+  min-width: 0;
+}
+
+/* without its own title row the block is the bare rail: the live 1116px slick, no top pad */
+.product-cards.block:is(.slider, :not(.premium, .slider-2, .blue)):not(:has(.rail-head)) {
+  width: calc(100% - 24px);
+  max-width: 1116px;
+  margin: 0 auto 30px;
+  padding: 0;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)):not(:has(.rail-head)) > .container {
+  max-width: none;
+  padding: 0;
+}
+
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)):not(:has(.rail-head)) .rail {
+  margin-bottom: 0;
+}
+
+/* the arrows then centre on the section heading right above the rail (h2 line box 36/44px) */
+.product-cards:is(.slider, :not(.premium, .slider-2, .blue)):not(:has(.rail-head)) .rail-nav {
+  top: -38px;
+}
+
+@media (width >= 768px) {
+  .product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .rail-item:not(:has(.product-card-body > p)) {
+    width: 345px;
+  }
+
+  .product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas > p {
+    flex: 0 0 auto;
+  }
+
+  .product-cards:is(.slider, :not(.premium, .slider-2, .blue)):not(:has(.rail-head)) .rail-nav {
+    top: -42px;
+  }
+
+  .product-cards:is(.slider, :not(.premium, .slider-2, .blue)) .product-card:not(:has(.product-card-body > p)) .product-card-ctas > p a.button:any-link {
+    min-width: 119px;
   }
 }

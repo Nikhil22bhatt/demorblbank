@@ -1,0 +1,33 @@
+{
+  "variantName": "cards-facilities",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "list"
+  },
+  "contentPattern": {
+    "structure": "One row per facility: [icon] [label] (or icon + label in one cell). A single cell holding a bulleted list also works: one item per list entry. Item count varies per branch.",
+    "rows": "variable",
+    "columns": 2
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_7b0ed99f0120",
+    "v_7b0ed99f0120-1"
+  ],
+  "usage": "Branch detail pages: small icon + service label items (Insignia Serviced Branch, Locker Serviced Branch, Home Loan Enabled) that wrap in a grid.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "branch services and facility lists",
+      "short icon + label feature lists"
+    ],
+    "notSuitableFor": [
+      "linked document tiles (use cards-document-links)",
+      "multi-line product highlights (use cards-highlights)"
+    ]
+  }
+}

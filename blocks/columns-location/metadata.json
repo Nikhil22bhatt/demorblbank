@@ -1,0 +1,45 @@
+{
+  "variantName": "columns-location",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:27.502Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "text + link + heading",
+    "purpose": "Dense multi-column rows: rate strips, method lists, ATM/branch location rows, video tiles"
+  },
+  "contentPattern": {
+    "structure": "Each row: N cells of text/links/headings (icons may lead text inside a paragraph); a cell with only a picture is an image column. Single-cell rows span full width. Option alt = listing rows with dividers and top alignment"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b35fe8186e36",
+    "v_c749e39250dc",
+    "v_e9b22d0c616e",
+    "v_c749e39250dc-1"
+  ],
+  "usage": "Dense multi-column rows: rate strips, method lists, ATM/branch location rows, video tiles.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "ATM / branch address listings",
+      "rate strips with links",
+      "short side-by-side text columns"
+    ],
+    "notSuitableFor": [
+      "text with a large feature image (use columns-media)",
+      "card grids (use cards)"
+    ]
+  }
+}

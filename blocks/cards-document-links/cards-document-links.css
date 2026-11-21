@@ -1,0 +1,319 @@
+/* default: quick-link icon tiles in a single row (scrolls sideways on narrow screens) */
+.cards-document-links {
+  --cards-document-links-panel-bg: transparent;
+  --cards-document-links-tile-bg: transparent;
+  --cards-document-links-text: rgb(48 64 135);
+
+  max-width: var(--brand-content-max-width);
+  margin: 0 auto;
+  padding: 0 12px;
+  color: rgb(33 37 41);
+}
+
+.cards-document-links > ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px 0 20px 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 27px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  background: var(--cards-document-links-panel-bg);
+}
+
+.cards-document-links .cards-document-links-card {
+  flex: 0 0 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 170px;
+  text-align: center;
+  background: var(--cards-document-links-tile-bg);
+  color: var(--cards-document-links-text);
+}
+
+/* the single link wraps the whole tile, as on the source; its content keeps the
+   159px tile width even where the slide is narrower */
+.cards-document-links .cards-document-links-link {
+  flex: 0 0 133px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  min-width: 0;
+  height: 170px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-align: start;
+  text-decoration: none;
+  color: var(--cards-document-links-text);
+}
+
+.cards-document-links .cards-document-links-linked {
+  display: block;
+  min-width: 0;
+  height: auto;
+}
+
+.cards-document-links .cards-document-links-link:hover {
+  text-decoration: none;
+}
+
+.cards-document-links .cards-document-links-card-image {
+  line-height: 0;
+}
+
+.cards-document-links .cards-document-links-link > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.cards-document-links .cards-document-links-link > .cards-document-links-card-image {
+  width: 159px;
+}
+
+.cards-document-links .cards-document-links-link img {
+  margin: 0 auto;
+}
+
+.cards-document-links .cards-document-links-card-image p {
+  margin: 0;
+}
+
+.cards-document-links .cards-document-links-card-image img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: fill;
+}
+
+.cards-document-links .cards-document-links-card-body {
+  line-height: 18px;
+  text-align: center;
+}
+
+.cards-document-links .cards-document-links-card-body > * {
+  margin: 0;
+}
+
+.cards-document-links .cards-document-links-card-body > * + * {
+  margin-top: 8px;
+}
+
+@media (width >= 900px) {
+  .cards-document-links > ul {
+    padding: 33px 0 10px 5px;
+  }
+
+  .cards-document-links .cards-document-links-card,
+  .cards-document-links .cards-document-links-link {
+    flex-basis: 159px;
+    width: 159px;
+    justify-content: flex-start;
+  }
+
+  .cards-document-links .cards-document-links-card-image {
+    margin-top: 25px;
+  }
+}
+
+/* boxed: tiles sit inside a padded panel */
+.cards-document-links.boxed > ul {
+  padding: 24px;
+}
+
+/* detailed: larger tiles with icon, heading and description */
+.cards-document-links.detailed > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+}
+
+.cards-document-links.detailed .cards-document-links-card {
+  height: auto;
+  padding: 48px 16px;
+}
+
+.cards-document-links.detailed .cards-document-links-card-image img {
+  width: 96px;
+  height: 96px;
+}
+
+/* inline: icon beside label, no tile chrome */
+.cards-document-links.inline > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.cards-document-links.inline .cards-document-links-card {
+  height: auto;
+  flex-direction: row;
+  padding: 8px 0;
+  text-align: start;
+  gap: 24px;
+}
+
+.cards-document-links.inline .cards-document-links-card-image img {
+  width: 32px;
+  height: 32px;
+}
+
+/* light: text + photo split; text first on mobile, photo on the right on desktop */
+.cards-document-links.light {
+  max-width: none;
+  padding: 0;
+}
+
+.cards-document-links.light > ul {
+  display: block;
+  padding: 0;
+  gap: 0;
+  overflow: visible;
+}
+
+.cards-document-links.light .cards-document-links-card {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 0;
+  height: auto;
+  padding: 0;
+  text-align: start;
+  color: rgb(24 27 47);
+}
+
+.cards-document-links.light .cards-document-links-card-image {
+  line-height: 26.88px;
+  text-align: right;
+}
+
+.cards-document-links.light .cards-document-links-card-image img {
+  display: inline;
+  width: 100%;
+  max-width: 715px;
+  height: auto;
+  vertical-align: top;
+}
+
+.cards-document-links.light .cards-document-links-card-body {
+  padding: 20px;
+  text-align: start;
+  line-height: 25px;
+}
+
+.cards-document-links.light .cards-document-links-card-body > * {
+  margin: 0 0 10px;
+}
+
+.cards-document-links.light .cards-document-links-card-body h2 {
+  margin: 0 0 15px;
+  font-family: Averox, var(--brand-heading-font-family);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  color: rgb(24 27 47);
+}
+
+.cards-document-links.light .cards-document-links-card-body p {
+  font-family: "Noto Sans", var(--brand-font-family);
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(24 27 47);
+}
+
+@media (width >= 900px) {
+  .cards-document-links.light .cards-document-links-card {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .cards-document-links.light .cards-document-links-card-image {
+    margin-top: 0;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: start;
+  }
+
+  .cards-document-links.light .cards-document-links-card-body {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0 40px;
+  }
+}
+
+/* colour schemes */
+.cards-document-links.dark {
+  --cards-document-links-tile-bg: #222;
+  --cards-document-links-text: #fff;
+}
+
+.cards-document-links.dark a {
+  color: inherit;
+}
+
+.cards-document-links.orange-light {
+  --cards-document-links-tile-bg: #fff3ec;
+}
+
+.cards-document-links.grey {
+  --cards-document-links-panel-bg: #f2f2f2;
+}
+
+/* blue: brand-logo grid, image-only tiles (2 per row on mobile, 4 on desktop) */
+.cards-document-links.blue {
+  max-width: none;
+  margin: 0 12px;
+  padding: 0;
+}
+
+.cards-document-links.blue > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+.cards-document-links.blue .cards-document-links-card {
+  display: block;
+  height: auto;
+  padding: 6px 0 16px 16px;
+  text-align: start;
+}
+
+.cards-document-links.blue .cards-document-links-card-image {
+  margin-top: 0;
+}
+
+.cards-document-links.blue .cards-document-links-card-image img {
+  width: 133px;
+  height: 85px;
+}
+
+@media (width >= 900px) {
+  .cards-document-links.blue {
+    max-width: 1116px;
+    margin: 5px auto;
+  }
+
+  .cards-document-links.blue > ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cards-document-links.blue .cards-document-links-card {
+    width: auto;
+    padding: 6px 0 6px 24px;
+  }
+
+  .cards-document-links.blue .cards-document-links-card-image img {
+    width: 220px;
+    height: 140px;
+  }
+}

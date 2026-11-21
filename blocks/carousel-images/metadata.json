@@ -1,0 +1,36 @@
+{
+  "variantName": "carousel-images",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:27.502Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/social-responsibility/health/dhanvantari"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "button",
+    "purpose": "Image-only slide carousel with line indicators, used on CSR programme pages"
+  },
+  "contentPattern": {
+    "structure": "Each row is one slide: [picture] [optional caption text]. One row renders as a single static image; 2+ rows add prev/next buttons and line indicators"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_ead9408d3b33"
+  ],
+  "usage": "Image-only slide carousel with line indicators, used on CSR programme pages.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "photo galleries of CSR/programme activities",
+      "image-only slide shows"
+    ],
+    "notSuitableFor": [
+      "offer banners with copy and CTA (use promo-carousel)",
+      "hero banners (use hero-carousel)"
+    ]
+  }
+}

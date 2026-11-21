@@ -94,8 +94,10 @@ function rail(block, cardEls, { label, nav }) {
   const update = () => {
     const first = track.firstElementChild;
     if (!first) return;
-    const step = first.getBoundingClientRect().width + GAP;
-    const count = Math.max(1, Math.floor((viewport.clientWidth + GAP) / step));
+    const gap = parseFloat(getComputedStyle(track).columnGap);
+    const space = Number.isNaN(gap) ? GAP : gap;
+    const step = first.getBoundingClientRect().width + space;
+    const count = Math.max(1, Math.floor((viewport.clientWidth + space) / step));
     const max = Math.max(0, cardEls.length - count);
     pos = Math.min(Math.max(pos, 0), max);
     track.style.transform = `translate3d(${-pos * step}px, 0, 0)`;
@@ -179,7 +181,9 @@ export default function decorate(block) {
     card.append(img, body);
     return card;
   });
-  const railEl = rail(block, built, { label: 'Our Products', nav: true });
+  /* option `blue`: a wrapping grid (all cards visible), so no prev/next controls */
+  const grid = block.classList.contains('blue');
+  const railEl = rail(block, built, { label: 'Our Products', nav: !grid });
   const { container } = frame(block, head, railEl, cta);
   aos(block, [container, railEl]);
 }

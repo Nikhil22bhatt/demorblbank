@@ -1,0 +1,45 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/aa-products",
+    "originPage": "/aa-products"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "heading + list + link",
+    "summary": "Single-line trail under the header: linked ancestors separated by chevrons, current page as plain text, thin bottom rule."
+  },
+  "contentPattern": {
+    "structure": "One cell with a list of links (Home, Section, ...), last item plain text for the current page. Paragraphs of links separated by '>' also work; an empty block derives the trail from the URL. An optional picture becomes a background.",
+    "rows": [
+      { "name": "trail", "cells": ["list of links"] },
+      { "name": "media", "cells": ["picture"], "optional": true }
+    ]
+  },
+  "options": [
+    { "class": "alt", "label": "Alt" },
+    { "class": "image-light", "label": "Image Light" }
+  ],
+  "memberVariantIds": [
+    "v_2cd963484301",
+    "v_a20110003fd2",
+    "v_f6f7a3e9a497"
+  ],
+  "usage": "Site-wide breadcrumb under the header on almost every page (1700+ pages). image-light is for a trail rendered over or directly above a hero photo; alt is the compact trail without a bottom rule.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "every interior page, directly after the header"
+    ],
+    "notSuitableFor": [
+      "in-page jump links (use anchor-nav)",
+      "the home page"
+    ]
+  }
+}

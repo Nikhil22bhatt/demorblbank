@@ -1,0 +1,43 @@
+{
+  "variantName": "table-data",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:44.080Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/aadhaar-enrolment-and-updation-at-rbl-bank-branches",
+    "originPage": "/aadhaar-enrolment-and-updation-at-rbl-bank-branches"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "table",
+    "summary": "Plain bordered data table inside articles and static pages; first row is the header, horizontally scrollable on small screens."
+  },
+  "contentPattern": {
+    "structure": "One block row per table row; one cell per column. First row = column headers. Short rows have their last cell span the remaining columns."
+  },
+  "options": [
+    {
+      "class": "dark",
+      "label": "Dark"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b40fe4a24ed6",
+    "v_5f134dad8792"
+  ],
+  "usage": "Plain bordered data table inside articles and static pages; first row is the header, horizontally scrollable on small screens.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "rate, fee, charges and illustration tables in articles",
+      "FAQ answer tables"
+    ],
+    "notSuitableFor": [
+      "comparison cards",
+      "layout grids"
+    ]
+  }
+}

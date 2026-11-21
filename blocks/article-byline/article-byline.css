@@ -1,0 +1,114 @@
+/* the live .auth-details-data: avatar + name/date, share buttons beside (desktop) or below (mobile) */
+.article-byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 17px 0;
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto;
+  padding: 20px 0 30px;
+  color: var(--brand-text);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.article-byline .article-byline-author {
+  display: flex;
+  align-items: flex-start;
+}
+
+.article-byline .article-byline-avatar {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 56px;
+  padding: 1px 10px 0 1px;
+}
+
+.article-byline .article-byline-avatar picture {
+  display: block;
+}
+
+.article-byline .article-byline-avatar img {
+  display: block;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgb(148 148 148);
+  border-radius: 25px;
+  object-fit: fill;
+}
+
+.article-byline .article-byline-info {
+  display: block;
+  width: 167px;
+}
+
+.article-byline .article-byline-info p {
+  margin: 0;
+}
+
+.article-byline .article-byline-name {
+  display: block;
+  color: var(--brand-ink);
+}
+
+.article-byline .article-byline-date {
+  display: inline;
+  color: var(--brand-copy);
+}
+
+.article-byline .article-byline-share {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  gap: 16px;
+}
+
+.article-byline .article-byline-share-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 38px;
+  height: 38px;
+  padding: 3.2px;
+  border: 1px solid var(--brand-copy);
+  border-radius: 20.8px;
+  background-color: #fff;
+  color: var(--brand-link);
+  text-decoration: none;
+}
+
+.article-byline .article-byline-share-icon {
+  display: inline;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  fill: var(--brand-copy);
+}
+
+.article-byline .article-byline-share-whatsapp .article-byline-share-icon {
+  width: 25px;
+  height: 25px;
+  fill: var(--brand-blue);
+}
+
+@media (width >= 900px) {
+  .article-byline {
+    gap: 0 9px;
+  }
+
+  .article-byline .article-byline-info {
+    width: 161px;
+  }
+
+  .article-byline .article-byline-name {
+    padding-top: 3px;
+  }
+
+  .article-byline .article-byline-share {
+    flex-basis: auto;
+  }
+}

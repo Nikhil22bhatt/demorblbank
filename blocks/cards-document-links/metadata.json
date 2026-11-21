@@ -1,0 +1,49 @@
+{
+  "variantName": "cards-document-links",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link"
+  },
+  "contentPattern": {
+    "structure": "One row per document: [icon] [linked title, optional heading + description]. A card with a single link becomes fully clickable; PDFs open in a new tab.",
+    "rows": "variable",
+    "columns": 2
+  },
+  "options": [
+    { "class": "boxed", "label": "Boxed" },
+    { "class": "detailed", "label": "Detailed" },
+    { "class": "light", "label": "Light" },
+    { "class": "dark", "label": "Dark" },
+    { "class": "orange-light", "label": "Orange Light" },
+    { "class": "grey", "label": "Grey" },
+    { "class": "inline", "label": "Inline" },
+    { "class": "blue", "label": "Blue" }
+  ],
+  "memberVariantIds": [
+    "v_4e1933a54b45-2",
+    "v_bc1f312fb0d1",
+    "v_4888cdcfe753",
+    "v_8bea95dca753",
+    "v_01caed86fb35",
+    "v_28070f2f2904",
+    "v_db1d6a5287f0",
+    "v_ed21708bcbfd",
+    "v_ffe04ae1a5a2"
+  ],
+  "usage": "Icon tiles that each link to a form, policy or report (downloads on product and NRI pages, CSR reports). Options: boxed (tiles in a padded panel), detailed (large icon + heading + description), inline (icon beside label), light (text/photo split), dark/orange-light/grey/blue (colour schemes).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "downloadable forms and documents",
+      "policy and report links with icons"
+    ],
+    "notSuitableFor": [
+      "blog teasers (use cards-blog)",
+      "non-linked icon + label highlights (use cards-highlights)"
+    ]
+  }
+}

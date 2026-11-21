@@ -1,0 +1,103 @@
+/* apr-calculator — structural layout only; brand styling comes in the design pass */
+.apr-calculator {
+  display: grid;
+  gap: 24px;
+}
+
+.apr-calculator .apr-calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.apr-calculator .apr-calculator-reset {
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.apr-calculator .apr-calculator-field-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.apr-calculator .apr-calculator-input {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid currentcolor;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.apr-calculator .apr-calculator-input input {
+  width: 8em;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: right;
+}
+
+.apr-calculator .apr-calculator-slider {
+  width: 100%;
+  margin: 12px 0 4px;
+}
+
+.apr-calculator .apr-calculator-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--body-font-size-xs, 0.75rem);
+}
+
+.apr-calculator .apr-calculator-result {
+  display: grid;
+  grid-template-rows: 1fr 1fr auto;
+  text-align: center;
+}
+
+.apr-calculator .apr-calculator-apr,
+.apr-calculator .apr-calculator-emi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 32px 16px;
+}
+
+.apr-calculator .apr-calculator-emi {
+  flex-direction: column;
+}
+
+.apr-calculator .apr-calculator-emi p {
+  margin: 0;
+}
+
+.apr-calculator .apr-calculator-apr-value,
+.apr-calculator .apr-calculator-emi-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.apr-calculator .apr-calculator-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+@media (width >= 900px) {
+  .apr-calculator {
+    grid-template-columns: 2fr 1fr;
+  }
+}

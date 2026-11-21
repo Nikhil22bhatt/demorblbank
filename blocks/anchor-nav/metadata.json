@@ -1,0 +1,66 @@
+{
+  "variantName": "anchor-nav",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking/business/partnering-your-growth/current-accounts/rera-account",
+    "originPage": "/business-banking/business/partnering-your-growth/current-accounts/rera-account"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "link + heading + image + list + text",
+    "summary": "Sticky horizontal in-page tab bar (Why Us, What You Get, FAQs, Quick Links) with the active tab underlined and an optional Apply Now button on the right."
+  },
+  "contentPattern": {
+    "structure": "One cell (or one row per tab) with a list of links to in-page anchors (#why-us). Any link that is not an in-page anchor becomes the CTA button (e.g. Apply Now).",
+    "rows": [
+      { "name": "tabs", "cells": ["list of #anchor links"] },
+      { "name": "cta", "cells": ["link"], "optional": true }
+    ]
+  },
+  "options": [
+    { "class": "shadow", "label": "Shadow" },
+    { "class": "shadow-light", "label": "Shadow Light" },
+    { "class": "blue-light", "label": "Blue Light" },
+    { "class": "shadow-2", "label": "Shadow 2" },
+    { "class": "light", "label": "Light" },
+    { "class": "light-2", "label": "Light 2" },
+    { "class": "grey", "label": "Grey" }
+  ],
+  "memberVariantIds": [
+    "v_2f322fe25715",
+    "v_2f322fe25715-1",
+    "v_2f322fe25715-2",
+    "v_2f322fe25715-3",
+    "v_2f322fe25715-4",
+    "v_2f322fe25715-5",
+    "v_2f322fe25715-6",
+    "v_2f322fe25715-10",
+    "v_2f322fe25715-7",
+    "v_2f322fe25715-8",
+    "v_2f322fe25715-9",
+    "v_2f322fe25715-13",
+    "v_2f322fe25715-14",
+    "v_2f322fe25715-15",
+    "v_2f322fe25715-16",
+    "v_2f322fe25715-17",
+    "v_2f322fe25715-18",
+    "v_2f322fe25715-19"
+  ],
+  "usage": "Product and program pages: a sticky bar of jump links to the page's sections (targets are heading or section ids), with the active section highlighted while scrolling and an optional Apply Now CTA.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "long product / offer detail pages with named sections",
+      "pages needing a persistent Apply Now CTA"
+    ],
+    "notSuitableFor": [
+      "cross-page navigation (use header nav or quick links)",
+      "tabbed panels that hide content (use a tabs block)"
+    ]
+  }
+}

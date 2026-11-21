@@ -1,0 +1,51 @@
+{
+  "variantName": "callout",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text",
+    "summary": "Small coloured box sharing a section: a stat tile (icon, big number, caption), a one-line tagline strip, an at-a-glance summary panel, a linked icon tile, or a dark note box."
+  },
+  "contentPattern": {
+    "structure": "Free-form rows/cells: an optional icon or picture, then heading / text / links. Pictures are collected into the media area, everything else into the body in authored order.",
+    "rows": [
+      { "name": "media", "cells": ["picture"], "optional": true },
+      { "name": "body", "cells": ["heading, text, links"] }
+    ]
+  },
+  "options": [
+    { "class": "tagline", "label": "Tagline" },
+    { "class": "summary", "label": "Summary" },
+    { "class": "shadow", "label": "Shadow" },
+    { "class": "blue", "label": "Blue" }
+  ],
+  "memberVariantIds": [
+    "v_296e29008760",
+    "v_118ffc598da6",
+    "v_4c519d076319",
+    "v_4e1933a54b45-1",
+    "v_567be447b7dc"
+  ],
+  "usage": "Default: stat / highlight tile (icon, heading, caption). tagline: 'Safe | Simple | Fast' strip on business-banking heroes. summary: 'At a Glance' panel in blog articles. shadow: clickable icon tile (e.g. RBI Notifications). blue: dark note box on investor pages.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "single stat or highlight tiles",
+      "short taglines and at-a-glance summaries",
+      "a single linked icon tile"
+    ],
+    "notSuitableFor": [
+      "grids of many cards (use cards / product-cards)",
+      "long-form content"
+    ]
+  }
+}

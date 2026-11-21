@@ -1,0 +1,51 @@
+{
+  "variantName": "accordion-list",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/account-aggregator",
+    "originPage": "/account-aggregator"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": false,
+    "imagePattern": "noimg",
+    "structure": "button",
+    "summary": "Expandable FAQ / disclosure rows with a plus-minus indicator; optional block heading; image-beside puts a feature accordion next to a picture."
+  },
+  "contentPattern": {
+    "structure": "Optional heading row (one cell, a heading). Optional picture row (image-beside). Item rows [question] [answer]; the answer may hold paragraphs, lists, tables, links, or a single /fragments/ link.",
+    "rows": [
+      { "name": "heading", "cells": ["heading"], "optional": true },
+      { "name": "media", "cells": ["picture"], "optional": true },
+      { "name": "item", "cells": ["question", "answer"], "repeat": true }
+    ]
+  },
+  "options": [
+    { "class": "boxed", "label": "Boxed" },
+    { "class": "image-beside", "label": "Image Beside" },
+    { "class": "light", "label": "Light" }
+  ],
+  "memberVariantIds": [
+    "v_93796a07d6fe",
+    "v_bc1f312fb0d1-1",
+    "v_3e9be0624ecc",
+    "v_3a7603ffee67",
+    "v_3981cec201c0"
+  ],
+  "usage": "FAQ lists, disclosure / disclaimer panels holding tables, and key-benefit accordions beside an image. One item is open at a time.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "FAQ sections",
+      "regulatory disclosure and disclaimer panels (including tables)",
+      "product feature lists beside an image (image-beside)"
+    ],
+    "notSuitableFor": [
+      "tabbed content (use a tabs block)",
+      "always-visible content lists"
+    ]
+  }
+}

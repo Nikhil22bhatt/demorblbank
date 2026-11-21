@@ -54,8 +54,83 @@ function reveal(card) {
   io.observe(card);
 }
 
+/* video shape (rbl-mybank-demo): the media row holds a lone video link instead of pictures;
+   the copy row holds a heading, a paragraph of linked store badges and a QR picture + caption */
+const VIDEO = /(youtube\.com|youtube-nocookie\.com|youtu\.be|vimeo\.com)/i;
+
+function videoLink(block) {
+  return [...block.children].map((row) => {
+    const links = row.querySelectorAll('a[href]');
+    if (links.length !== 1 || row.querySelector('picture, img')) return null;
+    const [a] = links;
+    if (!VIDEO.test(a.href) || row.textContent.trim() !== a.textContent.trim()) return null;
+    return a;
+  }).find(Boolean);
+}
+
+function embedUrl(href) {
+  const url = new URL(href);
+  const host = url.hostname.replace(/^www\./, '');
+  if (host === 'youtu.be') return `https://www.youtube.com/embed${url.pathname}${url.search}`;
+  if (/youtube\.com$/.test(host) && url.pathname === '/watch') {
+    const id = url.searchParams.get('v');
+    url.searchParams.delete('v');
+    const qs = url.searchParams.toString();
+    return `https://www.youtube.com/embed/${id}${qs ? `?${qs}` : ''}`;
+  }
+  if (host === 'vimeo.com') return `https://player.vimeo.com/video${url.pathname}${url.search}`;
+  return url.href;
+}
+
+function decorateVideo(block, link) {
+  block.classList.add('app-band-video');
+  const player = el('div', 'app-band-player');
+  const frameWrap = el('div', 'app-band-frame');
+  const iframe = document.createElement('iframe');
+  iframe.src = embedUrl(link.href);
+  iframe.title = link.textContent.trim() || 'Video';
+  iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  iframe.allowFullscreen = true;
+  iframe.loading = 'lazy';
+  frameWrap.append(iframe);
+  player.append(frameWrap);
+  const mediaRow = link.closest('.app-band > div');
+
+  const get = el('div', 'app-band-get');
+  [...block.children].filter((row) => row !== mediaRow).forEach((row) => {
+    [...row.children].flatMap(items).forEach((n) => {
+      if (/^H[1-6]$/.test(n.tagName)) {
+        n.classList.add('app-band-get-title');
+        get.append(n);
+      } else if (n.querySelector('a picture, a img')) {
+        n.classList.add('app-band-badges');
+        get.append(n);
+      } else if (n.matches('picture, img') || n.querySelector('picture, img')) {
+        /* QR picture + caption: the picture and the caption text are MOVED apart */
+        const qr = el('div', 'app-band-qr');
+        const pic = n.matches('picture, img') ? n : n.querySelector('picture, img');
+        qr.append(pic);
+        if (n !== pic) {
+          n.querySelectorAll('br').forEach((br) => br.remove());
+          if (n.textContent.trim()) {
+            n.classList.add('app-band-qr-caption');
+            qr.append(n);
+          }
+        }
+        get.append(qr);
+      } else get.append(n);
+    });
+  });
+  block.replaceChildren(player, get);
+}
+
 export default function decorate(block) {
-  if (block.querySelector(':scope > .container')) return;
+  if (block.querySelector(':scope > .container, :scope > .app-band-player')) return;
+  const link = videoLink(block);
+  if (link) {
+    decorateVideo(block, link);
+    return;
+  }
   const bg = el('div', 'app-band-bg');
   const container = el('div', 'container');
   const card = el('div', 'app-band-card');

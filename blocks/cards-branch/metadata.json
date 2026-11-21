@@ -1,0 +1,32 @@
+{
+  "variantName": "cards-branch",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "heading + link + text"
+  },
+  "contentPattern": {
+    "structure": "One row per branch: [branch name] [address, phone] [Get Direction / More Details links]. Actions cell is optional.",
+    "rows": "variable",
+    "columns": 3
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_f99f46c113e6"
+  ],
+  "usage": "Branch locator result grid on Locate Us: each card shows the branch name, address, phone and links to directions and the branch detail page.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "branch or ATM result lists",
+      "office address cards with action links"
+    ],
+    "notSuitableFor": [
+      "branch facility icons (use cards-facilities)",
+      "contact tabs (use contact-tabs)"
+    ]
+  }
+}

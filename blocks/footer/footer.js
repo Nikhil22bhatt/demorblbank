@@ -1,30 +1,25 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
-
 /*
- * RBL Bank footer — template-slotted chrome (replica canon: shared/footer.html + chrome.js).
- * The authored /footer document carries six default-content sections, in order:
- *   1 link columns (<p> head + <ul>, repeated) · 2 Others (<p> head + lists)
- *   3 legal lines + Follow us + social links · 4 leaving-site notice (h5, text, Proceed link)
- *   5 mobile tab bar list · 6 launchers (chat, back to top)
- * Authored nodes are MOVED into the canon's empty slots, never rebuilt from text.
- * @ew-exempt the accordion toggles and social glyphs are presentational (no authored text).
+ * Footer block.
+ * Content comes from the footer fragment (content/footer.plain.html locally,
+ * /footer.plain.html on DA/EDS). The fragment carries five flat sections, in order:
+ *   1 link columns (heading + list, repeated)   2 secondary links (heading + lists)
+ *   3 legal lines + social heading + social list  4 leaving-site notice (heading, text, link)
+ *   5 back-to-top label (icon + text)
+ * This file only reads that content and builds the interactive chrome around it.
+ * The mobile bottom tab bar belongs to the header block; the footer never draws one.
  */
 
-const MOBILE = window.matchMedia('(width < 768px)');
-const SOCIAL = [
-  ['facebook.', 'a-fb', 'fa-facebook'],
-  ['linkedin.', 'a-linkedin', 'fa-linkedin'],
-  ['twitter.', 'a-twitter', ''],
-  ['x.com', 'a-twitter', ''],
-  ['instagram.', 'a-insta', 'fa-instagram'],
-  ['youtube.', 'a-yt', 'fa-youtube-play'],
+const DESKTOP = window.matchMedia('(width >= 900px)');
+
+/* presentational glyphs for social links that carry no image (Font Awesome 4.7) */
+const SOCIAL_GLYPHS = [
+  ['facebook.', 'facebook'],
+  ['linkedin.', 'linkedin'],
+  ['instagram.', 'instagram'],
+  ['youtube.', 'youtube'],
+  ['twitter.', 'x'],
+  ['x.com', 'x'],
 ];
-const TAB_ALT = {
-  home: 'Mobile Home', login: 'Login', payments: 'Payments', 'mobile-more': 'More',
-};
-const X_PATH = 'M389 48h71L305 224l182 240H345L233 318 106 464H35l165-189L25 48h146l101 133zm-25 '
-  + '374h39L152 88h-42z';
 
 function el(tag, className, attrs = {}) {
   const node = document.createElement(tag);
@@ -33,276 +28,252 @@ function el(tag, className, attrs = {}) {
   return node;
 }
 
-function faIcon(name) {
-  const i = el('i', `fa ${name}`, { 'aria-hidden': 'true' });
-  i.textContent = '‌';
-  return i;
-}
-
-function xIcon() {
-  const ns = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(ns, 'svg');
-  svg.setAttribute('viewBox', '0 0 512 512');
-  svg.setAttribute('aria-hidden', 'true');
-  const path = document.createElementNS(ns, 'path');
-  path.setAttribute('d', X_PATH);
-  svg.append(path);
-  return svg;
-}
-
-function sectionOf(fragment, index) {
-  const sections = [...fragment.querySelectorAll(':scope > .section')]
-    .filter((s) => s.textContent.trim() || s.querySelector('img'));
-  return sections[index]?.querySelector('.default-content-wrapper') || sections[index];
-}
-
-function unwrapP(li) {
-  li.querySelectorAll(':scope > p').forEach((p) => p.replaceWith(...p.childNodes));
-}
-
-/* icons arrive as span.icon > img (decorateIcons) — use the img itself */
-function flattenIcon(span, alt = '') {
-  const img = span.querySelector('img');
-  if (!img) return span;
-  img.alt = alt;
-  img.removeAttribute('width');
-  img.removeAttribute('height');
-  span.replaceWith(img);
-  return img;
-}
-
-function head(p, withRule) {
-  p.className = 'footer-head h6';
-  if (withRule) p.append(' ', el('span', 'underline'), ' ', faIcon('fa-plus footer-head-toggle'));
-  else {
-    const em = el('em');
-    em.append(faIcon('fa-plus footer-head-toggle'));
-    p.append(' ', em);
+/* metadata-independent dual fetch: /content first (localhost), then root (DA/EDS prod) */
+async function fetchFooter() {
+  let url = '/content/footer.plain.html';
+  let resp = await fetch('/content/footer.plain.html');
+  if (!resp.ok) {
+    url = '/footer.plain.html';
+    resp = await fetch('/footer.plain.html');
   }
-  return p;
+  if (!resp.ok) return null;
+  const html = await resp.text();
+  const doc = new DOMParser().parseFromString(`<body>${html}</body>`, 'text/html');
+  // relative media paths are relative to the fragment, not the page
+  const base = new URL(url, window.location.href);
+  doc.querySelectorAll('img[src]').forEach((img) => {
+    img.src = new URL(img.getAttribute('src'), base).href;
+  });
+  doc.querySelectorAll('source[srcset]').forEach((source) => {
+    source.srcset = new URL(source.getAttribute('srcset'), base).href;
+  });
+  return doc.body;
 }
 
-function buildColumns(wrap) {
-  const cols = el('div', 'footer-cols');
-  [...wrap.querySelectorAll(':scope > p')].forEach((p) => {
-    const list = p.nextElementSibling;
-    const label = p.previousElementSibling;
-    const col = el('nav', 'footer-col', { 'aria-label': p.textContent.trim() });
-    /* the live column's screen-reader heading (authored h2 before the visible head) */
-    if (label && /^H[1-6]$/.test(label.tagName)) {
-      label.classList.add('visually-hidden');
-      col.append(label);
-    }
-    col.append(head(p, true));
-    if (list && list.tagName === 'UL') {
-      list.className = 'footer-list';
-      list.querySelectorAll(':scope > li').forEach(unwrapP);
-      col.append(list);
-    }
+function hostOf(a) {
+  try {
+    return new URL(a.href, window.location.href).hostname;
+  } catch {
+    return '';
+  }
+}
+
+/* same site, or another host of the same bank (documents, service portals) */
+function isOwnHost(host, ownDomain) {
+  return host === window.location.hostname || host === ownDomain || host.endsWith(`.${ownDomain}`);
+}
+
+/* registrable domain of the source site, read from the fragment's own subdomain links */
+function ownDomainOf(fragment) {
+  const hosts = [...fragment.querySelectorAll('a[href^="http"]')].map(hostOf);
+  const counts = {};
+  hosts.forEach((h) => {
+    const d = h.split('.').slice(-3).join('.');
+    counts[d] = (counts[d] || 0) + 1;
+  });
+  return Object.entries(counts).sort((x, y) => y[1] - x[1])[0]?.[0] || window.location.hostname;
+}
+
+/* a heading that toggles the next list on small screens */
+function accordionHeading(h, panel) {
+  const id = `footer-panel-${Math.random().toString(36).slice(2, 8)}`;
+  panel.id = id;
+  const btn = el('button', 'footer-heading-toggle', { type: 'button', 'aria-expanded': 'false', 'aria-controls': id });
+  btn.append(...h.childNodes);
+  h.className = 'footer-heading';
+  h.append(btn);
+  btn.addEventListener('click', () => {
+    if (DESKTOP.matches) return;
+    btn.setAttribute('aria-expanded', btn.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+  });
+  return h;
+}
+
+function buildColumns(section) {
+  const cols = el('div', 'footer-columns');
+  [...section.querySelectorAll(':scope > h2, :scope > h3, :scope > p')].forEach((h) => {
+    const list = h.nextElementSibling;
+    if (!list || list.tagName !== 'UL') return;
+    const col = el('nav', 'footer-column', { 'aria-label': h.textContent.trim() });
+    list.className = 'footer-links';
+    col.append(accordionHeading(h, list), list);
     cols.append(col);
   });
   return cols;
 }
 
-function buildOthers(wrap) {
-  const row = el('div', 'others-row');
-  const left = el('div', 'col-lg-1');
-  const right = el('div', 'col-lg-11 others-wrap');
-  const lists = [...wrap.querySelectorAll(':scope > ul')];
-  const label = wrap.querySelector(':scope > p');
-  if (label) left.append(head(label, false));
-  const toggleWrap = el('p', 'others-toggle-wrap');
-  const toggle = el('a', 'others-toggle', { href: '#', 'aria-label': 'Collapse section' });
-  const em = el('em');
-  em.append(faIcon('fa-minus'));
-  toggle.append(em);
-  toggleWrap.append(toggle);
-  right.append(toggleWrap);
+function buildOthers(section) {
+  const row = el('div', 'footer-others');
+  const head = section.querySelector(':scope > h2, :scope > h3, :scope > p');
+  const lists = [...section.querySelectorAll(':scope > ul')];
+  const body = el('div', 'footer-others-body');
   lists.forEach((ul, i) => {
-    ul.className = i ? 'others-list others-list-more' : 'others-list';
-    ul.querySelectorAll(':scope > li').forEach((li) => {
-      unwrapP(li);
-      const a = li.querySelector(':scope > a');
-      const pic = li.querySelector(':scope > picture, :scope > img');
-      if (a && pic) {
-        const sup = el('sup');
-        sup.append(pic);
-        a.append(' ', sup);
-      }
-      if (a && /(^|\.)rbi\.org\.in$/.test(new URL(a.href).hostname)) a.className = 'others-list-btn';
+    ul.className = i ? 'footer-others-list footer-others-more' : 'footer-others-list';
+    ul.querySelectorAll('img').forEach((img) => {
+      const sup = el('sup', 'footer-badge');
+      img.replaceWith(sup);
+      sup.append(img);
     });
-    right.append(ul);
+    body.append(ul);
   });
-  row.append(left, right);
+  /* desktop-only collapse control for the trailing list(s) */
+  if (lists.length > 1) {
+    const toggle = el('a', 'footer-others-toggle', {
+      href: '#', role: 'button', 'aria-expanded': 'true',
+    });
+    if (head) toggle.setAttribute('aria-label', head.textContent.trim());
+    toggle.addEventListener('click', (e) => {
+      e.preventDefault();
+      const open = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(open));
+      body.querySelectorAll('.footer-others-more').forEach((ul) => { ul.hidden = !open; });
+    });
+    body.prepend(toggle);
+  }
+  if (head) row.append(accordionHeading(head, body));
+  row.append(body);
   return row;
 }
 
-function buildLegal(wrap) {
+function buildLegal(section) {
   const legal = el('div', 'footer-legal');
-  const left = el('div', 'col-lg-6');
-  const right = el('div', 'col-lg-6');
-  const ps = [...wrap.querySelectorAll(':scope > p')];
-  const social = wrap.querySelector(':scope > ul');
-  const follow = social ? social.previousElementSibling : null;
-  ps.filter((p) => p !== follow).forEach((p) => {
-    p.className = 'pbottom';
-    left.append(p);
+  const text = el('div', 'footer-legal-text');
+  const social = el('div', 'footer-social');
+  const list = section.querySelector(':scope > ul');
+  const label = list?.previousElementSibling;
+  [...section.querySelectorAll(':scope > p')].filter((p) => p !== label).forEach((p, i) => {
+    p.className = i ? 'footer-legal-line' : 'footer-legal-line footer-copyright';
+    text.append(p);
   });
-  if (social) {
-    social.className = 'follow-us';
-    social.querySelectorAll(':scope > li').forEach((li) => {
-      unwrapP(li);
-      const a = li.querySelector('a');
-      if (!a) return;
-      const host = new URL(a.href).hostname;
-      const [, cls, fa] = SOCIAL.find(([h]) => host.includes(h)) || [];
-      const label = el('span', 'visually-hidden');
-      label.append(...a.childNodes);
-      const em = el('em');
-      if (fa) em.append(faIcon(fa));
-      a.append(fa ? em : xIcon(), label);
-      if (cls) a.className = cls;
-    });
-    if (follow && follow.tagName === 'P') {
-      const li = el('li', 'follow-us-item-label');
-      follow.className = 'follow-us-label';
-      li.append(follow);
-      social.prepend(li);
+  if (list) {
+    if (label && label.tagName !== 'UL') {
+      label.className = 'footer-social-label';
+      social.append(label);
     }
-    right.append(social);
+    list.className = 'footer-social-list';
+    list.querySelectorAll('a').forEach((a) => {
+      const host = hostOf(a);
+      const glyph = SOCIAL_GLYPHS.find(([h]) => host.includes(h))?.[1] || 'link';
+      a.classList.add('footer-social-link', `footer-social-${glyph}`);
+      const name = a.textContent.trim() || a.querySelector('img')?.alt || glyph;
+      const img = a.querySelector('img');
+      const sr = el('span', 'footer-sr-only');
+      sr.textContent = name;
+      a.textContent = '';
+      if (img) {
+        img.alt = '';
+        img.className = 'footer-social-img';
+        a.append(img);
+      } else a.append(el('span', 'footer-social-glyph', { 'aria-hidden': 'true' }));
+      a.append(sr);
+    });
+    social.append(list);
   }
-  const first = left.querySelector('.pbottom');
-  if (first) {
-    const mobile = first.cloneNode(true);
-    mobile.className = 'copyright-mobile';
-    right.append(mobile);
-  }
-  legal.append(left, right);
+  legal.append(text, social);
   return legal;
 }
 
-function buildModal(wrap) {
-  const modal = el('div', 'modal', {
-    id: 'attention-modal-rbi', role: 'dialog', 'aria-labelledby': 'attention-modal-rbi-title',
-  });
-  modal.hidden = true;
-  const dialog = el('div', 'modal-dialog');
-  const header = el('div', 'modal-header');
-  const body = el('div', 'modal-body');
-  const foot = el('div', 'modal-footer');
-  const title = wrap.querySelector('h1, h2, h3, h4, h5, h6');
+function buildNotice(section) {
+  const dialog = el('dialog', 'footer-attention');
+  const title = section.querySelector('h1, h2, h3, h4, h5, h6');
+  const header = el('div', 'footer-attention-header');
+  const body = el('div', 'footer-attention-body');
+  const actions = el('div', 'footer-attention-actions');
   if (title) {
-    title.className = 'modal-title';
-    title.id = 'attention-modal-rbi-title';
+    title.className = 'footer-attention-title';
+    title.id = 'footer-attention-title';
+    dialog.setAttribute('aria-labelledby', title.id);
     header.append(title);
   }
-  const close = el('p');
-  close.append(el('button', 'modal-close', { type: 'button', 'aria-label': 'Close' }));
+  const close = el('button', 'footer-attention-close', { type: 'button', 'aria-label': 'Close' });
+  close.addEventListener('click', () => dialog.close());
   header.append(close);
-  [...wrap.querySelectorAll(':scope > p')].forEach((p) => {
+  let proceed = null;
+  [...section.querySelectorAll(':scope > p')].forEach((p) => {
     const a = p.querySelector('a');
     if (a && p.textContent.trim() === a.textContent.trim()) {
-      a.className = 'btn-blue';
-      foot.append(a);
+      proceed = a;
+      a.className = 'footer-attention-proceed';
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.addEventListener('click', () => dialog.close());
+      actions.append(a);
     } else body.append(p);
   });
-  dialog.append(header, body, foot);
-  modal.append(dialog);
-  return modal;
+  dialog.append(header, body, actions);
+  dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+  return { dialog, proceed };
 }
 
-function buildTabbar(wrap) {
-  const bar = el('div', 'tabbar');
-  const ul = wrap.querySelector('ul');
-  if (!ul) return bar;
-  [...ul.children].forEach((li) => {
-    unwrapP(li);
-    const item = el('div', 'tabbar-item');
-    const iconLink = [...li.querySelectorAll(':scope > a')].find((a) => a.querySelector('.icon'));
-    if (iconLink) {
-      const span = iconLink.querySelector('.icon');
-      const name = [...span.classList].find((c) => c.startsWith('icon-')).slice(5);
-      flattenIcon(span, TAB_ALT[name] || name);
-      if (name === 'mobile-more') item.classList.add('tabbar-item-more');
-      item.append(iconLink);
+function buildBackToTop(section) {
+  const p = section.querySelector('p');
+  const btn = el('button', 'footer-top', { type: 'button' });
+  if (p) {
+    const img = p.querySelector('img');
+    const label = el('span', 'footer-top-label');
+    label.textContent = p.textContent.trim();
+    btn.setAttribute('aria-label', label.textContent);
+    if (img) {
+      img.className = 'footer-top-icon';
+      img.alt = '';
+      btn.append(img);
     }
-    const labelLink = li.querySelector(':scope > a');
-    let label = labelLink;
-    if (labelLink) labelLink.className = 'tabbar-label tabbar-label-home';
-    else {
-      label = el('span', 'tabbar-label');
-      label.append(...li.childNodes);
-    }
-    item.append(label);
-    bar.append(item);
-  });
-  return bar;
+    btn.append(label);
+  }
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  const onScroll = () => btn.classList.toggle('is-visible', window.scrollY > 200);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  return btn;
 }
 
-function buildLaunchers(wrap) {
-  const [chatP, topP] = wrap ? [...wrap.querySelectorAll(':scope > p')] : [];
-  const chat = el('div', 'chat-launcher');
-  const inner = el('div', 'chat-launcher-inner');
-  const top = el('button', 'go-top', { type: 'button' });
-  if (chatP) {
-    const icon = chatP.querySelector('.icon');
-    if (icon) flattenIcon(icon, 'chat').className = 'chat-launcher-icon';
-    chatP.className = 'chat-launcher-label';
-    const img = chatP.querySelector('img');
-    if (img) inner.append(img);
-    inner.append(chatP);
-  }
-  chat.append(inner);
-  if (topP) {
-    const icon = topP.querySelector('.icon');
-    const img = icon ? flattenIcon(icon) : null;
-    topP.className = 'go-top-label';
-    if (img) top.append(img);
-    top.append(topP);
-  }
-  top.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-  return [chat, top];
-}
-
-/* mobile footer accordion (live: head click -> .active-t + fa-minus) */
-function bindAccordion(block) {
-  block.querySelectorAll('.footer-col .footer-head, .others-row .footer-head').forEach((h) => {
-    h.addEventListener('click', () => {
-      if (!MOBILE.matches) return;
-      const on = h.classList.toggle('active-t');
-      const icon = h.querySelector('.footer-head-toggle');
-      if (icon) {
-        icon.classList.toggle('fa-minus', on);
-        icon.classList.toggle('fa-plus', !on);
-      }
+/* external links: own-bank hosts open in a new tab, third-party hosts go through the notice */
+function wireLinks(main, ownDomain, notice) {
+  main.querySelectorAll('a[href]').forEach((a) => {
+    if (a.getAttribute('href') === '#' || a === notice?.proceed) return;
+    const host = hostOf(a);
+    if (host === window.location.hostname) return;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    if (isOwnHost(host, ownDomain) || !notice?.proceed) return;
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      notice.proceed.href = a.href;
+      notice.dialog.showModal();
     });
+  });
+}
+
+/* headings act as accordion triggers only below the desktop breakpoint */
+function syncViewport(block) {
+  block.querySelectorAll('.footer-heading-toggle').forEach((btn) => {
+    if (DESKTOP.matches) btn.setAttribute('tabindex', '-1');
+    else btn.removeAttribute('tabindex');
   });
 }
 
 export default async function decorate(block) {
-  const footerMeta = getMetadata('footer');
-  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
-  const fragment = await loadFragment(footerPath);
+  const fragment = await fetchFooter();
   if (!fragment) return;
-  const [cols, others, legal, modal, tabs, launch] = [0, 1, 2, 3, 4, 5]
-    .map((i) => sectionOf(fragment, i));
+  const sections = [...fragment.querySelectorAll(':scope > div')];
+  const [cols, others, legal, notice, top] = sections;
+  const ownDomain = ownDomainOf(fragment);
   block.textContent = '';
 
-  const site = el('div', 'site-footer');
-  const wrap = el('div', 'footer-wrap');
   const main = el('div', 'footer-main');
-  const container = el('div', 'container');
+  const inner = el('div', 'footer-inner');
+  if (cols) inner.append(buildColumns(cols));
   const bottom = el('div', 'footer-bottom');
   if (others) bottom.append(buildOthers(others));
   if (legal) bottom.append(buildLegal(legal));
-  if (modal) bottom.append(buildModal(modal));
-  if (cols) container.append(buildColumns(cols));
-  container.append(bottom);
-  main.append(container);
-  wrap.append(main);
-  site.append(wrap);
-  block.append(site);
-  if (tabs) block.append(buildTabbar(tabs));
-  block.append(...buildLaunchers(launch));
-  bindAccordion(block);
+  inner.append(bottom);
+  main.append(inner);
+  const built = notice ? buildNotice(notice) : null;
+  if (built) main.append(built.dialog);
+  wireLinks(main, ownDomain, built);
+  block.append(main);
+  if (top) block.append(buildBackToTop(top));
+
+  syncViewport(block);
+  DESKTOP.addEventListener('change', () => syncViewport(block));
 }

@@ -1,0 +1,32 @@
+{
+  "variantName": "hero-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image",
+    "purpose": "hero-carousel",
+    "summary": "Homepage banner carousel with autoplay, progress dots and per-slide desktop/mobile images and optional copy card."
+  },
+  "contentPattern": {
+    "structure": "Each row is a slide: [desktop picture] [mobile picture] [optional copy cell: headings + CTA, or lone link = whole-slide link]. Class start-N / start-mobile-N sets the initial slide."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "hero-carousel"
+  ],
+  "usage": "Homepage banner carousel with autoplay, progress dots and per-slide desktop/mobile images and optional copy card.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero banners with multiple slides"
+    ],
+    "notSuitableFor": [
+      "single static banners (use listing-hero)"
+    ]
+  }
+}

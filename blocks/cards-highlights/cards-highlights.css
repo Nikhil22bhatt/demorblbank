@@ -1,0 +1,114 @@
+/* default: icon strip, items stacked on mobile, one row on desktop (source .icon-strip-wrap) */
+.cards-highlights {
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  max-width: calc(var(--container) - 24px);
+  margin: 15px auto 20px;
+  color: var(--brand-ink);
+  font-family: var(--brand-font-family);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards-highlights > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.cards-highlights .cards-highlights-title > * {
+  margin: 0 0 16px;
+}
+
+.cards-highlights .cards-highlights-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.cards-highlights .cards-highlights-item-icon {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  line-height: 0;
+}
+
+.cards-highlights .cards-highlights-item-icon img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.cards-highlights .cards-highlights-item-text p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 26.88px;
+  color: var(--brand-blue);
+}
+
+.cards-highlights .cards-highlights-item-text > :last-child {
+  margin-bottom: 20px;
+}
+
+@media (width >= 900px) {
+  /* source strip sits in the 690px hero text column, aligned with the content edge */
+  .cards-highlights {
+    width: calc(100% - 24px);
+    max-width: 690px;
+    margin: 20px 0 33px max(12px, calc((100% - var(--container)) / 2 + 12px));
+  }
+
+  .cards-highlights > ul {
+    flex-direction: row;
+    row-gap: 0;
+  }
+
+  .cards-highlights .cards-highlights-item {
+    flex: 0 1 auto;
+    margin-right: 20px;
+  }
+}
+
+/* alt: the strip inside a card hero panel (live .banner-info .shopperstop .icon-strip-wrap):
+   fills the panel text column, black labels. Also applied when listing-hero holds the strip. */
+:is(.cards-highlights.alt, .listing-hero .cards-highlights) {
+  width: 100%;
+  max-width: none;
+  margin: 15px 0 20px;
+}
+
+:is(.cards-highlights.alt, .listing-hero .cards-highlights) .cards-highlights-item {
+  margin-right: 20px;
+}
+
+:is(.cards-highlights.alt, .listing-hero .cards-highlights) .cards-highlights-item-text p {
+  color: #000;
+}
+
+@media (width >= 900px) {
+  :is(.cards-highlights.alt, .listing-hero .cards-highlights) {
+    margin: 20px 0 33px;
+  }
+
+  /* the live strip's items don't shrink below 202px (32px icon + 10px gap + 160px label):
+     the longest label takes the rest */
+  :is(.cards-highlights.alt, .listing-hero .cards-highlights) .cards-highlights-item {
+    min-width: 202px;
+  }
+}
+
+/* light: compact single-line items, icon centred with the label */
+.cards-highlights.light .cards-highlights-item {
+  align-items: center;
+}
+
+.cards-highlights.light .cards-highlights-item-icon {
+  margin-right: 8px;
+}
+
+.cards-highlights.light .cards-highlights-item-icon img {
+  width: 28px;
+  height: 28px;
+}

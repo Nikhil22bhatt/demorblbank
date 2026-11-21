@@ -18,13 +18,23 @@ function media(node) {
   return node.matches('picture, img') ? node : node.querySelector('picture, img');
 }
 
-/* a cell's authored elements; a picture folded into a <p> is lifted out */
+/* a cell's authored elements; a picture folded into a <p> is lifted out
+   (a picture inside a link stays in its link) */
 function items(cell) {
   return [...cell.children].map((child) => {
-    if (child.tagName === 'P' && child.children.length === 1 && media(child)
-      && !child.textContent.trim()) return media(child);
+    if (child.tagName === 'P' && child.children.length === 1
+      && child.firstElementChild.matches('picture, img')
+      && !child.textContent.trim()) return child.firstElementChild;
     return child;
   });
+}
+
+/* a paragraph that is just one text link (bare or strong/em-wrapped): a call to action */
+function isCta(node) {
+  if (node.tagName !== 'P' || node.children.length !== 1) return false;
+  const link = node.querySelector('a');
+  const text = link?.textContent.trim();
+  return Boolean(text) && !media(link) && node.textContent.trim() === text;
 }
 
 export default function decorate(block) {
@@ -49,7 +59,15 @@ export default function decorate(block) {
   });
   if (pics.length === 1) mediaBox.firstElementChild.classList.add('banner-img-mobile');
 
+  [...inner.children].filter(isCta).forEach((p) => p.classList.add('banner-cta'));
+
+  /* a closing footnote paragraph ("*T&C Apply") sits in the card's corner */
+  const last = inner.lastElementChild;
+  if (last?.tagName === 'P' && last.textContent.trim().startsWith('*')) last.classList.add('banner-terms');
+
   card.append(inner);
   container.append(card);
-  block.replaceChildren(mediaBox, container);
+  /* full-bleed reads text first, then the product image */
+  if (block.classList.contains('full-bleed')) block.replaceChildren(container, mediaBox);
+  else block.replaceChildren(mediaBox, container);
 }

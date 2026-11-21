@@ -1,0 +1,293 @@
+/* accordion-list — RBL FAQ / disclosure cards (source: .faq-rbl-inner .card, Bootstrap collapse) */
+.accordion-list {
+  display: block;
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto;
+  color: rgb(33 37 41);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.accordion-list .accordion-list-header > :first-child {
+  margin-top: 0;
+}
+
+.accordion-list .accordion-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.accordion-list .accordion-list-media picture,
+.accordion-list .accordion-list-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* card */
+.accordion-list .accordion-list-item {
+  border: 1px solid var(--rbl-border);
+  background-color: var(--brand-background);
+}
+
+.accordion-list .accordion-list-item.is-open {
+  background-color: var(--brand-highlight);
+}
+
+.accordion-list .accordion-list-item-header {
+  position: relative;
+  padding: 15px 30px 15px 15px;
+}
+
+/* grey marker on the card's left edge */
+.accordion-list .accordion-list-item-header::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 4px;
+  height: 36px;
+  background-color: rgb(144 144 144);
+  transform: translateY(-50%);
+}
+
+.accordion-list .accordion-list-item-heading {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.accordion-list .accordion-list-item-label {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0 35px 0 0;
+  border: 0;
+  background-color: rgb(255 255 255 / 0%);
+  color: rgb(0 0 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+  text-align: left;
+}
+
+.accordion-list .accordion-list-item-title {
+  display: block;
+  color: var(--brand-blue);
+  font-size: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  line-height: 29.7px;
+}
+
+.accordion-list .accordion-list-item-title > :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font: inherit;
+}
+
+.accordion-list .accordion-list-item.is-open .accordion-list-item-title {
+  font-weight: 400;
+}
+
+/* plus / minus in a tinted circle */
+.accordion-list .accordion-list-item-icon {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: var(--brand-highlight);
+  transform: translateY(-50%);
+}
+
+.accordion-list .accordion-list-item-icon::before,
+.accordion-list .accordion-list-item-icon::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 1.5px;
+  background-color: var(--brand-blue);
+  transform: translate(-50%, -50%);
+}
+
+.accordion-list .accordion-list-item-icon::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.accordion-list .accordion-list-item.is-open .accordion-list-item-icon {
+  background-color: var(--brand-blue);
+}
+
+.accordion-list .accordion-list-item.is-open .accordion-list-item-icon::before {
+  background-color: var(--brand-background);
+}
+
+.accordion-list .accordion-list-item.is-open .accordion-list-item-icon::after {
+  display: none;
+}
+
+/* panel */
+.accordion-list .accordion-list-item-body {
+  padding: 0 18px 18px;
+  overflow-x: auto;
+}
+
+.accordion-list .accordion-list-item-body[hidden] {
+  display: none;
+}
+
+.accordion-list .accordion-list-item-body p {
+  margin: 0 0 20px;
+  color: var(--brand-ink);
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.accordion-list .accordion-list-item-body p:has(+ table) {
+  margin-bottom: 0;
+}
+
+.accordion-list .accordion-list-item-body a:any-link {
+  color: var(--brand-blue);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.accordion-list .accordion-list-item-body table {
+  width: 100%;
+  margin: 0 0 20px;
+  border-collapse: collapse;
+  font-size: 13.712px;
+  line-height: 26.88px;
+}
+
+.accordion-list .accordion-list-item-body tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.accordion-list .accordion-list-item-body :is(th, td) {
+  padding: 8px;
+  border: solid #fff;
+  border-width: 0 1px;
+  background-color: #e9eaef;
+  color: rgb(33 37 41);
+  text-align: left;
+  vertical-align: top;
+}
+
+.accordion-list .accordion-list-item-body thead th {
+  background-color: #1a3281;
+  color: #fff;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+/* empty items are not expandable */
+.accordion-list .accordion-list-item-empty .accordion-list-item-label {
+  cursor: default;
+}
+
+/* boxed: the item list sits inside one panel */
+.accordion-list.boxed .accordion-list-items {
+  padding: 16px;
+  border: 1px solid var(--rbl-border);
+}
+
+/* light: full container width with its own gutter, first panel open */
+.accordion-list.light {
+  width: auto;
+  max-width: var(--container);
+  padding: 0 12px;
+}
+
+.accordion-list.light .accordion-list-items {
+  padding-top: 10px;
+}
+
+/* image-beside: indicator on the left, no card chrome */
+.accordion-list.image-beside .accordion-list-item,
+.accordion-list.image-beside .accordion-list-item.is-open {
+  border: 0;
+  background-color: transparent;
+}
+
+.accordion-list.image-beside .accordion-list-item-header {
+  padding: 8px 0 8px 36px;
+}
+
+.accordion-list.image-beside .accordion-list-item-header::before {
+  display: none;
+}
+
+.accordion-list.image-beside .accordion-list-item-label {
+  padding-right: 0;
+}
+
+.accordion-list.image-beside .accordion-list-item .accordion-list-item-icon {
+  right: auto;
+  left: -36px;
+}
+
+.accordion-list.image-beside .accordion-list-item-body {
+  padding: 0 0 8px 36px;
+}
+
+.accordion-list.accordion-list-has-media {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (width >= 768px) {
+  .accordion-list .accordion-list-item-header {
+    padding: 20px 20px 20px 30px;
+  }
+
+  .accordion-list .accordion-list-item-icon {
+    top: -4px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    transform: none;
+  }
+
+  .accordion-list .accordion-list-item-icon::before,
+  .accordion-list .accordion-list-item-icon::after {
+    width: 18px;
+    height: 2px;
+  }
+
+  .accordion-list .accordion-list-item-body {
+    padding: 0 30px 30px;
+  }
+
+  .accordion-list.light .accordion-list-items {
+    padding-top: 0;
+  }
+
+  .accordion-list.image-beside .accordion-list-item .accordion-list-item-icon {
+    top: 50%;
+    right: auto;
+    left: -36px;
+    width: 22px;
+    height: 22px;
+    transform: translateY(-50%);
+  }
+
+  .accordion-list.accordion-list-has-media {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .accordion-list.accordion-list-has-media > .accordion-list-media,
+  .accordion-list.accordion-list-has-media > .accordion-list-content {
+    flex: 1 1 50%;
+    min-width: 0;
+  }
+}

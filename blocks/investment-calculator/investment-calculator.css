@@ -1,0 +1,99 @@
+/* investment-calculator — structural layout only; brand styling comes in the design pass */
+.investment-calculator {
+  display: grid;
+  gap: 24px;
+}
+
+.investment-calculator .investment-calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+.investment-calculator .investment-calculator-field-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.investment-calculator .investment-calculator-inputs {
+  display: flex;
+  gap: 8px;
+}
+
+.investment-calculator .investment-calculator-input {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.investment-calculator .investment-calculator-input-caption {
+  flex-basis: 100%;
+  text-align: right;
+  font-size: var(--body-font-size-xs, 0.75rem);
+}
+
+.investment-calculator .investment-calculator-input input {
+  width: 7em;
+  border: 1px solid currentcolor;
+  border-radius: 4px;
+  padding: 2px 8px;
+  background: transparent;
+  font: inherit;
+  text-align: right;
+}
+
+.investment-calculator .investment-calculator-field-tenure .investment-calculator-input input {
+  width: 4em;
+}
+
+.investment-calculator .investment-calculator-slider {
+  width: 100%;
+  margin: 12px 0 4px;
+}
+
+.investment-calculator .investment-calculator-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--body-font-size-xs, 0.75rem);
+}
+
+.investment-calculator .investment-calculator-result {
+  display: flex;
+  flex-direction: column;
+}
+
+.investment-calculator .investment-calculator-output {
+  padding: 16px 24px;
+  border-bottom: 1px dashed currentcolor;
+}
+
+.investment-calculator .investment-calculator-output p {
+  margin: 0;
+}
+
+.investment-calculator .investment-calculator-output-value {
+  font-weight: 700;
+}
+
+.investment-calculator .investment-calculator-ctas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 24px;
+}
+
+.investment-calculator .investment-calculator-ctas .button {
+  text-align: center;
+}
+
+@media (width >= 900px) {
+  .investment-calculator {
+    grid-template-columns: 2fr 1fr;
+  }
+}

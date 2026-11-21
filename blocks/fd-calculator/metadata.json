@@ -1,0 +1,39 @@
+{
+  "variantName": "fd-calculator",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "calculator",
+    "summary": "Fixed Deposit calculator: deposit/customer type options, amount and tenure inputs, payout options, computed maturity outputs and CTAs (client-side only)."
+  },
+  "contentPattern": {
+    "structure": "Fixed composition: heading, option lists (deposit types, customer types, payout), result labels, two CTA cells, reset link, terms paragraph."
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "fd-calculator",
+    "v_ec9905adca45",
+    "v_6c40a7ab706f"
+  ],
+  "usage": "Fixed Deposit calculator: deposit/customer type options, amount and tenure inputs, payout options, computed maturity outputs and CTAs (client-side only).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "deposit / interest calculators"
+    ],
+    "notSuitableFor": [
+      "generic forms"
+    ]
+  }
+}

@@ -142,3 +142,82 @@
     object-fit: contain;
   }
 }
+
+/* ---- card hero (theme .banner-para-right-section .shopperstop): image left, panel right, the
+   panel holds the highlights strip, the .common-btn-blue CTA and the .term-text note ---- */
+.listing-hero.card-hero .listing-hero-panel {
+  padding: 15px 20px 30px;
+}
+
+.listing-hero.card-hero .listing-hero-text h1 {
+  margin: 0 0 15px;
+  color: #ed1c24;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+main .listing-hero.card-hero .listing-hero-cta {
+  margin: 0 0 20px;
+}
+
+main .listing-hero.card-hero .listing-hero-cta > a:any-link {
+  display: block;
+  min-width: 146px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: var(--brand-blue);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .listing-hero.card-hero .listing-hero-cta > a:any-link:hover {
+  background: var(--brand-blue-hover);
+}
+
+.listing-hero.card-hero .listing-hero-text p.listing-hero-terms {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  margin: 0;
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 26.88px;
+  letter-spacing: 0.2px;
+}
+
+@media (width >= 768px) {
+  .listing-hero.card-hero .listing-hero-text h1 {
+    font-size: 35px;
+  }
+
+  main .listing-hero.card-hero .listing-hero-cta > a:any-link {
+    display: inline-block;
+  }
+
+  .listing-hero.card-hero .listing-hero-text p.listing-hero-terms {
+    right: 40px;
+    bottom: 20px;
+  }
+}
+
+@media (width >= 992px) {
+  .listing-hero.card-hero .listing-hero-media {
+    inset: 0 auto 0 0;
+  }
+
+  .listing-hero.card-hero .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .listing-hero.card-hero .listing-hero-panel {
+    margin: 0 -25px 0 0;
+    padding: 20px 30px;
+  }
+}

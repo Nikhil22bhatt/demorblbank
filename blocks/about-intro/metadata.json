@@ -1,0 +1,32 @@
+{
+  "variantName": "about-intro",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us",
+    "originPage": "/about-us"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "section-intro",
+    "summary": "About page tab strip plus an \"About RBL Bank\" pane with copy and a figure image."
+  },
+  "contentPattern": {
+    "structure": "Tabs cell (ul of links; current path active) + pane row [heading + paragraphs] [figure picture]."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "about-intro"
+  ],
+  "usage": "About page tab strip plus an \"About RBL Bank\" pane with copy and a figure image.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "page-level tab navigation with an intro pane"
+    ],
+    "notSuitableFor": [
+      "in-page content tabs (use contact-tabs pattern)"
+    ]
+  }
+}

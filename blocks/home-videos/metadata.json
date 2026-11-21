@@ -1,0 +1,32 @@
+{
+  "variantName": "home-videos",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "video-rail",
+    "summary": "Homepage \"Trust & Beyond\" video rail; thumbnails open the video in a popup."
+  },
+  "contentPattern": {
+    "structure": "Title row (heading or paragraph), card rows [thumbnail picture] [title + YouTube embed link], CTA row."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "home-videos"
+  ],
+  "usage": "Homepage \"Trust & Beyond\" video rail; thumbnails open the video in a popup.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage video teasers with popup playback"
+    ],
+    "notSuitableFor": [
+      "image carousels"
+    ]
+  }
+}

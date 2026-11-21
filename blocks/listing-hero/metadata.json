@@ -1,0 +1,32 @@
+{
+  "variantName": "listing-hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking",
+    "originPage": "/business-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "lavender",
+    "purpose": "listing-hero",
+    "summary": "Listing template hero: h1 and lede on a lavender panel with the hero image on the right (top band on mobile)."
+  },
+  "contentPattern": {
+    "structure": "Media cell (picture only) + text cell (h1 + lede paragraphs)."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "listing-hero"
+  ],
+  "usage": "Listing template hero: h1 and lede on a lavender panel with the hero image on the right (top band on mobile).",
+  "reuseGuidance": {
+    "suitableFor": [
+      "banking category / listing page heroes"
+    ],
+    "notSuitableFor": [
+      "homepage carousel (use hero-carousel)"
+    ]
+  }
+}

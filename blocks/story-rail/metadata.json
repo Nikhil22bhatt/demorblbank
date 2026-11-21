@@ -1,0 +1,32 @@
+{
+  "variantName": "story-rail",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/business-banking",
+    "originPage": "/business-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "blog-rail",
+    "summary": "\"Money, People & Safety\" blog story rail with prev/next controls and a View All CTA."
+  },
+  "contentPattern": {
+    "structure": "Head row (heading), card rows [picture] [date + linked heading], CTA row (lone link)."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "story-rail"
+  ],
+  "usage": "\"Money, People & Safety\" blog story rail with prev/next controls and a View All CTA.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "blog / article story rails on listing pages"
+    ],
+    "notSuitableFor": [
+      "video rails (use video-rail)"
+    ]
+  }
+}

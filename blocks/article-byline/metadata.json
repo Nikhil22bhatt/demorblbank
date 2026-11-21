@@ -1,0 +1,36 @@
+{
+  "variantName": "article-byline",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:44.080Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/blog/authors/himanshu-mishra/proactive-service-affluent-banking",
+    "originPage": "/blog/authors/himanshu-mishra/proactive-service-affluent-banking"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link",
+    "summary": "Blog article byline: round author avatar, author name and publish date, followed by circular Facebook, X, LinkedIn and WhatsApp share buttons."
+  },
+  "contentPattern": {
+    "structure": "One block row; cells in any order: author photo (picture), author name (text or link), publish date (text, e.g. \"Nov 20, 2025\"). Optional share links (facebook/twitter/x/linkedin/whatsapp URLs); when none are authored, share links for the current page are generated for all four networks."
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_94d7729286c7"
+  ],
+  "usage": "Blog article byline: round author avatar, author name and publish date, followed by circular Facebook, X, LinkedIn and WhatsApp share buttons.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "author/date/share line at the top of a blog article"
+    ],
+    "notSuitableFor": [
+      "author bio cards with long descriptions",
+      "general social follow links"
+    ]
+  }
+}

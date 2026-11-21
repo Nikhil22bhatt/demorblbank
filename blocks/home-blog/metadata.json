@@ -1,0 +1,49 @@
+{
+  "variantName": "home-blog",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "blog-rail",
+    "summary": "Homepage \"Money, People & Safety\" blog rail with arrows from tablet up."
+  },
+  "contentPattern": {
+    "structure": "Title row, card rows [background picture] [date + title link], CTA row."
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    },
+    {
+      "class": "orange",
+      "label": "Orange"
+    }
+  ],
+  "memberVariantIds": [
+    "home-blog",
+    "v_318864af2210",
+    "v_318864af2210-1",
+    "v_4e1933a54b45",
+    "v_6e921d05cf8c"
+  ],
+  "usage": "Homepage \"Money, People & Safety\" blog rail with arrows from tablet up.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage blog teasers"
+    ],
+    "notSuitableFor": [
+      "video rails (use home-videos)"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "variantName": "product-cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "purpose": "product-rail",
+    "summary": "Homepage \"Our Products\" card rail with prev/next arrows; each card has image, heading and Know More / Apply CTAs."
+  },
+  "contentPattern": {
+    "structure": "Title row (heading), card rows [picture] [heading + CTAs: em link = grey Know More, strong link = blue], CTA row."
+  },
+  "options": [
+    {
+      "class": "slider",
+      "label": "Slider"
+    },
+    {
+      "class": "slider-2",
+      "label": "Slider 2"
+    },
+    {
+      "class": "premium",
+      "label": "Premium"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    }
+  ],
+  "memberVariantIds": [
+    "product-cards",
+    "v_5a49b4721c88",
+    "v_14bbda2b2abd",
+    "v_8b97f49700de-2",
+    "v_be784fc068ee",
+    "v_8b97f49700de-4",
+    "v_2f322fe25715-11",
+    "v_2f322fe25715-20",
+    "v_2f322fe25715-21",
+    "v_d99a41bdda5e",
+    "v_e374c25af894"
+  ],
+  "usage": "Homepage \"Our Products\" card rail with prev/next arrows; each card has image, heading and Know More / Apply CTAs.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "product card rails"
+    ],
+    "notSuitableFor": [
+      "static product grids (use product-grid)"
+    ]
+  }
+}

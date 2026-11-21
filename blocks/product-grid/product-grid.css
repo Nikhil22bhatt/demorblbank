@@ -125,3 +125,322 @@
     margin-right: 30px;
   }
 }
+
+/* ---- options (structural; colours are placeholder hooks for the design pass) ---- */
+
+/* image-blue (Insignia segments, live .biz-seg .offer-card-wrap): the block is the bare 1116px
+   row; each 470px card is a full-bleed photo with a navy label pill, white copy and a gold
+   round arrow CTA that hangs off the card foot */
+.product-grid.block.image-blue {
+  width: calc(100% - 24px);
+  max-width: 1116px;
+  margin: 0 auto;
+  padding: 0;
+  color: #606060;
+}
+
+.product-grid.image-blue > .container {
+  max-width: none;
+  padding: 0;
+}
+
+.product-grid.image-blue .product-grid-list {
+  row-gap: 60px;
+}
+
+.product-grid.image-blue .product-card {
+  position: relative;
+  height: 470px;
+  margin-bottom: 0;
+  overflow: visible;
+}
+
+.product-grid.image-blue .product-card-img {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.product-grid.image-blue .product-card-img :is(picture, img) {
+  width: 100%;
+  height: 100%;
+}
+
+/* the dark scrim sits on the photo, so the copy's trailing margin can overflow unseen */
+.product-grid.image-blue .product-card-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgb(0 0 0 / 70%) 40%, transparent);
+}
+
+.product-grid.image-blue .product-card-body {
+  position: relative;
+  z-index: 1;
+  justify-content: flex-start;
+  padding: 218px 0 0;
+  background: none;
+  color: #fff;
+}
+
+.product-grid.image-blue .product-card-title :is(h1, h2, h3, h4, h5, h6) {
+  display: inline-block;
+  margin: 0 0 6px;
+  padding: 15px 30px;
+  border-radius: 0 23px 23px 0;
+  background: rgb(9 16 72);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.product-grid.image-blue .product-card-title a:any-link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.product-grid.image-blue .product-card-copy {
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.product-grid.image-blue .product-card-copy p {
+  height: 180px;
+  margin: 20px 0;
+  padding: 0 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.product-grid.image-blue .product-card-actions {
+  display: block;
+}
+
+.product-grid.image-blue .product-card-actions p {
+  display: block;
+  margin: 0;
+}
+
+.product-grid.image-blue .product-card-actions a:any-link {
+  position: absolute;
+  right: 8px;
+  bottom: -80px;
+  display: block;
+  width: 100px;
+  min-width: 0;
+  height: 122px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--rbl-blue);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.24px;
+  text-indent: 200%;
+  white-space: nowrap;
+}
+
+.product-grid.image-blue .product-card-actions a:any-link::after {
+  content: "\2192";
+  position: absolute;
+  top: 3px;
+  left: 13px;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: rgb(172 130 48);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  text-indent: 0;
+}
+
+/* light / light-2: CSR "related programmes" rail (live .our-products-slick): a 1140 row of
+   fixed-width cards (324 mobile / 345 desktop, 27 apart) that scrolls sideways; image card +
+   22px bold h3 link + 16px copy + filled "Read More" pinned to the card foot */
+.product-grid.block:is(.light, .light-2) {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 12px;
+  color: rgb(33 37 41);
+}
+
+.product-grid:is(.light, .light-2) > .container {
+  max-width: none;
+  padding: 0;
+}
+
+.product-grid:is(.light, .light-2) .product-grid-list {
+  flex-wrap: nowrap;
+  gap: 27px;
+  margin: 0 -12px;
+  padding: 0 12px 30px;
+  overflow-x: auto;
+  scroll-padding-inline: 12px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.product-grid:is(.light, .light-2) .product-grid-item {
+  flex: 0 0 324px;
+  width: 324px;
+  padding: 0;
+  scroll-snap-align: start;
+}
+
+.product-grid:is(.light, .light-2) .product-card {
+  border-radius: 0;
+}
+
+.product-grid:is(.light, .light-2) .product-card-img img {
+  height: 266px;
+}
+
+.product-grid:is(.light, .light-2) .product-card-body {
+  justify-content: flex-start;
+  padding: 24px 9px 30px;
+  background: var(--product-grid-body-bg, #e9ecf7);
+}
+
+.product-grid:is(.light, .light-2) .product-card-top {
+  min-height: 234px;
+  padding: 0 11px;
+}
+
+.product-grid:is(.light, .light-2) .product-card-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 7px;
+  color: rgb(48 64 135);
+  font-family: Roboto, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28.6px;
+}
+
+.product-grid:is(.light, .light-2) .product-card-title a:any-link {
+  color: rgb(48 64 135);
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.product-grid:is(.light, .light-2) .product-card-copy {
+  min-height: 0;
+  margin: 0;
+  color: rgb(48 48 48);
+}
+
+.product-grid:is(.light, .light-2) .product-card-copy p {
+  margin: 0;
+  color: rgb(48 48 48);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 26.88px;
+}
+
+.product-grid:is(.light, .light-2) .product-card-actions p {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+/* the live card's empty "#" placeholder CTA renders nothing there */
+.product-grid:is(.light, .light-2) .product-card-actions p:has(> a[href="#"]) {
+  display: none;
+}
+
+.product-grid:is(.light, .light-2) .product-card-actions a:any-link {
+  display: block;
+  width: calc(100% - 19px);
+  min-width: 119px;
+  height: 48px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid rgb(9 16 72);
+  border-radius: 4px;
+  background: var(--product-grid-cta-bg, rgb(48 64 135));
+  color: var(--product-grid-cta-text, #fff);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.product-grid:is(.light, .light-2) .product-card-actions a:any-link:hover,
+.product-grid:is(.light, .light-2) .product-card-actions a:any-link:focus {
+  border-color: rgb(9 16 72);
+  background: var(--rbl-blue-hover);
+  color: #fff;
+}
+
+@media (width >= 900px) {
+  .product-grid:is(.light, .light-2) .product-grid-list {
+    padding: 0 17px 30px;
+    scroll-padding-inline: 17px;
+    scrollbar-width: thin;
+  }
+
+  .product-grid:is(.light, .light-2) .product-grid-item {
+    flex-basis: 345px;
+    width: 345px;
+  }
+
+  .product-grid:is(.light, .light-2) .product-card-img img {
+    height: 240px;
+  }
+
+  .product-grid:is(.light, .light-2) .product-card-body {
+    padding: 24px 19px 30px;
+  }
+
+  .product-grid:is(.light, .light-2) .product-card-top {
+    min-height: 204px;
+  }
+
+  .product-grid:is(.light, .light-2) .product-card-actions p {
+    flex: 0 0 auto;
+  }
+
+  .product-grid:is(.light, .light-2) .product-card-actions a:any-link {
+    width: auto;
+  }
+}
+
+/* dark: text panels (heading + list), two per row, bordered, no image */
+.product-grid.dark .product-card {
+  border: 1px solid var(--product-grid-border, #d0d0d0);
+  box-shadow: none;
+}
+
+.product-grid.dark .product-card-body {
+  padding: 24px;
+  background: var(--product-grid-body-bg, #fff);
+}
+
+.product-grid.dark .product-card-copy {
+  min-height: 0;
+  margin-bottom: 0;
+}
+
+.product-grid.dark .product-card-copy ul ul {
+  margin-top: 8px;
+}
+
+@media (width >= 992px) {
+  .product-grid.dark .product-grid-item {
+    width: 50%;
+  }
+}

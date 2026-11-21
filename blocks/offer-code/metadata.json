@@ -1,0 +1,43 @@
+{
+  "variantName": "offer-code",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:36.615Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/offers-and-promotions/abhibus",
+    "originPage": "/offers-and-promotions/abhibus"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "link",
+    "purpose": "promo code",
+    "summary": "Offer-code strip: a dashed copy-to-clipboard code button next to a Know More CTA. The grey-shadow option renders rows as shadowed icon + label link tiles in a three-column grid."
+  },
+  "contentPattern": {
+    "structure": "One row per item: [CODE | link]; with grey-shadow: [(icon) | link] tiles."
+  },
+  "options": [
+    {
+      "class": "grey-shadow",
+      "label": "Grey Shadow"
+    }
+  ],
+  "memberVariantIds": [
+    "v_94cb393f614c",
+    "v_769d0f27e70f"
+  ],
+  "usage": "Offer-code strip: a dashed copy-to-clipboard code button next to a Know More CTA. The grey-shadow option renders rows as shadowed icon + label link tiles in a three-column grid.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "promo / coupon codes with a CTA",
+      "grey-shadow: document or icon link tiles"
+    ],
+    "notSuitableFor": [
+      "long offer descriptions (use default content)"
+    ]
+  }
+}

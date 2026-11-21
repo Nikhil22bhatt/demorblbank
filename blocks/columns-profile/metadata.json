@@ -1,0 +1,34 @@
+{
+  "variantName": "columns-profile",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-20T14:47:27.502Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/about-us/board-of-directors/chandan-sinha"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "hasGrid": true,
+    "imagePattern": "noimg",
+    "structure": "image + heading + text",
+    "purpose": "Board/leadership profile: portrait card with name and role beside the biography"
+  },
+  "contentPattern": {
+    "structure": "Each row: [card cell: portrait picture, name, role] [bio cell: name heading, designation heading, biography paragraphs]. Single-cell rows span full width"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_4708835d237f"
+  ],
+  "usage": "Board/leadership profile: portrait card with name and role beside the biography.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "board of directors / management profile pages"
+    ],
+    "notSuitableFor": [
+      "team grids with many people (use cards)"
+    ]
+  }
+}

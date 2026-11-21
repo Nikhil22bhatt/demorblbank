@@ -1,0 +1,39 @@
+{
+  "variantName": "promo-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "version": "1.0.0",
+  "created": "2026-11-20T02:52:38.099Z",
+  "sourceContext": {
+    "originUrl": "https://www.rbl.bank.in/",
+    "originPage": "/"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "image",
+    "purpose": "promo-carousel",
+    "summary": "Homepage credit-card offer banner carousel with autoplay and progress dots."
+  },
+  "contentPattern": {
+    "structure": "Each row is a slide: [desktop picture] [mobile picture] [heading + list/paragraph + CTA] [optional style: light | compact]. Class start-N / start-mobile-N sets the initial slide."
+  },
+  "options": [
+    {
+      "class": "photo-background",
+      "label": "Photo Background"
+    }
+  ],
+  "memberVariantIds": [
+    "promo-carousel",
+    "v_3a56c4a170df",
+    "v_bccf944bd636"
+  ],
+  "usage": "Homepage credit-card offer banner carousel with autoplay and progress dots.",
+  "reuseGuidance": {
+    "suitableFor": [
+      "product offer banners with copy and CTA"
+    ],
+    "notSuitableFor": [
+      "hero banners (use hero-carousel)"
+    ]
+  }
+}

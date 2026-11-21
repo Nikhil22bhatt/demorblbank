@@ -38,13 +38,13 @@ function carousel(block, track, slides, label) {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let i = startIndex(block, n);
   let timer = null;
-  const dots = el('ul', 'carousel-dots slick-dots', { 'aria-label': label }); // live slick convention
+  const dots = el('ul', 'promo-carousel-dots slick-dots', { 'aria-label': label }); // live slick convention
   const dotBtns = slides.map((s, k) => {
     s.setAttribute('role', 'group');
     s.setAttribute('aria-roledescription', 'slide');
     s.setAttribute('aria-label', `${k + 1} of ${n}`);
     const li = el('li');
-    const b = el('button', 'carousel-dot', { type: 'button', 'aria-label': `${k + 1} of ${n}` });
+    const b = el('button', 'promo-carousel-dot', { type: 'button', 'aria-label': `${k + 1} of ${n}` });
     b.textContent = k + 1;
     li.append(b);
     dots.append(li);
@@ -58,7 +58,7 @@ function carousel(block, track, slides, label) {
       x.removeAttribute('data-image-index');
       x.removeAttribute('id');
     });
-    c.classList.add('carousel-slide-clone');
+    c.classList.add('promo-carousel-slide-clone');
     c.hidden = true;
     c.inert = true;
     c.setAttribute('aria-hidden', 'true');
@@ -102,9 +102,9 @@ function carousel(block, track, slides, label) {
     paint();
     play();
   };
-  const prev = el('button', 'carousel-arrow carousel-arrow-prev', { type: 'button', 'aria-label': 'Previous slide' });
+  const prev = el('button', 'promo-carousel-arrow promo-carousel-arrow-prev', { type: 'button', 'aria-label': 'Previous slide' });
   prev.append(el('i', 'fa fa-angle-left', { 'aria-hidden': 'true' }));
-  const next = el('button', 'carousel-arrow carousel-arrow-next', { type: 'button', 'aria-label': 'Next slide' });
+  const next = el('button', 'promo-carousel-arrow promo-carousel-arrow-next', { type: 'button', 'aria-label': 'Next slide' });
   next.append(el('i', 'fa fa-angle-right', { 'aria-hidden': 'true' }));
   prev.addEventListener('click', () => go(i - 1));
   next.addEventListener('click', () => go(i + 1));
@@ -170,15 +170,15 @@ function media(cell) {
 const STYLE = /^\s*(light|compact)(\s*,\s*(light|compact))*\s*$/i;
 
 export default function decorate(block) {
-  if (block.querySelector(':scope > .carousel-viewport')) return;
-  const viewport = el('div', 'carousel-viewport');
-  const track = el('div', 'carousel-track');
+  if (block.querySelector(':scope > .promo-carousel-viewport')) return;
+  const viewport = el('div', 'promo-carousel-viewport');
+  const track = el('div', 'promo-carousel-track');
   const slides = [...block.children].map((row) => {
     const cells = [...row.children];
     const pics = cells.filter((c) => media(c) && !c.querySelector('h1, h2, h3, a'));
     const style = cells.find((c) => !pics.includes(c) && STYLE.test(c.textContent));
     const copy = cells.find((c) => !pics.includes(c) && c !== style && c.textContent.trim());
-    const slide = el('div', 'carousel-slide promo-slide');
+    const slide = el('div', 'promo-carousel-slide promo-slide');
     const keys = style ? style.textContent.toLowerCase() : '';
     if (keys.includes('compact')) slide.classList.add('promo-slide-compact');
     pics.slice(0, 2).forEach((c, k) => {

@@ -4,19 +4,19 @@
   position: relative;
 }
 
-.promo-carousel .carousel-viewport {
+.promo-carousel .promo-carousel-viewport {
   position: relative;
   height: 570px;
   overflow: hidden;
 }
 
-.promo-carousel .carousel-track {
+.promo-carousel .promo-carousel-track {
   display: flex;
   transform: translate3d(calc(var(--i, 0) * -100%), 0, 0);
   transition: transform 1s ease;
 }
 
-.promo-carousel .carousel-slide {
+.promo-carousel .promo-carousel-slide {
   position: relative;
   display: block;
   flex: 0 0 100%;
@@ -109,7 +109,7 @@
   white-space: nowrap;
 }
 
-.promo-carousel .carousel-arrow {
+.promo-carousel .promo-carousel-arrow {
   position: absolute;
   top: 50%;
   z-index: 99;
@@ -124,15 +124,15 @@
   cursor: pointer;
 }
 
-.promo-carousel .carousel-arrow-prev {
+.promo-carousel .promo-carousel-arrow-prev {
   left: 35px;
 }
 
-.promo-carousel .carousel-arrow-next {
+.promo-carousel .promo-carousel-arrow-next {
   right: 35px;
 }
 
-.promo-carousel .carousel-dots {
+.promo-carousel .promo-carousel-dots {
   position: absolute;
   left: 0;
   right: 0;
@@ -146,11 +146,11 @@
   list-style: none;
 }
 
-.promo-carousel .carousel-dots li {
+.promo-carousel .promo-carousel-dots li {
   display: block;
 }
 
-.promo-carousel .carousel-dot {
+.promo-carousel .promo-carousel-dot {
   position: relative;
   display: block;
   width: 25px;
@@ -163,7 +163,7 @@
   cursor: pointer;
 }
 
-.promo-carousel .carousel-dot::after {
+.promo-carousel .promo-carousel-dot::after {
   content: "";
   position: absolute;
   top: 0;
@@ -173,7 +173,7 @@
   background: #ec0a0a;
 }
 
-.promo-carousel.is-playing .carousel-dot.is-active::after {
+.promo-carousel.is-playing .promo-carousel-dot.is-active::after {
   animation: promo-dot-fill 6s linear forwards;
 }
 
@@ -183,11 +183,11 @@
 }
 
 @media (width >= 768px) {
-  .promo-carousel .carousel-viewport {
+  .promo-carousel .promo-carousel-viewport {
     height: 395px;
   }
 
-  .promo-carousel .carousel-slide {
+  .promo-carousel .promo-carousel-slide {
     display: flex;
     align-items: center;
     height: auto;
@@ -229,11 +229,57 @@
     font-size: 18px;
   }
 
-  .promo-carousel .carousel-arrow {
+  .promo-carousel .promo-carousel-arrow {
     display: block;
   }
 }
 
-.promo-carousel .carousel-slide-clone[hidden] {
+.promo-carousel .promo-carousel-slide-clone[hidden] {
   display: none;
+}
+
+/* ---- option: photo-background (structural; colours are placeholder hooks) ----
+   Every slide is a full-bleed photo; the offer copy sits on a scrim, the benefit list
+   becomes a row of divided cells on desktop. */
+.promo-carousel.photo-background .promo-carousel-slide {
+  background: var(--promo-carousel-photo-fallback, #303030);
+}
+
+.promo-carousel.photo-background .promo-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--promo-carousel-scrim, rgb(0 0 0 / 20%));
+}
+
+.promo-carousel.photo-background .promo-offer :is(h1, h2, h3) {
+  color: var(--promo-carousel-photo-title, #fff);
+}
+
+.promo-carousel.photo-background .promo-para ul {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .promo-carousel.photo-background .promo-offer {
+    max-width: 50%;
+    text-align: center;
+  }
+
+  .promo-carousel.photo-background .promo-para ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .promo-carousel.photo-background .promo-para li {
+    flex: 1 1 0;
+    padding: 0 16px;
+    line-height: 1.4;
+  }
+
+  .promo-carousel.photo-background .promo-para li + li {
+    border-left: 1px solid var(--promo-carousel-divider, rgb(255 255 255 / 60%));
+  }
 }

@@ -1,0 +1,138 @@
+/* Source: Bootstrap 5 carousel inside .container > .row (1140px cap, 12px gutter) */
+.carousel-images {
+  position: relative;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.carousel-images .carousel-images-slides-container {
+  position: relative;
+}
+
+.carousel-images .carousel-images-slides,
+.carousel-images .carousel-images-slide-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-images .carousel-images-slides {
+  display: flex;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow: scroll clip;
+  scrollbar-width: none;
+}
+
+.carousel-images .carousel-images-slides::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-images .carousel-images-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  position: relative;
+  width: 100%;
+}
+
+.carousel-images .carousel-images-slide-image picture,
+.carousel-images .carousel-images-slide-image img {
+  display: block;
+  width: 100%;
+}
+
+.carousel-images .carousel-images-slide-image img {
+  height: auto;
+  aspect-ratio: 1428 / 800;
+  object-fit: cover;
+}
+
+.carousel-images .carousel-images-slide-content {
+  padding: 8px 0;
+}
+
+/* Indicators: .carousel-indicators (absolute, 15% side margins, 1rem bottom) */
+.carousel-images .carousel-images-slide-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin: 0 15% 16px;
+}
+
+.carousel-images .carousel-images-slide-indicator {
+  display: flex;
+}
+
+/* [data-bs-target]: 30x3 bar, 10px transparent top/bottom borders, 3px side margins */
+.carousel-images .carousel-images-slide-indicator button {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin: 0 3px;
+  padding: 0;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-radius: 0;
+  background-color: #fff;
+  background-clip: padding-box;
+  color: #000;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.6s ease;
+}
+
+.carousel-images .carousel-images-slide-indicator button:disabled,
+.carousel-images .carousel-images-slide-indicator button:hover,
+.carousel-images .carousel-images-slide-indicator button:focus-visible {
+  opacity: 1;
+}
+
+.carousel-images .carousel-images-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  right: 12px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.carousel-images .carousel-images-navigation-buttons button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgb(19 19 19 / 25%);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.carousel-images .carousel-images-navigation-buttons button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 2px);
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-bottom: 0;
+  border-left: 0;
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.carousel-images .carousel-images-navigation-buttons button.slide-next::after {
+  left: calc(50% - 2px);
+  transform: translate(-50%, -50%) rotate(45deg);
+}

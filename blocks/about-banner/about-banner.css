@@ -11,7 +11,7 @@ main .about-banner-container {
   margin-top: -3px;
   padding: 35px 0 0;
   background: #f4f5fc;
-  color: #303030;
+  color: var(--brand-text);
 }
 
 .about-banner .banner-media {
@@ -68,7 +68,7 @@ main .about-banner-container {
 }
 
 .about-banner .banner-inner {
-  width: 100%;
+  min-width: 0;
 }
 
 .about-banner .banner-inner h1 {
@@ -108,7 +108,7 @@ main .about-banner-container {
     display: block;
   }
 
-  .about-banner .banner-img-mobile {
+  .about-banner .banner-img-mobile:not(.banner-img-desktop) {
     display: none;
   }
 
@@ -145,3 +145,395 @@ main .about-banner-container {
     object-fit: contain;
   }
 }
+
+/* ---- shared card extras (theme .banner-info: .term-text, .btn) ---- */
+
+/* closing footnote ("*T&C Apply"), tagged by the block JS */
+.about-banner .banner-inner p.banner-terms {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  margin: 0;
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 26.88px;
+  letter-spacing: 0.2px;
+}
+
+/* CTAs: the theme .btn .common-btn-blue (a second CTA is the outline .br1w button) */
+main .about-banner .banner-inner .banner-cta {
+  display: block;
+  margin: 0 0 20px;
+}
+
+main .about-banner .banner-inner .banner-cta > a:any-link {
+  display: block;
+  min-width: 146px;
+  height: 48px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--brand-blue);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+main .about-banner .banner-inner .banner-cta > a:any-link:hover {
+  background: var(--brand-blue-hover);
+}
+
+main .about-banner .banner-inner .banner-cta + .banner-cta > a:any-link {
+  border: 1px solid #091048;
+  background: transparent;
+  color: #091048;
+}
+
+@media (width >= 768px) {
+  .about-banner .banner-inner p.banner-terms {
+    right: 40px;
+    bottom: 20px;
+  }
+
+  main .about-banner .banner-inner .banner-cta {
+    display: inline-block;
+    margin: 0 22px 27px 0;
+  }
+
+  main .about-banner .banner-inner .banner-cta > a:any-link {
+    display: inline-block;
+  }
+}
+
+/* ---- options ---- (each look is class-scoped; selectors across looks never compete) */
+
+/* stylelint-disable no-descending-specificity */
+
+/* colour hooks: the block background reads --about-banner-bg */
+.about-banner:is(.light, .light-2, .light-3, .alt, .dark, .orange-light, .blue-light,
+  .product-cutout, .product-cutout-light, .product-cutout-image-left, .product-cutout-2,
+  .product-cutout-3, .product-cutout-cyan, .product-cutout-red, .product-cutout-orange,
+  .product-cutout-purple) {
+  background: var(--about-banner-bg, #f4f5fc);
+}
+
+/* inner-page banners (theme .inner-page-banner-section-xs): the image keeps its own ratio on
+   mobile and sits 20px short of its half on desktop */
+.about-banner:is(.light, .light-2, .light-3, .alt, .dark, .orange-light, .blue-light,
+  .split-background, .split-background-2) .banner-img {
+  height: auto;
+}
+
+.about-banner:is(.light, .light-2, .light-3, .alt, .dark, .orange-light, .blue-light,
+  .split-background, .split-background-2) .banner-img img {
+  height: auto;
+  object-fit: fill;
+}
+
+@media (width >= 768px) {
+  .about-banner:is(.light, .light-2, .light-3, .alt, .dark, .orange-light, .blue-light,
+    .split-background, .split-background-2) .banner-img {
+    height: 100%;
+  }
+
+  .about-banner:is(.light, .light-2, .light-3, .alt, .dark, .orange-light, .blue-light,
+    .split-background, .split-background-2) .banner-img img {
+    width: calc(100% - 20px);
+    height: 100%;
+  }
+}
+
+/* alt, light-3: copy in the brand blue */
+.about-banner:is(.alt, .light-3) .banner-inner p:not(.banner-terms) {
+  color: var(--brand-blue);
+}
+
+/* light-3: two CTAs side by side on desktop, stacked full-width on mobile */
+main .about-banner.light-3 .banner-cta {
+  display: flow-root;
+}
+
+main .about-banner.light-3 .banner-cta > a:any-link {
+  margin-bottom: 9px;
+}
+
+main .about-banner.light-3 .banner-cta:not(:has(+ .banner-cta)) {
+  margin-bottom: 0;
+}
+
+@media (width >= 768px) {
+  main .about-banner.light-3 .banner-cta {
+    display: inline-block;
+  }
+
+  main .about-banner.light-3 .banner-cta > a:any-link {
+    margin-bottom: 0;
+  }
+}
+
+/* dark: navy card, white copy, gold CTA (Insignia) */
+.about-banner.dark .banner-card {
+  padding-top: 20px;
+  background: #091048;
+}
+
+.about-banner.dark .banner-inner :is(h1, p:not(.banner-terms)) {
+  color: #fff;
+}
+
+.about-banner.dark .banner-img img {
+  height: 200px;
+  object-fit: cover;
+}
+
+main .about-banner.dark .banner-cta > a:any-link {
+  padding: 12px 37px;
+  background: #ac8230;
+}
+
+main .about-banner.dark .banner-cta > a:any-link:hover {
+  background: #8f6c28;
+}
+
+@media (width >= 768px) {
+  .about-banner.dark .banner-img img {
+    height: 100%;
+    object-fit: fill;
+  }
+}
+
+/* split-background(-2): offer banner (theme .offer-banner-main-section) — text card on the
+   left, image on the right half; tag pill, title, sub-title, expiry line, small CTA */
+.about-banner:is(.split-background, .split-background-2) .banner-card {
+  padding: 20px 15px 40px;
+}
+
+.about-banner:is(.split-background, .split-background-2) .banner-inner > p:has(+ h1) {
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 2px 10px;
+  border-radius: 16px;
+  background: #fff;
+  color: #9d9d9d;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.about-banner:is(.split-background, .split-background-2) .banner-inner h1 {
+  margin-bottom: 5px;
+  font-size: 28px;
+  line-height: 33.6px;
+}
+
+.about-banner:is(.split-background, .split-background-2) .banner-inner h1 + p {
+  margin-bottom: 5px;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.88px;
+}
+
+.about-banner:is(.split-background, .split-background-2) .banner-inner h1 + p + p:not(.banner-cta) {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26.88px;
+}
+
+main .about-banner:is(.split-background, .split-background-2) .banner-cta {
+  display: block;
+  margin: 0;
+}
+
+main .about-banner:is(.split-background, .split-background-2) .banner-cta > a:any-link {
+  display: inline-block;
+  min-width: 0;
+  height: 42px;
+  padding: 6px 20px;
+}
+
+.about-banner.split-background-2 .banner-media {
+  background: #faf0d7;
+}
+
+@media (width >= 768px) {
+  .about-banner:is(.split-background, .split-background-2) .banner-media {
+    right: 0;
+    left: auto;
+  }
+
+  .about-banner:is(.split-background, .split-background-2) .container {
+    justify-content: flex-start;
+  }
+
+  .about-banner:is(.split-background, .split-background-2) .banner-card {
+    margin: 0 0 0 -25px;
+    padding: 20px 30px;
+  }
+
+  .about-banner:is(.split-background, .split-background-2) .banner-inner > p:has(+ h1) {
+    color: #373f41;
+  }
+
+  main .about-banner:is(.split-background, .split-background-2) .banner-cta > a:any-link {
+    min-width: 146px;
+  }
+}
+
+/* product-cutout*: a product cutout (card art) contained on a full-width backdrop,
+   image on the left, text card on the right */
+.about-banner:is(.product-cutout, .product-cutout-light, .product-cutout-image-left,
+  .product-cutout-2, .product-cutout-3, .product-cutout-cyan, .product-cutout-red,
+  .product-cutout-orange, .product-cutout-purple) .banner-img img {
+  object-fit: contain;
+}
+
+@media (width >= 768px) {
+  .about-banner:is(.product-cutout, .product-cutout-light, .product-cutout-image-left,
+    .product-cutout-2, .product-cutout-3, .product-cutout-cyan, .product-cutout-red,
+    .product-cutout-orange, .product-cutout-purple) .banner-media {
+    left: 0;
+    width: 40%;
+    padding: 20px 0 20px 20px;
+  }
+
+  .about-banner:is(.product-cutout, .product-cutout-light, .product-cutout-image-left,
+    .product-cutout-2, .product-cutout-3, .product-cutout-cyan, .product-cutout-red,
+    .product-cutout-orange, .product-cutout-purple) .banner-img-desktop img {
+    object-position: center;
+  }
+}
+
+/* full-bleed (Lumiere): black starfield backdrop, no card; logo + image CTA on the left,
+   the card art on the right, a centred tagline below. The wrappers fold away so the
+   authored pieces lay out on one grid. */
+.about-banner.full-bleed {
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "cta"
+    "media"
+    "title";
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: 86px;
+  padding: 0;
+  background: #000 url("https://www.rbl.bank.in/sites/default/files/2025-11/star_right.svg") no-repeat right bottom;
+}
+
+.about-banner.full-bleed :is(.container, .banner-card, .banner-inner) {
+  display: contents;
+}
+
+.about-banner.full-bleed .banner-inner > :is(picture, img) {
+  display: block;
+  grid-area: logo;
+  justify-self: center;
+  width: 281px;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.about-banner.full-bleed .banner-inner > picture img {
+  display: block;
+  width: 100%;
+}
+
+.about-banner.full-bleed .banner-inner > p {
+  grid-area: cta;
+  margin: 0 12px;
+}
+
+.about-banner.full-bleed .banner-inner > p a {
+  display: block;
+}
+
+/* the source's mobile CTA art carries its caption in a 57px slot */
+.about-banner.full-bleed .banner-inner > p img {
+  display: block;
+  width: 169px;
+  margin-top: 30px;
+  padding-bottom: 22px;
+}
+
+.about-banner.full-bleed .banner-media {
+  position: static;
+  grid-area: media;
+  width: 351px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 39px 6px;
+}
+
+.about-banner.full-bleed .banner-img {
+  height: auto;
+}
+
+.about-banner.full-bleed .banner-img img {
+  height: auto;
+  object-fit: fill;
+}
+
+.about-banner.full-bleed .banner-inner h2 {
+  grid-area: title;
+  margin: 0 24px 87px 60px;
+  padding: 50px 0 30px;
+  color: #fff;
+  font-family: outfit, var(--brand-font-family);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .about-banner.full-bleed {
+    grid-template:
+      ". ." 187px
+      ". media" 1fr
+      "logo media" auto
+      "cta media" auto
+      ". media" 1fr
+      "title title" auto / minmax(0, 1fr) minmax(0, 1fr);
+    height: auto;
+    margin-top: 0;
+    padding: 0 0 30px;
+  }
+
+  .about-banner.full-bleed .banner-inner > :is(picture, img) {
+    width: 522px;
+    margin-top: 0;
+  }
+
+  .about-banner.full-bleed .banner-inner > p {
+    justify-self: center;
+    width: 529px;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .about-banner.full-bleed .banner-inner > p img {
+    width: 319px;
+    padding-bottom: 0;
+  }
+
+  .about-banner.full-bleed .banner-media {
+    width: 560px;
+    margin: 0 0 0 48px;
+  }
+
+  .about-banner.full-bleed .banner-inner h2 {
+    margin: 73px 36px 110px 12px;
+    padding: 0;
+    font-weight: 400;
+    line-height: 28.6px;
+  }
+}
+
+/* stylelint-enable no-descending-specificity */

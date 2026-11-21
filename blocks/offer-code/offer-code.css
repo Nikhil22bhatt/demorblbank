@@ -1,0 +1,96 @@
+/* offer-code — RBL coupon strip (source: .coupon-code-flex): dashed code box + Know More CTA */
+.offer-code {
+  box-sizing: border-box;
+  width: calc(100% - 24px);
+  max-width: calc(var(--container) - 24px);
+  margin: 0 auto;
+  color: rgb(33 37 41);
+  font-family: var(--brand-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.88px;
+}
+
+.offer-code .offer-code-item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 16px 15px;
+}
+
+.offer-code .offer-code-item + .offer-code-item {
+  margin-top: 16px;
+}
+
+.offer-code .offer-code-code {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 15px;
+  border: 1px dashed rgb(237 51 56);
+  border-radius: 4px;
+}
+
+.offer-code .offer-code-value {
+  color: rgb(237 51 56);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.88px;
+  text-align: center;
+}
+
+main .offer-code a.button:any-link {
+  min-width: 0;
+  height: 42px;
+  padding: 6px 20px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 25%) 0 4px 4px 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* grey-shadow: shadowed link tiles */
+.offer-code.grey-shadow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.offer-code.grey-shadow .offer-code-tile {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 128px;
+  padding: 16px;
+  border: 1px solid currentcolor;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 30%);
+  text-align: center;
+  text-decoration: none;
+}
+
+.offer-code.grey-shadow .offer-code-icon img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+@media (width >= 900px) {
+  .offer-code .offer-code-code {
+    width: 240px;
+    padding: 10px;
+  }
+
+  main .offer-code a.button:any-link {
+    min-width: 146px;
+  }
+
+  .offer-code.grey-shadow {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
