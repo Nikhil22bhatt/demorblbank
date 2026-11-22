@@ -44,8 +44,11 @@ async function fetchFooter() {
   doc.querySelectorAll('img[src]').forEach((img) => {
     img.src = new URL(img.getAttribute('src'), base).href;
   });
-  doc.querySelectorAll('source[srcset]').forEach((source) => {
-    source.srcset = new URL(source.getAttribute('srcset'), base).href;
+  // Edge Delivery wraps every image in <picture>; the local fragment has bare <img>. Unwrap so
+  // the structure is the same in both.
+  doc.querySelectorAll('picture').forEach((picture) => {
+    const img = picture.querySelector('img');
+    if (img) picture.replaceWith(img);
   });
   return doc.body;
 }
