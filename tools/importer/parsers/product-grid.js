@@ -100,7 +100,12 @@ export default function parse(element, { document, params }) {
       const img = card.querySelector('.scale-img-wrap img, img');
       if (img) mediaCell.push(img);
       const body = [];
-      const h = card.querySelector('.card-body h1, .card-body h2, .card-body h3, .card-body h4, .card-body h5, h3, h4');
+      // Title: a real heading with text, else the CMS title field (div.field--name-field-category-title)
+      // that follows an empty p.h3 on the category cards.
+      const h = [...card.querySelectorAll('.card-body h1, .card-body h2, .card-body h3, .card-body h4, .card-body h5, h3, h4, [class*="category-title"]')]
+        .find((el) => textOf(el));
+      // placeholder alt text in the CMS ("aaatest"): use the card title instead
+      if (img && h && /^(aaa?test|test|image)?$/i.test((img.getAttribute('alt') || '').trim())) img.setAttribute('alt', textOf(h));
       if (h && textOf(h)) {
         const h3 = document.createElement('h3');
         const hl = h.querySelector('a[href]');

@@ -12174,6 +12174,133 @@
           ]
         }
       ]
+    },
+    {
+      "name": "cards-landing",
+      "urls": [
+        "https://www.rbl.bank.in/personal-banking/cards"
+      ],
+      "representativeUrl": "https://www.rbl.bank.in/personal-banking/cards",
+      "description": "Cards landing page: hero, card category tiles and related rails",
+      "blocks": [
+        {
+          "name": "breadcrumb",
+          "instances": [
+            "nav#block-rbl-bank-breadcrumbs"
+          ]
+        },
+        {
+          "name": "product-grid",
+          "instances": [
+            "#data-section2 div.field--name-field-banking-categorys"
+          ]
+        },
+        {
+          "name": "app-band",
+          "instances": [
+            "section.rbl-myapp-section"
+          ]
+        },
+        {
+          "name": "home-blog",
+          "instances": [
+            "#data-related-blog1 div.related-blog-slick.mb30"
+          ]
+        },
+        {
+          "name": "home-videos",
+          "instances": [
+            "#data-related-blog"
+          ]
+        },
+        {
+          "name": "about-banner",
+          "instances": [
+            "section.common-section.banner-section"
+          ]
+        }
+      ],
+      "urlPattern": "/personal-banking/*",
+      "sections": [
+        {
+          "id": "breadcrumb",
+          "name": "breadcrumb",
+          "selector": [
+            "nav#block-rbl-bank-breadcrumbs"
+          ],
+          "style": null,
+          "blocks": [
+            "breadcrumb"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "hero-banner",
+          "name": "hero-banner",
+          "selector": [
+            "#data-section1",
+            "section.banner-section"
+          ],
+          "style": null,
+          "blocks": [
+            "about-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "card-categories",
+          "name": "card-categories",
+          "selector": [
+            "#data-section2",
+            "section.tab-section"
+          ],
+          "style": null,
+          "blocks": [
+            "product-grid"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "mybank-app",
+          "name": "mybank-app",
+          "selector": [
+            "#data-mobank-app",
+            "section.rbl-myapp-section"
+          ],
+          "style": null,
+          "blocks": [
+            "app-band"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "related-blog",
+          "name": "related-blog",
+          "selector": [
+            "#data-related-blog1"
+          ],
+          "style": "lavender",
+          "blocks": [
+            "home-blog"
+          ],
+          "defaultContent": [
+            "#data-related-blog1 h2.common-section-heading",
+            "#data-related-blog1 a.btn"
+          ]
+        },
+        {
+          "id": "trust-and-beyond",
+          "name": "trust-and-beyond",
+          "selector": [
+            "#data-related-blog"
+          ],
+          "style": null,
+          "blocks": [
+            "home-videos"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ],
   "metadata": {
