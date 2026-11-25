@@ -30,7 +30,14 @@
     "v_e9b22d0c616e",
     "v_c749e39250dc-1"
   ],
-  "usage": "Dense multi-column rows: rate strips, method lists, ATM/branch location rows, video tiles.",
+  "usage": {
+    "summary": "Dense multi-column rows: rate strips, method lists, ATM/branch location rows, video tiles.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "ATM / branch address listings",

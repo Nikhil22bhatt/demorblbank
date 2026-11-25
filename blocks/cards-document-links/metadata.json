@@ -15,14 +15,38 @@
     "columns": 2
   },
   "options": [
-    { "class": "boxed", "label": "Boxed" },
-    { "class": "detailed", "label": "Detailed" },
-    { "class": "light", "label": "Light" },
-    { "class": "dark", "label": "Dark" },
-    { "class": "orange-light", "label": "Orange Light" },
-    { "class": "grey", "label": "Grey" },
-    { "class": "inline", "label": "Inline" },
-    { "class": "blue", "label": "Blue" }
+    {
+      "class": "boxed",
+      "label": "Boxed"
+    },
+    {
+      "class": "detailed",
+      "label": "Detailed"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "dark",
+      "label": "Dark"
+    },
+    {
+      "class": "orange-light",
+      "label": "Orange Light"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "inline",
+      "label": "Inline"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    }
   ],
   "memberVariantIds": [
     "v_4e1933a54b45-2",
@@ -35,7 +59,14 @@
     "v_ed21708bcbfd",
     "v_ffe04ae1a5a2"
   ],
-  "usage": "Icon tiles that each link to a form, policy or report (downloads on product and NRI pages, CSR reports). Options: boxed (tiles in a padded panel), detailed (large icon + heading + description), inline (icon beside label), light (text/photo split), dark/orange-light/grey/blue (colour schemes).",
+  "usage": {
+    "summary": "Icon tiles that each link to a form, policy or report (downloads on product and NRI pages, CSR reports). Options: boxed (tiles in a padded panel), detailed (large icon + heading + description), inline (icon beside label), light (text/photo split), dark/orange-light/grey/blue (colour schemes).",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "downloadable forms and documents",

@@ -121,7 +121,14 @@
     "v_b39cb25b6207-23",
     "v_b39cb25b6207-8"
   ],
-  "usage": "About Us page banner: full-width image (separate desktop/mobile) with the page heading and intro paragraphs.",
+  "usage": {
+    "summary": "About Us page banner: full-width image (separate desktop/mobile) with the page heading and intro paragraphs.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "page banner with responsive desktop/mobile images"

@@ -37,7 +37,14 @@
     "v_4e1933a54b45",
     "v_6e921d05cf8c"
   ],
-  "usage": "Homepage \"Money, People & Safety\" blog rail with arrows from tablet up.",
+  "usage": {
+    "summary": "Homepage \"Money, People & Safety\" blog rail with arrows from tablet up.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "homepage blog teasers"

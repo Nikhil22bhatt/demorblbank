@@ -615,6 +615,11 @@ main > .section.grey {
   background: var(--brand-grey);
 }
 
-main > .section:is(.light, .lavender, .highlight, .grey, .padded) {
+/* IVR / payments band (#data-ivr-transaction on the source) */
+main > .section.light-blue {
+  background: #e9ecf7;
+}
+
+main > .section:is(.light, .lavender, .highlight, .grey, .light-blue, .padded) {
   padding: var(--brand-section-padding) 0;
 }

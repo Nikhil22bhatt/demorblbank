@@ -11986,6 +11986,194 @@
       ],
       "description": "Breadcrumb page with body text only",
       "blocks": []
+    },
+    {
+      "name": "credit-cards-listing",
+      "urls": [
+        "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+      ],
+      "representativeUrl": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "description": "Credit cards listing: banner, card selector tabs, promo tiles, quick links, blog and video rails, app band, IVR/payments",
+      "blocks": [
+        {
+          "name": "breadcrumb",
+          "instances": [
+            "nav#block-rbl-bank-breadcrumbs"
+          ]
+        },
+        {
+          "name": "tabs-card-selector",
+          "instances": [
+            "#data-section2 div.pick-offer-outer"
+          ]
+        },
+        {
+          "name": "cards-document-links",
+          "instances": [
+            "#data-quick-link div.quick-link-bottom"
+          ]
+        },
+        {
+          "name": "home-blog",
+          "instances": [
+            "#data-related-blog1 div.related-blog-slick.mb30"
+          ]
+        },
+        {
+          "name": "home-videos",
+          "instances": [
+            "#data-related-blog"
+          ]
+        },
+        {
+          "name": "app-band",
+          "instances": [
+            "section.rbl-myapp-section"
+          ]
+        },
+        {
+          "name": "columns-location",
+          "instances": [
+            "#data-section6 div.field__item > div.row",
+            "#data-ivr-transaction div.ivr-media.media",
+            "#data-ivr-transaction div.payment-card-para > div.row"
+          ]
+        },
+        {
+          "name": "about-banner",
+          "instances": [
+            "section.common-section.banner-section"
+          ]
+        }
+      ],
+      "urlPattern": "/personal-banking/cards/*",
+      "sections": [
+        {
+          "id": "breadcrumb",
+          "name": "breadcrumb",
+          "selector": [
+            "nav#block-rbl-bank-breadcrumbs"
+          ],
+          "style": null,
+          "blocks": [
+            "breadcrumb"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "hero-banner",
+          "name": "hero-banner",
+          "selector": [
+            "#data-section1",
+            "section.banner-section"
+          ],
+          "style": null,
+          "blocks": [
+            "about-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "pick-the-best",
+          "name": "pick-the-best",
+          "selector": [
+            "#data-section2"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-card-selector"
+          ],
+          "defaultContent": [
+            "#data-section2 h2.common-section-heading",
+            "#data-section2 > div > div > div > div > a.btn"
+          ]
+        },
+        {
+          "id": "promo-tiles",
+          "name": "promo-tiles",
+          "selector": [
+            "#data-section6"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-location"
+          ],
+          "defaultContent": [
+            "#data-section6 a[href*=\"demo-videos\"]",
+            "#data-section6 p.p18"
+          ]
+        },
+        {
+          "id": "quick-links",
+          "name": "quick-links",
+          "selector": [
+            "#data-quick-link",
+            "section.quick-link-rbl-section"
+          ],
+          "style": "lavender",
+          "blocks": [
+            "cards-document-links"
+          ],
+          "defaultContent": [
+            "#data-quick-link h2.common-section-heading"
+          ]
+        },
+        {
+          "id": "related-blog",
+          "name": "related-blog",
+          "selector": [
+            "#data-related-blog1"
+          ],
+          "style": "lavender",
+          "blocks": [
+            "home-blog"
+          ],
+          "defaultContent": [
+            "#data-related-blog1 h2.common-section-heading"
+          ]
+        },
+        {
+          "id": "trust-and-beyond",
+          "name": "trust-and-beyond",
+          "selector": [
+            "#data-related-blog"
+          ],
+          "style": null,
+          "blocks": [
+            "home-videos"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "mybank-app",
+          "name": "mybank-app",
+          "selector": [
+            "#data-mobank-app",
+            "section.rbl-myapp-section"
+          ],
+          "style": null,
+          "blocks": [
+            "app-band"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "ivr-payments",
+          "name": "ivr-payments",
+          "selector": [
+            "#data-ivr-transaction",
+            "section.rbl-ivr-section"
+          ],
+          "style": "light-blue",
+          "blocks": [
+            "columns-location"
+          ],
+          "defaultContent": [
+            "#data-ivr-transaction p > strong",
+            "#data-ivr-transaction em"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {

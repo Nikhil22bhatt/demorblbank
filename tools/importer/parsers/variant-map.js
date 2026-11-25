@@ -2,6 +2,7 @@
 // Generated from the site catalog: page path -> { block: variant class }.
 // Parsers fall back to it when their own page map has no entry for the page.
 export const CATALOG_VARIANTS = {
+ "/personal-banking/cards/credit-cards": {"columns-location":"alt","home-blog":"shadow"},
  "/": {
   "promo-carousel": "photo-background",
   "fd-calculator": "alt",

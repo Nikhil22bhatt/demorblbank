@@ -20,7 +20,14 @@
   "memberVariantIds": [
     "home-videos"
   ],
-  "usage": "Homepage \"Trust & Beyond\" video rail; thumbnails open the video in a popup.",
+  "usage": {
+    "summary": "Homepage \"Trust & Beyond\" video rail; thumbnails open the video in a popup.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "homepage video teasers with popup playback"

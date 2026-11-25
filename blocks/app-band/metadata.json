@@ -20,7 +20,14 @@
   "memberVariantIds": [
     "app-band"
   ],
-  "usage": "RBL MyBank app promo band: full-bleed image (phone image on mobile) with heading, tagline and store badges.",
+  "usage": {
+    "summary": "RBL MyBank app promo band: full-bleed image (phone image on mobile) with heading, tagline and store badges.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "mobile app download promo band"

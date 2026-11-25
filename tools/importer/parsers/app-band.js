@@ -7,6 +7,48 @@
 export default function parse(element, { document }) {
   const clean = (t) => (t || '').replace(/\s+/g, ' ').trim();
 
+  // Standard app band (section.rbl-myapp-section > .rbl-myapp-card): full-bleed band picture +
+  // mobile phone picture, then heading, tagline and linked store badges.
+  const card = element.querySelector('.rbl-myapp-card');
+  if (card) {
+    const media = [];
+    const desk = element.querySelector(':scope > img.banner-img-desktop, img.banner-img-desktop');
+    const mob = card.querySelector('img.banner-img-mobile');
+    if (desk) media.push([desk]);
+    if (mob) media.push([mob]);
+    const copy = [];
+    const h = card.querySelector('h1, h2, h3');
+    if (h && clean(h.textContent)) {
+      const h2 = document.createElement('h2');
+      h2.textContent = clean(h.textContent);
+      copy.push(h2);
+    }
+    const tagline = card.querySelector('.banner-para p, .banner-para');
+    if (tagline && clean(tagline.textContent)) {
+      const p = document.createElement('p');
+      p.textContent = clean(tagline.textContent);
+      copy.push(p);
+    }
+    const badges = [...card.querySelectorAll('.apps-download a[href], a[href*="play.google"], a[href*="apps.apple"]')]
+      .filter((a, i, all) => a.querySelector('img') && all.indexOf(a) === i);
+    if (badges.length) {
+      const p = document.createElement('p');
+      badges.forEach((a, i) => {
+        const link = document.createElement('a');
+        link.href = a.getAttribute('href');
+        link.append(a.querySelector('img'));
+        if (i) p.append(' ');
+        p.append(link);
+      });
+      copy.push(p);
+    }
+    const rows = [];
+    if (media.length) rows.push(media.map((m) => m));
+    rows.push([copy]);
+    element.replaceWith(WebImporter.Blocks.createBlock(document, { name: 'app-band', cells: rows }));
+    return;
+  }
+
   const mediaCol = element.querySelector(':scope > .col-md-8') || element;
   const copyCol = element.querySelector(':scope > .col-md-4') || element;
 

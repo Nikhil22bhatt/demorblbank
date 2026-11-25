@@ -23,7 +23,14 @@
   "memberVariantIds": [
     "v_f2b2cd992410"
   ],
-  "usage": "Vertical list of credit-card tabs (card name + card image) beside a panel with \"Benefits for <card>\" heading, View Details / Apply Now links and a benefits animation video or image.",
+  "usage": {
+    "summary": "Vertical list of credit-card tabs (card name + card image) beside a panel with \"Benefits for <card>\" heading, View Details / Apply Now links and a benefits animation video or image.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "choosing between several products, each with its own detail panel"

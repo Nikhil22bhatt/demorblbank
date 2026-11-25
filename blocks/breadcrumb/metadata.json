@@ -19,20 +19,44 @@
   "contentPattern": {
     "structure": "One cell with a list of links (Home, Section, ...), last item plain text for the current page. Paragraphs of links separated by '>' also work; an empty block derives the trail from the URL. An optional picture becomes a background.",
     "rows": [
-      { "name": "trail", "cells": ["list of links"] },
-      { "name": "media", "cells": ["picture"], "optional": true }
+      {
+        "name": "trail",
+        "cells": [
+          "list of links"
+        ]
+      },
+      {
+        "name": "media",
+        "cells": [
+          "picture"
+        ],
+        "optional": true
+      }
     ]
   },
   "options": [
-    { "class": "alt", "label": "Alt" },
-    { "class": "image-light", "label": "Image Light" }
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "image-light",
+      "label": "Image Light"
+    }
   ],
   "memberVariantIds": [
     "v_2cd963484301",
     "v_a20110003fd2",
     "v_f6f7a3e9a497"
   ],
-  "usage": "Site-wide breadcrumb under the header on almost every page (1700+ pages). image-light is for a trail rendered over or directly above a hero photo; alt is the compact trail without a bottom rule.",
+  "usage": {
+    "summary": "Site-wide breadcrumb under the header on almost every page (1700+ pages). image-light is for a trail rendered over or directly above a hero photo; alt is the compact trail without a bottom rule.",
+    "pagesUsing": [
+      "/personal-banking/cards/credit-cards"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-24T17:03:21Z"
+  },
   "reuseGuidance": {
     "suitableFor": [
       "every interior page, directly after the header"
