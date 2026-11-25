@@ -176,6 +176,9 @@ const CHROME_SELECTORS = [
   'a#main-content',
   'iframe#_hjSafeContext_45814688',
   'iframe[id^="_hjSafeContext"]',
+  // Twitter ads tracking pixels injected at runtime (1x1 images, not content).
+  'img[src*="analytics.twitter.com"]',
+  'img[src^="https://t.co/"]',
   'div[id^="batBeacon"]',
   'script',
   'style',
