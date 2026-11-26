@@ -12301,6 +12301,132 @@
           "defaultContent": []
         }
       ]
+    },
+    {
+      "name": "startup-club",
+      "urls": [
+        "https://www.rbl.bank.in/india-startup-club"
+      ],
+      "representativeUrl": "https://www.rbl.bank.in/india-startup-club",
+      "description": "India Startup Club landing page: hero, intro with icon features, story columns, blog and video rails",
+      "blocks": [
+        {
+          "name": "breadcrumb",
+          "instances": [
+            "nav#block-rbl-bank-breadcrumbs"
+          ]
+        },
+        {
+          "name": "columns-media",
+          "instances": [
+            "section.common-section.stand-alone-section1 div.field--name-field-isbody-description-section > div.row",
+            "div.field--name-field-isc-additional-section div.row"
+          ]
+        },
+        {
+          "name": "home-blog",
+          "instances": [
+            "#data-related-blog1 div.related-blog-slick.mb30"
+          ]
+        },
+        {
+          "name": "home-videos",
+          "instances": [
+            "#data-related-blog"
+          ]
+        },
+        {
+          "name": "about-banner",
+          "instances": [
+            "section.common-section.banner-section"
+          ]
+        }
+      ],
+      "urlPattern": "/*",
+      "sections": [
+        {
+          "id": "s1",
+          "name": "breadcrumb",
+          "selector": [
+            "#block-rbl-bank-breadcrumbs"
+          ],
+          "style": null,
+          "blocks": [
+            "breadcrumb"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s2",
+          "name": "hero-banner",
+          "selector": [
+            "#data-section1",
+            "section.common-section.banner-section"
+          ],
+          "style": null,
+          "blocks": [
+            "about-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "s3",
+          "name": "startups-bank",
+          "selector": [
+            "section.common-section.stand-alone-section1"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": [
+            "section.common-section.stand-alone-section1 .feature-sec1 > h2",
+            "section.common-section.stand-alone-section1 .feature-sec1 > h4"
+          ]
+        },
+        {
+          "id": "s4",
+          "name": "our-story",
+          "selector": [
+            "section:has(> div.field--name-field-isc-additional-section)",
+            "div.field--name-field-isc-additional-section"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-media"
+          ],
+          "defaultContent": [
+            "div.field--name-field-isc-additional-section .feature-sec1 > h2"
+          ]
+        },
+        {
+          "id": "s5",
+          "name": "related-blog",
+          "selector": [
+            "#data-related-blog1"
+          ],
+          "style": "lavender",
+          "blocks": [
+            "home-blog"
+          ],
+          "defaultContent": [
+            "#data-related-blog1 h2.common-section-heading",
+            "#data-related-blog1 a.btn"
+          ]
+        },
+        {
+          "id": "s6",
+          "name": "trust-and-beyond",
+          "selector": [
+            "#data-related-blog"
+          ],
+          "style": null,
+          "blocks": [
+            "home-videos"
+          ],
+          "defaultContent": []
+        }
+      ]
     }
   ],
   "metadata": {

@@ -91,6 +91,13 @@
   width: 100%;
 }
 
+/* icon above a sub-heading in the text column (e.g. India Startup Club Start / Build / Grow):
+   45px on the source, not stretched to the column */
+.columns-media .columns-media-text-col p:has(> picture:only-child, > img:only-child):has(+ h3, + h4, + h5) img {
+  width: 45px;
+  height: auto;
+}
+
 /* video embeds */
 .columns-media .columns-media-video {
   position: relative;

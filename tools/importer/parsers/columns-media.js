@@ -143,11 +143,23 @@ export default function parse(element, { document, params }) {
     pending = [];
   };
 
+  // A heading that sits beside the columns (not inside one) is the section title: keep it as
+  // default content just before the block instead of turning it into an extra column. Rows may
+  // hold their columns directly (div.col-lg-6) or wrapped (div > div.col-*): both reach here.
+  const leading = [];
   const pushRow = (rowEl) => {
     flush();
     const row = [];
     [...rowEl.children].forEach((col) => {
       if (col.matches(DECORATIVE) || !hasContent(col)) return;
+      // a bare heading, or a non-column wrapper (e.g. div.feature-sec1) holding only a heading
+      const onlyHeading = col.matches('h1, h2, h3, h4, h5, h6')
+        || (col.children.length === 1 && col.firstElementChild.matches('h1, h2, h3, h4, h5, h6')
+          && textOf(col) === textOf(col.firstElementChild));
+      if (!isColumn(col) && onlyHeading) {
+        leading.push(col.matches('h1, h2, h3, h4, h5, h6') ? col : col.firstElementChild);
+        return;
+      }
       const content = [];
       flatten(document, col, content);
       if (content.length) row.push(content);
@@ -185,4 +197,5 @@ export default function parse(element, { document, params }) {
     cells,
   });
   element.replaceWith(block);
+  if (leading.length) block.before(...leading);
 }
